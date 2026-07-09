@@ -1,0 +1,17 @@
+// Decompiled on 월 6월 15 10:24:39 KST 2026 with Zomboid Decompiler v0.2.3 using Vineflower.
+package zombie.chat;
+
+import zombie.iso.IsoGridSquare;
+
+/**
+ * Turbo
+ */
+public interface ChatElementOwner {
+    float getX();
+
+    float getY();
+
+    float getZ();
+
+    IsoGridSquare getSquare();
+}
