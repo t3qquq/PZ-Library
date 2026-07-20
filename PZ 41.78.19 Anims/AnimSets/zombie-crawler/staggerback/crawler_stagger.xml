@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>crawler_stagger</m_Name>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_AnimName>Zombie_CrawlLunge_Defended</m_AnimName>
+	<m_BlendTime>0.14</m_BlendTime>
+</animNode>

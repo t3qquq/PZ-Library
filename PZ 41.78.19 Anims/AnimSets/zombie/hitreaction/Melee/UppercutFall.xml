@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Uppercut.xml">
+	<m_Name>UppercutFall</m_Name>
+	<m_AnimName>Zombie_HitDeath_Uppercut</m_AnimName>
+	<m_Conditions/>
+	<m_Conditions>
+		<m_Name>bKnockedDown</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+</animNode>

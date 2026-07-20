@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="ShotChestStepR.xml">
+	<m_Name>ShotChestStepFallR</m_Name>
+	<m_AnimName>Zombie_ShotChestStepFall_R</m_AnimName>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_Conditions />
+	<m_Conditions>
+		<m_Name>bKnockedDown</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_Events />
+	<m_Events>
+		<m_ParameterValue>false</m_ParameterValue>
+	</m_Events>
+</animNode>

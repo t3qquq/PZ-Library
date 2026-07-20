@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Default.xml">
+	<m_Name>FenceWindow</m_Name>
+	<m_AnimName>Zombie_WindowLungeHitReact</m_AnimName>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions>
+		<m_Name>hitreaction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>FenceWindow</m_StringValue>
+	</m_Conditions>
+	<m_Events>
+		<m_ParameterValue>true</m_ParameterValue>
+	</m_Events>
+	<m_Events />
+	<m_Events>
+		<m_EventName>KnockDown</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+</animNode>

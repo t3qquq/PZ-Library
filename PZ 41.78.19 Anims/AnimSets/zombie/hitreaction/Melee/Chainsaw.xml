@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="../Default.xml">
+	<m_Name>Chainsaw</m_Name>
+	<m_AnimName>Zombie_HitDeath_Chainsaw01</m_AnimName>
+	<m_Conditions>
+		<m_Name>hitreaction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>Chainsaw</m_StringValue>
+	</m_Conditions>
+	<m_Events>
+		<m_EventName>KnockDown</m_EventName>
+		<m_TimePc>0.98</m_TimePc>
+	</m_Events>
+	<m_Events>
+		<m_EventName>DoDeath</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>true</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+		<m_EventName>SplatBlood</m_EventName>
+		<m_TimePc>0.1</m_TimePc>
+	</m_Events>
+	<m_Events>
+		<m_EventName>SplatBlood</m_EventName>
+		<m_TimePc>0.3</m_TimePc>
+	</m_Events>
+	<m_Events>
+		<m_EventName>SplatBlood</m_EventName>
+		<m_TimePc>0.7</m_TimePc>
+	</m_Events>
+</animNode>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>move</m_Name>
+	<m_AnimName>Zombie_Crawl</m_AnimName>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_SpeedScale>0.64</m_SpeedScale>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_Conditions>
+		<m_Name>TurnDirection</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue></m_StringValue>
+	</m_Conditions>
+</animNode>

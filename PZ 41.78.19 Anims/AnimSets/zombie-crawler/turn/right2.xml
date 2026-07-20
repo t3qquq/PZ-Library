@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="right.xml">
+	<m_Name>right2</m_Name>
+	<m_AnimName>Zombie_Crawl02TurnR</m_AnimName>
+	<m_Conditions />
+	<m_Events />
+	<m_Conditions>
+		<m_Name>CrawlerType</m_Name>
+		<m_Type>EQU</m_Type>
+		<m_FloatValue>2</m_FloatValue>
+	</m_Conditions>
+</animNode>

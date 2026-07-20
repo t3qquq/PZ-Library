@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Default.xml">
+	<m_Name>GettingUpFront</m_Name>
+	<m_AnimName>Zombie_OnKnees_ToFloorFront</m_AnimName>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_SpeedScale>1.00</m_SpeedScale>
+	<m_Conditions>
+		<m_Name>HitReaction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>GettingUpFront</m_StringValue>
+	</m_Conditions>
+	<m_Events>
+		<m_ParameterValue>true</m_ParameterValue>
+	</m_Events>
+	<m_Events />
+	<m_Events />
+	<m_Events>
+		<m_EventName>KnockDown</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>true</m_ParameterValue>
+	</m_Events>
+</animNode>

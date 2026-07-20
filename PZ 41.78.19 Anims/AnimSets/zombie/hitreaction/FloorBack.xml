@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Default.xml">
+	<m_Name>FloorBack</m_Name>
+	<m_AnimName>Zombie_HitReact_FloorOnBack</m_AnimName>
+	<m_BlendTime>0.25</m_BlendTime>
+	<m_Conditions>
+		<m_Name>hitreaction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>Floor</m_StringValue>
+	</m_Conditions>
+	<m_Events>
+		<m_EventName>KnockDown</m_EventName>
+		<m_ParameterValue>true</m_ParameterValue>
+	</m_Events>
+	<m_Events />
+	<m_Events />
+</animNode>
