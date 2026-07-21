@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="UnloadDblBarrel.xml">
+	<m_Name>UnloadHoytSpectra_1000</m_Name>
+	<m_Conditions />
+	<m_Conditions>
+		<m_StringValue>HoytSpectra_1000</m_StringValue>
+	</m_Conditions>
+	<m_Conditions />
+	<m_Events />
+	<m_Events />
+	<m_Events>
+		<m_ParameterValue>HoytSpectra_1000_OPEN</m_ParameterValue>
+	</m_Events>
+</animNode>

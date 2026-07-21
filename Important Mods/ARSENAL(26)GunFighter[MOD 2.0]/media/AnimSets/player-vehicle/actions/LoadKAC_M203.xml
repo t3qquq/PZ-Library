@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="LoadDblBarrel.xml">
+	<m_Name>LoadKAC_M203</m_Name>
+	<m_Conditions />
+	<m_Conditions>
+		<m_StringValue>KAC_M203</m_StringValue>
+	</m_Conditions>
+	<m_Conditions />
+	<m_Events />
+	<m_Events />
+	<m_Events>
+		<m_ParameterValue>KAC_M203_OPEN</m_ParameterValue>
+	</m_Events>
+</animNode>

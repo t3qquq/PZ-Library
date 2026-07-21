@@ -1,0 +1,244 @@
+module Base
+{
+
+/*****************************************/
+/**	TRIGGER GROUP UPGRADES		**/
+/*****************************************/
+
+	/****************************************/
+	/*	REMOVE TRIGGER GROUP		*/
+	/****************************************/
+	recipe	Remove Trigger Group (AR-Pattern)
+	{
+		keep AR57_PDW/AR57_PDW_Fold/AR57_PDW_Long/LVOA_C/AssaultRifle/ADAR/MK47/AAC_Honey/AAC_Honey_Fold/AAC_HoneySD/AAC_HoneySD_Fold/Bush_AR15_MOE/Bush_XM15/Bush_XM15_Custom/TR1_UltraLight/MCX_Spear/MCX_Virtus/MCX_VirtusPatrol/MCX_Socom/JW3_TTI_MPX/M723/XM117/H416/AR18/AR18_Fold/Carbon15_97/CAR15SMG/CAR15_Survival/M635/M635S/M635SD/M4/M4A1/M16A1/M16A2/M16A3/ColtM16/M16Wood/M16Tape/SCARL/SCARSC_Stock/SCARSC_Fold/SCARH/SCAR20/MK18 = 1,
+		keep Screwdriver= 1,
+		Result		: TriggerGroup_AR,
+		OnTest		: Test_Remove_TriggerGroup,
+		OnCreate	: Remove_Intermediate_TriggerGroup,
+		AnimNode	: Disassemble,
+		Prop1		: Screwdriver,
+		Prop2		: Source=1,
+		Time		: 200,
+		Sound		: Dismantle,
+		NeedToBeLearn	: true,
+	}
+	recipe	Remove Trigger Group (AK-Pattern)
+	{
+		keep Origin/Saiga12/Saiga12_Long/Saiga12_Tromix/AK12_New/RPK16/AK308/AKM_Gold/AKM_Custom/AK74_Custom/AK47/AKM/AK103/M85_Stock/M85_Fold/MD65_Stock/MD65_Fold/AKMS_Stock/AKMS_Fold/AK74/AKS74/AKS74_Fold/AKS74U/AKS74U_Fold/AK12/AK12_Fold/AK74_Alpha/AK74_Alpha_Fold/RPK74/Galil/Galil_Fold/Galil_Sniper/Galil_Sniper_Fold/Vz58/Vz58_Stock/Vz58_Fold/Vz58_Mini_Stock/Vz58_Mini_Fold = 1,
+		keep Screwdriver= 1,
+		Result		: TriggerGroup_AK,
+		OnTest		: Test_Remove_TriggerGroup,
+		OnCreate	: Remove_Intermediate_TriggerGroup,
+		AnimNode	: Disassemble,
+		Prop1		: Screwdriver,
+		Prop2		: Source=1,
+		Time		: 200,
+		Sound		: Dismantle,
+		NeedToBeLearn	: true,
+	}
+	recipe	Remove Trigger Group (HK-Pattern)
+	{
+		keep MP7/MP7_Stock/G3/G28/G33/G36/G36_Fold/G36C/G36C_Fold/G36KV/G36KV_Fold/MP5_Fixed/MP5_Stock/MP5_Fold/MP5SD6_Fixed/MP5SD6_Stock/MP5SD6_Fold/UMP9_Stock/UMP9_Fold/UMP45_Stock/UMP45_Fold/XM8Compact_Pistol/XM8/XM8LMG = 1,
+		keep Screwdriver= 1,
+		Result		: TriggerGroup_HK,
+		OnTest		: Test_Remove_TriggerGroup,
+		OnCreate	: Remove_Intermediate_TriggerGroup,
+		AnimNode	: Disassemble,
+		Prop1		: Screwdriver,
+		Prop2		: Source=1,
+		Time		: 200,
+		Sound		: Dismantle,
+		NeedToBeLearn	: true,
+	}
+	recipe	Remove Trigger Group (FN-Pattern)
+	{
+		keep FAL/FAL_PARA_Stock/FAL_PARA_Fold/FN_FNC/FN_FNC_Fold/AK5C/AK5C_Fold = 1,
+		keep Screwdriver= 1,
+		Result		: TriggerGroup_FN,
+		OnTest		: Test_Remove_TriggerGroup,
+		OnCreate	: Remove_Intermediate_TriggerGroup,
+		AnimNode	: Disassemble,
+		Prop1		: Screwdriver,
+		Prop2		: Source=1,
+		Time		: 200,
+		Sound		: Dismantle,
+		NeedToBeLearn	: true,
+	}
+
+	/****************************************/
+	/*	INSTALL TRIGGER GROUP		*/
+	/****************************************/
+	recipe	Install Trigger Group (AR-Pattern)
+	{
+		keep AR57_PDW/AR57_PDW_Fold/AR57_PDW_Long/LVOA_C/AssaultRifle/ADAR/MK47/AAC_Honey/AAC_Honey_Fold/AAC_HoneySD/AAC_HoneySD_Fold/Bush_AR15_MOE/Bush_XM15/Bush_XM15_Custom/TR1_UltraLight/MCX_Spear/MCX_Virtus/MCX_VirtusPatrol/MCX_Socom/JW3_TTI_MPX/M723/XM117/H416/AR18/AR18_Fold/Carbon15_97/CAR15SMG/CAR15_Survival/M635/M635S/M635SD/M4/M4A1/M16A1/M16A2/M16A3/ColtM16/M16Wood/M16Tape/SCARL/SCARSC_Stock/SCARSC_Fold/SCARH/SCAR20/MK18 = 1,
+		TriggerGroup_AR = 1,
+		Screwdriver	= 1,
+		Result		: Screwdriver,
+		OnTest		: Test_Install_TriggerGroup,
+		OnCreate	: Install_Intermediate_TriggerGroup,
+		AnimNode	: Disassemble,
+		Prop1		: Screwdriver,
+		Prop2		: Source=1,
+		Time		: 200,
+		Sound		: Dismantle,
+		NeedToBeLearn	: true,
+	}
+
+	recipe	Install Trigger Group (AK-Pattern)
+	{
+		keep Origin/Saiga12/Saiga12_Long/Saiga12_Tromix/AK12_New/RPK16/AK308/AKM_Gold/AKM_Custom/AK74_Custom/AK47/AKM/AK103/M85_Stock/M85_Fold/MD65_Stock/MD65_Fold/AKMS_Stock/AKMS_Fold/AK74/AKS74/AKS74_Fold/AKS74U/AKS74U_Fold/AK12/AK12_Fold/AK74_Alpha/AK74_Alpha_Fold/RPK74/Galil/Galil_Fold/Galil_Sniper/Galil_Sniper_Fold/Vz58/Vz58_Stock/Vz58_Fold/Vz58_Mini_Stock/Vz58_Mini_Fold = 1,
+		TriggerGroup_AK = 1,
+		Screwdriver	= 1,
+		Result		: Screwdriver,
+		OnTest		: Test_Install_TriggerGroup,
+		OnCreate	: Install_Intermediate_TriggerGroup,
+		AnimNode	: Disassemble,
+		Prop1		: Screwdriver,
+		Prop2		: Source=1,
+		Time		: 200,
+		Sound		: Dismantle,
+		NeedToBeLearn	: true,
+	}
+	recipe	Install Trigger Group (HK-Pattern)
+	{
+		keep MP7/MP7_Stock/G3/G28/G33/G36/G36_Fold/G36C/G36C_Fold/G36KV/G36KV_Fold/MP5_Fixed/MP5_Stock/MP5_Fold/MP5SD6_Fixed/MP5SD6_Stock/MP5SD6_Fold/UMP9_Stock/UMP9_Fold/UMP45_Stock/UMP45_Fold/XM8Compact_Pistol/XM8/XM8LMG = 1,
+		TriggerGroup_HK = 1,
+		Screwdriver	= 1,
+		Result		: Screwdriver,
+		OnTest		: Test_Install_TriggerGroup,
+		OnCreate	: Install_Intermediate_TriggerGroup,
+		AnimNode	: Disassemble,
+		Prop1		: Screwdriver,
+		Prop2		: Source=1,
+		Time		: 200,
+		Sound		: Dismantle,
+		NeedToBeLearn	: true,
+	}
+	recipe	Install Trigger Group (FN-Pattern)
+	{
+		keep FAL/FAL_PARA_Stock/FAL_PARA_Fold/FN_FNC/FN_FNC_Fold/AK5C/AK5C_Fold = 1,
+		TriggerGroup_FN = 1,
+		Screwdriver	= 1,
+		Result		: Screwdriver,
+		OnTest		: Test_Install_TriggerGroup,
+		OnCreate	: Install_Intermediate_TriggerGroup,
+		AnimNode	: Disassemble,
+		Prop1		: Screwdriver,
+		Prop2		: Source=1,
+		Time		: 200,
+		Sound		: Dismantle,
+		NeedToBeLearn	: true,
+	}
+
+	/****************************************/
+	/*	ITEM SCRIPT TRIGGER GROUP	*/
+	/****************************************/
+	item TriggerGroup_AR
+	{
+		Type			= Normal,
+		DisplayName		= Trigger Group (AR-Pattern),
+		DisplayCategory		= WeaponConversion,
+		Icon			= TriggerGroup_AR,
+		WorldStaticModel	= TriggerGroup_AR,
+		Weight			= 0.2,
+		TriggerType		= 7,
+		Tags			= TriggerGroup,
+		Tooltip			= Tooltip_TriggerGroup_Select,
+	}
+	item TriggerGroup_AK
+	{
+		Type			= Normal,
+		DisplayName		= Trigger Group (AK-Pattern),
+		DisplayCategory		= WeaponConversion,
+		Icon			= TriggerGroup_AK,
+		WorldStaticModel	= TriggerGroup_AK,
+		Weight			= 0.2,
+		TriggerType		= 7,
+		Tags			= TriggerGroup,
+		Tooltip			= Tooltip_TriggerGroup_Select,
+	}
+	item TriggerGroup_HK
+	{
+		Type			= Normal,
+		DisplayName		= Trigger Group (HK-Pattern),
+		DisplayCategory		= WeaponConversion,
+		Icon			= TriggerGroup_HK,
+		WorldStaticModel	= TriggerGroup_HK,
+		Weight			= 0.2,
+		TriggerType		= 7,
+		Tags			= TriggerGroup,
+		Tooltip			= Tooltip_TriggerGroup_Select,
+	}
+	item TriggerGroup_FN
+	{
+		Type			= Normal,
+		DisplayName		= Trigger Group (FN-Pattern),
+		DisplayCategory		= WeaponConversion,
+		Icon			= TriggerGroup_FN,
+		WorldStaticModel	= TriggerGroup_FN,
+		Weight			= 0.2,
+		TriggerType		= 7,
+		Tags			= TriggerGroup,
+		Tooltip			= Tooltip_TriggerGroup_Select,
+	}
+}
+
+
+
+
+/*
+	/****************************************/
+	/*	UNFINISHED WORK IN PROGRESS	*/
+	/****************************************/
+	recipe	Remove Trigger Group (Bolt-Action)
+	{
+		keep  = 1,
+		keep Screwdriver= 1,
+		Result		: TriggerGroup_Bolt,
+		OnTest		: Test_Remove_TriggerGroup,
+		OnCreate	: Remove_Target_TriggerGroup,
+		AnimNode	: Disassemble,
+		Prop1		: Screwdriver,
+		Prop2		: Source=1,
+		Time		: 200,
+		Sound		: Dismantle,
+		NeedToBeLearn	: true,
+	}
+	recipe	Remove Trigger Group (Lever-Acton)
+	{
+		keep  = 1,
+		keep Screwdriver= 1,
+		Result		: TriggerGroup_Bolt,
+		OnTest		: Test_Remove_TriggerGroup,
+		OnCreate	: Remove_Target_TriggerGroup,
+		AnimNode	: Disassemble,
+		Prop1		: Screwdriver,
+		Prop2		: Source=1,
+		Time		: 200,
+		Sound		: Dismantle,
+		NeedToBeLearn	: true,
+	}
+
+	item TriggerGroup_Bolt
+	{
+		Type			= Normal,
+		DisplayName		= Trigger Group (Bolt-Action),
+		DisplayCategory		= WeaponConversion,
+		Icon			= TriggerGroup_Bolt,
+		Weight			= 0.2,
+		TriggerType		= 8,
+		Tags			= TriggerGroup,
+		Tooltip			= Tooltip_TriggerGroup_Target,
+	}
+	item TriggerGroup_Lever
+	{
+		Type			= Normal,
+		DisplayName		= Trigger Group (Lever-Action),
+		DisplayCategory		= WeaponConversion,
+		Icon			= TriggerGroup_Lever,
+		Weight			= 0.2,
+		TriggerType		= 8,
+		Tags			= TriggerGroup,
+		Tooltip			= Tooltip_TriggerGroup_Target,
+	}
+*/

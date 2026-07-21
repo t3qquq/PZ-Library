@@ -1,0 +1,37 @@
+/*	These have been replaced to fix... DisplayCategory = GunMag,	ARSENAL[26] */
+
+
+module Base
+{
+
+    item 380ExtClip
+    {
+	CanStack		=	FALSE,
+	Weight		=	0.2,
+	Type			=	Normal,
+	DisplayName		=	380-ACP Dbl-Stack Ext Magazine,
+	DisplayCategory	=	GunMag,
+	Icon			=	380ExtMag,
+	MaxAmmo 		=	30,
+	AmmoType 		=	Base.Bullets380,
+	StaticModel 	=	GunMagazine,
+	WorldStaticModel	=	W_Extended_Mag_DS,
+	GunType		=	Multi_Gun,
+	Tooltip		=	Tooltip_MagType,
+    }
+
+    item 380StdClip
+    {
+	CanStack		=	FALSE,
+	Weight		=	0.15,
+	Type			=	Normal,
+	DisplayName		=	380-ACP Dbl-Stack Std Magazine,
+	DisplayCategory	=	GunMag,
+	Icon			=	380StdMag,
+	MaxAmmo 		=	15,
+	AmmoType		=	Base.Bullets380,
+	StaticModel		=	GunMagazine,
+	WorldStaticModel 	=	W_Standard_Mag_DS,
+	GunType		=	Multi_Gun,
+    }
+}

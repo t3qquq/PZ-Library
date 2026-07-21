@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="LoadDblBarrel.xml">
+	<m_Name>LoadGenesis_X_Bow</m_Name>
+	<m_Conditions />
+	<m_Conditions>
+		<m_StringValue>Genesis_X_Bow</m_StringValue>
+	</m_Conditions>
+	<m_Conditions />
+	<m_Events />
+	<m_Events />
+	<m_Events>
+		<m_ParameterValue>Genesis_X_Bow_OPEN</m_ParameterValue>
+	</m_Events>
+</animNode>

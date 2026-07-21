@@ -1,0 +1,293 @@
+module Base
+{
+
+/*************************************/
+/**	STONER - BOOK			**/
+/*************************************/
+	item Stoner_Book
+	{
+		Weight			=	1,
+		Type			=	Literature,
+		DisplayName		=	Armalite Rifle - By Eugene M. Stoner,
+		DisplayCategory		=	SkillBook,
+		Icon			=	Stoner_Book,
+		TeachedRecipes		=	Remove Trigger Group (AR-Pattern);
+						Install Trigger Group (AR-Pattern),
+		ReplaceOnUse		=	Stoner_Book,
+		StaticModel		=	Book,
+		WorldStaticModel	=	Stoner_Book_Ground,
+		Tooltip			=	Tooltip_Stoner_Book,
+	}
+
+/*************************************/
+/**	KALASHNIKOV - BOOK		**/
+/*************************************/
+	item Kalashnikov_Book
+	{
+		Weight			=	1,
+		Type			=	Literature,
+		DisplayName		=	AK-47 Rifle - By Mikhail Kalashnikov,
+		DisplayCategory		=	SkillBook,
+		Icon			=	Kalashnikov_Book,
+		TeachedRecipes		=	Remove Trigger Group (AK-Pattern);
+						Install Trigger Group (AK-Pattern),
+		ReplaceOnUse		=	Kalashnikov_Book,
+		StaticModel		=	Book,
+		WorldStaticModel	=	Kalashnikov_Book_Ground,
+		Tooltip			=	Tooltip_Kalashnikov_Book,
+	}
+
+/*************************************/
+/**	HECKLER & KOCH - BOOK		**/
+/*************************************/
+	item HecklerKoch_Book
+	{
+		Weight			=	1,
+		Type			=	Literature,
+		DisplayName		=	HK Weapon Systems - By Edmund Heckler,
+		DisplayCategory		=	SkillBook,
+		Icon			=	HecklerKoch_Book,
+		TeachedRecipes		=	Remove Trigger Group (HK-Pattern);
+						Install Trigger Group (HK-Pattern),
+		ReplaceOnUse		=	HecklerKoch_Book,
+		StaticModel		=	Book,
+		WorldStaticModel	=	HecklerKoch_Book_Ground,
+		Tooltip			=	Tooltip_HecklerKoch_Book,
+	}
+
+/*************************************/
+/**	FN HERSTAL - BOOK		**/
+/*************************************/
+	item FNHerstal_Book
+	{
+		Weight			=	1,
+		Type			=	Literature,
+		DisplayName		=	FAL Battle Rifle - By Dieudonné Saive,
+		DisplayCategory		=	SkillBook,
+		Icon			=	FNHerstal_Book,
+		TeachedRecipes		=	Remove Trigger Group (FN-Pattern);
+						Install Trigger Group (FN-Pattern),
+		ReplaceOnUse		=	FNHerstal_Book,
+		StaticModel		=	Book,
+		WorldStaticModel	=	FNHerstal_Book_Ground,
+		Tooltip			=	Tooltip_FNHerstal_Book,
+	}
+
+/*************************************/
+/**	FIRST BLOOD - BOOK		**/
+/*************************************/
+	item FirstBlood_Book
+	{
+		Weight			=	1,
+		Type			=	Literature,
+		DisplayName		=	First Blood - By John Rambo,
+		DisplayCategory		=	SkillBook,
+		Icon			=	FirstBlood_Book,
+		TeachedRecipes		=	Craft Arrow from Archery Components;
+						Craft Bolt from Archery Components;
+						Recover Archery Components from Bolt;
+						Recover Archery Components from Arrow,
+		ReplaceOnUse		=	FirstBlood_Book,
+		StaticModel		=	Book,
+		WorldStaticModel	=	FirstBlood_Book_Ground,
+		Tooltip			=	Tooltip_FirstBlood_Book,
+	}
+
+/*************************************/
+/**	BRUCE LEE - BE LIKE WATER	**/
+/*************************************/
+	item BeLikeWater_Book
+	{
+		Weight			=	1,
+		Type			=	Literature,
+		DisplayName		=	Be Like Water - by Bruce Lee,
+		DisplayCategory		=	SkillBook,
+		Icon			=	BeLikeWater_Book,
+		TeachedRecipes		=	Assemble Steel Nun-Chucks;
+						Assemble Polymer Nun-Chucks;
+						Assemble Wooden Nun-Chucks,
+		ReplaceOnUse		=	BeLikeWater_Book,
+		StaticModel		=	Book,
+		WorldStaticModel	=	BeLikeWater_Book_Ground,
+		Tooltip			=	Tooltip_BeLikeWater_Book,
+	}
+
+/*************************************/
+/**	BOY SCOUT - BOOK		**/
+/*************************************/
+	item BoyScout_Book
+	{
+		Weight			=	1,
+		Type			=	Literature,
+		DisplayName		=	Boy Scouts Handbook - Original 1911 Edition,
+		DisplayCategory		=	SkillBook,
+		Icon			=	BoyScout_Book,
+		TeachedRecipes		=	Craft Torch;
+						Refresh Torch;
+						Create Improvised Flame Thrower;
+						Scrap Improvised Flame Thrower,
+		ReplaceOnUse		=	BoyScout_Book,
+		StaticModel		=	Book,
+		WorldStaticModel	=	BoyScout_Book_Ground,
+		Tooltip			=	Tooltip_BoyScout_Book,
+	}
+
+
+
+/*************************************/
+/**	IMPROVISED FLEX WEAPONS		**/
+/*************************************/
+
+	/*************************/
+	/**	CRAFTED TORCH	**/
+	/*************************/
+	recipe	Craft Torch
+	{
+		WoodenStick,				/* MAKE STURDY STICK FIRST	*/
+		[Recipe.GetItemTypes.Petrol]=1,
+		RippedSheets/RippedSheetsDirty,
+		keep [Recipe.GetItemTypes.Saw],
+		Result		: Base.Crafted_Torch_OFF,
+		Category	: Survivalist,
+		Sound		: ClothesRipping,
+		Time		: 100.0,
+		NeedToBeLearn	: true,
+		SkillRequired	: Woodwork=1,
+	}
+	recipe	Refresh Torch
+	{
+		Crafted_Torch_OFF,
+		[Recipe.GetItemTypes.Petrol]=1,
+		RippedSheets/RippedSheetsDirty,
+		Result		: Base.Crafted_Torch_OFF,
+		Category	: Survivalist,
+		Sound		: PZ_GetWater,
+		Time		: 10.0,
+		NeedToBeLearn	: true,
+	}
+
+	/*************************/
+	/**	NUN-CHUCKS		**/
+	/*************************/
+	recipe	Assemble Steel Nun-Chucks
+	{
+		MetalPipe	= 2,
+		Screws		= 4,
+		DogChain,
+		keep [Recipe.GetItemTypes.Saw],
+		Result		: Base.Steel_Nun_Chucks,
+		Category	: Survivalist,
+		Sound		: Sawing,
+		Time		: 300.0,
+		NeedToBeLearn	: true,
+		SkillRequired	: MetalWelding=4,
+	}
+	recipe	Assemble Wooden Nun-Chucks
+	{
+		Poolcue		= 2,
+		Screws		= 4,
+		DogChain,
+		keep [Recipe.GetItemTypes.Saw],
+		Result		: Base.Wood_Nun_Chucks,
+		Category	: Survivalist,
+		Sound		: Sawing,
+		Time		: 200.0,
+		NeedToBeLearn	: true,
+		SkillRequired	: Woodwork=2,
+	}
+	recipe	Assemble Polymer Nun-Chucks
+	{
+		Nightstick	= 2,
+		Screws		= 4,
+		DogChain,
+		keep [Recipe.GetItemTypes.Saw],
+		Result		: Base.Poly_Nun_Chucks,
+		Category	: Survivalist,
+		Sound		: Sawing,
+		Time		: 250.0,
+		NeedToBeLearn	: true,
+		SkillRequired	: Woodwork=2,
+	}
+
+	recipe	Reclaim Chain from Nun-Chucks
+	{
+		Steel_Nun_Chucks/Wood_Nun_Chucks/Poly_Nun_Chucks,
+		Result			:DogChain,
+		Time			:100.0,
+		Category		:Survivalist,
+		AllowDestroyedItem	:true,
+	}
+
+
+	/*************************/
+	/**	BALL IN SOCK	**/
+	/*************************/
+	recipe	Assemble Billiard Ball in a Sock
+	{
+		PoolBall,
+		Socks_Long,
+		Result			: Base.Ball_Sock,
+		Category		: Survivalist,
+		Sound			: PutItemInBag,
+		Time			: 40.0,
+	}
+	recipe	Reclaim Billiard Ball from Ball in a Sock
+	{
+		Ball_Sock,
+		Result			:PoolBall,
+		Time			:60.0,
+		Category		:Survivalist,
+		AllowDestroyedItem	:true,
+	}
+
+	/*************************/
+	/**	LOCK ON BELT	**/
+	/*************************/
+	recipe	Assemble Padlock on a Belt
+	{
+		Padlock,
+		Belt2,
+		Result			: Base.P_Lock_Belt,
+		Category		: Survivalist,
+		Sound			: PutItemInBag,
+		Time			: 40.0,
+	}
+	recipe	Reclaim PadLock from Lock on Belt
+	{
+		P_Lock_Belt,
+		Result			:Padlock,
+		Time			:60.0,
+		Category		:Survivalist,
+		AllowDestroyedItem	:true,
+	}
+	recipe	Assemble Combo-Lock on a Belt
+	{
+		CombinationPadlock,
+		Belt2,
+		Result			: Base.C_Lock_Belt,
+		Category		: Survivalist,
+		Sound			: PutItemInBag,
+		Time			: 40.0,
+	}
+	recipe	Reclaim Combo-Lock from Lock on Belt
+	{
+		C_Lock_Belt,
+		Result			:CombinationPadlock,
+		Time			:60.0,
+		Category		:Survivalist,
+		AllowDestroyedItem	:true,
+	}
+
+
+
+	item DogChain
+	{
+		DisplayCategory		= Material,
+		Weight			= 0.3,
+		Type			= Normal,
+		DisplayName		= Dog Chain,
+		Icon			= DogChain,
+		MetalValue		= 2,
+	/*	WorldStaticModel	= DogChain,	*/
+	}
+}	
