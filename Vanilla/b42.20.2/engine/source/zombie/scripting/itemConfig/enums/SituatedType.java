@@ -1,0 +1,10 @@
+// Decompiled with Zomboid Decompiler v0.3.2 using Vineflower.
+package zombie.scripting.itemConfig.enums;
+
+public enum SituatedType {
+    None,
+    Interior,
+    Exterior,
+    Shop,
+    Junk;
+}
