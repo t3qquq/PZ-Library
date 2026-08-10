@@ -59,7 +59,8 @@ PZ-Library/
 │   │   └── media/
 │   │       ├── lua/{client,server,shared}/ # 바닐라 Lua 라이브러리
 │   │       ├── scripts/                    # 아이템·차량·레시피·사운드 정의
-│   │       ├── AnimSets/                   # 애니메이션 클립 + 전이 정보
+│   │       ├── AnimSets/                   # 애니메이션 클립
+│   │       ├── actiongroups/               # 상태 전이 (transitions.xml 구조)
 │   │       ├── animscript/, animstates/    # 근접전투 애니 스크립트
 │   │       ├── clothing/                   # 의복 정의
 │   │       ├── luaexamples/, shaders/
@@ -70,7 +71,7 @@ PZ-Library/
 │           ├── lua/{client,server,shared}/
 │           ├── scripts/{generated,entities,ragdolls,xui}/
 │           ├── AnimSets/                   # 애니메이션 클립
-│           ├── actiongroups/               # ★ 상태 전이 (B42에만 있음)
+│           ├── actiongroups/               # 상태 전이 (to_<상태>.xml 구조)
 │           └── (이하 B41과 동일 구성)
 └── Important Mods/
     └── ARSENAL(26)GunFighter[MOD 2.0]/     # 연동 검증용 서드파티 모드
@@ -84,7 +85,7 @@ PZ-Library/
 | `media/lua` `.lua` | 888 | 1,395 |
 | └ client / server / shared | 692 / 130 / 66 | 728 / 294 / 373 |
 | `media/AnimSets` `.xml` | 1,652 | 2,949 |
-| `media/actiongroups` `.xml` | **0 (없음)** | 3,203 |
+| `media/actiongroups` `.xml` | 177 | 3,203 |
 | `media/scripts` 파일 | 153 | 1,004 |
 | Lua 노출 클래스 (`setExposed`) | 562 | 1,001 |
 | Lua 전역 함수 (`@LuaMethod global`) | 537 | 753 |
@@ -108,7 +109,7 @@ B42의 `server/`, `shared/` Lua가 크게 늘어난 점에 주목할 것 —
 | `media/lua/` (Translate 포함) | 36.6 MB | 120.9 MB |
 | └ 그중 `shared/Translate/` | 25.6 MB | 105.2 MB |
 | `media/AnimSets/` | 1.1 MB | 2.2 MB |
-| `media/actiongroups/` | — | 0.6 MB |
+| `media/actiongroups/` | 0.1 MB | 0.6 MB |
 | `media/scripts/` | 1.7 MB | 6.7 MB |
 | **API 검증용 합계** (Translate 제외) | **약 31 MB** | **약 53 MB** |
 
@@ -126,6 +127,7 @@ git sparse-checkout set --no-cone \
   "/Vanilla/b41.78.20/engine/" \
   "/Vanilla/b41.78.20/media/lua/" \
   "/Vanilla/b41.78.20/media/AnimSets/" \
+  "/Vanilla/b41.78.20/media/actiongroups/" \
   "/Vanilla/b41.78.20/media/scripts/" \
   "!/Vanilla/b41.78.20/media/lua/shared/Translate/"
 ```
@@ -379,31 +381,49 @@ xui/
 
 ---
 
-## 4. 애니메이션 — 여기가 B41/B42 차이가 가장 크다
+## 4. 애니메이션 — 파일 구조가 빌드마다 다르다
 
-### 구성
+양쪽 빌드 모두 `AnimSets/`(클립)와 `actiongroups/`(상태 전이)를 갖고 있다.
+**다만 전이 파일을 쪼개는 방식이 완전히 다르다.**
 
 | | B41 | B42 |
 |---|---|---|
 | 애니메이션 클립 | `media/AnimSets/` (1,652 XML) | `media/AnimSets/` (2,949 XML) |
-| 상태 전이 | **레포에 없음** | `media/actiongroups/` (3,203 XML) |
-| 캐릭터 타입 | 7종 (`player`, `zombie`, `zombie-crawler`, `player-vehicle`, `player-avatar`, `player-editor`, `mannequin`) | 28종 (위 + 동물 21종: `cow`, `pig`, `rabbit`, `raccoon`, `rat`, `turkey`, `ewe`, `ram`, `doe`, `buck`, `hen` 등) |
-| `player` 상태(하위 디렉토리) 수 | 42 (AnimSets 기준) | 92 (actiongroups 기준) |
-| `zombie` 상태(하위 디렉토리) 수 | 29 (AnimSets 기준) | 125 (actiongroups 기준) |
+| 상태 전이 | `media/actiongroups/` (177 XML) | `media/actiongroups/` (3,203 XML) |
+| 전이 파일 구성 | `transitions.xml` **한 파일에 여러 전이**<br>(+ `movementTransitions.xml`, `otherTransitions.xml`, `timedActionsTransitions.xml`, `childTags.xml`, `tags.xml`) | `to_<대상상태>.xml` **전이 하나당 파일 하나** |
+| 캐릭터 타입 | 6종<br>`player`, `player-avatar`, `player-editor`, `player-vehicle`, `zombie`, `zombie-crawler` | 28종<br>위 + `animal-editor` + 동물 21종 (`cow`, `pig`, `rabbit`, `raccoon`, `rat`, `turkey`, `ewe`, `ram`, `doe`, `buck`, `hen` 등) |
+| `player` 상태 수 | 41 | 92 |
+| `zombie` 상태 수 | 30 | 125 |
+| 초기 상태 (`<initial>`) | 전 타입 `idle` | 전 타입 `idle` |
 
-> **B41 주의:** 이 레포의 B41 덤프에는 **상태 전이 XML(`actiongroups/`, `transitions.xml`)이
-> 포함돼 있지 않다.** AnimSets의 애니메이션 클립 정의만 있다.
-> B41 상태 전이 그래프가 필요하면 게임 설치 폴더의 `media/actiongroups/`를 직접 열거나,
-> `pz-modding` 스킬의 `references/anims-actiongroups-b41.md`를 참조한다.
+> **주의: B42의 `to_*.xml` 파일명 규칙을 B41에 적용하면 안 된다.**
+> B41 `actiongroups/`에는 `to_`로 시작하는 파일이 하나도 없다.
+> 파일명이 아니라 **내용(변수명·이벤트명)으로 검색**해야 한다.
+
+B41 `AnimSets/`에는 캐릭터 타입 디렉토리가 7종 있는데(`mannequin` 포함),
+`actiongroups/`에는 6종만 있다. `mannequin`은 상태머신이 없다.
 
 ### 읽는 법
 
 - **`AnimSets/`** — 실제 애니메이션 클립. `<animNode>`의 `m_AnimName`이 재생할 클립,
   `m_Conditions`가 이 클립이 선택될 조건, `m_Events`가 재생 중 발생하는 이벤트
   (`SetVariable`, `PlaySound` 등)다.
-- **`actiongroups/` (B42)** — 상태 전환 로직. `<캐릭터타입>/<상태>/to_*.xml`이
-  "어떤 조건이면 어느 상태로 가는가"를 정의한다. `actionGroup.xml`의 `<initial>`이 시작 상태고,
-  `defaultTransitions.xml`을 상속받는 상태들이 있다.
+- **`actiongroups/`** — 상태 전환 로직. "어떤 조건이면 어느 상태로 가는가"를 정의한다.
+  `<타입>/actionGroup.xml`의 `<initial>`이 시작 상태고,
+  `x_include`로 타입 루트의 `defaultTransitions.xml`을 상속받는 상태들이 있다.
+
+```
+# B41
+media/actiongroups/player/actionGroup.xml           # initial=idle, 상태 목록
+media/actiongroups/player/defaultTransitions.xml    # 모든 상태 공통 전이
+media/actiongroups/player/movement/transitions.xml  # movement 상태에서 나가는 전이 전부
+
+# B42
+media/actiongroups/player/actionGroup.xml
+media/actiongroups/player/defaultTransitions.xml
+media/actiongroups/player/movement/to_climbFence.xml   # 전이 하나당 파일 하나
+media/actiongroups/player/movement/to_falling.xml
+```
 
 ### Lua와의 연결고리는 두 종류다 — 헷갈리면 아무 일도 안 일어난다
 
@@ -420,7 +440,8 @@ xui/
 Lua에서 덮어써도 즉시 되돌려질 수 있다.
 
 ```bash
-# 이 이름이 어디서 세팅되는지 확인
+# 이 이름이 어디서 세팅되고 어떤 전이를 트리거하는지 확인
+grep -rn "bFalling" Vanilla/b41.78.20/media/actiongroups/
 grep -rn 'setVariable("bFalling"' Vanilla/b41.78.20/engine/source/
 grep -rn 'setVariable("bFalling"' Vanilla/b41.78.20/media/lua/
 ```
@@ -445,7 +466,6 @@ sparse checkout에서 기본 제외할 것.
 |---|---|---|
 | **Kahlua 라이브러리 소스** (`se/krka/kahlua/`) | 표준 Lua 함수 구현 여부, 타입 변환 동작을 확인 불가 | `zombie.jar`를 직접 디컴파일 |
 | **기타 서드파티 패키지** (`javax/`, `org/`, `com/`, `fmod/`) | LWJGL·vecmath 등 내부 동작 확인 불가 | 모딩에는 거의 무관 |
-| **B41 `actiongroups/`** | B41 상태 전이 그래프 확인 불가 | 게임 설치 폴더 / `pz-modding` 스킬의 reference 문서 |
 | **맵·텍스처·모델 바이너리** (`media/maps`, `texturepacks`, `models_X` 등) | 스프라이트·타일 ID 확인 불가 | 게임 설치 폴더 |
 | **API 요약본 텍스트** | 예전 덤프에 있던 시그니처 큐레이션 없음 | 디렉토리 직접 검색 |
 
@@ -461,7 +481,7 @@ sparse checkout에서 기본 제외할 것.
 1. **클래스 패키지 이동** — `ZombiePacket`, `DeadZombiePacket` 등이 B42에서 `packets/character/`로 내려갔다. 경로 하드코딩 금지, 항상 `find`로 찾을 것
 2. **노출/전역 등록 목록 변경** — 노출 562→1001, 전역 537→753. "B41에서 안 되던 것"이 B42에서 될 수 있다
 3. **스크립트 포맷 전면 개편** — `recipe` → `craftRecipe`, `entity`/`component`/`attachment` 시스템 신설, 아이템 타입 체계 변경
-4. **애니메이션 구조 분리** — B42는 전이가 `actiongroups/`로 분리, 동물 21종 추가, 상태 수 2~4배(`player` 42→92, `zombie` 29→125)
+4. **애니메이션 전이 파일 구조 변경** — B41은 `transitions.xml` 한 파일에 여러 전이, B42는 `to_<상태>.xml` 전이당 한 파일. 동물 21종 추가로 상태 수도 2~4배(`player` 41→92, `zombie` 30→125)
 5. **Lua 코드 무게중심 이동** — B42는 `server/`(130→294), `shared/`(66→373)가 대폭 증가
 6. **디컴파일러 출력 포맷 차이** — 어노테이션 줄바꿈이 다르므로 검색 정규식을 그대로 재사용하면 안 된다
 7. **미검증** — B41의 좀비 클라이언트 권위 모델이 B42에서도 그대로인지는 확인하지 않았다. B42 MP 로직을 짤 거면 `IsoZombie` / `NetworkZombieAI`를 직접 읽고 판단할 것
