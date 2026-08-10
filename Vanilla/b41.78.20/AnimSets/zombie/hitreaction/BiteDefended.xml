@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Default.xml">
+	<m_Name>BiteDefended</m_Name>
+	<m_AnimName>Zombie_Bite_Defended</m_AnimName>
+	<m_SyncTrackingEnabled>true</m_SyncTrackingEnabled>
+	<m_BlendTime>0.25</m_BlendTime>
+	<m_Conditions>
+		<m_Name>hitreaction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>BiteDefended</m_StringValue>
+	</m_Conditions>
+</animNode>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="onback.xml">
+	<m_Name>getUpFromSitting</m_Name>
+	<m_AnimName>Zombie_IdleAgainstWall_GetUp</m_AnimName>
+	<m_SpeedScale>0.82</m_SpeedScale>
+	<m_Conditions>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+</animNode>

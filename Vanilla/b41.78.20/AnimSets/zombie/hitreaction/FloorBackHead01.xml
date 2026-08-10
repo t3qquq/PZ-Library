@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="FloorBack.xml">
+	<m_Name>FloorBackHead01</m_Name>
+	<m_AnimName>Zombie_HeadReact_OnBack01</m_AnimName>
+	<m_Conditions />
+	<m_Conditions>
+		<m_Name>hitHeadType</m_Name>
+		<m_Type>EQU</m_Type>
+		<m_FloatValue>1</m_FloatValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>FallOnFront</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>false</m_BoolValue>
+	</m_Conditions>
+</animNode>

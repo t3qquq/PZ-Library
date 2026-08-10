@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="default.xml">
+	<m_Name>EatingBody</m_Name>
+	<m_AnimName>Zombie_EatingToIdle_FloorBack</m_AnimName>
+	<m_Conditions>
+		<m_Type>STRING</m_Type>
+	</m_Conditions>
+	<m_Conditions />
+	<m_Events>
+		<m_EventName>FallOnFront</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>false</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+		<m_TimePc>0.05</m_TimePc>
+	</m_Events>
+</animNode>

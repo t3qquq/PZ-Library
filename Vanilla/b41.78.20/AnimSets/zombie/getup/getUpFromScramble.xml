@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="onback.xml">
+	<m_Name>getUpFromScramble</m_Name>
+	<m_AnimName>Bob_ScrambleFloorToWalk</m_AnimName>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_BlendOutTime>0.20</m_BlendOutTime>
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions>
+		<m_Name>SprinterTripped</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+</animNode>

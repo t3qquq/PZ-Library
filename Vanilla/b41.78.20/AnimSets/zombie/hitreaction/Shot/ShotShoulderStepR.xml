@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="../ShotDefault.xml">
+	<m_Name>ShotShoulderStepR</m_Name>
+	<m_AnimName>Zombie_ShotShoulderStep_R</m_AnimName>
+	<m_Conditions>
+		<m_StringValue>ShotShoulderStepR</m_StringValue>
+	</m_Conditions>
+</animNode>

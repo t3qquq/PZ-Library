@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="FloorFront.xml">
+	<m_Name>FloorFrontHead01</m_Name>
+	<m_AnimName>Zombie_HeadReact_OnFront01</m_AnimName>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions>
+		<m_Name>hitHeadType</m_Name>
+		<m_Type>EQU</m_Type>
+		<m_FloatValue>1</m_FloatValue>
+	</m_Conditions>
+</animNode>
