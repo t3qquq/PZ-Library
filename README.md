@@ -225,11 +225,10 @@ Lua에서 호출하면 변환에 실패한다.** (`KahluaConverterManager`가 `s
 그래서 `authorizationServerCollide(short, boolean)` 같은 건 시그니처가 멀쩡해 보여도 못 쓴다.
 대안 메서드(`authorizationChanged(player)`)를 찾아야 한다.
 
-> **한계:** 이 레포의 `engine/source/`에는 `zombie/` 패키지만 있고
-> **Kahlua 라이브러리 자체(`se/krka/kahlua/`)는 포함돼 있지 않다.**
-> 위 내용은 과거 41.78.19 덤프에서 확인된 사실이며, 현재 레포에서는 직접 재검증할 수 없다.
-> Kahlua 표준 라이브러리 구현 여부(`next`, `xpcall`, `table.getn` 등)를 확인해야 하면
-> 게임 설치 폴더의 `zombie.jar`를 별도로 디컴파일해야 한다.
+> **2026-08 업데이트: 이제 재검증됐다.** `se/krka/kahlua/`(양쪽 빌드)와 `stdlib.lua`/`stdlib.lbc`가
+> 레포에 있다 — 정확한 경로와 줄 번호는 뒤쪽 "Kahlua 소스" 섹션 참고. 이 항목은 과거 추정이 아니라
+> `Vanilla/b41.78.20/engine/source/se/krka/kahlua/converter/KahluaConverterManager.java:178`,
+> `Vanilla/b42.20.2/.../KahluaConverterManager.java:180`에서 직접 확인한 것이다(코드 동일).
 
 **교훈: 시그니처만 보지 말고 파라미터 타입도 볼 것.** `short`가 보이면 대안을 찾는다.
 
@@ -458,19 +457,88 @@ sparse checkout에서 기본 제외할 것.
 
 ---
 
+## B41 ↔ B42 Java 배포 방식 자체가 다르다
+
+Kahlua 소스는 이미 레포에 추가돼 있다(아래 "Kahlua 소스" 섹션). 이 절은 그 소스를 어떻게 얻었는지, 앞으로 같은 작업을 또 해야 할 때 참고할 기록이다.
+
+| | B41 | B42 |
+|---|---|---|
+| Java 코드 형태 | **jar로 묶여 있지 않다.** 설치 루트에 `zombie/`, `se/`, `com/`, `de/`, `org/`, `javax/`, `fmod/`, `astar/`, `N3D/`가 압축 안 풀린 `.class` 파일로 그대로 나열돼 있다 | `projectzomboid.jar` 하나(약 64MB)에 전부 묶여 있다. 설치 루트엔 `jre64/`, `launcher/`, `license/`, `media/`, `mods/`, `Workshop/`만 있다 |
+| `se/krka/kahlua/` 얻는 법 | 설치 루트에서 바로 디컴파일. **압축 해제 단계 자체가 없다** | jar를 압축 해제한 뒤 그 안에서 디컴파일 |
+| `zombie/` 패키지 | 마찬가지로 설치 루트에 압축 안 풀린 채로 있다 (현재 레포의 B41 덤프가 여기서 나온 것으로 보임 — `se/`, `com/` 등 바로 옆에 있는 패키지는 그냥 안 가져간 것) | jar 안에 있다 |
+| `ZombieBuddy.jar` | 없음 | 설치 루트에 있음 — 바닐라 아닌 서드파티 도구로 보임, 무관 |
+
+즉 **B41은 Kahlua 소스를 얻는 데 추가 작업이 거의 없다.** `zombie/`를 디컴파일할 때 쓴 것과 같은 도구로 `se/krka/kahlua/`를 대상만 바꿔서 돌리면 끝이다. B42는 jar 압축 해제가 한 단계 더 필요하다.
+
+두 빌드 모두 설치 루트(버전 폴더 구분 없이 같은 파일명)에 `stdlib.lua`, `stdlib.lbc`, `serialize.lua`가 있다. `stdlib.lua`는 컴파일이나 디컴파일 없이 바로 텍스트로 열리므로, 표준 Lua 함수 구현 여부만 급히 확인할 땐 이쪽이 제일 빠르다.
+
+---
+
+## Kahlua 소스 (2026-08 추가)
+
+위 내용을 실제로 실행해서 `engine/source/se/krka/kahlua/`(양쪽 빌드)와 `stdlib.lua`/`stdlib.lbc`/`serialize.lua`(양쪽 빌드)를 레포에 추가했다. CFR 0.152로 디컴파일.
+
+```
+Vanilla/b41.78.20/engine/source/se/krka/kahlua/...   (.java 79개)
+Vanilla/b42.20.2/engine/source/se/krka/kahlua/...    (.java 70개)
+Vanilla/b41.78.20/stdlib.lua, stdlib.lbc, serialize.lua
+Vanilla/b42.20.2/stdlib.lua, stdlib.lbc, serialize.lua
+```
+
+> **참고**: B41 `se/krka/kahlua/`엔 `.java`뿐 아니라 원본 `.class`도 같이 커밋돼 있다(B42나 기존 `zombie/` 폴더는 `.java`만). 의도적으로 남긴 게 아니라면 정리 대상.
+
+### B41 ↔ B42 실측 차이 (자바 등록 기준)
+
+| | B41 | B42 |
+|---|---|---|
+| `se.krka.kahlua.converter.KahluaEnumConverter`/`KahluaNumberConverter`/`KahluaTableConverter` | 있음 | **없음** — 레포에 이미 있는 PZ 자체 구현 `zombie.Lua.Kahlua*Converter`로 대체된 것으로 추정(상세 동작 미검증) |
+| `TableLib`의 `table.ipairs` | 없음 | **새로 등록됨** |
+| 전역 `ipairs` 구현 (`stdlib.lua`) | Lua로 직접 구현한 반복자 | `ipairs = table.ipairs`로 위 신규 등록에 위임 (구 구현은 주석 처리) |
+
+`ipairs` 구현이 바뀐 이유가 `table.ipairs` 신규 등록 때문이라는 게 `stdlib.lua` diff로 명확히 확인된다 — 두 발견이 서로 맞아떨어진다.
+
+### `short` 프리미티브 변환 버그 — B41·B42 재검증 완료
+
+```java
+// Vanilla/b41.78.20/engine/source/se/krka/kahlua/converter/KahluaConverterManager.java:178
+// Vanilla/b42.20.2/engine/source/se/krka/kahlua/converter/KahluaConverterManager.java:180
+PRIMITIVE_CLASS.put(Boolean.TYPE, Boolean.class);
+PRIMITIVE_CLASS.put(Byte.TYPE, Byte.class);
+PRIMITIVE_CLASS.put(Character.TYPE, Character.class);
+PRIMITIVE_CLASS.put(Short.TYPE, Short.TYPE);      // <- 여기만 자기 자신으로 매핑됨
+PRIMITIVE_CLASS.put(Integer.TYPE, Integer.class);
+```
+코드는 두 빌드 완전히 동일. `authorizationServerCollide(short, boolean)` 같은 `short` 파라미터 메서드가 Lua에서 호출 안 되는 이유가 이거다 — 더 이상 "과거 41.78.19 덤프에서만 확인, 재검증 불가"가 아니다.
+
+### `stdlib.lua` 표준함수 목록 — 전수 확정
+
+컴파일 전 원본 텍스트를 직접 읽었다. 정의된 게 정확히 이 11개가 전부다(B41/B42 공통, `ipairs`만 위 표처럼 예외):
+
+```
+assert, ipairs, pairs, table.sort,
+string.len, string.rep, string.gmatch,
+math.max, math.min,
+coroutine.wrap
+```
+
+**정정된 것**: `coroutine.wrap`이 예전엔 "없음"으로 잘못 알려져 있었다. 실제로는 `stdlib.lua`에 그대로 구현돼 있다(`create`+`resume`을 감싼 클로저, B41 141줄·B42 144줄). `next`/`xpcall`은 자바에도 이 파일에도 없는 게 최종 확인됐다 — 진짜로 없다.
+
+이 표준함수 가용성 판정은 별도 스킬(`kahlua-lua-compat`)이 전담한다. 전 함수 목록·검증 근거·자동 스캔 스크립트는 그쪽 `references/kahlua-api.md`에 있다. 이 README는 요약만 다룬다.
+
+---
+
 ## 이 레포에 없는 것
 
 포함 범위를 착각하면 "없으니까 없는 것"이라고 잘못 결론짓게 된다. 명시해 둔다.
 
 | 없는 것 | 영향 | 대안 |
 |---|---|---|
-| **Kahlua 라이브러리 소스** (`se/krka/kahlua/`) | 표준 Lua 함수 구현 여부, 타입 변환 동작을 확인 불가 | `zombie.jar`를 직접 디컴파일 |
-| **기타 서드파티 패키지** (`javax/`, `org/`, `com/`, `fmod/`) | LWJGL·vecmath 등 내부 동작 확인 불가 | 모딩에는 거의 무관 |
-| **맵·텍스처·모델 바이너리** (`media/maps`, `texturepacks`, `models_X` 등) | 스프라이트·타일 ID 확인 불가 | 게임 설치 폴더 |
+| **기타 서드파티 패키지** (B41: `com/evildevil/`, `de/jarnbjo/ogg/`, `fmod/`, `astar/`, `N3D/`, `org/joml/`, `javax/`) | 오디오 코덱·수학 라이브러리·경로탐색 등, 모딩에는 거의 무관 | — |
+| **`media/anims/`(빈 폴더), `animsold/`(구버전 텍스트 애니 정의), `anims_X/`(DirectX `.X` 바이너리 애니 데이터)** — B41·B42 양쪽에 다 있음 | **확인 완료: 모딩 API 검증에 무관.** `animsold/`는 AnimSets XML로 대체된 레거시, `anims_X/`는 바이너리 애셋 | 레포에 넣을 필요 없음 |
+| **맵·텍스처·모델·사운드 바이너리** (`media/maps`, `texturepacks`, `models_X`, `binary.dat`, `sound/`, `music/` 등) | 스프라이트·타일 ID·사운드 확인 불가 | 게임 설치 폴더 |
 | **API 요약본 텍스트** | 예전 덤프에 있던 시그니처 큐레이션 없음 | 디렉토리 직접 검색 |
 
-`engine/source/` 아래에는 **양쪽 빌드 모두 `zombie/` 패키지만** 있다.
-바꿔 말하면 이름 검색 시 서드파티 오탐이 없다는 장점도 있다.
+`engine/source/`에는 이제 **`zombie/`뿐 아니라 `se/krka/kahlua/`(Kahlua VM 본체)도** 있다 — 아래 "Kahlua 소스" 섹션 참고. 그 외 이름 검색 시 서드파티 오탐은 여전히 거의 없다.
 
 ---
 
@@ -484,7 +552,8 @@ sparse checkout에서 기본 제외할 것.
 4. **애니메이션 전이 파일 구조 변경** — B41은 `transitions.xml` 한 파일에 여러 전이, B42는 `to_<상태>.xml` 전이당 한 파일. 동물 21종 추가로 상태 수도 2~4배(`player` 41→92, `zombie` 30→125)
 5. **Lua 코드 무게중심 이동** — B42는 `server/`(130→294), `shared/`(66→373)가 대폭 증가
 6. **디컴파일러 출력 포맷 차이** — 어노테이션 줄바꿈이 다르므로 검색 정규식을 그대로 재사용하면 안 된다
-7. **미검증** — B41의 좀비 클라이언트 권위 모델이 B42에서도 그대로인지는 확인하지 않았다. B42 MP 로직을 짤 거면 `IsoZombie` / `NetworkZombieAI`를 직접 읽고 판단할 것
+7. **Kahlua 컨버터 정리** — B41의 `se.krka.kahlua.converter.KahluaEnumConverter`/`KahluaNumberConverter`/`KahluaTableConverter`가 B42엔 없다(PZ 자체 구현으로 대체 추정). B42가 `table.ipairs`(TableLib)를 새로 등록하면서 `stdlib.lua`의 전역 `ipairs` 구현도 그걸 위임하는 방식으로 바뀌었다
+8. **미검증** — B41의 좀비 클라이언트 권위 모델이 B42에서도 그대로인지는 확인하지 않았다. B42 MP 로직을 짤 거면 `IsoZombie` / `NetworkZombieAI`를 직접 읽고 판단할 것
 
 ---
 
