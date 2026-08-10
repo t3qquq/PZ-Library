@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<transition>
-	<transitionTo>onground</transitionTo>
-	<conditions>
-		<isTrue>bDead</isTrue>
-		<isTrue>bOnFloor</isTrue>
-	</conditions>
-</transition>

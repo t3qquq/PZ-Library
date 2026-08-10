@@ -1,8 +1,0 @@
-<animSet>
-	<animNodeFilter>
-		<folderPrefixes>Bob</folderPrefixes>
-		<folderPrefixes>Kate</folderPrefixes>
-		<namePrefixes>Bob_</namePrefixes>
-		<namePrefixes>Kate_</namePrefixes>
-	</animNodeFilter>
-</animSet>

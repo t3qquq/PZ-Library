@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<transition>
-	<transitionTo>throwBodyIntoContainer-LegsEnd-onFront</transitionTo>
-	<conditions>
-		<isTrue>GrappleThrowIntoContainer</isTrue>
-		<isFalse>bDoContinueGrapple</isFalse>
-	</conditions>
-</transition>

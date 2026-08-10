@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<transition>
-	<transitionTo>maskingleft</transitionTo>
-	<asSubstate>true</asSubstate>
-	<conditions>
-		<compare op="!=" a="LeftHandMask" />
-	</conditions>
-</transition>

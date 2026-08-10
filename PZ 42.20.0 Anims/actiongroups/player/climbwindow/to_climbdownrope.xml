@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<transition>
-	<transitionTo>climbdownrope</transitionTo>
-	<conditions>
-		<isTrue>ClimbWindowFinished</isTrue>
-		<isTrue>CanClimbDownRope</isTrue>
-	</conditions>
-</transition>

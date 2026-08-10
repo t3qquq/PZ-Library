@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<transition>
-	<transitionTo>turning180</transitionTo>
-	<conditions>
-		<isTrue>isTurning</isTrue>
-		<eventOccurred>Turn180Started</eventOccurred>
-	</conditions>
-</transition>

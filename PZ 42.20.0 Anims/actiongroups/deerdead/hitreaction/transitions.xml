@@ -1,8 +1,0 @@
-<transitions x_include="../defaultTransitions.xml">
-    <transition>
-        <transitionTo>idle</transitionTo>
-        <conditions>
-            <eventOccurred>ActiveAnimFinishing</eventOccurred>
-        </conditions>
-    </transition>
-</transitions>

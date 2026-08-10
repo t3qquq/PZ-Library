@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<transition>
-	<transitionTo>openwindow</transitionTo>
-	<conditions>
-		<eventOccurred>EventOpenWindow</eventOccurred>
-	</conditions>
-</transition>

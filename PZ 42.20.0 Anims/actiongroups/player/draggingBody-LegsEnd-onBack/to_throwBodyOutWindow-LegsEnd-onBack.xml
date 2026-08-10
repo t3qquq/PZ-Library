@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<transition>
-	<transitionTo>throwBodyOutWindow-LegsEnd-onBack</transitionTo>
-	<conditions>
-		<isTrue>GrappleThrowOutWindow</isTrue>
-		<isFalse>bDoContinueGrapple</isFalse>
-	</conditions>
-</transition>

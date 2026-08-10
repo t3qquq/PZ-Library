@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<transition>
-	<transitionTo>hitreactionpvp</transitionTo>
-	<conditions>
-		<eventOccurred>washitpvp</eventOccurred>
-		<isFalse>bknockeddown</isFalse>
-	</conditions>
-</transition>
