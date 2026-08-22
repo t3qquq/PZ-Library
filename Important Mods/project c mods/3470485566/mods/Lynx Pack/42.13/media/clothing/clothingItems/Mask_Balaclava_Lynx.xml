@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_Mask_Balaclava1</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_Mask_Balaclava1</m_FemaleModel>
+	<m_GUID>b32c2727-18eb-43d6-950e-b33c357cf113</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>nohairnobeard</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes\Lynx\Mask\Mask_Balaclava_Lynx</textureChoices>
+	<textureChoices>Clothes\Lynx\Mask\Mask_Balaclava_Lynx2</textureChoices>
+	<textureChoices>Clothes\Lynx\Mask\Mask_Balaclava_Lynx3</textureChoices>
+</clothingItem>

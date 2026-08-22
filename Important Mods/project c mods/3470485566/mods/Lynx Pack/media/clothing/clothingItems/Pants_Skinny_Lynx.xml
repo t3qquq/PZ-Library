@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>b98119f4-5f14-4691-838a-e7875e85277c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>Clothes\Lynx\Pants\Pants_Skinny_Lynx</m_BaseTextures>
+	<m_BaseTextures>Clothes\Lynx\Pants\Pants_Skinny_Lynx2</m_BaseTextures>
+	<m_BaseTextures>Clothes\Lynx\Pants\Pants_Skinny_Lynx3</m_BaseTextures>
+	<m_BaseTextures>Clothes\Lynx\Pants\Pants_Skinny_Lynx4</m_BaseTextures>
+	<m_BaseTextures>Clothes\Lynx\Pants\Pants_Skinny_Lynx5</m_BaseTextures>
+	<m_BaseTextures>Clothes\Lynx\Pants\Pants_Skinny_Lynx6</m_BaseTextures>
+</clothingItem>

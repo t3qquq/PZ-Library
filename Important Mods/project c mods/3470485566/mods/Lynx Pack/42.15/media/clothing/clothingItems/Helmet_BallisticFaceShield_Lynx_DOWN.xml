@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Static\Clothes\M_Helmet_BallisticFaceShield_Lynx_DOWN</m_MaleModel>
+	<m_FemaleModel>Static\Clothes\F_Helmet_BallisticFaceShield_Lynx_DOWN</m_FemaleModel>
+	<m_GUID>a26979fc-9c65-4e47-9bd6-b17958a231b1</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes\Lynx\Helmet\Helmet_BallisticFaceShield_Lynx</textureChoices>
+</clothingItem>

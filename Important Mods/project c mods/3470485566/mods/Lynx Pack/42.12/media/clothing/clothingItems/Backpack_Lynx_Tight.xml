@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\M_Backpack_Lynx_Tight</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\F_Backpack_Lynx_Tight</m_FemaleModel>
+	<m_GUID>0a2d12ea-5f58-4ea7-81a8-9fb376ab31cf</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Lynx\Bags\Backpack\Backpack_Lynx</textureChoices>
+	<textureChoices>Clothes\Lynx\Bags\Backpack\Backpack_Lynx2</textureChoices>
+</clothingItem>

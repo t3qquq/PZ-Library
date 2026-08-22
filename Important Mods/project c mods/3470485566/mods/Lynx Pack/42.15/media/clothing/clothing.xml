@@ -1,0 +1,2348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Lynx_Black ////////////////////////////////////////// -->
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_FemaleOutfits>
+		<m_Name>Lynx_Black</m_Name>
+		<m_Guid>a7aa1038-0220-4a7a-acee-eefc71ecf130</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>a8bb1aa4-5ea5-43ba-95cf-4d0cf9ad73f1</itemGUID> <!-- Helmet_Lynx -->
+			<subItems>
+				<itemGUID>ef4c2887-d283-43ff-889e-fae6fe1f5850</itemGUID> <!-- Hat_BaseballCap_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>9dea3346-f7a4-46e0-8308-018da26416eb</itemGUID> <!-- Headsets_Lynx -->
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>9058b541-d5d5-40a5-96d0-c21eea4ee395</itemGUID> <!-- BulletproofVest_Lynx -->
+			<subItems>
+				<itemGUID>17a670da-a182-44c2-a55e-8a5119b295ba</itemGUID> <!-- BulletproofVest_Lynx_Neck -->
+			</subItems>
+			<subItems>
+				<itemGUID>6bcfbf60-e5ef-4e44-a0f8-24e788c85734</itemGUID> <!-- BulletproofVest_Lynx_AssaultKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>c4746de3-e9c2-4b8c-88d6-fa72d4b0a15f</itemGUID> <!-- BulletproofVest_Lynx_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>0c0d5192-aa8e-4cb8-8275-a20d0755f943</itemGUID> <!-- BulletproofVest_Lynx_FullProtectionKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>35699e1b-a917-43e1-baa2-e992e67f8ff9</itemGUID> <!-- BulletproofVest_Lynx_HighMobilityKit -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>6d035cb7-16e3-426e-92af-78735bb2bdae</itemGUID> <!-- ElbowPads_Lynx -->
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>5beb4216-1ea4-4ce5-be86-538049e0da9b</itemGUID> <!-- KneePads_Lynx -->
+		</m_items>
+<!-- Glasses -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>838788cb-2b55-417a-bb51-02285d916001</itemGUID> <!-- Glasses_Goggles_Lynx -->
+		</m_items>
+<!-- Mask -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b32c2727-18eb-43d6-950e-b33c357cf113</itemGUID> <!-- Mask_Balaclava_Lynx -->
+			<subItems>
+				<itemGUID>6dbb81b5-fd10-4a8e-b6ed-3fcc6fd11d33</itemGUID> <!-- Mask_BandanaMask_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</itemGUID> <!-- Sweater_Tactical_Lynx -->
+			<subItems>
+				<itemGUID>e864e78e-994c-4122-8c9e-72a3fb29a277</itemGUID> <!-- Sweater_Tactical_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b52f99f3-d513-4da1-98c0-dcaa125782f7</itemGUID> <!-- Shirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>484b7b54-7db4-4949-b5a6-dc428cb581e5</itemGUID> <!-- Shirt_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</itemGUID> <!-- Shirt_ShortSleeve_Lynx -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<itemGUID>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</itemGUID> <!--  Shirt_Sleeveless_Lynx -->
+			<subItems>
+				<itemGUID>bfca9fea-1f36-4245-8fd3-c486b0fd6671</itemGUID> <!-- Shirt_SleevelessShort_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>63325a48-c288-4109-b935-ad9b88717cb2</itemGUID> <!-- Shirt_Neckholder_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>2a704248-bd2f-4dd5-bf02-189b02d78e5d</itemGUID> <!-- Shirt_NeckholderShort_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>433440d7-550e-4b04-b3ef-baa2e8301757</itemGUID> <!-- Shirt_Tshirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>0fe1490d-9033-4578-bf62-2584f5e70b95</itemGUID> <!-- Shirt_TshirtShort_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</itemGUID> <!-- Shirt_TankTop_Lynx -->
+			<subItems>
+				<itemGUID>05b1a251-9df9-422e-b8ea-65ec7aab73f9</itemGUID> <!-- Shirt_TankTopShort_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>d39ff8d0-a364-466e-94ce-ffacf7d86183</itemGUID> <!-- Jacket_Lightweight_Lynx -->
+			<subItems>
+				<itemGUID>e288a942-d9d0-44bc-b40c-b8775c105f98</itemGUID> <!-- Jacket_Lightweight_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>b3e61f10-1156-42aa-ae64-93aeac19878e</itemGUID> <!-- Jacket_Lightweight_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>7c2abc2e-3ae4-4549-b28a-dd17bfdf4015</itemGUID> <!-- Jacket_Lightweight_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</itemGUID> <!-- Jacket_Hood_DOWN_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>3f4b006e-ef12-4ac4-8834-c200e5c1edef</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>0bf2ac6d-2a28-473d-845b-246a21a73de1</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>38d17c87-bc3e-4a4f-af14-79c160126fb4</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>ce14edff-78c4-4d34-a6ff-c24dd5bdbf81</itemGUID> <!-- Jacket_Hood_UP_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>935e7c72-d541-435c-a30e-0df79dfa30c6</itemGUID> <!-- Jacket_Hood_UP_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>166fff6a-c1c2-457c-8407-4a6662a79971</itemGUID> <!-- Jacket_Hood_UP_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b8476aa6-244f-4544-a1f2-e230735f3efa</itemGUID> <!-- Jacket_Hood_UP_Lynx_RolledUpSleeves -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</itemGUID> <!-- Gloves_Lynx -->
+			<subItems>
+				<itemGUID>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</itemGUID> <!-- GlovesFingerless_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>66e8b88f-08bc-41be-bfe6-539d0b779174</itemGUID> <!--  Pants_Classic_Lynx -->
+			<subItems>
+				<itemGUID>d28aff9c-6502-4a68-9f0d-a36f79edfaa7</itemGUID> <!-- Pants_Classic_Lynx_RollUp -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c359adb-eb4c-4ee2-bf2a-fd1b4e6ff4df</itemGUID> <!-- Pants_Shorts_Lynx -->
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>a0584c03-09e1-410b-b2e7-501d4cfa618a</itemGUID> <!--  Shoes_TacticalBoots_Lynx -->
+			<subItems>
+				<itemGUID>dc90a429-cd36-4b45-ad96-84a749a8b423</itemGUID> <!-- Shoes_Boots_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Underwear -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>7bec3ee3-9552-4f87-8d9f-0f8abb23368f</itemGUID> <!-- Stockings_Lynx -->
+			<subItems>
+				<itemGUID>7b9e7e97-ac01-4ea7-ac64-75bbfc5af966</itemGUID> <!-- Tights_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>82a227ce-8f50-425d-8067-43f9eb448d9e</itemGUID> <!-- Backpack_Lynx -->
+		</m_items>
+<!-- ChestRigs -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>23794c62-0fd5-43fb-a046-133c4510b1bc</itemGUID> <!-- ChestRigs_Lynx -->
+		</m_items>
+<!-- FannyPack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>8b30859e-d33b-4898-aa2e-25c679437d2e</itemGUID> <!-- FannyPack_Lynx -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7dc565e5-2fe8-432b-837b-698ede01ba49</itemGUID> <!-- HipBag_Lynx_Left -->
+		</m_items>
+	</m_FemaleOutfits>
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_MaleOutfits>
+		<m_Name>Lynx_Black</m_Name>
+		<m_Guid>b4546ce2-9c72-4a71-8094-4131b7682a17</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>a8bb1aa4-5ea5-43ba-95cf-4d0cf9ad73f1</itemGUID> <!-- Helmet_Lynx -->
+			<subItems>
+				<itemGUID>ef4c2887-d283-43ff-889e-fae6fe1f5850</itemGUID> <!-- Hat_BaseballCap_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>9dea3346-f7a4-46e0-8308-018da26416eb</itemGUID> <!-- Headsets_Lynx -->
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>9058b541-d5d5-40a5-96d0-c21eea4ee395</itemGUID> <!-- BulletproofVest_Lynx -->
+			<subItems>
+				<itemGUID>17a670da-a182-44c2-a55e-8a5119b295ba</itemGUID> <!-- BulletproofVest_Lynx_Neck -->
+			</subItems>
+			<subItems>
+				<itemGUID>6bcfbf60-e5ef-4e44-a0f8-24e788c85734</itemGUID> <!-- BulletproofVest_Lynx_AssaultKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>c4746de3-e9c2-4b8c-88d6-fa72d4b0a15f</itemGUID> <!-- BulletproofVest_Lynx_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>0c0d5192-aa8e-4cb8-8275-a20d0755f943</itemGUID> <!-- BulletproofVest_Lynx_FullProtectionKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>35699e1b-a917-43e1-baa2-e992e67f8ff9</itemGUID> <!-- BulletproofVest_Lynx_HighMobilityKit -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>6d035cb7-16e3-426e-92af-78735bb2bdae</itemGUID> <!-- ElbowPads_Lynx -->
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>5beb4216-1ea4-4ce5-be86-538049e0da9b</itemGUID> <!-- KneePads_Lynx -->
+		</m_items>
+<!-- Glasses -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>838788cb-2b55-417a-bb51-02285d916001</itemGUID> <!-- Glasses_Goggles_Lynx -->
+		</m_items>
+<!-- Mask -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b32c2727-18eb-43d6-950e-b33c357cf113</itemGUID> <!-- Mask_Balaclava_Lynx -->
+			<subItems>
+				<itemGUID>6dbb81b5-fd10-4a8e-b6ed-3fcc6fd11d33</itemGUID> <!-- Mask_BandanaMask_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</itemGUID> <!-- Sweater_Tactical_Lynx -->
+			<subItems>
+				<itemGUID>e864e78e-994c-4122-8c9e-72a3fb29a277</itemGUID> <!-- Sweater_Tactical_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b52f99f3-d513-4da1-98c0-dcaa125782f7</itemGUID> <!-- Shirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>484b7b54-7db4-4949-b5a6-dc428cb581e5</itemGUID> <!-- Shirt_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</itemGUID> <!-- Shirt_ShortSleeve_Lynx -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<itemGUID>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</itemGUID> <!--  Shirt_Sleeveless_Lynx -->
+			<subItems>
+				<itemGUID>433440d7-550e-4b04-b3ef-baa2e8301757</itemGUID> <!-- Shirt_Tshirt_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</itemGUID> <!-- Shirt_TankTop_Lynx -->
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>d39ff8d0-a364-466e-94ce-ffacf7d86183</itemGUID> <!-- Jacket_Lightweight_Lynx -->
+			<subItems>
+				<itemGUID>e288a942-d9d0-44bc-b40c-b8775c105f98</itemGUID> <!-- Jacket_Lightweight_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>b3e61f10-1156-42aa-ae64-93aeac19878e</itemGUID> <!-- Jacket_Lightweight_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>7c2abc2e-3ae4-4549-b28a-dd17bfdf4015</itemGUID> <!-- Jacket_Lightweight_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</itemGUID> <!-- Jacket_Hood_DOWN_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>3f4b006e-ef12-4ac4-8834-c200e5c1edef</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>0bf2ac6d-2a28-473d-845b-246a21a73de1</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>38d17c87-bc3e-4a4f-af14-79c160126fb4</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>ce14edff-78c4-4d34-a6ff-c24dd5bdbf81</itemGUID> <!-- Jacket_Hood_UP_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>935e7c72-d541-435c-a30e-0df79dfa30c6</itemGUID> <!-- Jacket_Hood_UP_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>166fff6a-c1c2-457c-8407-4a6662a79971</itemGUID> <!-- Jacket_Hood_UP_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b8476aa6-244f-4544-a1f2-e230735f3efa</itemGUID> <!-- Jacket_Hood_UP_Lynx_RolledUpSleeves -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</itemGUID> <!-- Gloves_Lynx -->
+			<subItems>
+				<itemGUID>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</itemGUID> <!-- GlovesFingerless_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>66e8b88f-08bc-41be-bfe6-539d0b779174</itemGUID> <!--  Pants_Classic_Lynx -->
+			<subItems>
+				<itemGUID>d28aff9c-6502-4a68-9f0d-a36f79edfaa7</itemGUID> <!-- Pants_Classic_Lynx_RollUp -->
+			</subItems>
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>a0584c03-09e1-410b-b2e7-501d4cfa618a</itemGUID> <!--  Shoes_TacticalBoots_Lynx -->
+			<subItems>
+				<itemGUID>dc90a429-cd36-4b45-ad96-84a749a8b423</itemGUID> <!-- Shoes_Boots_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Underwear -->
+<!-- Backpack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>82a227ce-8f50-425d-8067-43f9eb448d9e</itemGUID> <!-- Backpack_Lynx -->
+		</m_items>
+<!-- ChestRigs -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>23794c62-0fd5-43fb-a046-133c4510b1bc</itemGUID> <!-- ChestRigs_Lynx -->
+		</m_items>
+<!-- FannyPack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>8b30859e-d33b-4898-aa2e-25c679437d2e</itemGUID> <!-- FannyPack_Lynx -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7dc565e5-2fe8-432b-837b-698ede01ba49</itemGUID> <!-- HipBag_Lynx_Left -->
+		</m_items>
+	</m_MaleOutfits>
+
+
+
+
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Lynx_Green ////////////////////////////////////////// -->
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_FemaleOutfits>
+		<m_Name>Lynx_Green</m_Name>
+		<m_Guid>7f4d7141-4a11-4e89-b83f-3b1286bc71ff</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>a74f43a9-e13a-49fb-84f4-de8605c6b478</itemGUID> <!-- Helmet_Lynx -->
+			<subItems>
+				<itemGUID>ef4c2887-d283-43ff-889e-fae6fe1f5850</itemGUID> <!-- Hat_BaseballCap_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>9dea3346-f7a4-46e0-8308-018da26416eb</itemGUID> <!-- Headsets_Lynx -->
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>6f085eb7-3b7e-48ec-8303-5fe644467b5a</itemGUID> <!-- BulletproofVest_Lynx -->
+			<subItems>
+				<itemGUID>4404e444-9c3d-46a8-866a-bbc8faba0df2</itemGUID> <!-- BulletproofVest_Lynx_Neck -->
+			</subItems>
+			<subItems>
+				<itemGUID>469b6de9-74c8-4c02-96b3-618230979400</itemGUID> <!-- BulletproofVest_Lynx_AssaultKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>c4802eb4-a1bd-4cbc-8342-c093b5c9afa1</itemGUID> <!-- BulletproofVest_Lynx_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>1cf4a5bf-31fd-44a9-8ced-ae9bfac1bce9</itemGUID> <!-- BulletproofVest_Lynx_FullProtectionKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>c1656b82-3664-45b2-b423-a743cc824d59</itemGUID> <!-- BulletproofVest_Lynx_HighMobilityKit -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>5f30a3af-d150-48d3-83ca-d23aea951def</itemGUID> <!-- ElbowPads_Lynx -->
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>dac13091-d873-43bf-aee9-ef0a6bb11b07</itemGUID> <!-- KneePads_Lynx -->
+		</m_items>
+<!-- Glasses -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>838788cb-2b55-417a-bb51-02285d916001</itemGUID> <!-- Glasses_Goggles_Lynx -->
+		</m_items>
+<!-- Mask -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b32c2727-18eb-43d6-950e-b33c357cf113</itemGUID> <!-- Mask_Balaclava_Lynx -->
+			<subItems>
+				<itemGUID>6dbb81b5-fd10-4a8e-b6ed-3fcc6fd11d33</itemGUID> <!-- Mask_BandanaMask_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</itemGUID> <!-- Sweater_Tactical_Lynx -->
+			<subItems>
+				<itemGUID>e864e78e-994c-4122-8c9e-72a3fb29a277</itemGUID> <!-- Sweater_Tactical_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b52f99f3-d513-4da1-98c0-dcaa125782f7</itemGUID> <!-- Shirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>484b7b54-7db4-4949-b5a6-dc428cb581e5</itemGUID> <!-- Shirt_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</itemGUID> <!-- Shirt_ShortSleeve_Lynx -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<itemGUID>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</itemGUID> <!--  Shirt_Sleeveless_Lynx -->
+			<subItems>
+				<itemGUID>bfca9fea-1f36-4245-8fd3-c486b0fd6671</itemGUID> <!-- Shirt_SleevelessShort_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>63325a48-c288-4109-b935-ad9b88717cb2</itemGUID> <!-- Shirt_Neckholder_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>2a704248-bd2f-4dd5-bf02-189b02d78e5d</itemGUID> <!-- Shirt_NeckholderShort_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>433440d7-550e-4b04-b3ef-baa2e8301757</itemGUID> <!-- Shirt_Tshirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>0fe1490d-9033-4578-bf62-2584f5e70b95</itemGUID> <!-- Shirt_TshirtShort_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</itemGUID> <!-- Shirt_TankTop_Lynx -->
+			<subItems>
+				<itemGUID>05b1a251-9df9-422e-b8ea-65ec7aab73f9</itemGUID> <!-- Shirt_TankTopShort_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>d39ff8d0-a364-466e-94ce-ffacf7d86183</itemGUID> <!-- Jacket_Lightweight_Lynx -->
+			<subItems>
+				<itemGUID>e288a942-d9d0-44bc-b40c-b8775c105f98</itemGUID> <!-- Jacket_Lightweight_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>b3e61f10-1156-42aa-ae64-93aeac19878e</itemGUID> <!-- Jacket_Lightweight_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>7c2abc2e-3ae4-4549-b28a-dd17bfdf4015</itemGUID> <!-- Jacket_Lightweight_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</itemGUID> <!-- Jacket_Hood_DOWN_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>3f4b006e-ef12-4ac4-8834-c200e5c1edef</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>0bf2ac6d-2a28-473d-845b-246a21a73de1</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>38d17c87-bc3e-4a4f-af14-79c160126fb4</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>ce14edff-78c4-4d34-a6ff-c24dd5bdbf81</itemGUID> <!-- Jacket_Hood_UP_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>935e7c72-d541-435c-a30e-0df79dfa30c6</itemGUID> <!-- Jacket_Hood_UP_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>166fff6a-c1c2-457c-8407-4a6662a79971</itemGUID> <!-- Jacket_Hood_UP_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b8476aa6-244f-4544-a1f2-e230735f3efa</itemGUID> <!-- Jacket_Hood_UP_Lynx_RolledUpSleeves -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</itemGUID> <!-- Gloves_Lynx -->
+			<subItems>
+				<itemGUID>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</itemGUID> <!-- GlovesFingerless_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>66e8b88f-08bc-41be-bfe6-539d0b779174</itemGUID> <!--  Pants_Classic_Lynx -->
+			<subItems>
+				<itemGUID>d28aff9c-6502-4a68-9f0d-a36f79edfaa7</itemGUID> <!-- Pants_Classic_Lynx_RollUp -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c359adb-eb4c-4ee2-bf2a-fd1b4e6ff4df</itemGUID> <!-- Pants_Shorts_Lynx -->
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>a0584c03-09e1-410b-b2e7-501d4cfa618a</itemGUID> <!--  Shoes_TacticalBoots_Lynx -->
+			<subItems>
+				<itemGUID>dc90a429-cd36-4b45-ad96-84a749a8b423</itemGUID> <!-- Shoes_Boots_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Underwear -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>7bec3ee3-9552-4f87-8d9f-0f8abb23368f</itemGUID> <!-- Stockings_Lynx -->
+			<subItems>
+				<itemGUID>7b9e7e97-ac01-4ea7-ac64-75bbfc5af966</itemGUID> <!-- Tights_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>82a227ce-8f50-425d-8067-43f9eb448d9e</itemGUID> <!-- Backpack_Lynx -->
+		</m_items>
+<!-- ChestRigs -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>23794c62-0fd5-43fb-a046-133c4510b1bc</itemGUID> <!-- ChestRigs_Lynx -->
+		</m_items>
+<!-- FannyPack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>8b30859e-d33b-4898-aa2e-25c679437d2e</itemGUID> <!-- FannyPack_Lynx -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7dc565e5-2fe8-432b-837b-698ede01ba49</itemGUID> <!-- HipBag_Lynx_Left -->
+		</m_items>
+	</m_FemaleOutfits>
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_MaleOutfits>
+		<m_Name>Lynx_Green</m_Name>
+		<m_Guid>ff5164c2-260e-4cf9-8095-6fc6d31cbc06</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>a74f43a9-e13a-49fb-84f4-de8605c6b478</itemGUID> <!-- Helmet_Lynx -->
+			<subItems>
+				<itemGUID>ef4c2887-d283-43ff-889e-fae6fe1f5850</itemGUID> <!-- Hat_BaseballCap_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>9dea3346-f7a4-46e0-8308-018da26416eb</itemGUID> <!-- Headsets_Lynx -->
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>6f085eb7-3b7e-48ec-8303-5fe644467b5a</itemGUID> <!-- BulletproofVest_Lynx -->
+			<subItems>
+				<itemGUID>4404e444-9c3d-46a8-866a-bbc8faba0df2</itemGUID> <!-- BulletproofVest_Lynx_Neck -->
+			</subItems>
+			<subItems>
+				<itemGUID>469b6de9-74c8-4c02-96b3-618230979400</itemGUID> <!-- BulletproofVest_Lynx_AssaultKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>c4802eb4-a1bd-4cbc-8342-c093b5c9afa1</itemGUID> <!-- BulletproofVest_Lynx_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>1cf4a5bf-31fd-44a9-8ced-ae9bfac1bce9</itemGUID> <!-- BulletproofVest_Lynx_FullProtectionKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>c1656b82-3664-45b2-b423-a743cc824d59</itemGUID> <!-- BulletproofVest_Lynx_HighMobilityKit -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>5f30a3af-d150-48d3-83ca-d23aea951def</itemGUID> <!-- ElbowPads_Lynx -->
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>dac13091-d873-43bf-aee9-ef0a6bb11b07</itemGUID> <!-- KneePads_Lynx -->
+		</m_items>
+<!-- Glasses -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>838788cb-2b55-417a-bb51-02285d916001</itemGUID> <!-- Glasses_Goggles_Lynx -->
+		</m_items>
+<!-- Mask -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b32c2727-18eb-43d6-950e-b33c357cf113</itemGUID> <!-- Mask_Balaclava_Lynx -->
+			<subItems>
+				<itemGUID>6dbb81b5-fd10-4a8e-b6ed-3fcc6fd11d33</itemGUID> <!-- Mask_BandanaMask_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</itemGUID> <!-- Sweater_Tactical_Lynx -->
+			<subItems>
+				<itemGUID>e864e78e-994c-4122-8c9e-72a3fb29a277</itemGUID> <!-- Sweater_Tactical_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b52f99f3-d513-4da1-98c0-dcaa125782f7</itemGUID> <!-- Shirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>484b7b54-7db4-4949-b5a6-dc428cb581e5</itemGUID> <!-- Shirt_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</itemGUID> <!-- Shirt_ShortSleeve_Lynx -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<itemGUID>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</itemGUID> <!--  Shirt_Sleeveless_Lynx -->
+			<subItems>
+				<itemGUID>433440d7-550e-4b04-b3ef-baa2e8301757</itemGUID> <!-- Shirt_Tshirt_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</itemGUID> <!-- Shirt_TankTop_Lynx -->
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>d39ff8d0-a364-466e-94ce-ffacf7d86183</itemGUID> <!-- Jacket_Lightweight_Lynx -->
+			<subItems>
+				<itemGUID>e288a942-d9d0-44bc-b40c-b8775c105f98</itemGUID> <!-- Jacket_Lightweight_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>b3e61f10-1156-42aa-ae64-93aeac19878e</itemGUID> <!-- Jacket_Lightweight_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>7c2abc2e-3ae4-4549-b28a-dd17bfdf4015</itemGUID> <!-- Jacket_Lightweight_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</itemGUID> <!-- Jacket_Hood_DOWN_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>3f4b006e-ef12-4ac4-8834-c200e5c1edef</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>0bf2ac6d-2a28-473d-845b-246a21a73de1</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>38d17c87-bc3e-4a4f-af14-79c160126fb4</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>ce14edff-78c4-4d34-a6ff-c24dd5bdbf81</itemGUID> <!-- Jacket_Hood_UP_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>935e7c72-d541-435c-a30e-0df79dfa30c6</itemGUID> <!-- Jacket_Hood_UP_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>166fff6a-c1c2-457c-8407-4a6662a79971</itemGUID> <!-- Jacket_Hood_UP_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b8476aa6-244f-4544-a1f2-e230735f3efa</itemGUID> <!-- Jacket_Hood_UP_Lynx_RolledUpSleeves -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</itemGUID> <!-- Gloves_Lynx -->
+			<subItems>
+				<itemGUID>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</itemGUID> <!-- GlovesFingerless_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>66e8b88f-08bc-41be-bfe6-539d0b779174</itemGUID> <!--  Pants_Classic_Lynx -->
+			<subItems>
+				<itemGUID>d28aff9c-6502-4a68-9f0d-a36f79edfaa7</itemGUID> <!-- Pants_Classic_Lynx_RollUp -->
+			</subItems>
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>a0584c03-09e1-410b-b2e7-501d4cfa618a</itemGUID> <!--  Shoes_TacticalBoots_Lynx -->
+			<subItems>
+				<itemGUID>dc90a429-cd36-4b45-ad96-84a749a8b423</itemGUID> <!-- Shoes_Boots_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Underwear -->
+<!-- Backpack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>82a227ce-8f50-425d-8067-43f9eb448d9e</itemGUID> <!-- Backpack_Lynx -->
+		</m_items>
+<!-- ChestRigs -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>23794c62-0fd5-43fb-a046-133c4510b1bc</itemGUID> <!-- ChestRigs_Lynx -->
+		</m_items>
+<!-- FannyPack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>8b30859e-d33b-4898-aa2e-25c679437d2e</itemGUID> <!-- FannyPack_Lynx -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7dc565e5-2fe8-432b-837b-698ede01ba49</itemGUID> <!-- HipBag_Lynx_Left -->
+		</m_items>
+	</m_MaleOutfits>
+
+
+
+
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Lynx_BallisticFaceShield_Black ///////////////////////////////// -->
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_FemaleOutfits>
+		<m_Name>Lynx_BallisticFaceShield_Black</m_Name>
+		<m_Guid>88ce6e5f-c549-47ef-ba7c-ac3bb5ad969f</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<itemGUID>a8bb1aa4-5ea5-43ba-95cf-4d0cf9ad73f1</itemGUID> <!-- Helmet_Lynx -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>a26979fc-9c65-4e47-9bd6-b17958a231b1</itemGUID> <!-- Helmet_BallisticFaceShield_Lynx_DOWN -->
+			<subItems>
+				<itemGUID>849acf31-c634-47ab-8ca5-4135cfa73f7d</itemGUID> <!-- Helmet_BallisticFaceShield_Lynx_UP -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>d685ce58-df6d-49fc-8ac4-3547cf696816</itemGUID> <!-- Headsets_Lynx_Helmet -->
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.9</probability>
+			<itemGUID>6bcfbf60-e5ef-4e44-a0f8-24e788c85734</itemGUID> <!-- BulletproofVest_Lynx_AssaultKit -->
+			<subItems>
+				<itemGUID>c4746de3-e9c2-4b8c-88d6-fa72d4b0a15f</itemGUID> <!-- BulletproofVest_Lynx_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>0c0d5192-aa8e-4cb8-8275-a20d0755f943</itemGUID> <!-- BulletproofVest_Lynx_FullProtectionKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>35699e1b-a917-43e1-baa2-e992e67f8ff9</itemGUID> <!-- BulletproofVest_Lynx_HighMobilityKit -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>6d035cb7-16e3-426e-92af-78735bb2bdae</itemGUID> <!-- ElbowPads_Lynx -->
+			<subItems>
+				<itemGUID>9ecec54d-68f1-49e3-b2a5-3566f2d09137</itemGUID> <!-- ElbowPads_Lynx_Armored -->
+			</subItems>
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>5beb4216-1ea4-4ce5-be86-538049e0da9b</itemGUID> <!-- KneePads_Lynx -->
+			<subItems>
+				<itemGUID>a9d41a23-7f20-4946-a344-1491ae19c7ad</itemGUID> <!-- KneePads_Lynx_Armored -->
+			</subItems>
+		</m_items>
+<!-- Glasses -->
+<!-- Mask -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>b32c2727-18eb-43d6-950e-b33c357cf113</itemGUID> <!-- Mask_Balaclava_Lynx -->
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</itemGUID> <!-- Sweater_Tactical_Lynx -->
+			<subItems>
+				<itemGUID>e864e78e-994c-4122-8c9e-72a3fb29a277</itemGUID> <!-- Sweater_Tactical_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b52f99f3-d513-4da1-98c0-dcaa125782f7</itemGUID> <!-- Shirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>484b7b54-7db4-4949-b5a6-dc428cb581e5</itemGUID> <!-- Shirt_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</itemGUID> <!-- Shirt_ShortSleeve_Lynx -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<itemGUID>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</itemGUID> <!--  Shirt_Sleeveless_Lynx -->
+			<subItems>
+				<itemGUID>bfca9fea-1f36-4245-8fd3-c486b0fd6671</itemGUID> <!-- Shirt_SleevelessShort_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>63325a48-c288-4109-b935-ad9b88717cb2</itemGUID> <!-- Shirt_Neckholder_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>2a704248-bd2f-4dd5-bf02-189b02d78e5d</itemGUID> <!-- Shirt_NeckholderShort_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>433440d7-550e-4b04-b3ef-baa2e8301757</itemGUID> <!-- Shirt_Tshirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>0fe1490d-9033-4578-bf62-2584f5e70b95</itemGUID> <!-- Shirt_TshirtShort_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</itemGUID> <!-- Shirt_TankTop_Lynx -->
+			<subItems>
+				<itemGUID>05b1a251-9df9-422e-b8ea-65ec7aab73f9</itemGUID> <!-- Shirt_TankTopShort_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<itemGUID>d39ff8d0-a364-466e-94ce-ffacf7d86183</itemGUID> <!-- Jacket_Lightweight_Lynx -->
+			<subItems>
+				<itemGUID>e288a942-d9d0-44bc-b40c-b8775c105f98</itemGUID> <!-- Jacket_Lightweight_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</itemGUID> <!-- Jacket_Hood_DOWN_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>3f4b006e-ef12-4ac4-8834-c200e5c1edef</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_Open -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</itemGUID> <!-- Gloves_Lynx -->
+			<subItems>
+				<itemGUID>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</itemGUID> <!-- GlovesFingerless_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>66e8b88f-08bc-41be-bfe6-539d0b779174</itemGUID> <!--  Pants_Classic_Lynx -->
+		</m_items>
+
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c359adb-eb4c-4ee2-bf2a-fd1b4e6ff4df</itemGUID> <!-- Pants_Shorts_Lynx -->
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>a0584c03-09e1-410b-b2e7-501d4cfa618a</itemGUID> <!--  Shoes_TacticalBoots_Lynx -->
+			<subItems>
+				<itemGUID>dc90a429-cd36-4b45-ad96-84a749a8b423</itemGUID> <!-- Shoes_Boots_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Underwear -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>7bec3ee3-9552-4f87-8d9f-0f8abb23368f</itemGUID> <!-- Stockings_Lynx -->
+			<subItems>
+				<itemGUID>7b9e7e97-ac01-4ea7-ac64-75bbfc5af966</itemGUID> <!-- Tights_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>82a227ce-8f50-425d-8067-43f9eb448d9e</itemGUID> <!-- Backpack_Lynx -->
+		</m_items>
+<!-- ChestRigs -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>23794c62-0fd5-43fb-a046-133c4510b1bc</itemGUID> <!-- ChestRigs_Lynx -->
+		</m_items>
+<!-- FannyPack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>8b30859e-d33b-4898-aa2e-25c679437d2e</itemGUID> <!-- FannyPack_Lynx -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7dc565e5-2fe8-432b-837b-698ede01ba49</itemGUID> <!-- HipBag_Lynx_Left -->
+		</m_items>
+	</m_FemaleOutfits>
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_MaleOutfits>
+		<m_Name>Lynx_BallisticFaceShield_Black</m_Name>
+		<m_Guid>8a517ba9-69c0-4ecd-9c39-159ce6f5c0ed</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<itemGUID>a8bb1aa4-5ea5-43ba-95cf-4d0cf9ad73f1</itemGUID> <!-- Helmet_Lynx -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>a26979fc-9c65-4e47-9bd6-b17958a231b1</itemGUID> <!-- Helmet_BallisticFaceShield_Lynx_DOWN -->
+			<subItems>
+				<itemGUID>849acf31-c634-47ab-8ca5-4135cfa73f7d</itemGUID> <!-- Helmet_BallisticFaceShield_Lynx_UP -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>d685ce58-df6d-49fc-8ac4-3547cf696816</itemGUID> <!-- Headsets_Lynx_Helmet -->
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.9</probability>
+			<itemGUID>6bcfbf60-e5ef-4e44-a0f8-24e788c85734</itemGUID> <!-- BulletproofVest_Lynx_AssaultKit -->
+			<subItems>
+				<itemGUID>c4746de3-e9c2-4b8c-88d6-fa72d4b0a15f</itemGUID> <!-- BulletproofVest_Lynx_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>0c0d5192-aa8e-4cb8-8275-a20d0755f943</itemGUID> <!-- BulletproofVest_Lynx_FullProtectionKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>35699e1b-a917-43e1-baa2-e992e67f8ff9</itemGUID> <!-- BulletproofVest_Lynx_HighMobilityKit -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>6d035cb7-16e3-426e-92af-78735bb2bdae</itemGUID> <!-- ElbowPads_Lynx -->
+			<subItems>
+				<itemGUID>9ecec54d-68f1-49e3-b2a5-3566f2d09137</itemGUID> <!-- ElbowPads_Lynx_Armored -->
+			</subItems>
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>5beb4216-1ea4-4ce5-be86-538049e0da9b</itemGUID> <!-- KneePads_Lynx -->
+			<subItems>
+				<itemGUID>a9d41a23-7f20-4946-a344-1491ae19c7ad</itemGUID> <!-- KneePads_Lynx_Armored -->
+			</subItems>
+		</m_items>
+<!-- Glasses -->
+<!-- Mask -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>b32c2727-18eb-43d6-950e-b33c357cf113</itemGUID> <!-- Mask_Balaclava_Lynx -->
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</itemGUID> <!-- Sweater_Tactical_Lynx -->
+			<subItems>
+				<itemGUID>e864e78e-994c-4122-8c9e-72a3fb29a277</itemGUID> <!-- Sweater_Tactical_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b52f99f3-d513-4da1-98c0-dcaa125782f7</itemGUID> <!-- Shirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>484b7b54-7db4-4949-b5a6-dc428cb581e5</itemGUID> <!-- Shirt_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</itemGUID> <!-- Shirt_ShortSleeve_Lynx -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<itemGUID>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</itemGUID> <!--  Shirt_Sleeveless_Lynx -->
+			<subItems>
+				<itemGUID>433440d7-550e-4b04-b3ef-baa2e8301757</itemGUID> <!-- Shirt_Tshirt_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</itemGUID> <!-- Shirt_TankTop_Lynx -->
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<itemGUID>d39ff8d0-a364-466e-94ce-ffacf7d86183</itemGUID> <!-- Jacket_Lightweight_Lynx -->
+			<subItems>
+				<itemGUID>e288a942-d9d0-44bc-b40c-b8775c105f98</itemGUID> <!-- Jacket_Lightweight_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</itemGUID> <!-- Jacket_Hood_DOWN_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>3f4b006e-ef12-4ac4-8834-c200e5c1edef</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_Open -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</itemGUID> <!-- Gloves_Lynx -->
+			<subItems>
+				<itemGUID>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</itemGUID> <!-- GlovesFingerless_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>66e8b88f-08bc-41be-bfe6-539d0b779174</itemGUID> <!--  Pants_Classic_Lynx -->
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>a0584c03-09e1-410b-b2e7-501d4cfa618a</itemGUID> <!--  Shoes_TacticalBoots_Lynx -->
+			<subItems>
+				<itemGUID>dc90a429-cd36-4b45-ad96-84a749a8b423</itemGUID> <!-- Shoes_Boots_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Underwear -->
+<!-- Backpack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>82a227ce-8f50-425d-8067-43f9eb448d9e</itemGUID> <!-- Backpack_Lynx -->
+		</m_items>
+<!-- ChestRigs -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>23794c62-0fd5-43fb-a046-133c4510b1bc</itemGUID> <!-- ChestRigs_Lynx -->
+		</m_items>
+<!-- FannyPack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>8b30859e-d33b-4898-aa2e-25c679437d2e</itemGUID> <!-- FannyPack_Lynx -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7dc565e5-2fe8-432b-837b-698ede01ba49</itemGUID> <!-- HipBag_Lynx_Left -->
+		</m_items>
+	</m_MaleOutfits>
+
+
+
+
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Lynx_BallisticFaceShield_Green ///////////////////////////////// -->
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_FemaleOutfits>
+		<m_Name>Lynx_BallisticFaceShield_Green</m_Name>
+		<m_Guid>98964c22-248a-4283-b6ef-f5e1d0fb0076</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<itemGUID>a74f43a9-e13a-49fb-84f4-de8605c6b478</itemGUID> <!-- Helmet_Lynx -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>a26979fc-9c65-4e47-9bd6-b17958a231b1</itemGUID> <!-- Helmet_BallisticFaceShield_Lynx_DOWN -->
+			<subItems>
+				<itemGUID>849acf31-c634-47ab-8ca5-4135cfa73f7d</itemGUID> <!-- Helmet_BallisticFaceShield_Lynx_UP -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>d685ce58-df6d-49fc-8ac4-3547cf696816</itemGUID> <!-- Headsets_Lynx_Helmet -->
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.9</probability>
+			<itemGUID>469b6de9-74c8-4c02-96b3-618230979400</itemGUID> <!-- BulletproofVest_Lynx_AssaultKit -->
+			<subItems>
+				<itemGUID>c4802eb4-a1bd-4cbc-8342-c093b5c9afa1</itemGUID> <!-- BulletproofVest_Lynx_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>1cf4a5bf-31fd-44a9-8ced-ae9bfac1bce9</itemGUID> <!-- BulletproofVest_Lynx_FullProtectionKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>c1656b82-3664-45b2-b423-a743cc824d59</itemGUID> <!-- BulletproofVest_Lynx_HighMobilityKit -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>5f30a3af-d150-48d3-83ca-d23aea951def</itemGUID> <!-- ElbowPads_Lynx -->
+			<subItems>
+				<itemGUID>5142d64e-9625-4530-b8f9-67353f448312</itemGUID> <!-- ElbowPads_Lynx_Armored -->
+			</subItems>
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>dac13091-d873-43bf-aee9-ef0a6bb11b07</itemGUID> <!-- KneePads_Lynx -->
+			<subItems>
+				<itemGUID>76a7a237-e524-4293-bf55-c623394f3b91</itemGUID> <!-- KneePads_Lynx_Armored -->
+			</subItems>
+		</m_items>
+<!-- Glasses -->
+<!-- Mask -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>b32c2727-18eb-43d6-950e-b33c357cf113</itemGUID> <!-- Mask_Balaclava_Lynx -->
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</itemGUID> <!-- Sweater_Tactical_Lynx -->
+			<subItems>
+				<itemGUID>e864e78e-994c-4122-8c9e-72a3fb29a277</itemGUID> <!-- Sweater_Tactical_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b52f99f3-d513-4da1-98c0-dcaa125782f7</itemGUID> <!-- Shirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>484b7b54-7db4-4949-b5a6-dc428cb581e5</itemGUID> <!-- Shirt_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</itemGUID> <!-- Shirt_ShortSleeve_Lynx -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<itemGUID>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</itemGUID> <!--  Shirt_Sleeveless_Lynx -->
+			<subItems>
+				<itemGUID>bfca9fea-1f36-4245-8fd3-c486b0fd6671</itemGUID> <!-- Shirt_SleevelessShort_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>63325a48-c288-4109-b935-ad9b88717cb2</itemGUID> <!-- Shirt_Neckholder_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>2a704248-bd2f-4dd5-bf02-189b02d78e5d</itemGUID> <!-- Shirt_NeckholderShort_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>433440d7-550e-4b04-b3ef-baa2e8301757</itemGUID> <!-- Shirt_Tshirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>0fe1490d-9033-4578-bf62-2584f5e70b95</itemGUID> <!-- Shirt_TshirtShort_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</itemGUID> <!-- Shirt_TankTop_Lynx -->
+			<subItems>
+				<itemGUID>05b1a251-9df9-422e-b8ea-65ec7aab73f9</itemGUID> <!-- Shirt_TankTopShort_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<itemGUID>d39ff8d0-a364-466e-94ce-ffacf7d86183</itemGUID> <!-- Jacket_Lightweight_Lynx -->
+			<subItems>
+				<itemGUID>e288a942-d9d0-44bc-b40c-b8775c105f98</itemGUID> <!-- Jacket_Lightweight_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</itemGUID> <!-- Jacket_Hood_DOWN_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>3f4b006e-ef12-4ac4-8834-c200e5c1edef</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_Open -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</itemGUID> <!-- Gloves_Lynx -->
+			<subItems>
+				<itemGUID>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</itemGUID> <!-- GlovesFingerless_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>66e8b88f-08bc-41be-bfe6-539d0b779174</itemGUID> <!--  Pants_Classic_Lynx -->
+		</m_items>
+
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c359adb-eb4c-4ee2-bf2a-fd1b4e6ff4df</itemGUID> <!-- Pants_Shorts_Lynx -->
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>a0584c03-09e1-410b-b2e7-501d4cfa618a</itemGUID> <!--  Shoes_TacticalBoots_Lynx -->
+			<subItems>
+				<itemGUID>dc90a429-cd36-4b45-ad96-84a749a8b423</itemGUID> <!-- Shoes_Boots_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Underwear -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>7bec3ee3-9552-4f87-8d9f-0f8abb23368f</itemGUID> <!-- Stockings_Lynx -->
+			<subItems>
+				<itemGUID>7b9e7e97-ac01-4ea7-ac64-75bbfc5af966</itemGUID> <!-- Tights_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>82a227ce-8f50-425d-8067-43f9eb448d9e</itemGUID> <!-- Backpack_Lynx -->
+		</m_items>
+<!-- ChestRigs -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>23794c62-0fd5-43fb-a046-133c4510b1bc</itemGUID> <!-- ChestRigs_Lynx -->
+		</m_items>
+<!-- FannyPack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>8b30859e-d33b-4898-aa2e-25c679437d2e</itemGUID> <!-- FannyPack_Lynx -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7dc565e5-2fe8-432b-837b-698ede01ba49</itemGUID> <!-- HipBag_Lynx_Left -->
+		</m_items>
+	</m_FemaleOutfits>
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_MaleOutfits>
+		<m_Name>Lynx_BallisticFaceShield_Green</m_Name>
+		<m_Guid>62c3f3da-1651-443a-8d80-2bfbb1fe0ccb</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<itemGUID>a74f43a9-e13a-49fb-84f4-de8605c6b478</itemGUID> <!-- Helmet_Lynx -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>a26979fc-9c65-4e47-9bd6-b17958a231b1</itemGUID> <!-- Helmet_BallisticFaceShield_Lynx_DOWN -->
+			<subItems>
+				<itemGUID>849acf31-c634-47ab-8ca5-4135cfa73f7d</itemGUID> <!-- Helmet_BallisticFaceShield_Lynx_UP -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>d685ce58-df6d-49fc-8ac4-3547cf696816</itemGUID> <!-- Headsets_Lynx_Helmet -->
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.9</probability>
+			<itemGUID>469b6de9-74c8-4c02-96b3-618230979400</itemGUID> <!-- BulletproofVest_Lynx_AssaultKit -->
+			<subItems>
+				<itemGUID>c4802eb4-a1bd-4cbc-8342-c093b5c9afa1</itemGUID> <!-- BulletproofVest_Lynx_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>1cf4a5bf-31fd-44a9-8ced-ae9bfac1bce9</itemGUID> <!-- BulletproofVest_Lynx_FullProtectionKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>c1656b82-3664-45b2-b423-a743cc824d59</itemGUID> <!-- BulletproofVest_Lynx_HighMobilityKit -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>5f30a3af-d150-48d3-83ca-d23aea951def</itemGUID> <!-- ElbowPads_Lynx -->
+			<subItems>
+				<itemGUID>5142d64e-9625-4530-b8f9-67353f448312</itemGUID> <!-- ElbowPads_Lynx_Armored -->
+			</subItems>
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>dac13091-d873-43bf-aee9-ef0a6bb11b07</itemGUID> <!-- KneePads_Lynx -->
+			<subItems>
+				<itemGUID>76a7a237-e524-4293-bf55-c623394f3b91</itemGUID> <!-- KneePads_Lynx_Armored -->
+			</subItems>
+		</m_items>
+<!-- Glasses -->
+<!-- Mask -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>b32c2727-18eb-43d6-950e-b33c357cf113</itemGUID> <!-- Mask_Balaclava_Lynx -->
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</itemGUID> <!-- Sweater_Tactical_Lynx -->
+			<subItems>
+				<itemGUID>e864e78e-994c-4122-8c9e-72a3fb29a277</itemGUID> <!-- Sweater_Tactical_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b52f99f3-d513-4da1-98c0-dcaa125782f7</itemGUID> <!-- Shirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>484b7b54-7db4-4949-b5a6-dc428cb581e5</itemGUID> <!-- Shirt_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</itemGUID> <!-- Shirt_ShortSleeve_Lynx -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<itemGUID>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</itemGUID> <!--  Shirt_Sleeveless_Lynx -->
+			<subItems>
+				<itemGUID>433440d7-550e-4b04-b3ef-baa2e8301757</itemGUID> <!-- Shirt_Tshirt_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</itemGUID> <!-- Shirt_TankTop_Lynx -->
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<itemGUID>d39ff8d0-a364-466e-94ce-ffacf7d86183</itemGUID> <!-- Jacket_Lightweight_Lynx -->
+			<subItems>
+				<itemGUID>e288a942-d9d0-44bc-b40c-b8775c105f98</itemGUID> <!-- Jacket_Lightweight_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</itemGUID> <!-- Jacket_Hood_DOWN_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>3f4b006e-ef12-4ac4-8834-c200e5c1edef</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_Open -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</itemGUID> <!-- Gloves_Lynx -->
+			<subItems>
+				<itemGUID>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</itemGUID> <!-- GlovesFingerless_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>66e8b88f-08bc-41be-bfe6-539d0b779174</itemGUID> <!--  Pants_Classic_Lynx -->
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>a0584c03-09e1-410b-b2e7-501d4cfa618a</itemGUID> <!--  Shoes_TacticalBoots_Lynx -->
+			<subItems>
+				<itemGUID>dc90a429-cd36-4b45-ad96-84a749a8b423</itemGUID> <!-- Shoes_Boots_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Underwear -->
+<!-- Backpack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>82a227ce-8f50-425d-8067-43f9eb448d9e</itemGUID> <!-- Backpack_Lynx -->
+		</m_items>
+<!-- ChestRigs -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>23794c62-0fd5-43fb-a046-133c4510b1bc</itemGUID> <!-- ChestRigs_Lynx -->
+		</m_items>
+<!-- FannyPack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>8b30859e-d33b-4898-aa2e-25c679437d2e</itemGUID> <!-- FannyPack_Lynx -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7dc565e5-2fe8-432b-837b-698ede01ba49</itemGUID> <!-- HipBag_Lynx_Left -->
+		</m_items>
+	</m_MaleOutfits>
+
+
+
+
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Lynx_RysT_Black //////////////////////////////////////// -->
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+
+	<m_FemaleOutfits>
+		<m_Name>Lynx_RysT_Black</m_Name>
+		<m_Guid>a69ebcee-f649-41b8-9933-133ecd80d2af</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<itemGUID>473283cd-e50d-48f3-89b8-b36044168049</itemGUID> <!-- Helmet_RysT_Lynx_DOWN -->
+			<subItems>
+				<itemGUID>2a3f555f-85ae-4799-8f8a-d4f82d0ca34b</itemGUID> <!-- Helmet_RysT_Lynx_UP -->
+			</subItems>
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.9</probability>
+			<itemGUID>6bcfbf60-e5ef-4e44-a0f8-24e788c85734</itemGUID> <!-- BulletproofVest_Lynx_AssaultKit -->
+			<subItems>
+				<itemGUID>c4746de3-e9c2-4b8c-88d6-fa72d4b0a15f</itemGUID> <!-- BulletproofVest_Lynx_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>0c0d5192-aa8e-4cb8-8275-a20d0755f943</itemGUID> <!-- BulletproofVest_Lynx_FullProtectionKit -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>9ecec54d-68f1-49e3-b2a5-3566f2d09137</itemGUID> <!-- ElbowPads_Lynx_Armored -->
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>a9d41a23-7f20-4946-a344-1491ae19c7ad</itemGUID> <!-- KneePads_Lynx_Armored -->
+		</m_items>
+<!-- Glasses -->
+<!-- Mask -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>b32c2727-18eb-43d6-950e-b33c357cf113</itemGUID> <!-- Mask_Balaclava_Lynx -->
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</itemGUID> <!-- Sweater_Tactical_Lynx -->
+			<subItems>
+				<itemGUID>e864e78e-994c-4122-8c9e-72a3fb29a277</itemGUID> <!-- Sweater_Tactical_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b52f99f3-d513-4da1-98c0-dcaa125782f7</itemGUID> <!-- Shirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>484b7b54-7db4-4949-b5a6-dc428cb581e5</itemGUID> <!-- Shirt_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</itemGUID> <!-- Shirt_ShortSleeve_Lynx -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<itemGUID>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</itemGUID> <!--  Shirt_Sleeveless_Lynx -->
+			<subItems>
+				<itemGUID>bfca9fea-1f36-4245-8fd3-c486b0fd6671</itemGUID> <!-- Shirt_SleevelessShort_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>63325a48-c288-4109-b935-ad9b88717cb2</itemGUID> <!-- Shirt_Neckholder_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>2a704248-bd2f-4dd5-bf02-189b02d78e5d</itemGUID> <!-- Shirt_NeckholderShort_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>433440d7-550e-4b04-b3ef-baa2e8301757</itemGUID> <!-- Shirt_Tshirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>0fe1490d-9033-4578-bf62-2584f5e70b95</itemGUID> <!-- Shirt_TshirtShort_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</itemGUID> <!-- Shirt_TankTop_Lynx -->
+			<subItems>
+				<itemGUID>05b1a251-9df9-422e-b8ea-65ec7aab73f9</itemGUID> <!-- Shirt_TankTopShort_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<itemGUID>d39ff8d0-a364-466e-94ce-ffacf7d86183</itemGUID> <!-- Jacket_Lightweight_Lynx -->
+			<subItems>
+				<itemGUID>e288a942-d9d0-44bc-b40c-b8775c105f98</itemGUID> <!-- Jacket_Lightweight_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</itemGUID> <!-- Jacket_Hood_DOWN_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>3f4b006e-ef12-4ac4-8834-c200e5c1edef</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_Open -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</itemGUID> <!-- Gloves_Lynx -->
+			<subItems>
+				<itemGUID>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</itemGUID> <!-- GlovesFingerless_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>66e8b88f-08bc-41be-bfe6-539d0b779174</itemGUID> <!--  Pants_Classic_Lynx -->
+		</m_items>
+
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c359adb-eb4c-4ee2-bf2a-fd1b4e6ff4df</itemGUID> <!-- Pants_Shorts_Lynx -->
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>a0584c03-09e1-410b-b2e7-501d4cfa618a</itemGUID> <!--  Shoes_TacticalBoots_Lynx -->
+			<subItems>
+				<itemGUID>dc90a429-cd36-4b45-ad96-84a749a8b423</itemGUID> <!-- Shoes_Boots_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Underwear -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>7bec3ee3-9552-4f87-8d9f-0f8abb23368f</itemGUID> <!-- Stockings_Lynx -->
+			<subItems>
+				<itemGUID>7b9e7e97-ac01-4ea7-ac64-75bbfc5af966</itemGUID> <!-- Tights_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>82a227ce-8f50-425d-8067-43f9eb448d9e</itemGUID> <!-- Backpack_Lynx -->
+		</m_items>
+<!-- ChestRigs -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>23794c62-0fd5-43fb-a046-133c4510b1bc</itemGUID> <!-- ChestRigs_Lynx -->
+		</m_items>
+<!-- FannyPack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>8b30859e-d33b-4898-aa2e-25c679437d2e</itemGUID> <!-- FannyPack_Lynx -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7dc565e5-2fe8-432b-837b-698ede01ba49</itemGUID> <!-- HipBag_Lynx_Left -->
+		</m_items>
+	</m_FemaleOutfits>
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_MaleOutfits>
+		<m_Name>Lynx_RysT_Black</m_Name>
+		<m_Guid>149158a4-76d8-4124-ae0b-5553c16134e3</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<itemGUID>473283cd-e50d-48f3-89b8-b36044168049</itemGUID> <!-- Helmet_RysT_Lynx_DOWN -->
+			<subItems>
+				<itemGUID>2a3f555f-85ae-4799-8f8a-d4f82d0ca34b</itemGUID> <!-- Helmet_RysT_Lynx_UP -->
+			</subItems>
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.9</probability>
+			<itemGUID>6bcfbf60-e5ef-4e44-a0f8-24e788c85734</itemGUID> <!-- BulletproofVest_Lynx_AssaultKit -->
+			<subItems>
+				<itemGUID>c4746de3-e9c2-4b8c-88d6-fa72d4b0a15f</itemGUID> <!-- BulletproofVest_Lynx_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>0c0d5192-aa8e-4cb8-8275-a20d0755f943</itemGUID> <!-- BulletproofVest_Lynx_FullProtectionKit -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>9ecec54d-68f1-49e3-b2a5-3566f2d09137</itemGUID> <!-- ElbowPads_Lynx_Armored -->
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>a9d41a23-7f20-4946-a344-1491ae19c7ad</itemGUID> <!-- KneePads_Lynx_Armored -->
+		</m_items>
+<!-- Glasses -->
+<!-- Mask -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>b32c2727-18eb-43d6-950e-b33c357cf113</itemGUID> <!-- Mask_Balaclava_Lynx -->
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</itemGUID> <!-- Sweater_Tactical_Lynx -->
+			<subItems>
+				<itemGUID>e864e78e-994c-4122-8c9e-72a3fb29a277</itemGUID> <!-- Sweater_Tactical_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b52f99f3-d513-4da1-98c0-dcaa125782f7</itemGUID> <!-- Shirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>484b7b54-7db4-4949-b5a6-dc428cb581e5</itemGUID> <!-- Shirt_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</itemGUID> <!-- Shirt_ShortSleeve_Lynx -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<itemGUID>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</itemGUID> <!--  Shirt_Sleeveless_Lynx -->
+			<subItems>
+				<itemGUID>433440d7-550e-4b04-b3ef-baa2e8301757</itemGUID> <!-- Shirt_Tshirt_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</itemGUID> <!-- Shirt_TankTop_Lynx -->
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<itemGUID>d39ff8d0-a364-466e-94ce-ffacf7d86183</itemGUID> <!-- Jacket_Lightweight_Lynx -->
+			<subItems>
+				<itemGUID>e288a942-d9d0-44bc-b40c-b8775c105f98</itemGUID> <!-- Jacket_Lightweight_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</itemGUID> <!-- Jacket_Hood_DOWN_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>3f4b006e-ef12-4ac4-8834-c200e5c1edef</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_Open -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</itemGUID> <!-- Gloves_Lynx -->
+			<subItems>
+				<itemGUID>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</itemGUID> <!-- GlovesFingerless_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>66e8b88f-08bc-41be-bfe6-539d0b779174</itemGUID> <!--  Pants_Classic_Lynx -->
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>a0584c03-09e1-410b-b2e7-501d4cfa618a</itemGUID> <!--  Shoes_TacticalBoots_Lynx -->
+			<subItems>
+				<itemGUID>dc90a429-cd36-4b45-ad96-84a749a8b423</itemGUID> <!-- Shoes_Boots_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Underwear -->
+<!-- Backpack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>82a227ce-8f50-425d-8067-43f9eb448d9e</itemGUID> <!-- Backpack_Lynx -->
+		</m_items>
+<!-- ChestRigs -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>23794c62-0fd5-43fb-a046-133c4510b1bc</itemGUID> <!-- ChestRigs_Lynx -->
+		</m_items>
+<!-- FannyPack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>8b30859e-d33b-4898-aa2e-25c679437d2e</itemGUID> <!-- FannyPack_Lynx -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7dc565e5-2fe8-432b-837b-698ede01ba49</itemGUID> <!-- HipBag_Lynx_Left -->
+		</m_items>
+	</m_MaleOutfits>
+
+
+
+
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Lynx_RysT_Green //////////////////////////////////////// -->
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_FemaleOutfits>
+		<m_Name>Lynx_RysT_Green</m_Name>
+		<m_Guid>5b54867c-ceee-4856-9a57-a3c784628cf4</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<itemGUID>e9f06893-67c8-4beb-b5e8-79d228f2819c</itemGUID> <!-- Helmet_RysT_Lynx_DOWN -->
+			<subItems>
+				<itemGUID>8567072e-284f-4781-9e79-a2986823d7e1</itemGUID> <!-- Helmet_RysT_Lynx_UP -->
+			</subItems>
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.9</probability>
+			<itemGUID>469b6de9-74c8-4c02-96b3-618230979400</itemGUID> <!-- BulletproofVest_Lynx_AssaultKit -->
+			<subItems>
+				<itemGUID>c4802eb4-a1bd-4cbc-8342-c093b5c9afa1</itemGUID> <!-- BulletproofVest_Lynx_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>1cf4a5bf-31fd-44a9-8ced-ae9bfac1bce9</itemGUID> <!-- BulletproofVest_Lynx_FullProtectionKit -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>5142d64e-9625-4530-b8f9-67353f448312</itemGUID> <!-- ElbowPads_Lynx_Armored -->
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>76a7a237-e524-4293-bf55-c623394f3b91</itemGUID> <!-- KneePads_Lynx_Armored -->
+		</m_items>
+<!-- Glasses -->
+<!-- Mask -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>b32c2727-18eb-43d6-950e-b33c357cf113</itemGUID> <!-- Mask_Balaclava_Lynx -->
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</itemGUID> <!-- Sweater_Tactical_Lynx -->
+			<subItems>
+				<itemGUID>e864e78e-994c-4122-8c9e-72a3fb29a277</itemGUID> <!-- Sweater_Tactical_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b52f99f3-d513-4da1-98c0-dcaa125782f7</itemGUID> <!-- Shirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>484b7b54-7db4-4949-b5a6-dc428cb581e5</itemGUID> <!-- Shirt_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</itemGUID> <!-- Shirt_ShortSleeve_Lynx -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<itemGUID>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</itemGUID> <!--  Shirt_Sleeveless_Lynx -->
+			<subItems>
+				<itemGUID>bfca9fea-1f36-4245-8fd3-c486b0fd6671</itemGUID> <!-- Shirt_SleevelessShort_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>63325a48-c288-4109-b935-ad9b88717cb2</itemGUID> <!-- Shirt_Neckholder_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>2a704248-bd2f-4dd5-bf02-189b02d78e5d</itemGUID> <!-- Shirt_NeckholderShort_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>433440d7-550e-4b04-b3ef-baa2e8301757</itemGUID> <!-- Shirt_Tshirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>0fe1490d-9033-4578-bf62-2584f5e70b95</itemGUID> <!-- Shirt_TshirtShort_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</itemGUID> <!-- Shirt_TankTop_Lynx -->
+			<subItems>
+				<itemGUID>05b1a251-9df9-422e-b8ea-65ec7aab73f9</itemGUID> <!-- Shirt_TankTopShort_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<itemGUID>d39ff8d0-a364-466e-94ce-ffacf7d86183</itemGUID> <!-- Jacket_Lightweight_Lynx -->
+			<subItems>
+				<itemGUID>e288a942-d9d0-44bc-b40c-b8775c105f98</itemGUID> <!-- Jacket_Lightweight_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</itemGUID> <!-- Jacket_Hood_DOWN_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>3f4b006e-ef12-4ac4-8834-c200e5c1edef</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_Open -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</itemGUID> <!-- Gloves_Lynx -->
+			<subItems>
+				<itemGUID>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</itemGUID> <!-- GlovesFingerless_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>66e8b88f-08bc-41be-bfe6-539d0b779174</itemGUID> <!--  Pants_Classic_Lynx -->
+		</m_items>
+
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c359adb-eb4c-4ee2-bf2a-fd1b4e6ff4df</itemGUID> <!-- Pants_Shorts_Lynx -->
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>a0584c03-09e1-410b-b2e7-501d4cfa618a</itemGUID> <!--  Shoes_TacticalBoots_Lynx -->
+			<subItems>
+				<itemGUID>dc90a429-cd36-4b45-ad96-84a749a8b423</itemGUID> <!-- Shoes_Boots_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Underwear -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>7bec3ee3-9552-4f87-8d9f-0f8abb23368f</itemGUID> <!-- Stockings_Lynx -->
+			<subItems>
+				<itemGUID>7b9e7e97-ac01-4ea7-ac64-75bbfc5af966</itemGUID> <!-- Tights_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>82a227ce-8f50-425d-8067-43f9eb448d9e</itemGUID> <!-- Backpack_Lynx -->
+		</m_items>
+<!-- ChestRigs -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>23794c62-0fd5-43fb-a046-133c4510b1bc</itemGUID> <!-- ChestRigs_Lynx -->
+		</m_items>
+<!-- FannyPack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>8b30859e-d33b-4898-aa2e-25c679437d2e</itemGUID> <!-- FannyPack_Lynx -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7dc565e5-2fe8-432b-837b-698ede01ba49</itemGUID> <!-- HipBag_Lynx_Left -->
+		</m_items>
+	</m_FemaleOutfits>
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_MaleOutfits>
+		<m_Name>Lynx_RysT_Green</m_Name>
+		<m_Guid>3f819096-0ebe-4395-81bb-7f743cef6110</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<itemGUID>e9f06893-67c8-4beb-b5e8-79d228f2819c</itemGUID> <!-- Helmet_RysT_Lynx_DOWN -->
+			<subItems>
+				<itemGUID>8567072e-284f-4781-9e79-a2986823d7e1</itemGUID> <!-- Helmet_RysT_Lynx_UP -->
+			</subItems>
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.9</probability>
+			<itemGUID>469b6de9-74c8-4c02-96b3-618230979400</itemGUID> <!-- BulletproofVest_Lynx_AssaultKit -->
+			<subItems>
+				<itemGUID>c4802eb4-a1bd-4cbc-8342-c093b5c9afa1</itemGUID> <!-- BulletproofVest_Lynx_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>1cf4a5bf-31fd-44a9-8ced-ae9bfac1bce9</itemGUID> <!-- BulletproofVest_Lynx_FullProtectionKit -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>5142d64e-9625-4530-b8f9-67353f448312</itemGUID> <!-- ElbowPads_Lynx_Armored -->
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>76a7a237-e524-4293-bf55-c623394f3b91</itemGUID> <!-- KneePads_Lynx_Armored -->
+		</m_items>
+<!-- Glasses -->
+<!-- Mask -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>b32c2727-18eb-43d6-950e-b33c357cf113</itemGUID> <!-- Mask_Balaclava_Lynx -->
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</itemGUID> <!-- Sweater_Tactical_Lynx -->
+			<subItems>
+				<itemGUID>e864e78e-994c-4122-8c9e-72a3fb29a277</itemGUID> <!-- Sweater_Tactical_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b52f99f3-d513-4da1-98c0-dcaa125782f7</itemGUID> <!-- Shirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>484b7b54-7db4-4949-b5a6-dc428cb581e5</itemGUID> <!-- Shirt_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</itemGUID> <!-- Shirt_ShortSleeve_Lynx -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<itemGUID>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</itemGUID> <!--  Shirt_Sleeveless_Lynx -->
+			<subItems>
+				<itemGUID>433440d7-550e-4b04-b3ef-baa2e8301757</itemGUID> <!-- Shirt_Tshirt_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</itemGUID> <!-- Shirt_TankTop_Lynx -->
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<itemGUID>d39ff8d0-a364-466e-94ce-ffacf7d86183</itemGUID> <!-- Jacket_Lightweight_Lynx -->
+			<subItems>
+				<itemGUID>e288a942-d9d0-44bc-b40c-b8775c105f98</itemGUID> <!-- Jacket_Lightweight_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</itemGUID> <!-- Jacket_Hood_DOWN_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>3f4b006e-ef12-4ac4-8834-c200e5c1edef</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_Open -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</itemGUID> <!-- Gloves_Lynx -->
+			<subItems>
+				<itemGUID>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</itemGUID> <!-- GlovesFingerless_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>66e8b88f-08bc-41be-bfe6-539d0b779174</itemGUID> <!--  Pants_Classic_Lynx -->
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>a0584c03-09e1-410b-b2e7-501d4cfa618a</itemGUID> <!--  Shoes_TacticalBoots_Lynx -->
+			<subItems>
+				<itemGUID>dc90a429-cd36-4b45-ad96-84a749a8b423</itemGUID> <!-- Shoes_Boots_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Underwear -->
+<!-- Backpack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>82a227ce-8f50-425d-8067-43f9eb448d9e</itemGUID> <!-- Backpack_Lynx -->
+		</m_items>
+<!-- ChestRigs -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>23794c62-0fd5-43fb-a046-133c4510b1bc</itemGUID> <!-- ChestRigs_Lynx -->
+		</m_items>
+<!-- FannyPack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>8b30859e-d33b-4898-aa2e-25c679437d2e</itemGUID> <!-- FannyPack_Lynx -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7dc565e5-2fe8-432b-837b-698ede01ba49</itemGUID> <!-- HipBag_Lynx_Left -->
+		</m_items>
+	</m_MaleOutfits>
+
+
+
+
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Lynx_Clothes ///////////////////////////////////////// -->
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_FemaleOutfits>
+		<m_Name>Lynx_Clothes</m_Name>
+		<m_Guid>b6941b54-9006-4c1d-9f7c-aa6df514417a</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef4c2887-d283-43ff-889e-fae6fe1f5850</itemGUID> <!-- Hat_BaseballCap_Lynx -->
+		</m_items>
+
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>9dea3346-f7a4-46e0-8308-018da26416eb</itemGUID> <!-- Headsets_Lynx -->
+		</m_items>
+<!-- BulletproofVest -->
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>6d035cb7-16e3-426e-92af-78735bb2bdae</itemGUID> <!-- ElbowPads_Lynx_Black -->
+			<subItems>
+				<itemGUID>5f30a3af-d150-48d3-83ca-d23aea951def</itemGUID> <!-- ElbowPads_Lynx_Green -->
+			</subItems>
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5beb4216-1ea4-4ce5-be86-538049e0da9b</itemGUID> <!-- KneePads_Lynx_Black -->
+			<subItems>
+				<itemGUID>dac13091-d873-43bf-aee9-ef0a6bb11b07</itemGUID> <!-- ElbowPads_Lynx_Green -->
+			</subItems>
+		</m_items>
+<!-- Glasses -->
+<!-- Mask -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6dbb81b5-fd10-4a8e-b6ed-3fcc6fd11d33</itemGUID> <!-- Mask_BandanaMask_Lynx -->
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</itemGUID> <!-- Sweater_Tactical_Lynx -->
+			<subItems>
+				<itemGUID>e864e78e-994c-4122-8c9e-72a3fb29a277</itemGUID> <!-- Sweater_Tactical_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b52f99f3-d513-4da1-98c0-dcaa125782f7</itemGUID> <!-- Shirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>484b7b54-7db4-4949-b5a6-dc428cb581e5</itemGUID> <!-- Shirt_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</itemGUID> <!-- Shirt_ShortSleeve_Lynx -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<itemGUID>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</itemGUID> <!--  Shirt_Sleeveless_Lynx -->
+			<subItems>
+				<itemGUID>bfca9fea-1f36-4245-8fd3-c486b0fd6671</itemGUID> <!-- Shirt_SleevelessShort_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>63325a48-c288-4109-b935-ad9b88717cb2</itemGUID> <!-- Shirt_Neckholder_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>2a704248-bd2f-4dd5-bf02-189b02d78e5d</itemGUID> <!-- Shirt_NeckholderShort_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>433440d7-550e-4b04-b3ef-baa2e8301757</itemGUID> <!-- Shirt_Tshirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>0fe1490d-9033-4578-bf62-2584f5e70b95</itemGUID> <!-- Shirt_TshirtShort_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</itemGUID> <!-- Shirt_TankTop_Lynx -->
+			<subItems>
+				<itemGUID>05b1a251-9df9-422e-b8ea-65ec7aab73f9</itemGUID> <!-- Shirt_TankTopShort_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d39ff8d0-a364-466e-94ce-ffacf7d86183</itemGUID> <!-- Jacket_Lightweight_Lynx -->
+			<subItems>
+				<itemGUID>e288a942-d9d0-44bc-b40c-b8775c105f98</itemGUID> <!-- Jacket_Lightweight_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>b3e61f10-1156-42aa-ae64-93aeac19878e</itemGUID> <!-- Jacket_Lightweight_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>7c2abc2e-3ae4-4549-b28a-dd17bfdf4015</itemGUID> <!-- Jacket_Lightweight_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</itemGUID> <!-- Jacket_Hood_DOWN_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>3f4b006e-ef12-4ac4-8834-c200e5c1edef</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>0bf2ac6d-2a28-473d-845b-246a21a73de1</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>38d17c87-bc3e-4a4f-af14-79c160126fb4</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>ce14edff-78c4-4d34-a6ff-c24dd5bdbf81</itemGUID> <!-- Jacket_Hood_UP_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>935e7c72-d541-435c-a30e-0df79dfa30c6</itemGUID> <!-- Jacket_Hood_UP_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>166fff6a-c1c2-457c-8407-4a6662a79971</itemGUID> <!-- Jacket_Hood_UP_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b8476aa6-244f-4544-a1f2-e230735f3efa</itemGUID> <!-- Jacket_Hood_UP_Lynx_RolledUpSleeves -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</itemGUID> <!-- Gloves_Lynx -->
+			<subItems>
+				<itemGUID>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</itemGUID> <!-- GlovesFingerless_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>66e8b88f-08bc-41be-bfe6-539d0b779174</itemGUID> <!--  Pants_Classic_Lynx -->
+			<subItems>
+				<itemGUID>d28aff9c-6502-4a68-9f0d-a36f79edfaa7</itemGUID> <!-- Pants_Classic_Lynx_RollUp -->
+			</subItems>
+			<subItems>
+				<itemGUID>5c359adb-eb4c-4ee2-bf2a-fd1b4e6ff4df</itemGUID> <!-- Pants_Shorts_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>b98119f4-5f14-4691-838a-e7875e85277c</itemGUID> <!-- Pants_Skinny_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>a0584c03-09e1-410b-b2e7-501d4cfa618a</itemGUID> <!--  Shoes_TacticalBoots_Lynx -->
+			<subItems>
+				<itemGUID>dc90a429-cd36-4b45-ad96-84a749a8b423</itemGUID> <!-- Shoes_Boots_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Underwear -->
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>7bec3ee3-9552-4f87-8d9f-0f8abb23368f</itemGUID> <!-- Stockings_Lynx -->
+			<subItems>
+				<itemGUID>7b9e7e97-ac01-4ea7-ac64-75bbfc5af966</itemGUID> <!-- Tights_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>0a2d12ea-5f58-4ea7-81a8-9fb376ab31cf</itemGUID> <!-- Backpack_Lynx_Tight -->
+		</m_items>
+<!-- ChestRigs -->
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6afa4d2c-c667-47db-8b58-8085f248c366</itemGUID> <!-- ChestRigs_Lynx_Tight -->
+		</m_items>
+<!-- FannyPack -->
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>8b30859e-d33b-4898-aa2e-25c679437d2e</itemGUID> <!-- FannyPack_Lynx -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>7dc565e5-2fe8-432b-837b-698ede01ba49</itemGUID> <!-- HipBag_Lynx_Left -->
+		</m_items>
+	</m_FemaleOutfits>
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_MaleOutfits>
+		<m_Name>Lynx_Clothes</m_Name>
+		<m_Guid>d100f72f-bdea-4d97-a3a1-477e46ec0db5</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef4c2887-d283-43ff-889e-fae6fe1f5850</itemGUID> <!-- Hat_BaseballCap_Lynx -->
+		</m_items>
+
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>9dea3346-f7a4-46e0-8308-018da26416eb</itemGUID> <!-- Headsets_Lynx -->
+		</m_items>
+<!-- BulletproofVest -->
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>6d035cb7-16e3-426e-92af-78735bb2bdae</itemGUID> <!-- ElbowPads_Lynx_Black -->
+			<subItems>
+				<itemGUID>5f30a3af-d150-48d3-83ca-d23aea951def</itemGUID> <!-- ElbowPads_Lynx_Green -->
+			</subItems>
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5beb4216-1ea4-4ce5-be86-538049e0da9b</itemGUID> <!-- KneePads_Lynx_Black -->
+			<subItems>
+				<itemGUID>dac13091-d873-43bf-aee9-ef0a6bb11b07</itemGUID> <!-- ElbowPads_Lynx_Green -->
+			</subItems>
+		</m_items>
+<!-- Glasses -->
+<!-- Mask -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6dbb81b5-fd10-4a8e-b6ed-3fcc6fd11d33</itemGUID> <!-- Mask_BandanaMask_Lynx -->
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</itemGUID> <!-- Sweater_Tactical_Lynx -->
+			<subItems>
+				<itemGUID>e864e78e-994c-4122-8c9e-72a3fb29a277</itemGUID> <!-- Sweater_Tactical_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b52f99f3-d513-4da1-98c0-dcaa125782f7</itemGUID> <!-- Shirt_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>484b7b54-7db4-4949-b5a6-dc428cb581e5</itemGUID> <!-- Shirt_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</itemGUID> <!-- Shirt_ShortSleeve_Lynx -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<itemGUID>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</itemGUID> <!--  Shirt_Sleeveless_Lynx -->
+			<subItems>
+				<itemGUID>433440d7-550e-4b04-b3ef-baa2e8301757</itemGUID> <!-- Shirt_Tshirt_Lynx -->
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</itemGUID> <!-- Shirt_TankTop_Lynx -->
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d39ff8d0-a364-466e-94ce-ffacf7d86183</itemGUID> <!-- Jacket_Lightweight_Lynx -->
+			<subItems>
+				<itemGUID>e288a942-d9d0-44bc-b40c-b8775c105f98</itemGUID> <!-- Jacket_Lightweight_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>b3e61f10-1156-42aa-ae64-93aeac19878e</itemGUID> <!-- Jacket_Lightweight_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>7c2abc2e-3ae4-4549-b28a-dd17bfdf4015</itemGUID> <!-- Jacket_Lightweight_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</itemGUID> <!-- Jacket_Hood_DOWN_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>3f4b006e-ef12-4ac4-8834-c200e5c1edef</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>0bf2ac6d-2a28-473d-845b-246a21a73de1</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>38d17c87-bc3e-4a4f-af14-79c160126fb4</itemGUID> <!-- Jacket_Hood_DOWN_Lynx_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>ce14edff-78c4-4d34-a6ff-c24dd5bdbf81</itemGUID> <!-- Jacket_Hood_UP_Lynx -->
+			</subItems>
+			<subItems>
+				<itemGUID>935e7c72-d541-435c-a30e-0df79dfa30c6</itemGUID> <!-- Jacket_Hood_UP_Lynx_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>166fff6a-c1c2-457c-8407-4a6662a79971</itemGUID> <!-- Jacket_Hood_UP_Lynx_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>b8476aa6-244f-4544-a1f2-e230735f3efa</itemGUID> <!-- Jacket_Hood_UP_Lynx_RolledUpSleeves -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</itemGUID> <!-- Gloves_Lynx -->
+			<subItems>
+				<itemGUID>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</itemGUID> <!-- GlovesFingerless_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>66e8b88f-08bc-41be-bfe6-539d0b779174</itemGUID> <!--  Pants_Classic_Lynx -->
+			<subItems>
+				<itemGUID>d28aff9c-6502-4a68-9f0d-a36f79edfaa7</itemGUID> <!-- Pants_Classic_Lynx_RollUp -->
+			</subItems>
+			<subItems>
+				<itemGUID>b98119f4-5f14-4691-838a-e7875e85277c</itemGUID> <!-- Pants_Skinny_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>a0584c03-09e1-410b-b2e7-501d4cfa618a</itemGUID> <!--  Shoes_TacticalBoots_Lynx -->
+			<subItems>
+				<itemGUID>dc90a429-cd36-4b45-ad96-84a749a8b423</itemGUID> <!-- Shoes_Boots_Lynx -->
+			</subItems>
+		</m_items>
+<!-- Underwear -->
+<!-- Backpack -->
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>0a2d12ea-5f58-4ea7-81a8-9fb376ab31cf</itemGUID> <!-- Backpack_Lynx_Tight -->
+		</m_items>
+<!-- ChestRigs -->
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6afa4d2c-c667-47db-8b58-8085f248c366</itemGUID> <!-- ChestRigs_Lynx_Tight -->
+		</m_items>
+<!-- FannyPack -->
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>8b30859e-d33b-4898-aa2e-25c679437d2e</itemGUID> <!-- FannyPack_Lynx -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>7dc565e5-2fe8-432b-837b-698ede01ba49</itemGUID> <!-- HipBag_Lynx_Left -->
+		</m_items>
+	</m_MaleOutfits>
+
+
+</outfitManager>

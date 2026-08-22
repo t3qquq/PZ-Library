@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Static\Clothes\M_Glasses_Goggles</m_MaleModel>
+	<m_FemaleModel>Static\Clothes\F_Glasses_Goggles</m_FemaleModel>
+	<m_GUID>838788cb-2b55-417a-bb51-02285d916001</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_MasksFolder>Group05</m_MasksFolder>
+	<textureChoices>Clothes\Lynx\Glasses\Glasses_Goggles_Lynx</textureChoices>
+</clothingItem>

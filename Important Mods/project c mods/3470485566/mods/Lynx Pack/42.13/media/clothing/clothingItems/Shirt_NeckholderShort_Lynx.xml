@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>2a704248-bd2f-4dd5-bf02-189b02d78e5d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>Clothes\Lynx\Shirt\Shirt_NeckholderShort_Lynx</m_BaseTextures>
+	<m_BaseTextures>Clothes\Lynx\Shirt\Shirt_NeckholderShort_Lynx2</m_BaseTextures>
+	<m_BaseTextures>Clothes\Lynx\Shirt\Shirt_NeckholderShort_Lynx3</m_BaseTextures>
+</clothingItem>

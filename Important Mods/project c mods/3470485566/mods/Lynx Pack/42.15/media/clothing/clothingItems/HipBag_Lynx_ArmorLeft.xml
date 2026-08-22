@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Backpacks\HipBag\HipBag_Lynx_ArmorLeft</m_MaleModel>
+	<m_FemaleModel>Skinned\Backpacks\HipBag\HipBag_Lynx_ArmorLeft</m_FemaleModel>
+	<m_GUID>5c2c3c8a-dca1-46a4-b514-1d36ff03b0fe</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_L_Thigh</m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<textureChoices>Clothes\Lynx\Bags\HipBag\HipBag_Lynx</textureChoices>
+	<textureChoices>Clothes\Lynx\Bags\HipBag\HipBag_Lynx2</textureChoices>
+</clothingItem>

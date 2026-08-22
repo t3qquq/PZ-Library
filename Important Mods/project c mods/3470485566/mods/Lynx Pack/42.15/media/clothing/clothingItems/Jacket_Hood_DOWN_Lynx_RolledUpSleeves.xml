@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_Jacket_Hood_DOWN_RolledUpSleeves</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_Jacket_Hood_DOWN_RolledUpSleeves</m_FemaleModel>
+	<m_GUID>38d17c87-bc3e-4a4f-af14-79c160126fb4</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_UnderlayMasksFolder>media\textures\Clothes\Masks\Jacket_RolledUpSleeves</m_UnderlayMasksFolder>
+	<textureChoices>Clothes\Lynx\Jacket\Jacket_Hood_Lynx</textureChoices>
+	<textureChoices>Clothes\Lynx\Jacket\Jacket_Hood_Lynx2</textureChoices>
+	<textureChoices>Clothes\Lynx\Jacket\Jacket_Hood_Lynx3</textureChoices>
+</clothingItem>

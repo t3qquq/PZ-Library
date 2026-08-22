@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_Pants_Vanilla</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_Pants_Vanilla</m_FemaleModel>
+	<m_GUID>66e8b88f-08bc-41be-bfe6-539d0b779174</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	<textureChoices>Clothes\Lynx\Pants\Pants_Classic_Lynx</textureChoices>
+	<textureChoices>Clothes\Lynx\Pants\Pants_Classic_Lynx2</textureChoices>
+	<textureChoices>Clothes\Lynx\Pants\Pants_Classic_Lynx3</textureChoices>
+	<textureChoices>Clothes\Lynx\Pants\Pants_Classic_Lynx4</textureChoices>
+	<textureChoices>Clothes\Lynx\Pants\Pants_Classic_Lynx5</textureChoices>
+</clothingItem>

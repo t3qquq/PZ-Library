@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Armor\M_ElbowPads_Lynx_Tight</m_MaleModel>
+	<m_FemaleModel>Skinned\Armor\F_ElbowPads_Lynx_Tight</m_FemaleModel>
+	<m_GUID>adc0aea5-96ca-4376-85a2-2fc7432ba326</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<textureChoices>Clothes\Lynx\ElbowPads\ElbowPads_Lynx2</textureChoices>
+</clothingItem>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>e39d1b41-b33d-4f29-9b9c-1e07e9f07772</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>Clothes\Lynx\Shirt\Shirt_Lynx_OpenRolledUpSleeves</m_BaseTextures>
+	<m_BaseTextures>Clothes\Lynx\Shirt\Shirt_Lynx_OpenRolledUpSleeves</m_BaseTextures>
+</clothingItem>

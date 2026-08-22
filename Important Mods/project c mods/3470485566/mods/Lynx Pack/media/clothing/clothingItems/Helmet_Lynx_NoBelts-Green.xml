@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Static\Clothes\M_Helmet_Lynx_NoBelts</m_MaleModel>
+	<m_FemaleModel>Static\Clothes\F_Helmet_Lynx_NoBelts</m_FemaleModel>
+	<m_GUID>f02bac38-94e7-445b-a514-00468c6c04af</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group06</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes\Lynx\Helmet\Helmet_Lynx2</textureChoices>
+</clothingItem>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Backpacks\FannyPack\FannyPack_Lynx</m_MaleModel>
+	<m_FemaleModel>Skinned\Backpacks\FannyPack\FannyPack_Lynx</m_FemaleModel>
+	<m_GUID>8b30859e-d33b-4898-aa2e-25c679437d2e</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Pelvis</m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<textureChoices>Clothes\Lynx\Bags\FannyPack\FannyPack_Lynx</textureChoices>
+	<textureChoices>Clothes\Lynx\Bags\FannyPack\FannyPack_Lynx2</textureChoices>
+</clothingItem>

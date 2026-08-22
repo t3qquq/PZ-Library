@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+<!-- Helmet -->
+
+    <files>
+        <path>media/clothing/clothingItems/Helmet_Lynx-Black.xml</path>
+        <guid>a8bb1aa4-5ea5-43ba-95cf-4d0cf9ad73f1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Helmet_Lynx_NoBelts-Black.xml</path>
+        <guid>e3918d14-e46e-456d-9863-8cf9d43e480a</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Helmet_Lynx-Green.xml</path>
+        <guid>a74f43a9-e13a-49fb-84f4-de8605c6b478</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Helmet_Lynx_NoBelts-Green.xml</path>
+        <guid>f02bac38-94e7-445b-a514-00468c6c04af</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Helmet_BallisticFaceShield_Lynx_DOWN.xml</path>
+        <guid>a26979fc-9c65-4e47-9bd6-b17958a231b1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Helmet_BallisticFaceShield_Lynx_UP.xml</path>
+        <guid>849acf31-c634-47ab-8ca5-4135cfa73f7d</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Helmet_RysT_Lynx_DOWN-Black.xml</path>
+        <guid>473283cd-e50d-48f3-89b8-b36044168049</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Helmet_RysT_Lynx_UP-Black.xml</path>
+        <guid>2a3f555f-85ae-4799-8f8a-d4f82d0ca34b</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Helmet_RysT_Lynx_DOWN-Green.xml</path>
+        <guid>e9f06893-67c8-4beb-b5e8-79d228f2819c</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Helmet_RysT_Lynx_UP-Green.xml</path>
+        <guid>8567072e-284f-4781-9e79-a2986823d7e1</guid>
+    </files>
+
+
+
+
+
+<!-- GasMask -->
+<!-- MaskFull -->
+<!-- BulletproofVest -->
+
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Lynx-Black.xml</path>
+        <guid>9058b541-d5d5-40a5-96d0-c21eea4ee395</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Lynx_Neck-Black.xml</path>
+        <guid>17a670da-a182-44c2-a55e-8a5119b295ba</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Lynx_AssaultKit-Black.xml</path>
+        <guid>6bcfbf60-e5ef-4e44-a0f8-24e788c85734</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Lynx_AssaultLightKit-Black.xml</path>
+        <guid>c4746de3-e9c2-4b8c-88d6-fa72d4b0a15f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Lynx_FullProtectionKit-Black.xml</path>
+        <guid>0c0d5192-aa8e-4cb8-8275-a20d0755f943</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Lynx_HighMobilityKit-Black.xml</path>
+        <guid>35699e1b-a917-43e1-baa2-e992e67f8ff9</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Lynx-Green.xml</path>
+        <guid>6f085eb7-3b7e-48ec-8303-5fe644467b5a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Lynx_Neck-Green.xml</path>
+        <guid>4404e444-9c3d-46a8-866a-bbc8faba0df2</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Lynx_AssaultKit-Green.xml</path>
+        <guid>469b6de9-74c8-4c02-96b3-618230979400</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Lynx_AssaultLightKit-Green.xml</path>
+        <guid>c4802eb4-a1bd-4cbc-8342-c093b5c9afa1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Lynx_FullProtectionKit-Green.xml</path>
+        <guid>1cf4a5bf-31fd-44a9-8ced-ae9bfac1bce9</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Lynx_HighMobilityKit-Green.xml</path>
+        <guid>c1656b82-3664-45b2-b423-a743cc824d59</guid>
+    </files>
+
+
+
+
+
+<!-- ElbowPads -->
+
+    <files>
+        <path>media/clothing/clothingItems/ElbowPads_Lynx-Black.xml</path>
+        <guid>6d035cb7-16e3-426e-92af-78735bb2bdae</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/ElbowPads_Lynx_Tight-Black.xml</path>
+        <guid>96f3aa5d-ff89-4599-93b1-ef72d4fd3126</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/ElbowPads_Lynx_Armored-Black.xml</path>
+        <guid>9ecec54d-68f1-49e3-b2a5-3566f2d09137</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/ElbowPads_Lynx-Green.xml</path>
+        <guid>5f30a3af-d150-48d3-83ca-d23aea951def</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/ElbowPads_Lynx_Tight-Green.xml</path>
+        <guid>adc0aea5-96ca-4376-85a2-2fc7432ba326</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/ElbowPads_Lynx_Armored-Green.xml</path>
+        <guid>5142d64e-9625-4530-b8f9-67353f448312</guid>
+    </files>
+
+
+
+
+
+<!-- KneePads -->
+
+    <files>
+        <path>media/clothing/clothingItems/KneePads_Lynx-Black.xml</path>
+        <guid>5beb4216-1ea4-4ce5-be86-538049e0da9b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/KneePads_Lynx_Tight-Black.xml</path>
+        <guid>3c2a96a2-e1fe-4435-bc67-78f2c858c1f7</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/KneePads_Lynx_Armored-Black.xml</path>
+        <guid>a9d41a23-7f20-4946-a344-1491ae19c7ad</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/KneePads_Lynx-Green.xml</path>
+        <guid>dac13091-d873-43bf-aee9-ef0a6bb11b07</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/KneePads_Lynx_Tight-Green.xml</path>
+        <guid>f7fbeb26-4b6c-4d5e-9fa0-f98b081bd261</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/KneePads_Lynx_Armored-Green.xml</path>
+        <guid>76a7a237-e524-4293-bf55-c623394f3b91</guid>
+    </files>
+
+
+
+
+
+<!-- Hat -->
+
+    <files>
+        <path>media/clothing/clothingItems/Hat_BaseballCap_Lynx.xml</path>
+        <guid>ef4c2887-d283-43ff-889e-fae6fe1f5850</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Hat_BaseballCap_Lynx_Reverse.xml</path>
+        <guid>6f05cf4e-a322-4246-a3f0-17766a242084</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Headsets_Lynx.xml</path>
+        <guid>9dea3346-f7a4-46e0-8308-018da26416eb</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Headsets_Lynx_Helmet.xml</path>
+        <guid>d685ce58-df6d-49fc-8ac4-3547cf696816</guid>
+    </files>
+
+
+
+
+
+<!-- Glasses -->
+
+    <files>
+        <path>media/clothing/clothingItems/Glasses_Goggles_Lynx.xml</path>
+        <guid>838788cb-2b55-417a-bb51-02285d916001</guid>
+    </files>
+
+
+
+
+
+<!-- Mask -->
+
+    <files>
+        <path>media/clothing/clothingItems/Mask_Balaclava_Lynx.xml</path>
+        <guid>b32c2727-18eb-43d6-950e-b33c357cf113</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Mask_BandanaMask_Lynx.xml</path>
+        <guid>6dbb81b5-fd10-4a8e-b6ed-3fcc6fd11d33</guid>
+    </files>
+
+
+
+
+
+<!-- Shirt -->
+
+    <files>
+        <path>media/clothing/clothingItems/Sweater_Tactical_Lynx.xml</path>
+        <guid>c6dfc4c1-3b89-4503-a0f1-6c635c66dba2</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Sweater_Tactical_Lynx_RolledUpSleeves.xml</path>
+        <guid>e864e78e-994c-4122-8c9e-72a3fb29a277</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Shirt_Lynx.xml</path>
+        <guid>b52f99f3-d513-4da1-98c0-dcaa125782f7</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_Lynx_Open.xml</path>
+        <guid>7b14fabd-588e-44c7-a8dd-06ff81461922</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_Lynx_OpenRolledUpSleeves.xml</path>
+        <guid>e39d1b41-b33d-4f29-9b9c-1e07e9f07772</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_Lynx_RolledUpSleeves.xml</path>
+        <guid>484b7b54-7db4-4949-b5a6-dc428cb581e5</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Shirt_ShortSleeve_Lynx.xml</path>
+        <guid>9f3f9aad-cf4f-4161-88ea-68c26c8ae502</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_ShortSleeve_Lynx_Open.xml</path>
+        <guid>46b39315-1c0b-4560-b8fe-57a2d13a0cb5</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Shirt_Neckholder_Lynx.xml</path>
+        <guid>63325a48-c288-4109-b935-ad9b88717cb2</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_NeckholderShort_Lynx.xml</path>
+        <guid>2a704248-bd2f-4dd5-bf02-189b02d78e5d</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Shirt_Sleeveless_Lynx.xml</path>
+        <guid>7f1db36a-0cea-47de-9a59-06cbc9f3f5f1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_SleevelessShort_Lynx.xml</path>
+        <guid>bfca9fea-1f36-4245-8fd3-c486b0fd6671</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Shirt_TankTop_Lynx.xml</path>
+        <guid>ef8b1faa-8cbe-4c50-97b6-064dcf1cc9f6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_TankTopShort_Lynx.xml</path>
+        <guid>05b1a251-9df9-422e-b8ea-65ec7aab73f9</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Shirt_Tshirt_Lynx.xml</path>
+        <guid>433440d7-550e-4b04-b3ef-baa2e8301757</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_TshirtShort_Lynx.xml</path>
+        <guid>0fe1490d-9033-4578-bf62-2584f5e70b95</guid>
+    </files>
+
+
+
+
+
+<!-- Jacket -->
+
+    <files>
+        <path>media/clothing/clothingItems/Jacket_Lightweight_Lynx.xml</path>
+        <guid>d39ff8d0-a364-466e-94ce-ffacf7d86183</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Jacket_Lightweight_Lynx_Open.xml</path>
+        <guid>e288a942-d9d0-44bc-b40c-b8775c105f98</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Jacket_Lightweight_Lynx_OpenRolledUpSleeves.xml</path>
+        <guid>b3e61f10-1156-42aa-ae64-93aeac19878e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Jacket_Lightweight_Lynx_RolledUpSleeves.xml</path>
+        <guid>7c2abc2e-3ae4-4549-b28a-dd17bfdf4015</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Jacket_Hood_DOWN_Lynx.xml</path>
+        <guid>ed97190c-ba4e-4c45-b08b-2f495a2adbfc</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Jacket_Hood_DOWN_Lynx_Open.xml</path>
+        <guid>3f4b006e-ef12-4ac4-8834-c200e5c1edef</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Jacket_Hood_DOWN_Lynx_OpenRolledUpSleeves.xml</path>
+        <guid>0bf2ac6d-2a28-473d-845b-246a21a73de1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Jacket_Hood_DOWN_Lynx_RolledUpSleeves.xml</path>
+        <guid>38d17c87-bc3e-4a4f-af14-79c160126fb4</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Jacket_Hood_UP_Lynx.xml</path>
+        <guid>ce14edff-78c4-4d34-a6ff-c24dd5bdbf81</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Jacket_Hood_UP_Lynx_Open.xml</path>
+        <guid>935e7c72-d541-435c-a30e-0df79dfa30c6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Jacket_Hood_UP_Lynx_OpenRolledUpSleeves.xml</path>
+        <guid>166fff6a-c1c2-457c-8407-4a6662a79971</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Jacket_Hood_UP_Lynx_RolledUpSleeves.xml</path>
+        <guid>b8476aa6-244f-4544-a1f2-e230735f3efa</guid>
+    </files>
+
+
+
+
+
+<!-- Gloves -->
+
+    <files>
+        <path>media/clothing/clothingItems/Gloves_Lynx.xml</path>
+        <guid>8e821a53-f4bf-4c8b-94b4-c5eba8c751da</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/GlovesFingerless_Lynx.xml</path>
+        <guid>c62ee579-d47a-45dc-8f83-6bdbfa47cf7d</guid>
+    </files>
+
+
+
+
+
+<!-- Pants -->
+
+    <files>
+        <path>media/clothing/clothingItems/Pants_Classic_Lynx.xml</path>
+        <guid>66e8b88f-08bc-41be-bfe6-539d0b779174</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Pants_Classic_Lynx_RollUp.xml</path>
+        <guid>d28aff9c-6502-4a68-9f0d-a36f79edfaa7</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Pants_Classic_Lynx_Tuck.xml</path>
+        <guid>aeb30ecf-191c-405c-8c0f-3d8ad6c11854</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Pants_Shorts_Lynx.xml</path>
+        <guid>5c359adb-eb4c-4ee2-bf2a-fd1b4e6ff4df</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Pants_Skinny_Lynx.xml</path>
+        <guid>b98119f4-5f14-4691-838a-e7875e85277c</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Pants_Skinny_Lynx_RollUp.xml</path>
+        <guid>0c7e971a-f65e-4bba-ab28-bf3e6ac20d9a</guid>
+    </files>
+
+
+
+
+
+<!-- Shoes -->
+
+    <files>
+        <path>media/clothing/clothingItems/Shoes_TacticalBoots_Lynx.xml</path>
+        <guid>a0584c03-09e1-410b-b2e7-501d4cfa618a</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Shoes_Boots_Lynx.xml</path>
+        <guid>dc90a429-cd36-4b45-ad96-84a749a8b423</guid>
+    </files>
+
+
+
+
+
+<!-- Underwear -->
+
+    <files>
+        <path>media/clothing/clothingItems/Stockings_Lynx.xml</path>
+        <guid>7bec3ee3-9552-4f87-8d9f-0f8abb23368f</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Tights_Lynx.xml</path>
+        <guid>7b9e7e97-ac01-4ea7-ac64-75bbfc5af966</guid>
+    </files>
+
+
+
+
+
+<!-- Backpack -->
+
+    <files>
+        <path>media/clothing/clothingItems/Backpack_Lynx.xml</path>
+        <guid>82a227ce-8f50-425d-8067-43f9eb448d9e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Backpack_Lynx_LHand.xml</path>
+        <guid>c7dbfa6f-b96e-41bd-85ac-6da5d80c8c16</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Backpack_Lynx_RHand.xml</path>
+        <guid>01be5272-6051-465f-8105-8fd9bea09b64</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Backpack_Lynx_Tight.xml</path>
+        <guid>0a2d12ea-5f58-4ea7-81a8-9fb376ab31cf</guid>
+    </files>
+
+
+
+
+
+<!-- ChestRigs -->
+
+    <files>
+        <path>media/clothing/clothingItems/ChestRigs_Lynx.xml</path>
+        <guid>23794c62-0fd5-43fb-a046-133c4510b1bc</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/ChestRigs_Lynx_LHand.xml</path>
+        <guid>9c9056d7-d165-4583-b92b-a0b19b639b71</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/ChestRigs_Lynx_NoBelts.xml</path>
+        <guid>c6748f6f-a7ef-45a7-a110-c3c599ef59da</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/ChestRigs_Lynx_RHand.xml</path>
+        <guid>a31762c5-3fe9-4979-b4a4-d24f2a0528dc</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/ChestRigs_Lynx_Tight.xml</path>
+        <guid>6afa4d2c-c667-47db-8b58-8085f248c366</guid>
+    </files>
+
+
+
+
+
+<!-- FannyPack -->
+
+    <files>
+        <path>media/clothing/clothingItems/FannyPack_Lynx.xml</path>
+        <guid>8b30859e-d33b-4898-aa2e-25c679437d2e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/FannyPack_Lynx_Front.xml</path>
+        <guid>90b92456-a60e-49c9-9acd-5546de61a7f8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/FannyPack_Lynx_LHand.xml</path>
+        <guid>0d648ca4-8d79-4661-83b5-c9f0634bf3fc</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/FannyPack_Lynx_RHand.xml</path>
+        <guid>f5e27748-f626-4a6a-b730-f83c1967a720</guid>
+    </files>
+
+
+
+
+
+<!-- HipBag -->
+
+    <files>
+        <path>media/clothing/clothingItems/HipBag_Lynx_ArmorLeft.xml</path>
+        <guid>5c2c3c8a-dca1-46a4-b514-1d36ff03b0fe</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/HipBag_Lynx_ArmorRight.xml</path>
+        <guid>7a283067-3a73-445e-ae0a-256e8ffdb8d8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/HipBag_Lynx_Left.xml</path>
+        <guid>7dc565e5-2fe8-432b-837b-698ede01ba49</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/HipBag_Lynx_LHand.xml</path>
+        <guid>4629c4a7-b22e-4528-8997-fa40523a4257</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/HipBag_Lynx_RHand.xml</path>
+        <guid>6c772444-d6c0-422e-a41c-a71f654ebc8b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/HipBag_Lynx_Right.xml</path>
+        <guid>af4f7846-995d-4f74-af40-c7e697002a0b</guid>
+    </files>
+
+
+
+
+
+</fileGuidTable>

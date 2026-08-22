@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Armor\M_BulletproofVest_Lynx_Neck</m_MaleModel>
+	<m_FemaleModel>Skinned\Armor\F_BulletproofVest_Lynx_Neck</m_FemaleModel>
+	<m_GUID>4404e444-9c3d-46a8-866a-bbc8faba0df2</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Lynx\BulletproofVest\BulletproofVest_Lynx2</textureChoices>
+</clothingItem>
