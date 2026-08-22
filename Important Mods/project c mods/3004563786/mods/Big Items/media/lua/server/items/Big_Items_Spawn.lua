@@ -1,0 +1,150 @@
+require "Items/ProceduralDistributions"
+require 'Items/SuburbsDistributions'
+
+table.insert(ProceduralDistributions.list["GunStoreCounter"].items, "Base.Big_ArmyTarp2");
+table.insert(ProceduralDistributions.list["GunStoreCounter"].items, 1);
+table.insert(ProceduralDistributions.list["LockerArmyBedroom"].items, "Base.Big_ArmyTarp2");
+table.insert(ProceduralDistributions.list["LockerArmyBedroom"].items, 1);
+table.insert(ProceduralDistributions.list["ClothingStorageWinter"].items, "Base.Big_ArmyTarp2");
+table.insert(ProceduralDistributions.list["ClothingStorageWinter"].items, 2);
+table.insert(ProceduralDistributions.list["CampingStoreGear"].items, "Base.Big_ArmyTarp2");
+table.insert(ProceduralDistributions.list["CampingStoreGear"].items, 2);
+
+table.insert(ProceduralDistributions.list["ClothingStorageWinter"].items, "Base.Big_Mattress");
+table.insert(ProceduralDistributions.list["ClothingStorageWinter"].items, 1);
+table.insert(ProceduralDistributions.list["CampingStoreGear"].items, "Base.Big_Mattress");
+table.insert(ProceduralDistributions.list["CampingStoreGear"].items, 1);
+table.insert(ProceduralDistributions["list"]["CrateRandomJunk"].items, "Base.Big_Mattress");
+table.insert(ProceduralDistributions["list"]["CrateRandomJunk"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items, "Base.Big_Mattress");
+table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items, 0.3);
+
+table.insert(ProceduralDistributions.list["ClothingStorageWinter"].items, "Base.Big_Mattress2");
+table.insert(ProceduralDistributions.list["ClothingStorageWinter"].items, 1);
+table.insert(ProceduralDistributions.list["CampingStoreGear"].items, "Base.Big_Mattress2");
+table.insert(ProceduralDistributions.list["CampingStoreGear"].items, 1);
+table.insert(ProceduralDistributions["list"]["CrateRandomJunk"].items, "Big_Mattress2");
+table.insert(ProceduralDistributions["list"]["CrateRandomJunk"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items, "Big_Mattress2");
+table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items, 1);
+
+table.insert(ProceduralDistributions.list["LockerArmyBedroom"].items, "Base.Big_Military_Mattress");
+table.insert(ProceduralDistributions.list["LockerArmyBedroom"].items, 0.5);
+table.insert(ProceduralDistributions.list["ClothingStorageWinter"].items, "Base.Big_Military_Mattress");
+table.insert(ProceduralDistributions.list["ClothingStorageWinter"].items, 1);
+table.insert(ProceduralDistributions.list["CampingStoreGear"].items, "Base.Big_Military_Mattress");
+table.insert(ProceduralDistributions.list["CampingStoreGear"].items, 1);
+table.insert(ProceduralDistributions["list"]["CrateRandomJunk"].items, "Base.Big_Military_Mattress");
+table.insert(ProceduralDistributions["list"]["CrateRandomJunk"].items, 0.5);
+table.insert(ProceduralDistributions["list"]["WardrobeRedneck"].items, "Base.Big_Military_Mattress");
+table.insert(ProceduralDistributions["list"]["WardrobeRedneck"].items, 0.5);
+
+---Garage
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, "Base.Big_ArmyTarp");
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, "Base.Big_LargeTarp");
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, "Base.Big_ArmyTarp2");
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, "Big_CamoTarp");
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, "Big_CamoTarp2");
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, "Big_CamoTarp3");
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, "Big_CamoTarp4");
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, "Big_CamoTarp5");
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, "Big_CamoTarp6");
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, "Big_CamoTarp7");
+table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, 0.1);
+
+---ToolStoreMisc
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, "Base.Big_ArmyTarp");
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, "Base.Big_LargeTarp");
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, "Base.Big_ArmyTarp2");
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, "Big_CamoTarp");
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, "Big_CamoTarp2");
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, "Big_CamoTarp3");
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, "Big_CamoTarp4");
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, "Big_CamoTarp5");
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, "Big_CamoTarp6");
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, "Big_CamoTarp7");
+table.insert(ProceduralDistributions["list"]["ToolStoreMisc"].items, 0.1);
+
+---Army Hangar Tools
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, "Base.Big_ArmyTarp");
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, "Base.Big_LargeTarp");
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, "Base.Big_ArmyTarp2");
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, "Big_CamoTarp");
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, "Big_CamoTarp2");
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, "Big_CamoTarp3");
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, "Big_CamoTarp4");
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, "Big_CamoTarp5");
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, "Big_CamoTarp6");
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, "Big_CamoTarp7");
+table.insert(ProceduralDistributions["list"]["ArmyHangarTools"].items, 0.1);
+
+---ArmySurplusTools
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, "Base.Big_ArmyTarp");
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, "Base.Big_LargeTarp");
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, "Base.Big_ArmyTarp2");
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, "Big_CamoTarp");
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, "Big_CamoTarp2");
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, "Big_CamoTarp3");
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, "Big_CamoTarp4");
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, "Big_CamoTarp5");
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, "Big_CamoTarp6");
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, "Big_CamoTarp7");
+table.insert(ProceduralDistributions["list"]["ArmySurplusTools"].items, 0.1);
+
+---MetalShopTools
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, "Base.Big_ArmyTarp");
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, "Base.Big_LargeTarp");
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, "Base.Big_ArmyTarp2");
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, "Big_CamoTarp");
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, "Big_CamoTarp2");
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, "Big_CamoTarp3");
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, "Big_CamoTarp4");
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, "Big_CamoTarp5");
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, 0.2);
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, "Big_CamoTarp6");
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, "Big_CamoTarp7");
+table.insert(ProceduralDistributions["list"]["GarageTools"].items, 0.1);

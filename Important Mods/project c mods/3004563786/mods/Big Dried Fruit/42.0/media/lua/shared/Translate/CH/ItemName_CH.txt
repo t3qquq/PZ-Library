@@ -1,0 +1,155 @@
+ItemName_CH = {
+/************************ Preserved Foods ************************/
+
+ItemName_Base.DriedFoodMagazine = "生存藝術：果乾的美學",
+ItemName_Base.DriedFoodMagazine2 = "與Spiffo一起做菜：海鮮乾",
+ItemName_Base.DriedFoodMagazine3 = "生存藝術：保存食品的美學",
+ItemName_Base.DriedFoodMagazine4 = "與Spiffo一起做菜：鹽、胡椒和肉乾",
+
+ItemName_Base.Big_Chocobar = "巧克力棒",
+ItemName_Base.Big_Energybar = "能量棒",
+ItemName_Base.CrackerDough = "餅乾麵團",
+ItemName_Base.Crackerpack1 = "千層餅乾",
+ItemName_Base.Crackerpack2 = "千層全麥餅乾",
+
+ItemName_Base.Big_CoffeeCan = "罐裝咖啡",
+ItemName_Base.Big_CoffeeCanOpen = "罐裝咖啡（開罐）",
+ItemName_Base.Big_PucariCan = "運動飲料",
+ItemName_Base.Big_PucariCanOpen = "運動飲料（開罐）",
+ItemName_Base.Big_ColaCan = "罐裝可樂",
+ItemName_Base.Big_ColaCanOpen = "罐裝可樂（開罐）",
+ItemName_Base.Big_CoffeePet = "瓶裝咖啡"",
+ItemName_Base.Big_ColaPetFull = "瓶裝可樂",
+ItemName_Base.Big_CiderPetFull = "瓶裝汽水",
+
+ItemName_Base.Big_Juice_FruitPunch = "綜合水果汁",
+ItemName_Base.Big_Juice_GrapeJuice = "葡萄汁",
+ItemName_Base.Big_Juice_Lemonade = "檸檬汁",
+ItemName_Base.Big_Juice_OrangeJuice = "柳橙汁",
+
+ItemName_Base.Big_PuRamen = "辛拉麵",
+ItemName_Base.Big_Seasoningpacket = "拉麵調料包",
+ItemName_Base.Big_PucariPacket = "運動飲料粉",
+ItemName_Base.Big_RamenNoodles = "拉麵",
+
+
+/************************ Dried_ Fruit ************************/
+
+ItemName_Base.Sliced_Apple = "蘋果切片",
+ItemName_Base.Dried_Apple = "蘋果乾",
+ItemName_Base.Sliced_Banana = "香蕉切片",
+ItemName_Base.Dried_Banana = "香蕉乾",
+ItemName_Base.Sliced_Cherry = "櫻桃切片",
+ItemName_Base.Dried_Cherry = "櫻桃乾",
+ItemName_Base.Sliced_Grapefruit = "葡萄柚切片",
+ItemName_Base.Dried_Grapefruit = "葡萄柚乾",
+ItemName_Base.Sliced_Grapes = "葡萄切片",
+ItemName_Base.Dried_Grapes = "葡萄乾",
+ItemName_Base.Sliced_Lemon = "檸檬切片",
+ItemName_Base.Dried_Lemon = "檸檬乾",
+ItemName_Base.Sliced_Lime = "萊姆切片",
+ItemName_Base.Dried_Lime = "萊姆乾",
+ItemName_Base.Sliced_Mango = "芒果切片",
+ItemName_Base.Dried_Mango = "芒果乾",
+ItemName_Base.Sliced_Orange = "柳橙切片",
+ItemName_Base.Dried_Orange = "柳橙乾",
+ItemName_Base.Sliced_Peach = "桃子切片",
+ItemName_Base.Dried_Peach = "桃子乾",
+ItemName_Base.Sliced_Pineapple = "鳳梨切片",
+ItemName_Base.Dried_Pineapple = "鳳梨乾",
+ItemName_Base.Sliced_Strawberries = "草莓切片",
+ItemName_Base.Dried_Strawberries = "草莓乾",
+ItemName_Base.Sliced_Watermelon = "西瓜切片",
+ItemName_Base.Dried_Watermelon = "西瓜乾",
+ItemName_Base.Sliced_Pear = "梨子切片",
+ItemName_Base.Dried_Pear = "梨子乾",
+ItemName_Base.Dried_Blackberry = "黑莓乾",
+ItemName_Base.Dried_Blueberry = "藍莓乾",
+
+/************************ Dried_ Vegetable ************************/
+
+ItemName_Base.Prepared_Corn = "洗好的玉米",
+ItemName_Base.Dried_Corn = "玉米乾",
+ItemName_Base.Sliced_Radish = "蘿蔔切片",
+ItemName_Base.Dried_Radish = "蘿蔔乾",
+ItemName_Base.Sliced_Eggplant = "茄子切片",
+ItemName_Base.Dried_Eggplant = "茄子乾",
+ItemName_Base.Prepared_PepperHabanero = "洗好的哈瓦那辣椒",
+ItemName_Base.Dried_PepperHabanero = "哈瓦那辣椒乾",
+ItemName_Base.Prepared_PepperJalapeno = "洗好的墨西哥辣椒",
+ItemName_Base.Dried_PepperJalapeno = "墨西哥辣椒乾",
+ItemName_Base.Sliced_Pumpkin = "南瓜切片",
+ItemName_Base.Dried_Pumpkin = "南瓜乾",
+ItemName_Base.Sliced_Zucchini = "櫛瓜切片",
+ItemName_Base.Dried_Zucchini = "櫛瓜乾",
+
+/************************ Dried_Fish ************************/
+
+ItemName_Base.Prepared_FishFillet = "洗好的魚片",
+ItemName_Base.Dried_FishFillet = "魚乾",
+ItemName_Base.Prepared_Squid = "洗好的魷魚",
+ItemName_Base.Dried_Squid = "魷魚乾",
+ItemName_Base.Prepared_Shrimp = "蝦切片",
+ItemName_Base.Dried_Shrimp = "蝦乾",
+ItemName_Base.Prepared_BaitFish = "洗好的餌魚",
+ItemName_Base.Dried_BaitFish = "餌魚乾",
+
+/************************ Jerky ************************/
+
+ItemName_Base.Big_RawBaconFillet = "醃製培根",
+ItemName_Base.Big_BaconJerky = "自製培根肉乾",
+ItemName_Base.Big_RawChickenFillet = "醃製雞肉",
+ItemName_Base.Big_ChickenJerky = "自製雞肉乾",
+ItemName_Base.Big_RawMuttonFillet = "醃製羊肉",
+ItemName_Base.Big_MuttonJerky = "自製羊肉乾",
+ItemName_Base.Big_RawPorkFillet = "醃製豬肉",
+ItemName_Base.Big_PorkJerky = "自製豬肉乾",
+ItemName_Base.Big_RawSteakFillet = "醃製牛肉",
+ItemName_Base.Big_Jerky = "自製牛肉乾",
+ItemName_Base.Big_RawSmallMeatFillet = "醃製小動物肉",
+ItemName_Base.Big_RabbitJerky = "自製小動物肉乾",
+
+/************************ Homemade Jam Sauce Pan ************************/
+
+ItemName_Base.SaucePan_Uncook_AppleJam = "平底鍋（蘋果醬）",
+ItemName_Base.SaucePan_AppleJam = "平底鍋（蘋果醬）",
+ItemName_Base.SaucePan_Uncook_BlueberryJam = "平底鍋（藍莓醬）",
+ItemName_Base.SaucePan_BlueberryJam = "平底鍋（藍莓醬）",
+ItemName_Base.SaucePan_Uncook_BlackberryJam = "平底鍋（黑莓醬）",
+ItemName_Base.SaucePan_BlackberryJam = "平底鍋（黑莓醬）",
+ItemName_Base.SaucePan_Uncook_CherryJam = "平底鍋（櫻桃醬）",
+ItemName_Base.SaucePan_CherryJam = "平底鍋（櫻桃醬）",
+ItemName_Base.SaucePan_Uncook_GrapeJam = "平底鍋（葡萄醬）",
+ItemName_Base.SaucePan_GrapeJam = "平底鍋（葡萄醬）",
+ItemName_Base.SaucePan_Uncook_StrawberryJam = "平底鍋（草莓醬）",
+ItemName_Base.SaucePan_StrawberryJam = "平底鍋（草莓醬）",
+ItemName_Base.SaucePan_Uncook_PeachJam = "平底鍋（桃子醬）",
+ItemName_Base.SaucePan_PeachJam = "平底鍋（桃子醬）",
+ItemName_Base.SaucePan_Uncook_OrangeMarmalade = "平底鍋（柳橙醬）",
+ItemName_Base.SaucePan_OrangeMarmalade = "平底鍋（柳橙醬）",
+
+
+/************************ Jam ************************/
+
+ItemName_Base.JamFruit_Apple = "蘋果醬",
+ItemName_Base.JamFruit_Blueberry = "藍莓醬",
+ItemName_Base.JamFruit_Blackberry = "黑莓醬",
+ItemName_Base.JamFruit_Cherry = "櫻桃醬",
+ItemName_Base.JamFruit_Grape = "葡萄醬",
+ItemName_Base.JamFruit_Strawberry = "草莓醬",
+ItemName_Base.JamFruit_Peach = "桃子醬",
+ItemName_Base.JamMarmalade_Orange = "柳橙醬",
+
+/************************ Pickle ************************/
+
+ItemName_Base.JarPickle_Cabbage = "醃白菜",
+ItemName_Base.JarPickle_Cabbage_Ready = "醃白菜",
+ItemName_Base.JarPickle_Radish = "醃蘿蔔",
+ItemName_Base.JarPickle_Radish_Ready = "醃蘿蔔",
+ItemName_Base.JarPickle_Onion = "醃洋蔥",
+ItemName_Base.JarPickle_Onion_Ready = "醃洋蔥",
+ItemName_Base.JarPickle_Jalapeno = "醃哈瓦那辣椒",
+ItemName_Base.JarPickle_Jalapeno_Ready = "醃哈瓦那辣椒",
+ItemName_Base.JarPickle_Cucumber = "醃黃瓜",
+
+}

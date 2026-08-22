@@ -1,0 +1,24 @@
+ItemName_CH = {
+/************************ Decoration Stuff ************************/
+
+ItemName_Base.Big_LargeTarp = "大型防水布",
+ItemName_Base.Big_LargeTarp2 = "大型防水布",
+ItemName_Base.Big_ArmyTarp = "軍用防水布",
+ItemName_Base.Big_ArmyTarp2 = "軍用防水布",
+
+ItemName_Base.Big_CamoTarp = "迷彩防水布",
+ItemName_Base.Big_CamoTarp2 = "迷彩防水布",
+ItemName_Base.Big_CamoTarp3 = "迷彩防水布",
+ItemName_Base.Big_CamoTarp4 = "迷彩防水布",
+ItemName_Base.Big_CamoTarp5 = "迷彩防水布",
+ItemName_Base.Big_CamoTarp6 = "迷彩防水布",
+ItemName_Base.Big_CamoTarp7 = "迷彩防水布",
+
+ItemName_Base.Big_Mattress = "床墊",
+ItemName_Base.Big_Mattress2 = "小床墊",
+ItemName_Base.Big_Military_Mattress = "軍用床墊",
+
+ItemName_Base.Big_Tincanbomb = "簡易鋁罐手榴彈",
+ItemName_Base.Big_PopBomb = "簡易輕型鋁罐手榴彈",
+
+}

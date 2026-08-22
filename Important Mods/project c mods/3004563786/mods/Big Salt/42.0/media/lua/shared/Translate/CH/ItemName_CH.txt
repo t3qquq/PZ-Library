@@ -1,0 +1,20 @@
+ItemName_CH = {
+
+ItemName_Base.BigSalt = "包裝鹽",
+ItemName_Base.BigPepper = "包裝胡椒",
+ItemName_Base.BigSalt2 = "袋裝鹽",
+ItemName_Base.BigPepper2 = "袋裝胡椒",
+ItemName_Base.BigJarLid = "盒裝罐蓋",
+ItemName_Base.BigSoysauce = "桶裝醬油",
+ItemName_Base.BigSugar = "包裝糖",
+ItemName_Base.BigSugar2 = "袋裝糖",
+ItemName_Base.BigSugarBrown = "包裝紅糖",
+ItemName_Base.BigSugarBrown2 = "袋裝紅糖",
+ItemName_Base.BigYeast = "包裝酵母",
+
+ItemName_Base.Big_BoxofVinegars = "箱裝醋",
+ItemName_Base.Big_BoxofRiceVinegars = "箱裝米醋",
+ItemName_Base.Big_BoxofOilOlives = "箱裝橄欖油",
+ItemName_Base.Big_BoxofVegetableoils = "箱裝植物油",
+
+}

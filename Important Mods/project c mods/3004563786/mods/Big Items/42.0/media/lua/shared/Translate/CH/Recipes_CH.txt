@@ -1,0 +1,12 @@
+Recipe_s_CH = {
+ 
+Recipe_Unfold Tarp = "展開防水布",
+Recipe_Fold Tarp = "折疊防水布",
+
+Recipe_Use Beer Bottle as Molotov Cocktail = "用啤酒瓶製作燃燒彈",
+Recipe_Use Wine Bottle as Molotov Cocktail = "用酒瓶製作燃燒彈",
+Recipe_Use Wine Bottle as Molotov Cocktail = "用酒瓶製作燃燒彈",
+Recipe_Use Empty Tin Can as Improvised Grenade = "用空鋁罐製作簡易手榴彈",
+Recipe_Use Empty Pop Can as Improvised Grenade = "用空飲料罐製作簡易輕型手榴彈",
+
+}

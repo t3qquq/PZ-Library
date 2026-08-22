@@ -1,0 +1,19 @@
+Tooltip_CH = {
+
+Tooltip_Dried_Fruit = "可以直接食用，但乾燥3~4天後會變成果乾.",
+Tooltip_Dried_Fish = "可以直接食用，但乾燥5~6天後會變成海鮮乾.",
+Tooltip_Dried_Vegetable = "可以直接食用，但乾燥3~4天後會變成蔬菜乾.",
+Tooltip_Big_Dration = "這是一款還算美味的能量棒.",
+Tooltip_Dried_Mag = "教你如何製作果乾.",
+Tooltip_Dried_Mag2 = "教你如何製作魚乾和魷魚乾.",
+Tooltip_Dried_Mag3 = "教你如何製作醃製蔬菜.",
+Tooltip_Dried_Mag4 = "教你如何製作各種肉乾.",
+Tooltip_Large Tarp = "可以用於各種用途.",
+Tooltip_Dried_SmallJerky = "只用了鹽和胡椒調味. 稍微有點鹹且沒什麼味道.<br> 可以在烤箱中烤成肉乾.",
+Tooltip_Dried_Jerky = "可以直接食用，但烤箱烤製後會變成肉乾.",
+Tooltip_Dried_Fish_Spices = "可以像其他香料一樣使用.",
+Tooltip_item_HandmadePickle = "可以直接食用，但醃製3~4天後會變成醃製蔬菜.",
+Tooltip_item_HandmadeJam = "需要加熱才能製作成自製果醬.",
+Tooltip_item_HandmadeJamReady = "可以直接食用，但也可以裝入空罐中.",
+
+}

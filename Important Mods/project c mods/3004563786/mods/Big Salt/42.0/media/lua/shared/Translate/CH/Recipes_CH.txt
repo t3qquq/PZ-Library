@@ -1,0 +1,10 @@
+Recipe_s_CH = {
+ 
+Recipe_Unpack Pack of Yeast = "打開包裝酵母",
+Recipe_Unpack Box of Lids = "打開盒裝罐蓋",
+Recipe_Unpack Box of Vinegars = "打開箱裝醋",
+Recipe_Unpack Box of Rice Vinegars = "打開箱裝米醋",
+Recipe_Unpack Box of Olive Oils = "打開箱裝橄欖油",
+Recipe_Unpack Box of Vegetable Oils = "打開箱裝植物油",
+
+}
