@@ -1,0 +1,18 @@
+IGUI_EN = {
+
+    
+	
+	
+    IGUI_Hair_Idol2Hair1 = "SY2_IDOL1",
+    IGUI_Hair_Idol2Hair2 = "SY2_IDOL2",
+    IGUI_Hair_Idol2Hair3 = "SY2_IDOL3",
+    IGUI_Hair_Idol2Hair4 = "SY2_IDOL4",
+    IGUI_Hair_Idol2Hair5 = "SY2_IDOL5",
+    IGUI_Hair_Idol2Hair6 = "SY2_IDOL6",
+    IGUI_Hair_Idol2Hair7 = "SY2_IDOL7",
+    IGUI_Hair_Idol2Hair8 = "SY2_IDOL8",
+    
+
+
+	
+}

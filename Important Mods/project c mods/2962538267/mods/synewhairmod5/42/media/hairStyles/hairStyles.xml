@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+<!--Male-->
+
+	
+	
+<!--Female-->
+	
+	<female><name>Idol2Hair1</name>
+		<model>skinned\hair\sy_idol2_01</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="Idol2Hair1" />
+		<alternate category="Group01" style="Idol2Hair1" />
+		<alternate category="Group02" style="Idol2Hair1" />
+		<alternate category="Group03" style="Idol2Hair1" />
+		<alternate category="Group04" style="Idol2Hair1" />
+		<alternate category="Group05" style="Idol2Hair1" />
+		<alternate category="Group06" style="Idol2Hair1" />
+		<level>3</level>
+		<trimChoices>Idol2Hair2</trimChoices>
+		<trimChoices>Idol2Hair3</trimChoices>
+		<trimChoices>Idol2Hair4</trimChoices>
+		<trimChoices>Idol2Hair5</trimChoices>
+		<trimChoices>Idol2Hair6</trimChoices>
+		<trimChoices>Idol2Hair7</trimChoices>
+		<trimChoices>Idol2Hair8</trimChoices>
+	</female>
+	<female><name>Idol2Hair2</name>
+		<model>skinned\hair\sy_idol2_02</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="Idol2Hair2" />
+		<alternate category="Group01" style="Idol2Hair2" />
+		<alternate category="Group02" style="Idol2Hair2" />
+		<alternate category="Group03" style="Idol2Hair2" />
+		<alternate category="Group04" style="Idol2Hair2" />
+		<alternate category="Group05" style="Idol2Hair2" />
+		<alternate category="Group06" style="Idol2Hair2" />
+		<level>3</level>
+		<trimChoices>Idol2Hair1</trimChoices>
+		<trimChoices>Idol2Hair3</trimChoices>
+		<trimChoices>Idol2Hair4</trimChoices>
+		<trimChoices>Idol2Hair5</trimChoices>
+		<trimChoices>Idol2Hair6</trimChoices>
+		<trimChoices>Idol2Hair7</trimChoices>
+		<trimChoices>Idol2Hair8</trimChoices>
+
+	</female>
+	<female><name>Idol2Hair3</name>
+		<model>skinned\hair\sy_idol2_03</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="Idol2Hair3" />
+		<alternate category="Group01" style="Idol2Hair3" />
+		<alternate category="Group02" style="Idol2Hair3" />
+		<alternate category="Group03" style="Idol2Hair3" />
+		<alternate category="Group04" style="Idol2Hair3" />
+		<alternate category="Group05" style="Idol2Hair3" />
+		<alternate category="Group06" style="Idol2Hair3" />
+		<level>3</level>
+		<trimChoices>Idol2Hair1</trimChoices>
+		<trimChoices>Idol2Hair2</trimChoices>
+		<trimChoices>Idol2Hair4</trimChoices>
+		<trimChoices>Idol2Hair5</trimChoices>
+		<trimChoices>Idol2Hair6</trimChoices>
+		<trimChoices>Idol2Hair7</trimChoices>
+		<trimChoices>Idol2Hair8</trimChoices>
+
+	</female>
+	<female><name>Idol2Hair4</name>
+		<model>skinned\hair\sy_idol2_04</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="Idol2Hair4" />
+		<alternate category="Group01" style="Idol2Hair4" />
+		<alternate category="Group02" style="Idol2Hair4" />
+		<alternate category="Group03" style="Idol2Hair4" />
+		<alternate category="Group04" style="Idol2Hair4" />
+		<alternate category="Group05" style="Idol2Hair4" />
+		<alternate category="Group06" style="Idol2Hair4" />
+
+
+		<level>3</level>
+		<trimChoices>Idol2Hair1</trimChoices>
+		<trimChoices>Idol2Hair2</trimChoices>
+		<trimChoices>Idol2Hair3</trimChoices>
+		<trimChoices>Idol2Hair5</trimChoices>
+		<trimChoices>Idol2Hair6</trimChoices>
+		<trimChoices>Idol2Hair7</trimChoices>
+		<trimChoices>Idol2Hair8</trimChoices>
+
+
+	</female>
+	<female><name>Idol2Hair5</name>
+		<model>skinned\hair\sy_idol2_05</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="Idol2Hair5" />
+		<alternate category="Group01" style="Idol2Hair5" />
+		<alternate category="Group02" style="Idol2Hair5" />
+		<alternate category="Group03" style="Idol2Hair5" />
+		<alternate category="Group04" style="Idol2Hair5" />
+		<alternate category="Group05" style="Idol2Hair5" />
+		<alternate category="Group06" style="Idol2Hair5" />
+
+		<level>3</level>
+		<trimChoices>Idol2Hair1</trimChoices>
+		<trimChoices>Idol2Hair2</trimChoices>
+		<trimChoices>Idol2Hair3</trimChoices>
+		<trimChoices>Idol2Hair4</trimChoices>
+		<trimChoices>Idol2Hair6</trimChoices>
+		<trimChoices>Idol2Hair7</trimChoices>
+		<trimChoices>Idol2Hair8</trimChoices>
+
+
+	</female>
+	<female><name>Idol2Hair6</name>
+		<model>skinned\hair\sy_idol2_06</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="Idol2Hair6" />
+		<alternate category="Group01" style="Idol2Hair6" />
+		<alternate category="Group02" style="Idol2Hair6" />
+		<alternate category="Group03" style="Idol2Hair6" />
+		<alternate category="Group04" style="Idol2Hair6" />
+		<alternate category="Group05" style="Idol2Hair6" />
+		<alternate category="Group06" style="Idol2Hair6" />
+		<level>3</level>
+		<trimChoices>Idol2Hair1</trimChoices>
+		<trimChoices>Idol2Hair2</trimChoices>
+		<trimChoices>Idol2Hair3</trimChoices>
+		<trimChoices>Idol2Hair4</trimChoices>
+		<trimChoices>Idol2Hair5</trimChoices>
+		<trimChoices>Idol2Hair7</trimChoices>
+		<trimChoices>Idol2Hair8</trimChoices>
+
+
+	</female>
+	<female><name>Idol2Hair7</name>
+		<model>skinned\hair\sy_idol2_07</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="Idol2Hair7" />
+		<alternate category="Group01" style="Idol2Hair7" />
+		<alternate category="Group02" style="Idol2Hair7" />
+		<alternate category="Group03" style="Idol2Hair7" />
+		<alternate category="Group04" style="Idol2Hair7" />
+		<alternate category="Group05" style="Idol2Hair7" />
+		<alternate category="Group06" style="Idol2Hair7" />
+		<level>3</level>
+			<trimChoices>Idol2Hair1</trimChoices>
+		<trimChoices>Idol2Hair2</trimChoices>
+		<trimChoices>Idol2Hair3</trimChoices>
+		<trimChoices>Idol2Hair4</trimChoices>
+		<trimChoices>Idol2Hair5</trimChoices>
+		<trimChoices>Idol2Hair6</trimChoices>
+		<trimChoices>Idol2Hair8</trimChoices>
+	</female>
+	<female><name>Idol2Hair8</name>
+		<model>skinned\hair\sy_idol2_08</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="Idol2Hair8" />
+		<alternate category="Group01" style="Idol2Hair8" />
+		<alternate category="Group02" style="Idol2Hair8" />
+		<alternate category="Group03" style="Idol2Hair8" />
+		<alternate category="Group04" style="Idol2Hair8" />
+		<alternate category="Group05" style="Idol2Hair8" />
+		<alternate category="Group06" style="Idol2Hair8" />
+		<level>3</level>
+			<trimChoices>Idol2Hair1</trimChoices>
+		<trimChoices>Idol2Hair2</trimChoices>
+		<trimChoices>Idol2Hair3</trimChoices>
+		<trimChoices>Idol2Hair4</trimChoices>
+		<trimChoices>Idol2Hair5</trimChoices>
+		<trimChoices>Idol2Hair6</trimChoices>
+		<trimChoices>Idol2Hair7</trimChoices>
+	</female>
+<!--Hat-->
+
+
+	
+</hairStyles>
