@@ -1,0 +1,40 @@
+VERSION = 1,
+
+option RandomSoundEvents_DyingGunFire.disabled = {
+	type = boolean,
+	default = false,
+	page = RandomSoundEvents_DyingGunFire,
+	translation = RandomSoundEvents_DyingGunFire_disabled,
+}
+
+option RandomSoundEvents_DyingGunFire.daysSinceApocalypse = {
+	type = double,
+	default = 7,
+	min = 0,
+	max = 999999999,
+	page = RandomSoundEvents_DyingGunFire,
+	translation = RandomSoundEvents_DyingGunFire_daysSinceApocalypse,
+}
+
+option RandomSoundEvents_DyingGunFire.daysSinceApocalypseEnd = {
+	type = double,
+	default = 30,
+	min = 0,
+	max = 999999999,
+	page = RandomSoundEvents_DyingGunFire,
+	translation = RandomSoundEvents_DyingGunFire_daysSinceApocalypseEnd,
+}
+
+option RandomSoundEvents_DyingGunFire.disableFear = {
+	type = boolean,
+	default = false,
+	page = RandomSoundEvents_DyingGunFire,
+	translation = RandomSoundEvents_DyingGunFire_disableFear,
+}
+
+option RandomSoundEvents_DyingGunFire.disableWakingUp = {
+	type = boolean,
+	default = false,
+	page = RandomSoundEvents_DyingGunFire,
+	translation = RandomSoundEvents_DyingGunFire_disableWakingUp,
+}

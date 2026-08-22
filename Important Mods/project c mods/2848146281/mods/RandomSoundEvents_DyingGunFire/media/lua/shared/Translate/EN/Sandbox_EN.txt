@@ -1,0 +1,20 @@
+Sandbox_EN = {
+
+    Sandbox_RandomSoundEvents_DyingGunFire = "Random Sound Events (DyingGunFire)",
+
+    Sandbox_RandomSoundEvents_DyingGunFire_disabled = "Disabled",
+    Sandbox_RandomSoundEvents_DyingGunFire_disabled_tooltip = "Disable DyingGunFire completely.",
+
+    Sandbox_RandomSoundEvents_DyingGunFire_daysSinceApocalypse = "Days before DyingGunFire (Starts)",
+    Sandbox_RandomSoundEvents_DyingGunFire_daysSinceApocalypse_tooltip = "The amount of days before Screaming Gun fire starts.",
+
+    Sandbox_RandomSoundEvents_DyingGunFire_daysSinceApocalypseEnd = "Days before Gun Fire (Ends)",
+    Sandbox_RandomSoundEvents_DyingGunFire_daysSinceApocalypseEnd_tooltip = "The amount of days before Screaming Gun fire stops.",
+
+    Sandbox_RandomSoundEvents_DyingGunFire_disableFear = "Disable Fear",
+    Sandbox_RandomSoundEvents_DyingGunFire_disableFear_tooltip = "Disable player getting stressed and panicked during Screaming Gun fire.",
+
+    Sandbox_RandomSoundEvents_DyingGunFire_disableWakingUp = "Disable Waking Up",
+    Sandbox_RandomSoundEvents_DyingGunFire_disableWakingUp_tooltip = "Disable player from waking up during Dying Gun fire.",
+
+}

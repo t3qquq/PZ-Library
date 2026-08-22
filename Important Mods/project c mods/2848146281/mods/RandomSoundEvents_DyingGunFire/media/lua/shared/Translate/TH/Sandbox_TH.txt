@@ -1,0 +1,19 @@
+Sandbox_TH = {
+
+    Sandbox_RandomSoundEvents_DyingGunFire = "เหตุการณ์เสียงสุ่ม (DyingGunFire)",
+
+    Sandbox_RandomSoundEvents_DyingGunFire_disabled = "ปิดการใช้งาน",
+    Sandbox_RandomSoundEvents_DyingGunFire_disabled_tooltip = "ปิดการใช้งาน DyingGunFire อย่างสมบูรณ์",
+
+    Sandbox_RandomSoundEvents_DyingGunFire_daysSinceApocalypse = "วันก่อน DyingGunFire (เริ่ม)",
+    Sandbox_RandomSoundEvents_DyingGunFire_daysSinceApocalypse_tooltip = "จำนวนวันก่อนยิงปืนกรีดร้อง",
+
+    Sandbox_RandomSoundEvents_DyingGunFire_daysSinceApocalypseEnd = "วันก่อนยิงปืน (สิ้นสุด)",
+    Sandbox_RandomSoundEvents_DyingGunFire_daysSinceApocalypseEnd_tooltip = "จำนวนวันก่อนที่ Screaming Gun จะหยุดยิง",
+
+    Sandbox_RandomSoundEvents_DyingGunFire_disableFear = "ปิดการใช้งานความกลัว",
+    Sandbox_RandomSoundEvents_DyingGunFire_disableFear_tooltip = "ปิดการใช้งานผู้เล่นที่เครียดและตื่นตระหนกระหว่างการยิง Screaming Gun",
+
+    Sandbox_RandomSoundEvents_DyingGunFire_disableWakingUp = "ปิดการใช้งานการตื่น",
+    Sandbox_RandomSoundEvents_DyingGunFire_disableWakingUp_tooltip = "ปิดการใช้งานผู้เล่นจากการตื่นระหว่างการยิง Dying Gun",
+}

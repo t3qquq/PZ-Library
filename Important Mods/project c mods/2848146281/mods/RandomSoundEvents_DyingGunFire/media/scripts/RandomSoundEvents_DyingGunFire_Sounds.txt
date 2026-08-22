@@ -1,0 +1,86 @@
+module Base {
+
+    sound Female1
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/Female/Female1.ogg, distanceMax = 500, volume = 0.40, }
+    }
+
+    sound Female2
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/Female/Female2.ogg, distanceMax = 500, volume = 0.55, }
+    }
+
+    sound Female3
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/Female/Female3.ogg, distanceMax = 500, volume = 0.40, }
+    }
+
+    sound Female4
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/Female/Female4.ogg, distanceMax = 500, volume = 0.40, }
+    }
+
+    sound Male1
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/Male/Male1.ogg, distanceMax = 500, volume = 0.55, }
+    }
+
+    sound Male2
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/Male/Male2.ogg, distanceMax = 500, volume = 0.40, }
+    }
+
+    sound Male3
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/Male/Male3.ogg, distanceMax = 500, volume = 0.40, }
+    }
+
+    sound Male4
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/Male/Male4.ogg, distanceMax = 500, volume = 0.40, }
+    }
+
+    sound Male5
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/Male/Male5.ogg, distanceMax = 500, volume = 0.50, }
+    }
+
+    sound Male6
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/Male/Male6.ogg, distanceMax = 500, volume = 0.50, }
+    }
+
+    sound Male7
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/Male/Male7.ogg, distanceMax = 500, volume = 0.50, }
+    }
+
+    sound Male8
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/Male/Male8.ogg, distanceMax = 500, volume = 0.40, }
+    }
+
+    sound Male9
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/Male/Male9.ogg, distanceMax = 500, volume = 0.40, }
+    }
+
+    sound Male10
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/Male/Male10.ogg, distanceMax = 500, volume = 0.40, }
+    }
+}

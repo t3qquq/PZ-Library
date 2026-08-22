@@ -1,0 +1,5 @@
+name=RandomSoundEvents (Random Guns Pack)
+id=RandomSoundEvents_RandomGuns
+description=RandomGuns sound pack for Random Sound Events
+poster=poster.png
+require=RandomSoundEvents

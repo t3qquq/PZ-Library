@@ -1,0 +1,20 @@
+Sandbox_EN = {
+
+    Sandbox_RandomSoundEvents_RandomGuns = "Random Sound Events (RandomGuns)",
+
+    Sandbox_RandomSoundEvents_RandomGuns_disabled = "Disabled",
+    Sandbox_RandomSoundEvents_RandomGuns_disabled_tooltip = "Disable RandomGuns completely.",
+
+    Sandbox_RandomSoundEvents_RandomGuns_daysSinceApocalypse = "Days before RandomGuns (Starts)",
+    Sandbox_RandomSoundEvents_RandomGuns_daysSinceApocalypse_tooltip = "The amount of days before Gun fire starts.",
+
+    Sandbox_RandomSoundEvents_RandomGuns_daysSinceApocalypseEnd = "Days before Gun Fire (Ends)",
+    Sandbox_RandomSoundEvents_RandomGuns_daysSinceApocalypseEnd_tooltip = "The amount of days before Gun fire stops.",
+
+    Sandbox_RandomSoundEvents_RandomGuns_disableFear = "Disable Fear",
+    Sandbox_RandomSoundEvents_RandomGuns_disableFear_tooltip = "Disable player getting stressed and panicked during Gun fire.",
+
+    Sandbox_RandomSoundEvents_RandomGuns_disableWakingUp = "Disable Waking Up",
+    Sandbox_RandomSoundEvents_RandomGuns_disableWakingUp_tooltip = "Disable player from waking up during Gun Shots.",
+
+}

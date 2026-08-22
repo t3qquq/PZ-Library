@@ -1,0 +1,40 @@
+VERSION = 1,
+
+option RandomSoundEvents_RandomGuns.disabled = {
+	type = boolean,
+	default = false,
+	page = RandomSoundEvents_RandomGuns,
+	translation = RandomSoundEvents_RandomGuns_disabled,
+}
+
+option RandomSoundEvents_RandomGuns.daysSinceApocalypse = {
+	type = double,
+	default = 7,
+	min = 0,
+	max = 999999999,
+	page = RandomSoundEvents_RandomGuns,
+	translation = RandomSoundEvents_RandomGuns_daysSinceApocalypse,
+}
+
+option RandomSoundEvents_RandomGuns.daysSinceApocalypseEnd = {
+	type = double,
+	default = 30,
+	min = 0,
+	max = 999999999,
+	page = RandomSoundEvents_RandomGuns,
+	translation = RandomSoundEvents_RandomGuns_daysSinceApocalypseEnd,
+}
+
+option RandomSoundEvents_RandomGuns.disableFear = {
+	type = boolean,
+	default = false,
+	page = RandomSoundEvents_RandomGuns,
+	translation = RandomSoundEvents_RandomGuns_disableFear,
+}
+
+option RandomSoundEvents_RandomGuns.disableWakingUp = {
+	type = boolean,
+	default = false,
+	page = RandomSoundEvents_RandomGuns,
+	translation = RandomSoundEvents_RandomGuns_disableWakingUp,
+}

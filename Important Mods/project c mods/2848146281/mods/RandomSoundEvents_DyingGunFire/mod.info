@@ -1,0 +1,5 @@
+name=RandomSoundEvents (Dying Gun Fire Pack)
+id=RandomSoundEvents_DyingGunFire
+description=Dying Gun Fire sound pack for Random Sound Events
+poster=poster.png
+require=RandomSoundEvents

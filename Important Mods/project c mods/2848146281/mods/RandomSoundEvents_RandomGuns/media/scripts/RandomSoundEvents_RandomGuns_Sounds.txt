@@ -1,0 +1,135 @@
+module Base {
+
+    sound Pistol1
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Pistol/Pistol1.ogg, distanceMax = 500, volume = 0.70, }
+    }
+
+    sound Pistol2
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Pistol/Pistol2.ogg, distanceMax = 500, volume = 1, }
+    }
+
+    sound Pistol3
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Pistol/Pistol3.ogg, distanceMax = 500, volume = 0.70, }
+    }
+
+    sound Pistol4
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Pistol/Pistol4.ogg, distanceMax = 500, volume = 0.70, }
+    }
+
+    sound Pistol5
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Pistol/Pistol5.ogg, distanceMax = 500, volume = 0.70, }
+    }
+
+    sound Rifle1
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Rifle/Rifle1.ogg, distanceMax = 500, volume = 0.80, }
+    }
+
+    sound Rifle2
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Rifle/Rifle2.ogg, distanceMax = 500, volume = 0.80, }
+    }
+
+    sound Rifle3
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Rifle/Rifle3.ogg, distanceMax = 500, volume = 0.80, }
+    }
+
+    sound Rifle4
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Rifle/Rifle4.ogg, distanceMax = 500, volume = 0.80, }
+    }
+
+    sound Shotgun1
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Shotgun/Shotgun1.ogg, distanceMax = 500, volume = 0.70, }
+    }
+
+    sound Shotgun2
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Shotgun/Shotgun2.ogg, distanceMax = 500, volume = 0.70, }
+    }
+
+    sound Shotgun3
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Shotgun/Shotgun3.ogg, distanceMax = 500, volume = 0.70, }
+    }
+
+    sound Shotgun4
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Shotgun/Shotgun4.ogg, distanceMax = 500, volume = 0.70, }
+    }
+
+    sound Smg1
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Smg/Smg1.ogg, distanceMax = 500, volume = 0.85, }
+    }
+
+    sound Smg2
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Smg/Smg2.ogg, distanceMax = 500, volume = 0.85, }
+    }
+
+    sound Smg3
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Smg/Smg3.ogg, distanceMax = 500, volume = 0.85, }
+    }
+
+    sound Smg4
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Smg/Smg4.ogg, distanceMax = 500, volume = 0.85, }
+    }
+
+    sound Smg5
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Sniper/Sniper4.ogg, distanceMax = 500, volume = 0.85, }
+    }
+
+    sound Sniper1
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Sniper/Sniper1.ogg, distanceMax = 500, volume = 1.15, }
+    }
+
+    sound Sniper2
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Sniper/Sniper2.ogg, distanceMax = 500, volume = 1.15, }
+    }
+
+    sound Sniper3
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Sniper/Sniper3.ogg, distanceMax = 500, volume = 1.15, }
+    }
+
+    sound Sniper4
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/RandomGuns/Sniper/Sniper4.ogg, distanceMax = 500, volume = 1.15, }
+    }
+
+}
