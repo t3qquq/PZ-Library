@@ -1,0 +1,26 @@
+ItemName_EN = {
+
+	/****************************** MELEE ******************************/
+    ItemName_Base.HuntingKnife = "Hunting Knife",
+    ItemName_Base.AxeStone = "Stone Axe",
+    ItemName_Base.HandAxe = "Hatchet",
+    ItemName_Base.Axe = "Axe",
+    ItemName_Base.WoodAxe = "Felling Axe",
+    ItemName_Base.Shovel = "Shovel",
+    ItemName_Base.Shovel2 = "Shovel",
+    ItemName_Base.Sledgehammer = "Sledgehammer",
+    ItemName_Base.Sledgehammer2 = "Sledgehammer",
+    ItemName_Base.SpearBreadKnife = "Bread Knife Spear",
+    ItemName_Base.SpearButterKnife = "Butter Knife Spear",
+    ItemName_Base.SpearFork = "Fork Spear",
+    ItemName_Base.SpearHandFork = "Hand Fork Spear",
+    ItemName_Base.SpearHuntingKnife = "Hunting Knife Spear",
+    ItemName_Base.SpearIcePick = "Ice Pick Spear",
+    ItemName_Base.SpearKnife = "Kitchen Knife Spear",
+    ItemName_Base.SpearLetterOpener = "Letter Opener Spear",
+    ItemName_Base.SpearMachete = "Machete Spear",
+    ItemName_Base.SpearScalpel = "Scalpel Spear",
+    ItemName_Base.SpearScissors = "Scissors Spear",
+    ItemName_Base.SpearScrewdriver = "Screwdriver Spear",
+    ItemName_Base.SpearSpoon = "Spoon Spear",
+}

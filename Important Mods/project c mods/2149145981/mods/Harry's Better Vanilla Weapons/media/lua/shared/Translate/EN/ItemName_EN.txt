@@ -1,0 +1,50 @@
+ItemName_EN = {
+
+	/****************************** FIREARM ******************************/
+    ItemName_Base.Pistol = "Ruger P89",
+    ItemName_Base.Pistol2 = "M1911",
+    ItemName_Base.Pistol3 = "Desert Eagle",
+    ItemName_Base.Revolver = "S&W M625",
+    ItemName_Base.Revolver_Long = "S&W M29",
+    ItemName_Base.Revolver_Short = "S&W M36",
+    ItemName_Base.DoubleBarrelShotgun = "Double Barrel Shotgun",
+	ItemName_Base.Shotgun = "Remington 870",
+    ItemName_Base.ShotgunSawnoff = "Sawn-off Remington 870",
+	ItemName_Base.DoubleBarrelShotgunSawnoff = "Sawn-off Double Barrel Shotgun"
+    ItemName_Base.VarmintRifle = "Savage Model 110",
+    ItemName_Base.HuntingRifle = "Winchester M70",
+    ItemName_Base.AssaultRifle = "M16A2",
+    ItemName_Base.AssaultRifle2 = "M14",
+
+
+	/****************************** AMMO ******************************/
+	ItemName_Base.223Box = "Box of .223 Rounds",
+    ItemName_Base.308Box = "Box of .308 Rounds",
+    ItemName_Base.Bullets44Box = "Box of .44 Magnum Rounds",
+    ItemName_Base.Bullets45Box = "Box of .45 ACP Rounds",
+    ItemName_Base.556Box = "Box of 5.56 NATO Rounds",
+    ItemName_Base.Bullets9mmBox = "Box of 9mm Rounds",
+    ItemName_Base.Bullets38Box = "Box of .38 Special Rounds",
+    ItemName_Base.ShotgunShellsBox = "Box of 12ga Shells",
+
+    ItemName_Base.223Bullets = ".223 Round",
+    ItemName_Base.308Bullets = ".308 Round",
+    ItemName_Base.Bullets44 = ".44 Magnum Round",
+    ItemName_Base.Bullets45 = ".45 ACP Round",
+    ItemName_Base.556Bullets = "5.56 NATO Round",
+    ItemName_Base.Bullets9mm = "9mm Round",
+    ItemName_Base.Bullets38 = ".38 Special Round",
+    ItemName_Base.ShotgunShells = "12ga Shells",
+
+    ItemName_Base.223BulletsMold = ".223 Bullet Mold",
+    ItemName_Base.308BulletsMold = ".308 Bullet Mold",
+    ItemName_Base.9mmBulletsMold = "9mm Bullet Mold",
+    ItemName_Base.ShotgunShellsMold = "12ga Shells Mold",
+
+    ItemName_Base.223Clip = ".223 Magazine",
+    ItemName_Base.308Clip = ".308 Magazine",
+    ItemName_Base.44Clip = ".44 Magnum Magazine",
+    ItemName_Base.45Clip = ".45 ACP Magazine",
+    ItemName_Base.556Clip = "5.56 NATO Magazine",
+    ItemName_Base.9mmClip = "9mm Magazine",
+}

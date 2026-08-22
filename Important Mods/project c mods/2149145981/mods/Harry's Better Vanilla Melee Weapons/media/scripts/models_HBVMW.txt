@@ -1,0 +1,13 @@
+module Base
+{
+	model MetalBar
+	{
+		mesh = Weapons/1Handed/MetalBar,
+		texture = Weapons/1Handed/LeadPipe,
+	}
+	model PipeLead
+	{
+		mesh = Weapons/1Handed/PipeLead,
+		texture = Weapons/1Handed/LeadPipe,
+	}
+}
