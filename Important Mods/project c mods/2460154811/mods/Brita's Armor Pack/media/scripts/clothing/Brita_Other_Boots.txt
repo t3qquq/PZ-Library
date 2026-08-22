@@ -1,0 +1,318 @@
+module Base
+{
+
+
+	item Boots_Heather
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Heather Mason's Leather Boots,
+		ClothingItem = Boots_Heather,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = Boots_Heather,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_Boots_Heather,
+	}
+
+
+
+	item Boots_Bennett
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Cybil Bennett's Leather Boots,
+		ClothingItem = Boots_Bennett,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = Boots_Bennett,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_Boots_Bennett,
+	}
+
+
+
+	item Boots_James
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = James Sunderland's Boots,
+		ClothingItem = Boots_James,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = Boots_James,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_Boots_James,
+	}
+
+
+
+	item Shoes_Lisa
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Lisa Garland's Shoes,
+		ClothingItem = Shoes_Lisa,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = Shoes_Lisa,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_Shoes_Lisa,
+	}
+
+
+
+
+	item Boots_Maria
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Maria's Boots,
+		ClothingItem = Boots_Maria,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = Boots_Maria,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_Boots_Maria,
+	}
+
+
+
+	item Tac_Boots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Coyote Tactical Boots,
+		ClothingItem = Tac_Boots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = Tac_Boots,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_Tac_Boots,
+	}
+
+
+	item Boots_Trackstar
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Trackstar Tactical Boots,
+		ClothingItem = Boots_Trackstar,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = Boots_Trackstar,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_Boots_Trackstar,
+	}
+
+
+	item Susie_Boots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = The Legion Susie's Sneakers,
+		ClothingItem = Susie_Boots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = Susie_Boots,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_Susie_Boots,
+	}
+
+
+	item SET_Boots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Salomon Men's Guardian Tactical Boots,
+		ClothingItem = SET_Boots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = SET_Boots,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_SET_Boots,
+	}
+
+	item Ashe_Boots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Ashe's Leather Boots,
+		ClothingItem = Ashe_Boots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = Ashe_Boots,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_Ashe_Boots,
+	}
+
+
+	item Mechanic_Boots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Mechanic Boots,
+		ClothingItem = Mechanic_Boots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = Mechanic_Boots,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_Mechanic_Boots,
+	}
+
+
+	item Rose_Shoes
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Rosemary Winter's Sneakers,
+		ClothingItem = Rose_Shoes,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = Rose_Shoes,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_Rose_Shoes,
+	}
+
+
+	item Nurse_Shoes
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Silent Hill Nurse Shoes,
+		ClothingItem = Nurse_Shoes,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = Nurse_Shoes,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_Nurse_Shoes,
+	}
+
+
+	item Metro_Boots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Metro Hazard Boots,
+		ClothingItem = Metro_Boots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = Metro_Boots,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_Metro_Boots,
+	}
+
+
+}

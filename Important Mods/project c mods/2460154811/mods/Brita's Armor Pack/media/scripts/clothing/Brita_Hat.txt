@@ -1,0 +1,533 @@
+module Base
+{
+
+
+    item Hat_Tactical_Boonie
+	{
+	Type = Clothing,
+	DisplayName = Tactical Boonie Hat,
+	ClothingItem = Hat_Tactical_Boonie,
+	BodyLocation = Hat,
+	Icon = Hat_Tactical_Boonie,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        BloodLocation = Head,
+        Weight = 0.5,
+       WorldStaticModel= W_Hat_Tactical_Boonie,
+    }
+
+
+
+    item Hat_Tactical_Boonie_Fold
+	{
+	Type = Clothing,
+	DisplayName = Striker Boonie Hat,
+	ClothingItem = Hat_Tactical_Boonie_Fold,
+	BodyLocation = Hat,
+	Icon = Hat_Tactical_Boonie_Fold,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        BloodLocation = Head,
+        Weight = 0.5,
+       WorldStaticModel= W_Hat_Tactical_Boonie_Fold,
+    }
+
+
+
+    item Hat_Lisa_Cap
+	{
+	Type = Clothing,
+	DisplayName = Silent Hill Nurse Cap,
+	ClothingItem = Hat_Lisa_Cap,
+	BodyLocation = Hat,
+	Icon = Hat_Lisa_Cap,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        BloodLocation = Head,
+        Weight = 0.1,
+    }
+
+
+
+    item Hat_Tactical_Cap
+	{
+	Type = Clothing,
+	DisplayName = Duck Tactical Cap,
+	ClothingItem = Hat_Tactical_Cap,
+	BodyLocation = Hat,
+	Icon = Hat_Tactical_Cap,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Hat_Tactical_Cap_Back,
+        ClothingItemExtraOption = Cap_Backwards,
+        clothingExtraSubmenu = Cap_Front,
+        WorldStaticModel= W_Hat_Tactical_Cap,
+    }
+
+
+    item Hat_Tactical_Cap_Back
+	{
+	Type = Clothing,
+	DisplayName = Duck Tactical Cap Backwards,
+	ClothingItem = Hat_Tactical_Cap_Back,
+	BodyLocation = Hat,
+	Icon = Hat_Tactical_Cap,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Hat_Tactical_Cap,
+        ClothingItemExtraOption = Cap_Front,
+        clothingExtraSubmenu = Cap_Backwards,
+        WorldStaticModel= W_Hat_Tactical_Cap,
+    }
+
+
+    item Hat_Tactical_Cap_Camo
+	{
+	Type = Clothing,
+	DisplayName = Condor Camouflage Cap,
+	ClothingItem = Hat_Tactical_Cap_Camo,
+	BodyLocation = Hat,
+	Icon = Hat_Tactical_Cap_Camo,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Hat_Tactical_Cap_Camo_Back,
+        ClothingItemExtraOption = Cap_Backwards,
+        clothingExtraSubmenu = Cap_Front,
+        WorldStaticModel= W_Hat_Tactical_Cap_Camo,
+    }
+
+
+    item Hat_Tactical_Cap_Camo_Back
+	{
+	Type = Clothing,
+	DisplayName = Condor Camouflage Cap Backwards,
+	ClothingItem = Hat_Tactical_Cap_Camo_Back,
+	BodyLocation = Hat,
+	Icon = Hat_Tactical_Cap_Camo,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Hat_Tactical_Cap_Camo,
+        ClothingItemExtraOption = Cap_Front,
+        clothingExtraSubmenu = Cap_Backwards,
+        WorldStaticModel= W_Hat_Tactical_Cap_Camo,
+    }
+
+
+    item Hat_Patrol_Cap
+	{
+	Type = Clothing,
+	DisplayName = Helikon Tex Patrol Cap,
+	ClothingItem = Hat_Patrol_Cap,
+	BodyLocation = Hat,
+	Icon = Hat_Patrol_Cap,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Hat_Patrol_Cap_Back,
+        ClothingItemExtraOption = Cap_Backwards,
+        clothingExtraSubmenu = Cap_Front,
+       WorldStaticModel= W_Hat_Patrol_Cap,
+    }
+
+
+    item Hat_Patrol_Cap_Back
+	{
+	Type = Clothing,
+	DisplayName = Helikon Tex Patrol Cap Backwards,
+	ClothingItem = Hat_Patrol_Cap_Back,
+	BodyLocation = Hat,
+	Icon = Hat_Patrol_Cap,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Hat_Patrol_Cap,
+        ClothingItemExtraOption = Cap_Front,
+        clothingExtraSubmenu = Cap_Backwards,
+       WorldStaticModel= W_Hat_Patrol_Cap,
+    }
+
+
+
+    item Hat_Tactical_Beret
+	{
+	Type = Clothing,
+	DisplayName = Tactical Beret,
+	ClothingItem = Hat_Tactical_Beret,
+	BodyLocation = Hat,
+	Icon = Hat_Tactical_Beret,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        BloodLocation = Head,
+        Weight = 0.5,
+       WorldStaticModel= W_Hat_Tactical_Beret,
+    }
+
+
+    item Officer_Hat
+	{
+	Type = Clothing,
+	DisplayName = Officer Visor Cap,
+	ClothingItem = Officer_Hat,
+	BodyLocation = Hat,
+	Icon = Officer_Hat,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        BloodLocation = Head,
+        Weight = 0.5,
+        WorldStaticModel= W_Officer_Hat,
+    }
+
+
+    item Police_Officer_Hat
+	{
+	Type = Clothing,
+	DisplayName = Police Officer Visor Cap,
+	ClothingItem = Police_Officer_Hat,
+	BodyLocation = Hat,
+	Icon = Police_Officer_Hat,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        BloodLocation = Head,
+        Weight = 0.5,
+        WorldStaticModel= W_Police_Officer_Hat,
+    }
+
+
+    item Bear_Mask
+	{
+	Type = Clothing,
+	DisplayName = Anna's Dead Bear Mask,
+	ClothingItem = Bear_Mask,
+	BodyLocation = Hat,
+	Icon = Bear_Mask,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        Insulation = 0.95,
+        WindResistance = 0.70,
+        WaterResistance = 0.80,
+        Weight = 2,
+        WorldStaticModel= W_Bear_Mask,
+    }
+
+
+    item Fire_Helmet
+	{
+	Type = Clothing,
+	DisplayName = MSA Cairns 880 Fire Helmet w/ Tuffshield,
+	ClothingItem = Fire_Helmet,
+	BodyLocation = Hat,
+	Icon = Fire_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 100,
+	ScratchDefense = 100,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+        WorldStaticModel= W_Fire_Helmet,
+    }
+
+
+    item Military_Ghillie_Hat
+	{
+	Type = Clothing,
+	DisplayName = Northstar Ghillie Hat,
+	ClothingItem = Military_Ghillie_Hat,
+	BodyLocation = Hat,
+	Icon = Military_Ghillie_Hat,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        BloodLocation = Head,
+        Weight = 0.5,
+        ClothingItemExtra = Military_Ghillie_Hat_Mask,
+        ClothingItemExtraOption = Military_Ghillie_Hat_ON,
+        clothingExtraSubmenu = Military_Ghillie_Hat_OFF,
+        WorldStaticModel= W_Military_Ghillie_Hat,
+    }
+
+    item Military_Ghillie_Hat_Mask
+	{
+	Type = Clothing,
+	DisplayName = Northstar Ghillie Hat w/ Mask,
+	ClothingItem = Military_Ghillie_Hat_Mask,
+	BodyLocation = Hat,
+	Icon = Military_Ghillie_Hat,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        BloodLocation = Head,
+        Weight = 0.5,
+        ClothingItemExtra = Military_Ghillie_Hat,
+        ClothingItemExtraOption = Military_Ghillie_Hat_OFF,
+        clothingExtraSubmenu = Military_Ghillie_Hat_ON,
+        WorldStaticModel= W_Military_Ghillie_Hat,
+    }
+
+
+    item ELA_Cap
+	{
+	Type = Clothing,
+	DisplayName = Elzbieta Bosak ELA's Tactical Cap,
+	ClothingItem = ELA_Cap,
+	BodyLocation = Hat,
+	Icon = ELA_Cap,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = ELA_Cap_Back,
+        ClothingItemExtraOption = Cap_Backwards,
+        clothingExtraSubmenu = Cap_Front,
+        WorldStaticModel= W_ELA_Cap,
+    }
+
+
+    item ELA_Cap_Back
+	{
+	Type = Clothing,
+	DisplayName = Elzbieta Bosak ELA's Tactical Cap Backwards,
+	ClothingItem = ELA_Cap_Back,
+	BodyLocation = Hat,
+	Icon = ELA_Cap,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = ELA_Cap,
+        ClothingItemExtraOption = Cap_Front,
+        clothingExtraSubmenu = Cap_Backwards,
+        WorldStaticModel= W_ELA_Cap,
+    }
+
+
+    item Rose_Cap
+	{
+	Type = Clothing,
+	DisplayName = Rosemary Winters Cap,
+	ClothingItem = Rose_Cap,
+	BodyLocation = Hat,
+	Icon = Rose_Cap,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Rose_Cap_Back,
+        ClothingItemExtraOption = Cap_Backwards,
+        clothingExtraSubmenu = Cap_Front,
+        WorldStaticModel= W_Rose_Cap,
+    }
+
+
+    item Rose_Cap_Back
+	{
+	Type = Clothing,
+	DisplayName = Rosemary Winters Cap Backwards,
+	ClothingItem = Rose_Cap_Back,
+	BodyLocation = Hat,
+	Icon = Rose_Cap,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Rose_Cap,
+        ClothingItemExtraOption = Cap_Front,
+        clothingExtraSubmenu = Cap_Backwards,
+        WorldStaticModel= W_Rose_Cap,
+    }
+
+
+    item Round_Cap_Police
+	{
+	Type = Clothing,
+	DisplayName = Police Baseball Cap,
+	ClothingItem = Round_Cap_Police,
+	BodyLocation = Hat,
+	Icon = Round_Cap_Police,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Round_Cap_Police_Back,
+        ClothingItemExtraOption = Cap_Backwards,
+        clothingExtraSubmenu = Cap_Front,
+        WorldStaticModel= W_Round_Cap_Police,
+    }
+
+
+    item Round_Cap_Police_Back
+	{
+	Type = Clothing,
+	DisplayName = Police Baseball Cap Backwards,
+	ClothingItem = Round_Cap_Police_Back,
+	BodyLocation = Hat,
+	Icon = Round_Cap_Police,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Round_Cap_Police_Cap,
+        ClothingItemExtraOption = Cap_Front,
+        clothingExtraSubmenu = Cap_Backwards,
+        WorldStaticModel= W_Round_Cap_Police,
+    }
+
+
+    item Sniper_Veil
+	{
+	Type = Clothing,
+	DisplayName = Northstar Sniper Veil,
+	ClothingItem = Sniper_Veil,
+	BodyLocation = Hat,
+	Icon = Sniper_Veil,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        WorldStaticModel= W_Sniper_Veil,
+    }
+
+
+    item Worn_Beanie
+	{
+	Type = Clothing,
+	DisplayName = Worn Beanie Hat,
+	ClothingItem = Worn_Beanie,
+	BodyLocation = Hat,
+	Icon = Worn_Beanie,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Worn_Beanie,
+        ClothingItemExtraOption = Worn_Beanie_Backwards,
+        clothingExtraSubmenu = Worn_Beanie_Front,
+        WorldStaticModel= W_Worn_Beanie,
+    }
+
+
+    item Worn_Beanie_Full
+	{
+	Type = Clothing,
+	DisplayName = Worn Beanie Hat w/ Broken Lights,
+	ClothingItem = Worn_Beanie_Full,
+	BodyLocation = Hat,
+	Icon = Worn_Beanie,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Worn_Beanie,
+        ClothingItemExtraOption = Worn_Beanie_Front,
+        clothingExtraSubmenu = Worn_Beanie_Backwards,
+        WorldStaticModel= W_Worn_Beanie,
+    }
+
+    item Round_Cap_Fisher
+	{
+	Type = Clothing,
+	DisplayName = Feskarn Fisherman Baseball Cap,
+	ClothingItem = Round_Cap_Fisher,
+	BodyLocation = Hat,
+	Icon = Hat_Tactical_Cap,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Round_Cap_Fisher_Back,
+        ClothingItemExtraOption = Cap_Backwards,
+        clothingExtraSubmenu = Cap_Front,
+        WorldStaticModel= W_Round_Cap_Fisher,
+    }
+
+
+    item Round_Cap_Fisher_Back
+	{
+	Type = Clothing,
+	DisplayName = Feskarn Fisherman Baseball Cap Backwards,
+	ClothingItem = Round_Cap_Fisher_Back,
+	BodyLocation = Hat,
+	Icon = Hat_Tactical_Cap,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Round_Cap_Fisher_Cap,
+        ClothingItemExtraOption = Cap_Front,
+        clothingExtraSubmenu = Cap_Backwards,
+        WorldStaticModel= W_Round_Cap_Fisher,
+    }
+
+
+    item Round_Cap_Casual
+	{
+	Type = Clothing,
+	DisplayName = Mil-Tec Baseball Cap,
+	ClothingItem = Round_Cap_Casual,
+	BodyLocation = Hat,
+	Icon = Round_Cap_Casual,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Round_Cap_Casual_Back,
+        ClothingItemExtraOption = Cap_Backwards,
+        clothingExtraSubmenu = Cap_Front,
+        WorldStaticModel= W_Round_Cap_Casual,
+    }
+
+
+    item Round_Cap_Casual_Back
+	{
+	Type = Clothing,
+	DisplayName = Mil-Tec Baseball Cap Backwards,
+	ClothingItem = Round_Cap_Casual_Back,
+	BodyLocation = Hat,
+	Icon = Round_Cap_Casual,
+	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        Weight = 0.5,
+        ClothingItemExtra = Round_Cap_Casual_Cap,
+        ClothingItemExtraOption = Cap_Front,
+        clothingExtraSubmenu = Cap_Backwards,
+        WorldStaticModel= W_Round_Cap_Casual,
+    }
+}

@@ -1,0 +1,407 @@
+module Base
+{
+
+
+    item Hat_HGU56_Shield
+	{
+	Type = Clothing,
+	DisplayName = HGU-56P Helmet Face Shield,
+	ClothingItem = Hat_HGU56_Shield,
+	BodyLocation = RightEye,
+	Icon = Hat_HGU56_Shield,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+     WorldStaticModel= W_Hat_HGU56_Shield,
+    }
+
+
+
+
+    item Viper_Helmet_Shield
+	{
+	Type = Clothing,
+	DisplayName = Viper's Pilot Helmet Face Shield,
+	ClothingItem = Viper_Helmet_Shield,
+	BodyLocation = RightEye,
+	Icon = Viper_Helmet_Shield,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        WorldStaticModel= W_Viper_Helmet_Shield,
+    }
+
+    item Hat_PSGT_Visor
+	{
+	Type = Clothing,
+	DisplayName = Military PASGT Helmet Visor,
+	ClothingItem = Hat_PSGT_Visor,
+	BodyLocation = RightEye,
+	Icon = Hat_PSGT_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = Hat_PSGT_Visor_UP,
+        ClothingItemExtraOption = Visor3_OFF,
+        clothingExtraSubmenu = Visor3_ON,
+        WorldStaticModel= W_Hat_PSGT_Visor,
+    }
+
+
+
+
+    item Hat_PSGT_Visor_UP
+	{
+	Type = Clothing,
+	DisplayName = Military PASGT Helmet Visor UP,
+	ClothingItem = Hat_PSGT_Visor_UP,
+	BodyLocation = LeftEye,
+	Icon = Hat_PSGT_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = Hat_PSGT_Visor,
+        ClothingItemExtraOption = Visor3_ON,
+        clothingExtraSubmenu = Visor3_OFF,
+        WorldStaticModel= W_Hat_PSGT_Visor,
+    }
+
+
+
+    item Hat_Riot_Visor
+	{
+	Type = Clothing,
+	DisplayName = Police PASGT Helmet Visor,
+	ClothingItem = Hat_Riot_Visor,
+	BodyLocation = RightEye,
+	Icon = Hat_Riot_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = Hat_Riot_Visor_UP,
+        ClothingItemExtraOption = Visor4_OFF,
+        clothingExtraSubmenu = Visor4_ON,
+        WorldStaticModel= W_Hat_Riot_Visor,
+    }
+
+
+
+    item Hat_Riot_Visor_UP
+	{
+	Type = Clothing,
+	DisplayName = Police PASGT Helmet Visor UP,
+	ClothingItem = Hat_Riot_Visor_UP,
+	BodyLocation = LeftEye,
+	Icon = Hat_Riot_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = Hat_Riot_Visor,
+        ClothingItemExtraOption = Visor4_ON,
+        clothingExtraSubmenu = Visor4_OFF,
+        WorldStaticModel= W_Hat_Riot_Visor,
+    }
+
+
+    item Maska_1_Visor
+	{
+	Type = Clothing,
+	DisplayName = MASKA-1SCh Helmet Visor,
+	ClothingItem = Maska_1_Visor,
+	BodyLocation = RightEye,
+	Icon = Maska_1_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = Maska_1_Visor_UP,
+        ClothingItemExtraOption = Maska_1_Visor_OFF,
+        clothingExtraSubmenu = Maska_1_Visor_ON,
+        WorldStaticModel= W_Maska_1_Visor,
+    }
+
+
+    item Maska_1_Visor_UP
+	{
+	Type = Clothing,
+	DisplayName = MASKA-1SCh Helmet Visor (OFF),
+	ClothingItem = Maska_1_Visor_UP,
+	BodyLocation = LeftEye,
+	Icon = Maska_1_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = Maska_1_Visor,
+        ClothingItemExtraOption = Maska_1_Visor_ON,
+        clothingExtraSubmenu = Maska_1_Visor_OFF,
+        WorldStaticModel= W_Maska_1_Visor,
+    }
+
+
+    item 6B6_Visor
+	{
+	Type = Clothing,
+	DisplayName = 6B6-3 Altyn Titanium Helmet Visor,
+	ClothingItem = 6B6_Visor,
+	BodyLocation = RightEye,
+	Icon = 6B6_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = 6B6_Visor_UP,
+        ClothingItemExtraOption = 6B6_Visor_OFF,
+        clothingExtraSubmenu = 6B6_Visor_ON,
+        WorldStaticModel= W_6B6_Visor,
+    }
+
+
+    item 6B6_Visor_UP
+	{
+	Type = Clothing,
+	DisplayName = 6B6-3 Altyn Titanium Helmet Visor (OFF),
+	ClothingItem = 6B6_Visor_UP,
+	BodyLocation = LeftEye,
+	Icon = 6B6_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = 6B6_Visor,
+        ClothingItemExtraOption = 6B6_Visor_ON,
+        clothingExtraSubmenu = 6B6_Visor_OFF,
+        WorldStaticModel= W_6B6_Visor,
+    }
+
+
+    item Vityaz_Visor
+	{
+	Type = Clothing,
+	DisplayName = Vityaz-S Electric Train Helmet Visor,
+	ClothingItem = Vityaz_Visor,
+	BodyLocation = RightEye,
+	Icon = ZSH_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = Vityaz_Visor_UP,
+        ClothingItemExtraOption = Vityaz_Visor_OFF,
+        clothingExtraSubmenu = Vityaz_Visor_ON,
+        WorldStaticModel= W_Vityaz_Visor,
+    }
+
+
+    item Vityaz_Visor_UP
+	{
+	Type = Clothing,
+	DisplayName = Vityaz-S Electric Train Helmet Visor (OFF),
+	ClothingItem = Vityaz_Visor_UP,
+	BodyLocation = LeftEye,
+	Icon = ZSH_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = Vityaz_Visor,
+        ClothingItemExtraOption = Vityaz_Visor_ON,
+        clothingExtraSubmenu = Vityaz_Visor_OFF,
+        WorldStaticModel= W_Vityaz_Visor,
+    }
+
+
+    item ZSH_Visor
+	{
+	Type = Clothing,
+	DisplayName = ZSh-1-2/M Helmet Visor,
+	ClothingItem = ZSH_Visor,
+	BodyLocation = RightEye,
+	Icon = Vityaz_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = ZSH_Visor_UP,
+        ClothingItemExtraOption = ZSH_Visor_OFF,
+        clothingExtraSubmenu = ZSH_Visor_ON,
+        WorldStaticModel= W_ZSH_Visor,
+    }
+
+
+    item ZSH_Visor_UP
+	{
+	Type = Clothing,
+	DisplayName = ZSh-1-2/M Helmet Visor (OFF),
+	ClothingItem = ZSH_Visor_UP,
+	BodyLocation = LeftEye,
+	Icon = Vityaz_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = ZSH_Visor,
+        ClothingItemExtraOption = ZSH_Visor_ON,
+        clothingExtraSubmenu = ZSH_Visor_OFF,
+        WorldStaticModel= W_ZSH_Visor,
+    }
+
+
+    item Fire_Visor
+	{
+	Type = Clothing,
+	DisplayName = Cairns 880 Fire Helmet Visor,
+	ClothingItem = Fire_Visor,
+	BodyLocation = RightEye,
+	Icon = Fire_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = Fire_Visor_UP,
+        ClothingItemExtraOption = Fire_Visor_OFF,
+        clothingExtraSubmenu = Fire_Visor_ON,
+        WorldStaticModel= W_Fire_Visor,
+    }
+
+
+    item Fire_Visor_UP
+	{
+	Type = Clothing,
+	DisplayName = Cairns 880 Fire Helmet Visor (OFF),
+	ClothingItem = Fire_Visor_UP,
+	BodyLocation = LeftEye,
+	Icon = Fire_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = Fire_Visor,
+        ClothingItemExtraOption = Fire_Visor_ON,
+        clothingExtraSubmenu = Fire_Visor_OFF,
+        WorldStaticModel= W_Fire_Visor,
+    }
+
+
+    item 1916_Helmet_Visor
+	{
+	Type = Clothing,
+	DisplayName = M1916 Stahlhelm Steel Helmet Cruise Visor,
+	ClothingItem = 1916_Helmet_Visor,
+	BodyLocation = RightEye,
+	Icon = 1916_Helmet_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        WorldStaticModel= W_1916_Helmet_Visor,
+    }
+
+    item 1916_Helmet_Visor_2
+	{
+	Type = Clothing,
+	DisplayName = M1916 Stahlhelm Steel Helmet Ratslayer Visor,
+	ClothingItem = 1916_Helmet_Visor_2,
+	BodyLocation = RightEye,
+	Icon = 1916_Helmet_Visor_2,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        WorldStaticModel= W_1916_Helmet_Visor_2,
+    }
+
+
+    item EOD_Visor
+	{
+	Type = Clothing,
+	DisplayName = EOD 9A Heavy Protection Helmet Visor,
+	ClothingItem = EOD_Visor,
+	BodyLocation = RightEye,
+	Icon = EOD_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = EOD_Visor_UP,
+        ClothingItemExtraOption = EOD_Visor_OFF,
+        clothingExtraSubmenu = EOD_Visor_ON,
+        WorldStaticModel= W_EOD_Visor,
+    }
+
+
+    item EOD_Visor_UP
+	{
+	Type = Clothing,
+	DisplayName = EOD 9A Heavy Protection Helmet Visor (OFF),
+	ClothingItem = EOD_Visor_UP,
+	BodyLocation = LeftEye,
+	Icon = EOD_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        ClothingItemExtra = EOD_Visor,
+        ClothingItemExtraOption = EOD_Visor_ON,
+        clothingExtraSubmenu = EOD_Visor_OFF,
+        WorldStaticModel= W_EOD_Visor,
+    }
+
+    item EOD_Shield
+	{
+	Type = Clothing,
+	DisplayName = EOD 9A Heavy Protection Helmet Face Shield,
+	ClothingItem = EOD_Shield,
+	BodyLocation = RightEye,
+	Icon = EOD_Shield,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        WorldStaticModel= W_EOD_Shield,
+    }
+
+
+    item JUGG_Visor
+	{
+	Type = Clothing,
+	DisplayName = Voin-1 Heavy Protection Helmet Face Shield,
+	ClothingItem = JUGG_Visor,
+	BodyLocation = RightEye,
+	Icon = JUGG_Visor,
+        BloodLocation = FullHelmet;Neck,
+	BiteDefense = 30,
+	ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 2,
+        WorldStaticModel= W_JUGG_Visor,
+    }
+
+}

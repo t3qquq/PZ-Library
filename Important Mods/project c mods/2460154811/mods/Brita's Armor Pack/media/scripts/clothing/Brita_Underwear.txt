@@ -1,0 +1,465 @@
+module Base
+{
+
+
+    item Susie_Stocking
+    {
+        Type = Clothing,
+        DisplayName = The Legion Susie's Stockings,
+        ClothingItem = Susie_Stocking,
+        BodyLocation = Socks,
+        Icon = Susie_Stocking,
+        Weight = 0.01,
+        WorldStaticModel= W_Susie_Stocking,
+    }
+
+
+    item Stocking_Long
+    {
+        Type = Clothing,
+        DisplayName = Lingerie Tights,
+        ClothingItem = Stocking_Long,
+        BodyLocation = UnderwearExtra1,
+        Icon = Stocking_Long,
+        Weight = 0.01,
+    }
+
+
+    item Stocking_Belt
+    {
+        Type = Clothing,
+        DisplayName = Stockings Suspender Belt,
+        ClothingItem = Stocking_Belt,
+        BodyLocation = UnderwearExtra2,
+        Icon = Stocking_Belt,
+        Weight = 0.01,
+        WorldStaticModel= W_Stocking_Belt,
+    }
+
+
+    item Stocking_String
+    {
+        Type = Clothing,
+        DisplayName = Stocking Strings,
+        ClothingItem = Stocking_String,
+        BodyLocation = UnderwearExtra2,
+        Icon = Stocking_String,
+        Weight = 0.01,
+        WorldStaticModel= W_Stocking_String,
+    }
+
+
+
+
+
+
+
+    item Wool_Stocking
+    {
+        Type = Clothing,
+        DisplayName = Wool Winter Stockings (Over Knee),
+        ClothingItem = Wool_Stocking,
+        BodyLocation = Socks,
+        Icon = Wool_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Wool_Stocking_Below,
+        clothingExtraSubmenu = Wool_Stocking_Below,
+        ClothingItemExtraOption = Wool_Stocking_Below,
+        WorldStaticModel= W_Wool_Stocking,
+    }
+
+
+    item Wool_Stocking_Below
+    {
+        Type = Clothing,
+        DisplayName = Wool Winter Stockings (Below),
+        ClothingItem = Wool_Stocking_Below,
+        BodyLocation = Socks,
+        Icon = Wool_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Wool_Stocking_Mismatch,
+        clothingExtraSubmenu = Wool_Stocking_Mismatch,
+        ClothingItemExtraOption = Wool_Stocking_Mismatch,
+        WorldStaticModel= W_Wool_Stocking_Below,
+    }
+
+
+    item Wool_Stocking_Mismatch
+    {
+        Type = Clothing,
+        DisplayName = Wool Winter Stockings (Mismatched),
+        ClothingItem = Wool_Stocking_Mismatch,
+        BodyLocation = Socks,
+        Icon = Wool_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Wool_Stocking_Half,
+        clothingExtraSubmenu = Wool_Stocking_Half,
+        ClothingItemExtraOption = Wool_Stocking_Half,
+        WorldStaticModel= W_Wool_Stocking_Mismatch,
+    }
+
+
+    item Wool_Stocking_Half
+    {
+        Type = Clothing,
+        DisplayName = Wool Winter Stockings (Unpaired),
+        ClothingItem = Wool_Stocking_Half,
+        BodyLocation = Socks,
+        Icon = Wool_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Wool_Stocking_Ripped,
+        clothingExtraSubmenu = Wool_Stocking_Ripped,
+        ClothingItemExtraOption = Wool_Stocking_Ripped,
+        WorldStaticModel= W_Wool_Stocking_Half,
+    }
+
+    item Wool_Stocking_Ripped
+    {
+        Type = Clothing,
+        DisplayName = Wool Winter Stockings (Ripped),
+        ClothingItem = Wool_Stocking_Ripped,
+        BodyLocation = Socks,
+        Icon = Wool_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Wool_Stocking,
+        clothingExtraSubmenu = Wool_Stocking,
+        ClothingItemExtraOption = Wool_Stocking,
+        WorldStaticModel= W_Wool_Stocking_Ripped,
+    }
+
+
+
+
+
+
+
+
+
+
+
+    item Lace_Stocking
+    {
+        Type = Clothing,
+        DisplayName = Lace Stockings (Over Knee),
+        ClothingItem = Lace_Stocking,
+        BodyLocation = Socks,
+        Icon = Lace_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Lace_Stocking_Mismatch,
+        clothingExtraSubmenu = Lace_Stocking_Mismatch,
+        ClothingItemExtraOption = Lace_Stocking_Mismatch,
+        WorldStaticModel= W_Lace_Stocking,
+    }
+
+
+    item Lace_Stocking_Mismatch
+    {
+        Type = Clothing,
+        DisplayName = Lace Stockings (Ripped),
+        ClothingItem = Lace_Stocking_Mismatch,
+        BodyLocation = Socks,
+        Icon = Lace_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Lace_Stocking_Half,
+        clothingExtraSubmenu = Lace_Stocking_Half,
+        ClothingItemExtraOption = Lace_Stocking_Half,
+        WorldStaticModel= W_Lace_Stocking_Mismatch,
+    }
+
+
+    item Lace_Stocking_Half
+    {
+        Type = Clothing,
+        DisplayName = Lace Stockings (Unpaired),
+        ClothingItem = Lace_Stocking_Half,
+        BodyLocation = Socks,
+        Icon = Lace_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Lace_Stocking,
+        clothingExtraSubmenu = Lace_Stocking,
+        ClothingItemExtraOption = Lace_Stocking,
+        WorldStaticModel= W_Lace_Stocking_Half,
+    }
+
+
+
+
+
+
+
+    item Casual_Stocking
+    {
+        Type = Clothing,
+        DisplayName = Casual Patterned Stockings (Over Knee),
+        ClothingItem = Casual_Stocking,
+        BodyLocation = Socks,
+        Icon = Casual_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Casual_Stocking_Below,
+        clothingExtraSubmenu = Casual_Stocking_Below,
+        ClothingItemExtraOption = Casual_Stocking_Below,
+        WorldStaticModel= W_Casual_Stocking,
+    }
+
+
+    item Casual_Stocking_Below
+    {
+        Type = Clothing,
+        DisplayName = Casual Patterned Stockings (Below),
+        ClothingItem = Casual_Stocking_Below,
+        BodyLocation = Socks,
+        Icon = Casual_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Casual_Stocking_Mismatch,
+        clothingExtraSubmenu = Casual_Stocking_Mismatch,
+        ClothingItemExtraOption = Casual_Stocking_Mismatch,
+        WorldStaticModel= W_Casual_Stocking_Below,
+    }
+
+
+    item Casual_Stocking_Mismatch
+    {
+        Type = Clothing,
+        DisplayName = Casual Patterned Stockings (Mismatched),
+        ClothingItem = Casual_Stocking_Mismatch,
+        BodyLocation = Socks,
+        Icon = Casual_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Casual_Stocking_Half,
+        clothingExtraSubmenu = Casual_Stocking_Half,
+        ClothingItemExtraOption = Casual_Stocking_Half,
+        WorldStaticModel= W_Casual_Stocking_Mismatch,
+    }
+
+
+    item Casual_Stocking_Half
+    {
+        Type = Clothing,
+        DisplayName = Casual Patterned Stockings (Unpaired),
+        ClothingItem = Casual_Stocking_Half,
+        BodyLocation = Socks,
+        Icon = Casual_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Casual_Stocking_Ripped,
+        clothingExtraSubmenu = Casual_Stocking_Ripped,
+        ClothingItemExtraOption = Casual_Stocking_Ripped,
+        WorldStaticModel= W_Casual_Stocking_Half,
+    }
+
+    item Casual_Stocking_Ripped
+    {
+        Type = Clothing,
+        DisplayName = Casual Patterned Stockings (Ripped),
+        ClothingItem = Casual_Stocking_Ripped,
+        BodyLocation = Socks,
+        Icon = Casual_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Casual_Stocking,
+        clothingExtraSubmenu = Casual_Stocking,
+        ClothingItemExtraOption = Casual_Stocking,
+        WorldStaticModel= W_Casual_Stocking_Ripped,
+    }
+
+
+
+
+    item Sweater_Stocking
+    {
+        Type = Clothing,
+        DisplayName = Sweater Winter Stockings (Over Knee),
+        ClothingItem = Sweater_Stocking,
+        BodyLocation = Socks,
+        Icon = Sweater_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Sweater_Stocking_Below,
+        clothingExtraSubmenu = Sweater_Stocking_Below,
+        ClothingItemExtraOption = Sweater_Stocking_Below,
+        WorldStaticModel= W_Sweater_Stocking,
+    }
+
+
+    item Sweater_Stocking_Below
+    {
+        Type = Clothing,
+        DisplayName = Sweater Winter Stockings (Below),
+        ClothingItem = Sweater_Stocking_Below,
+        BodyLocation = Socks,
+        Icon = Sweater_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Sweater_Stocking_Mismatch,
+        clothingExtraSubmenu = Sweater_Stocking_Mismatch,
+        ClothingItemExtraOption = Sweater_Stocking_Mismatch,
+        WorldStaticModel= W_Sweater_Stocking_Below,
+    }
+
+
+    item Sweater_Stocking_Mismatch
+    {
+        Type = Clothing,
+        DisplayName = Sweater Winter Stockings (Mismatched),
+        ClothingItem = Sweater_Stocking_Mismatch,
+        BodyLocation = Socks,
+        Icon = Sweater_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Sweater_Stocking_Half,
+        clothingExtraSubmenu = Sweater_Stocking_Half,
+        ClothingItemExtraOption = Sweater_Stocking_Half,
+        WorldStaticModel= W_Sweater_Stocking_Mismatch,
+    }
+
+
+    item Sweater_Stocking_Half
+    {
+        Type = Clothing,
+        DisplayName = Sweater Winter Stockings (Unpaired),
+        ClothingItem = Sweater_Stocking_Half,
+        BodyLocation = Socks,
+        Icon = Sweater_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Sweater_Stocking_Ripped,
+        clothingExtraSubmenu = Sweater_Stocking_Ripped,
+        ClothingItemExtraOption = Sweater_Stocking_Ripped,
+        WorldStaticModel= W_Sweater_Stocking_Half,
+    }
+
+    item Sweater_Stocking_Ripped
+    {
+        Type = Clothing,
+        DisplayName = Sweater Winter Stockings (Ripped),
+        ClothingItem = Sweater_Stocking_Ripped,
+        BodyLocation = Socks,
+        Icon = Sweater_Stocking,
+        Weight = 0.01,
+        ClothingItemExtra = Sweater_Stocking,
+        clothingExtraSubmenu = Sweater_Stocking,
+        ClothingItemExtraOption = Sweater_Stocking,
+        WorldStaticModel= W_Sweater_Stocking_Ripped,
+    }
+
+
+    item Nylon_Stocking
+    {	
+        Type = Clothing,
+        DisplayName = Nylon Stockings,
+        ClothingItem = Nylon_Stocking,
+        BodyLocation = Socks,
+        Icon = Nylon_Stocking,
+        Weight = 0.01,
+        WorldStaticModel= W_Nylon_Stocking,
+    }
+
+    item Nylon_Stocking_Ripped
+    {	
+        Type = Clothing,
+        DisplayName = Nylon Stockings (Ripped),
+        ClothingItem = Nylon_Stocking_Ripped,
+        BodyLocation = Socks,
+        Icon = Nylon_Stocking,
+        Weight = 0.01,
+        WorldStaticModel= W_Nylon_Stocking_Ripped,
+    }
+
+
+
+    item Lined_Tights
+    {
+        Type = Clothing,
+        DisplayName = Fleece Lined Tights,
+        ClothingItem = Lined_Tights,
+        BodyLocation = UnderwearExtra1,
+        Icon = Lined_Tights,
+        Weight = 0.01,
+        WorldStaticModel= W_Lined_Tights,
+    }
+
+
+    item Sweater_Tights
+    {
+        Type = Clothing,
+        DisplayName = Sweater Tights,
+        ClothingItem = Sweater_Tights,
+        BodyLocation = UnderwearExtra1,
+        Icon = Lined_Tights,
+        Weight = 0.01,
+        WorldStaticModel= W_Sweater_Tights,
+    }
+
+    item Ripped_Tights
+    {
+        Type = Clothing,
+        DisplayName = Ripped Tights,
+        ClothingItem = Ripped_Tights,
+        BodyLocation = UnderwearExtra1,
+        Icon = Lined_Tights,
+        Weight = 0.01,
+        WorldStaticModel= W_Ripped_Tights,
+    }
+
+    item Sports_Bra
+    {
+        Type = Clothing,
+        DisplayName = Sports Bra,
+        ClothingItem = Sports_Bra,
+        BodyLocation = UnderwearTop,
+        BloodLocation = Jacket,
+        Icon = Sports_Bra,
+        Weight = 0.01,
+        Insulation = 0.2,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+       WorldStaticModel= W_Sports_Bra,
+    }
+
+    item Calvin_Bra
+    {
+        Type = Clothing,
+        DisplayName = Calvin Klein Bra,
+        ClothingItem = Calvin_Bra,
+        BodyLocation = UnderwearTop,
+        BloodLocation = Jacket,
+        Icon = Calvin_Bra,
+        Weight = 0.01,
+        FabricType = Cotton,
+       WorldStaticModel= W_Calvin_Bra,
+    }
+
+    item Calvin_Panties
+    {
+        Type = Clothing,
+        DisplayName = Calvin Klein Panties,
+        ClothingItem = Calvin_Panties,
+        BodyLocation = UnderwearBottom,
+        BloodLocation = Trousers,
+        Icon = Calvin_Panties,
+        Weight = 0.01,
+        FabricType = Cotton,
+       WorldStaticModel= W_Calvin_Panties,
+    }
+
+    item Ring_Bra
+    {
+        Type = Clothing,
+        DisplayName = Lace Triangle Bra,
+        ClothingItem = Ring_Bra,
+        BodyLocation = UnderwearTop,
+        BloodLocation = Jacket,
+        Icon = Ring_Bra,
+        Weight = 0.01,
+        FabricType = Cotton,
+       WorldStaticModel= W_Ring_Bra,
+    }
+
+
+    item BR_Bunny_Suit
+    {
+        Type = Clothing,
+        DisplayName = Bunny Girl Bodysuit,
+        ClothingItem = BR_Bunny_Suit,
+        BodyLocation = UnderwearTop,
+        BloodLocation = Jacket,
+        Icon = BR_Bunny_Suit,
+        Weight = 0.01,
+        FabricType = Cotton,
+       WorldStaticModel= W_BR_Bunny_Suit,
+    }
+}

@@ -1,0 +1,131 @@
+module Base
+{
+
+
+    item Shell_Chest_Bandolier
+	{
+	Type = Clothing,
+	DisplayName = Shotgun Chest Bandolier,
+	ClothingItem = Shell_Chest_Bandolier,
+	BodyLocation = AmmoStrap,
+	Icon = Shell_Chest_Bandolier,
+        Weight = 0.1,
+		Tags = ReloadFastShells,
+        WorldStaticModel= W_Shell_Chest_Bandolier,
+    }
+
+    item Shell_Arm_Bandolier
+	{
+	Type = Clothing,
+	DisplayName = Arm Shotgun Shell Holder,
+	ClothingItem = Shell_Arm_Bandolier,
+	BodyLocation = Left_RingFinger,
+	Icon = Shell_Arm_Bandolier,
+        Weight = 0.1,
+		Tags = ReloadFastShells,
+        WorldStaticModel= W_Shell_Arm_Bandolier,
+        ClothingItemExtra = Shell_Arm_Bandolier_B,
+        ClothingItemExtraOption = Shell_Arm_Bandolier_B,
+        clothingExtraSubmenu = Shell_Arm_Bandolier_Back,
+    }
+
+    item Shell_Arm_Bandolier_B
+	{
+	Type = Clothing,
+	DisplayName = Arm Shotgun Shell Holder Sets,
+	ClothingItem = Shell_Arm_Bandolier_B,
+	BodyLocation = Left_RingFinger,
+	Icon = Shell_Arm_Bandolier,
+        Weight = 0.1,
+		Tags = ReloadFastShells,
+        WorldStaticModel= W_Shell_Arm_Bandolier,
+        ClothingItemExtra = Shell_Arm_Bandolier,
+        ClothingItemExtraOption = Shell_Arm_Bandolier,
+        clothingExtraSubmenu = Shell_Arm_Bandolier_ON,
+    }
+
+    item Shell_Thigh_Bandolier
+	{
+	Type = Clothing,
+	DisplayName = Thigh Shotgun Shell Holder,
+	ClothingItem = Shell_Thigh_Bandolier,
+	BodyLocation = Right_MiddleFinger,
+	Icon = Shell_Thigh_Bandolier,
+        Weight = 0.1,
+		Tags = ReloadFastShells,
+        WorldStaticModel= W_Shell_Thigh_Bandolier,
+        ClothingItemExtra = Shell_Thigh_Bandolier_B,
+        ClothingItemExtraOption = Shell_Thigh_Bandolier_B,
+        clothingExtraSubmenu = Shell_Thigh_Bandolier_Back,
+    }
+
+    item Shell_Thigh_Bandolier_B
+	{
+	Type = Clothing,
+	DisplayName = Thigh Shotgun Shell Holder Sets,
+	ClothingItem = Shell_Thigh_Bandolier_B,
+	BodyLocation = Right_MiddleFinger,
+	Icon = Shell_Thigh_Bandolier,
+        Weight = 0.1,
+		Tags = ReloadFastShells,
+        WorldStaticModel= W_Shell_Thigh_Bandolier,
+        ClothingItemExtra = Shell_Thigh_Bandolier,
+        ClothingItemExtraOption = Shell_Thigh_Bandolier,
+        clothingExtraSubmenu = Shell_Thigh_Bandolier_ON,
+    }
+
+
+    item Metro_Bandolier
+	{
+	Type = Clothing,
+	DisplayName = Metro Hazard Chest Bandolier,
+	ClothingItem = Metro_Bandolier,
+	BodyLocation = AmmoStrap,
+	Icon = Metro_Bandolier,
+        Weight = 0.1,
+		Tags = ReloadFastShells,
+        WorldStaticModel= W_Metro_Bandolier,
+        ClothingItemExtra = Metro_Bandolier_ON,
+        ClothingItemExtraOption = Metro_Bandolier_ON,
+        clothingExtraSubmenu = Metro_Bandolier_Back,
+    }
+
+    item Metro_Bandolier_ON
+	{
+	Type = Clothing,
+	DisplayName = Metro Hazard Chest Bandolier (Tight),
+	ClothingItem = Metro_Bandolier_ON,
+	BodyLocation = AmmoStrap,
+	Icon = Metro_Bandolier,
+        Weight = 0.1,
+		Tags = ReloadFastShells,
+        WorldStaticModel= W_Metro_Bandolier,
+        ClothingItemExtra = Metro_Bandolier,
+        ClothingItemExtraOption = Metro_Bandolier,
+        clothingExtraSubmenu = Metro_Bandolier_ON,
+    }
+
+    item Fisher_Rope
+	{
+	Type = Clothing,
+	DisplayName = Feskarn Fisherman Rope,
+	ClothingItem = Fisher_Rope,
+	BodyLocation = AmmoStrap,
+	Icon = Fisher_Rope,
+        Weight = 0.1,
+		Tags = ReloadFastShells,
+        WorldStaticModel= W_Fisher_Rope,
+    }
+
+    item Self_Rope
+	{
+	Type = Clothing,
+	DisplayName = Emergency Self-Rescue Rope,
+	ClothingItem = Self_Rope,
+	BodyLocation = AmmoStrap,
+	Icon = Self_Rope,
+        Weight = 0.1,
+		Tags = ReloadFastShells,
+        WorldStaticModel= W_Self_Rope,
+    }
+}

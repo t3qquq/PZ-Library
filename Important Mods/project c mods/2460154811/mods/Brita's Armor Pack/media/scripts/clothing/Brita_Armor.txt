@@ -1,0 +1,283 @@
+module Base
+{
+    item Armor_Defender
+    {
+        Type = Clothing,
+        DisplayName = FORT Defender 2 Emerald Armor,
+        ClothingItem = Armor_Defender,
+        BodyLocation = TorsoExtra,
+        Weight	=	6,
+        Icon	=	Armor_Defender,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 150,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Armor_Defender,
+    }
+
+
+    item Armor_Defender_Set
+    {
+        Type = Clothing,
+        DisplayName = FORT Defender 2 Emerald Armor w/ Full set,
+        ClothingItem = Armor_Defender_Set,
+        BodyLocation = TorsoExtra,
+        Weight	=	6,
+        Icon	=	Armor_Defender_Set,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 150,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Armor_Defender_Set,
+    }
+
+
+
+    item Bag_Plate_Carrier
+    {
+        Type = Clothing,
+        DisplayName = Emerson Gear Tactical Plate Carrier,
+        ClothingItem = Bag_Plate_Carrier,
+        BodyLocation = TorsoExtra,
+        Weight	=	5,
+        Icon	=	Bag_Plate_Carrier,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.35,
+        WindResistance = 0.30,
+        BiteDefense = 50,
+        ScratchDefense = 50,
+        BulletDefense = 100,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Bag_Plate_Carrier,
+    }
+
+
+
+    item Armor_6B13
+    {
+        Type = Clothing,
+        DisplayName = Assault Bodyarmor 6B13,
+        ClothingItem = Armor_6B13,
+        BodyLocation = TorsoExtra,
+        Weight	=	8,
+        Icon	=	Armor_6B13,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 150,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Armor_6B13,
+    }
+
+
+    item Sheriff_Vest
+    {
+        Type = Clothing,
+        DisplayName = Sheriff TGS Patrol Tactical Vest,
+        ClothingItem = Sheriff_Vest,
+        BodyLocation = TorsoExtra,
+        Weight	=	5,
+        Icon	=	Sheriff_Vest,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 120,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Sheriff_Vest,
+    }
+
+
+
+    item Sheriff_Vest_Full
+    {
+        Type = Clothing,
+        DisplayName = Sheriff TGS Patrol Tactical Vest w/ Full set,
+        ClothingItem = Sheriff_Vest_Full,
+        BodyLocation = TorsoExtra,
+        Weight	=	5,
+        Icon	=	Sheriff_Vest_Full,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 120,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Sheriff_Vest_Full,
+    }
+
+
+    item SET_Armor
+    {
+        Type = Clothing,
+        DisplayName = DUTY Interceptor Body Armor,
+        ClothingItem = SET_Armor,
+        BodyLocation = TorsoExtra,
+        Weight	=	5,
+        Icon	=	SET_Armor,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 120,
+        NeckProtectionModifier = 0.5,
+        ClothingItemExtra = SET_Armor_FULL,
+        ClothingItemExtraOption = SET_Armor_FULL,
+        clothingExtraSubmenu = SET_Armor_Back,
+        WorldStaticModel= W_SET_Armor,
+    }
+
+    item SET_Armor_FULL
+    {
+        Type = Clothing,
+        DisplayName = DUTY Interceptor Body Armor w/ Full Set,
+        ClothingItem = SET_Armor_FULL,
+        BodyLocation = TorsoExtra,
+        Weight	=	5,
+        Icon	=	SET_Armor,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 120,
+        NeckProtectionModifier = 0.5,
+        ClothingItemExtra = SET_Armor,
+        ClothingItemExtraOption = SET_Armor_Back,
+        clothingExtraSubmenu = SET_Armor_FULL,
+        WorldStaticModel= W_SET_Armor_FULL,
+    }
+
+
+    item Wolf_Plate_Carrier
+    {
+        Type = Clothing,
+        DisplayName = Hound Wolf Squad's Plate Carrier Set,
+        ClothingItem = Wolf_Plate_Carrier,
+        BodyLocation = TorsoExtra,
+        Weight	=	5,
+        Icon	=	Wolf_Plate_Carrier,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 120,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Wolf_Plate_Carrier,
+    }
+
+
+    item Wolf_Plate_Carrier_B
+    {
+        Type = Clothing,
+        DisplayName = Hound Wolf Squad's Plate Carrier Set B,
+        ClothingItem = Wolf_Plate_Carrier_B,
+        BodyLocation = TorsoExtra,
+        Weight	=	5,
+        Icon	=	Wolf_Plate_Carrier_B,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 120,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Wolf_Plate_Carrier_B,
+    }
+
+
+    item EOD_Armor
+    {
+        Type = Clothing,
+        DisplayName = EOD 9N Bomb Suit (Armor),
+        ClothingItem = EOD_Armor,
+        BodyLocation = TorsoExtra,
+        Weight	=	12,
+        Icon	=	EOD_Armor,
+        BloodLocation = Trousers;Jumper;Neck,
+        RunSpeedModifier = 0.5,
+        CombatSpeedModifier = 0.5,
+        Insulation = 0.95,
+        WindResistance = 0.50,
+        BiteDefense = 150,
+        ScratchDefense = 150,
+        BulletDefense = 150,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_EOD_Armor,
+    }
+
+
+    item JUGG_Armor
+    {
+        Type = Clothing,
+        DisplayName = Military Juggernaut Body Armor (Type B),
+        ClothingItem = JUGG_Armor,
+        BodyLocation = TorsoExtra,
+        Weight	=	12,
+        Icon	=	JUGG_Armor,
+        BloodLocation = Trousers;Jumper;Neck,
+        RunSpeedModifier = 0.5,
+        CombatSpeedModifier = 0.5,
+        Insulation = 0.95,
+        WindResistance = 0.50,
+        BiteDefense = 150,
+        ScratchDefense = 150,
+        BulletDefense = 150,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_JUGG_Armor,
+    }
+
+
+    item Hunter_Armor
+    {
+        Type = Clothing,
+        DisplayName = Hunter's Combat Body Armor,
+        ClothingItem = Hunter_Armor,
+        BodyLocation = TorsoExtra,
+        Weight	=	5,
+        Icon	=	Hunter_Armor,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 120,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Hunter_Armor,
+    }
+
+}

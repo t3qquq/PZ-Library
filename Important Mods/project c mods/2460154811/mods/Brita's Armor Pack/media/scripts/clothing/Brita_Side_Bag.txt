@@ -1,0 +1,834 @@
+module Base
+{
+
+    item Bag_Tactical_Belt_Front
+    {
+        Type = Container,
+        DisplayName = Fairwin Tactical Belt (Front),
+        ClothingItem = Bag_Tactical_Belt_Front,
+       CanBeEquipped = FannyPackFront,
+        WeightReduction	=	80,
+        Weight	=	0.5,
+        Capacity	=	4,
+        Icon	=	Bag_Tactical_Belt,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BodyLocation = TorsoExtra,
+        RunSpeedModifier = 0.94,
+       ClothingItemExtra = Bag_Tactical_Belt_Back,
+        ClothingItemExtraOption = Tactical_Belt_WearBack,
+        clothingExtraSubmenu = Tactical_Belt_WearFront,
+        WorldStaticModel= W_Bag_Tactical_Belt,
+    }
+
+
+
+    item Bag_Tactical_Belt_Back
+    {
+        Type = Container,
+        DisplayName = Fairwin Tactical Belt (Back),
+        ClothingItem = Bag_Tactical_Belt_Back,
+        CanBeEquipped = FannyPackBack, 
+        WeightReduction	=	80,
+        Weight	=	0.5,
+        Capacity	=	4,
+        Icon	=	Bag_Tactical_Belt,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BodyLocation = TorsoExtra,
+        RunSpeedModifier = 0.94,
+       ClothingItemExtra = Bag_Tactical_Belt_Front,
+        ClothingItemExtraOption = Tactical_Belt_WearFront,
+        clothingExtraSubmenu = Tactical_Belt_WearBack,
+        WorldStaticModel= W_Bag_Tactical_Belt,
+    }
+
+
+
+    item Bag_Duty_Belt_Front
+    {
+        Type = Container,
+        DisplayName = Police Duty Belt (Front),
+        ClothingItem = Bag_Duty_Belt_Front,
+       CanBeEquipped = FannyPackFront,
+        WeightReduction	=	80,
+        Weight	=	0.5,
+        Capacity	=	4,
+        Icon	=	Bag_Duty_Belt,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BodyLocation = TorsoExtra,
+        RunSpeedModifier = 0.94,
+       ClothingItemExtra = Bag_Duty_Belt_Back,
+        ClothingItemExtraOption = Duty_Belt_WearBack,
+        clothingExtraSubmenu = Duty_Belt_WearFront,
+        WorldStaticModel= W_Bag_Duty_Belt,
+    }
+
+
+
+    item Bag_Duty_Belt_Back
+    {
+        Type = Container,
+        DisplayName = Police Duty Belt (Back),
+        ClothingItem = Bag_Duty_Belt_Back,
+        CanBeEquipped = FannyPackBack, 
+        WeightReduction	=	80,
+        Weight	=	0.5,
+        Capacity	=	4,
+        Icon	=	Bag_Duty_Belt,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BodyLocation = TorsoExtra,
+        RunSpeedModifier = 0.94,
+       ClothingItemExtra = Bag_Duty_Belt_Front,
+        ClothingItemExtraOption = Duty_Belt_WearFront,
+        clothingExtraSubmenu = Duty_Belt_WearBack,
+        WorldStaticModel= W_Bag_Duty_Belt,
+    }
+
+    item Bottle_Bag
+    {
+        Type = Container,
+        DisplayName = Cross Body Bag Bottle Holder (Front),
+        ClothingItem = Bottle_Bag,
+        Icon	=	Bottle_Bag,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bottle_Bag_Loose,
+        ClothingItemExtraOption = Bottle_Bag_Loose,
+        clothingExtraSubmenu = Bottle_Bag,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bottle_Bag,
+    }
+
+
+
+    item Bottle_Bag_Loose
+    {
+        Type = Container,
+        DisplayName = Cross Body Bag Bottle Holder (Back),
+        ClothingItem = Bottle_Bag_Loose,
+        Icon	=	Bottle_Bag,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bottle_Bag,
+        ClothingItemExtraOption = Bottle_Bag (Tight),
+        clothingExtraSubmenu = Bottle_Bag_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bottle_Bag,
+    }
+
+
+    item K1_Bag
+    {
+        Type = Container,
+        DisplayName = K-1 Gas Mask Carrying Pouch (Front),
+        ClothingItem = K1_Bag,
+        Icon	=	K1_Bag,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = K1_Bag_Loose,
+        ClothingItemExtraOption = K1_Bag_Loose,
+        clothingExtraSubmenu = K1_Bag,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_K1_Bag,
+    }
+
+
+
+    item K1_Bag_Loose
+    {
+        Type = Container,
+        DisplayName = K-1 Gas Mask Carrying Pouch (Back),
+        ClothingItem = K1_Bag_Loose,
+        Icon	=	K1_Bag,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = K1_Bag,
+        ClothingItemExtraOption = K1_Bag (Tight),
+        clothingExtraSubmenu = K1_Bag_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_K1_Bag,
+    }
+
+
+    item OMNI_Pouch
+    {
+        Type = Container,
+        DisplayName = Mueller Omni Medi Kit Fanny Pack (Front),
+        ClothingItem = OMNI_Pouch,
+        Icon	=	OMNI_Pouch,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = OMNI_Pouch_Loose,
+        ClothingItemExtraOption = OMNI_Pouch_Loose,
+        clothingExtraSubmenu = OMNI_Pouch,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_OMNI_Pouch,
+    }
+
+
+
+    item OMNI_Pouch_Loose
+    {
+        Type = Container,
+        DisplayName = Mueller Omni Medi Kit Fanny Pack (Back),
+        ClothingItem = OMNI_Pouch_Loose,
+        Icon	=	OMNI_Pouch,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = OMNI_Pouch,
+        ClothingItemExtraOption = OMNI_Pouch (Tight),
+        clothingExtraSubmenu = OMNI_Pouch_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_OMNI_Pouch,
+    }
+
+
+    item Ashe_Gear
+    {
+        Type = Container,
+        DisplayName = Ashe's Gear Pack (Front),
+        ClothingItem = Ashe_Gear,
+        Icon	=	Ashe_Gear,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Ashe_Gear_Loose,
+        ClothingItemExtraOption = Ashe_Gear_Loose,
+        clothingExtraSubmenu = Ashe_Gear,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Ashe_Gear,
+    }
+
+
+
+    item Ashe_Gear_Loose
+    {
+        Type = Container,
+        DisplayName = Ashe's Gear Pack (Back),
+        ClothingItem = Ashe_Gear_Loose,
+        Icon	=	Ashe_Gear,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Ashe_Gear,
+        ClothingItemExtraOption = Ashe_Gear (Tight),
+        clothingExtraSubmenu = Ashe_Gear_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Ashe_Gear,
+    }
+
+
+    item C420_PAPR
+    {
+        Type = Container,
+        DisplayName = C420 PAPR Gear Pack (Front),
+        ClothingItem = C420_PAPR,
+        Icon	=	C420_PAPR,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = C420_PAPR_Loose,
+        ClothingItemExtraOption = C420_PAPR_Loose,
+        clothingExtraSubmenu = C420_PAPR,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_C420_PAPR,
+    }
+
+
+
+    item C420_PAPR_Loose
+    {
+        Type = Container,
+        DisplayName = C420 PAPR Gear Pack (Back),
+        ClothingItem = C420_PAPR_Loose,
+        Icon	=	C420_PAPR,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = C420_PAPR,
+        ClothingItemExtraOption = C420_PAPR (Tight),
+        clothingExtraSubmenu = C420_PAPR_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_C420_PAPR,
+    }
+
+
+    item Belt_Pack_AR
+    {
+        Type = Container,
+        DisplayName = AR-15 Mag Drop Leg Pouch (Front),
+        ClothingItem = Belt_Pack_AR,
+        Icon	=	Belt_Pack_AR,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Belt_Pack_AR_Loose,
+        ClothingItemExtraOption = Belt_Pack_AR_Loose,
+        clothingExtraSubmenu = Belt_Pack_AR,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Belt_Pack_AR,
+    }
+
+
+    item Belt_Pack_AR_Loose
+    {
+        Type = Container,
+        DisplayName = AR-15 Mag Drop Leg Pouch Sets (Back),
+        ClothingItem = Belt_Pack_AR_Loose,
+        Icon	=	Belt_Pack_AR,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Belt_Pack_AR,
+        ClothingItemExtraOption = Belt_Pack_AR (Tight),
+        clothingExtraSubmenu = Belt_Pack_AR_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Belt_Pack_AR,
+    }
+
+
+    item Belt_Pack_Gas
+    {
+        Type = Container,
+        DisplayName = Gas Mask Drop Leg Pouch (Front),
+        ClothingItem = Belt_Pack_Gas,
+        Icon	=	Belt_Pack_Gas,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Belt_Pack_Gas_Loose,
+        ClothingItemExtraOption = Belt_Pack_Gas_Loose,
+        clothingExtraSubmenu = Belt_Pack_Gas,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Belt_Pack_Gas,
+    }
+
+
+    item Belt_Pack_Gas_Loose
+    {
+        Type = Container,
+        DisplayName = Gas Mask Drop Leg Pouch Sets (Back),
+        ClothingItem = Belt_Pack_Gas_Loose,
+        Icon	=	Belt_Pack_Gas,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Belt_Pack_Gas,
+        ClothingItemExtraOption = Belt_Pack_Gas (Tight),
+        clothingExtraSubmenu = Belt_Pack_Gas_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Belt_Pack_Gas,
+    }
+
+
+    item Belt_Pack_Pouch
+    {
+        Type = Container,
+        DisplayName = Utility Drop Leg Pouch (Front),
+        ClothingItem = Belt_Pack_Pouch,
+        Icon	=	Belt_Pack_Pouch,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Belt_Pack_Pouch_Loose,
+        ClothingItemExtraOption = Belt_Pack_Pouch_Loose,
+        clothingExtraSubmenu = Belt_Pack_Pouch,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Belt_Pack_Pouch,
+    }
+
+
+    item Belt_Pack_Pouch_Loose
+    {
+        Type = Container,
+        DisplayName = Utility Drop Leg Pouch Sets (Back),
+        ClothingItem = Belt_Pack_Pouch_Loose,
+        Icon	=	Belt_Pack_Pouch,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Belt_Pack_Pouch,
+        ClothingItemExtraOption = Belt_Pack_Pouch (Tight),
+        clothingExtraSubmenu = Belt_Pack_Pouch_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Belt_Pack_Pouch,
+    }
+
+
+    item Belt_Pack_Duty
+    {
+        Type = Container,
+        DisplayName = Police Duty Gear (Front),
+        ClothingItem = Belt_Pack_Duty,
+        Icon	=	Belt_Pack_Duty,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Belt_Pack_Duty_Loose,
+        ClothingItemExtraOption = Belt_Pack_Duty_Loose,
+        clothingExtraSubmenu = Belt_Pack_Duty,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Belt_Pack_Duty,
+    }
+
+
+    item Belt_Pack_Duty_Loose
+    {
+        Type = Container,
+        DisplayName = Police Duty Gear (Back),
+        ClothingItem = Belt_Pack_Duty_Loose,
+        Icon	=	Belt_Pack_Duty,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Belt_Pack_Duty,
+        ClothingItemExtraOption = Belt_Pack_Duty (Tight),
+        clothingExtraSubmenu = Belt_Pack_Duty_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Belt_Pack_Duty,
+    }
+
+
+    item Belt_Pack_War
+    {
+        Type = Container,
+        DisplayName = AR Battle Belt Sets (Front),
+        ClothingItem = Belt_Pack_War,
+        Icon	=	Belt_Pack_War,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Belt_Pack_War_Loose,
+        ClothingItemExtraOption = Belt_Pack_War_Loose,
+        clothingExtraSubmenu = Belt_Pack_War,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Belt_Pack_War,
+    }
+
+
+    item Belt_Pack_War_Loose
+    {
+        Type = Container,
+        DisplayName = AR Battle Belt Sets (Back),
+        ClothingItem = Belt_Pack_War_Loose,
+        Icon	=	Belt_Pack_War,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Belt_Pack_War,
+        ClothingItemExtraOption = Belt_Pack_War (Tight),
+        clothingExtraSubmenu = Belt_Pack_War_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Belt_Pack_War,
+    }
+
+
+    item D3CR
+    {
+        Type = Container,
+        DisplayName = Ars Arma D3CR Chest Rig Sets (Front),
+        ClothingItem = D3CR,
+        Icon	=	D3CR,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = D3CR_Loose,
+        ClothingItemExtraOption = D3CR_Loose,
+        clothingExtraSubmenu = D3CR,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_D3CR,
+    }
+
+
+    item D3CR_Loose
+    {
+        Type = Container,
+        DisplayName = Ars Arma D3CR Chest Rig Sets (Back),
+        ClothingItem = D3CR_Loose,
+        Icon	=	D3CR,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = D3CR,
+        ClothingItemExtraOption = D3CR (Tight),
+        clothingExtraSubmenu = D3CR_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_D3CR,
+    }
+
+
+
+    item GM15_Canister
+    {
+        Type = Container,
+        DisplayName = GM15 Gas Mask Canister (Front),
+        ClothingItem = GM15_Canister,
+        Icon	=	GM15_Canister,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = GM15_Canister_Loose,
+        ClothingItemExtraOption = GM15_Canister_Loose,
+        clothingExtraSubmenu = GM15_Canister,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_GM15_Canister,
+    }
+
+
+    item GM15_Canister_Loose
+    {
+        Type = Container,
+        DisplayName = GM15 Gas Mask Canister (Back),
+        ClothingItem = GM15_Canister_Loose,
+        Icon	=	GM15_Canister,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = GM15_Canister,
+        ClothingItemExtraOption = GM15_Canister (Tight),
+        clothingExtraSubmenu = GM15_Canister_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_GM15_Canister,
+    }
+
+
+    item Trench_Ammo_Pack
+    {
+        Type = Container,
+        DisplayName = Stormtrooper Trench Raider Ammo Pouch (Front),
+        ClothingItem = Trench_Ammo_Pack,
+        Icon	=	Trench_Ammo_Pack,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Trench_Ammo_Pack_Loose,
+        ClothingItemExtraOption = Trench_Ammo_Pack_Loose,
+        clothingExtraSubmenu = Trench_Ammo_Pack,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Trench_Ammo_Pack,
+    }
+
+
+    item Trench_Ammo_Pack_Loose
+    {
+        Type = Container,
+        DisplayName = Stormtrooper Trench Raider Ammo Pouch (Back),
+        ClothingItem = Trench_Ammo_Pack_Loose,
+        Icon	=	Trench_Ammo_Pack,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Trench_Ammo_Pack,
+        ClothingItemExtraOption = Trench_Ammo_Pack (Tight),
+        clothingExtraSubmenu = Trench_Ammo_Pack_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Trench_Ammo_Pack,
+    }
+
+
+    item Trench_Grenade_Pack
+    {
+        Type = Container,
+        DisplayName = Stormtrooper Trench Raider Grenade Pouch (Front),
+        ClothingItem = Trench_Grenade_Pack,
+        Icon	=	Trench_Grenade_Pack,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Trench_Grenade_Pack_Loose,
+        ClothingItemExtraOption = Trench_Grenade_Pack_Loose,
+        clothingExtraSubmenu = Trench_Grenade_Pack,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Trench_Grenade_Pack,
+    }
+
+
+    item Trench_Grenade_Pack_Loose
+    {
+        Type = Container,
+        DisplayName = Stormtrooper Trench Raider Grenade Pouch (Back),
+        ClothingItem = Trench_Grenade_Pack_Loose,
+        Icon	=	Trench_Grenade_Pack,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Trench_Grenade_Pack,
+        ClothingItemExtraOption = Trench_Grenade_Pack (Tight),
+        clothingExtraSubmenu = Trench_Grenade_Pack_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Trench_Grenade_Pack,
+    }
+
+
+    item Messkit
+    {
+        Type = Container,
+        DisplayName = Mess Kit Carrier SET A (Front),
+        ClothingItem = Messkit,
+        Icon	=	Messkit,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Messkit_Loose,
+        ClothingItemExtraOption = Messkit_Loose,
+        clothingExtraSubmenu = Messkit,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Messkit,
+    }
+
+
+    item Messkit_Loose
+    {
+        Type = Container,
+        DisplayName = Mess Kit Carrier SET A (Back),
+        ClothingItem = Messkit_Loose,
+        Icon	=	Messkit,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Messkit,
+        ClothingItemExtraOption = Messkit (Tight),
+        clothingExtraSubmenu = Messkit_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Messkit,
+    }
+
+
+    item Messkit_B
+    {
+        Type = Container,
+        DisplayName = Mess Kit Carrier SET B (Front),
+        ClothingItem = Messkit_B,
+        Icon	=	Messkit,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Messkit_B_Loose,
+        ClothingItemExtraOption = Messkit_B_Loose,
+        clothingExtraSubmenu = Messkit_B,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Messkit_B,
+    }
+
+
+    item Messkit_B_Loose
+    {
+        Type = Container,
+        DisplayName = Mess Kit Carrier SET B (Back),
+        ClothingItem = Messkit_B_Loose,
+        Icon	=	Messkit,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Messkit_B,
+        ClothingItemExtraOption = Messkit_B (Tight),
+        clothingExtraSubmenu = Messkit_B_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Messkit_B,
+    }
+}

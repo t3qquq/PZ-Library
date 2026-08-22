@@ -1,0 +1,21 @@
+	BodyLocation = Right_MiddleFinger, -> knee pads, leg armor 
+	BodyLocation = Left_MiddleFinger, -> waist pouches, Thigh Armor
+	BodyLocation = Right_RingFinger,
+	BodyLocation = Left_RingFinger, -> arm pads, arm amor
+	BodyLocation = Neck,
+	BodyLocation = Necklace, -> Gaiter
+	BodyLocation = Necklace_Long, -> hood, cloak
+	BodyLocation = Nose, -> NV
+	BodyLocation = Ears, -> Headset
+	BodyLocation = EarTop, ->
+	BodyLocation = Eyes, -> glasses
+	BodyLocation = RightEye, -> face shield, visor 
+	BodyLocation = LeftEye, -> face shield, visor (opened)
+	BodyLocation = MaskEyes, -> gas masks
+	BodyLocation = Mask, -> balaclava mask
+	BodyLocation = AmmoStrap,
+	BodyLocation = Mask,
+
+
+	<m_HatCategory>Group01</m_HatCategory>	
+	<m_HatCategory>nohair</m_HatCategory>		

@@ -1,0 +1,584 @@
+module Base
+{
+
+
+
+    item Man_Neck_Shirts
+    {
+        Type = Clothing,
+        DisplayName = Men's Commando Sweater,
+        ClothingItem = Man_Neck_Shirts,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Man_Neck_Shirts,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Man_Neck_Shirts_ON,
+        ClothingItemExtraOption = Man_Neck_Shirts_ON,
+        clothingExtraSubmenu = Man_Neck_Shirts_Back,
+        WorldStaticModel= W_Man_Neck_Shirts,
+    }
+
+
+    item Man_Neck_Shirts_ON
+    {
+        Type = Clothing,
+        DisplayName = Men's Commando Sweater (Rolled),
+        ClothingItem = Man_Neck_Shirts_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Man_Neck_Shirts,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Man_Neck_Shirts,
+        ClothingItemExtraOption = Man_Neck_Shirts,
+        clothingExtraSubmenu = Man_Neck_Shirts_ON,
+        WorldStaticModel= W_Man_Neck_Shirts,
+    }
+
+    item Man_Neck_Hoodie
+    {
+        Type = Clothing,
+        DisplayName = Men's Tactical Hoodie,
+        ClothingItem = Man_Neck_Hoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Man_Neck_Hoodie,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Man_Neck_Hoodie_ON,
+        ClothingItemExtraOption = Man_Neck_Hoodie_ON,
+        clothingExtraSubmenu = Man_Neck_Hoodie_Back,
+        WorldStaticModel= W_Man_Neck_Hoodie,
+    }
+
+
+    item Man_Neck_Hoodie_ON
+    {
+        Type = Clothing,
+        DisplayName = Men's Tactical Hoodie (Rolled),
+        ClothingItem = Man_Neck_Hoodie_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Man_Neck_Hoodie,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Man_Neck_Hoodie,
+        ClothingItemExtraOption = Man_Neck_Hoodie,
+        clothingExtraSubmenu = Man_Neck_Hoodie_ON,
+        WorldStaticModel= W_Man_Neck_Hoodie,
+    }
+
+
+    item Gorka5_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Gallery Gorka-5 Coyote Jacket w/ Hoodie,
+        ClothingItem = Gorka5_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Gorka5_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Gorka5_Jacket_ON,
+        ClothingItemExtraOption = Gorka5_Jacket_ON,
+        clothingExtraSubmenu = Gorka5_Jacket_Back,
+        WorldStaticModel= W_Gorka5_Jacket,
+    }
+
+
+    item Gorka5_Jacket_ON
+    {
+        Type = Clothing,
+        DisplayName = Gallery Gorka-5 Coyote Jacket,
+        ClothingItem = Gorka5_Jacket_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Gorka5_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Gorka5_Jacket,
+        ClothingItemExtraOption = Gorka5_Jacket,
+        clothingExtraSubmenu = Gorka5_Jacket_ON,
+        WorldStaticModel= W_Gorka5_Jacket,
+    }
+
+
+    item Huntrite_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Huntrite Hunting Camouflage Jacket w/ Hoodie,
+        ClothingItem = Huntrite_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Huntrite_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Huntrite_Jacket_ON,
+        ClothingItemExtraOption = Huntrite_Jacket_ON,
+        clothingExtraSubmenu = Huntrite_Jacket_Back,
+        WorldStaticModel= W_Huntrite_Jacket,
+    }
+
+
+    item Huntrite_Jacket_ON
+    {
+        Type = Clothing,
+        DisplayName = Huntrite Hunting Camouflage Jacket,
+        ClothingItem = Huntrite_Jacket_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Huntrite_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Huntrite_Jacket,
+        ClothingItemExtraOption = Huntrite_Jacket,
+        clothingExtraSubmenu = Huntrite_Jacket_ON,
+        WorldStaticModel= W_Huntrite_Jacket,
+    }
+
+
+    item TEC_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Mil-Tec Camouflage Jacket w/ Hoodie,
+        ClothingItem = TEC_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = TEC_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = TEC_Jacket_ON,
+        ClothingItemExtraOption = TEC_Jacket_ON,
+        clothingExtraSubmenu = TEC_Jacket_Back,
+        WorldStaticModel= W_TEC_Jacket,
+    }
+
+
+    item TEC_Jacket_ON
+    {
+        Type = Clothing,
+        DisplayName = Mil-Tec Camouflage Jacket Jacket,
+        ClothingItem = TEC_Jacket_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = TEC_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = TEC_Jacket,
+        ClothingItemExtraOption = TEC_Jacket,
+        clothingExtraSubmenu = TEC_Jacket_ON,
+        WorldStaticModel= W_TEC_Jacket,
+    }
+
+
+    item Chara_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Casual Decal Jacket w/ Hoodie,
+        ClothingItem = Chara_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Chara_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Chara_Jacket_ON,
+        ClothingItemExtraOption = Chara_Jacket_ON,
+        clothingExtraSubmenu = Chara_Jacket_Back,
+        WorldStaticModel= W_Chara_Jacket,
+    }
+
+
+    item Chara_Jacket_ON
+    {
+        Type = Clothing,
+        DisplayName = Casual Decal Jacket Jacket,
+        ClothingItem = Chara_Jacket_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Chara_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Chara_Jacket,
+        ClothingItemExtraOption = Chara_Jacket,
+        clothingExtraSubmenu = Chara_Jacket_ON,
+        WorldStaticModel= W_Chara_Jacket,
+    }
+
+    item G3_Pants
+    {
+        Type = Clothing,
+        DisplayName = Emerson Gear Crye G3 Combat Pants,
+        ClothingItem = G3_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = G3_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = G3_Pants_Rolled,
+        ClothingItemExtraOption = G3_Pants_Rolled,
+        clothingExtraSubmenu = G3_Pants_Back,
+        WorldStaticModel= W_G3_Pants,
+    }
+
+
+    item G3_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = Emerson Gear Crye G3 Combat Pants Rolled,
+        ClothingItem = G3_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = G3_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = G3_Pants,
+        ClothingItemExtraOption = G3_Pants_Back,
+        clothingExtraSubmenu = G3_Pants_Rolled,
+        WorldStaticModel= W_G3_Pants,
+    }
+
+    item 511_Pants
+    {
+        Type = Clothing,
+        DisplayName = 5.11 XPRT Tactical Pants,
+        ClothingItem = 511_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = 511_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = 511_Pants_Rolled,
+        ClothingItemExtraOption = 511_Pants_Rolled,
+        clothingExtraSubmenu = 511_Pants_Back,
+        WorldStaticModel= W_511_Pants,
+    }
+
+
+    item 511_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = 5.11 XPRT Tactical Pants Rolled,
+        ClothingItem = 511_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = 511_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = 511_Pants,
+        ClothingItemExtraOption = 511_Pants_Back,
+        clothingExtraSubmenu = 511_Pants_Rolled,
+        WorldStaticModel= W_511_Pants,
+    }
+
+
+    item Fast_Pants
+    {
+        Type = Clothing,
+        DisplayName = 5.11 FAST-TAC Urban Pants,
+        ClothingItem = Fast_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Fast_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Fast_Pants_Rolled,
+        ClothingItemExtraOption = Fast_Pants_Rolled,
+        clothingExtraSubmenu = Fast_Pants_Back,
+        WorldStaticModel= W_Fast_Pants,
+    }
+
+
+    item Fast_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = 5.11 FAST-TAC Urban Pants Rolled,
+        ClothingItem = Fast_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Fast_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Fast_Pants,
+        ClothingItemExtraOption = Fast_Pants_Back,
+        clothingExtraSubmenu = Fast_Pants_Rolled,
+        WorldStaticModel= W_Fast_Pants,
+    }
+
+
+    item Flex_Pants
+    {
+        Type = Clothing,
+        DisplayName = 5.11 Defender-Flex Jeans,
+        ClothingItem = Flex_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Flex_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Flex_Pants_Rolled,
+        ClothingItemExtraOption = Flex_Pants_Rolled,
+        clothingExtraSubmenu = Flex_Pants_Back,
+        WorldStaticModel= W_Flex_Pants,
+    }
+
+
+    item Flex_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = 5.11 Defender-Flex Jeans Rolled,
+        ClothingItem = Flex_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Flex_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Flex_Pants,
+        ClothingItemExtraOption = Flex_Pants_Back,
+        clothingExtraSubmenu = Flex_Pants_Rolled,
+        WorldStaticModel= W_Flex_Pants,
+    }
+
+    item Check_Pants
+    {
+        Type = Clothing,
+        DisplayName = Lindfield Check Pants,
+        ClothingItem = Check_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Check_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Check_Pants_Rolled,
+        ClothingItemExtraOption = Check_Pants_Rolled,
+        clothingExtraSubmenu = Check_Pants_Back,
+        WorldStaticModel= W_Check_Pants,
+    }
+
+
+    item Check_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = Lindfield Check Pants Rolled,
+        ClothingItem = Check_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Check_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Check_Pants,
+        ClothingItemExtraOption = Check_Pants_Back,
+        clothingExtraSubmenu = Check_Pants_Rolled,
+        WorldStaticModel= W_Check_Pants,
+    }
+
+
+    item Cargo_Pants
+    {
+        Type = Clothing,
+        DisplayName = Men's Cargo Pants,
+        ClothingItem = Cargo_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Cargo_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Cargo_Pants_Rolled,
+        ClothingItemExtraOption = Cargo_Pants_Rolled,
+        clothingExtraSubmenu = Cargo_Pants_Back,
+        WorldStaticModel= W_Cargo_Pants,
+    }
+
+
+    item Cargo_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = Men's Cargo Pants Rolled,
+        ClothingItem = Cargo_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Cargo_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Cargo_Pants,
+        ClothingItemExtraOption = Cargo_Pants_Back,
+        clothingExtraSubmenu = Cargo_Pants_Rolled,
+        WorldStaticModel= W_Cargo_Pants,
+    }
+
+
+    item MIL_Pants
+    {
+        Type = Clothing,
+        DisplayName = MIL-TEC Camouflage Pants,
+        ClothingItem = MIL_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = MIL_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = MIL_Pants_Rolled,
+        ClothingItemExtraOption = MIL_Pants_Rolled,
+        clothingExtraSubmenu = MIL_Pants_Back,
+        WorldStaticModel= W_MIL_Pants,
+    }
+
+
+    item MIL_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = MIL-TEC Camouflage Rolled,
+        ClothingItem = MIL_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = MIL_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = MIL_Pants,
+        ClothingItemExtraOption = MIL_Pants_Back,
+        clothingExtraSubmenu = MIL_Pants_Rolled,
+        WorldStaticModel= W_MIL_Pants,
+    }
+}

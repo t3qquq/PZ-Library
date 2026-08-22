@@ -1,0 +1,488 @@
+module Base
+{
+
+
+	item Bandana_Mask
+	{
+        Type = Clothing,
+        DisplayName = Bandana Mask,
+        ClothingItem = Bandana_Mask,
+        BodyLocation = Mask,
+        Icon	=	Bandana_Mask,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        ClothingItemExtra = Bandana_Mask_Half,
+        ClothingItemExtraOption = Bandana_Mask_OFF,
+        clothingExtraSubmenu = Bandana_Mask_ON,
+        WorldStaticModel= W_Bandana_Mask,
+	}
+
+
+
+	item Bandana_Mask_Half
+	{
+        Type = Clothing,
+        DisplayName = Bandana Mask Half,
+        ClothingItem = Bandana_Mask_Half,
+        BodyLocation = Mask,
+        Icon	=	Bandana_Mask,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        ClothingItemExtra = Bandana_Mask,
+        ClothingItemExtraOption = Bandana_Mask_ON,
+        clothingExtraSubmenu = Bandana_Mask_OFF,
+        WorldStaticModel= W_Bandana_Mask,
+	}
+
+
+
+	item Bandana_Mask_Camo
+	{
+        Type = Clothing,
+        DisplayName = Bandana Mask Camouflage,
+        ClothingItem = Bandana_Mask_Camo,
+        BodyLocation = Mask,
+        Icon	=	Bandana_Mask,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        ClothingItemExtra = Bandana_Mask_Half_Camo,
+        ClothingItemExtraOption = Camo_Mask_OFF,
+        clothingExtraSubmenu = Camo_Mask_ON,
+        WorldStaticModel= W_Bandana_Mask_Camo,
+	}
+
+
+
+	item Bandana_Mask_Half_Camo
+	{
+        Type = Clothing,
+        DisplayName = Bandana Mask Camouflage Half,
+        ClothingItem = Bandana_Mask_Half_Camo,
+        BodyLocation = Mask,
+        Icon	=	Bandana_Mask,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        FabricType = Cotton,
+        ClothingItemExtra = Bandana_Mask_Camo,
+        ClothingItemExtraOption = Camo_Mask_ON,
+        clothingExtraSubmenu = Camo_Mask_OFF,
+        WorldStaticModel= W_Bandana_Mask_Camo,
+	}
+
+
+	item Bandana_Mask_Other
+	{
+        Type = Clothing,
+        DisplayName = Bandana Mask Decal Version,
+        ClothingItem = Bandana_Mask_Other,
+        BodyLocation = Mask,
+        Icon	=	Bandana_Mask,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        ClothingItemExtra = Bandana_Mask_Half_Other,
+        ClothingItemExtraOption = Other_Mask_OFF,
+        clothingExtraSubmenu = Other_Mask_ON,
+        WorldStaticModel= W_Bandana_Mask_Other,
+	}
+
+
+
+	item Bandana_Mask_Half_Other
+	{
+        Type = Clothing,
+        DisplayName = Bandana Mask Decal Version Half,
+        ClothingItem = Bandana_Mask_Half_Other,
+        BodyLocation = Mask,
+        Icon	=	Bandana_Mask,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        ClothingItemExtra = Bandana_Mask_Other,
+        ClothingItemExtraOption = Other_Mask_ON,
+        clothingExtraSubmenu = Other_Mask_OFF,
+        WorldStaticModel= W_Bandana_Mask_Other,
+	}
+
+    item Balaclava_Mask_1
+	{
+	Type = Clothing,
+	DisplayName = 1 Hole Balaclava Mask (Type A),
+	ClothingItem = Balaclava_Mask_1,
+	BodyLocation = Mask,
+	Icon = Balaclava_Mask_1,
+        Weight = 0.01,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 5,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        WorldStaticModel= W_Balaclava_Mask_1,
+    }
+
+    item Balaclava_Mask_2
+	{
+	Type = Clothing,
+	DisplayName = 1 Hole Balaclava Mask (Type B) ,
+	ClothingItem = Balaclava_Mask_2,
+	BodyLocation = Mask,
+	Icon = Balaclava_Mask_2,
+        Weight = 0.01,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 5,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        WorldStaticModel= W_Balaclava_Mask_2,
+    }
+
+    item Balaclava_Mask_3
+	{
+	Type = Clothing,
+	DisplayName = 2 Hole Balaclava Mask (Type A),
+	ClothingItem = Balaclava_Mask_3,
+	BodyLocation = Mask,
+	Icon = Balaclava_Mask_3,
+        Weight = 0.01,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 5,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        WorldStaticModel= W_Balaclava_Mask_3,
+    }
+
+    item Balaclava_Mask_4
+	{
+	Type = Clothing,
+	DisplayName = 2 Hole Balaclava Mask (Type B),
+	ClothingItem = Balaclava_Mask_4,
+	BodyLocation = Mask,
+	Icon = Balaclava_Mask_4,
+        Weight = 0.01,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 5,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        WorldStaticModel= W_Balaclava_Mask_4,
+    }
+
+    item Balaclava_Mask_5
+	{
+	Type = Clothing,
+	DisplayName = 3 Hole Balaclava Mask (Type A),
+	ClothingItem = Balaclava_Mask_5,
+	BodyLocation = Mask,
+	Icon = Balaclava_Mask_5,
+        Weight = 0.01,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 5,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        WorldStaticModel= W_Balaclava_Mask_5,
+    }
+
+    item Balaclava_Mask_6
+	{
+	Type = Clothing,
+	DisplayName = 3 Hole Balaclava Mask (Type B),
+	ClothingItem = Balaclava_Mask_6,
+	BodyLocation = Mask,
+	Icon = Balaclava_Mask_6,
+        Weight = 0.01,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 5,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        WorldStaticModel= W_Balaclava_Mask_6,
+    }
+
+
+	item Scarf_Mask
+	{
+        Type = Clothing,
+        DisplayName = Shemagh Scarf Face Mask,
+        ClothingItem = Scarf_Mask,
+        BodyLocation = Mask,
+        Icon	=	Scarf_Mask,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        WorldStaticModel= W_Scarf_Mask,
+        ClothingItemExtra = Scarf_Mask_ON,
+        ClothingItemExtraOption = Scarf_Mask_ON,
+        clothingExtraSubmenu = Scarf_Mask_Back,
+	}
+
+	item Scarf_Mask_ON
+	{
+        Type = Clothing,
+        DisplayName = Shemagh Scarf Face Mask (FULL),
+        ClothingItem = Scarf_Mask_ON,
+        BodyLocation = Mask,
+        Icon	=	Scarf_Mask,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        WorldStaticModel= W_Scarf_Mask,
+        ClothingItemExtra = Scarf_Mask,
+        ClothingItemExtraOption = Scarf_Mask,
+        clothingExtraSubmenu = Scarf_Mask_ON,
+	}
+
+
+	item Scarf_Mask_Camo
+	{
+        Type = Clothing,
+        DisplayName = Shemagh Scarf Face Mask (Camouflage),
+        ClothingItem = Scarf_Mask_Camo,
+        BodyLocation = Mask,
+        Icon	=	Scarf_Mask_Camo,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        WorldStaticModel= W_Scarf_Mask_Camo,
+        ClothingItemExtra = Scarf_Mask_Camo_ON,
+        ClothingItemExtraOption = Scarf_Mask_Camo_ON,
+        clothingExtraSubmenu = Scarf_Mask_Camo_Back,
+	}
+
+	item Scarf_Mask_Camo_ON
+	{
+        Type = Clothing,
+        DisplayName = Shemagh Scarf Face Mask (Camouflage FULL),
+        ClothingItem = Scarf_Mask_Camo_ON,
+        BodyLocation = Mask,
+        Icon	=	Scarf_Mask_Camo,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        WorldStaticModel= W_Scarf_Mask_Camo,
+        ClothingItemExtra = Scarf_Mask_Camo,
+        ClothingItemExtraOption = Scarf_Mask_Camo,
+        clothingExtraSubmenu = Scarf_Mask_Camo_ON,
+	}
+
+
+	item Scarf_Mask_Hunting
+	{
+        Type = Clothing,
+        DisplayName = Shemagh Scarf Face Mask (Hunting),
+        ClothingItem = Scarf_Mask_Hunting,
+        BodyLocation = Mask,
+        Icon	=	Scarf_Mask_Hunting,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        WorldStaticModel= W_Scarf_Mask_Hunting,
+        ClothingItemExtra = Scarf_Mask_Hunting_ON,
+        ClothingItemExtraOption = Scarf_Mask_Hunting_ON,
+        clothingExtraSubmenu = Scarf_Mask_Hunting_Back,
+	}
+
+	item Scarf_Mask_Hunting_ON
+	{
+        Type = Clothing,
+        DisplayName = Shemagh Scarf Face Mask (Hunting FULL),
+        ClothingItem = Scarf_Mask_Hunting_ON,
+        BodyLocation = Mask,
+        Icon	=	Scarf_Mask_Hunting,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        WorldStaticModel= W_Scarf_Mask_Hunting,
+        ClothingItemExtra = Scarf_Mask_Hunting,
+        ClothingItemExtraOption = Scarf_Mask_Hunting,
+        clothingExtraSubmenu = Scarf_Mask_Hunting_ON,
+	}
+
+
+	item Scarf_Mask_Casual
+	{
+        Type = Clothing,
+        DisplayName = Shemagh Scarf Face Mask (Casual),
+        ClothingItem = Scarf_Mask_Casual,
+        BodyLocation = Mask,
+        Icon	=	Scarf_Mask_Casual,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        WorldStaticModel= W_Scarf_Mask_Casual,
+        ClothingItemExtra = Scarf_Mask_Casual_ON,
+        ClothingItemExtraOption = Scarf_Mask_Casual_ON,
+        clothingExtraSubmenu = Scarf_Mask_Casual_Back,
+	}
+
+	item Scarf_Mask_Casual_ON
+	{
+        Type = Clothing,
+        DisplayName = Shemagh Scarf Face Mask (Casual FULL),
+        ClothingItem = Scarf_Mask_Casual_ON,
+        BodyLocation = Mask,
+        Icon	=	Scarf_Mask_Casual,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        WorldStaticModel= W_Scarf_Mask_Casual,
+        ClothingItemExtra = Scarf_Mask_Casual,
+        ClothingItemExtraOption = Scarf_Mask_Casual,
+        clothingExtraSubmenu = Scarf_Mask_Casual_ON,
+	}
+
+
+	item Scarf_Mask_Ashe
+	{
+        Type = Clothing,
+        DisplayName = Ashe's Shemagh Scarf Face Mask,
+        ClothingItem = Scarf_Mask_Ashe,
+        BodyLocation = Mask,
+        Icon	=	Scarf_Mask_Ashe,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        WorldStaticModel= W_Scarf_Mask_Ashe,
+        ClothingItemExtra = Scarf_Mask_Ashe_ON,
+        ClothingItemExtraOption = Scarf_Mask_Ashe_ON,
+        clothingExtraSubmenu = Scarf_Mask_Ashe_Back,
+	}
+
+	item Scarf_Mask_Ashe_ON
+	{
+        Type = Clothing,
+        DisplayName = Ashe's Shemagh Scarf Face Mask (FULL),
+        ClothingItem = Scarf_Mask_Ashe_ON,
+        BodyLocation = Mask,
+        Icon	=	Scarf_Mask_Ashe,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        WorldStaticModel= W_Scarf_Mask_Ashe,
+        ClothingItemExtra = Scarf_Mask_Ashe,
+        ClothingItemExtraOption = Scarf_Mask_Ashe,
+        clothingExtraSubmenu = Scarf_Mask_Ashe_ON,
+	}
+
+
+	item Hunter_Mask
+	{
+        Type = Clothing,
+        DisplayName = Hunter's Bulletproof Ballistic Face Mask,
+        ClothingItem = Hunter_Mask,
+        BodyLocation = Mask,
+        Icon	=	Hunter_Mask,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        WorldStaticModel= W_Hunter_Mask,
+        ClothingItemExtra = Hunter_Mask_ON,
+        ClothingItemExtraOption = Hunter_Mask_ON,
+        clothingExtraSubmenu = Hunter_Mask_Back,
+	}
+
+	item Hunter_Mask_ON
+	{
+        Type = Clothing,
+        DisplayName = Hunter's Bulletproof Ballistic Face Mask w/ Balaclava,
+        ClothingItem = Hunter_Mask_ON,
+        BodyLocation = Mask,
+        Icon	=	Hunter_Mask,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        WorldStaticModel= W_Hunter_Mask,
+        ClothingItemExtra = Hunter_Mask,
+        ClothingItemExtraOption = Hunter_Mask,
+        clothingExtraSubmenu = Hunter_Mask_ON,
+	}
+
+
+	item Chain_Mask
+	{
+        Type = Clothing,
+        DisplayName = Chainmail Mask,
+        ClothingItem = Chain_Mask,
+        BodyLocation = Mask,
+        Icon	=	Chain_Mask,
+        Weight = 0.01,
+        ScratchDefense = 5,
+	BloodLocation = Head,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        FabricType = Cotton,
+        WorldStaticModel= W_Chain_Mask,
+	}
+}

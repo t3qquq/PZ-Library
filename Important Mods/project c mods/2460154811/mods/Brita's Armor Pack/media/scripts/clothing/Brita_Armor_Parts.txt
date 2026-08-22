@@ -1,0 +1,271 @@
+module Base
+{
+
+
+    item Wolf_Knee_Pad
+	{
+	Type = Clothing,
+	DisplayName = Hound Wolf Squad's Knee Pads,
+	ClothingItem = Wolf_Knee_Pad,
+	BodyLocation = Right_MiddleFinger,
+	Icon = Wolf_Knee_Pad,
+        BloodLocation = Trousers,
+	ScratchDefense = 10,
+        ClothingItemExtra = Wolf_Knee_Pad_Loose,
+        ClothingItemExtraOption = Wolf_Knee_Pad_Loose,
+        clothingExtraSubmenu = Wolf_Knee_Pad_Loose,
+        WorldStaticModel= W_Wolf_Knee_Pad,
+    }
+
+
+    item Wolf_Knee_Pad_Loose
+	{
+	Type = Clothing,
+	DisplayName = Hound Wolf Squad's Knee Pads (Loose),
+	ClothingItem = Wolf_Knee_Pad_Loose,
+	BodyLocation = Right_MiddleFinger,
+	Icon = Wolf_Knee_Pad,
+        BloodLocation = Trousers,
+	ScratchDefense = 10,
+        ClothingItemExtra = Wolf_Knee_Pad,
+        ClothingItemExtraOption = Wolf_Knee_Pad,
+        clothingExtraSubmenu = Wolf_Knee_Pad_Thigh,
+        WorldStaticModel= W_Wolf_Knee_Pad,
+    }
+
+
+    item SET_PAD
+	{
+	Type = Clothing,
+	DisplayName = DUTY Tactical Knee Pads,
+	ClothingItem = SET_PAD,
+	BodyLocation = Right_MiddleFinger,
+	Icon = SET_PAD,
+        BloodLocation = Trousers,
+	ScratchDefense = 10,
+        ClothingItemExtra = SET_PAD_Loose,
+        ClothingItemExtraOption = SET_PAD_Loose,
+        clothingExtraSubmenu = SET_PAD_Loose,
+        WorldStaticModel= W_SET_PAD,
+    }
+
+
+    item SET_PAD_Loose
+	{
+	Type = Clothing,
+	DisplayName = DUTY Tactical Knee Pads (Loose),
+	ClothingItem = SET_PAD_Loose,
+	BodyLocation = Right_MiddleFinger,
+	Icon = SET_PAD,
+        BloodLocation = Trousers,
+	ScratchDefense = 10,
+        ClothingItemExtra = SET_PAD,
+        ClothingItemExtraOption = SET_PAD,
+        clothingExtraSubmenu = SET_PAD_Thigh,
+        WorldStaticModel= W_SET_PAD,
+    }
+
+
+    item SET_ARM_PAD
+	{
+	Type = Clothing,
+	DisplayName = DUTY Tactical Arm Pads,
+	ClothingItem = SET_ARM_PAD,
+	BodyLocation = Left_RingFinger,
+	Icon = SET_ARM_PAD,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = SET_ARM_PAD_Loose,
+        ClothingItemExtraOption = SET_ARM_PAD_Loose,
+        clothingExtraSubmenu = SET_ARM_PAD_Loose,
+        WorldStaticModel= W_SET_ARM_PAD,
+    }
+
+
+    item SET_ARM_PAD_Loose
+	{
+	Type = Clothing,
+	DisplayName = DUTY Tactical Arm Pads (Loose),
+	ClothingItem = SET_ARM_PAD_Loose,
+	BodyLocation = Left_RingFinger,
+	Icon = SET_ARM_PAD,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = SET_ARM_PAD,
+        ClothingItemExtraOption = SET_ARM_PAD,
+        clothingExtraSubmenu = SET_ARM_PAD_Thigh,
+        WorldStaticModel= W_SET_ARM_PAD,
+    }
+
+
+    item Mechanic_Boots_Armor
+	{
+	Type = Clothing,
+	DisplayName = Mechanic Knee Protection,
+	ClothingItem = Mechanic_Boots_Armor,
+	BodyLocation = Right_MiddleFinger,
+	Icon = Mechanic_Boots_Armor,
+        BloodLocation = Trousers,
+	ScratchDefense = 10,
+        WorldStaticModel= W_Mechanic_Boots_Armor,
+    }
+
+
+    item Hunter_Arm
+	{
+	Type = Clothing,
+	DisplayName = Hunter's Upper Arm Protection,
+	ClothingItem = Hunter_Arm,
+	BodyLocation = Left_RingFinger,
+	Icon = Hunter_Arm,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Hunter_Arm_ON,
+        ClothingItemExtraOption = Hunter_Arm_ON,
+        clothingExtraSubmenu = Hunter_Arm_ON,
+        WorldStaticModel= W_Hunter_Arm,
+    }
+
+
+    item Hunter_Arm_ON
+	{
+	Type = Clothing,
+	DisplayName = Hunter's Upper Arm Protection w/ Pouches,
+	ClothingItem = Hunter_Arm_ON,
+	BodyLocation = Left_RingFinger,
+	Icon = Hunter_Arm,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Hunter_Arm,
+        ClothingItemExtraOption = Hunter_Arm,
+        clothingExtraSubmenu = Hunter_Arm_ON,
+        WorldStaticModel= W_Hunter_Arm,
+    }
+
+
+    item Hunter_Leg
+	{
+	Type = Clothing,
+	DisplayName = Hunter's Thigh Protection,
+	ClothingItem = Hunter_Leg,
+	BodyLocation = Left_MiddleFinger,
+	Icon = Hunter_Leg,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Hunter_Leg_ON,
+        ClothingItemExtraOption = Hunter_Leg_ON,
+        clothingExtraSubmenu = Hunter_Leg_ON,
+        WorldStaticModel= W_Hunter_Leg,
+    }
+
+
+    item Hunter_Leg_ON
+	{
+	Type = Clothing,
+	DisplayName = Hunter's Thigh Protection w/ Pouches,
+	ClothingItem = Hunter_Leg_ON,
+	BodyLocation = Left_MiddleFinger,
+	Icon = Hunter_Leg,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Hunter_Leg,
+        ClothingItemExtraOption = Hunter_Leg,
+        clothingExtraSubmenu = Hunter_Leg_ON,
+        WorldStaticModel= W_Hunter_Leg,
+    }
+
+
+    item Hunter_Knee
+	{
+	Type = Clothing,
+	DisplayName = Hunter's Knee Pads,
+	ClothingItem = Hunter_Knee,
+	BodyLocation = Right_MiddleFinger,
+	Icon = Hunter_Knee,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Hunter_Knee_ON,
+        ClothingItemExtraOption = Hunter_Knee_ON,
+        clothingExtraSubmenu = Hunter_Knee_ON,
+        WorldStaticModel= W_Hunter_Knee,
+    }
+
+
+    item Hunter_Knee_ON
+	{
+	Type = Clothing,
+	DisplayName = Hunter's Knee Pads (Tight),
+	ClothingItem = Hunter_Knee_ON,
+	BodyLocation = Right_MiddleFinger,
+	Icon = Hunter_Knee,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Hunter_Knee,
+        ClothingItemExtraOption = Hunter_Knee,
+        clothingExtraSubmenu = Hunter_Knee_ON,
+        WorldStaticModel= W_Hunter_Knee,
+    }
+
+    item Hunter_Knife
+	{
+	Type = Clothing,
+	DisplayName = Hunter's Boots Combat Knife,
+	ClothingItem = Hunter_Knife,
+	BodyLocation = Right_RingFinger,
+	Icon = Hunter_Knife,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Hunter_Knife_ON,
+        ClothingItemExtraOption = Hunter_Knife_ON,
+        clothingExtraSubmenu = Hunter_Knife_ON,
+        WorldStaticModel= W_Hunter_Knife,
+    }
+
+    item Hunter_Knife_ON
+	{
+	Type = Clothing,
+	DisplayName = Hunter's Boots Combat Knife (Tight),
+	ClothingItem = Hunter_Knife_ON,
+	BodyLocation = Right_RingFinger,
+	Icon = Hunter_Knife,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Hunter_Knife,
+        ClothingItemExtraOption = Hunter_Knife,
+        clothingExtraSubmenu = Hunter_Knife_ON,
+        WorldStaticModel= W_Hunter_Knife,
+    }
+
+
+    item Metro_Knee
+	{
+	Type = Clothing,
+	DisplayName = Metro Hazard Knee Pads,
+	ClothingItem = Metro_Knee,
+	BodyLocation = Right_MiddleFinger,
+	Icon = Metro_Knee,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Metro_Knee_ON,
+        ClothingItemExtraOption = Metro_Knee_ON,
+        clothingExtraSubmenu = Metro_Knee_ON,
+        WorldStaticModel= W_Metro_Knee,
+    }
+
+
+    item Metro_Knee_ON
+	{
+	Type = Clothing,
+	DisplayName = Metro Hazard Knee Pads (Tight),
+	ClothingItem = Metro_Knee_ON,
+	BodyLocation = Right_MiddleFinger,
+	Icon = Metro_Knee,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Metro_Knee,
+        ClothingItemExtraOption = Metro_Knee,
+        clothingExtraSubmenu = Metro_Knee_ON,
+        WorldStaticModel= W_Metro_Knee,
+    }
+}
+

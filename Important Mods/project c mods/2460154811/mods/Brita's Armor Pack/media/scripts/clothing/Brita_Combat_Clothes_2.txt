@@ -1,0 +1,869 @@
+module Base
+{
+    item ANA_Shirts
+    {
+        Type = Clothing,
+        DisplayName = UF Pro Striker XT GEN.2 Combat Shirts,
+        ClothingItem = ANA_Shirts,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = ANA_Shirts,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = ANA_Shirts_ON,
+        ClothingItemExtraOption = ANA_Shirts_ON,
+        clothingExtraSubmenu = ANA_Shirts_Back,
+        WorldStaticModel= W_ANA_Shirts,
+    }
+
+
+    item ANA_Shirts_ON
+    {
+        Type = Clothing,
+        DisplayName = UF Pro Striker XT GEN.2 Combat Shirts (Rolled),
+        ClothingItem = ANA_Shirts_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = ANA_Shirts,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = ANA_Shirts,
+        ClothingItemExtraOption = ANA_Shirts,
+        clothingExtraSubmenu = ANA_Shirts_ON,
+        WorldStaticModel= W_ANA_Shirts,
+    }
+
+
+    item ANA_Hood
+    {
+        Type = Clothing,
+        DisplayName = TRN Tactical Hooded Combat Shirts,
+        ClothingItem = ANA_Hood,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = ANA_Hood,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = ANA_Hood_ON,
+        ClothingItemExtraOption = ANA_Hood_ON,
+        clothingExtraSubmenu = ANA_Hood_Back,
+        WorldStaticModel= W_ANA_Hood,
+    }
+
+
+    item ANA_Hood_ON
+    {
+        Type = Clothing,
+        DisplayName = TRN Tactical Hooded Combat Shirts (Rolled),
+        ClothingItem = ANA_Hood_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = ANA_Hood,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = ANA_Hood,
+        ClothingItemExtraOption = ANA_Hood,
+        clothingExtraSubmenu = ANA_Hood_ON,
+        WorldStaticModel= W_ANA_Hood,
+    }
+
+
+    item ANA_Classic
+    {
+        Type = Clothing,
+        DisplayName = Army Uniform Jacket,
+        ClothingItem = ANA_Classic,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = ANA_Classic,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = ANA_Classic_ON,
+        ClothingItemExtraOption = ANA_Classic_ON,
+        clothingExtraSubmenu = ANA_Classic_Back,
+        WorldStaticModel= W_ANA_Classic,
+    }
+
+
+    item ANA_Classic_ON
+    {
+        Type = Clothing,
+        DisplayName = Army Uniform Jacket (Rolled),
+        ClothingItem = ANA_Classic_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = ANA_Classic,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = ANA_Classic,
+        ClothingItemExtraOption = ANA_Classic,
+        clothingExtraSubmenu = ANA_Classic_ON,
+        WorldStaticModel= W_ANA_Classic,
+    }
+
+
+    item Winter_Jacket_Heavy
+    {
+        Type = Clothing,
+        DisplayName = Heavy Winter Jacket,
+        ClothingItem = Winter_Jacket_Heavy,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Winter_Jacket_Heavy,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Winter_Jacket_Heavy_ON,
+        ClothingItemExtraOption = Winter_Jacket_Heavy_ON,
+        clothingExtraSubmenu = Winter_Jacket_Heavy_Back,
+        WorldStaticModel= W_Winter_Jacket_Heavy,
+    }
+
+
+    item Winter_Jacket_Heavy_ON
+    {
+        Type = Clothing,
+        DisplayName = Heavy Winter Jacket (Hooded),
+        ClothingItem = Winter_Jacket_Heavy_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Winter_Jacket_Heavy,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Winter_Jacket_Heavy,
+        ClothingItemExtraOption = Winter_Jacket_Heavy,
+        clothingExtraSubmenu = Winter_Jacket_Heavy_ON,
+        WorldStaticModel= W_Winter_Jacket_Heavy,
+    }
+
+
+    item Winter_Jacket_Camo_Heavy
+    {
+        Type = Clothing,
+        DisplayName = Camouflage Heavy Winter Jacket,
+        ClothingItem = Winter_Jacket_Camo_Heavy,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Winter_Jacket_Camo_Heavy,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Winter_Jacket_Camo_Heavy_ON,
+        ClothingItemExtraOption = Winter_Jacket_Camo_Heavy_ON,
+        clothingExtraSubmenu = Winter_Jacket_Camo_Heavy_Back,
+        WorldStaticModel= W_Winter_Jacket_Camo_Heavy,
+    }
+
+
+    item Winter_Jacket_Camo_Heavy_ON
+    {
+        Type = Clothing,
+        DisplayName = Camouflage Heavy Winter Jacket (Hooded),
+        ClothingItem = Winter_Jacket_Camo_Heavy_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Winter_Jacket_Camo_Heavy,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Winter_Jacket_Camo_Heavy,
+        ClothingItemExtraOption = Winter_Jacket_Camo_Heavy,
+        clothingExtraSubmenu = Winter_Jacket_Camo_Heavy_ON,
+        WorldStaticModel= W_Winter_Jacket_Camo_Heavy,
+    }
+
+
+    item Wattson_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Natalie Paquette Wattson's Jacket,
+        ClothingItem = Wattson_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Wattson_Jacket,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Wattson_Jacket_ON,
+        ClothingItemExtraOption = Wattson_Jacket_ON,
+        clothingExtraSubmenu = Wattson_Jacket_Back,
+        WorldStaticModel= W_Wattson_Jacket,
+    }
+
+
+    item Wattson_Jacket_ON
+    {
+        Type = Clothing,
+        DisplayName = Natalie Paquette Wattson's Jacket (Hooded),
+        ClothingItem = Wattson_Jacket_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Wattson_Jacket,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Wattson_Jacket,
+        ClothingItemExtraOption = Wattson_Jacket,
+        clothingExtraSubmenu = Wattson_Jacket_ON,
+        WorldStaticModel= W_Wattson_Jacket,
+    }
+
+
+    item Fur_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Vintage Long Fur Coat,
+        ClothingItem = Fur_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Fur_Jacket,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Fur_Jacket_ON,
+        ClothingItemExtraOption = Fur_Jacket_ON,
+        clothingExtraSubmenu = Fur_Jacket_Back,
+        WorldStaticModel= W_Fur_Jacket,
+    }
+
+
+    item Fur_Jacket_ON
+    {
+        Type = Clothing,
+        DisplayName = Vintage Long Fur Coat (Hooded),
+        ClothingItem = Fur_Jacket_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Fur_Jacket,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Fur_Jacket,
+        ClothingItemExtraOption = Fur_Jacket,
+        clothingExtraSubmenu = Fur_Jacket_ON,
+        WorldStaticModel= W_Fur_Jacket,
+    }
+
+
+    item Kelvin_Pants
+    {
+        Type = Clothing,
+        DisplayName = Kelvin Lite Down Hunting Pants,
+        ClothingItem = Kelvin_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Kelvin_Pants,
+        RunSpeedModifier = 0.82,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        RunSpeedModifier = 0.98,
+        WaterResistance = 0.8,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Kelvin_Pants_Rolled,
+        ClothingItemExtraOption = Kelvin_Pants_Rolled,
+        clothingExtraSubmenu = Kelvin_Pants_Back,
+        WorldStaticModel= W_Kelvin_Pants,
+    }
+
+
+    item Kelvin_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = Kelvin Lite Down Hunting Pants Rolled,
+        ClothingItem = Kelvin_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Kelvin_Pants,
+        RunSpeedModifier = 0.82,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        RunSpeedModifier = 0.98,
+        WaterResistance = 0.8,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Kelvin_Pants,
+        ClothingItemExtraOption = Kelvin_Pants_Back,
+        clothingExtraSubmenu = Kelvin_Pants_Rolled,
+        WorldStaticModel= W_Kelvin_Pants,
+    }
+
+
+    item Kelvin_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Kelvin Lite Down Hunting Jacket,
+        ClothingItem = Kelvin_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Kelvin_Jacket,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Kelvin_Jacket_ON,
+        ClothingItemExtraOption = Kelvin_Jacket_ON,
+        clothingExtraSubmenu = Kelvin_Jacket_Back,
+        WorldStaticModel= W_Kelvin_Jacket,
+    }
+
+
+    item Kelvin_Jacket_ON
+    {
+        Type = Clothing,
+        DisplayName = Kelvin Lite Down Hunting Jacket (Opened),
+        ClothingItem = Kelvin_Jacket_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Kelvin_Jacket,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Kelvin_Jacket,
+        ClothingItemExtraOption = Kelvin_Jacket,
+        clothingExtraSubmenu = Kelvin_Jacket_ON,
+        WorldStaticModel= W_Kelvin_Jacket,
+    }
+
+
+    item Ela_Skinny_Pants
+    {
+        Type = Clothing,
+        DisplayName = Elzbieta Bosak's Tactical Pants,
+        ClothingItem = Ela_Skinny_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Ela_Pants,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+    }
+
+
+    item EOD_Jacket
+    {
+        Type = Clothing,
+        DisplayName = EOD 9N Bomb Suit (Jacket),
+        ClothingItem = EOD_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket;Hands,
+        Icon = EOD_Jacket,
+        RunSpeedModifier = 0.5,
+        CombatSpeedModifier = 0.5,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 50,
+        ScratchDefense = 60,
+        Insulation = 0.95,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 4,
+        FabricType = Cotton,
+        WorldStaticModel= W_EOD_Jacket,
+    }
+
+    item EOD_Pants
+    {
+        Type = Clothing,
+        DisplayName = EOD 9N Bomb Suit (Pants),
+        ClothingItem = EOD_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers;Shoes,
+        Icon = EOD_Pants,
+        RunSpeedModifier = 0.5,
+        CombatSpeedModifier = 0.5,
+        BiteDefense = 50,
+        ScratchDefense = 60,
+        Insulation = 0.95,
+        RunSpeedModifier = 0.98,
+        WaterResistance = 0.8,
+        Weight = 3,
+        FabricType = Cotton,
+        WorldStaticModel= W_EOD_Pants,
+    }
+
+    item JUGG_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Military Juggernaut Chain Mail Jacket,
+        ClothingItem = JUGG_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket;Hands,
+        Icon = JUGG_Jacket,
+        RunSpeedModifier = 0.5,
+        CombatSpeedModifier = 0.5,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 50,
+        ScratchDefense = 60,
+        Insulation = 0.95,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 4,
+        FabricType = Cotton,
+        WorldStaticModel= W_JUGG_Jacket,
+    }
+
+    item JUGG_Pants
+    {
+        Type = Clothing,
+        DisplayName = Military Juggernaut Suit (Pants),
+        ClothingItem = JUGG_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers;Shoes,
+        Icon = JUGG_Pants,
+        RunSpeedModifier = 0.5,
+        CombatSpeedModifier = 0.5,
+        BiteDefense = 50,
+        ScratchDefense = 60,
+        Insulation = 0.95,
+        RunSpeedModifier = 0.98,
+        WaterResistance = 0.8,
+        Weight = 3,
+        FabricType = Cotton,
+        WorldStaticModel= W_JUGG_Pants,
+    }
+
+
+    item Hunter_Pants
+    {
+        Type = Clothing,
+        DisplayName = Hunter's Combat Pants,
+        ClothingItem = Hunter_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Hunter_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Hunter_Pants_Rolled,
+        ClothingItemExtraOption = Hunter_Pants_Rolled,
+        clothingExtraSubmenu = Hunter_Pants_Back,
+        WorldStaticModel= W_Hunter_Pants,
+    }
+
+
+    item Hunter_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = Hunter's Combat Pants Rolled,
+        ClothingItem = Hunter_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Hunter_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Hunter_Pants,
+        ClothingItemExtraOption = Hunter_Pants_Back,
+        clothingExtraSubmenu = Hunter_Pants_Rolled,
+        WorldStaticModel= W_Hunter_Pants,
+    }
+
+    item Hunter_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Hunter's Jacket w/ Hoodie,
+        ClothingItem = Hunter_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Hunter_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Hunter_Jacket_ON,
+        ClothingItemExtraOption = Hunter_Jacket_ON,
+        clothingExtraSubmenu = Hunter_Jacket_Back,
+        WorldStaticModel= W_Hunter_Jacket,
+    }
+
+
+    item Hunter_Jacket_ON
+    {
+        Type = Clothing,
+        DisplayName = Hunter's Jacket,
+        ClothingItem = Hunter_Jacket_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Hunter_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Hunter_Jacket,
+        ClothingItemExtraOption = Hunter_Jacket,
+        clothingExtraSubmenu = Hunter_Jacket_ON,
+        WorldStaticModel= W_Hunter_Jacket,
+    }
+
+
+    item Metro_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Metro Hazard Jacket,
+        ClothingItem = Metro_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Metro_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel= W_Metro_Jacket,
+    }
+
+    item Metro_Pants
+    {
+        Type = Clothing,
+        DisplayName = Metro Hazard Combat Pants,
+        ClothingItem = Metro_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Metro_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Metro_Pants_Rolled,
+        ClothingItemExtraOption = Metro_Pants_Rolled,
+        clothingExtraSubmenu = Metro_Pants_Back,
+        WorldStaticModel= W_Metro_Pants,
+    }
+
+
+    item Metro_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = Metro Hazard Combat Pants Rolled,
+        ClothingItem = Metro_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Metro_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Metro_Pants,
+        ClothingItemExtraOption = Metro_Pants_Back,
+        clothingExtraSubmenu = Metro_Pants_Rolled,
+        WorldStaticModel= W_Metro_Pants,
+    }
+
+
+    item Man_Field_Shirts
+    {
+        Type = Clothing,
+        DisplayName = Men's Army Combat Uniform Shirts,
+        ClothingItem = Man_Field_Shirts,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Man_Field_Shirts,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Man_Field_Shirts_ON,
+        ClothingItemExtraOption = Man_Field_Shirts_ON,
+        clothingExtraSubmenu = Man_Field_Shirts_Back,
+        WorldStaticModel= W_Man_Field_Shirts,
+    }
+
+
+    item Man_Field_Shirts_ON
+    {
+        Type = Clothing,
+        DisplayName = Men's Army Combat Uniform Shirts (Rolled),
+        ClothingItem = Man_Field_Shirts_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Man_Field_Shirts,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Man_Field_Shirts,
+        ClothingItemExtraOption = Man_Field_Shirts,
+        clothingExtraSubmenu = Man_Field_Shirts_ON,
+        WorldStaticModel= W_Man_Field_Shirts,
+    }
+
+
+    item Man_Check_Shirts
+    {
+        Type = Clothing,
+        DisplayName = Men's Check Shirts,
+        ClothingItem = Man_Check_Shirts,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Man_Check_Shirts,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Man_Check_Shirts_ON,
+        ClothingItemExtraOption = Man_Check_Shirts_ON,
+        clothingExtraSubmenu = Man_Check_Shirts_Back,
+        WorldStaticModel= W_Man_Check_Shirts,
+    }
+
+
+    item Man_Check_Shirts_ON
+    {
+        Type = Clothing,
+        DisplayName = Men's Check Shirts (Rolled),
+        ClothingItem = Man_Check_Shirts_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Man_Check_Shirts,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Man_Check_Shirts,
+        ClothingItemExtraOption = Man_Check_Shirts,
+        clothingExtraSubmenu = Man_Check_Shirts_ON,
+        WorldStaticModel= W_Man_Check_Shirts,
+    }
+
+
+    item Chain_Pants
+    {
+        Type = Clothing,
+        DisplayName = Chainmail Combat Pants,
+        ClothingItem = Chain_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Chain_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Chain_Pants_Rolled,
+        ClothingItemExtraOption = Chain_Pants_Rolled,
+        clothingExtraSubmenu = Chain_Pants_Back,
+        WorldStaticModel= W_Chain_Pants,
+    }
+
+
+    item Chain_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = Chainmail Combat Pants (Rolled),
+        ClothingItem = Chain_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Chain_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Chain_Pants,
+        ClothingItemExtraOption = Chain_Pants_Back,
+        clothingExtraSubmenu = Chain_Pants_Rolled,
+        WorldStaticModel= W_Chain_Pants,
+    }
+
+
+    item Man_Adidas_Shirts
+    {
+        Type = Clothing,
+        DisplayName = Men's Adidas Shirts,
+        ClothingItem = Man_Adidas_Shirts,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Man_Adidas_Shirts,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Man_Adidas_Shirts_ON,
+        ClothingItemExtraOption = Man_Adidas_Shirts_ON,
+        clothingExtraSubmenu = Man_Adidas_Shirts_Back,
+        WorldStaticModel= W_Man_Adidas_Shirts,
+    }
+
+
+    item Man_Adidas_Shirts_ON
+    {
+        Type = Clothing,
+        DisplayName = Men's Adidas Shirts (Rolled),
+        ClothingItem = Man_Adidas_Shirts_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Man_Adidas_Shirts,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Man_Adidas_Shirts,
+        ClothingItemExtraOption = Man_Adidas_Shirts,
+        clothingExtraSubmenu = Man_Adidas_Shirts_ON,
+        WorldStaticModel= W_Man_Adidas_Shirts,
+    }
+}

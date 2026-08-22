@@ -1,0 +1,539 @@
+module Base
+{
+
+    item Skirt_Check
+    {
+        Type = Clothing,
+        DisplayName = Check Pattern Skirt,
+        ClothingItem = Skirt_Check,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Skirt_Check,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+       WorldStaticModel= W_Skirt_Check,
+    }
+
+
+    item Rose_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Rosemary Winter's Jacket w/ Hoodie,
+        ClothingItem = Rose_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Rose_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Rose_Jacket_ON,
+        ClothingItemExtraOption = Rose_Jacket_ON,
+        clothingExtraSubmenu = Rose_Jacket_Back,
+        WorldStaticModel= W_Rose_Jacket,
+    }
+
+
+    item Rose_Jacket_ON
+    {
+        Type = Clothing,
+        DisplayName = Rosemary Winter's Jacket,
+        ClothingItem = Rose_Jacket_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Rose_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Rose_Jacket,
+        ClothingItemExtraOption = Rose_Jacket,
+        clothingExtraSubmenu = Rose_Jacket_ON,
+        WorldStaticModel= W_Rose_Jacket,
+    }
+
+    item Rose_Jeans
+    {
+        Type = Clothing,
+        DisplayName = Rosemary Winters Jeans,
+        ClothingItem = Rose_Jeans,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Rose_Jeans,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel= W_Rose_Jeans,
+    }
+
+
+    item Nurse_Dress
+    {
+        Type = Clothing,
+        DisplayName = Silent Hill Nurse Dress,
+        ClothingItem = Nurse_Dress,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Nurse_Dress,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+       WorldStaticModel= W_Nurse_Dress,
+    }
+
+    item Knit_Dress
+    {
+        Type = Clothing,
+        DisplayName = Cable Knit Sweater Dress,
+        ClothingItem = Knit_Dress,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Knit_Dress,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Knit_Dress_ON,
+        ClothingItemExtraOption = Knit_Dress_ON,
+        clothingExtraSubmenu = Knit_Dress_Back,
+        WorldStaticModel= W_Knit_Dress,
+    }
+
+
+    item Knit_Dress_ON
+    {
+        Type = Clothing,
+        DisplayName = Cable Knit Sweater Dress (Rolled),
+        ClothingItem = Knit_Dress_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Knit_Dress,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Knit_Dress,
+        ClothingItemExtraOption = Knit_Dress,
+        clothingExtraSubmenu = Knit_Dress_ON,
+        WorldStaticModel= W_Knit_Dress,
+    }
+
+
+    item Off_Dress
+    {
+        Type = Clothing,
+        DisplayName = Off Shoulder Cable Knit Sweater Dress,
+        ClothingItem = Off_Dress,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Off_Dress,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Off_Dress_ON,
+        ClothingItemExtraOption = Off_Dress_ON,
+        clothingExtraSubmenu = Off_Dress_Back,
+        WorldStaticModel= W_Off_Dress,
+    }
+
+
+    item Off_Dress_ON
+    {
+        Type = Clothing,
+        DisplayName = Off Shoulder Cable Knit Sweater Dress (Rolled),
+        ClothingItem = Off_Dress_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Off_Dress,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Off_Dress,
+        ClothingItemExtraOption = Off_Dress,
+        clothingExtraSubmenu = Off_Dress_ON,
+        WorldStaticModel= W_Off_Dress,
+    }
+
+    item Cut_Dress
+    {
+        Type = Clothing,
+        DisplayName = Cutout Front Long Sleeve Sweater Dress,
+        ClothingItem = Cut_Dress,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Cut_Dress,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Cut_Dress_ON,
+        ClothingItemExtraOption = Cut_Dress_ON,
+        clothingExtraSubmenu = Cut_Dress_Back,
+        WorldStaticModel= W_Cut_Dress,
+    }
+
+
+    item Cut_Dress_ON
+    {
+        Type = Clothing,
+        DisplayName = Cutout Front Long Sleeve Sweater Dress (Rolled),
+        ClothingItem = Cut_Dress_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Cut_Dress,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Cut_Dress,
+        ClothingItemExtraOption = Cut_Dress,
+        clothingExtraSubmenu = Cut_Dress_ON,
+        WorldStaticModel= W_Cut_Dress,
+    }
+
+
+    item Bandit_Coat
+    {
+        Type = Clothing,
+        DisplayName = Bandit Trenchcoat,
+        ClothingItem = Bandit_Coat,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Bandit_Coat,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Bandit_Coat_ON,
+        ClothingItemExtraOption = Bandit_Coat_ON,
+        clothingExtraSubmenu = Bandit_Coat_Back,
+        WorldStaticModel= W_Bandit_Coat,
+    }
+
+
+    item Bandit_Coat_ON
+    {
+        Type = Clothing,
+        DisplayName = Bandit Trenchcoat (Hood On),
+        ClothingItem = Bandit_Coat_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Bandit_Coat,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Bandit_Coat,
+        ClothingItemExtraOption = Bandit_Coat,
+        clothingExtraSubmenu = Bandit_Coat_ON,
+        WorldStaticModel= W_Bandit_Coat,
+    }
+
+
+    item Bandit_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Bandit Jacket w/ Hoodie,
+        ClothingItem = Bandit_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Bandit_Jacket,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Bandit_Jacket_ON,
+        ClothingItemExtraOption = Bandit_Jacket_ON,
+        clothingExtraSubmenu = Bandit_Jacket_Back,
+        WorldStaticModel= W_Bandit_Jacket,
+    }
+
+
+    item Bandit_Jacket_ON
+    {
+        Type = Clothing,
+        DisplayName = Bandit Jacket,
+        ClothingItem = Bandit_Jacket_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Bandit_Jacket,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Bandit_Jacket,
+        ClothingItemExtraOption = Bandit_Jacket,
+        clothingExtraSubmenu = Bandit_Jacket_ON,
+        WorldStaticModel= W_Bandit_Jacket,
+    }
+
+
+
+    item BR_Skirts
+    {
+        Type = Clothing,
+        DisplayName = Rozsa Office Skirts,
+        ClothingItem = BR_Skirts,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = BR_Skirts,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel= W_BR_Skirts,
+    }
+
+
+    item BR_Skirts_Long
+    {
+        Type = Clothing,
+        DisplayName = Rozsa Office Long Skirts,
+        ClothingItem = BR_Skirts_Long,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = BR_Skirts_Long,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel= W_BR_Skirts_Long,
+    }
+
+
+    item Pencil_Skirts
+    {
+        Type = Clothing,
+        DisplayName = Pencil Office Skirts,
+        ClothingItem = Pencil_Skirts,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Pencil_Skirts,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel= W_Pencil_Skirts,
+    }
+
+    item Pencil_Skirts_Long
+    {
+        Type = Clothing,
+        DisplayName = Pencil Office Long Skirts,
+        ClothingItem = Pencil_Skirts_Long,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Pencil_Skirts_Long,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel= W_Pencil_Skirts_Long,
+    }
+
+
+    item Skirts_SC
+    {
+        Type = Clothing,
+        DisplayName = Slim Fit School Skirts,
+        ClothingItem = Skirts_SC,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Skirts_SC,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel= W_Skirts_SC,
+    }
+
+    item Skirts_SC_Long
+    {
+        Type = Clothing,
+        DisplayName = Slim Fit School Long Skirts,
+        ClothingItem = Skirts_SC_Long,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Skirts_SC_Long,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel= W_Skirts_SC_Long,
+    }
+
+
+    item Skirts_Side
+    {
+        Type = Clothing,
+        DisplayName = V Waist Mini Skirts,
+        ClothingItem = Skirts_Side,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Skirts_Side,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel= W_Skirts_Side,
+    }
+
+
+    item Skirts_Side_Long
+    {
+        Type = Clothing,
+        DisplayName = Pleated Skirts,
+        ClothingItem = Skirts_Side_Long,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Skirts_Side_Long,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel= W_Skirts_Side_Long,
+    }
+
+
+    item Formal_Shirts
+    {
+        Type = Clothing,
+        DisplayName = Ladies Formal Blouse Shirts,
+        ClothingItem = Formal_Shirts,
+        BodyLocation = Shirt,
+        BloodLocation = Jacket,
+        Icon = Y_Shirts,
+        Weight = 0.1,
+        Insulation = 0.2,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+       WorldStaticModel= W_Formal_Shirts,
+    }
+
+
+    item Brig_Shirts
+    {
+        Type = Clothing,
+        DisplayName = Brig's Shirts,
+        ClothingItem = Brig_Shirts,
+        BodyLocation = Shirt,
+        BloodLocation = Jacket,
+        Icon = Brig_Shirts,
+        Weight = 0.1,
+        Insulation = 0.2,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+       WorldStaticModel= W_Brig_Shirts,
+    }
+
+
+    item Shooting_Shirts
+    {
+        Type = Clothing,
+        DisplayName = Shooting Team Competition Shirts,
+        ClothingItem = Shooting_Shirts,
+        BodyLocation = Shirt,
+        BloodLocation = Jacket,
+        Icon = Shooting_Shirts,
+        Weight = 0.1,
+        Insulation = 0.2,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+       WorldStaticModel= W_Shooting_Shirts,
+    }
+
+    item Arm_Warmer
+    {
+        Type = Clothing,
+        DisplayName = Outdoor Sports Arm Sleeve,
+        ClothingItem = Arm_Warmer,
+        BodyLocation = BellyButton,
+        BloodLocation = Hands,
+        Weight = 0.1,
+        Icon = Arm_Warmer,
+        Insulation = 0.2,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+       WorldStaticModel= W_Arm_Warmer,
+    }
+
+
+    item Black_Long_Shirts
+    {
+        Type = Clothing,
+        DisplayName = Ladies Long Sleeve Shirts,
+        ClothingItem = Black_Long_Shirts,
+        BodyLocation = Shirt,
+        BloodLocation = Jacket,
+        Icon = Black_Long_Shirts,
+        NeckProtectionModifier = 0.5,
+        Weight = 0.1,
+        BiteDefense = 10,
+        ScratchDefense = 10,
+        Insulation = 0.35,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+       WorldStaticModel= W_Black_Long_Shirts,
+    }
+
+}

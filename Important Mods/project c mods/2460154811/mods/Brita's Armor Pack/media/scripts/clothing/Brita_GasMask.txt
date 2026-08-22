@@ -1,0 +1,479 @@
+module Base
+{
+
+    item Hat_MCU_GasMask
+	{
+	Type = Clothing,
+	DisplayName = MCU 2/P Gas Mask,
+	ClothingItem = Hat_MCU_GasMask,
+	BodyLocation = Mask,
+	Icon = Hat_MCU_GasMask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+    }
+
+
+
+    item Hat_M45_GasMask
+	{
+	Type = Clothing,
+	DisplayName = M45 Gas Mask,
+	ClothingItem = Hat_M45_GasMask,
+	BodyLocation = Mask,
+	Icon = Hat_M45_GasMask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+    }
+
+
+
+    item Hat_M50
+	{
+	Type = Clothing,
+	DisplayName = Avon Protection M50 Gas Mask,
+	ClothingItem = Hat_M50,
+	BodyLocation = Mask,
+	Icon = Hat_M50,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+    }
+
+
+    item Hat_FM53
+	{
+	Type = Clothing,
+	DisplayName = Avon Protection FM53 Gas Mask,
+	ClothingItem = Hat_FM53,
+	BodyLocation = Mask,
+	Icon = Hat_FM53,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+    }
+
+
+
+    item Hat_MSA_Gas_Mask
+	{
+	Type = Clothing,
+	DisplayName = MSA Millennium Gas Mask,
+	ClothingItem = Hat_MSA_Gas_Mask,
+	BodyLocation = Mask,
+	Icon = Hat_MSA_Gas_Mask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        ClothingItemExtra = Hat_MSA_Gas_Mask_AMP,
+        ClothingItemExtraOption = AMP_OFF,
+        clothingExtraSubmenu = AMP_ON,
+        WorldStaticModel= W_Hat_MSA_Gas_Mask,
+    }
+
+
+
+    item Hat_MSA_Gas_Mask_AMP
+	{
+	Type = Clothing,
+	DisplayName = MSA Millennium Gas Mask w/ VPU,
+	ClothingItem = Hat_MSA_Gas_Mask_AMP,
+	BodyLocation = Mask,
+	Icon = Hat_MSA_Gas_Mask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        ClothingItemExtra = Hat_MSA_Gas_Mask,
+        ClothingItemExtraOption = AMP_ON,
+        clothingExtraSubmenu = AMP_OFF,
+        WorldStaticModel= W_Hat_MSA_Gas_Mask,
+    }
+
+
+    item K1_Gasmask
+	{
+	Type = Clothing,
+	DisplayName = K-1 Gas Mask,
+	ClothingItem = K1_Gasmask,
+	BodyLocation = Mask,
+	Icon = K1_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_K1_Gasmask,
+    }
+
+
+    item K1_Half
+	{
+	Type = Clothing,
+	DisplayName = K-1 Gas Mask (Half Cutted),
+	ClothingItem = K1_Half,
+	BodyLocation = Mask,
+	Icon = K1_Half,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_K1_Half,
+    }
+
+
+    item K1_Hood
+	{
+	Type = Clothing,
+	DisplayName = K-1 Gas Mask Protective Hood,
+	ClothingItem = K1_Hood,
+	BodyLocation = Ears,
+	Icon = K1_Hood,
+	ScratchDefense = 5,
+        WindResistance = 0.60,
+        Weight = 0.1,
+        WorldStaticModel= W_K1_Hood,
+    }
+
+
+    item PMK1_Gasmask
+	{
+	Type = Clothing,
+	DisplayName = PMK-1 Gas Mask,
+	ClothingItem = PMK1_Gasmask,
+	BodyLocation = Mask,
+	Icon = PMK1_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_PMK1_Gasmask,
+    }
+
+
+    item PMK1_Half
+	{
+	Type = Clothing,
+	DisplayName = PMK-1 Gas Mask (Half Cutted),
+	ClothingItem = PMK1_Half,
+	BodyLocation = Mask,
+	Icon = PMK1_Half,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_PMK1_Half,
+    }
+
+
+    item PMK2_Gasmask
+	{
+	Type = Clothing,
+	DisplayName = PMK-2 Gas Mask,
+	ClothingItem = PMK2_Gasmask,
+	BodyLocation = Mask,
+	Icon = PMK2_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_PMK2_Gasmask,
+    }
+
+
+    item PMK2_Half
+	{
+	Type = Clothing,
+	DisplayName = PMK-2 Gas Mask (Half Cutted),
+	ClothingItem = PMK2_Half,
+	BodyLocation = Mask,
+	Icon = PMK2_Half,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_PMK2_Half,
+    }
+
+
+    item S10_Gasmask
+	{
+	Type = Clothing,
+	DisplayName = Avon S10 Gas Mask,
+	ClothingItem = S10_Gasmask,
+	BodyLocation = Mask,
+	Icon = S10_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_S10_Gasmask,
+    }
+
+
+    item S10_Gasmask_Set
+	{
+	Type = Clothing,
+	DisplayName = Avon S10 Gas Mask w/ PAPR,
+	ClothingItem = S10_Gasmask_Set,
+	BodyLocation = Mask,
+	Icon = S10_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_S10_Gasmask_Set,
+    }
+
+
+    item GP4U_Gasmask
+	{
+	Type = Clothing,
+	DisplayName = GP-4U Gas Mask,
+	ClothingItem = GP4U_Gasmask,	BodyLocation = Mask,
+	Icon = GP4U_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_GP4U_Gasmask,
+    }
+
+
+    item MM1_Gasmask
+	{
+	Type = Clothing,
+	DisplayName = MM-1 Gas Mask,
+	ClothingItem = MM1_Gasmask,
+	BodyLocation = Mask,
+	Icon = MM1_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_MM1_Gasmask,
+    }
+
+    item SHMS_Gasmask
+	{
+	Type = Clothing,
+	DisplayName = ShMS Gas Mask,
+	ClothingItem = SHMS_Gasmask,
+	BodyLocation = Mask,
+	Icon = SHMS_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_SHMS_Gasmask,
+    }
+
+
+    item SHMS_Gasmask_Set
+	{
+	Type = Clothing,
+	DisplayName = ShMS Gas Mask w/ Hose,
+	ClothingItem = SHMS_Gasmask_Set,
+	BodyLocation = Mask,
+	Icon = SHMS_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_SHMS_Gasmask,
+    }
+
+
+    item GP5M_Gasmask
+	{
+	Type = Clothing,
+	DisplayName = GP-5M Gas Mask,
+	ClothingItem = GP5M_Gasmask,
+	BodyLocation = Mask,
+	Icon = GP5M_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_GP5M_Gasmask,
+    }
+
+
+    item PMG_Gasmask
+	{
+	Type = Clothing,
+	DisplayName = PMG Gas Mask,
+	ClothingItem = PMG_Gasmask,
+	BodyLocation = Mask,
+	Icon = PMG_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_PMG_Gasmask,
+    }
+
+
+    item GM15_Gasmask
+	{
+	Type = Clothing,
+	DisplayName = GM15 Gas Mask,
+	ClothingItem = GM15_Gasmask,
+	BodyLocation = Mask,
+	Icon = GM15_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_GM15_Gasmask,
+    }
+
+    item GM17_Gasmask
+	{
+	Type = Clothing,
+	DisplayName = GM17 Gas Mask,
+	ClothingItem = GM17_Gasmask,
+	BodyLocation = Mask,
+	Icon = GM17_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_GM17_Gasmask,
+    }
+
+
+    item Metro_Gasmask
+	{
+	Type = Clothing,
+	DisplayName = Metro Hazard Gas Mask,
+	ClothingItem = Metro_Gasmask,
+	BodyLocation = Mask,
+	Icon = Metro_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_Metro_Gasmask,
+    }
+
+
+    item Metro_Gasmask_Set
+	{
+	Type = Clothing,
+	DisplayName = Metro Hazard Gas Mask w/ Filter,
+	ClothingItem = Metro_Gasmask_Set,
+	BodyLocation = Mask,
+	Icon = Metro_Gasmask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	Insulation = 0.75,
+	WaterResistance = 1.0,
+        WindResistance = 0.60,
+        Weight = 1.5,
+        WorldStaticModel= W_Metro_Gasmask,
+    }
+
+
+    item Metro_IDA
+	{
+	Type = Clothing,
+	DisplayName = Metro Hazard IDA-59 Rebreather,
+	ClothingItem = Metro_IDA,
+	BodyLocation = Neck,
+	Icon = Metro_IDA,
+        WorldStaticModel= W_Metro_IDA,
+        ClothingItemExtra = Metro_IDA_ON,
+        ClothingItemExtraOption = Metro_IDA_ON,
+        clothingExtraSubmenu = Metro_IDA_Back,
+    }
+
+
+    item Metro_IDA_ON
+	{
+	Type = Clothing,
+	DisplayName = Metro Hazard IDA-59 Rebreather w/ Mouthpiece,
+	ClothingItem = Metro_IDA_ON,
+	BodyLocation = Neck,
+	Icon = Metro_IDA,
+        WorldStaticModel= W_Metro_IDA,
+        ClothingItemExtra = Metro_IDA,
+        ClothingItemExtraOption = Metro_IDA,
+        clothingExtraSubmenu = Metro_IDA_ON,
+    }
+}

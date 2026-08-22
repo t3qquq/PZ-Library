@@ -1,0 +1,39 @@
+module Base
+{
+
+
+    item Hand_Band_Heather
+	{
+	Type = Clothing,
+	DisplayName = Heather Mason's Hand Bands,
+	ClothingItem = Hand_Band_Heather,
+	BodyLocation = Necklace,
+	Icon = Hand_Band_Heather,
+        Weight = 0.01,
+        WorldStaticModel= W_Hand_Band_Heather,
+    }
+
+
+    item Choker_Maria
+	{
+	Type = Clothing,
+	DisplayName = Maria's Choker,
+	ClothingItem = Choker_Maria,
+	BodyLocation = Necklace,
+	Icon = Choker_Maria,
+        Weight = 0.01,
+        WorldStaticModel= W_Choker_Maria,
+    }
+
+
+    item Earing_Lisa
+	{
+	Type = Clothing,
+	DisplayName =Lisa Garlnad's Earing,
+	ClothingItem = Earing_Lisa,
+	BodyLocation = Ears,
+	Icon = Earing_Lisa,
+        Weight = 0.01,
+        WorldStaticModel= W_Earing_Lisa,
+    }
+}

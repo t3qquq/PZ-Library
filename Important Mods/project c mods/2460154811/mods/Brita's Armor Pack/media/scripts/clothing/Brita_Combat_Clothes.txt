@@ -1,0 +1,686 @@
+module Base
+{
+
+
+    item Ela_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Elzbieta Bosak's Tactical Jacket,
+        ClothingItem = Ela_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Ela_Jacket,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 030,
+        FabricType = Denim,
+        WaterResistance = 0.2,
+        Weight = 2,
+
+    }
+
+
+
+    item Ela_Pants
+    {
+        Type = Clothing,
+        DisplayName = Elzbieta Bosak's Tactical Leggings,
+        ClothingItem = Ela_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Ela_Pants,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+       WorldStaticModel= W_Ela_Pants,
+    }
+
+
+    item Gorka_Jacket_New
+    {
+        Type = Clothing,
+        DisplayName = Bars Gorka 4 Camouflage Jacket ,
+        ClothingItem = Gorka_Jacket_New,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Gorka_Jacket,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        Weight = 2,
+        FabricType = Denim,
+    }
+
+
+
+    item Gorka_Pants_New
+    {
+        Type = Clothing,
+        DisplayName = Bars Gorka 4 Camouflage Pants,
+        ClothingItem = Gorka_Pants_New,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Gorka_Pants,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        FabricType = Denim,
+        ClothingItemExtra = Gorka_Pants_New_Rolled,
+        ClothingItemExtraOption = Gorka_Pants_New_Rolled,
+        clothingExtraSubmenu = Gorka_Pants_New_Back,
+    }
+
+
+
+    item Gorka_Pants_New_Rolled
+    {
+        Type = Clothing,
+        DisplayName = Bars Gorka 4 Camouflage Pants Rolled,
+        ClothingItem = Gorka_Pants_New_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Gorka_Pants,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        FabricType = Denim,
+        ClothingItemExtra = Gorka_Pants_New,
+        ClothingItemExtraOption = Gorka_Pants_New_Back,
+        clothingExtraSubmenu = Gorka_Pants_New_Rolled,
+    }
+
+    item Combat_Jumper
+    {
+        Type = Clothing,
+        DisplayName = Quarter Zip Combat Shirts,
+        ClothingItem = Combat_Jumper,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Combat_Jumper,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        Weight = 2,
+        FabricType = Denim,
+    }
+
+
+
+    item Combat_Pants
+    {
+        Type = Clothing,
+        DisplayName = Striker XT Combat Pants,
+        ClothingItem = Combat_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Combat_Pants,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        FabricType = Denim,
+        ClothingItemExtra = Combat_Pants_Rolled,
+        ClothingItemExtraOption = Combat_Pants_Rolled,
+        clothingExtraSubmenu = Combat_Pants_Back,
+    }
+
+
+    item Combat_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = Striker XT Combat Pants Rolled,
+        ClothingItem = Combat_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Combat_Pants,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        FabricType = Denim,
+        ClothingItemExtra = Combat_Pants,
+        ClothingItemExtraOption = Combat_Pants_Back,
+        clothingExtraSubmenu = Combat_Pants_Rolled,
+    }
+
+
+
+    item Military_Jumper
+    {
+        Type = Clothing,
+        DisplayName = Military Field Shirts,
+        ClothingItem = Military_Jumper,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Combat_Jumper,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        Weight = 2,
+        FabricType = Denim,
+    }
+
+
+
+    item Military_Pants
+    {
+        Type = Clothing,
+        DisplayName = Military Field Pants,
+        ClothingItem = Military_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Military_Pants,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        FabricType = Denim,
+        ClothingItemExtra = Military_Pants_Rolled,
+        ClothingItemExtraOption = Military_Pants_Rolled,
+        clothingExtraSubmenu = Military_Pants_Back,
+    }
+
+
+    item Military_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = Military Field Pants Rolled,
+        ClothingItem = Military_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Military_Pants,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        FabricType = Denim,
+        ClothingItemExtra = Military_Pants,
+        ClothingItemExtraOption = Military_Pants_Back,
+        clothingExtraSubmenu = Military_Pants_Rolled,
+    }
+
+
+    item CRYE_Pants
+    {
+        Type = Clothing,
+        DisplayName = Crye G3 Combat Pants,
+        ClothingItem = CRYE_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = CRYE_Pants,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        FabricType = Denim,
+        ClothingItemExtra = CRYE_Pants_Rolled,
+        ClothingItemExtraOption = CRYE_Pants_Rolled,
+        clothingExtraSubmenu = CRYE_Pants_Back,
+    }
+
+
+    item CRYE_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = Crye G3 Combat Pants Rolled,
+        ClothingItem = CRYE_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = CRYE_Pants,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        FabricType = Denim,
+        ClothingItemExtra = CRYE_Pants,
+        ClothingItemExtraOption = CRYE_Pants_Back,
+        clothingExtraSubmenu = CRYE_Pants_Rolled,
+    }
+
+
+
+    item Tactical_Hood
+    {
+        Type = Clothing,
+        DisplayName = GEN3 Hooded Tactical Shirts,
+        ClothingItem = Tactical_Hood,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Tactical_Hood,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Tactical_Hood_ON,
+        ClothingItemExtraOption = Tactical_Hood_ON,
+        clothingExtraSubmenu = Tactical_Hood_Back,
+        WorldStaticModel= W_Tactical_Hood,
+    }
+
+
+    item Tactical_Hood_ON
+    {
+        Type = Clothing,
+        DisplayName = GEN3 Hooded Tactical Shirts (Hood On),
+        ClothingItem = Tactical_Hood_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Tactical_Hood,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Tactical_Hood,
+        ClothingItemExtraOption = Tactical_Hood,
+        clothingExtraSubmenu = Tactical_Hood_ON,
+        WorldStaticModel= W_Tactical_Hood,
+    }
+
+
+    item Kawaii_Hood
+    {
+        Type = Clothing,
+        DisplayName = Kawaii Sports Winter Jacket,
+        ClothingItem = Kawaii_Hood,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Kawaii_Hood,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Kawaii_Hood_ON,
+        ClothingItemExtraOption = Kawaii_Hood_ON,
+        clothingExtraSubmenu = Kawaii_Hood_Back,
+        WorldStaticModel= W_Kawaii_Hood,
+    }
+
+
+    item Kawaii_Hood_ON
+    {
+        Type = Clothing,
+        DisplayName = Kawaii Sports Winter Jacket (Hood On),
+        ClothingItem = Kawaii_Hood_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Kawaii_Hood,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Kawaii_Hood,
+        ClothingItemExtraOption = Kawaii_Hood,
+        clothingExtraSubmenu = Kawaii_Hood_ON,
+        WorldStaticModel= W_Kawaii_Hood,
+    }
+
+    item BARS_Hoodie
+    {
+        Type = Clothing,
+        DisplayName = BARS Classic Gorka 4 Jacket,
+        ClothingItem = BARS_Hoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = BARS_Hoodie,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = BARS_Hoodie_ON,
+        ClothingItemExtraOption = BARS_Hoodie_ON,
+        clothingExtraSubmenu = BARS_Hoodie_Back,
+        WorldStaticModel= W_BARS_Hoodie,
+    }
+
+
+    item BARS_Hoodie_ON
+    {
+        Type = Clothing,
+        DisplayName = BARS Classic Gorka 4 Jacket (Hood On),
+        ClothingItem = BARS_Hoodie_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = BARS_Hoodie,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = BARS_Hoodie,
+        ClothingItemExtraOption = BARS_Hoodie,
+        clothingExtraSubmenu = BARS_Hoodie_ON,
+        WorldStaticModel= W_BARS_Hoodie,
+    }
+
+
+
+    item Gorka6_Hoodie
+    {
+        Type = Clothing,
+        DisplayName = BARS Gorka 6 Jacket,
+        ClothingItem = Gorka6_Hoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Gorka6_Hoodie,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Gorka6_Hoodie_ON,
+        ClothingItemExtraOption = Gorka6_Hoodie_ON,
+        clothingExtraSubmenu = Gorka6_Hoodie_Back,
+        WorldStaticModel= W_Gorka6_Hoodie,
+    }
+
+
+    item Gorka6_Hoodie_ON
+    {
+        Type = Clothing,
+        DisplayName = BARS Gorka 6 Jacket (Hood On),
+        ClothingItem = Gorka6_Hoodie_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Gorka6_Hoodie,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Gorka6_Hoodie,
+        ClothingItemExtraOption = Gorka6_Hoodie,
+        clothingExtraSubmenu = Gorka6_Hoodie_ON,
+        WorldStaticModel= W_Gorka6_Hoodie,
+    }
+
+
+    item M65_Jacket
+    {
+        Type = Clothing,
+        DisplayName = M65 Military Field Jacket,
+        ClothingItem = M65_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = M65_Jacket,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = M65_Jacket_ON,
+        ClothingItemExtraOption = M65_Jacket_ON,
+        clothingExtraSubmenu = M65_Jacket_Back,
+        WorldStaticModel= W_M65_Jacket,
+    }
+
+
+    item M65_Jacket_ON
+    {
+        Type = Clothing,
+        DisplayName = M65 Military Field Jacket (Hood On),
+        ClothingItem = M65_Jacket_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = M65_Jacket,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = M65_Jacket,
+        ClothingItemExtraOption = M65_Jacket,
+        clothingExtraSubmenu = M65_Jacket_ON,
+        WorldStaticModel= W_M65_Jacket,
+    }
+
+
+    item Anorak_Pants
+    {
+        Type = Clothing,
+        DisplayName = Gorka K1 Anorak Pants,
+        ClothingItem = Anorak_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Anorak_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Anorak_Pants_Rolled,
+        ClothingItemExtraOption = Anorak_Pants_Rolled,
+        clothingExtraSubmenu = Anorak_Pants_Back,
+        WorldStaticModel= W_Anorak_Pants,
+    }
+
+
+    item Anorak_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = Gorka K1 Anorak Pants Rolled,
+        ClothingItem = Anorak_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Anorak_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Anorak_Pants,
+        ClothingItemExtraOption = Anorak_Pants_Back,
+        clothingExtraSubmenu = Anorak_Pants_Rolled,
+        WorldStaticModel= W_Anorak_Pants,
+    }
+
+
+    item M42_Pants
+    {
+        Type = Clothing,
+        DisplayName = M42 Paratrooper Pants,
+        ClothingItem = M42_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = M42_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = M42_Pants_Rolled,
+        ClothingItemExtraOption = M42_Pants_Rolled,
+        clothingExtraSubmenu = M42_Pants_Back,
+        WorldStaticModel= W_M42_Pants,
+    }
+
+
+    item M42_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = M42 Paratrooper Pants Rolled,
+        ClothingItem = M42_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = M42_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = M42_Pants,
+        ClothingItemExtraOption = M42_Pants_Back,
+        clothingExtraSubmenu = M42_Pants_Rolled,
+        WorldStaticModel= W_M42_Pants,
+    }
+
+
+    item GEN2_Pants
+    {
+        Type = Clothing,
+        DisplayName = Striker XT Gen.2 Combat Pants,
+        ClothingItem = GEN2_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = GEN2_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = GEN2_Pants_Rolled,
+        ClothingItemExtraOption = GEN2_Pants_Rolled,
+        clothingExtraSubmenu = GEN2_Pants_Back,
+        WorldStaticModel= W_GEN2_Pants,
+    }
+
+
+    item GEN2_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = Striker XT Gen.2 Combat Pants Rolled,
+        ClothingItem = GEN2_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = GEN2_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = GEN2_Pants,
+        ClothingItemExtraOption = GEN2_Pants_Back,
+        clothingExtraSubmenu = GEN2_Pants_Rolled,
+        WorldStaticModel= W_GEN2_Pants,
+    }
+
+    item ELA_Bomber
+    {
+        Type = Clothing,
+        DisplayName = Elzbieta Bosak ELA's Tactical Jacket,
+        ClothingItem = ELA_Bomber,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = ELA_Bomber,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = ELA_Bomber_ON,
+        ClothingItemExtraOption = ELA_Bomber_ON,
+        clothingExtraSubmenu = ELA_Bomber_Back,
+        WorldStaticModel= W_ELA_Bomber,
+    }
+
+
+    item ELA_Bomber_ON
+    {
+        Type = Clothing,
+        DisplayName = Elzbieta Bosak ELA's Tactical Jacket (Opened),
+        ClothingItem = ELA_Bomber_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = ELA_Bomber,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = ELA_Bomber,
+        ClothingItemExtraOption = ELA_Bomber,
+        clothingExtraSubmenu = ELA_Bomber_ON,
+        WorldStaticModel= W_ELA_Bomber,
+    }
+}

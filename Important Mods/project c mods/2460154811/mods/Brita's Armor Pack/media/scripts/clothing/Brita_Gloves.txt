@@ -1,0 +1,93 @@
+module Base
+{
+
+    item Glove_3M
+    {
+        Type = Clothing,
+        DisplayName = 3M Comfort Grip Gloves,
+        ClothingItem = Glove_3M,
+        BodyLocation = Hands,
+        BloodLocation = Hands,
+        Icon = Glove_3M,
+        Weight = 0.01,
+        Insulation = 0.3,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+       WorldStaticModel= W_Glove_3M,
+    }
+
+    item Glove_Mechanix
+    {
+        Type = Clothing,
+        DisplayName = Mechanix Wear Covert Gloves,
+        ClothingItem = Glove_Mechanix,
+        BodyLocation = Hands,
+        BloodLocation = Hands,
+        Icon = Glove_Mechanix,
+        Weight = 0.01,
+        Insulation = 0.3,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+       WorldStaticModel= W_Glove_Mechanix,
+    }
+
+    item Glove_Mechanix_Pact
+    {
+        Type = Clothing,
+        DisplayName = Mechanix Wear M-Pact Gloves,
+        ClothingItem = Glove_Mechanix_Pact,
+        BodyLocation = Hands,
+        BloodLocation = Hands,
+        Icon = Glove_Mechanix_Pact,
+        Weight = 0.01,
+        Insulation = 0.3,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+       WorldStaticModel= W_Glove_Mechanix_Pact,
+    }
+
+    item Glove_Fisher
+    {
+        Type = Clothing,
+        DisplayName = Feskarn Fisherman Gloves,
+        ClothingItem = Glove_Fisher,
+        BodyLocation = Hands,
+        BloodLocation = Hands,
+        Icon = Glove_Fisher,
+        Weight = 0.01,
+        Insulation = 0.3,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+       WorldStaticModel= W_Glove_Fisher,
+    }
+
+    item Glove_Leather
+    {
+        Type = Clothing,
+        DisplayName = Long Leather Work Gloves,
+        ClothingItem = Glove_Leather,
+        BodyLocation = Hands,
+        BloodLocation = Hands,
+        Icon = Glove_Leather,
+        Weight = 0.01,
+        Insulation = 0.3,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+       WorldStaticModel= W_Glove_Leather,
+    }
+
+    item Glove_Mustang
+    {
+        Type = Clothing,
+        DisplayName = Mustang Utility Leather Gloves,
+        ClothingItem = Glove_Mustang,
+        BodyLocation = Hands,
+        BloodLocation = Hands,
+        Icon = Glove_Mustang,
+        Weight = 0.01,
+        Insulation = 0.3,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+       WorldStaticModel= W_Glove_Mustang,
+    }
+}

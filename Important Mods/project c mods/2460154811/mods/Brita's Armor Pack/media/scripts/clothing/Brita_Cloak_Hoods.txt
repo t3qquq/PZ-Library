@@ -1,0 +1,260 @@
+module Base
+{
+    item Bag_Sniper_Hood
+    {
+        Type = Clothing,
+        DisplayName = Lightweight Viper Hood,
+        ClothingItem = Bag_Sniper_Hood,
+        BodyLocation = Necklace_Long,
+        BloodLocation = Jacket;Neck,
+        Weight	=	1,
+        Icon	=	Bag_Sniper_Hood,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        ClothingItemExtra = Bag_Sniper_Hood_ON,
+        ClothingItemExtraOption = Viper_Hood_ON,
+        clothingExtraSubmenu = Viper_Hood_Back,
+        WorldStaticModel= W_Bag_Sniper_Hood,
+    }
+
+
+    item Bag_Sniper_Hood_ON
+    {
+        Type = Clothing,
+        DisplayName = Lightweight Viper Hood ON,
+        ClothingItem = Bag_Sniper_Hood_ON,
+        BodyLocation = Necklace_Long,
+        BloodLocation = Jacket;Neck,
+        Weight	=	1,
+        Icon	=	Bag_Sniper_Hood,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        ClothingItemExtra = Bag_Sniper_Hood,
+        ClothingItemExtraOption = Viper_Hood,
+        clothingExtraSubmenu = Viper_Hood_ON,
+        WorldStaticModel= W_Bag_Sniper_Hood,
+    }
+
+
+    item Bag_Sniper_Suit
+    {
+        Type = Clothing,
+        DisplayName = Tactics Ghillie Suit Coats w/ Hood,
+        ClothingItem = Bag_Sniper_Suit,
+        BodyLocation = Necklace_Long,
+        Weight	=	1,
+        Icon	=	Bag_Sniper_Suit,
+        BloodLocation = Jacket;Neck,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        ClothingItemExtra = Bag_Sniper_Suit_Off,
+        ClothingItemExtraOption = Hood_OFF,
+        clothingExtraSubmenu = Hood_ON,
+    }
+
+
+
+    item Bag_Sniper_Suit_Off
+    {
+        Type = Clothing,
+        DisplayName = Tactics Ghillie Suit Coats,
+        ClothingItem = Bag_Sniper_Suit_Off,
+        BodyLocation = Necklace_Long,
+        Weight	=	1,
+        Icon	=	Bag_Sniper_Suit,
+        BloodLocation = Jacket;Neck,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        ClothingItemExtra = Bag_Sniper_Suit,
+        ClothingItemExtraOption = Hood_ON,
+        clothingExtraSubmenu = Hood_OFF,
+    }
+
+
+    item Military_Cloak
+    {
+        Type = Clothing,
+        DisplayName = Field Canvas Cloak Raincoat,
+        ClothingItem = Military_Cloak,
+        BodyLocation = Necklace_Long,
+        Weight	=	1,
+        Icon	=	Military_Cloak,
+        BloodLocation = Jacket;Neck,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        ClothingItemExtra = Military_Cloak_OFF,
+        ClothingItemExtraOption = Hood_OFF,
+        clothingExtraSubmenu = Hood_ON,
+        WorldStaticModel= W_Military_Cloak,
+    }
+
+
+    item Military_Cloak_OFF
+    {
+        Type = Clothing,
+        DisplayName = Field Canvas Cloak Raincoat Hood Off,
+        ClothingItem = Military_Cloak_OFF,
+        BodyLocation = Necklace_Long,
+        Weight	=	1,
+        Icon	=	Military_Cloak,
+        BloodLocation = Jacket;Neck,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        ClothingItemExtra = Military_Cloak,
+        ClothingItemExtraOption = Hood_ON,
+        clothingExtraSubmenu = Hood_OFF,
+        WorldStaticModel= W_Military_Cloak,
+    }
+
+
+
+    item Military_Ghillie
+    {
+        Type = Clothing,
+        DisplayName = Northstar Ghillie Suit (Type A),
+        ClothingItem = Military_Ghillie,
+        BodyLocation = Necklace_Long,
+        Weight	=	1,
+        Icon	=	Military_Ghillie,
+        BloodLocation = Jacket;Neck,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        ClothingItemExtra = Military_Ghillie_B,
+        clothingExtraSubmenu = Military_Ghillie_B,
+        ClothingItemExtraOption = Military_Ghillie_B,
+        WorldStaticModel= W_Military_Ghillie,
+    }
+
+
+    item Military_Ghillie_B
+    {
+        Type = Clothing,
+        DisplayName = Northstar Ghillie Suit (Type B),
+        ClothingItem = Military_Ghillie_B,
+        BodyLocation = Necklace_Long,
+        Weight	=	1,
+        Icon	=	Military_Ghillie,
+        BloodLocation = Jacket;Neck,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        ClothingItemExtra = Military_Ghillie_C,
+        clothingExtraSubmenu = Military_Ghillie_C,
+        ClothingItemExtraOption = Military_Ghillie_C,
+        WorldStaticModel= W_Military_Ghillie_B,
+    }
+
+
+    item Military_Ghillie_C
+    {
+        Type = Clothing,
+        DisplayName = Northstar Ghillie Suit (Type C),
+        ClothingItem = Military_Ghillie_C,
+        BodyLocation = Necklace_Long,
+        Weight	=	1,
+        Icon	=	Military_Ghillie,
+        BloodLocation = Jacket;Neck,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        ClothingItemExtra = Military_Ghillie_D,
+        clothingExtraSubmenu = Military_Ghillie_D,
+        ClothingItemExtraOption = Military_Ghillie_D,
+        WorldStaticModel= W_Military_Ghillie_C,
+    }
+
+
+    item Military_Ghillie_D
+    {
+        Type = Clothing,
+        DisplayName = Northstar Ghillie Suit (Type D),
+        ClothingItem = Military_Ghillie_D,
+        BodyLocation = Necklace_Long,
+        Weight	=	1,
+        Icon	=	Military_Ghillie,
+        BloodLocation = Jacket;Neck,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        ClothingItemExtra = Military_Ghillie,
+        clothingExtraSubmenu = Military_Ghillie,
+        ClothingItemExtraOption = Military_Ghillie,
+        WorldStaticModel= W_Military_Ghillie_D,
+    }
+
+
+    item Metro_Coat
+    {
+        Type = Clothing,
+        DisplayName = Metro Hazard Protection Coat,
+        ClothingItem = Metro_Coat,
+        BodyLocation = Necklace_Long,
+        Weight	=	1,
+        Icon	=	Metro_Coat,
+        BloodLocation = Jacket;Neck,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        WorldStaticModel= W_Metro_Coat,
+    }
+
+
+    item Chain_Coat
+    {
+        Type = Clothing,
+        DisplayName = Chainmail Coat,
+        ClothingItem = Chain_Coat,
+        BodyLocation = Necklace_Long,
+        Weight	=	1,
+        Icon	=	Chain_Coat,
+        BloodLocation = Jacket;Neck,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        WorldStaticModel= W_Chain_Coat,
+    }
+
+}

@@ -1,0 +1,564 @@
+module Base
+{
+
+    item Bag_D3M
+    {
+        Type = Container,
+        DisplayName = D3M Chest Rig (Front),
+        ClothingItem = Bag_D3M,
+        Icon	=	Bag_D3M,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_D3M_Loose,
+        ClothingItemExtraOption = D3M_Loose,
+        clothingExtraSubmenu = Bag_D3M,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_D3M,
+    }
+
+
+
+    item Bag_D3M_Loose
+    {
+        Type = Container,
+        DisplayName = D3M Chest Rig (Back),
+        ClothingItem = Bag_D3M_Loose,
+        Icon	=	Bag_D3M,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_D3M,
+        ClothingItemExtraOption = D3M (Tight),
+        clothingExtraSubmenu = Bag_D3M_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_D3M,
+    }
+
+
+
+    item Bag_Blackhawk
+    {
+        Type = Container,
+        DisplayName = Blackhawk Commando Chest Harness (Front),
+        ClothingItem = Bag_Blackhawk,
+        Icon	=	Bag_Blackhawk,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_Blackhawk_Loose,
+        ClothingItemExtraOption = Blackhawk_Loose,
+        clothingExtraSubmenu = Bag_Blackhawk,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_Blackhawk,
+    }
+
+
+
+    item Bag_Blackhawk_Loose
+    {
+        Type = Container,
+        DisplayName = Blackhawk Commando Chest Harness (Back),
+        ClothingItem = Bag_Blackhawk_Loose,
+        Icon	=	Bag_Blackhawk,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_Blackhawk,
+        ClothingItemExtraOption = Blackhawk (Tight),
+        clothingExtraSubmenu = Bag_Blackhawk_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_Blackhawk,
+    }
+
+
+
+    item Bag_X_Vest
+    {
+        Type = Container,
+        DisplayName = Military Combat Webbing Set (Front),
+        ClothingItem = Bag_X_Vest,
+        Icon	=	Bag_X_Vest,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_X_Vest_Loose,
+        ClothingItemExtraOption = X_Vest_Loose,
+        clothingExtraSubmenu = Bag_X_Vest,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_X_Vest,
+    }
+
+
+
+    item Bag_X_Vest_Loose
+    {
+        Type = Container,
+        DisplayName = Military Combat Webbing Set (Back),
+        ClothingItem = Bag_X_Vest_Loose,
+        Icon	=	Bag_X_Vest,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_X_Vest,
+        ClothingItemExtraOption = X_Vest (Tight),
+        clothingExtraSubmenu = Bag_X_Vest_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_X_Vest,
+    }
+
+
+
+    item Bag_SKS_Vest
+    {
+        Type = Container,
+        DisplayName = Chicom Type 56 Chest Rig (Front),
+        ClothingItem = Bag_SKS_Vest,
+        Icon	=	Bag_SKS_Vest,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_SKS_Vest_Loose,
+        ClothingItemExtraOption = SKS_Vest_Loose,
+        clothingExtraSubmenu = Bag_SKS_Vest,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_SKS_Vest,
+    }
+
+
+
+    item Bag_SKS_Vest_Loose
+    {
+        Type = Container,
+        DisplayName = Chicom Type 56 Chest Rig (Back),
+        ClothingItem = Bag_SKS_Vest_Loose,
+        Icon	=	Bag_SKS_Vest,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_SKS_Vest,
+        ClothingItemExtraOption = SKS_Vest (Tight),
+        clothingExtraSubmenu = Bag_SKS_Vest_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_SKS_Vest,
+    }
+
+
+
+    item Bag_AK_Vest
+    {
+        Type = Container,
+        DisplayName = Chicom Type 81 Chest Rig (Front),
+        ClothingItem = Bag_AK_Vest,
+        Icon	=	Bag_AK_Vest,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_AK_Vest_Loose,
+        ClothingItemExtraOption = AK_Vest_Loose,
+        clothingExtraSubmenu = Bag_AK_Vest,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_AK_Vest,
+    }
+
+
+
+    item Bag_AK_Vest_Loose
+    {
+        Type = Container,
+        DisplayName = Chicom Type 81 Chest Rig (Back),
+        ClothingItem = Bag_AK_Vest_Loose,
+        Icon	=	Bag_AK_Vest,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_AK_Vest,
+        ClothingItemExtraOption = AK_Vest (Tight),
+        clothingExtraSubmenu = Bag_AK_Vest_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_AK_Vest,
+    }
+
+
+    item Rig_Smersh
+    {
+        Type = Container,
+        DisplayName = SPOSN Smersh Vest (Front),
+        ClothingItem = Rig_Smersh,
+        Icon	=	Rig_Smersh,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Rig_Smersh_Loose,
+        ClothingItemExtraOption = Rig_Smersh_Loose,
+        clothingExtraSubmenu = Rig_Smersh,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Rig_Smersh,
+    }
+
+
+    item Rig_Smersh_Loose
+    {
+        Type = Container,
+        DisplayName = SPOSN Smersh Vest (Back),
+        ClothingItem = Rig_Smersh_Loose,
+        Icon	=	Rig_Smersh,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Rig_Smersh,
+        ClothingItemExtraOption = Rig_Smersh (Tight),
+        clothingExtraSubmenu = Rig_Smersh_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Rig_Smersh,
+    }
+
+
+    item Rig_Smersh_A
+    {
+        Type = Container,
+        DisplayName = SPOSN Smersh Vest w/ AK Kit (Front),
+        ClothingItem = Rig_Smersh_A,
+        Icon	=	Rig_Smersh_A,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Rig_Smersh_A_Loose,
+        ClothingItemExtraOption = Rig_Smersh_A_Loose,
+        clothingExtraSubmenu = Rig_Smersh_A,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Rig_Smersh_A,
+    }
+
+
+    item Rig_Smersh_A_Loose
+    {
+        Type = Container,
+        DisplayName = SPOSN Smersh Vest w/ AK Kit (Back),
+        ClothingItem = Rig_Smersh_A_Loose,
+        Icon	=	Rig_Smersh_A,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Rig_Smersh_A,
+        ClothingItemExtraOption = Rig_Smersh_A (Tight),
+        clothingExtraSubmenu = Rig_Smersh_A_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Rig_Smersh_A,
+    }
+
+
+    item Rig_Smersh_B
+    {
+        Type = Container,
+        DisplayName = SPOSN Smersh Vest w/ PKM Kit (Front),
+        ClothingItem = Rig_Smersh_B,
+        Icon	=	Rig_Smersh_B,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Rig_Smersh_B_Loose,
+        ClothingItemExtraOption = Rig_Smersh_B_Loose,
+        clothingExtraSubmenu = Rig_Smersh_B,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Rig_Smersh_B,
+    }
+
+
+    item Rig_Smersh_B_Loose
+    {
+        Type = Container,
+        DisplayName = SPOSN Smersh Vest w/ PKM Kit (Back),
+        ClothingItem = Rig_Smersh_B_Loose,
+        Icon	=	Rig_Smersh_B,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Rig_Smersh_B,
+        ClothingItemExtraOption = Rig_Smersh_B (Tight),
+        clothingExtraSubmenu = Rig_Smersh_B_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Rig_Smersh_B,
+    }
+
+
+    item Rig_Smersh_C
+    {
+        Type = Container,
+        DisplayName = SPOSN Smersh Vest w/ SVD Kit (Front),
+        ClothingItem = Rig_Smersh_C,
+        Icon	=	Rig_Smersh_C,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Rig_Smersh_C_Loose,
+        ClothingItemExtraOption = Rig_Smersh_C_Loose,
+        clothingExtraSubmenu = Rig_Smersh_C,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Rig_Smersh_C,
+    }
+
+
+    item Rig_Smersh_C_Loose
+    {
+        Type = Container,
+        DisplayName = SPOSN Smersh Vest w/ SVD Kit (Back),
+        ClothingItem = Rig_Smersh_C_Loose,
+        Icon	=	Rig_Smersh_C,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Rig_Smersh_C,
+        ClothingItemExtraOption = Rig_Smersh_C (Tight),
+        clothingExtraSubmenu = Rig_Smersh_C_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Rig_Smersh_C,
+    }
+
+
+    item Rig_ELA
+    {
+        Type = Container,
+        DisplayName = Elzbieta Bosak ELA's Gear Set (Front),
+        ClothingItem = Rig_ELA,
+        Icon	=	Rig_ELA,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Rig_ELA_Loose,
+        ClothingItemExtraOption = Rig_ELA_Loose,
+        clothingExtraSubmenu = Rig_ELA,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Rig_ELA,
+    }
+
+
+    item Rig_ELA_Loose
+    {
+        Type = Container,
+        DisplayName = Elzbieta Bosak ELA's Gear Set (Back),
+        ClothingItem = Rig_ELA_Loose,
+        Icon	=	Rig_ELA,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Rig_ELA,
+        ClothingItemExtraOption = Rig_ELA (Tight),
+        clothingExtraSubmenu = Rig_ELA_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Rig_ELA,
+    }
+
+
+    item Radio_Rig
+    {
+        Type = Container,
+        DisplayName = Patrol Radio Chest Harness Set (Front),
+        ClothingItem = Radio_Rig,
+        Icon	=	Radio_Rig,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Radio_Rig_Loose,
+        ClothingItemExtraOption = Radio_Rig_Loose,
+        clothingExtraSubmenu = Radio_Rig,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Radio_Rig,
+    }
+
+
+    item Radio_Rig_Loose
+    {
+        Type = Container,
+        DisplayName = Patrol Radio Chest Harness Set (Back),
+        ClothingItem = Radio_Rig_Loose,
+        Icon	=	Radio_Rig,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Radio_Rig,
+        ClothingItemExtraOption = Radio_Rig (Tight),
+        clothingExtraSubmenu = Radio_Rig_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Radio_Rig,
+    }
+
+
+    item Shotgun_Rig
+    {
+        Type = Container,
+        DisplayName = Shotgun Chest Rig Sets (Front),
+        ClothingItem = Shotgun_Rig,
+        Icon	=	Shotgun_Rig,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Shotgun_Rig_Loose,
+        ClothingItemExtraOption = Shotgun_Rig_Loose,
+        clothingExtraSubmenu = Shotgun_Rig,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Shotgun_Rig,
+    }
+
+
+    item Shotgun_Rig_Loose
+    {
+        Type = Container,
+        DisplayName = Shotgun Chest Rig Sets (Back),
+        ClothingItem = Shotgun_Rig_Loose,
+        Icon	=	Shotgun_Rig,
+        CanBeEquipped = FannyPackBack, 
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Shotgun_Rig,
+        ClothingItemExtraOption = Shotgun_Rig (Tight),
+        clothingExtraSubmenu = Shotgun_Rig_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Shotgun_Rig,
+    }
+
+}

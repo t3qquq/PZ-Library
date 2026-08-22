@@ -1,0 +1,138 @@
+module Base
+{
+    item Sheriff_Jumper
+    {
+        Type = Clothing,
+        DisplayName = Sheriff Patrol Jacket,
+        ClothingItem = Sheriff_Jumper,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Sheriff_Jumper,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        Weight = 2,
+        FabricType = Denim,
+    }
+
+
+
+    item Police_Jumper
+    {
+        Type = Clothing,
+        DisplayName = Police Patrol Jacket,
+        ClothingItem = Police_Jumper,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Police_Jumper,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        Weight = 2,
+        FabricType = Denim,
+    }
+
+
+    item Jacket_Bomber
+    {
+        Type = Clothing,
+        DisplayName = Sheriff Bomber Jacket,
+        ClothingItem = Jacket_Bomber,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Jacket_Bomber,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Jacket_Bomber_ON,
+        ClothingItemExtraOption = Jacket_Bomber_ON,
+        clothingExtraSubmenu = Jacket_Bomber_Back,
+       WorldStaticModel= W_Jacket_Bomber,
+    }
+
+
+    item Jacket_Bomber_ON
+    {
+        Type = Clothing,
+        DisplayName = Sheriff Bomber Jacket (Opened),
+        ClothingItem = Jacket_Bomber_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Jacket_Bomber,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Jacket_Bomber,
+        ClothingItemExtraOption = Jacket_Bomber,
+        clothingExtraSubmenu = Jacket_Bomber_ON,
+       WorldStaticModel= W_Jacket_Bomber,
+    }
+
+
+    item Jacket_Polizei
+    {
+        Type = Clothing,
+        DisplayName = Polizei GORE-TEX Jacket,
+        ClothingItem = Jacket_Polizei,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Jacket_Polizei,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Jacket_Polizei_ON,
+        ClothingItemExtraOption = Jacket_Polizei_ON,
+        clothingExtraSubmenu = Jacket_Polizei_Back,
+       WorldStaticModel= W_Jacket_Polizei,
+    }
+
+
+    item Jacket_Polizei_ON
+    {
+        Type = Clothing,
+        DisplayName = Polizei GORE-TEX Jacket (Opened),
+        ClothingItem = Jacket_Polizei_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Jacket_Polizei,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Jacket_Polizei,
+        ClothingItemExtraOption = Jacket_Polizei,
+        clothingExtraSubmenu = Jacket_Polizei_ON,
+       WorldStaticModel= W_Jacket_Polizei,
+    }
+}

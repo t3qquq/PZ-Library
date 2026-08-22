@@ -1,0 +1,106 @@
+module Base
+{
+
+
+
+    item Armband
+    {
+        Type = Clothing,
+        DisplayName = Armband TYPE A,
+        ClothingItem = Armband,
+        BodyLocation = Left_RingFinger,
+        Icon = Armband,
+        Weight = 0.01,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Armband_ON,
+        ClothingItemExtraOption = Armband_ON,
+        clothingExtraSubmenu = Armband_Back,
+        WorldStaticModel= W_Armband,
+    }
+
+
+    item Armband_ON
+    {
+        Type = Clothing,
+        DisplayName = Armband TYPE A (Loose),
+        ClothingItem = Armband_ON,
+        BodyLocation = Left_RingFinger,
+        Icon = Armband,
+        Weight = 0.01,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Armband,
+        ClothingItemExtraOption = Armband,
+        clothingExtraSubmenu = Armband_ON,
+        WorldStaticModel= W_Armband,
+    }
+
+
+    item Armband_Long
+    {
+        Type = Clothing,
+        DisplayName = Armband TYPE B,
+        ClothingItem = Armband_Long,
+        BodyLocation = Left_RingFinger,
+        Icon = Armband_Long,
+        Weight = 0.01,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Armband_Long_ON,
+        ClothingItemExtraOption = Armband_Long_ON,
+        clothingExtraSubmenu = Armband_Long_Back,
+        WorldStaticModel= W_Armband_Long,
+    }
+
+
+    item Armband_Long_ON
+    {
+        Type = Clothing,
+        DisplayName = Armband TYPE B (Loose),
+        ClothingItem = Armband_Long_ON,
+        BodyLocation = Left_RingFinger,
+        Icon = Armband_Long,
+        Weight = 0.01,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Armband_Long,
+        ClothingItemExtraOption = Armband_Long,
+        clothingExtraSubmenu = Armband_Long_ON,
+        WorldStaticModel= W_Armband_Long,
+    }
+
+
+    item Armband_Short
+    {
+        Type = Clothing,
+        DisplayName = Reflective Armband,
+        ClothingItem = Armband_Short,
+        BodyLocation = Left_RingFinger,
+        Icon = Armband_Short,
+        Weight = 0.01,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Armband_Short_ON,
+        ClothingItemExtraOption = Armband_Short_ON,
+        clothingExtraSubmenu = Armband_Short_Back,
+        WorldStaticModel= W_Armband_Short,
+    }
+
+
+    item Armband_Short_ON
+    {
+        Type = Clothing,
+        DisplayName = Reflective Armband (Loose),
+        ClothingItem = Armband_Short_ON,
+        BodyLocation = Left_RingFinger,
+        Icon = Armband_Short,
+        Weight = 0.01,
+        BloodLocation = Hands,
+	ScratchDefense = 10,
+        ClothingItemExtra = Armband_Short,
+        ClothingItemExtraOption = Armband_Short,
+        clothingExtraSubmenu = Armband_Short_ON,
+        WorldStaticModel= W_Armband_Short,
+    }
+}

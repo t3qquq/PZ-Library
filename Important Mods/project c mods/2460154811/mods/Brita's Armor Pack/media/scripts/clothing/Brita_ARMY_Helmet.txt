@@ -1,0 +1,292 @@
+module Base
+{
+
+
+    item Hat_M1_Helmet
+	{
+	Type = Clothing,
+	DisplayName = M1 Helmet w/ Mitchell Camouflage,
+	ClothingItem = Hat_M1_Helmet,
+	BodyLocation = Hat,
+	Icon = Hat_M1_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 90,
+	ScratchDefense = 90,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+    }
+
+
+
+    item Hat_M1_Helmet_Ori
+	{
+	Type = Clothing,
+	DisplayName = M1 Helmet,
+	ClothingItem = Hat_M1_Helmet_Ori,
+	BodyLocation = Hat,
+	Icon = Hat_M1_Helmet_Ori,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 90,
+	ScratchDefense = 90,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+    }
+
+    item Hat_FAST_Opscore
+	{
+	Type = Clothing,
+	DisplayName = Ops-Core FAST Ballistic Helmet,
+	ClothingItem = Hat_FAST_Opscore,
+	BodyLocation = Hat,
+	Icon = Hat_Opscore_FAST,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 100,
+	ScratchDefense = 100,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+        WorldStaticModel= W_Hat_FAST_Opscore,
+    }
+
+
+    item Hat_PSGT_Helmet
+	{
+	Type = Clothing,
+	DisplayName = Military PASGT Helmet,
+	ClothingItem = Hat_PSGT_Helmet,
+	BodyLocation = Hat,
+	Icon = Hat_PSGT_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 120,
+	ScratchDefense = 120,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1.5,
+        ClothingItemExtra = Hat_PSGT_Helmet_Camo,
+        ClothingItemExtraOption = Neck_OFF,
+        clothingExtraSubmenu = Neck_ON,
+        WorldStaticModel= W_Hat_PSGT_Helmet,
+    }
+
+
+
+    item Hat_PSGT_Helmet_Camo
+	{
+	Type = Clothing,
+	DisplayName = Military PASGT Helmet w/ Neck Protection,
+	ClothingItem = Hat_PSGT_Helmet_Camo,
+	BodyLocation = Hat,
+	Icon = Hat_PSGT_Helmet_Camo,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 120,
+	ScratchDefense = 120,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1.5,
+        ClothingItemExtra = Hat_PSGT_Helmet,
+        ClothingItemExtraOption = Neck_ON,
+        clothingExtraSubmenu = Neck_OFF,
+        WorldStaticModel= W_Hat_PSGT_Helmet_Camo,
+    }
+
+
+
+    item Hat_Gentex_Helmet
+	{
+	Type = Clothing,
+	DisplayName = Gentex Combat Vehicle Crewmans Helmet,
+	ClothingItem = Hat_Gentex_Helmet,
+	BodyLocation = Hat,
+	Icon = Hat_Gentex_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,,
+	BiteDefense = 110,
+	ScratchDefense = 110,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1.5,
+        WorldStaticModel= W_Hat_Gentex_Helmet,
+    }
+
+
+
+    item Hat_HGU56
+	{
+	Type = Clothing,
+	DisplayName = Gentex HGU-56P Aircrew Helmet,
+	ClothingItem = Hat_HGU56,
+	BodyLocation = Hat,
+	Icon = Hat_HGU56,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,,
+	BiteDefense = 110,
+	ScratchDefense = 110,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1.5,
+        ClothingItemExtra = Hat_HGU56_Visor,
+        ClothingItemExtraOption = HGU_Glass_OFF,
+        clothingExtraSubmenu = HGU_Glass_ON,
+        WorldStaticModel= W_Hat_HGU56,
+    }
+
+
+    item Hat_HGU56_Visor
+	{
+	Type = Clothing,
+	DisplayName = Gentex HGU-56P Aircrew Helmet w/ Visor,
+	ClothingItem = Hat_HGU56_Visor,
+	BodyLocation = Hat,
+	Icon = Hat_HGU56,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,,
+	BiteDefense = 110,
+	ScratchDefense = 110,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1.5,
+        ClothingItemExtra = Hat_HGU56,
+        ClothingItemExtraOption = HGU_Glass_ON,
+        clothingExtraSubmenu = HGU_Glass_OFF,
+        WorldStaticModel= W_Hat_HGU56,
+    }
+
+    item Viper_Helmet
+	{
+	Type = Clothing,
+	DisplayName = Valkyrie's Pilot Helmet,
+	ClothingItem = Viper_Helmet,
+	BodyLocation = Hat,
+	Icon = Viper_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,,
+	BiteDefense = 110,
+	ScratchDefense = 110,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1.5,
+        WorldStaticModel= W_Viper_Helmet,
+    }
+
+
+
+
+
+    item Wolf_Helmet
+	{
+	Type = Clothing,
+	DisplayName = Hound Wolf Squad's Ops-Core FAST Ballistic Helmet,
+	ClothingItem = Wolf_Helmet,
+	BodyLocation = Hat,
+	Icon = Wolf_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 100,
+	ScratchDefense = 100,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+    }
+
+
+    item Maska_1_Helmet
+	{
+	Type = Clothing,
+	DisplayName = MASKA-1SCh Helmet,
+	ClothingItem = Maska_1_Helmet,
+	BodyLocation = Hat,
+	Icon = Maska_1_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 100,
+	ScratchDefense = 100,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+        WorldStaticModel= W_Maska_1_Helmet,
+    }
+
+
+    item 6B6_Helmet
+	{
+	Type = Clothing,
+	DisplayName = 6B6-3 Altyn Titanium Helmet,
+	ClothingItem = 6B6_Helmet,
+	BodyLocation = Hat,
+	Icon = 6B6_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 100,
+	ScratchDefense = 100,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+        WorldStaticModel= W_6B6_Helmet,
+    }
+
+
+    item 1916_Helmet
+	{
+	Type = Clothing,
+	DisplayName = M1916 Stahlhelm Steel Helmet,
+	ClothingItem = 1916_Helmet,
+	BodyLocation = Hat,
+	Icon = 1916_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 100,
+	ScratchDefense = 100,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+        ClothingItemExtra = 1916_Helmet_ON,
+        ClothingItemExtraOption = 1916_Helmet_ON,
+        clothingExtraSubmenu = 1916_Helmet_Back,
+        WorldStaticModel= W_1916_Helmet,
+    }
+
+
+    item 1916_Helmet_ON
+	{
+	Type = Clothing,
+	DisplayName = M1916 Stahlhelm Steel Helmet w/ Brow Plate,
+	ClothingItem = 1916_Helmet_ON,
+	BodyLocation = Hat,
+	Icon = 1916_Helmet_ON,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 100,
+	ScratchDefense = 100,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+        ClothingItemExtra = 1916_Helmet,
+        ClothingItemExtraOption = 1916_Helmet,
+        clothingExtraSubmenu = 1916_Helmet_ON,
+        WorldStaticModel= W_1916_Helmet_ON,
+    }
+
+    item EOD_Helmet
+	{
+	Type = Clothing,
+	DisplayName = EOD 9A Heavy Protection Helmet,
+	ClothingItem = EOD_Helmet,
+	BodyLocation = Hat,
+	Icon = EOD_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 100,
+	ScratchDefense = 100,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+        WorldStaticModel= W_EOD_Helmet,
+    }
+}

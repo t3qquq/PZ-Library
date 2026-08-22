@@ -1,0 +1,153 @@
+module Base
+{
+    item USCM_Jacket
+    {
+        Type = Clothing,
+        DisplayName = USCMC Combat Shirts,
+        ClothingItem = USCM_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = USCM_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = USCM_Jacket_ON,
+        ClothingItemExtraOption = USCM_Jacket_ON,
+        clothingExtraSubmenu = USCM_Jacket_Back,
+        WorldStaticModel= W_USCM_Jacket,
+    }
+
+
+    item USCM_Jacket_ON
+    {
+        Type = Clothing,
+        DisplayName = USCMC Combat Shirts (Rolled),
+        ClothingItem = USCM_Jacket_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = USCM_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = USCM_Jacket,
+        ClothingItemExtraOption = USCM_Jacket,
+        clothingExtraSubmenu = USCM_Jacket_ON,
+        WorldStaticModel= W_USCM_Jacket,
+    }
+
+
+    item USCM_Pants
+    {
+        Type = Clothing,
+        DisplayName = USCMC Combat Pants,
+        ClothingItem = USCM_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = USCM_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = USCM_Pants_Rolled,
+        ClothingItemExtraOption = USCM_Pants_Rolled,
+        clothingExtraSubmenu = USCM_Pants_Back,
+        WorldStaticModel= W_USCM_Pants,
+    }
+
+
+    item USCM_Pants_Rolled
+    {
+        Type = Clothing,
+        DisplayName = USCMC Combat Pants Rolled,
+        ClothingItem = USCM_Pants_Rolled,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = USCM_Pants,
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = USCM_Pants,
+        ClothingItemExtraOption = USCM_Pants_Back,
+        clothingExtraSubmenu = USCM_Pants_Rolled,
+        WorldStaticModel= W_USCM_Pants,
+    }
+
+
+	item USCM_Boots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = USCMC Combat Boots,
+		ClothingItem = USCM_Boots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = USCM_Boots,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel= W_USCM_Boots,
+	}
+
+
+    item USCM_Helmet
+	{
+	Type = Clothing,
+	DisplayName = USCMC Combat Helmet,
+	ClothingItem = USCM_Helmet,
+	BodyLocation = Hat,
+	Icon = USCM_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 100,
+	ScratchDefense = 100,
+	ChanceToFall = 5,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+        WorldStaticModel= W_USCM_Helmet,
+    }
+
+
+    item USCM_Armor
+    {
+        Type = Clothing,
+        DisplayName = USCMC Combat Body Armor,
+        ClothingItem = USCM_Armor,
+        BodyLocation = TorsoExtra,
+        Weight	=	5,
+        Icon	=	USCM_Armor,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 120,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_USCM_Armor,
+    }
+}

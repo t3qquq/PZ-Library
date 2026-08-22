@@ -1,0 +1,74 @@
+module Base
+{
+
+    item Military_Gaiter
+	{
+	Type = Clothing,
+	DisplayName = Gore-tex M2 Boots Gaiters,
+	ClothingItem = Military_Gaiter,
+	BodyLocation = Necklace,
+	Icon = Military_Gaiter,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	WaterResistance = 1.0,
+        ClothingItemExtra = Military_Gaiter_Loose,
+        ClothingItemExtraOption = Gaiter_OFF,
+        clothingExtraSubmenu = Gaiter_ON,
+       WorldStaticModel= W_Military_Gaiter,
+    }
+
+
+    item Military_Gaiter_Loose
+	{
+	Type = Clothing,
+	DisplayName = Gore-tex M2 Boots Gaiters (Loose),
+	ClothingItem = Military_Gaiter_Loose,
+	BodyLocation = Necklace,
+	Icon = Military_Gaiter,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	WaterResistance = 1.0,
+        ClothingItemExtra = Military_Gaiter,
+        ClothingItemExtraOption = Gaiter_ON,
+        clothingExtraSubmenu = Gaiter_OFF,
+       WorldStaticModel= W_Military_Gaiter,
+    }
+
+
+    item OZK_Gaiter
+	{
+	Type = Clothing,
+	DisplayName = Canvas Military Boots Gaiters,
+	ClothingItem = OZK_Gaiter,
+	BodyLocation = Necklace,
+	Icon = OZK_Gaiter,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	WaterResistance = 1.0,
+        ClothingItemExtra = OZK_Gaiter_Loose,
+        ClothingItemExtraOption = OZ_Gaiter_OFF,
+        clothingExtraSubmenu = OZ_Gaiter_ON,
+       WorldStaticModel= W_OZK_Gaiter,
+    }
+
+
+    item OZK_Gaiter_Loose
+	{
+	Type = Clothing,
+	DisplayName = Canvas Military Boots Gaiters (Loose),
+	ClothingItem = OZK_Gaiter_Loose,
+	BodyLocation = Necklace,
+	Icon = OZK_Gaiter,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+	WaterResistance = 1.0,
+        ClothingItemExtra = OZK_Gaiter,
+        ClothingItemExtraOption = OZ_Gaiter_ON,
+        clothingExtraSubmenu = OZ_Gaiter_OFF,
+       WorldStaticModel= W_OZK_Gaiter,
+    }
+}

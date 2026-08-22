@@ -1,0 +1,164 @@
+module Base
+{
+    item Glasses_X1000
+	{
+	Type = Clothing,
+	DisplayName = Bolle Tactical X1000 Goggles,
+	ClothingItem = Glasses_X1000,
+	BodyLocation = Eyes,
+	Icon = Glasses_X1000,
+        Weight = 0.3,
+	ScratchDefense = 5,
+        BloodLocation = Head,
+        ClothingItemExtra = Glasses_X1000_OFF,
+        ClothingItemExtraOption = X1000_OFF,
+        clothingExtraSubmenu = X1000_ON,
+    }
+
+
+
+    item Glasses_X1000_OFF
+	{
+	Type = Clothing,
+	DisplayName = Bolle Tactical X1000 Goggles OFF,
+	ClothingItem = Glasses_X1000_OFF,
+	BodyLocation = Eyes,
+	Icon = Glasses_X1000,
+        Weight = 0.3,
+	ScratchDefense = 5,
+        BloodLocation = Head,
+        ClothingItemExtra = Glasses_X1000,
+        ClothingItemExtraOption = X1000_ON,
+        clothingExtraSubmenu = X1000_OFF,
+    }
+
+
+
+    item Glasses_Napier
+	{
+	Type = Clothing,
+	DisplayName = Napier SR-Ricochet Shooting Glasses,
+	ClothingItem = Glasses_Napier,
+	BodyLocation = Eyes,
+	Icon = Glasses_Napier,
+        Weight = 0.3,
+	ScratchDefense = 5,
+        BloodLocation = Head,
+    }
+
+
+
+    item Glasses_Crewman_Goggles
+	{
+	Type = Clothing,
+	DisplayName = Tank Crewman Goggles,
+	ClothingItem = Glasses_Crewman_Goggles,
+	BodyLocation = Eyes,
+	Icon = Glasses_Crewman_Goggles,
+        Weight = 0.3,
+	ScratchDefense = 5,
+        BloodLocation = Head,
+        ClothingItemExtra = Glasses_Crewman_Goggles_OFF,
+        ClothingItemExtraOption = Crewman_Goggles_OFF,
+        clothingExtraSubmenu = Crewman_Goggles_ON,
+    }
+
+
+
+    item Glasses_Crewman_Goggles_OFF
+	{
+	Type = Clothing,
+	DisplayName = Tank Crewman Goggles OFF,
+	ClothingItem = Glasses_Crewman_Goggles_OFF,
+	BodyLocation = Eyes,
+	Icon = Glasses_Crewman_Goggles,
+        Weight = 0.3,
+	ScratchDefense = 5,
+        BloodLocation = Head,
+        ClothingItemExtra = Glasses_Crewman_Goggles,
+        ClothingItemExtraOption = Crewman_Goggles_ON,
+        clothingExtraSubmenu = Crewman_Goggles_OFF,
+    }
+
+
+    item SET_Goggles
+	{
+	Type = Clothing,
+	DisplayName = Tactical Goggles w/ Cover,
+	ClothingItem = SET_Goggles,
+	BodyLocation = Eyes,
+	Icon = SET_Goggles,
+        Weight = 0.3,
+	ScratchDefense = 5,
+        BloodLocation = Head,
+        WorldStaticModel= W_SET_Goggles,
+    }
+
+
+    item ELA_Goggles
+	{
+	Type = Clothing,
+	DisplayName = Elzbieta Bosak ELA's Tactical Goggles,
+	ClothingItem = ELA_Goggles,
+	BodyLocation = Eyes,
+	Icon = ELA_Goggles,
+        Weight = 0.3,
+	ScratchDefense = 5,
+        BloodLocation = Head,
+        ClothingItemExtra = ELA_Goggles_ON,
+        ClothingItemExtraOption = ELA_Goggles_ON,
+        clothingExtraSubmenu = ELA_Goggles_Back,
+        WorldStaticModel= W_ELA_Goggles,
+    }
+
+
+
+    item ELA_Goggles_ON
+	{
+	Type = Clothing,
+	DisplayName = Elzbieta Bosak ELA's Tactical Goggles (OFF),
+	ClothingItem = ELA_Goggles_ON,
+	BodyLocation = Eyes,
+	Icon = ELA_Goggles,
+        Weight = 0.3,
+	ScratchDefense = 5,
+        BloodLocation = Head,
+        ClothingItemExtra = ELA_Goggles,
+        ClothingItemExtraOption = ELA_Goggles,
+        clothingExtraSubmenu = ELA_Goggles_ON,
+        WorldStaticModel= W_ELA_Goggles,
+    }
+
+
+    item Pilot_Sunglass
+	{
+	Type = Clothing,
+	DisplayName = Valkyrie's Aviator Sunglass,
+	ClothingItem = Pilot_Sunglass,
+	BodyLocation = Eyes,
+	Icon = Pilot_Sunglass,
+        Weight = 0.3,
+	ScratchDefense = 5,
+        BloodLocation = Head,
+        ClothingItemExtra = Pilot_Sunglass_ON,
+        ClothingItemExtraOption = Pilot_Sunglass_ON,
+        clothingExtraSubmenu = Pilot_Sunglass_Back,
+        WorldStaticModel= W_Pilot_Sunglass,
+    }
+
+    item Pilot_Sunglass_ON
+	{
+	Type = Clothing,
+	DisplayName = Valkyrie's Aviator Sunglass (OFF),
+	ClothingItem = Pilot_Sunglass_ON,
+	BodyLocation = Eyes,
+	Icon = Pilot_Sunglass,
+        Weight = 0.3,
+	ScratchDefense = 5,
+        BloodLocation = Head,
+        ClothingItemExtra = Pilot_Sunglass,
+        ClothingItemExtraOption = Pilot_Sunglass,
+        clothingExtraSubmenu = Pilot_Sunglass_ON,
+        WorldStaticModel= W_Pilot_Sunglass,
+    }
+}

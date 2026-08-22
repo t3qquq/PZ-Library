@@ -1,0 +1,1179 @@
+module Base
+{
+
+
+    item Killa_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Adidas Killa Jacket,
+        ClothingItem = Killa_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Killa_Jacket,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        Weight = 2,
+        FabricType = Denim,
+    }
+
+
+    item Killa_Pants
+    {
+        Type = Clothing,
+        DisplayName = Adidas Killa Pants,
+        ClothingItem = Killa_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Killa_Pants,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        FabricType = Denim,
+    }
+
+
+    item Skirt_Nurse
+    {
+        Type = Clothing,
+        DisplayName = Silent Hill Nurse Skirt,
+        ClothingItem = Skirt_Nurse,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Skirt_Nurse,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+       WorldStaticModel= W_Skirt_Nurse,
+    }
+
+
+    item Wolf_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Hound Wolf Squad's Jacket,
+        ClothingItem = Wolf_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Wolf_Jacket,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        WorldStaticModel= W_Wolf_Jacket,
+    }
+
+
+    item Pants_Yoga
+    {
+        Type = Clothing,
+        DisplayName = Dolphin Short Pants,
+        ClothingItem = Pants_Yoga,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Pants_Yoga,
+        Weight = 0.1,
+        BiteDefense = 7,
+        ScratchDefense = 17,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+       WorldStaticModel= W_Pants_Yoga,
+    }
+
+
+
+    item Turtleneck
+    {
+        Type = Clothing,
+        DisplayName = Turtleneck Sleeveless,
+        ClothingItem = Turtleneck,
+        BodyLocation = ShortSleeveShirt,
+        BloodLocation = Jacket,
+        Icon = Turtleneck,
+        Weight = 0.1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 10,
+        Insulation = 0.35,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+       WorldStaticModel= W_Turtleneck,
+    }
+
+
+
+    item Belly_Turtleneck
+    {
+        Type = Clothing,
+        DisplayName = Belly Turtleneck Sleeveless,
+        ClothingItem = Belly_Turtleneck,
+        BodyLocation = ShortSleeveShirt,
+        BloodLocation = Jacket,
+        Icon = Belly_Turtleneck,
+        Weight = 0.1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 10,
+        Insulation = 0.35,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+       WorldStaticModel= W_Belly_Turtleneck,
+    }
+
+
+
+    item S_Tank_Top
+    {
+        Type = Clothing,
+        DisplayName = Sleeveless Tank Top,
+        ClothingItem = S_Tank_Top,
+        BodyLocation = TankTop,
+        BloodLocation = Jacket,
+        Icon = S_Tank_Top,
+        Weight = 0.1,
+        Insulation = 0.2,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+       WorldStaticModel= W_S_Tank_Top,
+    }
+
+
+
+    item Y_Shirts
+    {
+        Type = Clothing,
+        DisplayName = Office Shirts,
+        ClothingItem = Y_Shirts,
+        BodyLocation = Shirt,
+        BloodLocation = Jacket,
+        Icon = Y_Shirts,
+        Weight = 0.1,
+        Insulation = 0.2,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+       WorldStaticModel= W_Y_Shirts,
+    }
+
+
+
+    item Y_Shirts_Long
+    {
+        Type = Clothing,
+        DisplayName = Office Shirts Long,
+        ClothingItem = Y_Shirts_Long,
+        BodyLocation = Shirt,
+        BloodLocation = Jacket,
+        Icon = Y_Shirts_Long,
+        Weight = 0.1,
+        Insulation = 0.2,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+       WorldStaticModel= W_Y_Shirts_Long,
+    }
+
+
+
+    item Skirt_Office
+    {
+        Type = Clothing,
+        DisplayName = Office Skirt,
+        ClothingItem = Skirt_Office,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Skirt_Office,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+       WorldStaticModel= W_Skirt_Office,
+    }
+
+
+
+    item Skirt_Office_Long
+    {
+        Type = Clothing,
+        DisplayName = Office Skirt Long,
+        ClothingItem = Skirt_Office_Long,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Skirt_Office_Long,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+       WorldStaticModel= W_Skirt_Office_Long,
+    }
+
+
+
+    item Office_Sweater
+    {
+        Type = Clothing,
+        DisplayName = Office Cardigan,
+        ClothingItem = Office_Sweater,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Office_Sweater,
+        Weight = 0.1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 10,
+        Insulation = 0.35,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+       WorldStaticModel= W_Office_Sweater,
+    }
+
+
+
+    item Office_Sweater_Long
+    {
+        Type = Clothing,
+        DisplayName = Office Long Cardigan,
+        ClothingItem = Office_Sweater_Long,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Office_Sweater_Long,
+        Weight = 0.1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 10,
+        Insulation = 0.35,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+       WorldStaticModel= W_Office_Sweater_Long,
+    }
+
+
+
+    item Pants_Adidas
+    {
+        Type = Clothing,
+        DisplayName = Adidas Leggings,
+        ClothingItem = Pants_Adidas,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Pants_Adidas,
+        Weight = 0.1,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+       WorldStaticModel= W_Pants_Adidas,
+    }
+
+
+
+    item Jacket_Adidas
+    {
+        Type = Clothing,
+        DisplayName = Adidas Track Top,
+        ClothingItem = Jacket_Adidas,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Jacket_Adidas,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.35,
+        WindResistance = 0.2,
+        Weight = 2,
+        FabricType = Denim,
+    }
+
+
+    item Skirt_Heather
+    {
+        Type = Clothing,
+        DisplayName = Heather Mason's Skirt,
+        ClothingItem = Skirt_Heather,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Skirt_Heather,
+        Weight = 0.1,
+        Insulation = 0.35,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+       WorldStaticModel= W_Skirt_Heather,
+    }
+
+
+
+    item Sweater_Lisa
+    {
+        Type = Clothing,
+        DisplayName = Lisa Garland's Cardigan,
+        ClothingItem = Sweater_Lisa,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Sweater_Lisa,
+        Weight = 0.1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 10,
+        Insulation = 0.35,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+       WorldStaticModel= W_Sweater_Lisa,
+    }
+
+
+    item Shirts_Bennett
+    {
+        Type = Clothing,
+        DisplayName = Cybil Bennett's Police Shirts,
+        ClothingItem = Shirts_Bennett,
+        BodyLocation = Shirt,
+        BloodLocation = Jacket,
+        Icon = Shirts_Bennett,
+        Weight = 0.1,
+        Insulation = 0.35,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+       WorldStaticModel= W_Shirts_Bennett,
+    }
+
+
+
+    item Leather_Pants_Bennett
+    {
+        Type = Clothing,
+        DisplayName = Cybil Bennett's Police Leather Pants,
+        ClothingItem = Leather_Pants_Bennett,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Leather_Pants_Bennett,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+       WorldStaticModel= W_Leather_Pants_Bennett,
+    }
+
+
+
+    item Leather_Jacket_Bennett
+    {
+        Type = Clothing,
+        DisplayName = Cybil Bennett's Police Leather Jacket,
+        ClothingItem = Leather_Jacket_Bennett,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Leather_Jacket_Bennett,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        WaterResistance = 0.2,
+        Weight = 2,
+       WorldStaticModel= W_Leather_Jacket_Bennett,
+
+    }
+
+
+
+    item Field_Jacket
+    {
+        Type = Clothing,
+        DisplayName = James Sunderland's Field Jacket,
+        ClothingItem = Field_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Field_Jacket,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        WaterResistance = 0.2,
+        Weight = 2,
+       WorldStaticModel= W_Field_Jacket,
+
+    }
+
+
+
+    item Shirts_James
+    {
+        Type = Clothing,
+        DisplayName = James Sunderland's Shirts,
+        ClothingItem = Shirts_James,
+        BodyLocation = Shirt,
+        BloodLocation = Jacket,
+        Icon = Shirts_James,
+        Weight = 0.1,
+        Insulation = 0.2,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+       WorldStaticModel= W_Shirts_James,
+    }
+
+
+    item Jeans_James
+    {
+        Type = Clothing,
+        DisplayName = James Sunderland's Jeans,
+        ClothingItem = Jeans_James,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Jeans_James,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+       WorldStaticModel= W_Jeans_James,
+    }
+
+
+
+    item Skirt_Lisa
+    {
+        Type = Clothing,
+        DisplayName = Lisa Garland's Skirt,
+        ClothingItem = Skirt_Lisa,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Skirt_Lisa,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+       WorldStaticModel= W_Skirt_Lisa,
+    }
+
+
+    item Leather_Jacket_Harry
+    {
+        Type = Clothing,
+        DisplayName = Harry Mason's Leather Jacket,
+        ClothingItem = Leather_Jacket_Harry,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Leather_Jacket_Harry,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        WaterResistance = 0.2,
+        Weight = 2,
+       WorldStaticModel= W_Leather_Jacket_Harry,
+
+    }
+
+
+    item Leather_Vest_Harry
+    {
+        Type = Clothing,
+        DisplayName = Harry Mason's Leather Vest,
+        ClothingItem = Leather_Vest_Harry,
+        BodyLocation = Shirt,
+        BloodLocation = Jacket,
+        Icon = Leather_Vest_Harry,
+        Weight = 0.1,
+        ScratchDefense = 10,
+        Insulation = 0.35,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+       WorldStaticModel= W_Leather_Vest_Harry,
+    }
+
+
+
+    item Shirts_Maria
+    {
+        Type = Clothing,
+        DisplayName = Maria's Cardigan,
+        ClothingItem = Shirts_Maria,
+        BodyLocation = Shirt,
+        BloodLocation = Jacket,
+        Icon = Shirts_Maria,
+        Weight = 0.1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 10,
+        Insulation = 0.35,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+       WorldStaticModel= W_Shirts_Maria,
+    }
+
+
+
+    item Skirt_Maria
+    {
+        Type = Clothing,
+        DisplayName = Maria's Skirt,
+        ClothingItem = Skirt_Maria,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Skirt_Maria,
+        Weight = 0.1,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+       WorldStaticModel= W_Skirt_Maria,
+    }
+
+
+    item Trench_Coat_Sebastian
+    {
+        Type = Clothing,
+        DisplayName = Sebastian Castellanos's Trench Coat,
+        ClothingItem = Trench_Coat_Sebastian,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Trench_Coat_Sebastian,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        WaterResistance = 0.2,
+        Weight = 2,
+       WorldStaticModel= W_Trench_Coat_Sebastian,
+
+    }
+
+
+    item Shirts_Sebastian
+    {
+        Type = Clothing,
+        DisplayName = Sebastian Castellanos's Shirts w/ Leather Vest,
+        ClothingItem = Shirts_Sebastian,
+        BodyLocation = Shirt,
+        BloodLocation = Jacket,
+        Icon = Shirts_Sebastian,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 10,
+        Insulation = 0.35,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+       WorldStaticModel= W_Shirts_Sebastian,
+    }
+
+
+    item Jeans_Sebastian
+    {
+        Type = Clothing,
+        DisplayName = Sebastian Castellanos's Jeans,
+        ClothingItem = Jeans_Sebastian,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Jeans_Sebastian,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+       WorldStaticModel= W_Jeans_Sebastian,
+    }
+
+
+    item Shirts_Kidman
+    {
+        Type = Clothing,
+        DisplayName = Juli Kidman's Shirts,
+        ClothingItem = Shirts_Kidman,
+        BodyLocation = Shirt,
+        BloodLocation = Jacket,
+        Icon = Shirts_Kidman,
+        Weight = 0.1,
+        Insulation = 0.2,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+       WorldStaticModel= W_Shirts_Kidman,
+    }
+
+
+    item Jeans_Kidman
+    {
+        Type = Clothing,
+        DisplayName = Juli Kidman's Jeans,
+        ClothingItem = Jeans_Kidman,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Jeans_Kidman,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+       WorldStaticModel= W_Jeans_Kidman,
+    }
+
+
+
+    item Susie_Hood
+    {
+        Type = Clothing,
+        DisplayName = The Legion Susie's Hoodie,
+        ClothingItem = Susie_Hood,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Susie_Hood,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Susie_Hood_ON,
+        ClothingItemExtraOption = Susie_Hood_ON,
+        clothingExtraSubmenu = Susie_Hood_Back,
+        WorldStaticModel= W_Susie_Hood,
+    }
+
+
+    item Susie_Hood_ON
+    {
+        Type = Clothing,
+        DisplayName = The Legion Susie's Hoodie (Hood On),
+        ClothingItem = Susie_Hood_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Susie_Hood,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Susie_Hood,
+        ClothingItemExtraOption = Susie_Hood,
+        clothingExtraSubmenu = Susie_Hood_ON,
+        WorldStaticModel= W_Susie_Hood,
+    }
+
+
+
+
+    item Suit_Wick
+    {
+        Type = Clothing,
+        DisplayName = Slim Fit Suit Jacket,
+        ClothingItem = Suit_Wick,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Suit_Wick,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Suit_Wick_ON,
+        ClothingItemExtraOption = Suit_Wick_ON,
+        clothingExtraSubmenu = Suit_Wick_Back,
+        WorldStaticModel= W_Suit_Wick,
+    }
+
+
+    item Suit_Wick_ON
+    {
+        Type = Clothing,
+        DisplayName = Slim Fit Suit Jacket (Opened),
+        ClothingItem = Suit_Wick_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Suit_Wick,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Suit_Wick,
+        ClothingItemExtraOption = Suit_Wick,
+        clothingExtraSubmenu = Suit_Wick_ON,
+        WorldStaticModel= W_Suit_Wick,
+    }
+
+
+
+    item Suit_Army
+    {
+        Type = Clothing,
+        DisplayName = Army Officer Uniform Suit Jacket,
+        ClothingItem = Suit_Army,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Suit_Army,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Suit_Army_ON,
+        ClothingItemExtraOption = Suit_Army_ON,
+        clothingExtraSubmenu = Suit_Army_Back,
+        WorldStaticModel= W_Suit_Army,
+    }
+
+
+    item Suit_Army_ON
+    {
+        Type = Clothing,
+        DisplayName = Army Officer Uniform Suit Jacket (Opened),
+        ClothingItem = Suit_Army_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Suit_Army,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Suit_Army,
+        ClothingItemExtraOption = Suit_Army,
+        clothingExtraSubmenu = Suit_Army_ON,
+        WorldStaticModel= W_Suit_Army,
+    }
+
+
+    item Suit_Stew
+    {
+        Type = Clothing,
+        DisplayName = Air Stewardess Uniform Suit Jacket,
+        ClothingItem = Suit_Stew,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Suit_Stew,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Suit_Stew_ON,
+        ClothingItemExtraOption = Suit_Stew_ON,
+        clothingExtraSubmenu = Suit_Stew_Back,
+        WorldStaticModel= W_Suit_Stew,
+    }
+
+
+    item Suit_Stew_ON
+    {
+        Type = Clothing,
+        DisplayName = Air Stewardess Uniform Suit Jacket (Opened),
+        ClothingItem = Suit_Stew_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Suit_Stew,
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+        ClothingItemExtra = Suit_Stew,
+        ClothingItemExtraOption = Suit_Stew,
+        clothingExtraSubmenu = Suit_Stew_ON,
+        WorldStaticModel= W_Suit_Stew,
+    }
+
+
+
+    item Coat_Long
+    {
+        Type = Clothing,
+        DisplayName = Wool Long Coat,
+        ClothingItem = Coat_Long,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Coat_Long,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Coat_Long_ON,
+        ClothingItemExtraOption = Coat_Long_ON,
+        clothingExtraSubmenu = Coat_Long_Back,
+        WorldStaticModel= W_Coat_Long,
+    }
+
+
+    item Coat_Long_ON
+    {
+        Type = Clothing,
+        DisplayName = Wool Long Coat (Opened),
+        ClothingItem = Coat_Long_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Coat_Long,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Coat_Long,
+        ClothingItemExtraOption = Coat_Long,
+        clothingExtraSubmenu = Coat_Long_ON,
+        WorldStaticModel= W_Coat_Long,
+    }
+
+
+
+    item Military_Coat_Long
+    {
+        Type = Clothing,
+        DisplayName = Military Camouflage Long Coat,
+        ClothingItem = Military_Coat_Long,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Military_Coat_Long,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Military_Coat_Long_ON,
+        ClothingItemExtraOption = Military_Coat_Long_ON,
+        clothingExtraSubmenu = Military_Coat_Long_Back,
+        WorldStaticModel= W_Military_Coat_Long,
+    }
+
+
+    item Military_Coat_Long_ON
+    {
+        Type = Clothing,
+        DisplayName = Military Camouflage Long Coat (Opened),
+        ClothingItem = Military_Coat_Long_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Military_Coat_Long,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.35,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Military_Coat_Long,
+        ClothingItemExtraOption = Military_Coat_Long,
+        clothingExtraSubmenu = Military_Coat_Long_ON,
+        WorldStaticModel= W_Military_Coat_Long,
+    }
+
+
+
+    item Suit_Fisher
+    {
+        Type = Clothing,
+        DisplayName = Feskarn Fisherman Suit,
+        ClothingItem = Suit_Fisher,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Suit_Fisher,
+        RunSpeedModifier = 0.82,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        RunSpeedModifier = 0.98,
+        WaterResistance = 0.8,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Suit_Fisher_ON,
+        ClothingItemExtraOption = Suit_Fisher_ON,
+        clothingExtraSubmenu = Suit_Fisher_Back,
+        WorldStaticModel= W_Suit_Fisher,
+    }
+
+
+    item Suit_Fisher_ON
+    {
+        Type = Clothing,
+        DisplayName = Feskarn Fisherman Suit (Opened),
+        ClothingItem = Suit_Fisher_ON,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Suit_Fisher,
+        RunSpeedModifier = 0.82,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.35,
+        RunSpeedModifier = 0.98,
+        WaterResistance = 0.8,
+        Weight = 3,
+        FabricType = Cotton,
+        ClothingItemExtra = Suit_Fisher,
+        ClothingItemExtraOption = Suit_Fisher,
+        clothingExtraSubmenu = Suit_Fisher_ON,
+        WorldStaticModel= W_Suit_Fisher,
+    }
+
+
+    item Apron_Side
+    {
+        Type = Clothing,
+        DisplayName = Mechanic Waist Apron,
+        ClothingItem = Apron_Side,
+        BodyLocation = Necklace_Long,
+        BloodLocation = Jacket;Neck,
+        Icon = Apron_Side,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        Weight = 1,
+        FabricType = Denim,
+        ClothingItemExtra = Apron_Side_ON,
+        ClothingItemExtraOption = Apron_Side_ON,
+        clothingExtraSubmenu = Apron_Side_Back,
+        WorldStaticModel= W_Apron_Side,
+    }
+
+
+    item Apron_Side_ON
+    {
+        Type = Clothing,
+        DisplayName = Mechanic Waist Apron (Tight),
+        ClothingItem = Apron_Side_ON,
+        BodyLocation = Necklace_Long,
+        BloodLocation = Jacket;Neck,
+        Icon = Apron_Side,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        Weight = 1,
+        FabricType = Denim,
+        ClothingItemExtra = Apron_Side,
+        ClothingItemExtraOption = Apron_Side,
+        clothingExtraSubmenu = Apron_Side_ON,
+        WorldStaticModel= W_Apron_Side,
+    }
+
+
+    item Star_Cape
+    {
+        Type = Clothing,
+        DisplayName = Luke Skywalker's Cape,
+        ClothingItem = Star_Cape,
+        BodyLocation = Necklace_Long,
+        BloodLocation = Jacket;Neck,
+        Icon = Star_Cape,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        Weight = 1,
+        FabricType = Denim,
+        ClothingItemExtra = Star_Cape_ON,
+        ClothingItemExtraOption = Star_Cape_ON,
+        clothingExtraSubmenu = Star_Cape_Back,
+        WorldStaticModel= W_Star_Cape,
+    }
+
+
+    item Star_Cape_ON
+    {
+        Type = Clothing,
+        DisplayName = Luke Skywalker's Cape (Hood On),
+        ClothingItem = Star_Cape_ON,
+        BodyLocation = Necklace_Long,
+        BloodLocation = Jacket;Neck,
+        Icon = Star_Cape,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        Weight = 1,
+        FabricType = Denim,
+        ClothingItemExtra = Star_Cape,
+        ClothingItemExtraOption = Star_Cape,
+        clothingExtraSubmenu = Star_Cape_ON,
+        WorldStaticModel= W_Star_Cape,
+    }
+
+
+    item Kenobi_Cape
+    {
+        Type = Clothing,
+        DisplayName = Obi Wan Kenobi's Cape,
+        ClothingItem = Kenobi_Cape,
+        BodyLocation = Necklace_Long,
+        BloodLocation = Jacket;Neck,
+        Icon = Kenobi_Cape,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        Weight = 1,
+        FabricType = Denim,
+        ClothingItemExtra = Kenobi_Cape_ON,
+        ClothingItemExtraOption = Kenobi_Cape_ON,
+        clothingExtraSubmenu = Kenobir_Cape_Back,
+        WorldStaticModel= W_Kenobi_Cape,
+    }
+
+
+    item Kenobi_Cape_ON
+    {
+        Type = Clothing,
+        DisplayName = Obi Wan Kenobi's Cape (Hood On),
+        ClothingItem = Kenobi_Cape_ON,
+        BodyLocation = Necklace_Long,
+        BloodLocation = Jacket;Neck,
+        Icon = Kenobi_Cape,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        Weight = 1,
+        FabricType = Denim,
+        ClothingItemExtra = Kenobi_Cape,
+        ClothingItemExtraOption = Kenobi_Cape,
+        clothingExtraSubmenu = Kenobi_Cape_ON,
+        WorldStaticModel= W_Kenobi_Cape,
+    }
+
+
+    item Vader_Cape
+    {
+        Type = Clothing,
+        DisplayName = Darth Vader's Cape,
+        ClothingItem = Vader_Cape,
+        BodyLocation = Necklace_Long,
+        BloodLocation = Jacket;Neck,
+        Icon = Vader_Cape,
+        Insulation = 0.35,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        Weight = 1,
+        FabricType = Denim,
+        WorldStaticModel= W_Vader_Cape,
+    }
+
+
+    item Vader_Helmet
+	{
+	Type = Clothing,
+	DisplayName = Darth Vader's Helmet,
+	ClothingItem = Vader_Helmet,
+	BodyLocation = Hat,
+	Icon = Vader_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = FullHelmet,
+	BiteDefense = 120,
+	ScratchDefense = 120,
+        Insulation = 0.35,
+	WaterResistance = 0.40,
+        Weight = 1.5,
+        WorldStaticModel= W_Vader_Helmet,
+    }
+
+
+    item Vader_Mask
+	{
+	Type = Clothing,
+	DisplayName = Darth Vader's Mask w/ Hood,
+	ClothingItem = Vader_Mask,
+	BodyLocation = Mask,
+	Icon = Vader_Mask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	ScratchDefense = 20,
+        Insulation = 0.35,
+	WaterResistance = 1.0,
+        Weight = 1.5,
+        WorldStaticModel= W_Vader_Mask,
+    }
+}

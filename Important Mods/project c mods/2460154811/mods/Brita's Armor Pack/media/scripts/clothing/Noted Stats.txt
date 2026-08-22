@@ -1,0 +1,96 @@
+Insulation = 0.50,
+Insulation = 0.35,
+        Insulation = 0.35,
+<CHEMPAK>
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        FabricType = Cotton,
+
+<HEAVY JACKET>
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 25,
+        ScratchDefense = 40,
+        Insulation = 0.95,
+        WindResistance = 0.95,
+        WaterResistance = 0.70,
+        Weight = 3,
+        FabricType = Cotton,
+
+<MEDIUM JACKET>
+        RunSpeedModifier = 0.95,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.60,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+
+<LIGHT JACKET>
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+
+
+<HEAVY PANTS>
+        RunSpeedModifier = 0.82,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.85,
+        RunSpeedModifier = 0.98,
+        WaterResistance = 0.8,
+        Weight = 3,
+        FabricType = Cotton,
+
+<MEDIUM PANTS>
+        BiteDefense = 17,
+        ScratchDefense = 25,
+        Insulation = 0.60,
+        WindResistance = 0.60,
+        WaterResistance = 0.50,
+        Weight = 2,
+        FabricType = Cotton,
+
+<LIGHT PANTS>
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+
+<HOT PANTS>
+        BiteDefense = 7,
+        ScratchDefense = 17,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+
+<SWEATER>
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+
+<SHIRTS>
+        Insulation = 0.2,
+        WindResistance = 0.10,
+        FabricType = Cotton,

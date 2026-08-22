@@ -1,0 +1,244 @@
+module Base
+{
+
+
+    item Suit_Chempak
+    {
+        Type = Clothing,
+        DisplayName = Blauer XRT Gore Chempak CBRN Protective Suit,
+        ClothingItem = Suit_Chempak,
+        BodyLocation = FullSuit,
+        Icon = Suit_Chempak,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 60,
+        BiteDefense = 60,
+        Insulation = 1,
+        WindResistance = 0.85,
+        WaterResistance = 0.80,
+    }
+
+
+
+    item Chempak_Blauer
+    {
+        Type = Clothing,
+        DisplayName = Blauer Multi-Threat Ensemble,
+        ClothingItem = Chempak_Blauer,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        Icon = Chempak_Blauer,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        FabricType = Cotton,
+        ClothingItemExtra = Chempak_Blauer_ON,
+        ClothingItemExtraOption = Chempak_Blauer_ON,
+        clothingExtraSubmenu = Chempak_Blauer_Back,
+        WorldStaticModel= W_Chempak_Blauer,
+    }
+
+
+    item Chempak_Blauer_ON
+    {
+        Type = Clothing,
+        DisplayName = Blauer Multri-Threat Ensemble (Hooded),
+        ClothingItem = Chempak_Blauer_ON,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        Icon = Chempak_Blauer,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        FabricType = Cotton,
+        ClothingItemExtra = Chempak_Blauer,
+        ClothingItemExtraOption = Chempak_Blauer,
+        clothingExtraSubmenu = Chempak_Blauer_ON,
+        WorldStaticModel= W_Chempak_Blauer,
+    }
+
+
+    item Chempak_BRN
+    {
+        Type = Clothing,
+        DisplayName = Blauer RC3 CBRN Protective Suit,
+        ClothingItem = Chempak_BRN,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        Icon = Chempak_BRN,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        FabricType = Cotton,
+        ClothingItemExtra = Chempak_BRN_ON,
+        ClothingItemExtraOption = Chempak_BRN_ON,
+        clothingExtraSubmenu = Chempak_BRN_Back,
+        WorldStaticModel= W_Chempak_BRN,
+    }
+
+
+    item Chempak_BRN_ON
+    {
+        Type = Clothing,
+        DisplayName = Blauer RC3 CBRN Protective Suit (Hooded),
+        ClothingItem = Chempak_BRN_ON,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        Icon = Chempak_BRN,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        FabricType = Cotton,
+        ClothingItemExtra = Chempak_BRN,
+        ClothingItemExtraOption = Chempak_BRN,
+        clothingExtraSubmenu = Chempak_BRN_ON,
+        WorldStaticModel= W_Chempak_BRN,
+    }
+
+
+    item Chempak_Tychem
+    {
+        Type = Clothing,
+        DisplayName = Trellchem Light Chemical Protection Suit,
+        ClothingItem = Chempak_Tychem,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        Icon = Chempak_Tychem,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        FabricType = Cotton,
+        ClothingItemExtra = Chempak_Tychem_ON,
+        ClothingItemExtraOption = Chempak_Tychem_ON,
+        clothingExtraSubmenu = Chempak_Tychem_Back,
+        WorldStaticModel= W_Chempak_Tychem,
+    }
+
+
+    item Chempak_Tychem_ON
+    {
+        Type = Clothing,
+        DisplayName = Trellchem Light Chemical Protection Suit (Hooded),
+        ClothingItem = Chempak_Tychem_ON,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        Icon = Chempak_Tychem,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        FabricType = Cotton,
+        ClothingItemExtra = Chempak_Tychem,
+        ClothingItemExtraOption = Chempak_Tychem,
+        clothingExtraSubmenu = Chempak_Tychem_ON,
+        WorldStaticModel= W_Chempak_Tychem,
+    }
+
+
+    item Chempak_Level
+    {
+        Type = Clothing,
+        DisplayName = Level A CBRN Protective Suit,
+        ClothingItem = Chempak_Level,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        Icon = Chempak_Level,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        FabricType = Cotton,
+        WorldStaticModel= W_Chempak_Level,
+    }
+
+
+
+    item Antibelok
+    {
+        Type = Clothing,
+        DisplayName = Antibelok-5 Hazmat Suit,
+        ClothingItem = Antibelok,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        Icon = Antibelok,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        FabricType = Cotton,
+        ClothingItemExtra = Antibelok_ON,
+        ClothingItemExtraOption = Antibelok_ON,
+        clothingExtraSubmenu = Antibelok_Back,
+        WorldStaticModel= W_Antibelok,
+    }
+
+
+    item Antibelok_ON
+    {
+        Type = Clothing,
+        DisplayName = Antibelok-5 Hazmat Suit (Cutted),
+        ClothingItem = Antibelok_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        Icon = Antibelok,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        FabricType = Cotton,
+        ClothingItemExtra = Antibelok,
+        ClothingItemExtraOption = Antibelok,
+        clothingExtraSubmenu = Antibelok_ON,
+        WorldStaticModel= W_Antibelok_ON,
+    }
+}

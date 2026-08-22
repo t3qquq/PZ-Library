@@ -1,0 +1,237 @@
+module Base
+{
+
+    item Rabbit_Suit
+    {
+        Type = Clothing,
+        DisplayName = Robbie The Rabbit Suit Red,
+        ClothingItem = Rabbit_Suit,
+        BodyLocation = FullSuit,
+        Icon = Rabbit_Suit,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        WorldStaticModel= W_Rabbit_Suit,
+    }
+
+
+    item Hat_Rabbit
+	{
+	Type = Clothing,
+	DisplayName = Robbie The Rabbit Helmet Red,
+	ClothingItem = Hat_Rabbit,
+	BodyLocation = Hat,
+	Icon = Hat_Rabbit,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 120,
+	ScratchDefense = 120,
+	ChanceToFall = 5,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+    }
+
+
+    item Rabbit_Suit_Blue
+    {
+        Type = Clothing,
+        DisplayName = Robbie The Rabbit Suit Blue,
+        ClothingItem = Rabbit_Suit_Blue,
+        BodyLocation = FullSuit,
+        Icon = Rabbit_Suit_Blue,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        WorldStaticModel= W_Rabbit_Suit_Blue,
+    }
+
+
+    item Hat_Rabbit_Blue
+	{
+	Type = Clothing,
+	DisplayName = Robbie The Rabbit Helmet Blue,
+	ClothingItem = Hat_Rabbit_Blue,
+	BodyLocation = Hat,
+	Icon = Hat_Rabbit_Blue,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 120,
+	ScratchDefense = 120,
+	ChanceToFall = 5,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+    }
+
+
+    item Rabbit_Suit_Green
+    {
+        Type = Clothing,
+        DisplayName = Robbie The Rabbit Suit Green,
+        ClothingItem = Rabbit_Suit_Green,
+        BodyLocation = FullSuit,
+        Icon = Rabbit_Suit_Green,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        WorldStaticModel= W_Rabbit_Suit_Green,
+    }
+
+
+    item Hat_Rabbit_Green
+	{
+	Type = Clothing,
+	DisplayName = Robbie The Rabbit Helmet Green,
+	ClothingItem = Hat_Rabbit_Green,
+	BodyLocation = Hat,
+	Icon = Hat_Rabbit_Green,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 120,
+	ScratchDefense = 120,
+	ChanceToFall = 5,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+    }
+
+
+    item Rabbit_Suit_Grey
+    {
+        Type = Clothing,
+        DisplayName = Robbie The Rabbit Suit Grey,
+        ClothingItem = Rabbit_Suit_Grey,
+        BodyLocation = FullSuit,
+        Icon = Rabbit_Suit_Grey,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        WorldStaticModel= W_Rabbit_Suit_Grey,
+    }
+
+
+    item Hat_Rabbit_Grey
+	{
+	Type = Clothing,
+	DisplayName = Robbie The Rabbit Helmet Grey,
+	ClothingItem = Hat_Rabbit_Grey,
+	BodyLocation = Hat,
+	Icon = Hat_Rabbit_Grey,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 120,
+	ScratchDefense = 120,
+	ChanceToFall = 5,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+    }
+
+
+    item Rabbit_Suit_Purple
+    {
+        Type = Clothing,
+        DisplayName = Robbie The Rabbit Suit Purple,
+        ClothingItem = Rabbit_Suit_Purple,
+        BodyLocation = FullSuit,
+        Icon = Rabbit_Suit_Purple,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        WorldStaticModel= W_Rabbit_Suit_Purple,
+    }
+
+
+    item Hat_Rabbit_Purple
+	{
+	Type = Clothing,
+	DisplayName = Robbie The Rabbit Helmet Purple,
+	ClothingItem = Hat_Rabbit_Purple,
+	BodyLocation = Hat,
+	Icon = Hat_Rabbit_Purple,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 120,
+	ScratchDefense = 120,
+	ChanceToFall = 5,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+    }
+
+
+    item Rabbit_Suit_Yellow
+    {
+        Type = Clothing,
+        DisplayName = Robbie The Rabbit Suit Yellow,
+        ClothingItem = Rabbit_Suit_Yellow,
+        BodyLocation = FullSuit,
+        Icon = Rabbit_Suit_Yellow,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        WorldStaticModel= W_Rabbit_Suit_Yellow,
+    }
+
+
+    item Hat_Rabbit_Yellow
+	{
+	Type = Clothing,
+	DisplayName = Robbie The Rabbit Helmet Yellow,
+	ClothingItem = Hat_Rabbit_Yellow,
+	BodyLocation = Hat,
+	Icon = Hat_Rabbit_Yellow,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 120,
+	ScratchDefense = 120,
+	ChanceToFall = 5,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+    }
+
+}

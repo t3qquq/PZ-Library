@@ -1,0 +1,104 @@
+module Base
+{
+
+    item Bloodsucker
+    {
+        Type = Clothing,
+        DisplayName = Bloodsucker Costume Set,
+        ClothingItem = Bloodsucker,
+        BodyLocation = Jacket,
+        Icon = Bloodsucker,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        WorldStaticModel= W_Bloodsucker,
+    }
+
+    item SH_Nurse
+    {
+        Type = Clothing,
+        DisplayName = Silent Hill Bubble Head Nurse Set,
+        ClothingItem = SH_Nurse,
+        BodyLocation = Jacket,
+        Icon = SH_Nurse,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        WorldStaticModel= W_SH_Nurse,
+    }
+
+    item SH_Nurse_2
+    {
+        Type = Clothing,
+        DisplayName = Silent Hill Nurse Set,
+        ClothingItem = SH_Nurse_2,
+        BodyLocation = Jacket,
+        Icon = SH_Nurse_2,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        WorldStaticModel= W_SH_Nurse_2,
+    }
+
+
+    item Light_Woman
+    {
+        Type = Clothing,
+        DisplayName = The Evil Within Shade Set,
+        ClothingItem = Light_Woman,
+        BodyLocation = Jacket,
+        Icon = Light_Woman,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        WorldStaticModel= W_Light_Woman,
+    }
+
+    item SH_Closer
+    {
+        Type = Clothing,
+        DisplayName = Silent Hill Closer Set,
+        ClothingItem = SH_Closer,
+        BodyLocation = Jacket,
+        Icon = SH_Closer,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        Insulation = 0.99,
+        WindResistance = 0.95,
+        WaterResistance = 0.95,
+        Weight = 3.5,
+        WorldStaticModel= W_SH_Closer,
+    }
+}

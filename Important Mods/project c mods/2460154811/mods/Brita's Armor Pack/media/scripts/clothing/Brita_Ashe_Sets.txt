@@ -1,0 +1,146 @@
+module Base
+{
+
+
+    item Ashe_Jacket
+    {
+        Type = Clothing,
+        DisplayName = Ashe's Leather Jacket,
+        ClothingItem = Ashe_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Ashe_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Ashe_Jacket_ON,
+        ClothingItemExtraOption = Ashe_Jacket_ON,
+        clothingExtraSubmenu = Ashe_Jacket_Back,
+        WorldStaticModel= W_Ashe_Jacket,
+    }
+
+
+    item Ashe_Jacket_ON
+    {
+        Type = Clothing,
+        DisplayName = Ashe's Leather Jacket (Opened),
+        ClothingItem = Ashe_Jacket_ON,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Ashe_Jacket,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        Weight = 1,
+        FabricType = Cotton,
+        ClothingItemExtra = Ashe_Jacket,
+        ClothingItemExtraOption = Ashe_Jacket,
+        clothingExtraSubmenu = Ashe_Jacket_ON,
+        WorldStaticModel= W_Ashe_Jacket,
+    }
+
+
+    item Ashe_Cloak
+    {
+        Type = Clothing,
+        DisplayName = Ashe's Leather Cloak,
+        ClothingItem = Ashe_Cloak,
+        BodyLocation = Necklace_Long,
+        BloodLocation = Jacket,
+        Icon = Ashe_Cloak,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.35,
+        WindResistance = 0.2,
+        Weight = 1,
+        FabricType = Denim,
+        ClothingItemExtra = Ashe_Cloak_ON,
+        ClothingItemExtraOption = Ashe_Cloak_ON,
+        clothingExtraSubmenu = Ashe_Cloak_Back,
+        WorldStaticModel= W_Ashe_Cloak,
+    }
+
+
+    item Ashe_Cloak_ON
+    {
+        Type = Clothing,
+        DisplayName = Ashe's Leather Cloak (Loose),
+        ClothingItem = Ashe_Cloak_ON,
+        BodyLocation = Necklace_Long,
+        BloodLocation = Jacket,
+        Icon = Ashe_Cloak,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.35,
+        WindResistance = 0.2,
+        Weight = 1,
+        FabricType = Denim,
+        ClothingItemExtra = Ashe_Cloak,
+        ClothingItemExtraOption = Ashe_Cloak,
+        clothingExtraSubmenu = Ashe_Cloak_ON,
+        WorldStaticModel= W_Ashe_Cloak,
+    }
+
+    item Ashe_Leg_Armor
+	{
+	Type = Clothing,
+	DisplayName = Ashe's Leg Armor,
+	ClothingItem = Ashe_Leg_Armor,
+	BodyLocation = Right_MiddleFinger,
+	Icon = Ashe_Leg_Armor,
+        BloodLocation = Trousers,
+	ScratchDefense = 10,
+        WorldStaticModel= W_Ashe_Leg_Armor,
+    }
+
+    item Ashe_Hat
+	{
+	Type = Clothing,
+	DisplayName = Ashe's Hat,
+	ClothingItem = Ashe_Hat,
+	BodyLocation = Hat,
+	Icon = Ashe_Hat,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        WaterResistance = 0.20,
+        BloodLocation = Head,
+        Weight = 0.1,
+        WorldStaticModel= W_Ashe_Hat,
+    }
+
+    item Ashe_Necktie
+	{
+	Type = Clothing,
+	DisplayName = Ashe's Necktie,
+	ClothingItem = Ashe_Necktie,
+	BodyLocation = Neck,
+	Icon = Ashe_Necktie,
+        Weight = 0.01,
+        WorldStaticModel= W_Ashe_Necktie,
+    }
+
+    item Ashe_Jeans
+    {
+        Type = Clothing,
+        DisplayName = Ashe's Jeans,
+        ClothingItem = Ashe_Jeans,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Ashe_Jeans,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+       WorldStaticModel= W_Ashe_Jeans,
+    }
+}

@@ -1,0 +1,69 @@
+module Base
+{
+    item Armor_Dozer
+    {
+        Type = Clothing,
+        DisplayName = Military Juggernaut Body Armor (Type A),
+        ClothingItem = Armor_Dozer,
+        BodyLocation = TorsoExtra,
+        Weight	=	12,
+        Icon	=	Armor_Dozer,
+        BloodLocation = Trousers;Jumper;Neck,
+        RunSpeedModifier = 0.5,
+        CombatSpeedModifier = 0.5,
+        Insulation = 0.95,
+        WindResistance = 0.50,
+        BiteDefense = 150,
+        ScratchDefense = 150,
+        BulletDefense = 150,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Armor_Dozer,
+    }
+
+    item EXO_Suit
+    {
+        Type = Clothing,
+        DisplayName = Exoskeleton Suit w/ Vest,
+        ClothingItem = EXO_Suit,
+        BodyLocation = TorsoExtra,
+        Weight	=	12,
+        Icon	=	EXO_Suit,
+        BloodLocation = ShirtNoSleeves;Trousers;Neck;Shoes,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 130,
+        ScratchDefense = 130,
+        BulletDefense = 130,
+        NeckProtectionModifier = 0.5,
+        ClothingItemExtra = EXO_Suit_ON,
+        ClothingItemExtraOption = EXO_Suit_ON,
+        clothingExtraSubmenu = EXO_Suit_Back,
+        WorldStaticModel= W_EXO_Suit,
+    }
+
+
+    item EXO_Suit_ON
+    {
+        Type = Clothing,
+        DisplayName = Exoskeleton Suit,
+        ClothingItem = EXO_Suit_ON,
+        BodyLocation = TorsoExtra,
+        Weight	=	12,
+        Icon	=	EXO_Suit,
+        BloodLocation = ShirtNoSleeves;Trousers;Neck;Shoes,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 150,
+        ScratchDefense = 150,
+        BulletDefense = 150,
+        NeckProtectionModifier = 0.5,
+        ClothingItemExtra = EXO_Suit,
+        ClothingItemExtraOption = EXO_Suit,
+        clothingExtraSubmenu = EXO_Suit_ON,
+        WorldStaticModel= W_EXO_Suit,
+    }
+}
