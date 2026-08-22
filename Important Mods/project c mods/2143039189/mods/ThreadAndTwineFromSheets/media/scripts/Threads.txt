@@ -1,0 +1,66 @@
+module Base
+
+{
+	
+	recipe Make Thread
+	{
+		SheetRope/RippedSheets/DenimStrips=5,
+		keep Scissors,	   
+
+		CanBeDoneFromFloor:true,
+		Result:Thread=1,
+		Sound:ClothesRipping,
+		Time:100.0,
+		AnimNode:RipSheets,
+		Category:Tailoring,	
+		OnGiveXP:Give3TailoringXP,
+	}
+	
+	recipe Make Twine from Thread
+	{
+		Thread=20,
+
+		CanBeDoneFromFloor:true,
+		Result:Twine=1,
+		Time:200.0,
+		Category:Tailoring,	
+		OnGiveXP:Give5TailoringXP,
+	}
+	
+	recipe Make Thread from Twine
+	{
+		Twine=5,
+		keep Scissors,	   
+
+		CanBeDoneFromFloor:true,
+		Result:Thread=1,
+		Time:300.0,
+		AnimNode:RipSheets,
+		Category:Tailoring,	
+		OnGiveXP:Give5TailoringXP,
+	}
+	
+	recipe Make Rope from Twine
+	{
+		Twine=15,  
+
+		CanBeDoneFromFloor:true,
+		Result:Rope=1,
+		Time:300.0,
+		Category:Tailoring,	
+		OnGiveXP:Give10TailoringXP,
+	}
+
+	recipe Make Twine from Rope
+	{
+		Rope=1,
+
+		CanBeDoneFromFloor:true,
+		Result:Twine=1,
+		Time:400.0,
+		AnimNode:RipSheets,
+		Category:Tailoring,	
+		OnGiveXP:Give10TailoringXP,
+	}
+
+}
