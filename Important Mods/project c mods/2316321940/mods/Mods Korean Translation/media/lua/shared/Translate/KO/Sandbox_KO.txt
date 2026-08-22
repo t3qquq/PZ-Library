@@ -1,0 +1,10 @@
+Sandbox_KO = {
+	Sandbox_RYT = "Recraft Your Tools",
+
+	Sandbox_RYT_Difficulty = "난이도",
+	Sandbox_DropdownList_option1 = "쉬움",
+	Sandbox_DropdownList_option2 = "보통",
+	Sandbox_DropdownList_option3 = "어려움",
+	Sandbox_DropdownList_option4 = "매우 어려움",
+	Sandbox_RYT_Difficulty_tooltip = "손잡이 제작 난이도 수준. <br>제작된 아이템의 최소 내구도 %와 최대 내구도를 달성하기 위해 필요한 기술 레벨을 결정합니다. <br>쉬움: 레벨당 16% + 20%, 레벨 5에서 최대 내구도 달성. <br>보통: 레벨당 14% + 16%, 레벨 6에서 최대 내구도 달성. <br>어려움: 레벨당 12% + 16%, 레벨 7에서 최대 내구도 달성. <br>매우 어려움: 레벨당 11% + 12%, 레벨 8에서 최대 내구도 달성."
+}
