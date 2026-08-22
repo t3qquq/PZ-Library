@@ -1,0 +1,4 @@
+ContextMenu_PT = {
+	ContextMenu_ThrowCorpseOutTheWindow = "Atirar cadáver pela janela"
+	ContextMenu_ThrowCorpseOverFence = "Atirar cadáver pela vedação"
+}
