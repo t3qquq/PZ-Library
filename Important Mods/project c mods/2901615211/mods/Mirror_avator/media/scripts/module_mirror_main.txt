@@ -1,0 +1,11 @@
+module Base
+{
+    recipe Look at Mirror
+    {
+    	Mirror,
+    	Result:Mirror,
+    	CanBeDoneFromFloor:true,
+    	Time:10,
+		OnCreate:Recipe.OnCreate.OpenMirror,,
+    }
+}

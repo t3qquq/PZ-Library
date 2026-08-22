@@ -1,0 +1,4 @@
+Recipes_CN = {
+    Recipe_Look_at_Mirror = "看",
+
+}

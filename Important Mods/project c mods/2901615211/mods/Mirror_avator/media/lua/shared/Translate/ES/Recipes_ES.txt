@@ -1,0 +1,3 @@
+Recipe_ES = {
+	Recipe_Look at Mirror = "Verse en el espejo",
+}

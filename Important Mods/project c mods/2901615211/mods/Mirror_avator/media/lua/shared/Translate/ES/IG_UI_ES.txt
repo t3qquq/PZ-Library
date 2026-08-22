@@ -1,0 +1,7 @@
+IGUI_ES = {
+    IGUI_shuruyanse = "Color de fondo  (Rojo,Verde,Azul,Transparencia)",
+    IGUI_yingyong = "Aplicar",
+    IGUI_qiehuanshijiao = "Cámara",
+    IGUI_suofang = "Escala",
+
+}

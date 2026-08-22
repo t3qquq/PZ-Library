@@ -1,0 +1,8 @@
+IGUI_EN = {
+
+    IGUI_shuruyanse = "Background Color R,G,B,A",
+    IGUI_yingyong = "Apply",
+    IGUI_qiehuanshijiao = "Camra",
+    IGUI_suofang = "Scale",
+
+}

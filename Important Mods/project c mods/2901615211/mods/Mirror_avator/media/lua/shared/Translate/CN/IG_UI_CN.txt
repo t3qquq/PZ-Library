@@ -1,0 +1,8 @@
+IGUI_CN = {
+
+    IGUI_shuruyanse = "颜色值（红,绿,蓝,透明度）",
+    IGUI_yingyong = "应用颜色",
+    IGUI_qiehuanshijiao = "切换相机",
+    IGUI_suofang = "缩放",
+
+}
