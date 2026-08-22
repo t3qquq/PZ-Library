@@ -1,0 +1,18 @@
+module Base
+{
+
+    item AKClip
+    {
+	CanStack		=	FALSE,
+	Weight		=	0.2,
+	Type			=	Normal,
+	DisplayName		=	7.62x39mm Magazine,
+	DisplayCategory	= 	GunMag,
+	Icon			=	AKMag,
+	MaxAmmo 		=	30,
+	AmmoType	 	=	Base.762x39Bullets,
+	StaticModel		=	GunMagazine,
+	WorldStaticModel	=	W_Standard_Mag_762,
+	GunType		=	Multi_Gun,
+    }
+}

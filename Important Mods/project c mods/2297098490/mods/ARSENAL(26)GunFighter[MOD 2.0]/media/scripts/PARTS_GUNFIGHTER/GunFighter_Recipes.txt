@@ -1,0 +1,1776 @@
+module Base
+{
+
+/*****************************************/
+/**	PCP / AIRGUN / PAINTBALL	**/
+/*****************************************/
+	recipe	Install Paintball Canister
+	{
+		keep VM_68/Auto_Cocker/Tippmann_SL68,
+		M2A1_Can,
+		Screwdriver,
+		Result		: Screwdriver,
+		OnTest		: Install_PB_Can_Test,
+		OnCreate	: Install_Paintball_Canister,
+		Category	: Firearm,
+		Sound		: OverFill,
+		Time		: 40.0,
+	}
+	recipe	Remove Paintball Canister
+	{
+		keep VM_68/Auto_Cocker/Tippmann_SL68,
+		keep Screwdriver,
+		Result		: M2A1_Can,
+		OnTest		: Remove_PB_Can_Test,
+		OnCreate	: Remove_Paintball_Canister,
+		Category	: Firearm,
+		Sound		: OverFill,
+		Time		: 40.0,
+	}
+
+	recipe	Prepare Canister to Refill
+	{
+		Standard_PB_Can,
+		keep Screwdriver,
+		Result		: M2A1_Can,
+		Category	: Firearm,
+		Sound		: SolventTrap_Adapter,
+		Time		: 40.0,
+	}
+
+
+	recipe	Install CO2 Cartridge
+	{
+		keep UmarexSS/Sheridan_PGP,
+		CO2_Cartridge,
+		Screwdriver,
+		Result		: Screwdriver,
+		OnTest		: Install_PB_Can_Test,
+		OnCreate	: Install_Paintball_Canister,
+		Category	: Firearm,
+		Sound		: OverFill,
+		Time		: 40.0,
+	}
+	recipe	Remove CO2 Cartridge
+	{
+		keep UmarexSS/Sheridan_PGP,
+		keep Screwdriver,
+		Result		: CO2_Cartridge_Used,
+		OnTest		: Remove_PB_Can_Test,
+		OnCreate	: Remove_Paintball_Canister,
+		Category	: Firearm,
+		Sound		: OverFill,
+		Time		: 40.0,
+	}
+
+
+/*****************************************/
+/**	CLAYMORE MODE			**/
+/*****************************************/
+	recipe	Set Detonation Mode (Remote)
+	{
+		Explosive_Claymore_P,
+		Result		: Explosive_Claymore_R,
+		Category	: Firearm,
+		Sound		: TransAmmo,
+		Time		: 10,
+	}
+	recipe	Set Detonation Mode (Proximity)
+	{
+		Explosive_Claymore_R,
+		Result		: Explosive_Claymore_P,
+		Category	: Firearm,
+		Sound		: TransAmmo,
+		Time		: 10,
+	}
+
+
+/*****************************************/
+/**	WEAPON LIGHT BATTERY		**/
+/*****************************************/
+/*
+	recipe	Toggle Laser Color (DVAL-A2 Laser Device)
+	{
+		Laser_DVAL/Laser_DVAL_ON,
+		Result		: Laser_DVAL,
+		OnCreate	: Toggle_Weapon_Laser,
+		Time		: 10,
+		Sound		: LightSaber_Charge,
+	}
+	recipe	Toggle Laser Color (AN/PEQ-15 Laser Device)
+	{
+		Laser_PEQ15/Laser_PEQ15_ON,
+		Result		: Laser_PEQ15,
+		OnCreate	: Toggle_Weapon_Laser,
+		Time		: 10,
+		Sound		: LightSaber_Charge,
+	}
+*/
+
+
+/*****************************************/
+/**	WEAPON LIGHT BATTERY		**/
+/*****************************************/
+	recipe	Charge Battery (DVAL-A2 Laser Device)
+	{
+		Laser_DVAL/Laser_DVAL_ON,
+		keep Battery,
+		Result		: Laser_DVAL,
+		OnCreate	: Charge_Weapon_Light,
+		Time		: 30,
+		Sound		: LightSaber_Charge,
+	}
+	recipe	Charge Battery (AN/PEQ-15 Laser Device)
+	{
+		Laser_PEQ15/Laser_PEQ15_ON,
+		keep Battery,
+		Result		: Laser_PEQ15,
+		OnCreate	: Charge_Weapon_Light,
+		Time		: 30,
+		Sound		: LightSaber_Charge,
+	}
+	recipe	Charge Battery (Socom LAM)
+	{
+		Light_Small_Socom/Light_Small_Socom_ON,
+		keep Battery,
+		Result		: Light_Small_Socom,
+		OnCreate	: Charge_Weapon_Light,
+		Time		: 30,
+		Sound		: LightSaber_Charge,
+	}
+	recipe	Charge Battery (Small Weapon-Light)
+	{
+		Light_Small,
+		keep Battery,
+		Result		: Light_Small,
+		OnCreate	: Charge_Weapon_Light,
+		Time		: 30,
+		Sound		: LightSaber_Charge,
+	}
+	recipe	Charge Battery (Large Weapon-Light)
+	{
+		Light_Large,
+		keep Battery,
+		Result		: Light_Large,
+		OnCreate	: Charge_Weapon_Light,
+		Time		: 30,
+		Sound		: LightSaber_Charge,
+	}
+	recipe	Charge Battery (M900 Weapon-Light)
+	{
+		Light_Medium_M900,
+		keep Battery,
+		Result		: Light_Medium_M900,
+		OnCreate	: Charge_Weapon_Light,
+		Time		: 30,
+		Sound		: LightSaber_Charge,
+	}
+	recipe	Charge Battery (TLR-7AH Weapon-Light)
+	{
+		Light_Small_TLR_7AH,
+		keep Battery,
+		Result		: Light_Small_TLR_7AH,
+		OnCreate	: Charge_Weapon_Light,
+		Time		: 30,
+		Sound		: LightSaber_Charge,
+	}
+	recipe	Charge Battery (M925V Weapon-Light)
+	{
+		Light_Medium_M952V,
+		keep Battery,
+		Result		: Light_Medium_M952V,
+		OnCreate	: Charge_Weapon_Light,
+		Time		: 30,
+		Sound		: LightSaber_Charge,
+	}
+	recipe	Charge Battery (Red Laser-Sight)
+	{
+		Laser_Red/Laser_Red_ON,
+		keep Battery,
+		Result		: Laser_Red,
+		OnCreate	: Charge_Weapon_Light,
+		Time		: 30,
+		Sound		: LightSaber_Charge,
+	}
+	recipe	Charge Battery (Green Laser-Sight)
+	{
+		Laser_Green/Laser_Green_ON,
+		keep Battery,
+		Result		: Laser_Green,
+		OnCreate	: Charge_Weapon_Light,
+		Time		: 30,
+		Sound		: LightSaber_Charge,
+	}
+
+
+/*****************************************/
+/**	ARCHERY RECOVER ARROW		**/
+/*****************************************/
+	recipe	Craft Arrow from Archery Components
+	{
+		Arrow_Head,
+		Shaft_Fiberglass,
+		Arrow_Fletching = 3,
+		Glue = 1,
+		Result		: Arrow_Fiberglass,
+		Category	: Firearm,
+		Sound		: PutItemInBag,
+		Time		: 100.0,
+		NeedToBeLearn	: true,
+		SkillRequired	: Woodwork=2,
+	}
+	recipe	Craft Bolt from Archery Components
+	{
+		Arrow_Head,
+		Shaft_Carbon,
+		Arrow_Fletching = 3,
+		Glue = 1,
+		Result		: Bolt_Bear,
+		Category	: Firearm,
+		Sound		: PutItemInBag,
+		Time		: 100.0,
+		NeedToBeLearn	: true,
+		SkillRequired	: Woodwork=3,
+	}
+	recipe	Recover Archery Components from Bolt
+	{
+		Bolt_Bear_Broken/Bolt_Bear,
+		Result		: Arrow_Fletching,
+		Category	: Firearm,
+		Sound		: PutItemInBag,
+		OnCreate	: Recover_Archery_Components,
+		Time		: 50.0,
+		NeedToBeLearn	: true,
+	}
+	recipe	Recover Archery Components from Arrow
+	{
+		Arrow_Fiberglass_Broken/Arrow_Fiberglass,
+		Result		: Arrow_Fletching,
+		Category	: Firearm,
+		Sound		: PutItemInBag,
+		OnCreate	: Recover_Archery_Components,
+		Time		: 50.0,
+		NeedToBeLearn	: true,
+	}
+
+
+/*********************************/
+/**	FIRE EXTINGUISHER	**/
+/*********************************/
+	recipe	Use Fire Extinguisher as Weapon
+	{
+		Base.Extinguisher,
+		Result		: Base.FireExtinguisher,
+		Category	: Firearm,
+		Sound		: PutItemInBag,
+		OnCreate	: Equip_FireExtinguisher,
+		Time		: 5.0,
+	}
+
+	recipe	Use Fire Extinguisher as Tool
+	{
+		Base.FireExtinguisher,
+		Result		: Base.Extinguisher,
+		Category	: Firearm,
+		Sound		: PutItemInBag,
+		OnCreate	: UnEquip_FireExtinguisher,
+		Time		: 5.0,
+	}
+
+
+/*********************************/
+/**	SOLVENT TRAP		**/
+/*********************************/
+	recipe	Make Solvent Trap
+	{
+		Base.SolventTrap_Adapter,
+		Base.Oil_Filter,
+		Result		: Base.Suppressor_Oil,
+		Category	: Firearm,
+		Sound		: SolventTrap_Adapter,
+		Time		: 100.0,
+	}
+
+/*********************************/
+/**	MIX AMMO		**/
+/*********************************/
+	recipe	Mix 223 & 556
+	{
+		Base.223Bullets,
+		Result		: Base.556Bullets,
+		Category	: Firearm,
+		Sound		: TransAmmo,
+		Time		: 1.0,
+	}
+	recipe	Mix 556 & 223
+	{
+		Base.556Bullets,
+		Result		: Base.223Bullets,
+		Category	: Firearm,
+		Sound		: TransAmmo,
+		Time		: 1.0,
+	}
+
+	recipe	Mix 762x51 & 308
+	{
+		Base.762x51Bullets,
+		Result		: Base.308Bullets,
+		Category	: Firearm,
+		Sound		: TransAmmo,
+		Time		: 1.0,
+	}
+	recipe	Mix 308 & 762x51
+	{
+		Base.308Bullets,
+		Result		: Base.762x51Bullets,
+		Category	: Firearm,
+		Sound		: TransAmmo,
+		Time		: 1.0,
+	}
+
+/*********************************/
+/**	VANILLA M14 CLIP	**/
+/*********************************/
+	recipe	Convert M14 Mag
+	{
+		Base.M14Clip,
+		Result		: Base.308ExtClip,
+		Category	: Firearm,
+		Sound		: TransAmmo,
+		Time		: 1.0,
+	}
+
+/*********************************/
+/**	MINIGUN CAN		**/
+/*********************************/
+	recipe Use AmmoCan as 5.56x45mm Minigun Magazine
+	{
+		AmmoCan50_EMPTY/AmmoCan50_223/AmmoCan50_556/AmmoCan50_762x39/AmmoCan50_308/AmmoCan50_762x51/AmmoCan50_762x54r/AmmoCan50_3006/AmmoCan50_50/AmmoCan50_410/AmmoCan50_20/AmmoCan50_12/AmmoCan50_10/AmmoCan50_4/AmmoCan50_MIX/AmmoCan50_SHOT/AmmoCan50_HE/AmmoCan50_INC,
+	/*	556Belt	= 1,		*/
+		Result		: 556MiniCan,
+		Category	: Firearm,
+		Sound		: StormyM249ClipLoad,
+		Time		: 80.0,
+		OnTest		: EmptyCan_Test,	
+	}
+
+	recipe Use AmmoCan as .308 Minigun Magazine
+	{
+		AmmoCan50_EMPTY/AmmoCan50_223/AmmoCan50_556/AmmoCan50_762x39/AmmoCan50_308/AmmoCan50_762x51/AmmoCan50_762x54r/AmmoCan50_3006/AmmoCan50_50/AmmoCan50_410/AmmoCan50_20/AmmoCan50_12/AmmoCan50_10/AmmoCan50_4/AmmoCan50_MIX/AmmoCan50_SHOT/AmmoCan50_HE/AmmoCan50_INC,
+	/*	556Belt	= 1,		*/
+		Result		: 308MiniCan,
+		Category	: Firearm,
+		Sound		: StormyM249ClipLoad,
+		Time		: 80.0,
+		OnTest		: EmptyCan_Test,	
+	}
+
+	recipe Use AmmoCan as .50-BMG Minigun Magazine
+	{
+		AmmoCan50_EMPTY/AmmoCan50_223/AmmoCan50_556/AmmoCan50_762x39/AmmoCan50_308/AmmoCan50_762x51/AmmoCan50_762x54r/AmmoCan50_3006/AmmoCan50_50/AmmoCan50_410/AmmoCan50_20/AmmoCan50_12/AmmoCan50_10/AmmoCan50_4/AmmoCan50_MIX/AmmoCan50_SHOT/AmmoCan50_HE/AmmoCan50_INC,
+	/*	556Belt	= 1,		*/
+		Result		: 50MiniCan,
+		Category	: Firearm,
+		Sound		: StormyM249ClipLoad,
+		Time		: 80.0,
+		OnTest		: EmptyCan_Test,	
+	}
+
+	recipe Use Minigun Magazine as AmmoCan
+	{
+		556MiniCan/308MiniCan/50MiniCan,
+	/*	556Belt	= 1,		*/
+		Result		: AmmoCan50_EMPTY,
+		Category	: Firearm,
+		Sound		: StormyM249ClipLoad,
+		Time		: 80.0,
+		OnTest		: EmptyMag_Test,
+	}
+
+
+/*************************/
+/**	DIY SUPPRESSOR	**/
+/*************************/
+	recipe	Craft Pop Bottle Suppressor
+	{
+		PopBottleEmpty,
+		DuctTape = 2,
+		Result		: Suppressor_Bottle,
+		Category	: Firearm,
+		Sound		: PZ_DuctTape,
+		Time		: 100.0,
+	}
+
+
+/*************************/
+/**	CHOKE SET	**/
+/*************************/
+	recipe	Combine Dbl-Barrel Choke Set
+	{
+		Choke_Full = 2,
+		Result		: Choke_Full_Dbl,
+		Category	: Firearm,
+		Time		: 20.0,
+	}
+
+	recipe	Separate Dbl-Barrel Choke Set
+	{
+		Choke_Full_Dbl,
+		Result		: Choke_Full=2,
+		Category	: Firearm,
+		Time		: 20.0,
+	}
+
+
+/*************************/
+/**	MAG CONVERSION	**/
+/*************************/
+	recipe	Install CP33 (+17)Magbase
+	{			
+		CP33Clip,
+		CP33_17MagBase,
+		Result		: CP33ExtClip,
+		Category	: Firearm,
+		Sound		: StormyM1ClipLoad,
+		Time		: 50.0,
+		OnTest		: MagBase_Test,
+	}
+	recipe	Convert to AR-57 Brass Catch
+	{			
+		556Clip,
+		Result		: AR57_Brass_Catch,
+		Category	: Firearm,
+		Sound		: StormyM1ClipLoad,
+		Time		: 50.0,
+		OnTest		: EmptyMag_Test,
+	}
+
+/*************************/
+/**	TC BARRELS	**/
+/*************************/
+	recipe	Install 308 Barrel
+	{			
+		Thompson_Center_3006/Thompson_Center_4570,
+		Barrel_308,
+		Result		: Thompson_Center_308,
+		Category	: Firearm,
+		Sound		: StormyM1ClipLoad,
+		Time		: 200.0,
+		OnCreate	: Swap_Barrel,
+	}
+	recipe	Install 3006 Barrel
+	{			
+		Thompson_Center_308/Thompson_Center_4570,
+		Barrel_3006,
+		Result		: Thompson_Center_3006,
+		Category	: Firearm,
+		Sound		: StormyM1ClipLoad,
+		Time		: 200.0,
+		OnCreate	: Swap_Barrel,
+	}
+	recipe	Install 4570 Barrel
+	{			
+		Thompson_Center_3006/Thompson_Center_308,
+		Barrel_4570,
+		Result		: Thompson_Center_4570,
+		Category	: Firearm,
+		Sound 		: StormyM1ClipLoad,
+		Time		: 200.0,
+		OnCreate	: Swap_Barrel,
+	}
+
+
+/*************************/
+/**	NEF BARRELS	**/
+/*************************/
+	recipe	Install 45LC Barrel
+	{			
+		NEF_Handi_38/NEF_Handi_357/NEF_Handi_38_Sawed/NEF_Handi_357_Sawed,
+		Barrel_45LC,
+		Result		: NEF_Handi_45LC,
+		Category	: Firearm,
+		Sound		: StormyM1ClipLoad,
+		Time		: 200.0,
+		OnCreate	: Swap_Barrel,
+	}
+	recipe	Install 357 Barrel
+	{			
+		NEF_Handi_45LC/NEF_Handi_410/NEF_Handi_45LC_Sawed/NEF_Handi_410_Sawed,
+		Barrel_357,
+		Result		: NEF_Handi_357,
+		Category	: Firearm,
+		Sound		: StormyM1ClipLoad,
+		Time		: 200.0,
+		OnCreate	: Swap_Barrel,
+	}
+	recipe	Install 45LC Short Barrel
+	{			
+		NEF_Handi_38/NEF_Handi_357/NEF_Handi_38_Sawed/NEF_Handi_357_Sawed,
+		Barrel_45LC_Short,
+		Result 		: NEF_Handi_45LC_Sawed,
+		Category	: Firearm,
+		Sound		: StormyM1ClipLoad,
+		Time		: 200.0,
+		OnCreate	: Swap_Barrel,
+	}
+	recipe	Install 357 Short Barrel
+	{			
+		NEF_Handi_45LC/NEF_Handi_410/NEF_Handi_45LC_Sawed/NEF_Handi_410_Sawed,
+		Barrel_357_Short,
+		Result		: NEF_Handi_357_Sawed,
+		Category	: Firearm,
+		Sound		: StormyM1ClipLoad,
+		Time		: 200.0,
+		OnCreate	: Swap_Barrel,
+	}
+
+
+/*********************************/
+/**	MANUFACTURE AMMO	**/
+/*********************************/
+	recipe Make 5.7x28mm Ammunition
+	{
+		Brass57			= 1,
+		GunPowder		= 2,
+		PrimerSM		= 1,
+		Lead57			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.Bullets57,
+		Time			: 60.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 380-ACP Ammunition
+	{
+		Brass380		= 1,
+		GunPowder		= 2,
+		PrimerSM		= 1,
+		Lead9			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.Bullets380,
+		Time			: 60.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 9mm Ammunition
+	{
+		Brass9			= 1,
+		GunPowder		= 3,
+		PrimerSM		= 1,
+		Lead9			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.Bullets9mm,
+		Time			: 60.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 38-SPC Ammunition
+	{
+		Brass38			= 1,
+		GunPowder		= 4,
+		PrimerSM		= 1,
+		Lead38			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.Bullets38,
+		Time			: 60.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 357-MAG Ammunition
+	{
+		Brass357		= 1,
+		GunPowder		= 5,
+		PrimerSM		= 1,
+		Lead38			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.Bullets357,
+		Time			: 60.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 45-ACP Ammunition
+	{
+		Brass45			= 1,
+		GunPowder		= 4,
+		PrimerSM		= 1,
+		Lead45			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.Bullets45,
+		Time			: 60.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 45-LC Ammunition
+	{
+		Brass45LC		= 1,
+		GunPowder		= 6,
+		PrimerSM		= 1,
+		Lead45			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.Bullets45LC,
+		Time			: 60.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 44-MAG Ammunition
+	{
+		Brass44			= 1,
+		GunPowder		= 6,
+		PrimerSM		= 1,
+		Lead44			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.Bullets44,
+		Time			: 60.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 50-MAG Ammunition
+	{
+		Brass50MAG		= 1,
+		GunPowder		= 7,
+		PrimerLG		= 1,
+		Lead50			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.Bullets50MAG,
+		Time			: 65.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 45-70 GOV Ammunition
+	{
+		Brass4570		= 1,
+		GunPowder		= 7,
+		PrimerLG		= 1,
+		Lead45			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.Bullets4570,
+		Time			: 70.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 223-REM Ammunition
+	{
+		Brass223		= 1,
+		GunPowder		= 8,
+		PrimerSM		= 1,
+		Lead556			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.223Bullets,
+		Time			: 70.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 5.56x45mm Ammunition
+	{
+		Brass556		= 1,
+		GunPowder		= 8,
+		PrimerSM		= 1,
+		Lead556			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.556Bullets,
+		Time			: 70.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 5.45x39mm Ammunition
+	{
+		Brass545x39		= 1,
+		GunPowder		= 9,
+		PrimerLG		= 1,
+		Lead545			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.545x39Bullets,
+		Time			: 70.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 7.62x39mm Ammunition
+	{
+		Brass762x39		= 1,
+		GunPowder		= 9,
+		PrimerLG		= 1,
+		Lead30			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.762x39Bullets,
+		Time			: 70.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 308-WIN Ammunition
+	{
+		Brass308		= 1,
+		GunPowder		= 10,
+		PrimerLG		= 1,
+		Lead30			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.308Bullets,
+		Time			: 75.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 7.62x51mm Ammunition
+	{
+		Brass762x51		= 1,
+		GunPowder		= 10,
+		PrimerLG		= 1,
+		Lead30			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.762x51Bullets,
+		Time			: 75.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 7.62x54mm-R Ammunition
+	{
+		Brass762x54r		= 1,
+		GunPowder		= 11,
+		PrimerLG		= 1,
+		Lead30			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.762x54rBullets,
+		Time			: 75.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 30-06 SPG Ammunition
+	{
+		Brass3006		= 1,
+		GunPowder		= 11,
+		PrimerLG		= 1,
+		Lead30			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.3006Bullets,
+		Time			: 75.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 50-BMG Ammunition
+	{
+		Brass50BMG		= 1,
+		GunPowder		= 20,
+		PrimerLG		= 1,
+		Lead50			= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.50BMGBullets,
+		Time			: 80.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 410g ShotShell
+	{
+		Hull410g		= 1,
+		GunPowder		= 12,
+		PrimerSG		= 1,
+		Lead00Buck		= 5,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.410gShotgunShells,
+		Time			: 60.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 20g ShotShell
+	{
+		Hull20g			= 1,
+		GunPowder		= 14,
+		PrimerSG		= 1,
+		Lead00Buck		= 7,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.20gShotgunShells,
+		Time			: 70.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 12g ShotShell
+	{
+		Hull12g			= 1,
+		GunPowder		= 16,
+		PrimerSG		= 1,
+		Lead00Buck		= 9,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.ShotgunShells,
+		Time			: 70.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 10g ShotShell
+	{
+		Hull10g			= 1,
+		GunPowder		= 18,
+		PrimerSG		= 1,
+		Lead00Buck		= 12,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.10gShotgunShells,
+		Time			: 70.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+	recipe Make 4g ShotShell
+	{
+		Hull4g			= 1,
+		GunPowder		= 22,
+		PrimerSG		= 1,
+		Lead00Buck		= 15,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result			: Base.4gShotgunShells,
+		Time			: 80.0,
+		CanBeDoneFromFloor	: TRUE,
+		NeedToBeLearn		: true,
+	}
+
+
+/*****************************************/
+/**	DISASSEMBLE AMMO		**/
+/*****************************************/
+	recipe Scrap 5.7x28mm Ammunition
+	{
+		Base.Bullets57,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 40.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 380-ACP Ammunition
+	{
+		Base.Bullets380,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 40.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 9mm Ammunition
+	{
+		Base.Bullets9mm,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 40.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 38-SPC Ammunition
+	{
+		Base.Bullets38,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 40.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 357-MAG Ammunition
+	{
+		Base.Bullets357,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 40.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 45-ACP Ammunition
+	{
+		Base.Bullets45,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 40.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 45-LC Ammunition
+	{
+		Base.Bullets45LC,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 40.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 44-MAG Ammunition
+	{
+		Base.Bullets44,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 40.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 50-MAG Ammunition
+	{
+		Base.Bullets50MAG,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 45.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 45-70 GOV Ammunition
+	{
+		Base.Bullets4570,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 50.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 223-REM Ammunition
+	{
+		Base.223Bullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 50.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 5.56x45mm Ammunition
+	{
+		Base.556Bullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 50.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 5.45x39mm Ammunition
+	{
+		Base.545x39Bullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 50.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 7.62x39mm Ammunition
+	{
+		Base.762x39Bullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 50.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 308-WIN Ammunition
+	{
+		Base.308Bullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 50.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 7.62x51mm Ammunition
+	{
+		Base.762x51Bullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 50.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 7.62x54r Ammunition
+	{
+		Base.762x54rBullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 50.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 30-06 SPG Ammunition
+	{
+		Base.3006Bullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 50.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 50-BMG Ammunition
+	{
+		Base.50BMGBullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 60.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 410g Shotgun Shell
+	{
+		Base.410gShotgunShells,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 45.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 20g Shotgun Shell
+	{
+		Base.20gShotgunShells,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 50.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 12g Shotgun Shell
+	{
+		Base.ShotgunShells,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 50.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 10g Shotgun Shell
+	{
+		Base.10gShotgunShells,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 50.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 4g Shotgun Shell
+	{
+		Base.4gShotgunShells,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 60.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap Flare Round
+	{
+		Base.Flare,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 50.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+
+
+/*********************************/
+/**	PACKAGE SPENT CASE	**/
+/*********************************/
+	recipe Place 223-REM Cases in Bag
+	{
+		Base.Brass223		= 500,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass223,
+		Time			: 20.0,
+	}
+	recipe Place 5.56x45mm Cases in Bag
+	{
+		Base.Brass556		= 500,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass556,
+		Time			: 20.0,
+	}
+	recipe Place 5.45x39mm Cases in Bag
+	{
+		Base.Brass545x39	= 500,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass545x39,
+		Time			: 20.0,
+	}
+	recipe Place 7.62x39mm Cases in Bag
+	{
+		Base.Brass762x39	= 500,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass762x39,
+		Time			: 20.0,
+	}
+	recipe Place 308-WIN Cases in Bag
+	{
+		Base.Brass308		= 500,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass308,
+		Time			: 20.0,
+	}
+	recipe Place 7.62x51mm Cases in Bag
+	{
+		Base.Brass762x51	= 500,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass762x51,
+		Time			: 20.0,
+	}
+	recipe Place 7.62x54mm-R Cases in Bag
+	{
+		Base.Brass762x54r	= 500,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass762x54r,
+		Time			: 20.0,
+	}
+	recipe Place 30-06 SPG Cases in Bag
+	{
+		Base.Brass3006		= 500,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass3006,
+		Time			: 20.0,
+	}
+	recipe Place 50-BMG Cases in Bag
+	{
+		Base.Brass50BMG		= 250,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass50BMG,
+		Time			: 20.0,
+	}
+	recipe Place 22LR Cases in Bag
+	{
+		Base.Brass22		= 2000,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass22,
+		Time			: 20.0,
+	}
+	recipe Place 5.7x28mm Cases in Bag
+	{
+		Base.Brass57		= 1000,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass57,
+		Time			: 20.0,
+	}
+	recipe Place 380-ACP Cases in Bag
+	{
+		Base.Brass380		= 1000,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass380,
+		Time			: 20.0,
+	}
+	recipe Place 9x19mm Cases in Bag
+	{
+		Base.Brass9		= 1000,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass9,
+		Time			: 20.0,
+	}
+	recipe Place 38-SPC Cases in Bag
+	{
+		Base.Brass38		= 1000,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass38,
+		Time			: 20.0,
+	}
+	recipe Place 357-MAG Cases in Bag
+	{
+		Base.Brass357		= 1000,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass357,
+		Time			: 20.0,
+	}
+	recipe Place 45-ACP Cases in Bag
+	{
+		Base.Brass45		= 1000,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass45,
+		Time			: 20.0,
+	}
+	recipe Place 45-LC Cases in Bag
+	{
+		Base.Brass45LC		= 1000,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass45LC,
+		Time			: 20.0,
+	}
+	recipe Place 44-MAG Cases in Bag
+	{
+		Base.Brass44		= 1000,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass44,
+		Time			: 20.0,
+	}
+	recipe Place 45-70 GOV Cases in Bag
+	{
+		Base.Brass4570		= 500,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass4570,
+		Time			: 20.0,
+	}
+	recipe Place 50-MAG Cases in Bag
+	{
+		Base.Brass50MAG		= 500,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Brass50MAG,
+		Time			: 20.0,
+	}
+
+
+
+	recipe Place 410g Hulls in Bag
+	{
+		Base.Hull410g		= 250,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Hull410g,
+		Time			: 20.0,
+	}
+	recipe Place 20g Hulls in Bag
+	{
+		Base.Hull20g		= 250,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Hull20g,
+		Time			: 20.0,
+	}
+	recipe Place 12g Hulls in Bag
+	{
+		Base.Hull12g		= 250,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Hull12g,
+		Time			: 20.0,
+	}
+	recipe Place 10g Hulls in Bag
+	{
+		Base.Hull10g		= 250,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Hull10g,
+		Time			: 20.0,
+	}
+	recipe Place 4g Hulls in Bag
+	{
+		Base.Hull4g		= 100,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Bag_Hull4g,
+		Time			: 20.0,
+	}
+
+
+/*********************************/
+/**	OPEN BAG CASE		**/
+/*********************************/
+	recipe Open Bag 223-REM Cases
+	{
+		Bag_Brass223,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass223 = 500,
+		Time			: 20.0,
+	}
+	recipe Open Bag 5.56x45mm Cases
+	{
+		Bag_Brass556,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass556 = 500,
+		Time			: 20.0,
+	}
+	recipe Open Bag 5.45x39mm Cases
+	{
+		Bag_Brass545x39,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass545x39 = 500,
+		Time			: 20.0,
+	}
+	recipe Open Bag 762x39mm Cases
+	{
+		Bag_Brass762x39,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass762x39 = 500,
+		Time			: 20.0,
+	}
+	recipe Open Bag 308-WIN Cases
+	{
+		Bag_Brass308,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass308 = 500,
+		Time			: 20.0,
+	}
+	recipe Open Bag 7.62x51mm Cases
+	{
+		Bag_Brass762x51,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass762x51 = 500,
+		Time			: 20.0,
+	}
+	recipe Open Bag 762x54mm-R Cases
+	{
+		Bag_Brass762x54r,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass762x54r = 500,
+		Time			: 20.0,
+	}
+	recipe Open Bag 30-06 SPG Cases
+	{
+		Bag_Brass3006,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass3006 = 500,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 50-BMG Cases
+	{
+		Bag_Brass50BMG,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass50BMG = 250,
+		Time			: 20.0,
+	}
+
+
+
+	recipe Open Bag of 22LR Cases
+	{
+		Bag_Brass22,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass22 = 2000,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 5.7x28mm Cases
+	{
+		Bag_Brass57,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass57 = 1000,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 380-ACP Cases
+	{
+		Bag_Brass380,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass380 = 1000,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 9x19mm Cases
+	{
+		Bag_Brass9,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass9 = 1000,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 38-SPC Cases
+	{
+		Bag_Brass38,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass38 = 1000,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 357-MAG Cases
+	{
+		Bag_Brass357,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass357 = 1000,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 45-ACP Cases
+	{
+		Bag_Brass45,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass45 = 1000,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 45-LC Cases
+	{
+		Bag_Brass45LC,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass45LC = 1000,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 44-MAG Cases
+	{
+		Bag_Brass44,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass44 = 1000,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 45-70 GOV Cases
+	{
+		Bag_Brass4570,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass4570 = 500,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 50-MAG Cases
+	{
+		Bag_Brass50MAG,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Brass50MAG = 500,
+		Time			: 20.0,
+	}
+
+
+
+	recipe Open Bag of 410g Hulls
+	{
+		Bag_Hull410g,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Hull410g = 250,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 20g Hulls
+	{
+		Bag_Hull20g,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Hull20g = 250,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 12g Hulls
+	{
+		Bag_Hull12g,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Hull12g = 250,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 10g Hulls
+	{
+		Bag_Hull10g,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Hull10g = 250,
+		Time			: 20.0,
+	}
+	recipe Open Bag of 4g Hulls
+	{
+		Bag_Hull4g,
+		Sound			: PutItemInBag,
+		Category		: Firearm,
+		Result			: Hull4g = 100,
+		Time			: 20.0,
+	}
+
+
+/*********************************/
+/**	BAG CASE ITEMS		**/
+/*********************************/
+	item Bag_Brass22
+	{
+		DisplayCategory		= Components,
+		Weight			= 2.5,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (22LR),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass57
+	{
+		DisplayCategory		= Components,
+		Weight			= 5.0,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (5.7x28mm),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass380
+	{
+		DisplayCategory		= Components,
+		Weight			= 4.0,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (380-ACP),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass9
+	{
+		DisplayCategory		= Components,
+		Weight			= 5.0,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (9x19mm),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass38
+	{
+		DisplayCategory		= Components,
+		Weight			= 6.0,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (38-SPC),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass357
+	{
+		DisplayCategory		= Components,
+		Weight			= 6.5,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (357-MAG),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass45
+	{
+		DisplayCategory		= Components,
+		Weight			= 6.5,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (45-ACP),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass45LC
+	{
+		DisplayCategory		= Components,
+		Weight			= 7.0,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (45-LC),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass44
+	{
+		DisplayCategory		= Components,
+		Weight			= 7.0,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (44-MAG),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass4570
+	{
+		DisplayCategory		= Components,
+		Weight			= 6.5,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (45-70 GOV),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass50MAG
+	{
+		DisplayCategory		= Components,
+		Weight			= 6.5,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (50-MAG),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+
+
+	item Bag_Brass223
+	{
+		DisplayCategory		= Components,
+		Weight			= 3.75,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (223-REM),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass556
+	{
+		DisplayCategory		= Components,
+		Weight			= 3.75,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (5.56x45mm),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass545x39
+	{
+		DisplayCategory		= Components,
+		Weight			= 5.0,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (5.45x39mm),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass762x39
+	{
+		DisplayCategory		= Components,
+		Weight			= 5.0,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (7.62x39mm),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass308
+	{
+		DisplayCategory		= Components,
+		Weight			= 6.25,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (308-WIN),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass762x51
+	{
+		DisplayCategory		= Components,
+		Weight			= 6.25,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (7.62x51mm),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass762x54r
+	{
+		DisplayCategory		= Components,
+		Weight			= 6.75,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (7.62x54mm-R),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass3006
+	{
+		DisplayCategory		= Components,
+		Weight			= 7.0,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (30-06 SPG),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+	item Bag_Brass50BMG
+	{
+		DisplayCategory		= Components,
+		Weight			= 6.25,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Cases (50-BMG),
+        	Icon			= Brass_Bag,
+		WorldStaticModel	= W_Brass_Bag,
+	}
+
+
+	item Bag_Hull410g
+	{
+		DisplayCategory		= Components,
+		Weight			= 3.25,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Hulls (410g),
+        	Icon			= Hull_Bag,
+		WorldStaticModel	= W_Hull_Bag,
+	}
+	item Bag_Hull20g
+	{
+		DisplayCategory		= Components,
+		Weight			= 3.5,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Hulls (20g),
+        	Icon			= Hull_Bag,
+		WorldStaticModel	= W_Hull_Bag,
+	}
+	item Bag_Hull12g
+	{
+		DisplayCategory		= Components,
+		Weight			= 3.75,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Hulls (12g),
+        	Icon			= Hull_Bag,
+		WorldStaticModel	= W_Hull_Bag,
+	}
+	item Bag_Hull10g
+	{
+		DisplayCategory		= Components,
+		Weight			= 4.0,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Hulls (10g),
+        	Icon			= Hull_Bag,
+		WorldStaticModel	= W_Hull_Bag,
+	}
+	item Bag_Hull4g
+	{
+		DisplayCategory		= Components,
+		Weight			= 3.25,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Bag of Hulls (4g),
+        	Icon			= Hull_Bag,
+		WorldStaticModel	= W_Hull_Bag,
+	}
+}

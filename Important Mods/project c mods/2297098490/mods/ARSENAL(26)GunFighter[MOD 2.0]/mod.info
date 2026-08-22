@@ -1,0 +1,6 @@
+name=Arsenal(26) GunFighter [MAIN MOD 2.0]
+id=Arsenal(26)GunFighter[MAIN MOD 2.0]
+poster=preview.png
+description=GunFighter MAIN MOD
+pack=A26_Tiles
+tiledef=A26_Tiles 196
