@@ -1,0 +1,11 @@
+Sandbox_PL = {
+
+	Sandbox_ExpRecovery = "Odzyskiwanie punktów doświadczenia (XP)",
+
+	Sandbox_ExpRecovery_ExpSaveMultiplier = "Współczynnik ilości odzyskiwanych punktów XP",
+	Sandbox_ExpRecovery_ExpSaveMultiplier_tooltip = "Jaki procent niepozyskanych punktów zostanie nadrobiony",
+
+	Sandbox_ExpRecovery_DontSaveWhileReading = "Nie rejestruj punktów doświadcznia podczas czytania",
+	Sandbox_ExpRecovery_DontSaveWhileReading_tooltip = "Opcja kompatybilności z modami, które naliczają punkty doświadczenia w wyniku czytania książek/magazynów. Punkty ze źródła telewizyjnego (w tym VHS) nie zostaną zarejestrowane.",
+
+}

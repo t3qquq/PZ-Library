@@ -1,0 +1,11 @@
+Sandbox_ES = {
+
+	Sandbox_ExpRecovery = "Recuperador de experiencia",
+
+	Sandbox_ExpRecovery_ExpSaveMultiplier = "Multiplicador de la cantidad de experiencia guardada",
+	Sandbox_ExpRecovery_ExpSaveMultiplier_tooltip = "Porcentaje de experiencia guardado.",
+
+	Sandbox_ExpRecovery_DontSaveWhileReading = "No recuperar la experiencia perdida al leer",
+	Sandbox_ExpRecovery_DontSaveWhileReading_tooltip = "Compatibilidad con mods que dan experiencia al leer libros de habilidades/revistas. Tampoco se guardará la experiencia de VHS ni programas de TV.",
+
+}
