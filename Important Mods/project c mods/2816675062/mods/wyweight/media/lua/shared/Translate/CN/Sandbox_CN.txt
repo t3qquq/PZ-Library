@@ -1,0 +1,5 @@
+Sandbox_CN = {
+    Sandbox_wyweight = "修改额外负重",
+    Sandbox_wyweight_extraweight = "额外负重",
+    Sandbox_wyweight_extraweight_tooltip = "每100该数值增加158负重",
+}

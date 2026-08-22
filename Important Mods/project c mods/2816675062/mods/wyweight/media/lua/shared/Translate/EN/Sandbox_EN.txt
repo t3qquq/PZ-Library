@@ -1,0 +1,5 @@
+Sandbox_CN = {
+    Sandbox_wyweight = "extraweight",
+    Sandbox_wyweight_extraweight = "extraweight",
+    Sandbox_wyweight_extraweight_tooltip = "For every 100 of these values, add 158 weights",
+}
