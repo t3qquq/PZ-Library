@@ -1,0 +1,10 @@
+name=프로젝트 좀보이드 모드 한국어 번역팩 [PZ MKTP] - 야간투시경 호환패치
+poster=poster.png
+icon=lcon.png
+id=PZMKTP_NVGCompatibility
+authors=NukeMandu
+require=PZMKorTransPack,NVG,NVAPI
+description=<RGB:0.8,0.8,1>야간투시경 호환성 패치입니다. 배열을 반드시 MKTP보다 아래에 배치해 주세요. 야간투시경은 키보드 'N' 키로 켜고 끌 수 있습니다. <LINE> <LINE> 
+description=<RGB:1,1,0.3>호환 패치된 모드 목록 <LINE>
+description=<RGB:0.8,0.8,1>Brita's Armor Pack (2460154811) 
+description=<LINE>Shark's and Peach's Military Uniform Improvements (2530389024) 

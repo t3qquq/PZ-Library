@@ -1,0 +1,13 @@
+name=프로젝트 좀보이드 모드 한국어 번역팩 [PZ MKTP] - 브리타 웨폰팩&건파이터
+poster=poster.png
+icon=lcon.png
+id=PZMKTP_Brita
+authors=BLUmountain
+require=Brita,Arsenal(26)GunFighter
+description=<RGB:0.8,0.8,1>브리타 웨폰팩과 아스날 건파이터를 번역해 주는 번역팩 모드입니다. 모드 매니저를 이용해 반드시 배열을 가장 아래에 배치해 주세요. <LINE> <LINE>
+description=<RGB:1,0,0>프로젝트 좀보이드 모드 한국어 번역팩 [PZ MKTP] - Firearms B41 모드와 함께 사용 금지 <LINE> <LINE>
+description=<RGB:1,1,0.3>번역된 모드 목록 <LINE>
+description=<RGB:0.8,0.8,1>Brita's Weapon Pack (2200148440) 
+description=<LINE>Arsenal(26) GunFighter Mod (2297098490) 
+description=<LINE> <LINE>번역: BLUmountain <LINE>검수: BLUmountain, NukeMandu <LINE> 
+description=BLUmountain님이 번역 진행해 주셨습니다. 감사합니다. <LINE> 

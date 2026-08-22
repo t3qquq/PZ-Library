@@ -1,0 +1,10 @@
+name=프로젝트 좀보이드 모드 한국어 번역팩 [PZ MKTP] - Firearms B41
+poster=poster.png
+icon=lcon.png
+id=PZMKorTransPackFB41
+description=<RGB:0.8,0.8,1>파이어암즈 B41 번역 모드입니다. 모드 매니저를 이용해 반드시 배열을 가장 아래에 배치해 주세요. <LINE> <LINE>
+description=<RGB:1,0,0>프로젝트 좀보이드 모드 한국어 번역팩 [PZ MKTP] - 브리타 웨폰팩&건파이터 모드와 함께 사용 금지 <LINE> <LINE>
+description=<RGB:1,1,0.3>번역 모드 목록 <LINE>
+description=<RGB:0.8,0.8,1>Firearms B41 (2256623447) <LINE> <LINE> 
+require=firearmmod
+authors=NukeMandu
