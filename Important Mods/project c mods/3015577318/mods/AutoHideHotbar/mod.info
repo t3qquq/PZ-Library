@@ -1,0 +1,15 @@
+name=AutoHide Hotbar
+id=autohidehotbar
+description=Automatically hides the hotbar when driving
+icon=icon.png
+authors=peteR
+
+modversion=1.0
+versionMin=41.78
+tags=Build 41,Interface
+
+url=https://steamcommunity.com/id/peter_pg/
+
+poster=posters/poster.png
+poster=posters/poster1_gates.png
+poster=posters/poster2_install.png
