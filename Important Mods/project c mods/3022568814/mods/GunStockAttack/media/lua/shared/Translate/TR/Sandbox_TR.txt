@@ -1,0 +1,6 @@
+Sandbox_TR = {
+        Sandbox_GunStockAttackOption = "Dipçik Hasarý Ayarlarý",
+        Sandbox_GunStockAttackOption_Damage = "Dipçik Hasarý",
+        Sandbox_GunStockAttackOption_EnduranceLost = "Ekstra Azaltýlmýþ Dayanýklýlýk",
+        Sandbox_GunStockAttackOption_WeaponConditionLost = "Azaltýlmýþ Kondisyon",
+}

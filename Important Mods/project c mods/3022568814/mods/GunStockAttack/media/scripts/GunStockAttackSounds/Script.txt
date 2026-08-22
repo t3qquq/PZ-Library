@@ -1,0 +1,20 @@
+/* By SportXAI */
+module Base
+{
+	sound GunStockAttack_Swing
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/GunStockAttackSounds/Swing.wav,
+		}		
+	}
+	sound GunStockAttack_Hit
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/GunStockAttackSounds/Hit.wav,
+		}			
+	}
+}

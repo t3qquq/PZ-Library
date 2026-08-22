@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="FirearmDefault.xml">
+	<m_Name>FirearmShoveBehind</m_Name>
+
+	<m_Conditions />
+
+	<m_Conditions />
+
+	<m_Conditions />
+
+	<m_Conditions>
+		<m_Name>AttackFromBehind</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>		
+	</m_Conditions>
+
+	<m_Events>
+		<m_EventName>AttackCollisionCheck</m_EventName>
+		<m_TimePc>0.15</m_TimePc>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+</animNode>

@@ -1,0 +1,6 @@
+Sandbox_PL = {
+    Sandbox_GunStockAttackOption = "Ustawienia obra¿e?kolby",
+    Sandbox_GunStockAttackOption_Damage = "Obra¿enia od kolby",
+    Sandbox_GunStockAttackOption_EnduranceLost = "Dodatkowo Zmniejszona Wytrzyma³oœæ",
+    Sandbox_GunStockAttackOption_WeaponConditionLost = "Zmniejszony stan",
+}

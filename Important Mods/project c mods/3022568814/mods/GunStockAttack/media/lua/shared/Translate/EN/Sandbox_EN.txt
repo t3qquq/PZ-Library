@@ -1,0 +1,8 @@
+Sandbox_EN = {
+    Sandbox_GunStockAttackOption = "Gun Stock Attack Options",
+    Sandbox_GunStockAttackOption_Damage = "Damage",
+    Sandbox_GunStockAttackOption_EnduranceLost = "Player Endurance Lost Per Hit Zombie",
+    Sandbox_GunStockAttackOption_WeaponConditionLost = "Weapon Condition Lost Per Hit Zombie",
+    Sandbox_GunStockAttackOption_RifleSpeed = "Two Handed Gun Shove Speed",
+    Sandbox_GunStockAttackOption_PistolSpeed = "One Handed Gun Shove Speed",
+}

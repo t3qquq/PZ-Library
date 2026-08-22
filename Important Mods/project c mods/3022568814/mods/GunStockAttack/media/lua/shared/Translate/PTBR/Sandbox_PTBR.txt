@@ -1,0 +1,6 @@
+Sandbox_PTBR = {
+        Sandbox_GunStockAttackOption = "Configura‡„o de dano da coronhada",
+        Sandbox_GunStockAttackOption_Damage = "Dano da Coronhada",
+        Sandbox_GunStockAttackOption_EnduranceLost = "Resistˆncia Extra Reduzida",
+        Sandbox_GunStockAttackOption_WeaponConditionLost = "Condi‡„o Reduzida",
+}

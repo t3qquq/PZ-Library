@@ -1,0 +1,8 @@
+Sandbox_CN = {
+    Sandbox_GunStockAttackOption = "枪托伤害设置",
+    Sandbox_GunStockAttackOption_Damage = "伤害",
+    Sandbox_GunStockAttackOption_EnduranceLost = "每次击打僵尸减少的玩家耐力",
+    Sandbox_GunStockAttackOption_WeaponConditionLost = "每次击打僵尸减少的武器耐久",
+    Sandbox_GunStockAttackOption_RifleSpeed = "双手枪支攻击速度",
+    Sandbox_GunStockAttackOption_PistolSpeed = "单手枪支攻击速度",
+}

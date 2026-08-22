@@ -1,0 +1,6 @@
+Sandbox_TH = {
+        Sandbox_GunStockAttackOption = "การโจมตีด้วยด้ามปืน",
+        Sandbox_GunStockAttackOption_Damage = "พลังโจมตีของพานท้ายปืน",
+        Sandbox_GunStockAttackOption_EnduranceLost = "ลดความอดทนเมื่อโจมตี",
+        Sandbox_GunStockAttackOption_WeaponConditionLost = "ลดสภาพของอาวุธเมื่อโจมตี",
+}

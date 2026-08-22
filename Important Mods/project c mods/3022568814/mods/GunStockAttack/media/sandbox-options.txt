@@ -1,0 +1,51 @@
+VERSION = 1,
+
+option GunStockAttackOption.Damage
+{
+    type = double,
+    min = 0,
+    max = 200,
+    default = 5.0,
+    page = GunStockAttackOption,
+    translation = GunStockAttackOption_Damage,
+}
+
+option GunStockAttackOption.EnduranceLost
+{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 0.005,
+    page = GunStockAttackOption,
+    translation = GunStockAttackOption_EnduranceLost,
+}
+
+option GunStockAttackOption.WeaponConditionLost
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 1,
+    page = GunStockAttackOption,
+    translation = GunStockAttackOption_WeaponConditionLost,
+}
+
+option GunStockAttackOption.RifleSpeed
+{
+    type = double,
+    min = 0,
+    max = 10,
+    default = 1.34,
+    page = GunStockAttackOption,
+    translation = GunStockAttackOption_RifleSpeed,
+}
+
+option GunStockAttackOption.PistolSpeed
+{
+    type = double,
+    min = 0,
+    max = 10,
+    default = 1.24,
+    page = GunStockAttackOption,
+    translation = GunStockAttackOption_PistolSpeed,
+}
