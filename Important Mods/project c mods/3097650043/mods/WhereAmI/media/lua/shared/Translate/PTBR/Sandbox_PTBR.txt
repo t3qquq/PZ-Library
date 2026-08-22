@@ -1,0 +1,5 @@
+Sandbox_PTBR = {
+    Sandbox_WhereAmI = "Onde estou",
+    Sandbox_WhereAmI_HideUIOffRegion = "Ocultar quando fora das regiões",
+    Sandbox_WhereAmI_HideUIOffRegion_tooltip = "Se ativado, o indicador de região não aparecerá quando um jogador estiver fora de qualquer região conhecida.",
+}

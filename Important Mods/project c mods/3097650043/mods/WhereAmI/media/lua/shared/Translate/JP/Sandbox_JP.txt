@@ -1,0 +1,5 @@
+Sandbox_JP = {
+    Sandbox_WhereAmI = "どこにいますか",
+    Sandbox_WhereAmI_HideUIOffRegion = "領域外の際にUI非表示",
+    Sandbox_WhereAmI_HideUIOffRegion_tooltip = "有効にすると、プレイヤーが既知の領域外にいるときには、領域インジケータがまったく表示されません。",
+}

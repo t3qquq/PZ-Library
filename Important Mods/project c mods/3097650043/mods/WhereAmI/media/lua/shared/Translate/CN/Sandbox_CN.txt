@@ -1,0 +1,5 @@
+Sandbox_CN = {
+    Sandbox_WhereAmI = "我在哪里",
+    Sandbox_WhereAmI_HideUIOffRegion = "离开区域时隐藏UI",
+    Sandbox_WhereAmI_HideUIOffRegion_tooltip = "如果启用，当玩家在任何已知区域之外时，区域指示器将完全不显示。",
+}

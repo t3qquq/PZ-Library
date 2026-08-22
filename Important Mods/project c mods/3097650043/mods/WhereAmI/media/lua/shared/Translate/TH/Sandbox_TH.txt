@@ -1,0 +1,5 @@
+Sandbox_TH = {
+    Sandbox_WhereAmI = "ที่ไหน",
+    Sandbox_WhereAmI_HideUIOffRegion = "ซ่อนเมื่ออยู่นอกพื้นที่",
+    Sandbox_WhereAmI_HideUIOffRegion_tooltip = "หากเปิดใช้งาน, ตัวบ่งชี้พื้นที่จะไม่ปรากฏเลยเมื่อผู้เล่นอยู่นอกพื้นที่ที่ทราบ.",
+}

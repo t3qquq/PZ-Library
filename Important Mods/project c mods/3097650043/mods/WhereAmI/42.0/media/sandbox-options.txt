@@ -1,0 +1,9 @@
+VERSION = 1,
+
+option WhereAmI.HideUIOffRegion
+{
+    type = boolean,
+    default = false,
+    page = WhereAmI,
+    translation = WhereAmI_HideUIOffRegion,
+}

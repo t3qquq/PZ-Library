@@ -1,0 +1,5 @@
+Sandbox_ES = {
+    Sandbox_WhereAmI = "¿Dónde estoy?",
+    Sandbox_WhereAmI_HideUIOffRegion = "Ocultar cuando esté fuera de las regiones",
+    Sandbox_WhereAmI_HideUIOffRegion_tooltip = "Si está habilitado, el indicador de región no aparecerá en absoluto cuando un jugador esté fuera de cualquier región conocida.",
+}

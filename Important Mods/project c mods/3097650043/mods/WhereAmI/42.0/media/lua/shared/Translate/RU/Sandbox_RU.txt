@@ -1,0 +1,5 @@
+Sandbox_RU = {
+    Sandbox_WhereAmI = "Где я",
+    Sandbox_WhereAmI_HideUIOffRegion = "Скрыть при вне регионов",
+    Sandbox_WhereAmI_HideUIOffRegion_tooltip = "Если включено, индикатор региона не будет отображаться, когда игрок находится вне известных регионов.",
+}

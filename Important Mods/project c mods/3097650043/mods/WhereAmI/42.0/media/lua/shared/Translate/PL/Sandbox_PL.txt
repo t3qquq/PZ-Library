@@ -1,0 +1,5 @@
+Sandbox_PL = {
+    Sandbox_WhereAmI = "Gdzie jestem",
+    Sandbox_WhereAmI_HideUIOffRegion = "Ukryj poza obszarami",
+    Sandbox_WhereAmI_HideUIOffRegion_tooltip = "Jeœli w³¹czone, wskaŸnik obszaru nie pojawi siê w ogóle, gdy Gracz bêdzie poza znanymi obszarami.",
+}
