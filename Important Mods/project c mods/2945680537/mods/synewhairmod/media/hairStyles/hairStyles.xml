@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+<!--Male-->
+
+	
+	
+<!--Female-->
+	
+	<female><name>IdolHair1</name>
+		<model>skinned\hair\sy_idol_01</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="IdolHair1" />
+		<alternate category="Group01" style="IdolHair1" />
+		<alternate category="Group02" style="IdolHair1" />
+		<alternate category="Group03" style="IdolHair1" />
+		<alternate category="Group04" style="IdolHair1" />
+		<level>3</level>
+	</female>
+	<female><name>IdolHair2</name>
+		<model>skinned\hair\sy_idol_02</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="IdolHair2" />
+		<alternate category="Group01" style="IdolHair2" />
+		<alternate category="Group02" style="IdolHair2" />
+		<alternate category="Group03" style="IdolHair2" />
+		<alternate category="Group04" style="IdolHair2" />
+		<level>3</level>
+	</female>
+	<female><name>IdolHair3</name>
+		<model>skinned\hair\sy_idol_03</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="IdolHair3" />
+		<alternate category="Group01" style="IdolHair3" />
+		<alternate category="Group02" style="IdolHair3" />
+		<alternate category="Group03" style="IdolHair3" />
+		<alternate category="Group04" style="IdolHair3" />
+		<level>3</level>
+	</female>
+	<female><name>IdolHair4</name>
+		<model>skinned\hair\sy_idol_04</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="IdolHair4" />
+		<alternate category="Group01" style="IdolHair4" />
+		<alternate category="Group02" style="IdolHair4" />
+		<alternate category="Group03" style="IdolHair4" />
+		<alternate category="Group04" style="IdolHair4" />
+		<level>3</level>
+	</female>
+	<female><name>IdolHair5</name>
+		<model>skinned\hair\sy_idol_05</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="IdolHair5" />
+		<alternate category="Group01" style="IdolHair5" />
+		<alternate category="Group02" style="IdolHair5" />
+		<alternate category="Group03" style="IdolHair5" />
+		<alternate category="Group04" style="IdolHair5" />
+		<level>3</level>
+	</female>
+	<female><name>IdolHair6</name>
+		<model>skinned\hair\sy_idol_06</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="IdolHair6" />
+		<alternate category="Group01" style="IdolHair6" />
+		<alternate category="Group02" style="IdolHair6" />
+		<alternate category="Group03" style="IdolHair6" />
+		<alternate category="Group04" style="IdolHair6" />
+		<level>3</level>
+	</female>
+	<female><name>IdolHair7</name>
+		<model>skinned\hair\sy_idol_07</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="IdolHair7" />
+		<alternate category="Group01" style="IdolHair7" />
+		<alternate category="Group02" style="IdolHair7" />
+		<alternate category="Group03" style="IdolHair7" />
+		<alternate category="Group04" style="IdolHair7" />
+		<level>3</level>
+	</female>
+	<female><name>IdolHair8</name>
+		<model>skinned\hair\sy_idol_08</model>
+		<texture>F_Hair_White2</texture>
+		<alternate category="default" style="IdolHair8" />
+		<alternate category="Group01" style="IdolHair8" />
+		<alternate category="Group02" style="IdolHair8" />
+		<alternate category="Group03" style="IdolHair8" />
+		<alternate category="Group04" style="IdolHair8" />
+		<level>3</level>
+	</female>
+<!--Hat-->
+
+
+	
+</hairStyles>
