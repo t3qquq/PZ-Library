@@ -1,0 +1,6 @@
+UI_EN = {
+    UI_ESIM_MERGE = "Merge",
+    UI_ESIM_MERGEALL = "Merge all",
+    UI_ESIM_LEAVEEMPTY = "leave empty",
+    UI_ESIM_FILLTHIS = "Fill this",
+}
