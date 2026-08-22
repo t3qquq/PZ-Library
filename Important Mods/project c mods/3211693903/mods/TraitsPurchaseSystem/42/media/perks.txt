@@ -1,0 +1,72 @@
+VERSION = 1,
+
+perk TraitsPurchaseSystem
+{
+	parent = None,
+	translation = TraitsPurchaseSystem,
+	passive = false,
+	xp1 = 0,
+	xp2 = 0,
+	xp3 = 0,
+	xp4 = 0,
+	xp5 = 0,
+	xp6 = 0,
+	xp7 = 0,
+	xp8 = 0,
+	xp9 = 0,
+	xp10 = 0,
+}
+
+perk Traits1
+{
+	parent = TraitsPurchaseSystem,
+    name = Traits1,
+	translation = Traits1,
+	passive = true,
+	xp1 = 60,
+	xp2 = 60,
+	xp3 = 60,
+	xp4 = 60,
+	xp5 = 60,
+	xp6 = 60,
+	xp7 = 60,
+	xp8 = 60,
+	xp9 = 60,
+	xp10 = 60,
+}
+
+perk Traits2
+{
+	parent = TraitsPurchaseSystem,
+    name = Traits2,
+	translation = Traits2,
+	passive = true,
+	xp1 = 60,
+	xp2 = 60,
+	xp3 = 60,
+	xp4 = 60,
+	xp5 = 60,
+	xp6 = 60,
+	xp7 = 60,
+	xp8 = 60,
+	xp9 = 60,
+	xp10 = 60,
+}
+
+perk Traits3
+{
+	parent = TraitsPurchaseSystem,
+    name = Traits3,
+	translation = Traits3,
+	passive = true,
+	xp1 = 60,
+	xp2 = 60,
+	xp3 = 60,
+	xp4 = 60,
+	xp5 = 60,
+	xp6 = 60,
+	xp7 = 60,
+	xp8 = 60,
+	xp9 = 60,
+	xp10 = 60,
+}

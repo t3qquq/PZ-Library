@@ -1,0 +1,31 @@
+VERSION = 1,
+
+option TraitsPurchaseSystem.XPMultiplier = {
+	type = double,
+    min = 0.001,
+    max = 10,
+    default = 1,
+	page = TraitsPurchaseSystem,
+}
+
+option TraitsPurchaseSystem.XPperZombieKill = {
+	type = integer,
+    min = 0,
+    max = 10,
+    default = 1,
+	page = TraitsPurchaseSystem,
+}
+
+option TraitsPurchaseSystem.XPperPerkLevelup = {
+	type = integer,
+    min = 0,
+    max = 90,
+    default = 10,
+	page = TraitsPurchaseSystem,
+}
+
+option TraitsPurchaseSystem.TraitsBlockList = {
+	type = string,
+	default = ,
+	page = TraitsPurchaseSystem,
+}
