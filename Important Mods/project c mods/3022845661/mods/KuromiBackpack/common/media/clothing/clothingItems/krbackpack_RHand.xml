@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\krbackpack_RHand</m_MaleModel>
+	<m_FemaleModel>Skinned\krbackpack_RHand</m_FemaleModel>
+	<m_GUID>b6811051-e154-47b1-a757-73a220f451d8</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothing\krbackpack</textureChoices>
+</clothingItem>

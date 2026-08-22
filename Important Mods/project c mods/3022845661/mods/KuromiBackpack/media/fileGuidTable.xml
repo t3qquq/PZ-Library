@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+		<path>media/clothing/clothingItems/kuromibackpack.xml</path>
+		<guid>bac2af51-7e52-4056-bf12-109a2e9352d5</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/kuromibackpack_LHand.xml</path>
+		<guid>5e7a04c5-83e1-4018-bd79-41ffe99ddc3a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/kuromibackpack_RHand.xml</path>
+		<guid>a53facb0-b735-4def-aff0-c5d701bb3f73</guid>
+	</files>
+
+
+
+	<files>
+		<path>media/clothing/clothingItems/hellokittybackpack.xml</path>
+		<guid>73f6c819-204f-412b-8526-161cd154134d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/hkbackpack_LHand.xml</path>
+		<guid>1ee2e74c-ed2f-43f9-ab1c-ef9d7f6d50e8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/hkbackpack_RHand.xml</path>
+		<guid>5772e0b3-9a74-48e3-98d6-733ea6f967c8</guid>
+	</files>
+
+
+
+	<files>
+		<path>media/clothing/clothingItems/mymelodybackpack.xml</path>
+		<guid>820225f3-bbb6-4303-a716-203751bad575</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/mmbackpack_LHand.xml</path>
+		<guid>19966a64-38ca-42d3-af2e-f3f1f3f319fe</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/mmbackpack_RHand.xml</path>
+		<guid>56227d04-d314-4aa4-8406-dd178190c2e9</guid>
+	</files>
+
+
+
+	<files>
+		<path>media/clothing/clothingItems/cinnamorollbackpack.xml</path>
+		<guid>a8772ec3-1bcf-4ae8-b53a-79d3bf3e6b6a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/crbackpack_LHand.xml</path>
+		<guid>53de3d11-2fc4-4088-b45d-fb8c51b6e623</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/crbackpack_RHand.xml</path>
+		<guid>0a6460b7-d714-42b4-9105-d9480cd24505</guid>
+	</files>
+
+
+
+	<files>
+		<path>media/clothing/clothingItems/badtzmarubackpack.xml</path>
+		<guid>aa3d5a5b-ea7b-4911-9933-cff30b53cf61</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/bmbackpack_LHand.xml</path>
+		<guid>e3edcfe6-b2cf-4533-aa11-8a9da350cd5a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/bmbackpack_RHand.xml</path>
+		<guid>76a0ced5-50e7-4d9c-bcdd-cb54f2732355</guid>
+	</files>
+
+
+
+	<files>
+		<path>media/clothing/clothingItems/keroppibackpack.xml</path>
+		<guid>0a9726f4-2292-49f3-9d31-3c769b89091e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/krbackpack_LHand.xml</path>
+		<guid>2891ecd8-cf42-43d6-a40d-58068908edc8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/krbackpack_RHand.xml</path>
+		<guid>b6811051-e154-47b1-a757-73a220f451d8</guid>
+	</files>
+
+
+
+	<files>
+		<path>media/clothing/clothingItems/pompompurinbackpack.xml</path>
+		<guid>d97d3472-6d10-4834-96ef-fc6670b602e2</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/pompompurinbackpack_LHand.xml</path>
+		<guid>9cdfa969-41f8-43ed-a05c-23eab129ba79</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/pompompurinbackpack_RHand.xml</path>
+		<guid>002c1a42-de66-4413-814f-17f7d1844b06</guid>
+	</files>
+</fileGuidTable>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\kuromibackpack_RHand</m_MaleModel>
+	<m_FemaleModel>Skinned\kuromibackpack_RHand</m_FemaleModel>
+	<m_GUID>a53facb0-b735-4def-aff0-c5d701bb3f73</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothing\kuromibackpack</textureChoices>
+</clothingItem>
