@@ -1,0 +1,6 @@
+name=Customizable Ammo Weight
+description=[B41] Customize ammunition and magazine weights with automatic detection for items added by the base game and weapon mods.
+id=AmmoWeightRemoval
+author=dane
+poster=poster.png
+
