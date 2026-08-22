@@ -1,0 +1,4 @@
+ContextMenu_RU = {
+	ContextMenu_FoodType_Wine = "Вино",
+	ContextMenu_WineMaking_Skill = "Виноделие",
+}

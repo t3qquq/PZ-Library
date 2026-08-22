@@ -1,0 +1,5 @@
+ContextMenu_ES = 
+{
+	ContextMenu_FoodType_Beer = "Cerveza",
+	ContextMenu_Brewing_Skill = "Sumiller de cerveza",
+}

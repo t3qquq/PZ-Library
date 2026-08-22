@@ -1,0 +1,636 @@
+module Base
+{
+	model Keg
+	{
+		mesh = Keg,
+		texture = WorldItems/Keg,
+		scale = 0.6,
+	}
+
+	model Keg_Ground
+	{
+		mesh = WorldItems/Keg,
+		texture = WorldItems/Keg,
+		scale = 0.6,
+	}
+
+	model Carboy
+	{
+		mesh = Carboy,
+		texture = WorldItems/Carboy,
+		scale = 0.6,
+	}
+
+	model Carboy_Ground
+	{
+		mesh = WorldItems/Carboy,
+		texture = WorldItems/Carboy,
+		scale = 0.6,
+	}
+
+	model CarboyWater
+	{
+		mesh = Carboy,
+		texture = WorldItems/CarboyWater,
+		scale = 0.6,
+	}
+
+	model CarboyWater_Ground
+	{
+		mesh = WorldItems/Carboy,
+		texture = WorldItems/CarboyWater,
+		scale = 0.6,
+	}
+
+	model CarboyHalfWater
+	{
+		mesh = WorldItems/Carboy,
+		texture = WorldItems/CarboyHalfWater,
+		scale = 0.6,
+	}
+
+	model CarboyFermentingLightBeer
+	{
+		mesh = WorldItems/Carboy,
+		texture = WorldItems/CarboyFermentingLightBeer,
+		scale = 0.6,
+	}
+
+	model CarboyFermentingDarkBeer
+	{
+		mesh = WorldItems/Carboy,
+		texture = WorldItems/CarboyFermentingDarkBeer,
+		scale = 0.6,
+	}
+
+	model CarboyFermentingLightBeerDryHopped
+	{
+		mesh = WorldItems/Carboy,
+		texture = WorldItems/CarboyFermentingLightBeerDryHopped,
+		scale = 0.6,
+	}
+
+	model CarboyFermentingDarkBeerDryHopped
+	{
+		mesh = WorldItems/Carboy,
+		texture = WorldItems/CarboyFermentingDarkBeerDryHopped,
+		scale = 0.6,
+	}
+
+	model CarboyLightBeer
+	{
+		mesh = WorldItems/Carboy,
+		texture = WorldItems/CarboyLightBeer,
+		scale = 0.6,
+	}
+
+	model CarboyDarkBeer
+	{
+		mesh = WorldItems/Carboy,
+		texture = WorldItems/CarboyDarkBeer,
+		scale = 0.6,
+	}
+    
+	model CarboyLightBeerDryHopped
+	{
+		mesh = WorldItems/Carboy,
+		texture = WorldItems/CarboyLightBeerDryHopped,
+		scale = 0.6,
+	}
+
+	model CarboyDarkBeerDryHopped
+	{
+		mesh = WorldItems/Carboy,
+		texture = WorldItems/CarboyDarkBeerDryHopped,
+		scale = 0.6,
+	}
+	model CarboyHalfLightBeer
+	{
+		mesh = WorldItems/Carboy,
+		texture = WorldItems/CarboyHalfLightBeer,
+		scale = 0.6,
+	}
+
+	model CarboyHalfDarkBeer
+	{
+		mesh = WorldItems/Carboy,
+		texture = WorldItems/CarboyHalfDarkBeer,
+		scale = 0.6,
+	}
+
+    	model CookingPotBrew
+   	{
+      	mesh = CookingPotFull,
+      	texture = WorldItems/CookingPotBrew,
+       	scale = 0.4,
+   	}
+
+    	model CookingPotBrew_Ground
+   	{
+      	mesh = WorldItems/CookingPotFull,
+      	texture = WorldItems/CookingPotBrew,
+       	scale = 0.4,
+   	}
+
+   	model BrewingKit_Ground
+   	{
+     		mesh = WorldItems/BrewingKit,
+		texture = WorldItems/BrewingKit,
+        	scale = 0.4,
+    	}
+
+	model MuslinBag
+	{
+		mesh = WorldItems/MuslinBag,
+		texture = WorldItems/MuslinBag,
+		scale = 0.6,
+	}
+
+	model BottleCap
+	{
+		mesh = WorldItems/BottleCap,
+		texture = WorldItems/BottleCap,
+		scale = 0.6,
+	}
+
+	model BottleCapBag
+	{
+		mesh = WorldItems/MuslinBag,
+		texture = WorldItems/BottleCapBag,
+		scale = 0.6,
+	}
+
+	model MaltExtractDark
+	{
+		mesh = WorldItems/MaltExtract,
+		texture = WorldItems/MaltExtractDark,
+		scale = 0.6,
+	}
+
+	model MaltExtractLight
+	{
+		mesh = WorldItems/MaltExtract,
+		texture = WorldItems/MaltExtractLight,
+		scale = 0.6,
+	}
+
+	model BottleCapper
+	{
+		mesh = WorldItems/BottleCapper,
+		texture = WorldItems/BottleCapper,
+		scale = 0.6,
+	}
+
+	model CanSealer
+	{
+		mesh = WorldItems/CanSealer,
+		texture = WorldItems/CanSealer,
+		scale = 0.6,
+	}
+
+	model MagazineHomeBrew1_Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineHomeBrew1,
+        scale = 0.4,
+    }
+
+	model MagazineHomeBrew2_Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineHomeBrew2,
+        scale = 0.4,
+    }
+
+	model MagazineHomeBrew3_Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineHomeBrew3,
+        scale = 0.4,
+    }
+
+	model MagazineHomeBrew4_Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineHomeBrew4,
+        scale = 0.4,
+    }
+
+	model MagazineHomeBrew5_Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineHomeBrew5,
+        scale = 0.4,
+    }
+
+	model BeerBottleAmericanLager
+    {
+       	mesh = BeerBottleHand,
+        texture = WorldItems/BeerBottleAmericanLager,
+    }
+
+	model BeerBottleAPA1
+    {
+        mesh = BeerBottleHand,
+        texture = WorldItems/BeerBottleAPA1,
+    }
+
+	model BeerBottleAPA2
+    {
+        mesh = BeerBottleHand,
+        texture = WorldItems/BeerBottleAPA2,
+    }
+
+	model BeerBottleIPA1
+    {
+        mesh = BeerBottleHand,
+        texture = WorldItems/BeerBottleIPA1,
+   	}
+
+	model BeerBottleIPA2
+    {
+        mesh = BeerBottleHand,
+    	texture = WorldItems/BeerBottleIPA2,
+    }
+
+	model BeerBottleLightLager
+	{
+        mesh = BeerBottleHand,
+    	texture = WorldItems/BeerBottleLightLager,
+    }
+
+	model BeerBottleLightLagerEmpty
+	{
+        mesh = BeerBottleHand,
+    	texture = WorldItems/BeerBottleLightLagerEmpty,
+    }
+
+	model BeerBottleLightLagerWater
+	{
+        mesh = BeerBottleHand,
+    	texture = WorldItems/BeerBottleLightLagerWater,
+    }
+
+	model BeerBottlePilsner
+    {
+      	mesh = BeerBottleHand,
+        texture = WorldItems/BeerBottlePilsner,
+    }
+
+	model BeerBottlePorter
+    {	
+        mesh = BeerBottleHand,
+        texture = WorldItems/BeerBottlePorter,
+    }
+
+	model BeerBottleStout
+    {
+    	mesh = BeerBottleHand,
+        texture = WorldItems/BeerBottleStout,
+    }
+
+	model BeerBottleSkunked
+    {
+    	mesh = BeerBottleHand,
+        texture = WorldItems/BeerBottleSkunked,
+    }
+
+	model BeerCanAmericanLager
+    {
+       	mesh = BeerCanSmallHand,
+        texture = WorldItems/BeerCanAmericanLager,
+    }
+
+	model BeerCanAPA1
+	{
+       	mesh = BeerCanSmallHand,
+        texture = WorldItems/BeerCanAPA1,
+    }
+
+	model BeerCanAPA2
+    {
+       	mesh = BeerCanSmallHand,
+        texture = WorldItems/BeerCanAPA2,
+    }
+
+	model BeerCanIPA1
+    {
+       	mesh = BeerCanTallHand,
+        texture = WorldItems/BeerCanIPA1,
+    }
+
+	model BeerCanIPA2
+    {
+       	mesh = BeerCanSmallHand,
+        texture = WorldItems/BeerCanIPA2,
+    }
+
+	model BeerCanLightLager
+    {
+       	mesh = BeerCanSmallHand,
+        texture = WorldItems/BeerCanLightLager,
+    }
+
+	model BeerCanPilsner
+    {
+       	mesh = BeerCanSmallHand,
+        texture = WorldItems/BeerCanPilsner,
+    }
+
+	model BeerCanPorter
+    {
+       	mesh = BeerCanSmallHand,
+        texture = WorldItems/BeerCanPorter,
+    }
+
+	model BeerCanStout
+    {
+       	mesh = BeerCanTallHand,
+        texture = WorldItems/BeerCanStout,
+    }
+
+	model BeerCanSkunked
+    {
+       	mesh = BeerCanTallHand,
+        texture = WorldItems/BeerCanSkunked,
+    }
+
+	model BeerBottleAmericanLager_Ground
+    {
+       	mesh = WorldItems/BeerBottle,
+        texture = WorldItems/BeerBottleAmericanLager,
+    }
+
+	model BeerBottleAPA1_Ground
+    {
+        mesh = WorldItems/BeerBottle,
+        texture = WorldItems/BeerBottleAPA1,
+    }
+
+	model BeerBottleAPA2_Ground
+    {
+        mesh = WorldItems/BeerBottle,
+        texture = WorldItems/BeerBottleAPA2,
+    }
+
+	model BeerBottleIPA1_Ground
+    {
+        mesh = WorldItems/BeerBottle,
+        texture = WorldItems/BeerBottleIPA1,
+   	}
+
+	model BeerBottleIPA2_Ground
+    {
+        mesh = WorldItems/BeerBottle,
+    	texture = WorldItems/BeerBottleIPA2,
+    }
+
+	model BeerBottleLightLager_Ground
+	{
+        mesh = WorldItems/BeerBottle,
+    	texture = WorldItems/BeerBottleLightLager,
+    }
+
+	model BeerBottleLightLagerEmpty_Ground
+	{
+        mesh = WorldItems/BeerBottle,
+    	texture = WorldItems/BeerBottleLightLagerEmpty,
+    }
+
+	model BeerBottleLightLagerWater_Ground
+	{
+        mesh = WorldItems/BeerBottle,
+    	texture = WorldItems/BeerBottleLightLagerWater,
+    }
+
+	model BeerBottlePilsner_Ground
+    {
+      	mesh = WorldItems/BeerBottle,
+        texture = WorldItems/BeerBottlePilsner,
+    }
+
+	model BeerBottlePorter_Ground
+    {	
+        mesh = WorldItems/BeerBottle,
+        texture = WorldItems/BeerBottlePorter,
+    }
+
+	model BeerBottleStout_Ground
+    {
+    	mesh = WorldItems/BeerBottle,
+        texture = WorldItems/BeerBottleStout,
+    }
+
+	model BeerBottleSkunked_Ground
+    {
+    	mesh = WorldItems/BeerBottle,
+        texture = WorldItems/BeerBottleSkunked,
+    }
+
+	model BeerCanAmericanLager_Ground
+    {
+       	mesh = WorldItems/BeerCanSmall,
+        texture = WorldItems/BeerCanAmericanLager,
+    }
+
+	model BeerCanAPA1_Ground
+	{
+       	mesh = WorldItems/BeerCanSmall,
+        texture = WorldItems/BeerCanAPA1,
+    }
+
+	model BeerCanAPA2_Ground
+    {
+       	mesh = WorldItems/BeerCanSmall,
+        texture = WorldItems/BeerCanAPA2,
+    }
+
+	model BeerCanIPA1_Ground
+    {
+       	mesh = WorldItems/BeerCanTall,
+        texture = WorldItems/BeerCanIPA1,
+    }
+
+	model BeerCanIPA2_Ground
+    {
+       	mesh = WorldItems/BeerCanSmall,
+        texture = WorldItems/BeerCanIPA2,
+    }
+
+	model BeerCanLightLager_Ground
+    {
+       	mesh = WorldItems/BeerCanSmall,
+        texture = WorldItems/BeerCanLightLager,
+    }
+
+	model BeerCanPilsner_Ground
+    {
+       	mesh = WorldItems/BeerCanSmall,
+        texture = WorldItems/BeerCanPilsner,
+    }
+
+	model BeerCanPorter_Ground
+    {
+       	mesh = WorldItems/BeerCanSmall,
+        texture = WorldItems/BeerCanPorter,
+    }
+
+	model BeerCanStout_Ground
+    {
+       	mesh = WorldItems/BeerCanTall,
+        texture = WorldItems/BeerCanStout,
+    }
+
+	model BeerCanSkunked_Ground
+    {
+       	mesh = WorldItems/BeerCanTall,
+        texture = WorldItems/BeerCanSkunked,
+    }
+
+    model BeerCanEmptyAmericanLager
+	{
+		mesh = WorldItems/EmptyBeerCanSmall,
+		texture = WorldItems/BeerCanAmericanLager,
+		scale = 0.4,
+	}
+
+    model BeerCanEmptyAPA1
+	{
+		mesh = WorldItems/EmptyBeerCanSmall,
+		texture = WorldItems/BeerCanAPA1,
+		scale = 0.4,
+	}
+
+    model BeerCanEmptyAPA2
+	{
+		mesh = WorldItems/EmptyBeerCanSmall,
+		texture = WorldItems/BeerCanAPA2,
+		scale = 0.4,
+	}
+
+    model BeerCanEmptyIPA1
+	{
+		mesh = WorldItems/EmptyBeerCanTall,
+		texture = WorldItems/BeerCanIPA1,
+		scale = 0.4,
+	}
+
+    model BeerCanEmptyIPA2
+	{
+		mesh = WorldItems/EmptyBeerCanSmall,
+		texture = WorldItems/BeerCanIPA2,
+		scale = 0.4,
+	}
+
+    model BeerCanEmptyLightLager
+	{
+		mesh = WorldItems/EmptyBeerCanSmall,
+		texture = WorldItems/BeerCanLightLager,
+		scale = 0.4,
+	}
+
+    model BeerCanEmptyPilsner
+	{
+		mesh = WorldItems/EmptyBeerCanSmall,
+		texture = WorldItems/BeerCanPilsner,
+		scale = 0.4,
+	}
+
+    model BeerCanEmptyPorter
+	{
+		mesh = WorldItems/EmptyBeerCanSmall,
+		texture = WorldItems/BeerCanPorter,
+		scale = 0.4,
+	}
+
+    model BeerCanEmptyStout
+	{
+		mesh = WorldItems/EmptyBeerCanTall,
+		texture = WorldItems/BeerCanStout,
+		scale = 0.4,
+	}
+
+    model BeerCanEmptySkunked
+	{
+		mesh = WorldItems/EmptyBeerCanTall,
+		texture = WorldItems/BeerCanSkunked,
+		scale = 0.4,
+	}
+
+ model HopsCascade_Ground
+    {
+        mesh = WorldItems/HopsPacket,
+        texture = WorldItems/HopsCascade,
+        scale = 0.4,
+    }
+
+    model HopsCentennial_Ground
+    {
+        mesh = WorldItems/HopsPacket,
+        texture = WorldItems/HopsCentennial,
+        scale = 0.4,
+    }
+
+    model HopsCitra_Ground
+    {
+        mesh = WorldItems/HopsPacket,
+        texture = WorldItems/HopsCitra,
+        scale = 0.4,
+    }
+
+    model HopsGolding_Ground
+    {
+        mesh = WorldItems/HopsPacket,
+        texture = WorldItems/HopsGolding,
+        scale = 0.4,
+    }
+
+    model HopsHallertau_Ground
+    {
+        mesh = WorldItems/HopsPacket,
+        texture = WorldItems/HopsHallertau,
+       	scale = 0.4,
+    }
+
+    model HopsMosaic_Ground
+    {
+        mesh = WorldItems/HopsPacket,
+        texture = WorldItems/HopsMosaic,
+        scale = 0.4,
+    }
+
+    model HopsNugget_Ground
+    {
+        mesh = WorldItems/HopsPacket,
+        texture = WorldItems/HopsNugget,
+        scale = 0.4,
+    }
+
+    model HopsSaaz_Ground
+    {
+        mesh = WorldItems/HopsPacket,
+        texture = WorldItems/HopsSaaz,
+        scale = 0.4,
+    }
+
+    model HopsSimcoe_Ground
+    {
+        mesh = WorldItems/HopsPacket,
+        texture = WorldItems/HopsSimcoe,
+        scale = 0.4,
+    }
+
+    model BookCyan_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/BookCyan,
+        scale = 0.4,
+    }
+
+	model BrewingInstructions
+    {
+        mesh = WorldItems/Map,
+        texture = WorldItems/BrewingInstructions,
+        scale = 0.5,
+    }
+}

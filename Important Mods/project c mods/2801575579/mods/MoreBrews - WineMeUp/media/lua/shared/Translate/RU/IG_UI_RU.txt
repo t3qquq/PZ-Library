@@ -1,0 +1,8 @@
+IGUI_RU =
+{
+	IGUI_perks_Libations = "Мастерство возлияний",
+	IGUI_perks_WineMaking = "Виноделие",
+	IGUI_CraftCategory_MoreBrews =  "Алкоголь",
+	IGUI_ItemCat_MoreBrews = "Алкоголь",
+	IGUI_ItemCat_CraftWineMaking = "Крафт - Виноделие",
+}

@@ -1,0 +1,4 @@
+UI_EN = {
+    UI_trait_vintner        = "Vintner",
+    UI_trait_vintnerinfo    = "You know all about Wine making - gives +2 to Wine Making Skill",
+}

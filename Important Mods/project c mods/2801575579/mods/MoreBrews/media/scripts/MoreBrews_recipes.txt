@@ -1,0 +1,1059 @@
+module MoreBrews
+{
+
+    /************************ GENERAL ************************/
+
+    recipe Smash Bottle
+    {
+        [Recipe.GetItemTypes.EmptyBeerBottle],
+
+    	Result                  :SmashedBottle,
+        Time                    :20,
+        Sound                   :BreakGlassItem,
+    }
+
+	recipe Unpack Brewing Kit
+	{
+	   	BrewingKit=1,
+
+		Result                  :EmptyCarboy,
+		Time                    :60.0,
+        Category                :MoreBrews,
+        Sound                   :OpenBag,
+        AnimNode                :craft,
+        StopOnWalk              :True,
+        CanBeDoneFromFloor      :False,
+		NeedToBeLearn           :False,
+        OnGiveXP                :Recipe.OnGiveXP.None,
+		OnCreate                :MoreBrews.BrewingSupplies,
+	}
+
+    /************************ CREATE WORTS ************************/
+
+    recipe Create American Lager Wort
+    {
+        HopsHallertau,
+        MaltExtractLight,
+	    destroy WaterPot,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :WortAmericanLager,
+        Time                    :150,
+       	Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+	    SkillRequired           :Brewing=3,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25,       
+    }	
+
+    recipe Create APA1 Wort
+    {
+        HopsSimcoe,
+        MaltExtractDark,
+	    destroy WaterPot,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :WortAPA1,
+        Time                    :150,
+       	Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+        SkillRequired           :Brewing=5,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Create APA2 Wort
+    {
+        HopsSimcoe,
+        MaltExtractLight,
+	    destroy WaterPot,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :WortAPA2,
+        Time                    :150,
+       	Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+        SkillRequired           :Brewing=5,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Create IPA1 Wort
+    {
+        HopsCentennial,
+        MaltExtractLight,
+	    destroy WaterPot,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :WortIPA1,
+        Time                    :150,
+       	Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+        SkillRequired           :Brewing=5,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Create IPA2 Wort
+    {
+        HopsCentennial,
+        MaltExtractDark,
+	    destroy WaterPot,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :WortIPA2,
+        Time                    :150,
+       	Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+        SkillRequired           :Brewing=5,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Create Light Lager Wort
+    {
+        HopsCascade,
+        MaltExtractLight,
+	    destroy WaterPot,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :WortLightLager,
+        Time                    :150,
+       	Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+        SkillRequired           :Brewing=3,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Create Pilsner Wort
+    {
+        HopsSaaz,
+        MaltExtractLight,
+	    destroy WaterPot,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :WortPilsner,
+        Time                    :150,
+       	Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Create Porter Wort
+    {
+        HopsGolding,
+        MaltExtractDark,
+	    destroy WaterPot,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :WortPorter,
+        Time                    :150,
+       	Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+        SkillRequired           :Brewing=1,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Create Stout Wort
+    {
+        HopsNugget,
+        MaltExtractDark,
+	    destroy WaterPot,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :WortStout,
+        Time                    :150,
+       	Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+        SkillRequired           :Brewing=1,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    /************************ FERMENTING ************************/
+
+    recipe Prep to Ferment American Lager Beer
+    {
+        WortAmericanLager,
+        EmptyCarboy,
+	    Yeast=5,
+        [Recipe.GetItemTypes.Sugar],
+        Water=8,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :CarboyFermentingAmericanLager,
+	    OnCreate                :GetPot,
+        Time                    :150,
+        Cookable                :true,
+	    AddIngredientIfCooked   :true,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnCanPerform            :Recipe.OnCanPerform.PrepFerment,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+	    SkillRequired           :Brewing=3,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }
+
+    recipe Prep to Ferment Dark American Pale Ale Beer
+    {
+        WortAPA1,
+        EmptyCarboy,
+        Yeast=5,
+        [Recipe.GetItemTypes.Sugar],
+        Water=8,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :CarboyFermentingAPA1,
+	    OnCreate                :GetPot,
+        Time                    :150,
+        Cookable                :true,
+	    AddIngredientIfCooked   :true,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnCanPerform            :Recipe.OnCanPerform.PrepFerment,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+	    SkillRequired           :Brewing=5,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }
+
+    recipe Prep to Ferment Light American Pale Ale Beer
+    {
+        WortAPA2,
+        EmptyCarboy,
+        Yeast=5,
+        [Recipe.GetItemTypes.Sugar],
+        Water=8,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :CarboyFermentingAPA2,
+	    OnCreate                :GetPot,
+        Time                    :150,
+        Cookable                :true,
+	    AddIngredientIfCooked   :true,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnCanPerform            :Recipe.OnCanPerform.PrepFerment,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+	    SkillRequired           :Brewing=5,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }
+
+
+    recipe Prep to Ferment Light India Pale Ale Beer
+    {
+        WortIPA1,
+        EmptyCarboy,
+        Yeast=5,
+        [Recipe.GetItemTypes.Sugar],
+        Water=8,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :CarboyFermentingIPA1,
+	    OnCreate                :GetPot,
+        Time                    :150,
+	    AddIngredientIfCooked   :true,
+        Cookable                :true,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnCanPerform            :Recipe.OnCanPerform.PrepFerment,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+ 	    SkillRequired           :Brewing=5,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }
+
+    recipe Prep to Ferment Dark India Pale Ale Beer
+    {
+        WortIPA2,
+        EmptyCarboy,
+        Yeast=5,
+        [Recipe.GetItemTypes.Sugar],
+        Water=8,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :CarboyFermentingIPA2,
+	    OnCreate                :GetPot,
+        Time                    :150,
+	    AddIngredientIfCooked   :true,
+        Cookable                :true,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnCanPerform            :Recipe.OnCanPerform.PrepFerment,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+	    SkillRequired           :Brewing=5,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }
+
+    recipe Prep to Ferment Light Lager Beer
+    {
+        WortLightLager,
+        EmptyCarboy,
+        Yeast=5,
+        [Recipe.GetItemTypes.Sugar],
+        Water=8,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :CarboyFermentingLightLager,
+	    OnCreate                :GetPot,
+        Time                    :150,
+	    AddIngredientIfCooked   :true,
+        Cookable                :true,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnCanPerform            :Recipe.OnCanPerform.PrepFerment,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+	    SkillRequired           :Brewing=3,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }
+
+    recipe Prep to Ferment Pilsner Beer
+    {
+        WortPilsner,
+        EmptyCarboy,
+        Yeast=5,
+        [Recipe.GetItemTypes.Sugar],
+        Water=8,
+
+        Result                  :CarboyFermentingPilsner,
+	    OnCreate                :GetPot,
+        Time                    :150,
+        CanBeDoneFromFloor      :true,
+	    AddIngredientIfCooked   :true,
+        Cookable                :true,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnCanPerform            :Recipe.OnCanPerform.PrepFerment,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }
+
+    recipe Prep to Ferment Porter Beer
+    {
+        WortPorter,
+        EmptyCarboy,
+        Yeast=5,
+        [Recipe.GetItemTypes.Sugar],
+        Water=8,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :CarboyFermentingPorter,
+	    OnCreate                :GetPot,
+        Time                    :150,
+	    AddIngredientIfCooked   :true,
+        Cookable                :true,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnCanPerform            :Recipe.OnCanPerform.PrepFerment,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+	    SkillRequired           :Brewing=1,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }
+
+    recipe Prep to Ferment Stout Beer
+    {
+        WortStout,
+        EmptyCarboy,
+        Yeast=5,
+        [Recipe.GetItemTypes.Sugar],
+        Water=8,
+
+        CanBeDoneFromFloor      :True,
+        Result                  :CarboyFermentingStout,
+	    OnCreate                :GetPot,
+        Time                    :150,
+        Cookable                :true,
+	    AddIngredientIfCooked   :true,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    OnCanPerform            :Recipe.OnCanPerform.PrepFerment,
+	    OnTest                  :Recipe.OnTest.NotTaintedWater,
+	    SkillRequired           :Brewing=1,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }
+
+    recipe Dry Hop for Secondary Fermenting Dark American Pale Ale Beer
+    {
+        HopsCitra/HopsMosaic,
+	    destroy CarboyAPA1,	
+
+        CanBeDoneFromFloor      :True,
+        Result                  :CarboyFermentingAPA1DryHopped,
+        Time                    :100,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=5,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }
+
+    recipe Dry Hop for Secondary Fermenting Light American Pale Ale Beer
+    {
+        HopsCitra/HopsMosaic,
+	    destroy CarboyAPA2,	
+
+        CanBeDoneFromFloor      :True,
+        Result                  :CarboyFermentingAPA2DryHopped,
+        Time                    :100,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=5,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }
+
+    recipe Dry Hop for Secondary Fermenting Light India Pale Ale Beer
+    {
+        HopsCitra/HopsMosaic,
+	    destroy CarboyIPA1,	
+
+        CanBeDoneFromFloor      :True,
+        Result                  :CarboyFermentingIPA1DryHopped,
+        Time                    :100,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=5,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }
+
+    recipe Dry Hop for Secondary Fermenting Dark India Pale Ale Beer
+    {
+        HopsCitra/HopsMosaic,
+	    destroy CarboyIPA2,	
+
+        CanBeDoneFromFloor      :True,
+        Result                  :CarboyFermentingIPA2DryHopped,
+        Time                    :100,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=5,
+      	OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }
+
+    /************************ Dumping ************************/
+
+    recipe Dump Wort
+    {
+        [Recipe.GetItemTypes.BeerWort],
+
+        CanBeDoneFromFloor      :True,
+        Result                  :Pot,
+        Time                    :100,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :false,
+    }
+
+    recipe Dump Keg
+    {
+        destroy [Recipe.GetItemTypes.BeerKeg],
+
+        CanBeDoneFromFloor      :True,
+        Result                  :EmptyKeg,
+        Time                    :120,
+        Category                :MoreBrews,
+        NeedToBeLearn           :false,
+    }
+
+    recipe Dump Carboy
+    {
+        destroy [Recipe.GetItemTypes.BeerCarboy],
+
+        CanBeDoneFromFloor      :True,
+        Result                  :EmptyCarboy,
+        Time                    :120,
+        Category                :MoreBrews,
+        NeedToBeLearn           :false,
+    }
+
+    /************************ FILLING KEGS ************************/
+    recipe Fill American Lager Keg
+    {
+        CarboyAmericanLager,
+        destroy EmptyKeg,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :KegAmericanLager,
+	    OnCreate                :GetCarboy,
+        Time                    :150,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnTest                  :Recipe.OnTest.FullCarboy,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Fill APA1 Keg
+    {
+        CarboyAPA1DryHopped,
+        destroy EmptyKeg,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :KegAPA1,
+	    OnCreate                :GetCarboy,
+        Time                    :150,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnTest                  :Recipe.OnTest.FullCarboy,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Fill APA2 Keg
+    {
+        CarboyAPA2DryHopped,
+        destroy EmptyKeg,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :KegAPA2,
+	    OnCreate                :GetCarboy,
+        Time                    :150,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnTest                  :Recipe.OnTest.FullCarboy,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Fill IPA1 Keg
+    {
+        CarboyIPA1DryHopped,
+        destroy EmptyKeg,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :KegIPA1,
+	    OnCreate                :GetCarboy,
+        Time                    :150,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnTest                  :Recipe.OnTest.FullCarboy,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Fill IPA2 Keg
+    {
+        CarboyIPA2DryHopped,
+        destroy EmptyKeg,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :KegIPA2,
+	    OnCreate                :GetCarboy,
+        Time                    :150,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnTest                  :Recipe.OnTest.FullCarboy,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Fill Light Lager Keg
+    {
+        CarboyLightLager,
+        destroy EmptyKeg,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :KegLightLager,
+	    OnCreate                :GetCarboy,
+        Time                    :150,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnTest                  :Recipe.OnTest.FullCarboy,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Fill Pilsner Keg
+    {
+        CarboyPilsner,
+        destroy EmptyKeg,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :KegPilsner,
+	    OnCreate                :GetCarboy,
+        Time                    :150,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnTest                  :Recipe.OnTest.FullCarboy,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Fill Porter Keg
+    {
+        CarboyPorter,
+        destroy EmptyKeg,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :KegPorter,
+	    OnCreate                :GetCarboy,
+        Time                    :150,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnTest                  :Recipe.OnTest.FullCarboy,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Fill Stout Keg
+    {
+        CarboyStout,
+        destroy EmptyKeg,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :KegStout,
+	    OnCreate                :GetCarboy,
+        Time                    :150,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnTest                  :Recipe.OnTest.FullCarboy,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    recipe Fill Skunked Keg
+    {
+        CarboySkunkedDark/CarboySkunkedLight,
+        destroy EmptyKeg,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :KegSkunked,
+	    OnCreate                :GetCarboy,
+        Time                    :150,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnTest                  :Recipe.OnTest.FullCarboy,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }	
+
+    /************************ FILLING BEER BOTTLES ************************/
+
+    recipe Fill Bottle with American Lager
+    {
+        KegAmericanLager/CarboyAmericanLager/CarboyAmericanLagerTapped,
+        BeerEmpty/[Recipe.GetItemTypes.EmptyBeerBottle],
+        BottleCap,
+        keep BottleCapper,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :BeerBottleAmericanLager,
+        Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Bottle with APA 1
+    {
+        KegAPA1/CarboyAPA1DryHopped/CarboyAPA1DryHoppedTapped,
+        BeerEmpty/[Recipe.GetItemTypes.EmptyBeerBottle],
+        BottleCap,
+        keep BottleCapper,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :BeerBottleAPA1,
+        Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Bottle with APA 2
+    {
+        KegAPA2/CarboyAPA2DryHopped/CarboyAPA2DryHoppedTapped,
+        BeerEmpty/[Recipe.GetItemTypes.EmptyBeerBottle],
+        BottleCap,
+        keep BottleCapper,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :BeerBottleAPA2,
+        Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Bottle with IPA 1
+    {
+        KegIPA1/CarboyIPA1DryHopped/CarboyIPA1DryHoppedTapped,
+        BeerEmpty/[Recipe.GetItemTypes.EmptyBeerBottle],
+        BottleCap,
+        keep BottleCapper,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :BeerBottleIPA1,
+        Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Bottle with IPA 2
+    {
+        KegIPA2/CarboyIPA2DryHopped/CarboyIPA2DryHoppedTapped,
+        BeerEmpty/[Recipe.GetItemTypes.EmptyBeerBottle],
+        BottleCap,
+        keep BottleCapper,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :BeerBottleIPA2,
+        Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Bottle with Light Lager
+    {
+        KegLightLager/CarboyLightLager/CarboyLightLagerTapped,
+        BeerEmpty/[Recipe.GetItemTypes.EmptyBeerBottle],
+        BottleCap,
+        keep BottleCapper,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :BeerBottleLightLager,
+        Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Bottle with Pilsner
+    {
+        KegPilsner/CarboyPilsner/CarboyPilsnerTapped,
+        BeerEmpty/[Recipe.GetItemTypes.EmptyBeerBottle],
+        BottleCap,
+        keep BottleCapper,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :BeerBottlePilsner,
+        Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Bottle with Porter
+    {
+        KegPorter/CarboyPorter/CarboyPorterTapped,
+        BeerEmpty/[Recipe.GetItemTypes.EmptyBeerBottle],
+        BottleCap,
+        keep BottleCapper,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :BeerBottlePorter,
+        Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Bottle with Stout
+    {
+        KegStout/CarboyStout/CarboyStoutTapped, 
+        BeerEmpty/[Recipe.GetItemTypes.EmptyBeerBottle],
+        BottleCap,
+        keep BottleCapper,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :BeerBottleStout,
+        Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Bottle with Skunked Beer
+    {
+	    KegSkunked/CarboySkunkedDark/CarboySkunkedLight/CarboySkunkedDarkTapped/CarboySkunkedLightTapped,
+        BeerEmpty/[Recipe.GetItemTypes.EmptyBeerBottle],
+        BottleCap,
+        keep BottleCapper,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :BeerBottleSkunked,
+        Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    /************************ FILLING BEER CANS ************************/
+
+ recipe Fill Can with American Lager
+    {
+        KegAmericanLager/CarboyAmericanLager/CarboyAmericanLagerTapped,
+        BeerCanEmpty/[Recipe.GetItemTypes.EmptyBeerCan],
+        keep CanSealer,
+
+        CanBeDoneFromFloor      :true,
+        Result                  :BeerCanAmericanLager,
+        Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Can with APA 1
+    {
+        KegAPA1/CarboyAPA1DryHopped/CarboyAPA1DryHoppedTapped,
+        BeerCanEmpty/[Recipe.GetItemTypes.EmptyBeerCan],
+	    keep CanSealer,
+
+	    CanBeDoneFromFloor      :true,
+	    Result                  :BeerCanAPA1,
+	    Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Can with APA 2
+    {
+	    KegAPA2/CarboyAPA2DryHopped/CarboyAPA2DryHoppedTapped,
+        BeerCanEmpty/[Recipe.GetItemTypes.EmptyBeerCan],
+	    keep CanSealer,
+
+	    CanBeDoneFromFloor      :true,
+	    Result                  :BeerCanAPA2,
+	    Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Can with IPA 1
+    {
+	    KegIPA1/CarboyIPA1DryHopped/CarboyIPA1DryHoppedTapped,
+        BeerCanEmpty/[Recipe.GetItemTypes.EmptyBeerCan],
+	    keep CanSealer,
+
+	    CanBeDoneFromFloor      :true,
+	    Result                  :BeerCanIPA1,
+	    Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Can with IPA 2
+    {
+	    KegIPA2/CarboyIPA2DryHopped/CarboyIPA2DryHoppedTapped,
+        BeerCanEmpty/[Recipe.GetItemTypes.EmptyBeerCan],
+	    keep CanSealer,
+
+	    CanBeDoneFromFloor      :true,
+	    Result                  :BeerCanIPA2,
+	    Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Can with Light Lager
+    {
+	    KegLightLager/CarboyLightLager/CarboyLightLagerTapped,
+        BeerCanEmpty/[Recipe.GetItemTypes.EmptyBeerCan],
+	    keep CanSealer,
+
+	    CanBeDoneFromFloor      :true,
+	    Result                  :BeerCanLightLager,
+	    Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Can with Pilsner
+    {
+	    KegPilsner/CarboyPilsner/CarboyPilsnerTapped,
+        BeerCanEmpty/[Recipe.GetItemTypes.EmptyBeerCan],
+	    keep CanSealer,
+
+	    CanBeDoneFromFloor      :true,
+	    Result                  :BeerCanPilsner,
+	    Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Can with Porter
+    {
+    	KegPorter/CarboyPorter/CarboyPorterTapped,
+        BeerCanEmpty/[Recipe.GetItemTypes.EmptyBeerCan],
+	    keep CanSealer,
+
+	    CanBeDoneFromFloor      :true,
+	    Result                  :BeerCanPorter,
+	    Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Can with Stout
+    {
+	    KegStout/CarboyStout/CarboyStoutTapped,
+        BeerCanEmpty/[Recipe.GetItemTypes.EmptyBeerCan],
+	    keep CanSealer,
+
+	    CanBeDoneFromFloor      :true,
+	    Result                  :BeerCanStout,
+	    Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5, 
+        OnCreate                :Recipe.OnCreate.CarboyTapped,
+    }	
+
+    recipe Fill Can with Skunked Beer
+    {
+	    KegSkunked/CarboySkunkedDark/CarboySkunkedLight/CarboySkunkedDarkTapped/CarboySkunkedLightTapped,
+        BeerCanEmpty/[Recipe.GetItemTypes.EmptyBeerCan],
+	    keep CanSealer,
+
+	    CanBeDoneFromFloor      :true,
+	    Result                  :BeerCanSkunked,
+	    Time                    :60,
+        Category                :MoreBrews,
+       	NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=1,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing5,
+        OnCreate                :Recipe.OnCreate.CarboyTapped, 
+    }	
+
+    /************************ CREATE BEER CONTAINERS ************************/
+
+    recipe Make a Keg
+    {
+        SheetMetal=4,
+        SmallSheetMetal=8,
+        BlowTorch=5,
+        keep WeldingMask,
+
+        Result                  :EmptyKeg,
+        Time                    :250.0,
+        Category                :MoreBrews,
+	    SkillRequired           :MetalWelding=4,
+        NeedToBeLearn           :true,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing25, 
+    }
+
+    recipe Make a Carboy
+    {
+        Cooler,
+        Screws=8,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        Result                  :EmptyCarboy,
+        Time                    :250.0,
+        Category                :MoreBrews,
+	    SkillRequired           :Brewing=5,
+        NeedToBeLearn           :true,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing10, 
+    }
+
+    recipe Make Beer Cans
+    {
+        Aluminum=2,
+        BlowTorch=1,
+        keep [Recipe.GetItemTypes.Hammer],
+
+        Result                  :BeerCanEmpty=6,
+        Time                    :180.0,
+        Category                :MoreBrews,
+        NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=3,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing10, 
+        OnCreate                :MoreBrews.onBrewerPerkCans, 
+        Tooltip                 :Tooltip_Recipe_BrewingSkillBonus,
+    }
+
+    recipe Make Beer Bottles
+    {
+        BlowTorch=1,
+        Sandbag=4,
+
+        Result                  :BeerEmpty=6,
+        Time                    :180.0,
+        Category                :MoreBrews,
+        NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=3,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing10,
+        OnCreate                :MoreBrews.onBrewerPerkBottles, 
+        Tooltip                 :Tooltip_Recipe_BrewingSkillBonus,
+    }
+
+    recipe Make Bottle Caps
+    {
+        SmallSheetMetal=3,
+        BlowTorch=1,
+        keep [Recipe.GetItemTypes.Hammer],
+
+        Result                  :BottleCap=6,
+        Time                    :100.0,
+        Category                :MoreBrews,
+        NeedToBeLearn           :true,
+	    SkillRequired           :Brewing=3,
+        OnGiveXP                :Recipe.OnGiveXP.Brewing10, 
+        OnCreate                :MoreBrews.onBrewerPerkCaps,
+        Tooltip                 :Tooltip_Recipe_BrewingSkillBonus,
+    }
+
+    recipe Open Bag of Bottle Caps 
+    {
+        BottleCapsBag,
+
+        Result                  :BottleCap=20,
+        Time                    :50.0,
+        Category                :MoreBrews,
+        NeedToBeLearn           :false,
+    }
+
+    recipe Make a Bag of Bottle Caps 
+    {
+        BottleCap=20,
+
+        Result                  :BottleCapsBag,
+        Time                    :50.0,
+        Category                :MoreBrews,
+        NeedToBeLearn           :false,
+    }
+}

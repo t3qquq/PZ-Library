@@ -1,0 +1,4 @@
+UI_CN = {
+    UI_trait_brewer = "啤酒酿造",
+    UI_trait_brewerinfo = "你知道啤酒酿造的一切",
+}

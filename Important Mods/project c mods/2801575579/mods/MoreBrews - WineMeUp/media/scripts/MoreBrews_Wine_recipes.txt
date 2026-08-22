@@ -1,0 +1,1622 @@
+  module MoreBrews {
+
+/************************ GENERAL ************************/
+
+    recipe Make Molotov Cocktail Too
+    {
+        [Recipe.GetItemTypes.EmptyWineBottle],
+        RippedSheets/RippedSheetsDirty/DenimStrips/DenimStripsDirty,
+        [Recipe.GetItemTypes.Petrol]=1,
+
+        Result              :Molotov,
+        Time                :50.0,
+    }
+
+    recipe Smash Bottle Too
+    {
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+
+        Result              :SmashedBottle,
+        Time                :20,
+        Sound               :BreakGlassItem,
+    }
+
+
+    recipe Unpack Wine Making Kit
+    {
+        WineKit=1,
+
+        Result              :EmptyGallonCarboy,
+        Time                :60.0,
+        Category            :MoreBrews,
+        Sound               :OpenBag,
+        AnimNode            :craft,
+        StopOnWalk          :True,
+        CanBeDoneFromFloor  :False,
+        NeedToBeLearn       :False,
+        OnGiveXP            :Recipe.OnGiveXP.None,
+        OnCreate            :MoreBrews.WineSupplies,
+    }
+
+/****************************** YEASTS ******************************/
+
+    recipe Fruit Yeast Starter
+    {
+        Apple/Banana/Mango/Peach/Pear/Pineapple/Grapefruit/Grapes/Orange/Lime/Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5=4,
+        EmptyJar,
+        [Recipe.GetItemTypes.Sugar],
+        Water=5,
+        RubberBand,
+        RippedSheets,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :FruitYeastStarter,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :True,
+        NeedToBeLearn       :true,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+    }
+
+    recipe Potato Yeast Starter
+    {
+        Potato=4,
+        EmptyJar,
+        [Recipe.GetItemTypes.Sugar],
+        Water=5,
+        RubberBand,
+        RippedSheets,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :PotatoYeastStarter,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :True,
+        NeedToBeLearn       :true,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+    }
+
+    recipe Wild Plants Yeast Starter
+    {
+        Violets/GrapeLeaves/Rosehips=4,
+        EmptyJar,
+        [Recipe.GetItemTypes.Sugar],
+        Water=5,
+        RubberBand,
+        RippedSheets,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :WildPlantsYeastStarter,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :True,
+        NeedToBeLearn       :true,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+    }
+
+    recipe Process Dry Yeast
+    {
+        DriedFruitYeast/DriedPotatoYeast/DriedWildPlantsYeast,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :Yeast=2,
+        OnCreate            :GetJar,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :True,
+        NeedToBeLearn       :true,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+    }
+
+/****************************** BASE PROCESS ******************************/
+
+    recipe Create Red Wine Base
+    {
+        Grapes/BerryBlack/Cherry=3,
+        Water=3,
+        Bowl,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :RedWineBase,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Create White Wine Base
+    {
+        Grapes/Pear/Peach=3,
+        Water=3,
+        Bowl,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :WhiteWineBase,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+	
+    recipe Create Wild Berry Wine Base
+    {
+        BerryBlack/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5=3,
+        Water=3,
+        Bowl,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :WildBerryWineBase,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Create Rosehip Wine Base
+    {
+        Rosehips=3,
+        Water=3,
+        Bowl,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :RosehipWineBase,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=2,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Create Pineapple Wine Base
+    {
+        Pineapple,
+        Water=3,
+        Bowl,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :PineappleWineBase,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=2,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Create Strawberry Wine Base
+    {
+        Strewberrie=4,
+        Water=3,
+        Bowl,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :StrawberryWineBase,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=2,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Create Peach Wine Base
+    {
+        Peach=2,
+        Water=3,
+        Bowl,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :PeachWineBase,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=2,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Create Pear Wine Base
+    {
+        Pear=2,
+        Water=3,
+        Bowl,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :PearWineBase,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=2,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Create Banana Wine Base
+    {
+        Banana=2,
+        Water=3,
+        Bowl,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :BananaWineBase,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=2,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+   
+    recipe Create Honey Mead Base
+    {
+        Honey,
+        Water=3,
+        Bowl,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :HoneyMeadBase,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=4,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Create Hard Cider Base
+    {
+        Apple=3,
+        Water=3,
+        Bowl,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        Result              :HardCiderBase,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=4,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+/************************ FERMENTING ************************/
+
+    recipe Prep Ferment Red Wine Gallon
+    {
+        RedWineBase,
+        EmptyGallonCarboy,
+        Yeast=2,
+        [Recipe.GetItemTypes.Sugar],
+        Water=2,
+
+        Result              :GallonCarboyFermentingRedWine,
+        OnCreate            :GetBowl,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking25, 
+    }
+
+    recipe Prep Ferment White Wine Gallon
+    {
+        WhiteWineBase,
+        EmptyGallonCarboy,
+        Yeast=2,
+        [Recipe.GetItemTypes.Sugar],
+        Water=2,
+
+        Result              :GallonCarboyFermentingWhiteWine,
+        OnCreate            :GetBowl,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking25, 
+    }
+
+    recipe Prep Ferment Wild Berry Wine
+    {
+        WildBerryWineBase,
+        EmptyGallonCarboy,
+        Yeast=2,
+        [Recipe.GetItemTypes.Sugar],
+        Water=2,
+
+        Result              :GallonCarboyFermentingWildBerryWine,
+        OnCreate            :GetBowl,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking25, 
+    }
+
+    recipe Prep Ferment Rosehip Wine
+    {
+        RosehipWineBase,
+        EmptyGallonCarboy,
+        Yeast=2,
+        [Recipe.GetItemTypes.Sugar],
+        Water=2,
+
+        Result              :GallonCarboyFermentingRosehipWine,
+        OnCreate            :GetBowl,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=2,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking25, 
+    }
+
+    recipe Prep Ferment Pineapple Wine
+    {
+        PineappleWineBase,
+        EmptyGallonCarboy,
+        Yeast=2,
+        [Recipe.GetItemTypes.Sugar],
+        Water=2,
+
+        Result              :GallonCarboyFermentingPineappleWine,
+        OnCreate            :GetBowl,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=2,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking25, 
+    }
+
+    recipe Prep Ferment Strawberry Wine
+    {
+        StrawberryWineBase,
+        EmptyGallonCarboy,
+        Yeast=2,
+        [Recipe.GetItemTypes.Sugar],
+        Water=2,
+
+        Result              :GallonCarboyFermentingStrawberryWine,
+        OnCreate            :GetBowl,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=2,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking25, 
+    }
+
+    recipe Prep Ferment Peach Wine
+    {
+        PeachWineBase,
+        EmptyGallonCarboy,
+        Yeast=2,
+        [Recipe.GetItemTypes.Sugar],
+        Water=2,
+
+        Result              :GallonCarboyFermentingPeachWine,
+        OnCreate            :GetBowl,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=2,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking25, 
+    }
+
+    recipe Prep Ferment Pear Wine
+    {
+        PearWineBase,
+        EmptyGallonCarboy,
+        Yeast=2,
+        [Recipe.GetItemTypes.Sugar],
+        Water=2,
+
+        Result              :GallonCarboyFermentingPearWine,
+        OnCreate            :GetBowl,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=2,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking25, 
+    }
+
+    recipe Prep Ferment Banana Wine
+    {
+        BananaWineBase,
+        EmptyGallonCarboy,
+        Yeast=2,
+        [Recipe.GetItemTypes.Sugar],
+        Water=2,
+
+        Result              :GallonCarboyFermentingBananaWine,
+        OnCreate            :GetBowl,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=2,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking25, 
+    }
+
+    recipe Prep Ferment Honey Mead
+    {
+        HoneyMeadBase,
+        EmptyGallonCarboy,
+        Yeast=2,
+        [Recipe.GetItemTypes.Sugar],
+        Water=2,
+
+        Result              :GallonCarboyFermentingHoneyMead,
+        OnCreate            :GetBowl,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=4,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking25, 
+    }
+
+    recipe Prep Ferment Hard Cider
+    {
+        HardCiderBase,
+        EmptyGallonCarboy,
+        Yeast=2,
+        [Recipe.GetItemTypes.Sugar],
+        Water=2,
+
+        Result              :GallonCarboyFermentingHardCider,
+        OnCreate            :GetBowl,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        SkillRequired       :WineMaking=4,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking25, 
+    }
+
+    recipe Prep Ferment Red Wine Large
+    {
+        RedWineBase=4,
+        EmptyCarboy,
+        Yeast=5,
+        [Recipe.GetItemTypes.Sugar],
+        Water=8,
+
+        Result              :CarboyFermentingRedWine,
+        OnCreate            :GetBowls,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking25, 
+    }
+
+    recipe Prep Ferment White Wine Large
+    {
+        WhiteWineBase=4,
+        EmptyCarboy,
+        Yeast=5,
+        [Recipe.GetItemTypes.Sugar],
+        Water=8,
+
+        Result              :CarboyFermentingWhiteWine,
+        OnCreate            :GetBowls,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        OnTest              :Recipe.OnTest.NotTaintedWater,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking25, 
+    }
+
+/************************ DUMPING ************************/
+
+    recipe Dump Base Items
+    {
+        destroy [Recipe.GetItemTypes.WineBase],
+
+        Result              :Bowl,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Dump Large Barrel
+    {
+        destroy [Recipe.GetItemTypes.FullLargeBarrel],
+
+
+        Result              :EmptyBarrelDispenserLarge,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Dump Small Barrel Dispenser
+    {
+        destroy [Recipe.GetItemTypes.FullSmallBarrel],
+
+        Result              :EmptyBarrelDispenserSmall,
+        Time                :80,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Dump Gallon Carboy
+    {
+        destroy [Recipe.GetItemTypes.FullGallonCarboy],
+
+        Result              :EmptyGallonCarboy,
+        Time                :80,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Dump Carboy
+    {
+        destroy [Recipe.GetItemTypes.FullCarboy],
+
+        Result              :EmptyCarboy,
+        Time                :100,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+/****************************** FILL BARRELS ******************************/
+
+    recipe Fill Gallon Barrel Red Wine
+    {
+        GallonCarboyRedWine,
+        destroy EmptyBarrelDispenserSmall,
+
+        Result              :BarrelSmallRedWineStart, 
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        OnCreate            :GetGallonCarboy,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }	
+
+    recipe Fill Gallon Barrel White Wine
+    {
+        GallonCarboyWhiteWine,
+        destroy EmptyBarrelDispenserSmall,
+
+        Result              :BarrelSmallWhiteWineStart, 
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        OnCreate            :GetGallonCarboy,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Gallon Barrel Wild Berry Wine
+    {
+        GallonCarboyWildBerryWine,
+        destroy EmptyBarrelDispenserSmall,
+
+        Result              :BarrelDispenserSmallWildBerryWine,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        OnCreate            :GetGallonCarboy,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Large Barrel Wild Berry Wine
+    {
+        GallonCarboyWildBerryWine=4,
+        destroy EmptyBarrelDispenserLarge/EmptyBarrelAging,
+
+        Result              :BarrelDispenserLargeWildBerryWine,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnCreate            :GetGallonCarboys,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }	
+
+    recipe Fill Gallon Barrel Rosehip Wine
+    {
+        GallonCarboyRosehipWine,
+        destroy EmptyBarrelDispenserSmall,
+
+        Result              :BarrelDispenserSmallRosehipWine,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=3,
+        OnCreate            :GetGallonCarboy,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Large Barrel Wild Rosehip Wine
+    {
+        GallonCarboyRosehipWine=4,
+        destroy EmptyBarrelDispenserLarge/EmptyBarrelAging,
+
+        Result              :BarrelDispenserLargeRosehipWine,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnCreate            :GetGallonCarboys,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }	
+
+    recipe Fill Gallon Barrel Pineapple Wine
+    {
+        GallonCarboyPineappleWine,
+        destroy EmptyBarrelDispenserSmall,
+
+        Result              :BarrelDispenserSmallPineappleWine,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=3,
+        OnCreate            :GetGallonCarboy,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Large Barrel Pineapple Wine
+    {
+        GallonCarboyPineappleWine=4,
+        destroy EmptyBarrelDispenserLarge/EmptyBarrelAging,
+
+        Result              :BarrelDispenserLargePineappleWine,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnCreate            :GetGallonCarboys,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }	
+
+    recipe Fill Gallon Barrel Strawberry Wine
+    {
+        GallonCarboyStrawberryWine,
+        destroy EmptyBarrelDispenserSmall,
+
+        Result              :BarrelDispenserSmallStrawberryWine,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=3,
+        OnCreate            :GetGallonCarboy,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Large Barrel Strawberry Wine
+    {
+        GallonCarboyStrawberryWine=4,
+        destroy EmptyBarrelDispenserLarge/EmptyBarrelAging,
+
+        Result              :BarrelDispenserLargeStrawberryWine,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnCreate            :GetGallonCarboys,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }	
+
+    recipe Fill Gallon Barrel Peach Wine
+    {
+        GallonCarboyPeachWine,
+        destroy EmptyBarrelDispenserSmall,
+
+        Result              :BarrelDispenserSmallPeachWine,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=3,
+        OnCreate            :GetGallonCarboy,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Large Barrel Peach Wine
+    {
+        GallonCarboyPeachWine=4,
+        destroy EmptyBarrelDispenserLarge/EmptyBarrelAging,
+
+        Result              :BarrelDispenserLargePeachWine,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnCreate            :GetGallonCarboys,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }	
+
+    recipe Fill Gallon Barrel Pear Wine
+    {
+        GallonCarboyPearWine,
+        destroy EmptyBarrelDispenserSmall,
+
+        Result              :BarrelDispenserSmallPearWine,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=3,
+        OnCreate            :GetGallonCarboy,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Large Barrel Pear Wine
+    {
+        GallonCarboyPearWine=4,
+        destroy EmptyBarrelDispenserLarge/EmptyBarrelAging,
+
+        Result              :BarrelDispenserLargePearWine,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnCreate            :GetGallonCarboys,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Gallon Barrel Banana Wine
+    {
+        GallonCarboyBananaWine,
+        destroy EmptyBarrelDispenserSmall,
+
+        Result              :BarrelDispenserSmallBananaWine,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=3,
+        OnCreate            :GetGallonCarboy,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Large Barrel Banana Wine
+    {
+        GallonCarboyBananaWine=4,
+        destroy EmptyBarrelDispenserLarge/EmptyBarrelAging,
+
+        Result              :BarrelDispenserLargeBananaWine,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnCreate            :GetGallonCarboys,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Gallon Barrel Honey Mead
+    {
+        GallonCarboyHoneyMead,
+        destroy EmptyBarrelDispenserSmall,
+
+        Result              :BarrelDispenserSmallHoneyMead,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=5,
+        OnCreate            :GetGallonCarboy,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Large Barrel Honey Mead
+    {
+        GallonCarboyHoneyMead=4,
+        destroy EmptyBarrelDispenserLarge/EmptyBarrelAging,
+
+        Result              :BarrelDispenserLargeHoneyMead,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnCreate            :GetGallonCarboys,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Gallon Barrel Hard Cider
+    {
+        GallonCarboyHardCider,
+        destroy EmptyBarrelDispenserSmall,
+
+        Result              :BarrelDispenserSmallHardCider,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=5,
+        OnCreate            :GetGallonCarboy,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Large Barrel Hard Cider
+    {
+        GallonCarboyHardCider=4,
+        destroy EmptyBarrelDispenserLarge/EmptyBarrelAging,
+
+        Result              :BarrelDispenserLargeHardCider,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        OnCreate            :GetGallonCarboys,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Large Barrel Red Wine
+    {
+        CarboyRedWine,
+        destroy EmptyBarrelDispenserLarge/EmptyBarrelAging,
+
+        Result              :BarrelRedWineStart,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        OnCreate            :GetCarboy,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }	
+
+    recipe Fill Large Barrel White Wine 
+    {
+        CarboyWhiteWine,
+        destroy EmptyBarrelDispenserLarge/EmptyBarrelAging,
+
+        Result              :BarrelWhiteWineStart,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        OnCreate            :GetCarboy,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+    recipe Fill Large Barrel Red Wine Gallon
+    {
+        GallonCarboyRedWine=4,
+        destroy EmptyBarrelDispenserLarge/EmptyBarrelAging,
+
+        Result              :BarrelRedWineStart,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        OnCreate            :GetGallonCarboys,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }	
+
+    recipe Fill Large Barrel White Wine Gallon
+    {
+        GallonCarboyWhiteWine=4,
+        destroy EmptyBarrelDispenserLarge/EmptyBarrelAging,
+
+        Result              :BarrelWhiteWineStart,
+        Time                :150,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        OnCreate            :GetGallonCarboys,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+    }
+
+/****************************** BEGIN AGING ******************************/
+
+    recipe Begin Aging Small Barrel Red Wine 
+    {       
+        BarrelSmallRedWineStart,
+
+        Result              :BarrelRedWineAgingSmall,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        SkillRequired       :WineMaking=1,
+    }
+
+    recipe Begin Aging Small Barrel White Wine 
+    {       
+        BarrelSmallWhiteWineStart,
+
+        Result              :BarrelWhiteWineAgingSmall,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        SkillRequired       :WineMaking=1,
+    }
+
+    recipe Begin Aging Large Barrel Red Wine
+    {
+        BarrelRedWineStart,
+
+        Result              :BarrelRedWineAging,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        SkillRequired       :WineMaking=1,
+    }
+
+    recipe Begin Aging Large Barrel White Wine
+    {
+        BarrelWhiteWineStart,
+
+        Result              :BarrelWhiteWineAging,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        SkillRequired       :WineMaking=1,
+    }
+
+/****************************** CONTINUE AGING ******************************/
+
+    recipe Continue Aging Small Barrel Red Wine 
+    {       
+        BarrelAgedRedWineSmall,
+
+        Result              :BarrelRedWineAgingFullySmall,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        SkillRequired       :WineMaking=1,
+    }
+
+    recipe Continue Aging Small Barrel White Wine 
+    {       
+        BarrelAgedWhiteWineSmall,
+
+        Result              :BarrelWhiteWineAgingFullySmall,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        SkillRequired       :WineMaking=1,
+    }
+
+    recipe Continue Aging Large Barrel Red Wine
+    {
+        BarrelAgedRedWine,
+
+        Result              :BarrelRedWineAgingFully,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        SkillRequired       :WineMaking=1,
+    }
+
+    recipe Continue Aging Large Barrel White Wine
+    {
+        BarrelAgedWhiteWine,
+
+        Result              :BarrelWhiteWineAgingFully,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+        SkillRequired       :WineMaking=1,
+    }
+
+/****************************** CONVERT FOR DISPENSING ******************************/
+
+    recipe Add Spigot Red Wine Small
+    {
+        destroy BarrelSmallRedWineStart,
+
+        Result              :BarrelDispenserSmallRedWine,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Add Spigot Red Wine Aged Small
+    {
+        destroy BarrelAgedRedWineSmall,
+
+        Result              :BarrelDispenserSmallRedWineAged,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Add Spigot Red Wine Aged Fully Small
+    {
+        destroy BarrelAgedFullyRedWineSmall,
+
+        Result              :BarrelDispenserSmallRedWineAgedFully,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Add Spigot White Wine Small
+    {
+        destroy BarrelSmallWhiteWineStart,
+
+        Result              :BarrelDispenserSmallWhiteWine,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Add Spigot White Wine Aged Small
+    {
+        destroy BarrelAgedWhiteWineSmall,
+
+        Result              :BarrelDispenserSmallWhiteWineAged,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Add Spigot White Wine Aged Fully Small
+    {
+        destroy BarrelAgedFullyWhiteWineSmall,
+
+        Result              :BarrelDispenserSmallWhiteWineAgedFully,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Add Spigot Red Wine Large 
+    {
+        destroy BarrelRedWineStart,
+
+        Result              :BarrelDispenserLargeRedWine,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Add Spigot Red Wine Aged Large 
+    {
+        destroy BarrelAgedRedWine,
+
+        Result              :BarrelDispenserLargeRedWineAged,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Add Spigot Red Wine Aged Fully Large
+    {
+        destroy BarrelAgedFullyRedWine,
+
+        Result              :BarrelDispenserLargeRedWineAgedFully,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+        
+    recipe Add Spigot White Wine Large
+    {
+        destroy BarrelWhiteWineStart,
+
+        Result              :BarrelDispenserLargeWhiteWine,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Add Spigot White Wine Aged Large
+    {
+        destroy BarrelAgedWhiteWine,
+
+        Result              :BarrelDispenserLargeWhiteWineAged,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Add Spigot White Wine Aged Fully Large
+    {
+        destroy BarrelAgedFullyWhiteWine,
+
+        Result              :BarrelDispenserLargeWhiteWineAgedFully,
+        Time                :120,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :false,
+    }
+
+/************************ FILLING WINE BOTTLES ************************/
+
+    recipe Fill Bottle Red Wine
+    {
+        BarrelDispenserSmallRedWine/BarrelDispenserLargeRedWine,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :RedWine,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }	
+
+    recipe Fill Bottle Red Wine Aged
+    {
+        BarrelDispenserSmallRedWineAged/BarrelDispenserLargeRedWineAged,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :RedWineAged,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }	
+
+    recipe Fill Bottle Red Wine Aged Fully
+    {
+        BarrelDispenserSmallRedWineAgedFully/BarrelDispenserLargeRedWineAgedFully,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :RedWineAgedFully,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }	
+
+    recipe Fill Bottle White Wine
+    {
+        BarrelDispenserSmallWhiteWine/BarrelDispenserLargeWhiteWine,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :WhiteWine,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }	
+
+    recipe Fill Bottle White Wine Aged
+    {
+        BarrelDispenserSmallWhiteWineAged/BarrelDispenserLargeWhiteWineAged,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :WhiteWineAged,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }	
+
+    recipe Fill Bottle White Wine Aged Fully
+    {
+        BarrelDispenserSmallWhiteWineAgedFully/BarrelDispenserLargeWhiteWineAgedFully,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :WhiteWineAgedFully,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }
+
+    recipe Fill Bottle Wild Berry Wine
+    {
+        BarrelDispenserSmallWildBerryWine/BarrelDispenserLargeWildBerryWine,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :WildBerryWine,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }
+
+    recipe Fill Bottle Rosehip Wine
+    {
+        BarrelDispenserSmallRosehipWine/BarrelDispenserLargeRosehipWine,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :RosehipWine,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }
+
+    recipe Fill Bottle Pineapple Wine
+    {
+        BarrelDispenserSmallPineappleWine/BarrelDispenserLargePineappleWine,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :PineappleWine,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }
+
+    recipe Fill Bottle Strawberry Wine
+    {
+        BarrelDispenserSmallStrawberryWine/BarrelDispenserLargeStrawberryWine,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :StrawberryWine,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }
+
+    recipe Fill Bottle Peach Wine
+    {
+        BarrelDispenserSmallPeachWine/BarrelDispenserLargePeachWine,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :PeachWine,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }
+
+    recipe Fill Bottle Pear Wine
+    {
+        BarrelDispenserSmallPearWine/BarrelDispenserLargePearWine,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :PearWine,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }
+
+    recipe Fill Bottle Banana Wine
+    {
+        BarrelDispenserSmallBananaWine/BarrelDispenserLargeBananaWine,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :BananaWine,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }
+
+    recipe Fill Bottle Honey Mead
+    {
+        BarrelDispenserSmallHoneyMead/BarrelDispenserLargeHoneyMead,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :HoneyMead,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }
+
+    recipe Fill Bottle Hard Cider
+    {
+        BarrelDispenserSmallHardCider/BarrelDispenserLargeHardCider,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        Cork,
+
+        Result              :HardCider,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }
+
+/************************ FILLING WINE BOXES ************************/
+
+    recipe Fill Small Box Red Wine
+    {
+        BarrelDispenserSmallRedWine/BarrelDispenserLargeRedWine,
+        [Recipe.GetItemTypes.EmptyWineBox],
+        [Recipe.GetItemTypes.EmptyWineBox],
+
+        Result              :WineBoxSmall1=2,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }	
+
+    recipe Fill Small Box Red Wine Aged
+    {
+        BarrelDispenserSmallRedWineAged/BarrelDispenserLargeRedWineAged,
+        [Recipe.GetItemTypes.EmptyWineBox],
+        [Recipe.GetItemTypes.EmptyWineBox],
+
+        Result              :WineBoxSmall2=2,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }	
+
+    recipe Fill Small Box Red Wine Aged Fully
+    {
+        BarrelDispenserSmallRedWineAgedFully/BarrelDispenserLargeRedWineAgedFully,
+        [Recipe.GetItemTypes.EmptyWineBox],
+        [Recipe.GetItemTypes.EmptyWineBox],
+
+        Result              :WineBoxSmall3=2,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }	
+
+    recipe Fill Small Box White Wine
+    {
+        BarrelDispenserSmallWhiteWine/BarrelDispenserLargeWhiteWine,
+        [Recipe.GetItemTypes.EmptyWineBox],
+        [Recipe.GetItemTypes.EmptyWineBox],
+
+        Result              :WineBoxSmall4=2,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }	
+
+    recipe Fill Small Box White Wine Aged
+    {
+        BarrelDispenserSmallWhiteWineAged/BarrelDispenserLargeWhiteWineAged,
+        [Recipe.GetItemTypes.EmptyWineBox],
+        [Recipe.GetItemTypes.EmptyWineBox],
+
+        Result              :WineBoxSmall5=2,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }	
+
+    recipe Fill Small Box White Wine Aged Fully
+    {
+        BarrelDispenserSmallWhiteWineAgedFully/BarrelDispenserLargeWhiteWineAgedFully,
+        [Recipe.GetItemTypes.EmptyWineBox],
+        [Recipe.GetItemTypes.EmptyWineBox],
+
+
+        Result              :WineBoxSmall6=2,
+        Time                :60,
+        Category            :MoreBrews,
+        CanBeDoneFromFloor  :true,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :Recipe.OnCreate.WineAge,
+    }
+
+/************************ CREATE WINE CONTAINERS ************************/
+
+    recipe Make a Small Barrel
+    {
+        Plank=2,
+        Nails=4,
+        SmallSheetMetal,
+        keep [Recipe.GetItemTypes.Hammer],
+        keep [Recipe.GetItemTypes.Saw],
+
+        Result              :EmptyBarrelDispenserSmall,
+        Time                :250.0,
+        Category            :MoreBrews,
+        SkillRequired       :Woodwork=4,
+        NeedToBeLearn       :true,
+    }
+
+    recipe Make a Large Barrel
+    {
+        Plank=4,
+        Nails=6,
+        SmallSheetMetal=3,
+        keep [Recipe.GetItemTypes.Hammer],
+        keep [Recipe.GetItemTypes.Saw],
+
+        Result              :EmptyBarrelAging,
+        Time                :250.0,
+        Category            :MoreBrews,
+        SkillRequired       :Woodwork=6,
+        NeedToBeLearn       :true,
+    }
+
+    recipe Make Wine Box Small
+    {
+        Tarp,
+        Thread=5,
+        keep Needle,
+        keep [Recipe.GetItemTypes.Scissors],
+
+        Result              :EmptyWineBoxSmall=8,
+        Time                :180.0,
+        Category            :MoreBrews,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=1,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking5, 
+        OnCreate            :MoreBrews.onWineMakingPerkBoxes,
+        Tooltip             :Tooltip_Recipe_WineMakingSkillBonus,
+    }
+
+    recipe Make Wine Bottles
+    {
+        BlowTorch=1,
+        Sandbag=4,
+
+        Result              :WineEmpty=6,
+        Time                :180.0,
+        Category            :MoreBrews,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=2,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10,
+        OnCreate            :MoreBrews.onWineMakingPerkBottles,
+        Tooltip             :Tooltip_Recipe_WineMakingSkillBonus, 
+    }
+
+    recipe Make Glass Jar
+    {
+        Thread=1,
+        Lighter=1,
+        WineEmpty/WineEmpty2/[Recipe.GetItemTypes.EmptyWineBottle],
+        keep [Recipe.GetItemTypes.Saw],
+
+        Result              :EmptyJar=1,
+        Time                :150.0,
+        Category            :MoreBrews,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=2,
+        CanBeDoneFromFloor  :false,
+    }	
+
+    recipe Make Wine Corks
+    {
+        Plank=2,
+        keep [Recipe.GetItemTypes.Saw],
+
+        Result              :Cork=5,
+        Time                :100.0,
+        Category            :MoreBrews,
+        NeedToBeLearn       :true,
+        SkillRequired       :WineMaking=2,
+        OnGiveXP            :Recipe.OnGiveXP.WineMaking10, 
+        OnCreate            :MoreBrews.onWineMakingPerkCorks,
+        Tooltip             :Tooltip_Recipe_WineMakingSkillBonus, 
+    }
+
+    recipe Open Bag of Wine Corks 
+    {
+        CorksBag,
+
+        Result              :Cork=10,
+        Time                :50.0,
+        Category            :MoreBrews,
+        NeedToBeLearn       :false,
+    }
+
+    recipe Open Bag of Rubber Bands 
+    {
+        RubberBandsBag,
+
+        Result              :RubberBand=10,
+        Time                :50.0,
+        Category            :MoreBrews,
+        NeedToBeLearn       :false,
+    }
+}

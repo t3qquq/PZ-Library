@@ -1,0 +1,8 @@
+IGUI_EN =
+{
+	IGUI_perks_Libations 			= "Libations Mastery",
+	IGUI_perks_WineMaking 			= "Wine Making",
+	IGUI_CraftCategory_MoreBrews 	= "MoreBrews",
+	IGUI_ItemCat_MoreBrews 			= "MoreBrews",
+	IGUI_ItemCat_CraftWineMaking 	= "Crafting - Wine Making",
+}

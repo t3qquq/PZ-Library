@@ -1,0 +1,8 @@
+IGUI_ES =
+{
+	IGUI_perks_Libations = "Maestría en libaciones",
+	IGUI_perks_WineMaking = "Fabricación de vinos",
+	IGUI_CraftCategory_MoreBrews =  "MoreBrews",
+	IGUI_ItemCat_MoreBrews = "MoreBrews",
+	IGUI_ItemCat_CraftWineMaking = "Fabricación - Vinos",
+}

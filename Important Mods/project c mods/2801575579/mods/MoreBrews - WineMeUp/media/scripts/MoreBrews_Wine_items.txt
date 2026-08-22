@@ -1,0 +1,1665 @@
+module MoreBrews 
+{
+
+    /************************ BARRELS SMALL ************************/
+
+    item EmptyBarrelDispenserSmall
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 2,
+        CanStoreWater       = FALSE,
+        Type                = Normal,
+        DisplayName         = Empty Barrel Dispenser Small,
+        Icon                = BarrelDispenser,
+        WorldStaticModel    = BarrelDispenserSmall_Ground,
+        Tooltip             = Tooltip_item_BarrelDispenser,	
+    }
+
+    item BarrelDispenserSmallRedWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Pinot Noir Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserRedWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallRedWine,
+        WorldStaticModel    = BarrelDispenserSmallRed_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserRed,
+    }
+
+    item BarrelDispenserSmallRedWineAged
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Merlot Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserRedWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallRedWineAged,
+        WorldStaticModel    = BarrelDispenserSmallRed_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserRedAged,
+    }
+
+    item BarrelDispenserSmallRedWineAgedFully
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Cabernet Sauvignon Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserRedWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallRedWineAgedFully,
+        WorldStaticModel    = BarrelDispenserSmallRed_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserRedAgedFully,
+    }
+
+    item BarrelDispenserSmallWhiteWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Pinot Grigio Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserWhiteWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallWhiteWine,
+        WorldStaticModel    = BarrelDispenserSmallWhite_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserWhite,
+    }
+
+    item BarrelDispenserSmallWhiteWineAged
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Riesling Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserWhiteWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallWhiteWineAged,
+        WorldStaticModel    = BarrelDispenserSmallWhite_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserWhiteAged,
+    }
+
+    item BarrelDispenserSmallWhiteWineAgedFully
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Sauvignon Blanc Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserWhiteWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallWhiteWineAgedFully,
+        WorldStaticModel    = BarrelDispenserSmallWhite_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserWhiteAgedFully,
+    }
+
+    item BarrelDispenserSmallHoneyMead
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Honey Mead],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserHoneyMead,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallHoneyMeadWine,
+        WorldStaticModel    = BarrelDispenserSmallHoneyMead_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserHoneyMead,
+    }
+
+    item BarrelDispenserSmallHardCider
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Hard Cider],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserHardCider,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallHardCiderWine,
+        WorldStaticModel    = BarrelDispenserSmallHardCider_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserHardCider,
+    }
+
+    item BarrelDispenserSmallWildBerryWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Wild Berry Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserWildBerryWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallWildBerryWine,
+        WorldStaticModel    = BarrelDispenserSmallWildBerry_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserWildBerry,
+    }
+
+    item BarrelDispenserSmallRosehipWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Rosehip Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserRosehipWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallRosehipWine,
+        WorldStaticModel    = BarrelDispenserSmallRosehip_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserRosehip,
+    }
+
+    item BarrelDispenserSmallPineappleWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Pineapple Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserPineappleWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallWildBerryWine,
+        WorldStaticModel    = BarrelDispenserSmallPineapple_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserPineapple,
+    }
+
+    item BarrelDispenserSmallStrawberryWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Strawberry Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserStrawberryWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallStrawberryWine,
+        WorldStaticModel    = BarrelDispenserSmallStrawberry_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserStrawberry,
+    }
+
+    item BarrelDispenserSmallPeachWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Peach Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserPeachWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallPeachWine,
+        WorldStaticModel    = BarrelDispenserSmallPeach_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserPeach,
+    }
+
+    item BarrelDispenserSmallPearWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Pear Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserPearWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallPearWine,
+        WorldStaticModel    = BarrelDispenserSmallPear_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserPear,
+    }
+
+    item BarrelDispenserSmallBananaWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Small [Banana Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .2,
+        Icon                = BarrelDispenserBananaWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserSmall,
+        ReplaceOnUseOn      = BarrelDispenserSmallBananaWine,
+        WorldStaticModel    = BarrelDispenserSmallBanana_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserBanana,
+    }
+
+    /************************ BARRELS LARGE ************************/
+
+    item EmptyBarrelDispenserLarge
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 5,
+        CanStoreWater       = FALSE,
+        Type                = Normal,
+        DisplayName         = Empty Barrel Dispenser Large,
+        Icon                = BarrelDispenser,
+        WorldStaticModel    = BarrelDispenserLarge_Ground,
+        Tooltip             = Tooltip_item_BarrelDispenser,	
+    }
+
+    item BarrelDispenserLargeRedWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Pinot Noir Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserRedWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargeRedWine,
+        WorldStaticModel    = BarrelDispenserLargeRed_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserRed,
+    }
+
+    item BarrelDispenserLargeRedWineAged
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Merlot Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserRedWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargeRedWineAged,
+        WorldStaticModel    = BarrelDispenserLargeRed_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserRedAged,
+    }
+
+    item BarrelDispenserLargeRedWineAgedFully
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Cabernet Sauvignon Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserRedWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargeRedWineAgedFully,
+        WorldStaticModel    = BarrelDispenserLargeRed_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserRedAgedFully,
+    }
+
+    item BarrelDispenserLargeWhiteWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Pinot Grigio Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserWhiteWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargeWhiteWine,
+        WorldStaticModel    = BarrelDispenserLargeWhite_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserWhite,
+    }
+
+    item BarrelDispenserLargeWhiteWineAged
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Riesling Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserWhiteWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargeWhiteWineAged,
+        WorldStaticModel    = BarrelDispenserLargeWhite_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserWhiteAged,
+    }
+
+    item BarrelDispenserLargeWhiteWineAgedFully
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Sauvignon Blanc Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserWhiteWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargeWhiteWineAgedFully,
+        WorldStaticModel    = BarrelDispenserLargeWhite_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserWhiteAgedFully,
+    }
+
+   item BarrelDispenserLargeHoneyMead
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Honey Mead],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserHoneyMead,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargeHoneyMead,
+        WorldStaticModel    = BarrelDispenserLargeHoneyMead_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserHoneyMead,
+    }
+
+    item BarrelDispenserLargeHardCider
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Hard Cider],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserHardCider,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargeHardCider,
+        WorldStaticModel    = BarrelDispenserLargeHardCider_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserHardCider,
+    }
+
+    item BarrelDispenserLargeWildBerryWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Wild Berry Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserWildBerryWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargeWildBerryWine,
+        WorldStaticModel    = BarrelDispenserLargeWildBerry_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserWildBerry,
+    }
+
+    item BarrelDispenserLargeRosehipWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Rosehip Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserRosehipWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargeRosehipWine,
+        WorldStaticModel    = BarrelDispenserLargeRosehip_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserRosehip,
+    }
+
+    item BarrelDispenserLargePineappleWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Pineapple Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserPineappleWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargePineappleWine,
+        WorldStaticModel    = BarrelDispenserLargePineapple_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserPineapple,
+    }
+
+    item BarrelDispenserLargeStrawberryWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Strawberry Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserStrawberryWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargeStrawberryWine,
+        WorldStaticModel    = BarrelDispenserLargeStrawberry_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserStrawberry,
+    }
+
+    item BarrelDispenserLargePeachWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Peach Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserPeachWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargePeachWine,
+        WorldStaticModel    = BarrelDispenserLargePeach_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserPeach,
+    }
+
+    item BarrelDispenserLargePearWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Pear Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserPearWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargePearWine,
+        WorldStaticModel    = BarrelDispenserLargePear_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserPear,
+    }
+
+    item BarrelDispenserLargeBananaWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        Type                = Drainable,
+        DisplayName         = Barrel Dispenser Large [Banana Wine],
+        UseWhileEquipped    = FALSE,
+        UseDelta            = .05,
+        Icon                = BarrelDispenserBananaWine,
+        ReplaceOnDeplete    = EmptyBarrelDispenserLarge,
+        ReplaceOnUseOn      = BarrelDispenserLargeBananaWine,
+        WorldStaticModel    = BarrelDispenserLargeBanana_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelDispenserBanana,
+    }
+
+    /************************ OAK BARRELS AGING ************************/
+
+    item EmptyBarrelAging
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 5,
+        CanStoreWater       = FALSE,
+        Type                = Normal,
+        DisplayName         = Empty Barrel for Aging,
+        Icon                = BarrelAging,
+        WorldStaticModel    = BarrelAging_Ground,
+        Tooltip             = Tooltip_item_BarrelAging,	
+    }
+    
+    item BarrelAgedRedWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        CanStoreWater       = FALSE,
+        Type                = Food,
+        DisplayName         = Barrel Red Wine [Aged],
+        Icon                = BarrelAgedRed,
+        WorldStaticModel    = BarrelAgedRed_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelAgedRed,
+    }
+
+    item BarrelAgedFullyRedWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        CanStoreWater       = FALSE,
+        Type                = Food,
+        DisplayName         = Barrel Red Wine [Aged Fully],
+        Icon                = BarrelAgedRed,
+        WorldStaticModel    = BarrelAgedRed_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelAgedFullyRed,
+    }
+
+    item BarrelAgedWhiteWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        CanStoreWater       = FALSE,
+        Type                = Food,
+        DisplayName         = Barrel White Wine [Aged],
+        Icon                = BarrelAgedWhite,
+        WorldStaticModel    = BarrelAgedWhite_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelAgedWhite,
+    }
+
+    item BarrelAgedFullyWhiteWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        CanStoreWater       = FALSE,
+        Type                = Food,
+        DisplayName         = Barrel White Wine [Aged Fully],
+        Icon                = BarrelAgedWhite,
+        WorldStaticModel    = BarrelAgedWhite_Ground,
+        Tags                = FullLargeBarrel,
+        Tooltip             = Tooltip_item_BarrelAgedFullyWhite,
+    }
+
+    item BarrelAgedRedWineSmall
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        CanStoreWater       = FALSE,
+        Type                = Food,
+        DisplayName         = Barrel Small Red Wine [Aged],
+        Icon                = BarrelAgedRed,
+        WorldStaticModel    = BarrelAgedSmallRed_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelAgedRed,
+    }
+
+    item BarrelAgedFullyRedWineSmall
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        CanStoreWater       = FALSE,
+        Type                = Food,
+        DisplayName         = Barrel Small Red Wine [Aged Fully],
+        Icon                = BarrelAgedRed,
+        WorldStaticModel    = BarrelAgedSmallRed_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelAgedFullyRed,
+    }
+
+    item BarrelAgedWhiteWineSmall
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        CanStoreWater       = FALSE,
+        Type                = Food,
+        DisplayName         = Barrel Small White Wine [Aged],
+        Icon                = BarrelAgedWhite,
+        WorldStaticModel    = BarrelAgedSmallWhite_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelAgedWhite,
+    }
+
+    item BarrelAgedFullyWhiteWineSmall
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 18,
+        CanStoreWater       = FALSE,
+        Type                = Food,
+        DisplayName         = Barrel Small White Wine [Aged Fully],
+        Icon                = BarrelAgedWhite,
+        WorldStaticModel    = BarrelAgedSmallWhite_Ground,
+        Tags                = FullSmallBarrel,
+        Tooltip             = Tooltip_item_BarrelAgedFullyWhite,
+    }
+
+    /************************ GALLON CARBOYS ************************/
+
+    item EmptyGallonCarboy
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 1,
+        CanStoreWater       = FALSE,
+        Type                = Normal,
+        DisplayName         = Gallon Carboy [Empty],
+        Icon                = GallonCarboy,
+        WorldStaticModel    = EmptyGallonCarboy_Ground,
+        Tooltip             = Tooltip_item_GallonCarboy,	
+    }
+
+    item GallonCarboyFermentingRedWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Red Wine [Fermenting],
+        Icon                = GallonCarboyRedWineFerment,
+        WorldStaticModel    = GallonCarboyRedWineFermenting_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_FermentingWine,
+        DaysTotallyRotten   = 12,
+        DaysFresh           = 12,
+        ReplaceOnRotten     = MoreBrews.GallonCarboyRedWine,
+    }
+
+    item GallonCarboyRedWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Red Wine [Done],
+        Icon                = GallonCarboyRedWine,
+        WorldStaticModel    = GallonCarboyRedWine_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_GallonFinished,
+    }
+
+    item GallonCarboyFermentingWhiteWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy White Wine [Fermenting],
+        Icon                = GallonCarboyWhiteWineFerment,
+        WorldStaticModel    = GallonCarboyWhiteWineFermenting_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_FermentingWine,
+        DaysTotallyRotten   = 10,
+        DaysFresh           = 10,
+        ReplaceOnRotten     = MoreBrews.GallonCarboyWhiteWine,
+    }
+
+    item GallonCarboyWhiteWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy White Wine [Done],
+        Icon                = GallonCarboyWhiteWine,
+        WorldStaticModel    = GallonCarboyWhiteWine_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_GallonFinished,
+    }
+
+    item GallonCarboyFermentingWildBerryWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Wild Berry Wine [Fermenting],
+        Icon                = GallonCarboyWildBerryWineFerment,
+        WorldStaticModel    = GallonCarboyWildBerryWineFermenting_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_FermentingWine,
+        DaysTotallyRotten   = 7,
+        DaysFresh           = 7,
+        ReplaceOnRotten     = MoreBrews.GallonCarboyWildBerryWine,
+    }
+
+    item GallonCarboyWildBerryWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Wild Berry Wine [Done],
+        Icon                = GallonCarboyWildBerryWine,
+        WorldStaticModel    = GallonCarboyWildBerryWine_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_GallonFinished,
+    }
+
+    item GallonCarboyFermentingRosehipWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Rosehip Wine [Fermenting],
+        Icon                = GallonCarboyRosehipWineFerment,
+        WorldStaticModel    = GallonCarboyRosehipWineFermenting_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_FermentingWine,
+        DaysTotallyRotten   = 7,
+        DaysFresh           = 7,
+        ReplaceOnRotten     = MoreBrews.GallonCarboyRosehipWine,
+    }
+
+    item GallonCarboyRosehipWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Rosehip Wine [Done],
+        Icon                = GallonCarboyRosehipWine,
+        WorldStaticModel    = GallonCarboyRosehipWine_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_GallonFinished,
+    }
+
+    item GallonCarboyFermentingPineappleWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Pineapple Wine [Fermenting],
+        Icon                = GallonCarboyPineappleWineFerment,
+        WorldStaticModel    = GallonCarboyPineappleWineFermenting_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_FermentingWine,
+        DaysTotallyRotten   = 7,
+        DaysFresh           = 7,
+        ReplaceOnRotten     = MoreBrews.GallonCarboyPineappleWine,
+    }
+
+    item GallonCarboyPineappleWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Pineapple Wine [Done],
+        Icon                = GallonCarboyPineappleWine,
+        WorldStaticModel    = GallonCarboyPineappleWine_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_GallonFinished,
+    }
+
+    item GallonCarboyFermentingStrawberryWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Strawberry Wine [Fermenting],
+        Icon                = GallonCarboyStrawberryWineFerment,
+        WorldStaticModel    = GallonCarboyStrawberryWineFermenting_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_FermentingWine,
+        DaysTotallyRotten   = 7,
+        DaysFresh           = 7,
+        ReplaceOnRotten     = MoreBrews.GallonCarboyStrawberryWine,
+    }
+
+    item GallonCarboyStrawberryWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Strawberry Wine [Done],
+        Icon                = GallonCarboyStrawberryWine,
+        WorldStaticModel    = GallonCarboyStrawberryWine_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_GallonFinished,
+    }
+
+    item GallonCarboyFermentingPeachWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Peach Wine [Fermenting],
+        Icon                = GallonCarboyPeachWineFerment,
+        WorldStaticModel    = GallonCarboyPeachWineFermenting_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_FermentingWine,
+        DaysTotallyRotten   = 7,
+        DaysFresh           = 7,
+        ReplaceOnRotten     = MoreBrews.GallonCarboyPeachWine,
+    }
+
+    item GallonCarboyPeachWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Peach Wine [Done],
+        Icon                = GallonCarboyPeachWine,
+        WorldStaticModel    = GallonCarboyPeachWine_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_GallonFinished,
+    }
+
+    item GallonCarboyFermentingPearWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Pear Wine [Fermenting],
+        Icon                = GallonCarboyPearWineFerment,
+        WorldStaticModel    = GallonCarboyPearWineFermenting_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_FermentingWine,
+        DaysTotallyRotten   = 7,
+        DaysFresh           = 7,
+        ReplaceOnRotten     = MoreBrews.GallonCarboyPearWine,
+    }
+
+    item GallonCarboyPearWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Pear Wine [Done],
+        Icon                = GallonCarboyPearWine,
+        WorldStaticModel    = GallonCarboyPearWine_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_GallonFinished,
+    }
+
+    item GallonCarboyFermentingBananaWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Banana Wine [Fermenting],
+        Icon                = GallonCarboyBananaWineFerment,
+        WorldStaticModel    = GallonCarboyBananaWineFermenting_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_FermentingWine,
+        DaysTotallyRotten   = 7,
+        DaysFresh           = 7,
+        ReplaceOnRotten     = MoreBrews.GallonCarboyBananaWine,
+    }
+
+    item GallonCarboyBananaWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Banana Wine [Done],
+        Icon                = GallonCarboyBananaWine,
+        WorldStaticModel    = GallonCarboyBananaWine_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_GallonFinished,
+    }
+
+    item GallonCarboyFermentingHoneyMead
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Honey Mead [Fermenting],
+        Icon                = GallonCarboyHoneyMeadFerment,
+        WorldStaticModel    = GallonCarboyHoneyMeadFermenting_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_FermentingWine,
+        DaysTotallyRotten   = 10,
+        DaysFresh           = 10,
+        ReplaceOnRotten     = MoreBrews.GallonCarboyHoneyMead,
+    }
+
+    item GallonCarboyHoneyMead
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Honey Mead [Done],
+        Icon                = GallonCarboyHoneyMead,
+        WorldStaticModel    = GallonCarboyHoneyMead_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_GallonFinished,
+    }
+
+    item GallonCarboyFermentingHardCider
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Hard Cider [Fermenting],
+        Icon                = GallonCarboyPineappleWineFerment,
+        WorldStaticModel    = GallonCarboyHardCiderFermenting_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_FermentingWine,
+        DaysTotallyRotten   = 7,
+        DaysFresh           = 7,
+        ReplaceOnRotten     = MoreBrews.GallonCarboyHardCider,
+    }
+
+    item GallonCarboyHardCider
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 6,
+        Type                = Food,
+        DisplayName         = Gallon Carboy Hard Cider [Done],
+        Icon                = GallonCarboyPineappleWine,
+        WorldStaticModel    = GallonCarboyHardCider_Ground,
+        Tags                = FullGallonCarboy,
+        Tooltip             = Tooltip_item_GallonFinished,
+    }
+
+    /************************ LARGER CARBOYS ************************/
+
+    item EmptyCarboy
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 1,
+        CanStoreWater       = FALSE,
+        Type                = Normal,
+        DisplayName         = Carboy [Empty],
+        Icon                = Carboy,
+        WorldStaticModel    = EmptyCarboy_Ground,
+        Tooltip             = Tooltip_item_CarboyWine,	
+    }
+
+    item CarboyFermentingRedWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 15,
+        Type                = Food,
+        DisplayName         = Carboy Red Wine [Fermenting],
+        Icon                = CarboyRedWineFerment,
+        WorldStaticModel    = CarboyRedWineFermenting_Ground,
+        Tags                = FullCarboy,
+        Tooltip             = Tooltip_item_FermentingWine,
+        DaysTotallyRotten   = 12,
+        DaysFresh           = 12,
+        ReplaceOnRotten     = MoreBrews.CarboyRedWine,
+    }
+
+    item CarboyRedWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 15,
+        Type                = Food,
+        DisplayName         = Carboy Red Wine [Done],
+        Icon                = CarboyRedWine,
+        WorldStaticModel    = CarboyRedWine_Ground,
+        Tags                = FullCarboy,
+        Tooltip             = Tooltip_item_GallonFinished,
+    }
+
+    item CarboyFermentingWhiteWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 15,
+        Type                = Food,
+        DisplayName         = Carboy White Wine [Fermenting],
+        Icon                = CarboyWhiteWineFerment,
+        WorldStaticModel    = CarboyWhiteWineFermenting_Ground,
+        Tags                = FullCarboy,
+        Tooltip             = Tooltip_item_FermentingWine,
+        DaysTotallyRotten   = 10,
+        DaysFresh           = 10,
+        ReplaceOnRotten     = MoreBrews.CarboyWhiteWine,
+    }
+
+    item CarboyWhiteWine
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 15,
+        Type                = Food,
+        DisplayName         = Carboy White Wine [Done],
+        Icon                = CarboyWhiteWine,
+        WorldStaticModel    = CarboyWhiteWine_Ground,
+        Tags                = FullCarboy,
+        Tooltip             = Tooltip_item_GallonFinished,
+    }
+
+   /************************ ITEMS ************************/
+
+    item WineKit
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 5,
+        Type                = Normal,
+        DisplayName         = Wine Making Kit,
+        Icon                = WineKit,
+        WorldStaticModel    = WineKit_Ground,
+        Tooltip             = Tooltip_item_WineKit,
+    }
+
+    item RubberBandsBag
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 0.5,
+        Type                = Normal,
+        DisplayName         = Bag of Rubber Bands,
+        Icon                = RubberBandsBag,
+        WorldStaticModel    = RubberBandsBag_Ground,
+        Tooltip             = Tooltip_item_RubberBandsBag,
+    }
+
+    item CorksBag
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 0.5,
+        Type                = Normal,
+        DisplayName         = Bag of Corks,
+        Icon                = CorksBag,
+        WorldStaticModel    = CorksBag_Ground,
+        Tooltip             = Tooltip_item_CorksBag,
+    }
+
+   /****************************** BASE MIXTURE SUPPLIES ******************************/
+
+    item RedWineBase
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Base Ingredients [Red Wine],
+        Icon                = RedWineBase,
+        WorldStaticModel    = RedWineBase_Ground,
+        Tags                = WineBase,
+        Tooltip             = Tooltip_item_RedWineBase,
+    }
+
+    item WhiteWineBase
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Base Ingredients [White Wine],
+        Icon                = WhiteWineBase,
+        WorldStaticModel    = WhiteWineBase_Ground,
+        Tags                = WineBase,
+        Tooltip             = Tooltip_item_WhiteWineBase,
+    }
+
+    item WildBerryWineBase
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Base Ingredients [Wild Berry Wine],
+        Icon                = WildBerryWineBase,
+        WorldStaticModel    = WildBerryWineBase_Ground,
+        Tags                = WineBase,
+        Tooltip             = Tooltip_item_WildBerryWineBase,
+    }
+
+    item RosehipWineBase
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Base Ingredients [Rosehip Wine],
+        Icon                = RosehipWineBase,
+        WorldStaticModel    = RosehipWineBase_Ground,
+        Tags                = WineBase,
+        Tooltip             = Tooltip_item_RosehipWineBase,
+    }
+
+    item PineappleWineBase
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Base Ingredients [Pineapple Wine],
+        Icon                = PineappleWineBase,
+        WorldStaticModel    = PineappleWineBase_Ground,
+        Tags                = WineBase,
+        Tooltip             = Tooltip_item_PineappleWineBase,
+    }
+
+    item StrawberryWineBase
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Wine Base Ingredients [Strawberry Wine],
+        Icon                = StrawberryWineBase,
+        WorldStaticModel    = StrawberryWineBase_Ground,
+        Tags                = WineBase,
+        Tooltip             = Tooltip_item_StrawberryWineBase,
+    }
+
+    item PeachWineBase
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Base Ingredients [Peach Wine],
+        Icon                = RosehipWineBase,
+        WorldStaticModel    = PeachWineBase_Ground,
+        Tags                = WineBase,
+        Tooltip             = Tooltip_item_PeachWineBase,
+    }
+
+    item PearWineBase
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Base Ingredients [Pear Wine],
+        Icon                = WhiteWineBase,
+        WorldStaticModel    = PearWineBase_Ground,
+        Tags                = WineBase,
+        Tooltip             = Tooltip_item_PearWineBase,
+    }
+
+    item BananaWineBase
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Base Ingredients [Banana Wine],
+        Icon                = PineappleWineBase,
+        WorldStaticModel    = BananaWineBase_Ground,
+        Tags                = WineBase,
+        Tooltip             = Tooltip_item_BananaWineBase,
+    }
+
+    item HoneyMeadBase
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Base Ingredients [Honey Mead],
+        Icon                = HoneyMeadBase,
+        WorldStaticModel    = HoneyMeadBase_Ground,
+        Tags                = WineBase,
+        Tooltip             = Tooltip_item_HoneyMeadBase,
+    }
+
+    item HardCiderBase
+    {
+        DisplayCategory     = MoreBrews,
+        Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Base Ingredients [Hard Cider],
+        Icon                = PineappleWineBase,
+        WorldStaticModel    = HardCiderBase_Ground,
+        Tags                = WineBase,
+        Tooltip             = Tooltip_item_HardCiderBase,
+    }
+
+   /****************************** MAGAZINES ******************************/
+
+    item MagazineWineMaking1
+    {
+        Weight              = 0.1,
+        Type                = Literature,
+        DisplayCategory     = SkillBook,
+        DisplayName         = Wine Making the Basics,
+        Icon                = MagazineWineMaking1,
+        TeachedRecipes      = Fill Bottle Red Wine;Fill Bottle Red Wine Aged;Fill Bottle Red Wine Aged Fully;Fill Bottle White Wine;Fill Bottle White Wine Aged;Fill Bottle White Wine Aged Fully;Fill Bottle Wild Berry Wine;Fill Small Box Red Wine;Fill Small Box Red Wine Aged;Fill Small Box Red Wine Aged Fully;Fill Small Box White Wine;Fill Small Box White Wine Aged;Fill Small Box White Wine Aged Fully,
+        ReplaceOnUse        = MagazineWineMaking1,
+        Tooltip             = Tooltip_item_MagazineWineMaking1,
+        StaticModel         = Magazine,
+        WorldStaticModel    = MagazineWineMaking1_Ground,
+    }
+
+    item MagazineWineMaking2
+    {
+        Weight              = 0.1,
+        Type                = Literature,
+        DisplayCategory     = SkillBook,
+        DisplayName         = The Sweeter Side of Wine,
+        Icon                = MagazineWineMaking2,
+        TeachedRecipes      = Create Rosehip Wine Base;Create Pineapple Wine Base;Create Strawberry Wine Base;Create Peach Wine Base;Create Pear Wine Base;Create Banana Wine Base;Prep Ferment Rosehip Wine;Prep Ferment Pineapple Wine;Prep Ferment Strawberry Wine;Prep Ferment Peach Wine;Prep Ferment Pear Wine;Prep Ferment Banana Wine;Fill Gallon Barrel Rosehip Wine;Fill Gallon Barrel Pineapple Wine;Fill Gallon Barrel Strawberry Wine;Fill Gallon Barrel Peach Wine;Fill Gallon Barrel Pear Wine;Fill Gallon Barrel Banana Wine;Fill Bottle Rosehip Wine;Fill Bottle Pineapple Wine;Fill Bottle Strawberry Wine;Fill Bottle Peach Wine;Fill Bottle Pear Wine;Fill Bottle Banana Wine;Fill Large Barrel Wild Berry Wine;Fill Large Barrel Wild Rosehip Wine;Fill Large Barrel Pineapple Wine;Fill Large Barrel Strawberry Wine;Fill Large Barrel Peach Wine;Fill Large Barrel Pear Wine;Fill Large Barrel Banana Wine,         
+        ReplaceOnUse        = MagazineWineMaking2,
+        Tooltip             = Tooltip_item_MagazineWineMaking2,
+        StaticModel         = Magazine,
+        WorldStaticModel    = MagazineWineMaking2_Ground,
+    }
+
+    item MagazineWineMaking3
+    {
+        Weight              = 0.1,
+        Type                = Literature,
+        DisplayCategory     = SkillBook,
+        DisplayName         = Wine Cousins - Honey Mead and Hard Cider,
+        Icon                = MagazineWineMaking3,
+        TeachedRecipes      = Create Honey Mead Base;Create Hard Cider Base;Prep Ferment Honey Mead;Prep Ferment Hard Cider;Fill Gallon Barrel Honey Mead;Fill Gallon Barrel Hard Cider;Fill Bottle Honey Mead;Fill Bottle Hard Cider;Fill Large Barrel Honey Mead;Fill Large Barrel Hard Cider,
+        ReplaceOnUse        = MagazineWineMaking3,
+        Tooltip             = Tooltip_item_MagazineWineMaking3,
+        StaticModel         = Magazine,
+        WorldStaticModel    = MagazineWineMaking3_Ground,
+    }
+
+    item MagazineWineMaking4
+    {
+        Weight              = 0.1,
+        Type                = Literature,
+        DisplayCategory     = SkillBook,
+        DisplayName         = Contain that Ambrosia,
+        Icon                = MagazineWineMaking4,
+        TeachedRecipes      = Make a Small Barrel;Make a Large Barrel;Make Wine Box Small;Make Wine Bottles;Make Wine Corks;Make Glass Jar,
+        ReplaceOnUse        = MagazineWineMaking4,
+        Tooltip             = Tooltip_item_MagazineWineMaking4,
+        StaticModel         = Magazine,
+        WorldStaticModel    = MagazineWineMaking4_Ground,
+    }
+
+    item MagazineYeastMaking
+    {
+        Weight              = 0.1,
+        Type                = Literature,
+        DisplayCategory     = SkillBook,
+        DisplayName         = Yeast and You,
+        Icon                = MagazineYeastMaking,
+        TeachedRecipes      = Fruit Yeast Starter;Potato Yeast Starter;Wild Plants Yeast Starter;Process Dry Yeast,
+        ReplaceOnUse        = MagazineYeastMaking,
+        Tooltip             = Tooltip_item_MagazineYeastMaking,
+        StaticModel         = Magazine,
+        WorldStaticModel    = MagazineYeastMaking_Ground,
+    }
+
+   /****************************** BOOKS ******************************/
+
+	item BookWineMaking1
+    {
+        DisplayCategory     = SkillBook,
+        NumberOfPages       = 220,
+        Weight              = 0.8,
+        Type                = Literature,
+        DisplayName         = Wine Making Vol. 1,
+        Icon                = WineMakingBook,
+        SkillTrained        = WineMaking,
+        LvlSkillTrained     = 1,
+        NumLevelsTrained    = 2,
+        StaticModel         = Book,
+        WorldStaticModel    = BookCyan_Ground,
+    }
+
+	item BookWineMaking2
+    {
+        DisplayCategory     = SkillBook,
+        NumberOfPages       = 260,
+        Weight              = 0.8,
+        Type                = Literature,
+        DisplayName         = Wine Making Vol. 2,
+        Icon                = WineMakingBook,
+        SkillTrained        = WineMaking,
+        LvlSkillTrained     = 3,
+        NumLevelsTrained    = 2,
+        StaticModel         = Book,
+        WorldStaticModel    = BookCyan_Ground,
+    }
+
+	item BookWineMaking3
+    {
+        DisplayCategory     = SkillBook,
+        NumberOfPages       = 300,
+        Weight              = 0.8,
+        Type                = Literature,
+        DisplayName         = Wine Making Vol. 3,
+        Icon                = WineMakingBook,
+        SkillTrained        = WineMaking,
+        LvlSkillTrained     = 5,
+        NumLevelsTrained    = 2,
+        StaticModel         = Book,
+        WorldStaticModel    = BookCyan_Ground,
+    }
+
+	item BookWineMaking4
+    {
+        DisplayCategory     = SkillBook,
+        NumberOfPages       = 340,
+        Weight              = 0.8,
+        Type                = Literature,
+        DisplayName         = Wine Making Vol. 4, 
+        Icon                = WineMakingBook,
+        SkillTrained        = WineMaking,
+        LvlSkillTrained     = 7,
+        NumLevelsTrained    = 2,
+        StaticModel         = Book,
+        WorldStaticModel    = BookCyan_Ground,
+    }
+
+	item BookWineMaking5
+    {
+        DisplayCategory     = SkillBook,
+        NumberOfPages       = 380,
+        Weight              = 0.8,
+        Type                = Literature,
+        DisplayName         = Wine Making Vol. 5, 
+        Icon                = WineMakingBook,
+        SkillTrained        = WineMaking,
+        LvlSkillTrained     = 9,
+        NumLevelsTrained    = 2,
+        StaticModel         = Book,
+        WorldStaticModel    = BookCyan_Ground,
+    }
+
+   /****************************** EMPTIES ******************************/
+
+	item RedWineEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-RedWineWaterFull,
+        Icon                = RedWine,
+        WorldStaticModel    = RedWineEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource RedWineWaterFull,
+    }
+
+	item RedWineAgedEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-RedWineAgedWaterFull,
+        Icon                = RedWineAged,
+        WorldStaticModel    = RedWineAgedEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource RedWineAgedWaterFull,
+    }
+
+	item RedWineAgedFullyEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-RedWineAgedFullyWaterFull,
+        Icon                = RedWineAgedFully,
+        WorldStaticModel    = RedWineAgeFullyEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource RedWineAgedFullyWaterFull,
+    }
+	
+	item WhiteWineEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-WhiteWineWaterFull,
+        Icon                = WhiteWineEmpty,
+        WorldStaticModel    = WhiteWineEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource WhiteWineWaterFull,
+    }
+
+	item WhiteWineAgedEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-WhiteWineAgedWaterFull,
+        Icon                = WhiteWineAged,
+        WorldStaticModel    = WhiteWineAgedEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource WhiteWineAgedWaterFull,
+    }
+
+	item WhiteWineAgedFullyEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-WhiteWineAgedFullyWaterFullaw,
+        Icon                = WhiteWineAgedFully,
+        WorldStaticModel    = WhiteWineAgedFullyEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource WhiteWineAgedFullyWaterFull,
+    }
+
+	item WildBerryWineEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-WildBerryWineWaterFull,
+        Icon                = WildBerryWineEmpty,
+        WorldStaticModel    = WildBerryWineEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource WildBerryWineWaterFull,
+    }
+
+	item RosehipWineEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-RosehipWineWaterFull,
+        Icon                = RosehipWineEmpty,
+        WorldStaticModel    = RosehipWineEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource RosehipWineWaterFull,
+    }
+
+	item PineappleWineEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-PineappleWineWaterFull,
+        Icon                = PineappleWineEmpty,
+        WorldStaticModel    = PineappleWineEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource PineappleWineWaterFull,
+    }
+
+	item StrawberryWineEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-StrawberryWineWaterFull,
+        Icon                = StrawberryWineEmpty,
+        WorldStaticModel    = StrawberryWineEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource StrawberryWineWaterFull,
+    }
+
+	item PeachWineEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-PeachWineWaterFull,
+        Icon                = PeachWineEmpty,
+        WorldStaticModel    = PeachWineEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource PeachWineWaterFull,
+    }
+
+	item PearWineEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-PearWineWaterFull,
+        Icon                = PearWineEmpty,
+        WorldStaticModel    = PearWineEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource PearWineWaterFull,
+    }
+
+	item BananaWineEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-BananaWineWaterFull,
+        Icon                = BananaWineEmpty,
+        WorldStaticModel    = BananaWineEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource BananaWineWaterFull,
+    }
+
+	item HoneyMeadEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-HoneyMeadWaterFull,
+        Icon                = HoneyMeadEmpty,
+        WorldStaticModel    = HoneyMeadEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource HoneyMeadWaterFull,
+    }
+
+	item HardCiderEmpty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Bottle,
+        ReplaceOnUseOn      = WaterSource-HardCiderWaterFull,
+        Icon                = HardCider,
+        WorldStaticModel    = HardCiderEmpty_Ground,
+        Tooltip             = Tooltip_item_EmptyWine,
+        Tags                = EmptyPetrol;EmptyWineBottle,
+        ReplaceTypes        = PetrolSource WinePetrol;WaterSource HardCiderWaterFull,
+    }
+
+	item EmptyWineBoxSmall
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Box,
+        ReplaceOnUseOn      = WaterSource-WineBoxSmall1WaterFull,
+        Icon                = EmptyWineBoxSmall,
+        WorldStaticModel    = EmptyWineBoxSmall_Ground,
+        Tags                = EmptyWineBox,
+        Tooltip             = Tooltip_item_EmptyWine,
+    }
+
+	item WineBoxSmall1Empty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Box,
+        ReplaceOnUseOn      = WaterSource-WineBoxSmall1WaterFull,
+        Icon                = WineBoxSmall1,
+        WorldStaticModel    = WineBoxSmall1Empty_Ground,
+        Tags                = EmptyWineBox,
+        Tooltip             = Tooltip_item_EmptyWine,
+    }
+
+	item WineBoxSmall2Empty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Box,
+        ReplaceOnUseOn      = WaterSource-WineBoxSmall2WaterFull,
+        Icon                = WineBoxSmall2,
+        WorldStaticModel    = WineBoxSmall2Empty_Ground,
+        Tags                = EmptyWineBox,
+        Tooltip             = Tooltip_item_EmptyWine,
+    }
+
+	item WineBoxSmall3Empty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Box,
+        ReplaceOnUseOn      = WaterSource-WineBoxSmall3WaterFull,
+        Icon                = WineBoxSmall3,
+        WorldStaticModel    = WineBoxSmall3Empty_Ground,
+        Tags                = EmptyWineBox,
+        Tooltip             = Tooltip_item_EmptyWine,
+    }
+
+	item WineBoxSmall4Empty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Box,
+        ReplaceOnUseOn      = WaterSource-WineBoxSmall4WaterFull,
+        Icon                = WineBoxSmall4,
+        WorldStaticModel    = WineBoxSmall4Empty_Ground,
+        Tags                = EmptyWineBox,
+        Tooltip             = Tooltip_item_EmptyWine,
+    }
+
+	item WineBoxSmall5Empty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Box,
+        ReplaceOnUseOn      = WaterSource-WineBoxSmall5WaterFull,
+        Icon                = WineBoxSmall5,
+        WorldStaticModel    = WineBoxSmall5Empty_Ground,
+        Tags                = EmptyWineBox,
+        Tooltip             = Tooltip_item_EmptyWine,
+    }
+
+	item WineBoxSmall6Empty
+    {
+        DisplayCategory     = WaterContainer,
+        Weight              = 0.1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Empty Wine Box,
+        ReplaceOnUseOn      = WaterSource-WineBoxSmall6WaterFull,
+        Icon                = WineBoxSmall6,
+        WorldStaticModel    = WineBoxSmall6Empty_Ground,
+        Tags                = EmptyWineBox,
+        Tooltip             = Tooltip_item_EmptyWine,
+    }
+
+	/****************************** INSTRUCTIONS ******************************/
+
+	item WineMakingInstructions
+	{
+		DisplayCategory 	= MoreBrews,
+		Weight				= 0.05,
+		Type				= Map,
+		DisplayName			= Wine Making Instructions,
+		Map					= WineMakingInstructions,
+		Icon				= WineMakingInstructions,
+		WorldStaticModel	= WineMakingInstructions,
+		Tooltip 			= Tooltip_item_WineMakingInstructions,
+	}
+}

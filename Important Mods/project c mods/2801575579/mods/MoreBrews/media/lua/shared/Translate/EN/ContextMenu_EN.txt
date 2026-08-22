@@ -1,0 +1,4 @@
+ContextMenu_EN = {
+	ContextMenu_FoodType_Beer = "Beer",
+	ContextMenu_Brewing_Skill = "Brewing",
+}

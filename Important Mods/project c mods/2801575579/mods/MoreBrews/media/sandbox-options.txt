@@ -1,0 +1,232 @@
+VERSION = 1,
+
+
+option MoreBrews.Loot
+{
+	type = enum,
+	default = 1,
+	numValues = 5,
+	page = MB_Loot,
+	translation = MB_LootGeneral,
+}
+
+option MoreBrews.TotalAmount
+{
+	type = enum,
+	default = 3,
+	numValues = 5,
+	page = MB_Loot,
+	translation = MB_TotalAmount,
+}
+
+option MoreBrews.KitSpawnOption
+{
+	type = boolean,
+	default = true,
+	page = MB_Loot,
+	translation = MB_KitSpawnOption,
+}
+
+option MoreBrews.KegSpawnOption
+{
+	type = boolean,
+	default = true,
+	page = MB_Loot,
+	translation = MB_KegSpawnOption,
+}
+
+option MoreBrews.ForageHops
+{
+	type = boolean,
+	default = false,
+	page = MB_Loot,
+	translation = MB_ForageHops,
+}
+
+option MoreBrews.ForageHopsRate
+{
+	type = integer,
+	default = 5,
+	min = 1,
+	max = 20,
+	page = MB_Loot,
+	translation = MB_ForageHopsRate,
+}
+
+option MoreBrews.HopsOption
+{
+	type = boolean,
+	default = false,
+	page = MB_Loot,
+	translation = MB_HopsOption,
+}
+
+option MoreBrews.SuppliesSpawnOption
+{
+	type = boolean,
+	default = true,
+	page = MB_Loot,
+	translation = MB_SuppliesSpawnOption,
+}
+
+option MoreBrews.MagazineSpawnOption
+{
+	type = boolean,
+	default = true,
+	page = MB_Loot,
+	translation = MB_MagazineSpawnOption,
+}
+
+option MoreBrews.BookSpawnOption
+{
+	type = boolean,
+	default = true,
+	page = MB_Loot,
+	translation = MB_BookSpawnOption,
+}
+
+option MoreBrews.BeerSpawnOption
+{
+	type = boolean,
+	default = true,
+	page = MB_Loot,
+	translation = MB_BeerSpawnOption,
+}
+
+option MoreBrews.BrewingKits
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MB_Loot,
+	translation = MB_BrewingKits,
+}
+
+option MoreBrews.Kegs
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MB_Loot,
+	translation = MB_Kegs,
+}
+
+option MoreBrews.Hops
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MB_Loot,
+	translation = MB_Hops,
+}
+
+option MoreBrews.Recipes
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MB_Loot,
+	translation = MB_Recipes,
+}
+
+option MoreBrews.Books
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MB_Loot,
+	translation = MB_Books,
+}
+
+option MoreBrews.FillingSupplies
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MB_Loot,
+	translation = MB_Supplies,
+}
+
+option MoreBrews.Cans
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MB_Loot,
+	translation = MB_Cans,
+}
+
+option MoreBrews.Bottles
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MB_Loot,
+	translation = MB_Bottles,
+}
+
+option MoreBrews.BrewingBonus
+{
+	type = integer,
+	default = 0,
+	min = 0,
+	max = 5,
+	page = MB_Loot,
+	translation = MB_BrewingBonus,
+}
+
+option MoreBrews.FermentChange
+{
+	type = integer,
+	default = 10,
+	min = 1,
+	max = 20,
+	page = MB_Loot,
+	translation = MB_FermentChange,
+}
+
+option MoreBrews.RottenChange
+{
+	type = integer,
+	default = 10,
+	min = 1,
+	max = 20,
+	page = MB_Loot,
+	translation = MB_RottenChange,
+}
+
+option MoreBrews.CalorieChange
+{
+	type = integer,
+	default = 10,
+	min = 1,
+	max = 20,
+	page = MB_Loot,
+	translation = MB_CalorieChange,
+}
+
+option MoreBrews.Expired
+{
+	type = boolean,
+	default = false,
+	page = MB_Loot,
+	translation = MB_Expired,
+}
+
+option MoreBrews.ExpireChange
+{
+	type = integer,
+	default = 10,
+	min = 1,
+	max = 20,
+	page = MB_Loot,
+	translation = MB_ExpireChange,
+}

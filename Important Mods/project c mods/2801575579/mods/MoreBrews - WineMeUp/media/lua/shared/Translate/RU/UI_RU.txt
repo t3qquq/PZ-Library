@@ -1,0 +1,4 @@
+UI_RU = {
+    UI_trait_vintner = "Винодел",
+    UI_trait_vintnerinfo = "Вы знаете всё о том, как делать вино.",
+}

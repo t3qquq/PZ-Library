@@ -1,0 +1,4 @@
+UI_EN = {
+    UI_trait_brewer     = "Brewer",
+    UI_trait_brewerinfo = "You know all about Beer Brewing - gives +2 to Brewing Skill and Bonus in crafting bottles, cans, and bottle caps",
+}

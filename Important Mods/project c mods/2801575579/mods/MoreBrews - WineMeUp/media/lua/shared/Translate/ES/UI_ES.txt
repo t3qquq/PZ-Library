@@ -1,0 +1,4 @@
+UI_ES = {
+    UI_trait_vintner = "Enología",
+    UI_trait_vintnerinfo = "Sabes todo sobre la fabricación de vinos",
+}

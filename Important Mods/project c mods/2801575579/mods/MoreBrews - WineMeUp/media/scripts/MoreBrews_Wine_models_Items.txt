@@ -1,0 +1,1178 @@
+module Base
+{
+	model EmptyGallonCarboy_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyEmpty,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyHoneyMead_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyMead,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyHoneyMeadFermenting_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyMeadFermenting,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyHardCider_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyLight,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyHardCiderFermenting_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyLight,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyWhiteWine_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyWhiteWine,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyWhiteWineFermenting_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyWhiteWineFermenting,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyRedWine_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyRedWine,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyRedWineFermenting_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyRedWineFermenting,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyWildBerryWine_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyBerry,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyWildBerryWineFermenting_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyBerryFermenting,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyRosehipWine_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyBerry,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyRosehipWineFermenting_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyBerryFermenting,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyPineappleWine_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyPineapple,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyPineappleWineFermenting_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyPineappleFermenting,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyStrawberryWine_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyBerry,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyStrawberryWineFermenting_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyBerryFermenting,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyPeachWine_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyPeach,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyPeachWineFermenting_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyPeachFermenting,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyPearWine_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyWhiteWine,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyPearWineFermenting_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyWhiteWineFermenting,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyBananaWine_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyLight,
+	    scale       = 0.6,
+    }
+
+	model GallonCarboyBananaWineFermenting_Ground
+    {
+        mesh        = WorldItems/GallonCarboy,
+        texture     = WorldItems/GallonCarboyLightFermenting,
+	    scale       = 0.6,
+    }
+
+	model Carboy
+    {
+        mesh        = WorldItems/Carboy,
+        texture     = WorldItems/Carboy,
+	    scale       = 0.6,
+    }
+
+	model EmptyCarboy_Ground
+    {
+        mesh        = WorldItems/Carboy,
+        texture     = WorldItems/Carboy,
+	    scale       = 0.6,
+    }
+
+	model CarboyWhiteWine_Ground
+    {
+        mesh        = WorldItems/Carboy,
+        texture     = WorldItems/CarboyWhiteWine,
+	    scale       = 0.6,
+    }
+
+	model CarboyWhiteWineFermenting_Ground
+    {
+        mesh        = WorldItems/Carboy,
+        texture     = WorldItems/CarboyWhiteWineFermenting,
+	    scale       = 0.6,
+    }
+
+	model CarboyRedWine_Ground
+    {
+        mesh        = WorldItems/Carboy,
+        texture     = WorldItems/CarboyRedWine,
+	    scale       = 0.6,
+    }
+
+	model CarboyRedWineFermenting_Ground
+    {
+        mesh        = WorldItems/Carboy,
+        texture     = WorldItems/CarboyRedWineFermenting,
+	    scale       = 0.6,
+    }
+
+   	model WineKit_Ground
+    {
+        mesh        = WorldItems/BrewingKit,
+        texture     = WorldItems/WineKit,
+	    scale       = 0.4,
+    }
+
+	model MagazineWineMaking1_Ground
+    {
+        mesh        = WorldItems/Magazine,
+        texture     = WorldItems/MagazineWineMaking1,
+	    scale       = 0.4,
+    }
+
+	model MagazineWineMaking2_Ground
+    {
+        mesh        = WorldItems/Magazine,
+        texture     = WorldItems/MagazineWineMaking2,
+	    scale       = 0.4,
+    }
+
+	model MagazineWineMaking3_Ground
+    {
+        mesh        = WorldItems/Magazine,
+        texture     = WorldItems/MagazineWineMaking3,
+	    scale       = 0.4,
+    }
+
+	model MagazineWineMaking4_Ground
+    {
+        mesh        = WorldItems/Magazine,
+        texture     = WorldItems/MagazineWineMaking4,
+	    scale       = 0.4,
+    }
+
+	model MagazineYeastMaking_Ground
+    {
+        mesh        = WorldItems/Magazine,
+        texture     = WorldItems/MagazineYeastMaking,
+	    scale       = 0.4,
+    }
+
+	model BookCyan_Ground
+    {
+        mesh        = WorldItems/BookClosed,
+        texture     = WorldItems/BookCyan,
+	    scale       = 0.4,
+    }
+
+	model EmptyWineBoxSmall_Ground
+    {
+        mesh        = WorldItems/WineBoxSmallEmpty,
+        texture     = WorldItems/EmptyWineBoxSmall,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall1_Ground
+    {
+        mesh        = WorldItems/WineBoxSmall,
+        texture     = WorldItems/WineBoxSmall1,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall2_Ground
+    {
+        mesh        = WorldItems/WineBoxSmall,
+        texture     = WorldItems/WineBoxSmall2,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall3_Ground
+    {
+        mesh        = WorldItems/WineBoxSmall,
+        texture     = WorldItems/WineBoxSmall3,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall4_Ground
+    {
+        mesh        = WorldItems/WineBoxSmall,
+        texture     = WorldItems/WineBoxSmall4,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall5_Ground
+    {
+        mesh        = WorldItems/WineBoxSmall,
+        texture     = WorldItems/WineBoxSmall5,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall6_Ground
+    {
+        mesh        = WorldItems/WineBoxSmall,
+        texture     = WorldItems/WineBoxSmall6,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall1_Static
+    {
+        mesh        = WorldItems/WineBoxSmallHand,
+        texture     = WorldItems/WineBoxSmall1,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall2_Static
+    {
+        mesh        = WorldItems/WineBoxSmallHand,
+        texture     = WorldItems/WineBoxSmall2,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall3_Static
+    {
+        mesh        = WorldItems/WineBoxSmallHand,
+        texture     = WorldItems/WineBoxSmall3,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall4_Static
+    {
+        mesh        = WorldItems/WineBoxSmallHand,
+        texture     = WorldItems/WineBoxSmall4,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall5_Static
+    {
+        mesh        = WorldItems/WineBoxSmallHand,
+        texture     = WorldItems/WineBoxSmall5,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall6_Static
+    {
+        mesh        = WorldItems/WineBoxSmallHand,
+        texture     = WorldItems/WineBoxSmall6,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall1Empty_Ground
+    {
+        mesh        = WorldItems/WineBoxSmallEmpty,
+        texture     = WorldItems/WineBoxSmall1,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall2Empty_Ground
+    {
+        mesh        = WorldItems/WineBoxSmallEmpty,
+        texture     = WorldItems/WineBoxSmall2,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall3Empty_Ground
+    {
+        mesh        = WorldItems/WineBoxSmallEmpty,
+        texture     = WorldItems/WineBoxSmall3,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall4Empty_Ground
+    {
+        mesh        = WorldItems/WineBoxSmallEmpty,
+        texture     = WorldItems/WineBoxSmall4,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall5Empty_Ground
+    {
+        mesh        = WorldItems/WineBoxSmallEmpty,
+        texture     = WorldItems/WineBoxSmall5,
+	    scale       = 0.8,
+    }
+
+	model WineBoxSmall6Empty_Ground
+    {
+        mesh        = WorldItems/WineBoxSmallEmpty,
+        texture     = WorldItems/WineBoxSmall6,
+	    scale       = 0.8,
+    }
+
+	model WineBottleRed_Static
+    {
+        mesh        = WorldItems/WineBottle3_Static,
+        texture     = WorldItems/WineBottleRed,
+	    scale       = 0.4,
+    }
+
+	model WineBottleRed_Ground
+    {
+        mesh        = WorldItems/WineBottle3_Ground,
+        texture     = WorldItems/WineBottleRed,
+	    scale       = 0.4,
+    }
+
+	model WineBottleRedAged_Static
+    {
+        mesh        = WorldItems/WineBottle2_Static,
+        texture     = WorldItems/WineBottleRedAged,
+	    scale       = 0.4,
+    }
+
+	model WineBottleRedAged_Ground
+    {
+        mesh        = WorldItems/WineBottle2_Ground,
+        texture     = WorldItems/WineBottleRedAged,
+	    scale       = 0.4,
+    }
+
+	model WineBottleRedAgedFully_Static
+    {
+        mesh        = WorldItems/WineBottle1_Static,
+        texture     = WorldItems/WineBottleRedAgedFully,
+	    scale       = 0.4,
+    }
+
+	model WineBottleRedAgedFully_Ground
+    {
+        mesh        = WorldItems/WineBottle1_Ground,
+        texture     = WorldItems/WineBottleRedAgedFully,
+	    scale       = 0.4,
+    }
+
+	model WineBottleWhite_Static
+    {
+        mesh        = WorldItems/WineBottle3_Static,
+        texture     = WorldItems/WineBottleWhite,
+	    scale       = 0.4,
+    }
+
+	model WineBottleWhite_Ground
+    {
+        mesh        = WorldItems/WineBottle3_Ground,
+        texture     = WorldItems/WineBottleWhite,
+	    scale       = 0.4,
+    }
+
+	model WineBottleWhiteAged_Static
+    {
+        mesh        = WorldItems/WineBottle2_Static,
+        texture     = WorldItems/WineBottleWhiteAged,
+	    scale       = 0.4,
+    }
+
+	model WineBottleWhiteAged_Ground
+    {
+        mesh        = WorldItems/WineBottle2_Ground,
+        texture     = WorldItems/WineBottleWhiteAged,
+	    scale       = 0.4,
+    }
+
+	model WineBottleWhiteAgedFully_Static
+    {
+        mesh        = WorldItems/WineBottle1_Static,
+        texture     = WorldItems/WineBottleWhiteAgedFully,
+	    scale       = 0.4,
+    }
+
+	model WineBottleWhiteAgedFully_Ground
+    {
+        mesh        = WorldItems/WineBottle1_Ground,
+        texture     = WorldItems/WineBottleWhiteAgedFully,
+	    scale       = 0.4,
+    }
+
+	model WineBottleWildBerry_Static
+    {
+        mesh        = WorldItems/WineBottleFruit_Static,
+        texture     = WorldItems/WineBottleWildBerry,
+	    scale       = 0.4,
+    }
+
+	model WineBottleWildBerry_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottleWildBerry,
+	    scale       = 0.4,
+    }
+
+	model WineBottleRosehip_Static
+    {
+        mesh        = WorldItems/WineBottleFruit_Static,
+        texture     = WorldItems/WineBottleRosehip,
+	    scale       = 0.4,
+    }
+
+	model WineBottleRosehip_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottleRosehip,
+	    scale       = 0.4,
+    }
+
+	model WineBottlePineapple_Static
+    {
+        mesh        = WorldItems/WineBottleFruit_Static,
+        texture     = WorldItems/WineBottlePineapple,
+	    scale       = 0.4,
+    }
+
+	model WineBottlePineapple_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottlePineapple,
+	    scale       = 0.4,
+    }
+
+	model WineBottleStrawberry_Static
+    {
+        mesh        = WorldItems/WineBottleFruit_Static,
+        texture     = WorldItems/WineBottleStrawberry,
+	    scale       = 0.4,
+    }
+
+	model WineBottleStrawberry_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottleStrawberry,
+	    scale       = 0.4,
+    }
+
+	model WineBottlePeach_Static
+    {
+        mesh        = WorldItems/WineBottleFruit_Static,
+        texture     = WorldItems/WineBottlePeach,
+	    scale       = 0.4,
+    }
+
+	model WineBottlePeach_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottlePeach,
+	    scale       = 0.4,
+    }
+
+	model WineBottlePear_Static
+    {
+        mesh        = WorldItems/WineBottleFruit_Static,
+        texture     = WorldItems/WineBottlePear,
+	    scale       = 0.4,
+    }
+
+	model WineBottlePear_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottlePear,
+	    scale       = 0.4,
+    }
+
+	model WineBottleBanana_Static
+    {
+        mesh        = WorldItems/WineBottleFruit_Static,
+        texture     = WorldItems/WineBottleBanana,
+	    scale       = 0.4,
+    }
+
+	model WineBottleBanana_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottleBanana,
+	    scale       = 0.4,
+    }
+
+	model BottleHoneyMead_Static
+    {
+        mesh        = WorldItems/BottleHoneyMead_Static,
+        texture     = WorldItems/BottleHoneyMead,
+	    scale       = 0.4,
+    }
+
+	model BottleHoneyMead_Ground
+    {
+        mesh        = WorldItems/BottleHoneyMead_Ground,
+        texture     = WorldItems/BottleHoneyMead,
+	    scale       = 0.4,
+    }
+
+	model BottleHardCider_Static
+    {
+        mesh        = WorldItems/BottleHardCider_Static,
+        texture     = WorldItems/BottleHardCider,
+	    scale       = 0.4,
+    }
+	model BottleHardCider_Ground
+    {
+        mesh        = WorldItems/BottleHardCider_Ground,
+        texture     = WorldItems/BottleHardCider,
+	    scale       = 0.4,
+    }
+
+	model BarrelDispenserSmall_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserSmall,
+        texture     = WorldItems/BarrelDispenser,
+    }
+
+	model BarrelDispenserSmallRed_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserSmall,
+        texture     = WorldItems/BarrelDispenserRed,
+    }
+
+	model BarrelDispenserSmallWhite_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserSmall,
+        texture     = WorldItems/BarrelDispenserWhite,
+    }
+
+	model BarrelDispenserSmallHoneyMead_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserSmall,
+        texture     = WorldItems/BarrelDispenserHoneyMead,
+    }
+
+	model BarrelDispenserSmallHardCider_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserSmall,
+        texture     = WorldItems/BarrelDispenserHardCider,
+    }
+
+	model BarrelDispenserSmallWildBerry_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserSmall,
+        texture     = WorldItems/BarrelDispenserWildBerry,
+    }
+
+	model BarrelDispenserSmallRosehip_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserSmall,
+        texture     = WorldItems/BarrelDispenserRosehip,
+    }
+
+	model BarrelDispenserSmallPineapple_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserSmall,
+        texture     = WorldItems/BarrelDispenserPineapple,
+    }
+
+	model BarrelDispenserSmallStrawberry_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserSmall,
+        texture     = WorldItems/BarrelDispenserStrawberry,
+    }
+
+	model BarrelDispenserSmallPeach_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserSmall,
+        texture     = WorldItems/BarrelDispenserPeach,
+    }
+
+	model BarrelDispenserSmallPear_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserSmall,
+        texture     = WorldItems/BarrelDispenserPear,
+    }
+
+	model BarrelDispenserSmallBanana_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserSmall,
+        texture     = WorldItems/BarrelDispenserBanana,
+    }
+
+	model BarrelDispenserLarge_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserLarge,
+        texture     = WorldItems/BarrelDispenser,
+    }
+
+	model BarrelDispenserLargeRed_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserLarge,
+        texture     = WorldItems/BarrelDispenserRed,
+    }
+
+	model BarrelDispenserLargeWhite_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserLarge,
+        texture     = WorldItems/BarrelDispenserWhite,
+    }
+
+	model BarrelDispenserLargeHoneyMead_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserLarge,
+        texture     = WorldItems/BarrelDispenserHoneyMead,
+    }
+
+	model BarrelDispenserLargeHardCider_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserLarge,
+        texture     = WorldItems/BarrelDispenserHardCider,
+    }
+
+	model BarrelDispenserLargeWildBerry_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserLarge,
+        texture     = WorldItems/BarrelDispenserWildBerry,
+    }
+
+	model BarrelDispenserLargeRosehip_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserLarge,
+        texture     = WorldItems/BarrelDispenserRosehip,
+    }
+
+	model BarrelDispenserLargePineapple_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserLarge,
+        texture     = WorldItems/BarrelDispenserPineapple,
+    }
+
+	model BarrelDispenserLargeStrawberry_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserLarge,
+        texture     = WorldItems/BarrelDispenserStrawberry,
+    }
+
+	model BarrelDispenserLargePeach_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserLarge,
+        texture     = WorldItems/BarrelDispenserPeach,
+    }
+
+	model BarrelDispenserLargePear_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserLarge,
+        texture     = WorldItems/BarrelDispenserPear,
+    }
+
+	model BarrelDispenserLargeBanana_Ground
+    {
+        mesh        = WorldItems/BarrelDispenserLarge,
+        texture     = WorldItems/BarrelDispenserBanana,
+    }
+	model BarrelAging_Ground
+    {
+        mesh        = WorldItems/BarrelAging,
+        texture     = WorldItems/BarrelDispenser,
+    }
+
+	model BarrelAgedRed_Ground
+    {
+        mesh        = WorldItems/BarrelAging,
+        texture     = WorldItems/BarrelAgedRed,
+    }
+
+	model BarrelAgedWhite_Ground
+    {
+        mesh        = WorldItems/BarrelAging,
+        texture     = WorldItems/BarrelAgedWhite,
+    }
+
+	model BarrelAgingRed_Ground
+    {
+        mesh        = WorldItems/BarrelAging,
+        texture     = WorldItems/BarrelAgingRed,
+    }
+
+	model BarrelAgingWhite_Ground
+    {
+        mesh        = WorldItems/BarrelAging,
+        texture     = WorldItems/BarrelAgingWhite,
+    }
+
+	model BarrelAgedSmallRed_Ground
+    {
+        mesh        = WorldItems/BarrelAgingSmall,
+        texture     = WorldItems/BarrelAgedRed,
+    }
+
+	model BarrelAgedSmallWhite_Ground
+    {
+        mesh        = WorldItems/BarrelAgingSmall,
+        texture     = WorldItems/BarrelAgedWhite,
+    }
+
+	model BarrelAgingSmallRed_Ground
+    {
+        mesh        = WorldItems/BarrelAgingSmall,
+        texture     = WorldItems/BarrelAgingRed,
+    }
+
+	model BarrelAgingSmallWhite_Ground
+    {
+        mesh        = WorldItems/BarrelAgingSmall,
+        texture     = WorldItems/BarrelAgingWhite,
+    }
+
+	model RedWineBase_Ground
+    {
+        mesh        = WorldItems/BowlBase,
+        texture     = WorldItems/RedWineBase,
+	    scale       = 0.4,
+    }
+
+	model WhiteWineBase_Ground
+    {
+        mesh        = WorldItems/BowlBase,
+        texture     = WorldItems/WhiteWineBase,
+	    scale       = 0.4,
+    }
+
+	model WildBerryWineBase_Ground
+    {
+        mesh        = WorldItems/BowlBase,
+        texture     = WorldItems/WildBerryWineBase,
+	    scale       = 0.4,
+    }
+
+	model RosehipWineBase_Ground
+    {
+        mesh        = WorldItems/BowlBase,
+        texture     = WorldItems/RosehipWineBase,
+	    scale       = 0.4,
+    }
+
+	model PineappleWineBase_Ground
+    {
+        mesh        = WorldItems/BowlBase,
+        texture     = WorldItems/PineappleWineBase,
+	    scale       = 0.4,
+    }
+
+	model StrawberryWineBase_Ground
+    {
+        mesh        = WorldItems/BowlBase,
+        texture     = WorldItems/StrawberryWineBase,
+	    scale       = 0.4,
+    }
+
+	model PeachWineBase_Ground
+    {
+        mesh        = WorldItems/BowlBase,
+        texture     = WorldItems/RoseHipWineBase,
+	    scale       = 0.4,
+    }
+
+	model PearWineBase_Ground
+    {
+        mesh        = WorldItems/BowlBase,
+        texture     = WorldItems/WhiteWineBase,
+	    scale       = 0.4,
+    }
+
+	model BananaWineBase_Ground
+    {
+        mesh        = WorldItems/BowlBase,
+        texture     = WorldItems/PineappleWineBase,
+	    scale       = 0.4,
+    }
+
+	model HoneyMeadBase_Ground
+    {
+        mesh        = WorldItems/BowlBase,
+        texture     = WorldItems/HoneyMeadBase,
+	    scale       = 0.4,
+    }
+
+	model HardCiderBase_Ground
+    {
+        mesh        = WorldItems/BowlBase,
+        texture     = WorldItems/PineappleWineBase,
+	    scale       = 0.4,
+    }
+
+	model RedWineEmpty_Ground
+    {
+        mesh        = WorldItems/WineBottle3_Ground,
+        texture     = WorldItems/WineBottleRed,
+	    scale       = 0.4,
+    }
+
+	model RedWineAgedEmpty_Ground
+    {
+        mesh        = WorldItems/WineBottle2_Ground,
+        texture     = WorldItems/WineBottleRedAged,
+	    scale       = 0.4,
+    }
+
+	model RedWineAgeFullyEmpty_Ground
+    {
+        mesh        = WorldItems/WineBottle1_Ground,
+        texture     = WorldItems/WineBottleRedAgedFully,
+	    scale       = 0.4,
+    }
+
+	model WhiteWineEmpty_Ground
+    {
+        mesh        = WorldItems/WineBottle3_Ground,
+        texture     = WorldItems/WineBottleWhiteEmpty,
+	    scale       = 0.4,
+    }
+
+	model WhiteWineAgedEmpty_Ground
+    {
+        mesh        = WorldItems/WineBottle2_Ground,
+        texture     = WorldItems/WineBottleWhiteAged,
+	    scale       = 0.4,
+    }
+
+	model WhiteWineAgedFullyEmpty_Ground
+    {
+        mesh        = WorldItems/WineBottle1_Ground,
+        texture     = WorldItems/WineBottleWhiteAgedFully,
+	    scale       = 0.4,
+    }
+
+	model WildBerryWineEmpty_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottleWildBerryEmpty,
+	    scale       = 0.4,
+    }
+
+    	model RosehipWineEmpty_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottleRosehipEmpty,
+	    scale       = 0.4,
+    }
+
+	model PineappleWineEmpty_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottlePineappleEmpty,
+	    scale       = 0.4,
+    }
+
+	model StrawberryWineEmpty_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottleStrawberryEmpty,
+	    scale       = 0.4,
+    }
+
+	model PeachWineEmpty_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottlePeachEmpty,
+	    scale       = 0.4,
+    }
+
+	model PearWineEmpty_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottlePearEmpty,
+	    scale       = 0.4,
+    }
+
+	model BananaWineEmpty_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottleBananaEmpty,
+	    scale       = 0.4,
+    }
+
+	model HoneyMeadEmpty_Ground
+    {
+        mesh        = WorldItems/BottleHoneyMead_Ground,
+        texture     = WorldItems/BottleHoneyMeadEmpty,
+	    scale       = 0.4,
+    }
+
+	model HardCiderEmpty_Ground
+    {
+        mesh        = WorldItems/BottleHardCider_Ground,
+        texture     = WorldItems/BottleHardCider,
+	    scale       = 0.4,
+    }
+
+	model HoneyMeadWater_Ground
+    {
+        mesh        = WorldItems/BottleHoneyMead_Ground,
+        texture     = WorldItems/BottleHoneyMeadWater,
+	    scale       = 0.4,
+    }
+
+	model HardCiderWater_Ground
+    {
+        mesh        = WorldItems/BottleHardCider_Ground,
+        texture     = WorldItems/BottleHardCider,
+	    scale       = 0.4,
+    }
+
+	model HoneyMeadWater_Static
+    {
+        mesh        = WorldItems/BottleHoneyMead_Ground,
+        texture     = WorldItems/BottleHoneyMead,
+	    scale       = 0.4,
+    }
+
+	model HardCiderWater_Static
+    {
+        mesh        = WorldItems/BottleHardCider_Ground,
+        texture     = WorldItems/BottleHardCider,
+	    scale       = 0.4,
+    }
+
+	model WineBottleWhiteWater_Static
+    {
+        mesh        = WorldItems/WineBottle3_Static,
+        texture     = WorldItems/WineBottleWhiteWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottleWhiteWater_Ground
+    {
+        mesh        = WorldItems/WineBottle3_Ground,
+        texture     = WorldItems/WineBottleWhiteWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottleWildBerryWater_Static
+    {
+        mesh        = WorldItems/WineBottleFruit_Static,
+        texture     = WorldItems/WineBottleWildBerryWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottleWildBerryWater_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottleWildBerryWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottleRosehipWater_Static
+    {
+        mesh        = WorldItems/WineBottleFruit_Static,
+        texture     = WorldItems/WineBottleRosehipWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottleRosehipWater_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottleRosehipWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottlePineappleWater_Static
+    {
+        mesh        = WorldItems/WineBottleFruit_Static,
+        texture     = WorldItems/WineBottlePineappleWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottlePineappleWater_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottlePineappleWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottleStrawberryWater_Static
+    {
+        mesh        = WorldItems/WineBottleFruit_Static,
+        texture     = WorldItems/WineBottleStrawberryWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottleStrawberryWater_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottleStrawberryWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottlePeachWater_Static
+    {
+        mesh        = WorldItems/WineBottleFruit_Static,
+        texture     = WorldItems/WineBottlePeachWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottlePeachWater_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottlePeachWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottlePearWater_Static
+    {
+        mesh        = WorldItems/WineBottleFruit_Static,
+        texture     = WorldItems/WineBottlePearWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottlePearWater_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottlePearWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottleBananaWater_Static
+    {
+        mesh        = WorldItems/WineBottleFruit_Static,
+        texture     = WorldItems/WineBottleBananaWater,
+	    scale       = 0.4,
+    }
+
+	model WineBottleBananaWater_Ground
+    {
+        mesh        = WorldItems/WineBottleFruit_Ground,
+        texture     = WorldItems/WineBottleBananaWater,
+	    scale       = 0.4,
+    }
+
+    model FruitYeastStarter_Ground
+    {
+        mesh        = WorldItems/YeastStarter,
+        texture     = WorldItems/FruitYeastStarter,
+	    scale       = 0.4,
+    }
+
+    model PotatoYeastStarter_Ground
+    {
+        mesh        = WorldItems/YeastStarter,
+        texture     = WorldItems/PotatoYeastStarter,
+	    scale       = 0.4,
+    }
+
+    model WildPlantsYeastStarter_Ground
+    {
+        mesh        = WorldItems/YeastStarter,
+        texture     = WorldItems/WildPlantsYeastStarter,
+	    scale       = 0.4,
+    }
+
+    model DriedFruitYeast_Ground
+    {
+        mesh        = WorldItems/DriedYeast,
+        texture     = WorldItems/DriedFruitYeast,
+	    scale       = 0.4,
+    }
+
+    model DriedPotatoYeast_Ground
+    {
+        mesh        = WorldItems/DriedYeast,
+        texture     = WorldItems/DriedPotatoYeast,
+	    scale       = 0.4,
+    }
+
+    model DriedWildPlantsYeast_Ground
+    {
+        mesh        = WorldItems/DriedYeast,
+        texture     = WorldItems/DriedWildPlantsYeast,
+	    scale       = 0.4,
+    }
+
+    model CorksBag_Ground
+    {
+        mesh        = WorldItems/BaggedItems,
+        texture     = WorldItems/CorksBag,
+	    scale       = 0.4,
+    }
+
+    model RubberBandsBag_Ground
+    {
+        mesh        = WorldItems/BaggedItems,
+        texture     = WorldItems/RubberBandsBag,
+	    scale       = 0.3,
+    }
+
+	model WineMakingInstructions
+    {
+        mesh = WorldItems/Map,
+        texture = WorldItems/WineMakingInstructions,
+        scale = 0.5,
+    }
+}

@@ -1,0 +1,4 @@
+UI_EN = {
+    UI_trait_brewer = "Пивовар",
+    UI_trait_brewerinfo = "Вы знаете всё о пивоварении.",
+}

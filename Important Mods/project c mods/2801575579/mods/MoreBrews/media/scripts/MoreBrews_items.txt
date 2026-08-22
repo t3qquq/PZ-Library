@@ -1,0 +1,1679 @@
+module MoreBrews 
+{
+
+	/************************ KEGS ************************/
+
+	item EmptyKeg
+	{
+		DisplayCategory 	= MoreBrews,
+		Weight				= 2,
+		CanStoreWater		= FALSE,
+        Type				= Normal,
+		DisplayName			= Empty Keg,
+		Icon				= Keg,
+		StaticModel 		= Keg,
+		WorldStaticModel 	= Keg_Ground,
+		Tooltip 			= Tooltip_item_Keg,	
+	}
+
+	item KegAmericanLager
+	{
+		DisplayCategory 	= MoreBrews,
+        Weight				= 20,
+        Type    			= Drainable,
+		DisplayName			= Keg of American Lager Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta 			= .04,
+		Icon				= Keg,
+		ReplaceOnDeplete	= EmptyKeg,
+		ReplaceOnUseOn		= KegAmericanLager,
+		StaticModel 		= Keg,
+		WorldStaticModel 	= Keg_Ground,
+		Tooltip 			= Tooltip_item_FilledKeg,
+		Tags                = BeerKeg,
+	}
+
+	item KegAPA1
+	{
+		DisplayCategory 	= MoreBrews,
+		Weight				= 20,
+        Type    			= Drainable,
+		DisplayName			= Keg of Dark American Pale Ale Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta 			= .04,
+		Icon				= Keg,
+		ReplaceOnDeplete	= EmptyKeg,
+		StaticModel 		= Keg,
+		WorldStaticModel 	= Keg_Ground,
+		Tooltip 			= Tooltip_item_FilledKeg,
+		Tags                = BeerKeg,
+	}
+
+	item KegAPA2
+	{
+		DisplayCategory 	= MoreBrews,
+      	Weight				= 20,
+        Type    			= Drainable,
+		DisplayName			= Keg of Light American Pale Ale Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta 			= .04,
+		Icon				= Keg,
+		ReplaceOnDeplete	= EmptyKeg,
+		StaticModel 		= Keg,
+		WorldStaticModel 	= Keg_Ground,
+		Tooltip 			= Tooltip_item_FilledKeg,
+		Tags                = BeerKeg,
+	}
+
+	item KegIPA1
+	{
+		DisplayCategory 	= MoreBrews,
+      	Weight				= 20,
+        Type    			= Drainable,
+		DisplayName			= Keg of Light India Pale Ale Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta 			= .04,
+		Icon				= Keg,
+		ReplaceOnDeplete	= EmptyKeg,
+		StaticModel 		= Keg,
+		WorldStaticModel 	= Keg_Ground,
+		Tooltip 			= Tooltip_item_FilledKeg,
+		Tags                = BeerKeg,
+	}
+
+	item KegIPA2
+	{
+		DisplayCategory 	= MoreBrews,
+      	Weight				= 20,
+        Type    			= Drainable,
+		DisplayName			= Keg of Dark India Pale Ale Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta 			= .04,
+		Icon				= Keg,
+		ReplaceOnDeplete	= EmptyKeg,
+		StaticModel 		= Keg,
+		WorldStaticModel 	= Keg_Ground,
+		Tooltip 			= Tooltip_item_FilledKeg,
+		Tags                = BeerKeg,
+	}
+
+	item KegLightLager
+	{
+		DisplayCategory 	= MoreBrews,
+      	Weight				= 20,
+        Type    			= Drainable,
+		DisplayName			= Keg of Light Lager Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta 			= .04,
+		Icon				= Keg,
+		ReplaceOnDeplete	= EmptyKeg,
+		StaticModel 		= Keg,
+		WorldStaticModel 	= Keg_Ground,
+		Tooltip 			= Tooltip_item_FilledKeg,
+		Tags                = BeerKeg,
+	}
+
+	item KegPilsner
+	{
+		DisplayCategory 	= MoreBrews,
+      	Weight				= 20,
+        Type    			= Drainable,
+		DisplayName			= Keg of Pilsner Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta 			= .04,
+		Icon				= Keg,
+		ReplaceOnDeplete	= EmptyKeg,
+		StaticModel 		= Keg,
+		WorldStaticModel 	= Keg_Ground,
+		Tooltip 			= Tooltip_item_FilledKeg,
+		Tags                = BeerKeg,
+	}
+
+	item KegPorter
+	{
+		DisplayCategory 	= MoreBrews,
+      	Weight				= 20,
+        Type    			= Drainable,
+		DisplayName			= Keg of Porter Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta 			= .04,
+		Icon				= Keg,
+		ReplaceOnDeplete	= EmptyKeg,
+		StaticModel 		= Keg,
+		WorldStaticModel 	= Keg_Ground,
+		Tooltip 			= Tooltip_item_FilledKeg,
+		Tags                = BeerKeg,
+	}
+
+	item KegStout
+	{
+		DisplayCategory 	= MoreBrews,
+      	Weight				= 20,
+       	Type    			= Drainable,
+		DisplayName			= Keg of Stout Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta 			= .04,
+		Icon				= Keg,
+		ReplaceOnDeplete	= EmptyKeg,
+		StaticModel 		= Keg,
+		WorldStaticModel 	= Keg_Ground,
+		Tooltip 			= Tooltip_item_FilledKeg,
+		Tags                = BeerKeg,
+	}
+
+	item KegSkunked
+	{
+		DisplayCategory 	= MoreBrews,
+      	Weight				= 20,
+		Type    			= Drainable,
+		DisplayName			= Keg of Skunked Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta 			= .04,
+		Icon				= Keg,
+		ReplaceOnDeplete	= EmptyKeg,
+		StaticModel 		= Keg,
+		WorldStaticModel 	= Keg_Ground,
+		Tooltip 			= Tooltip_item_Skunked,
+		Tags                = BeerKeg,
+	}
+
+	/************************ CARBOYS ************************/
+	item EmptyCarboy
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 1,
+		CanStoreWater		= FALSE,
+		Type				= Normal,
+		DisplayName			= Empty Carboy,
+		Icon				= Carboy,
+		StaticModel 		= Carboy,
+		WorldStaticModel 	= Carboy_Ground,
+		Tooltip 			= Tooltip_item_Carboy,	
+	}
+
+	item CarboyFermentingAmericanLager
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy Fermenting American Lager Beer,
+		Icon				= CarboyFermentingLightBeer,
+		StaticModel 		= CarboyFermentingLightBeer,
+		WorldStaticModel 	= CarboyFermentingLightBeer,
+		Tooltip 			= Tooltip_item_Fermenting,	
+       	DaysTotallyRotten	= 6,
+        DaysFresh 			= 6,
+		ReplaceOnRotten 	= MoreBrews.CarboyAmericanLager,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyFermentingAPA1
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy Fermenting Dark American Pale Ale Beer,
+		Icon				= CarboyFermentingDarkBeer,
+		StaticModel 		= CarboyFermentingDarkBeer,
+		WorldStaticModel 	= CarboyFermentingDarkBeer,
+		Tooltip 			= Tooltip_item_Fermenting,
+       	DaysTotallyRotten	= 7,
+        DaysFresh 			= 7,
+		ReplaceOnRotten 	= MoreBrews.CarboyAPA1,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyFermentingAPA1DryHopped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy Secondary Fermenting Dark American Pale Ale Beer,
+		Icon				= CarboyFermentingDarkBeer,
+		StaticModel 		= CarboyFermentingDarkBeerDryHopped,
+		WorldStaticModel 	= CarboyFermentingDarkBeerDryHopped,
+		Tooltip 			= Tooltip_item_FermentingMore,
+       	DaysTotallyRotten	= 4,
+        DaysFresh 			= 4,
+		ReplaceOnRotten 	= MoreBrews.CarboyAPA1DryHopped,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyFermentingAPA2
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy Fermenting Light American Pale Ale Beer,
+		Icon				= CarboyFermentingLightBeer,
+		StaticModel 		= CarboyFermentingLightBeer,
+		WorldStaticModel 	= CarboyFermentingLightBeer,
+		Tooltip 			= Tooltip_item_Fermenting,
+       	DaysTotallyRotten	= 6,
+        DaysFresh 			= 6,
+		ReplaceOnRotten 	= MoreBrews.CarboyAPA2,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyFermentingAPA2DryHopped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy Secondary Fermenting Light American Pale Ale Beer,
+		Icon				= CarboyFermentingLightBeer,
+		StaticModel 		= CarboyFermentingLightBeerDryHopped,
+		WorldStaticModel 	= CarboyFermentingLightBeerDryHopped,
+		Tooltip 			= Tooltip_item_FermentingMore,
+       	DaysTotallyRotten	= 3,
+        DaysFresh 			= 3,
+		ReplaceOnRotten 	= MoreBrews.CarboyAPA2DryHopped,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyFermentingIPA1
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy Fermenting Light India Pale Ale Beer,
+		Icon				= CarboyFermentingLightBeer,
+		StaticModel 		= CarboyFermentingLightBeer,
+		WorldStaticModel 	= CarboyFermentingLightBeer,
+		Tooltip 			= Tooltip_item_Fermenting,
+       	DaysTotallyRotten	= 7,
+        DaysFresh 			= 7,
+		ReplaceOnRotten 	= MoreBrews.CarboyIPA1,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyFermentingIPA1DryHopped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy Secondary Fermenting Light India Pale Ale Beer,
+		Icon				= CarboyFermentingLightBeer,
+		StaticModel 		= CarboyFermentingLightBeerDryHopped,
+		WorldStaticModel 	= CarboyFermentingLightBeerDryHopped,
+		Tooltip 			= Tooltip_item_FermentingMore,
+       	DaysTotallyRotten	= 4,
+        DaysFresh 			= 4,
+		ReplaceOnRotten 	= MoreBrews.CarboyIPA1DryHopped,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyFermentingIPA2
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy Fermenting Dark India Pale Ale Beer,
+		Icon				= CarboyFermentingDarkBeer,
+		StaticModel 		= CarboyFermentingDarkBeer,
+		WorldStaticModel 	= CarboyFermentingDarkBeer,
+		Tooltip 			= Tooltip_item_Fermenting,
+       	DaysTotallyRotten	= 8,
+        DaysFresh 			= 8,
+		ReplaceOnRotten 	= MoreBrews.CarboyIPA2,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyFermentingIPA2DryHopped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy Secondary Fermenting Dark India Pale Ale Beer,
+		Icon				= CarboyFermentingDarkBeer,
+		StaticModel 		= CarboyFermentingDarkBeerDryHopped,
+		WorldStaticModel 	= CarboyFermentingDarkBeerDryHopped,
+		Tooltip 			= Tooltip_item_FermentingMore,
+       	DaysTotallyRotten	= 5,
+        DaysFresh 			= 5,
+		ReplaceOnRotten 	= MoreBrews.CarboyIPA2DryHopped,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyFermentingLightLager
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy Fermenting Light Lager Beer,
+		Icon				= CarboyFermentingLightBeer,
+		StaticModel 		= CarboyFermentingLightBeer,
+		WorldStaticModel 	= CarboyFermentingLightBeer,
+		Tooltip 			= Tooltip_item_Fermenting,
+       	DaysTotallyRotten	= 5,
+        DaysFresh 			= 5,
+		ReplaceOnRotten 	= MoreBrews.CarboyLightLager,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyFermentingPilsner
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy Fermenting Pilsner Beer,
+		Icon				= CarboyFermentingLightBeer,
+		StaticModel 		= CarboyFermentingLightBeer,
+		WorldStaticModel 	= CarboyFermentingLightBeer,
+		Tooltip 			= Tooltip_item_Fermenting,
+       	DaysTotallyRotten	= 5,
+        DaysFresh 			= 5,
+		ReplaceOnRotten 	= MoreBrews.CarboyPilsner,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyFermentingPorter
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy Fermenting Porter Beer,
+		Icon				= CarboyFermentingDarkBeer,
+		StaticModel 		= CarboyFermentingDarkBeer,
+		WorldStaticModel 	= CarboyFermentingDarkBeer,
+		Tooltip 			= Tooltip_item_Fermenting,
+       	DaysTotallyRotten	= 7,
+        DaysFresh 			= 7,
+		ReplaceOnRotten 	= MoreBrews.CarboyPorter,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyFermentingStout
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy Fermenting Stout Beer,
+		Icon				= CarboyFermentingDarkBeer,
+		StaticModel 		= CarboyFermentingDarkBeer,
+		WorldStaticModel 	= CarboyFermentingDarkBeer,
+		Tooltip 			= Tooltip_item_Fermenting,
+       	DaysTotallyRotten	= 6,
+        DaysFresh 			= 6,
+		ReplaceOnRotten 	= MoreBrews.CarboyStout,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyAmericanLager
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Finished American Lager Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyLightBeer,
+		ReplaceOnDeplete	= EmptyCarboy,
+		StaticModel 		= CarboyLightBeer,
+		WorldStaticModel 	= CarboyLightBeer,
+		Tooltip 			= Tooltip_item_FinishedBeer,
+       	DaysTotallyRotten	= 16,
+        DaysFresh 			= 16,
+		ReplaceOnRotten 	= MoreBrews.CarboySkunkedLight,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyAPA1
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Unfinished Dark American Pale Ale Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyDarkBeerUnfinished,
+		ReplaceOnDeplete	= EmptyCarboy,
+		StaticModel 		= CarboyDarkBeer,
+		WorldStaticModel 	= CarboyDarkBeer,
+		Tooltip 			= Tooltip_item_DryHops,
+       	DaysTotallyRotten	= 16,
+        DaysFresh 			= 16,
+		ReplaceOnRotten 	= MoreBrews.CarboySkunkedDark,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyAPA1DryHopped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Finished Dark American Pale Ale Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyDarkBeer,
+		ReplaceOnDeplete	= EmptyCarboy,
+		StaticModel 		= CarboyDarkBeerDryHopped,
+		WorldStaticModel 	= CarboyDarkBeerDryHopped,
+		Tooltip 			= Tooltip_item_FinishedBeer,
+       	DaysTotallyRotten	= 20,
+        DaysFresh 			= 20,
+		ReplaceOnRotten 	= MoreBrews.CarboySkunkedDark,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyAPA2
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Unfinished Light American Pale Ale Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyLightBeerUnfinished,
+		ReplaceOnDeplete	= EmptyCarboy,
+		StaticModel 		= CarboyLightBeer,
+		WorldStaticModel 	= CarboyLightBeer,
+		Tooltip 			= Tooltip_item_DryHops,
+       	DaysTotallyRotten	= 14,
+        DaysFresh 			= 14,
+		ReplaceOnRotten 	= MoreBrews.CarboySkunkedLight,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyAPA2DryHopped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Finished Light American Pale Ale Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyLightBeer,
+		ReplaceOnDeplete	= EmptyCarboy,
+		StaticModel 		= CarboyLightBeerDryHopped,
+		WorldStaticModel 	= CarboyLightBeerDryHopped,
+		Tooltip 			= Tooltip_item_FinishedBeer,
+       	DaysTotallyRotten	= 17,
+        DaysFresh 			= 17,
+		ReplaceOnRotten 	= MoreBrews.CarboySkunkedLight,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyIPA1
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Unfinished Light India Pale Ale Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyLightBeerUnfinished,
+		ReplaceOnDeplete	= EmptyCarboy,
+		StaticModel 		= CarboyLightBeer,
+		WorldStaticModel 	= CarboyLightBeer,
+		Tooltip 			= Tooltip_item_DryHops,
+       	DaysTotallyRotten	= 14,
+        DaysFresh 			= 14,
+		ReplaceOnRotten 	= MoreBrews.CarboySkunkedLight,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyIPA1DryHopped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Finished Light India Pale Ale Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyLightBeer,
+		ReplaceOnDeplete	= EmptyCarboy,
+		StaticModel 		= CarboyLightBeerDryHopped,
+		WorldStaticModel 	= CarboyLightBeerDryHopped,
+		Tooltip 			= Tooltip_item_FinishedBeer,
+       	DaysTotallyRotten	= 18,
+        DaysFresh 			= 18,
+		ReplaceOnRotten 	= MoreBrews.CarboySkunkedLight,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyIPA2
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Unfinished Dark India Pale Ale Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyDarkBeerUnfinished,
+		ReplaceOnDeplete	= EmptyCarboy,
+		StaticModel 		= CarboyDarkBeer,
+		WorldStaticModel 	= CarboyDarkBeer,
+		Tooltip 			= Tooltip_item_DryHops,
+       	DaysTotallyRotten	= 17,
+        DaysFresh 			= 17,
+		ReplaceOnRotten 	= MoreBrews.CarboySkunkedDark,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyIPA2DryHopped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Finished Dark India Pale Ale Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyDarkBeer,
+		ReplaceOnDeplete	= EmptyCarboy,
+		StaticModel 		= CarboyDarkBeerDryHopped,
+		WorldStaticModel 	= CarboyDarkBeerDryHopped,
+		Tooltip 			= Tooltip_item_FinishedBeer,
+       	DaysTotallyRotten	= 22,
+        DaysFresh 			= 22,
+		ReplaceOnRotten 	= MoreBrews.CarboySkunkedDark,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyLightLager
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Finished Light Lager Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyLightBeer,
+		ReplaceOnDeplete	= EmptyCarboy,
+		StaticModel 		= CarboyLightBeer,
+		WorldStaticModel 	= CarboyLightBeer,
+		Tooltip 			= Tooltip_item_FinishedBeer,
+       	DaysTotallyRotten	= 13,
+        DaysFresh 			= 13,
+		ReplaceOnRotten 	= MoreBrews.CarboySkunkedLight,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyPilsner
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Finished Pilsner Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyLightBeer,
+		ReplaceOnDeplete	= EmptyCarboy,
+		StaticModel 		= CarboyLightBeer,
+		WorldStaticModel 	= CarboyLightBeer,
+		Tooltip 			= Tooltip_item_FinishedBeer,
+       	DaysTotallyRotten	= 15,
+        DaysFresh 			= 15,
+		ReplaceOnRotten 	= MoreBrews.CarboySkunkedLight,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyPorter
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Finished Porter Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyDarkBeer,
+		ReplaceOnDeplete	= EmptyCarboy,
+		StaticModel 		= CarboyDarkBeer,
+		WorldStaticModel 	= CarboyDarkBeer,
+		Tooltip 			= Tooltip_item_FinishedBeer,
+       	DaysTotallyRotten	= 19,
+        DaysFresh 			= 19,
+		ReplaceOnRotten 	= MoreBrews.CarboySkunkedDark,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyStout
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Finished Stout Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyDarkBeer,
+		ReplaceOnDeplete	= EmptyCarboy,
+		StaticModel 		= CarboyDarkBeer,
+		WorldStaticModel 	= CarboyDarkBeer,
+		Tooltip 			= Tooltip_item_FinishedBeer,
+       	DaysTotallyRotten	= 17,
+        DaysFresh 			= 17,
+		ReplaceOnRotten 	= MoreBrews.CarboySkunkedDark,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboySkunkedDark
+	{
+	    DisplayCategory 	= Food,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Skunked Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyDarkBeer,
+		ReplaceOnDeplete	= EmptyCarboy,
+		Packaged 			= TRUE,
+		StaticModel 		= CarboyDarkBeer,
+		WorldStaticModel 	= CarboyDarkBeer,
+		Tooltip 			= Tooltip_item_Skunked,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboySkunkedLight
+	{
+	    DisplayCategory 	= Food,
+		Weight				= 15,
+		Type				= Food,
+		DisplayName			= Carboy of Skunked Beer,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyLightBeer,
+		ReplaceOnDeplete	= EmptyCarboy,
+		Packaged 			= TRUE,
+		StaticModel 		= CarboyLightBeer,
+		WorldStaticModel 	= CarboyLightBeer,
+		Tooltip 			= Tooltip_item_Skunked,
+		Tags                = BeerCarboy,
+	}
+
+
+	/************************ CARBOY TAPPED ************************/
+
+	item CarboyAmericanLagerTapped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 14,
+		Type				= Drainable,
+		DisplayName			= Carboy of Finished American Lager Beer [Tapped],
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyLightBeerTapped,
+		ReplaceOnDeplete	= EmptyCarboy,
+		ReplaceOnUseOn		= CarboyAmericanLagerTapped,
+		StaticModel 		= CarboyLightBeer,
+		WorldStaticModel 	= CarboyLightBeer,
+		Tooltip 			= Tooltip_item_FinishedBeerTapped,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyAPA1DryHoppedTapped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 14,
+		Type				= Drainable,
+		DisplayName			= Carboy of Finished Dark American Pale Ale Beer [Tapped],
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyDarkBeerTapped,
+		ReplaceOnDeplete	= EmptyCarboy,
+		ReplaceOnUseOn		= CarboyAPA1DryHoppedTapped,
+		StaticModel 		= CarboyDarkBeerDryHopped,
+		WorldStaticModel 	= CarboyDarkBeerDryHopped,
+		Tooltip 			= Tooltip_item_FinishedBeerTapped,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyAPA2DryHoppedTapped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 14,
+		Type				= Drainable,
+		DisplayName			= Carboy of Finished Light American Pale Ale Beer [Tapped],
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyLightBeerTapped,
+		ReplaceOnDeplete	= EmptyCarboy,
+		ReplaceOnUseOn		= CarboyAPA2DryHoppedTapped,
+		StaticModel 		= CarboyLightBeerDryHopped,
+		WorldStaticModel 	= CarboyLightBeerDryHopped,
+		Tooltip 			= Tooltip_item_FinishedBeerTapped,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyIPA1DryHoppedTapped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 14,
+		Type				= Drainable,
+		DisplayName			= Carboy of Finished Light India Pale Ale Beer [Tapped],
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyLightBeerTapped,
+		ReplaceOnDeplete	= EmptyCarboy,
+		ReplaceOnUseOn		= CarboyIPA1DryHoppedTapped,
+		StaticModel 		= CarboyLightBeerDryHopped,
+		WorldStaticModel 	= CarboyLightBeerDryHopped,
+		Tooltip 			= Tooltip_item_FinishedBeerTapped,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyIPA2DryHoppedTapped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 14,
+		Type				= Drainable,
+		DisplayName			= Carboy of Finished Dark India Pale Ale Beer [Tapped],
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyDarkBeerTapped,
+		ReplaceOnDeplete	= EmptyCarboy,
+		ReplaceOnUseOn		= CarboyIPA2DryHoppedTapped,
+		StaticModel 		= CarboyDarkBeerDryHopped,
+		WorldStaticModel 	= CarboyDarkBeerDryHopped,
+		Tooltip 			= Tooltip_item_FinishedBeerTapped,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyLightLagerTapped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 14,
+		Type				= Drainable,
+		DisplayName			= Carboy of Finished Light Lager Beer [Tapped],
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyLightBeerTapped,
+		ReplaceOnDeplete	= EmptyCarboy,
+		ReplaceOnUseOn		= CarboyLightLagerTapped,
+		StaticModel 		= CarboyLightBeer,
+		WorldStaticModel 	= CarboyLightBeer,
+		Tooltip 			= Tooltip_item_FinishedBeerTapped,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyPilsnerTapped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 14,
+		Type				= Drainable,
+		DisplayName			= Carboy of Finished Pilsner Beer [Tapped],
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyLightBeerTapped,
+		ReplaceOnDeplete	= EmptyCarboy,
+		ReplaceOnUseOn		= CarboyPilsnerTapped,
+		StaticModel 		= CarboyLightBeer,
+		WorldStaticModel 	= CarboyLightBeer,
+		Tooltip 			= Tooltip_item_FinishedBeerTapped,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyPorterTapped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 14,
+		Type				= Drainable,
+		DisplayName			= Carboy of Finished Porter Beer [Tapped],
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyDarkBeerTapped,
+		ReplaceOnDeplete	= EmptyCarboy,
+		ReplaceOnUseOn		= CarboyPorterTapped,
+		StaticModel 		= CarboyDarkBeer,
+		WorldStaticModel 	= CarboyDarkBeer,
+		Tooltip 			= Tooltip_item_FinishedBeerTapped,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboyStoutTapped
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 14,
+		Type				= Drainable,
+		DisplayName			= Carboy of Finished Stout Beer [Tapped],
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyDarkBeerTapped,
+		ReplaceOnDeplete	= EmptyCarboy,
+		ReplaceOnUseOn		= CarboyStoutTapped,
+		StaticModel 		= CarboyDarkBeer,
+		WorldStaticModel 	= CarboyDarkBeer,
+		Tooltip 			= Tooltip_item_FinishedBeerTapped,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboySkunkedDarkTapped
+	{
+	    DisplayCategory 	= Food,
+		Weight				= 14,
+		Type				= Drainable,
+		DisplayName			= Carboy of Skunked Beer [Tapped],
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyDarkBeerTapped,
+		ReplaceOnDeplete	= EmptyCarboy,
+		ReplaceOnUseOn		= CarboySkunkedDarkTapped,
+		StaticModel 		= CarboyDarkBeer,
+		WorldStaticModel 	= CarboyDarkBeer,
+		Tooltip 			= Tooltip_item_SkunkedTapped,
+		Tags                = BeerCarboy,
+	}
+
+	item CarboySkunkedLightTapped
+	{
+	    DisplayCategory 	= Food,
+		Weight				= 14,
+		Type				= Drainable,
+		DisplayName			= Carboy of Skunked Beer [Tapped],
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0625,
+		Icon				= CarboyLightBeerTapped,
+		ReplaceOnDeplete	= EmptyCarboy,
+		ReplaceOnUseOn		= CarboySkunkedLightTapped,
+		StaticModel 		= CarboyLightBeer,
+		WorldStaticModel 	= CarboyLightBeer,
+		Tooltip 			= Tooltip_item_SkunkedTapped,
+		Tags                = BeerCarboy,
+	}
+
+	/************************ WORT MIXTURES ************************/
+
+	item WortAmericanLager
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 10,
+		Type				= Food,
+		DisplayName			= Wort of American Lager Beer,
+		ReplaceOnDeplete	= Pot,
+		Icon				= BrewingPotMixture,
+		MinutesToCook 		= 60,
+		MinutesToBurn 		= 120,
+		IsCookable			= TRUE,
+		StaticModel 		= CookingPotBrew,
+		WorldStaticModel 	= CookingPotBrew_Ground,
+		Tooltip 			= Tooltip_item_Wort,
+		Tags                = BeerWort,
+	}
+
+	item WortAPA1
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 10,
+		Type				= Food,
+		DisplayName			= Wort of Dark American Pale Ale Beer,
+		ReplaceOnDeplete	= Pot,
+		Icon				= BrewingPotMixture,
+		MinutesToCook 		= 60,
+		MinutesToBurn 		= 120,
+		IsCookable			= TRUE,
+		StaticModel 		= CookingPotBrew,
+		WorldStaticModel 	= CookingPotBrew_Ground,
+		Tooltip 			= Tooltip_item_Wort,
+		Tags                = BeerWort,
+	}
+
+	item WortAPA2
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 10,
+		Type				= Food,
+		DisplayName			= Wort of Light American Pale Ale Beer,
+		ReplaceOnDeplete	= Pot,
+		MinutesToCook 		= 60,
+		MinutesToBurn 		= 120,
+		IsCookable			= TRUE,
+		Icon				= BrewingPotMixture,
+		StaticModel 		= CookingPotBrew,
+		WorldStaticModel 	= CookingPotBrew_Ground,
+		Tooltip 			= Tooltip_item_Wort,
+		Tags                = BeerWort,
+	}
+
+	item WortIPA1
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 10,
+		Type				= Food,
+		DisplayName			= Wort of Light India Pale Ale Beer,
+		ReplaceOnDeplete	= Pot,
+		MinutesToCook 		= 60,
+		MinutesToBurn 		= 120,
+		IsCookable			= TRUE,
+		Icon				= BrewingPotMixture,
+		StaticModel 		= CookingPotBrew,
+		WorldStaticModel 	= CookingPotBrew_Ground,
+		Tooltip 			= Tooltip_item_Wort,
+		Tags                = BeerWort,
+	}
+
+	item WortIPA2
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 10,
+		Type				= Food,
+		DisplayName			= Wort of Dark India Pale Ale Beer,
+		ReplaceOnDeplete	= Pot,
+		MinutesToCook 		= 60,
+		MinutesToBurn 		= 120,
+		IsCookable			= TRUE,
+		Icon				= BrewingPotMixture,
+		StaticModel 		= CookingPotBrew,
+		WorldStaticModel 	= CookingPotBrew_Ground,
+		Tooltip 			= Tooltip_item_Wort,
+		Tags                = BeerWort,
+	}
+
+	item WortLightLager
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 10,
+		Type				= Food,
+		DisplayName			= Wort of Light Lager Beer,
+		ReplaceOnDeplete	= Pot,
+		MinutesToCook 		= 60,
+		MinutesToBurn 		= 120,
+		IsCookable			= TRUE,
+		Icon				= BrewingPotMixture,
+		StaticModel 		= CookingPotBrew,
+		WorldStaticModel 	= CookingPotBrew_Ground,
+		Tooltip 			= Tooltip_item_Wort,
+		Tags                = BeerWort,
+	}
+
+	item WortPilsner
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 10,
+		Type				= Food,
+		DisplayName			= Wort of Pilsner Beer,
+		ReplaceOnDeplete	= Pot,
+		MinutesToCook 		= 60,
+		MinutesToBurn 		= 120,
+		IsCookable			= TRUE,
+		Icon				= BrewingPotMixture,
+		StaticModel 		= CookingPotBrew,
+		WorldStaticModel 	= CookingPotBrew_Ground,
+		Tooltip 			= Tooltip_item_Wort,
+		Tags                = BeerWort,
+	}
+
+	item WortPorter
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 10,
+		Type				= Food,
+		DisplayName			= Wort of Porter Beer,
+		ReplaceOnDeplete	= Pot,
+		MinutesToCook 		= 60,
+		MinutesToBurn 		= 120,
+		IsCookable			= TRUE,
+		Icon				= BrewingPotMixture,
+		StaticModel 		= CookingPotBrew,
+		WorldStaticModel 	= CookingPotBrew_Ground,
+		Tooltip 			= Tooltip_item_Wort,
+		Tags                = BeerWort,
+	}
+
+	item WortStout
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 10,
+		Type				= Food,
+		DisplayName			= Wort of Stout Beer,
+		ReplaceOnDeplete	= Pot,
+		MinutesToCook 		= 60,
+		MinutesToBurn 		= 120,
+		IsCookable			= TRUE,
+		Icon				= BrewingPotMixture,
+		StaticModel 		= CookingPotBrew,
+		WorldStaticModel 	= CookingPotBrew_Ground,
+		Tooltip 			= Tooltip_item_Wort,
+		Tags                = BeerWort,
+	}
+
+	/************************ ITEMS ************************/
+
+	item BrewingKit
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 5,
+		Type				= Normal,
+		DisplayName			= Brewing Kit,
+		Icon				= BrewingKit,
+		StaticModel 		= BrewingKit_Ground,
+		WorldStaticModel 	= BrewingKit_Ground,
+		Tooltip 			= Tooltip_item_BrewingKit,
+	}
+
+	item MuslinBag
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.01,
+		Type				= Normal,
+		DisplayName			= Muslin Bag,
+		Icon				= MuslinBag,
+		StaticModel 		= MuslinBag,
+		WorldStaticModel 	= MuslinBag,
+	}
+
+	item BottleCap
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.01,
+		Type				= Normal,
+		DisplayName			= Bottle Cap,
+		Icon				= BottleCap,
+		StaticModel 		= BottleCap,
+		WorldStaticModel 	= BottleCap,
+	}
+
+	item BottleCapsBag
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.2,
+		Type				= Normal,
+		DisplayName			= Bag of Bottle Caps,
+		Icon				= BottleCapBag,
+		StaticModel 		= BottleCapBag,
+		WorldStaticModel 	= BottleCapBag,
+	}
+
+	item MaltExtractDark
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.1,
+		Type				= Normal,
+		DisplayName			= Dark Malt Extract,
+		Icon				= MaltExtractDark,
+		StaticModel 		= MaltExtractDark,
+		WorldStaticModel 	= MaltExtractDark,
+		Tooltip 			= Tooltip_item_MaltExtract,
+	}
+
+
+	item MaltExtractLight
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.1,
+		Type				= Normal,
+		DisplayName			= Light Malt Extract,
+		Icon				= MaltExtractLight,
+		StaticModel 		= MaltExtractLight,
+		WorldStaticModel 	= MaltExtractLight,
+		Tooltip 			= Tooltip_item_MaltExtract,
+	}
+
+	item BottleCapper
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.2,
+		Type				= Normal,
+		DisplayName			= Manual Bottle Capper,
+		Icon				= BottleCapper,
+		StaticModel 		= BottleCapper,
+		WorldStaticModel 	= BottleCapper,
+		Tooltip 			= Tooltip_item_BottleCapper,
+	}
+
+	item CanSealer
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.4,
+		Type				= Normal,
+		DisplayName			= Manual Can Sealer,
+		Icon				= CanSealer,
+		StaticModel 		= CanSealer,
+		WorldStaticModel 	= CanSealer,
+		Tooltip 			= Tooltip_item_CanSealer,
+	}
+
+   /****************************** HOPS ******************************/
+
+	item HopsCascade
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.1,
+		Type				= Normal,
+		DisplayName			= Cascade Hops,
+		Icon				= HopsCascade,
+		StaticModel 		= HopsCascade_Ground,
+		WorldStaticModel 	= HopsCascade_Ground,
+		Tooltip 			= Tooltip_item_Hops,
+	}
+
+	item HopsCentennial
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.1,
+		Type				= Normal,
+		DisplayName			= Centennial Hops,
+		Icon				= HopsCentennial,
+		StaticModel 		= HopsCentennial_Ground,
+		WorldStaticModel 	= HopsCentennial_Ground,
+		Tooltip 			= Tooltip_item_Hops,
+	}
+
+	item HopsCitra
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.1,
+		Type				= Normal,
+		DisplayName			= Citra Hops,
+		Icon				= HopsCitra,
+		StaticModel 		= HopsCitra_Ground,
+		WorldStaticModel 	= HopsCitra_Ground,
+		Tooltip 			= Tooltip_item_Hops,
+	}
+
+	item HopsGolding
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.1,
+		Type				= Normal,
+		DisplayName			= Golding Hops,
+		Icon				= HopsGolding,
+		StaticModel 		= HopsGolding_Ground,
+		WorldStaticModel 	= HopsGolding_Ground,
+		Tooltip 			= Tooltip_item_Hops,
+	}
+
+	item HopsHallertau
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.1,
+		Type				= Normal,
+		DisplayName			= Hallertau Hops,
+		Icon				= HopsHallertau,
+		StaticModel 		= HopsHallertau_Ground,
+		WorldStaticModel 	= HopsHallertau_Ground,
+		Tooltip 			= Tooltip_item_Hops,
+	}
+
+	item HopsMosaic
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.1,
+		Type				= Normal,
+		DisplayName			= Mosaic Hops,
+		Icon				= HopsMosaic,
+		StaticModel 		= HopsMosaic_Ground,
+		WorldStaticModel 	= HopsMosaic_Ground,
+		Tooltip 			= Tooltip_item_Hops,
+	}
+
+	item HopsNugget
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.1,
+		Type				= Normal,
+		DisplayName			= Nugget Hops,
+		Icon				= HopsNugget,
+		StaticModel 		= HopsNugget_Ground,
+		WorldStaticModel 	= HopsNugget_Ground,
+		Tooltip 			= Tooltip_item_Hops,
+	}
+
+	item HopsSaaz
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.1,
+		Type				= Normal,
+		DisplayName			= Saaz Hops,
+		Icon				= HopsSaaz,
+		StaticModel 		= HopsSaaz_Ground,
+		WorldStaticModel 	= HopsSaaz_Ground,
+		Tooltip 			= Tooltip_item_Hops,
+	}
+
+	item HopsSimcoe
+	{
+	    DisplayCategory 	= MoreBrews,
+		Weight				= 0.1,
+		Type				= Normal,
+		DisplayName			= Simcoe Hops,
+		Icon				= HopsSimcoe,
+		StaticModel 		= HopsSimcoe_Ground,
+		WorldStaticModel 	= HopsSimcoe_Ground,
+		Tooltip 			= Tooltip_item_Hops,
+	}
+
+   /****************************** MAGAZINES ******************************/
+
+	item MagazineHomeBrew1
+	{
+		Weight				= 0.1,
+        Type				= Literature,
+		DisplayCategory 	= SkillBook,
+		DisplayName			= Homebrewing for Dummies,
+		Icon				= MagazineHomeBrew1,
+		TeachedRecipes  	= Create Pilsner Wort;Create Porter Wort;Create Stout Wort;Prep to Ferment Pilsner Beer;Prep to Ferment Porter Beer;Prep to Ferment Stout Beer,
+        ReplaceOnUse    	= MagazineHomeBrew1,
+		Tooltip 			= Tooltip_item_MagazineHomeBrew1,
+		StaticModel 		= Magazine,
+		WorldStaticModel 	= MagazineHomeBrew1_Ground,
+	}
+
+	item MagazineHomeBrew2
+	{
+		Weight				= 0.1,
+		Type				= Literature,
+		DisplayCategory 	= SkillBook,
+		DisplayName			= Homebrew Beyond the Basics,
+		Icon				= MagazineHomeBrew2,
+		TeachedRecipes  	= Create American Lager Wort;Create Light Lager Wort;Prep to Ferment American Lager Beer;Prep to Ferment Light Lager Beer,
+        ReplaceOnUse    	= MagazineHomeBrew2,
+		Tooltip 			= Tooltip_item_MagazineHomeBrew2,
+		StaticModel 		= Magazine,
+		WorldStaticModel 	= MagazineHomeBrew2_Ground,
+	}
+
+	item MagazineHomeBrew3
+	{
+		Weight				= 0.1,
+		Type				= Literature,
+		DisplayCategory 	= SkillBook,
+		DisplayName			= Mastering Homebrews,
+		Icon				= MagazineHomeBrew3,
+		TeachedRecipes  	= Create APA1 Wort;Create APA2 Wort;Create IPA1 Wort;Create IPA2 Wort;Prep to Ferment Dark American Pale Ale Beer;Prep to Ferment Light American Pale Ale Beer;Prep to Ferment Light India Pale Ale Beer;Prep to Ferment Dark India Pale Ale Beer;Dry Hop for Secondary Fermenting Dark American Pale Ale Beer;Dry Hop for Secondary Fermenting Light American Pale Ale Beer;Dry Hop for Secondary Fermenting Light India Pale Ale Beer;Dry Hop for Secondary Fermenting Dark India Pale Ale Beer,
+        ReplaceOnUse   		= MagazineHomeBrew3,
+		Tooltip 			= Tooltip_item_MagazineHomeBrew3,
+		StaticModel 		= Magazine,
+		WorldStaticModel 	= MagazineHomeBrew3_Ground,
+	}
+
+	item MagazineHomeBrew4
+	{
+		Weight				= 0.1,
+		Type				= Literature,
+		DisplayCategory 	= SkillBook,
+		DisplayName			= Homebrewing Sharing is Caring,
+		Icon				= MagazineHomeBrew4,
+		TeachedRecipes  	= Fill American Lager Keg;Fill APA1 Keg;Fill APA2 Keg;Fill IPA1 Keg;Fill IPA2 Keg;Fill Light Lager Keg;Fill Pilsner Keg;Fill Porter Keg;Fill Stout Keg;Fill Skunked Keg;Fill Bottle with American Lager; Fill Bottle with APA 1;Fill Bottle with APA 2;Fill Bottle with IPA 1;Fill Bottle with IPA 2;Fill Bottle with Light Lager;Fill Bottle with Pilsner;Fill Bottle with Porter;Fill Bottle with Stout;Fill Bottle with Skunked Beer;Fill Can with American Lager;Fill Can with APA 1;Fill Can with APA 2;Fill Can with IPA 1;Fill Can with IPA 2;Fill Can with Light Lager;Fill Can with Pilsner;Fill Can with Porter;Fill Can with Stout;Fill Can with Skunked Beer,
+        ReplaceOnUse    	= MagazineHomeBrew4,
+		Tooltip 			= Tooltip_item_MagazineHomeBrew4,
+		StaticModel 		= Magazine,
+		WorldStaticModel 	= MagazineHomeBrew4_Ground,
+	}
+
+	item MagazineHomeBrew5
+	{
+		Weight				= 0.1,
+		Type				= Literature,
+		DisplayCategory 	= SkillBook,
+		DisplayName			= Expert Homebrewing Crafts,
+		Icon				= MagazineHomeBrew5,
+		TeachedRecipes  	= Make a Keg;Make a Carboy;Make Beer Cans;Make Beer Bottles;Make Bottle Caps,
+        ReplaceOnUse    	= MagazineHomeBrew5,
+		Tooltip 			= Tooltip_item_MagazineHomeBrew5,
+		StaticModel 		= Magazine,
+		WorldStaticModel 	= MagazineHomeBrew5_Ground,
+	}
+
+
+   /****************************** BOOKS ******************************/
+
+	item BookBrewing1
+    	{
+       		DisplayCategory 	= SkillBook,
+        	NumberOfPages		= 220,
+        	Weight				= 0.8,
+        	Type				= Literature,
+        	DisplayName			= Brewing Vol. 1,
+        	Icon				= BrewingBook,
+        	SkillTrained 		= Brewing,
+        	LvlSkillTrained 		= 1,
+        	NumLevelsTrained = 2,
+        	StaticModel 		= Book,
+        	WorldStaticModel 	= BookCyan_Ground,
+    	}
+
+	item BookBrewing2
+    	{
+        	DisplayCategory 	= SkillBook,
+        	NumberOfPages		= 260,
+        	Weight				= 0.8,
+        	Type				= Literature,
+        	DisplayName			= Brewing Vol. 2,
+        	Icon				= BrewingBook,
+        	SkillTrained 		= Brewing,
+        	LvlSkillTrained 	= 3,
+        	NumLevelsTrained 	= 2,
+        	StaticModel 		= Book,
+        	WorldStaticModel 	= BookCyan_Ground,
+    	}
+
+	item BookBrewing3
+    	{
+        	DisplayCategory 	= SkillBook,
+        	NumberOfPages		= 300,
+        	Weight				= 0.8,
+        	Type				= Literature,
+        	DisplayName			= Brewing Vol. 3,
+        	Icon				= BrewingBook,
+        	SkillTrained 		= Brewing,
+        	LvlSkillTrained 	= 5,
+        	NumLevelsTrained 	= 2,
+        	StaticModel 		= Book,
+        	WorldStaticModel 	= BookCyan_Ground,
+    	}
+
+	item BookBrewing4
+    	{
+        	DisplayCategory 	= SkillBook,
+        	NumberOfPages		= 340,
+        	Weight				= 0.8,
+        	Type				= Literature,
+        	DisplayName			= Brewing Vol. 4, 
+        	Icon				= BrewingBook,
+        	SkillTrained 		= Brewing,
+        	LvlSkillTrained 	= 7,
+        	NumLevelsTrained 	= 2,
+        	StaticModel 		= Book,
+        	WorldStaticModel 	= BookCyan_Ground,
+    	}
+
+	item BookBrewing5
+    	{
+        	DisplayCategory 	= SkillBook,
+        	NumberOfPages		= 380,
+        	Weight				= 0.8,
+        	Type				= Literature,
+        	DisplayName			= Brewing Vol. 5, 
+        	Icon				= BrewingBook,
+        	SkillTrained 		= Brewing,
+        	LvlSkillTrained 	= 9,
+        	NumLevelsTrained 	= 2,
+        	StaticModel 		= Book,
+        	WorldStaticModel 	= BookCyan_Ground,
+    	}
+
+   /****************************** EMPTIES ******************************/
+
+    item BeerCanEmptyAmericanLager
+    {
+		DisplayCategory 	= Junk,
+        Weight				= 0.1,
+        Type				= Normal,
+        DisplayName			= Empty Beer Can,
+        Icon				= BeerCanAmericanLager,
+        MetalValue 			= 10,
+        WorldStaticModel 	= BeerCanEmptyAmericanLager,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerCan,
+    }
+
+    item BeerCanEmptyAPA1
+    {
+		DisplayCategory 	= Junk,
+        Weight				= 0.1,
+        Type				= Normal,
+        DisplayName			= Empty Beer Can,
+        Icon				= BeerCanAPA1,
+        MetalValue 			= 10,
+        WorldStaticModel 	= BeerCanEmptyAPA1,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerCan,
+    }
+
+    item BeerCanEmptyAPA2
+    {
+		DisplayCategory 	= Junk,
+        Weight				= 0.1,
+        Type				= Normal,
+        DisplayName			= Empty Beer Can,
+        Icon				= BeerCanAPA2,
+        MetalValue 			= 10,
+        WorldStaticModel 	= BeerCanEmptyAPA2,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerCan,
+    }
+
+    item BeerCanEmptyIPA1
+    {
+		DisplayCategory 	= Junk,
+        Weight				= 0.1,
+        Type				= Normal,
+        DisplayName			= Empty Beer Can,
+        Icon				= BeerCanIPA1,
+        MetalValue 			= 10,
+        WorldStaticModel 	= BeerCanEmptyIPA1,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerCan,
+    }
+
+    item BeerCanEmptyIPA2
+    {
+		DisplayCategory 	= Junk,
+        Weight				= 0.1,
+        Type				= Normal,
+        DisplayName			= Empty Beer Can,
+        Icon				= BeerCanIPA2,
+        MetalValue 			= 10,
+        WorldStaticModel 	= BeerCanEmptyIPA2,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerCan,
+    }
+
+    item BeerCanEmptyLightLager
+    {
+		DisplayCategory 	= Junk,
+        Weight				= 0.1,
+        Type				= Normal,
+        DisplayName			= Empty Beer Can,
+        Icon				= BeerCanLightLager,
+        MetalValue 			= 10,
+        WorldStaticModel 	= BeerCanEmptyLightLager,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerCan,
+    }
+
+    item BeerCanEmptyPilsner
+    {
+		DisplayCategory 	= Junk,
+        Weight				= 0.1,
+        Type				= Normal,
+        DisplayName			= Empty Beer Can,
+        Icon				= BeerCanPilsner,
+        MetalValue 			= 10,
+        WorldStaticModel 	= BeerCanEmptyPilsner,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerCan,
+    }
+
+    item BeerCanEmptyPorter
+    {
+		DisplayCategory 	= Junk,
+        Weight				= 0.1,
+        Type				= Normal,
+        DisplayName			= Empty Beer Can,
+        Icon				= BeerCanPorter,
+        MetalValue 			= 10,
+        WorldStaticModel 	= BeerCanEmptyPorter,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerCan,
+    }
+
+    item BeerCanEmptyStout
+    {
+		DisplayCategory 	= Junk,
+        Weight				= 0.1,
+        Type				= Normal,
+        DisplayName			= Empty Beer Can,
+        Icon				= BeerCanStout,
+        MetalValue 			= 10,
+        WorldStaticModel 	= BeerCanEmptyStout,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerCan,
+    }   
+
+    item BeerCanEmptySkunked
+    {
+		DisplayCategory 	= Junk,
+        Weight				= 0.1,
+        Type				= Normal,
+        DisplayName			= Empty Beer Can,
+        Icon				= BeerCanSkunked,
+        MetalValue 			= 10,
+        WorldStaticModel 	= BeerCanEmptySkunked,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerCan,
+    }
+
+    item BeerBottleEmptyAmericanLager
+    {
+        DisplayCategory 	= WaterContainer,
+        Weight				= 0.1,
+        CanStoreWater 		= TRUE,
+        Type				= Normal,
+        DisplayName			= Empty Bottle,
+        ReplaceOnUseOn		= WaterSource-BeerWaterFullAmericanLager,
+        Icon				= BeerBottleAmericanLager,
+        StaticModel 		= BeerBottleAmericanLager,
+        WorldStaticModel 	= BeerBottleAmericanLager_Ground,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerBottle,
+    }
+
+    item BeerBottleEmptyAPA1
+    {
+        DisplayCategory 	= WaterContainer,
+        Weight				= 0.1,
+        CanStoreWater 		= TRUE,
+        Type				= Normal,
+        DisplayName			= Empty Bottle,
+        ReplaceOnUseOn		= WaterSource-BeerWaterFullAPA1,
+        Icon				= BeerBottleAPA1,
+        StaticModel 		= BeerBottleAPA1,
+        WorldStaticModel 	= BeerBottleAPA1_Ground,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerBottle,
+    }
+
+    item BeerBottleEmptyAPA2
+    {
+        DisplayCategory 	= WaterContainer,
+        Weight				= 0.1,
+        CanStoreWater 		= TRUE,
+        Type				= Normal,
+        DisplayName			= Empty Bottle,
+        ReplaceOnUseOn		= WaterSource-BeerWaterFullAPA2,
+        Icon				= BeerBottleAPA2,
+        StaticModel 		= BeerBottleAPA2,
+        WorldStaticModel 	= BeerBottleAPA2_Ground,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerBottle,
+    }
+
+    item BeerBottleEmptyIPA1
+    {
+        DisplayCategory 	= WaterContainer,
+        Weight				= 0.1,
+        CanStoreWater 		= TRUE,
+        Type				= Normal,
+        DisplayName			= Empty Bottle,
+        ReplaceOnUseOn		= WaterSource-BeerWaterFullIPA1,
+        Icon				= BeerBottleIPA1,
+        StaticModel 		= BeerBottleIPA1,
+        WorldStaticModel 	= BeerBottleIPA1_Ground,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerBottle,
+    }
+
+    item BeerBottleEmptyIPA2
+    {
+        DisplayCategory 	= WaterContainer,
+        Weight				= 0.1,
+        CanStoreWater 		= TRUE,
+        Type				= Normal,
+        DisplayName			= Empty Bottle,
+        ReplaceOnUseOn		= WaterSource-BeerWaterFullIPA2,
+        Icon				= BeerBottleIPA2,
+        StaticModel 		= BeerBottleIPA2,
+        WorldStaticModel 	= BeerBottleIPA2_Ground,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerBottle,
+    }
+
+    item BeerBottleEmptyLightLager
+    {
+        DisplayCategory 	= WaterContainer,
+        Weight				= 0.1,
+        CanStoreWater 		= TRUE,
+        Type				= Normal,
+        DisplayName			= Empty Bottle,
+        ReplaceOnUseOn		= WaterSource-BeerWaterFullLightLager,
+        Icon				= BeerBottleLightLagerEmpty,
+        StaticModel 		= BeerBottleLightLagerEmpty,
+        WorldStaticModel 	= BeerBottleLightLagerEmpty_Ground,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerBottle,
+    }
+
+    item BeerBottleEmptyPilsner
+    {
+        DisplayCategory 	= WaterContainer,
+        Weight				= 0.1,
+        CanStoreWater 		= TRUE,
+        Type				= Normal,
+        DisplayName			= Empty Bottle,
+        ReplaceOnUseOn		= WaterSource-BeerWaterFullPilsner,
+        Icon				= BeerBottlePilsner,
+        StaticModel 		= BeerBottlePilsner,
+        WorldStaticModel 	= BeerBottlePilsner_Ground,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerBottle,
+    }
+
+    item BeerBottleEmptyPorter
+    {
+        DisplayCategory 	= WaterContainer,
+        Weight				= 0.1,
+        CanStoreWater 		= TRUE,
+        Type				= Normal,
+        DisplayName			= Empty Bottle,
+        ReplaceOnUseOn		= WaterSource-BeerWaterFullPorter,
+        Icon				= BeerBottlePorter,
+        StaticModel 		= BeerBottlePorter,
+        WorldStaticModel 	= BeerBottlePorter_Ground,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerBottle,
+    }
+
+    item BeerBottleEmptyStout
+    {
+        DisplayCategory 	= WaterContainer,
+        Weight				= 0.1,
+        CanStoreWater 		= TRUE,
+        Type				= Normal,
+        DisplayName			= Empty Bottle,
+        ReplaceOnUseOn		= WaterSource-BeerWaterFullStout,
+        Icon				= BeerBottleStout,
+        StaticModel 		= BeerBottleStout,
+        WorldStaticModel 	= BeerBottleStout_Ground,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerBottle,
+    }
+
+    item BeerBottleEmptySkunked
+    {
+        DisplayCategory 	= WaterContainer,
+        Weight				= 0.1,
+        CanStoreWater 		= TRUE,
+        Type				= Normal,
+        DisplayName			= Empty Bottle,
+        ReplaceOnUseOn		= WaterSource-BeerWaterFullSkunked,
+        Icon				= BeerBottleSkunked,
+        StaticModel 		= BeerBottleSkunked,
+        WorldStaticModel 	= BeerBottleSkunked_Ground,
+		Tooltip 			= Tooltip_item_Empty,
+		Tags                = EmptyBeerBottle,
+    }
+
+	/****************************** INSTRUCTIONS ******************************/
+
+	item BrewingInstructions
+	{
+		DisplayCategory 	= MoreBrews,
+		Weight				= 0.05,
+		Type				= Map,
+		DisplayName			= Brewing Instructions,
+		Map					= BrewingInstructions,
+		Icon				= BrewingInstructions,
+		WorldStaticModel	= BrewingInstructions,
+		Tooltip 			= Tooltip_item_BrewingInstructions,
+	}
+}
