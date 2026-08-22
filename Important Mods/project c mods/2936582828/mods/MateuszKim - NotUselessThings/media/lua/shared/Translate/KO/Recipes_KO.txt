@@ -1,0 +1,5 @@
+Recipe_KO = {
+    Recipe_Make_Sterilized_Bandage = "소독된 붕대 만들기",
+    Recipe_Make_Sterilized_Rag = "소독된 천 만들기",
+    Recipe_Make_Toy = "장난감 만들기",
+}

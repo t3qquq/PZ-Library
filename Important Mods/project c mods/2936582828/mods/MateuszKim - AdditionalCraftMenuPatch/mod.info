@@ -1,0 +1,8 @@
+name=프로젝트 좀보이드 모드 한국어 제작창 한글화
+poster=poster.png
+icon=lcon.png
+id=Matikim_CraftMenuAdditionalPatch_KR
+authors=Mateusz Kim
+require=Arsenal(26)GunFighter[MAIN MOD 2.0]
+description=<RGB:0.8,0.8,1>제작창 메뉴 한글어번역. <LINE> <LINE>
+description=<LINE> <LINE>번역: Mateusz_Kim <LINE>

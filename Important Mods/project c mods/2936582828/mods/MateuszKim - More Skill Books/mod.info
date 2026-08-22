@@ -1,0 +1,8 @@
+name=프로젝트 좀보이드 모드 한국어 번역팩 More Skill Books
+poster=poster.png
+icon=lcon.png
+id=Matikim_MoreSkillBooks_KR
+authors=Mateusz Kim
+require=MoreSkillBooks
+description=<RGB:0.8,0.8,1>MoreSkillBooks 모드 한글어번역. <LINE> <LINE>
+description=<LINE> <LINE>번역: Mateusz_Kim <LINE>

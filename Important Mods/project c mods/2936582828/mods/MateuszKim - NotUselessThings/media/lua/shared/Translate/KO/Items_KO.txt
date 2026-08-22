@@ -1,0 +1,3 @@
+Items_KO = {
+    DisplayName_Toy = "장난감",
+}
