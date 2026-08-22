@@ -1,0 +1,12 @@
+Sandbox_EN = {
+	Sandbox_MutieBaitTooltips.RequiredTrappingSkill = "Required Trapping level",
+    Sandbox_MutieBaitTooltips.RequiredTrappingSkill_tooltip = "Minimum Trapping skill required to show bait and trap information",
+
+    Sandbox_MutieBaitTooltips.ShowTooltipOnTrap = "Show tooltips on traps",
+    Sandbox_MutieBaitTooltips.ShowTooltipOnTrap_tooltip = "Enables extended tooltip information when hovering traps in inventory such as stick traps and mouse traps",
+
+    Sandbox_MutieBaitTooltips.ShowTooltipOnBait = "Show tooltips on bait",
+    Sandbox_MutieBaitTooltips.ShowTooltipOnBait_tooltip = "Enables extended tooltip information when hovering bait in inventory such as worms and cabbage",
+
+	Sandbox_MutieBaitTooltips = "Mutie's Bait Tooltips"
+}

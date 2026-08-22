@@ -1,0 +1,27 @@
+VERSION = 1,
+
+option MutieBaitTooltips.RequiredTrappingSkill = {
+	type = integer,
+	default = 0,
+	min = 0,
+	max = 10,
+
+	page = MutieBaitTooltips,
+	translation = MutieBaitTooltips.RequiredTrappingSkill,
+}
+
+option MutieBaitTooltips.ShowTooltipOnBait = {
+	type = boolean,
+	default = true,
+
+	page = MutieBaitTooltips,
+	translation = MutieBaitTooltips.ShowTooltipOnBait,
+}
+
+option MutieBaitTooltips.ShowTooltipOnTrap = {
+	type = boolean,
+	default = true,
+
+	page = MutieBaitTooltips,
+	translation = MutieBaitTooltips.ShowTooltipOnTrap,
+}
