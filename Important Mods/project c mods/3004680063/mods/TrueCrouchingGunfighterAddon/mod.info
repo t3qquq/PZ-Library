@@ -1,0 +1,5 @@
+name=True Crouching Gunfighter Addon
+id=TrueCrouchingArsenalGFAddon
+description=Character model will crouch rather than slouch while sneaking when idle.
+poster=poster.png
+require=Arsenal(26)GunFighter[MAIN MOD 2.0],TrueCrouching
