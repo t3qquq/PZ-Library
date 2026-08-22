@@ -1,0 +1,3495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!--        Welcome to the New Frontier~!   		-->
+	<!--        A Realism HairPack by Ash~  			-->
+	<!--                                    			-->
+	<!--       The Largest HairPack EVER Made for		-->
+	<!--       Project Zomboid!							-->
+	<!--                                    			-->
+	<!--                                    			-->
+	<!--                                    			-->
+	<!--                                    			-->
+	<!--        Some Hairs By MaeMentoMori~ 			-->
+	<!--                                    			-->
+	<!--                                    			-->
+	<!--        99.99% of the Mod Made By Ash ~			-->
+	<!--                                    			-->
+	<!--                                    			-->
+	<!--        All Rights Reserved         			-->
+	<!--                                    			-->
+	<!--        Ask for permission~!        			-->
+	<!--                                    			-->
+	<!--        HairDetails~!               			-->
+	<!--                                    			-->
+	<!--     My hairs Will be Around the    			-->
+	<!--                                    			-->
+	<!--   500 triCount to 22k              			-->
+	<!--   is My Rough Limits Per Hair      			-->
+	<!--   This was based on B41 though.                -->
+	<!--                                    			-->
+	<!--                                    			-->
+	<!--   Hai! B42 Changes things.                     -->
+	<!--   Hairs can be more Extravagant				-->
+	<!--   I Will Experiment.                           -->
+	<!--                                    			-->
+	<!--                                    			-->
+	<!--   Do not Modpack.                  			-->
+	<!--                                    			-->
+	<!--   Do Not mirror or Host.           			-->
+	<!--                                    			-->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+
+
+
+	<!-- ~~~~~~~~~~~~~ PROJECT AVA: NEW PARADIGM SPECIFIC HAIRSTYLES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~ These are fully intended to be used by those with Project AVA V18. or higher. ~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~ But Ash 'I dont use that mod!' Well... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~ It Is Never too late to start. going forward, i mod to make me happy. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~ Clipping etc Issues will be De-Prioritized. going forward for hair listed Here ~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~ If The Recommended Body Mod Not be installed. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+
+
+
+
+
+
+	<!--   FENNEX ~ !                                 			-->
+	<!--   Ava's Custom Evolving HairStyle                      -->
+	<female>
+		<name>FennexPrime</name>
+		<model>skinned\hair\NPDM_FENNEX_GEN</model>
+		<texture>NPDM_Fennex</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>FennexRogue</trimChoices>
+		<trimChoices>Riven</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>Rufflet</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<alternate category="default" style="Fennex" />
+		<alternate category="Group01" style="Fennex1" />
+		<alternate category="Group02" style="Fennex1" />
+		<alternate category="Group03" style="Fennex1" />
+		<alternate category="Group04" style="Fennex1" />
+		<alternate category="Group05" style="Fennex1" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+	<female><name>FennexPrime1</name>
+		<model>skinned\hair\NPDM_FENNEX_GEN1</model>
+		<texture>NPDM_Fennex</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<female>
+		<name>Arkenaux</name>
+		<model>skinned\Hair\Arkenaux</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Riven</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Ada</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<alternate category="default" style="Arkenaux" />
+		<alternate category="Group01" style="Arkenaux1" />
+		<alternate category="Group02" style="Arkenaux1" />
+		<alternate category="Group03" style="Arkenaux1" />
+		<alternate category="Group04" style="Arkenaux1" />
+		<alternate category="Group05" style="Arkenaux1" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+
+	<female>
+		<name>Ada</name>
+		<model>skinned\hair\ADA</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Riven</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Ada</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<alternate category="default" style="Ada" />
+		<alternate category="Group01" style="Ada" />
+		<alternate category="Group02" style="Ada" />
+		<alternate category="Group03" style="Ada" />
+		<alternate category="Group04" style="Ada" />
+		<alternate category="Group05" style="Ada" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+	<female>
+		<name>Mango_WildFire</name>
+		<model>skinned\hair\Mango_WildFire</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Riven</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Ada</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<alternate category="default" style="Mango_WildFire" />
+		<alternate category="Group01" style="Mango_WildFire" />
+		<alternate category="Group02" style="Mango_WildFire" />
+		<alternate category="Group03" style="Mango_WildFire" />
+		<alternate category="Group04" style="Mango_WildFire" />
+		<alternate category="Group05" style="Mango_WildFire" />
+		<noChoose>False</noChoose>
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+	<female>
+		<name>Riven_WildFire</name>
+		<model>skinned\hair\Riven_WildFire</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Riven</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Ada</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<alternate category="default" style="Riven_WildFire" />
+		<alternate category="Group01" style="Riven_WildFire" />
+		<alternate category="Group02" style="Riven_WildFire" />
+		<alternate category="Group03" style="Riven_WildFire" />
+		<alternate category="Group04" style="Riven_WildFire" />
+		<alternate category="Group05" style="Riven_WildFire" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+	<female>
+		<name>Parrallax</name>
+		<model>skinned\hair\Parrallax</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Ada</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<alternate category="default" style="Parrallax" />
+		<alternate category="Group01" style="Parrallax2" />
+		<alternate category="Group02" style="Parrallax2" />
+		<alternate category="Group03" style="Parrallax2" />
+		<alternate category="Group04" style="Parrallax2" />
+		<alternate category="Group05" style="Parrallax2" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+		<female>
+		<name>Riven</name>
+		<model>skinned\hair\Riven</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Ada</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<alternate category="default" style="Riven" />
+		<alternate category="Group01" style="Riven" />
+		<alternate category="Group02" style="Riven1" />
+		<alternate category="Group03" style="Riven1" />
+		<alternate category="Group04" style="Riven1" />
+		<alternate category="Group05" style="Riven1" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+	<female>
+		<name>LINCL</name>
+		<model>skinned\hair\LINCL</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<trimChoices>Ada</trimChoices>
+		<alternate category="default" style="LINCL" />
+		<alternate category="Group01" style="LINCLH1" />
+		<alternate category="Group02" style="LINCLH1" />
+		<alternate category="Group03" style="LINCLH1" />
+		<alternate category="Group04" style="LINCLH1" />
+		<alternate category="Group05" style="LINCLH1" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+
+
+	<female>
+		<name>Mango</name>
+		<model>skinned\hair\Mango</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>Riven</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>Rufflet</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<trimChoices>Ada</trimChoices>
+		<alternate category="default" style="Mango" />
+		<alternate category="Group01" style="Mango1" />
+		<alternate category="Group02" style="Mango1" />
+		<alternate category="Group04" style="Mango4" />
+		<alternate category="Group05" style="Mango4" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+	<!--   FENNEX ~ !                                 			-->
+	<!--   Ava's Custom Evolving HairStyle                      -->
+	<female>
+		<name>FennexWildFireClassy</name>
+		<model>skinned\hair\Fennex_WildfireClassy</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>FennexRogue</trimChoices>
+		<trimChoices>Riven</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>Rufflet</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<alternate category="default" style="FennexWildFireClassy" />
+		<alternate category="Group01" style="FennexWildFireClassy1" />
+		<alternate category="Group02" style="FennexWildFireClassy1" />
+		<alternate category="Group03" style="FennexWildFireClassy1" />
+		<alternate category="Group04" style="FennexWildFireClassy1" />
+		<alternate category="Group05" style="FennexWildFireClassy1" />
+		<noChoose>False</noChoose>
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+	<female><name>FennexWildFireClassy1</name>
+		<model>skinned\hair\Fennex_WildfireClassy1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+	<!--   FENNEX ~ !                                 			-->
+	<!--   Ava's Custom Evolving HairStyle                      -->
+	<female>
+		<name>Fennex</name>
+		<model>skinned\hair\Fennex_Original</model>
+		<texture>hairfoamsummer3</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>FennexRogue</trimChoices>
+		<trimChoices>Riven</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>Rufflet</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<alternate category="default" style="Fennex" />
+		<alternate category="Group01" style="Fennex1" />
+		<alternate category="Group02" style="Fennex1" />
+		<alternate category="Group03" style="Fennex1" />
+		<alternate category="Group04" style="Fennex1" />
+		<alternate category="Group05" style="Fennex1" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+	<!--   FENNEX Anim ~ !                                 			-->
+	<!--   Ava's Custom Evolving HairStyle V2                       -->
+	<female>
+		<name>FennexAlt</name>
+		<model>skinned\hair\Fennex</model>
+		<texture>hairfoamsummer3</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>FennexRogue</trimChoices>
+		<trimChoices>Riven</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>Rufflet</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<alternate category="default" style="FennexAlt"/>
+		<alternate category="Group01" style="Fennex1" />
+		<alternate category="Group02" style="Fennex1" />
+		<alternate category="Group03" style="Fennex1" />
+		<alternate category="Group04" style="Fennex1" />
+		<alternate category="Group05" style="Fennex1" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+	<female>
+		<name>FennexSurvivor</name>
+		<model>skinned\hair\Fennex_Survivor</model>
+		<texture>hairfoamsummer3</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>FennexRogue</trimChoices>
+		<trimChoices>Riven</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>Rufflet</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<alternate category="default" style="FennexSurvivor" />
+		<alternate category="Group01" style="FennexSurvivorH1" />
+		<alternate category="Group02" style="FennexSurvivorH1" />
+		<alternate category="Group03" style="FennexSurvivorH1" />
+		<alternate category="Group04" style="FennexSurvivorH1" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+	<female>
+		<name>FennexWildFire</name>
+		<model>skinned\hair\Fennex_WildFire</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>FennexRogue</trimChoices>
+		<trimChoices>Riven</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>Rufflet</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<alternate category="default" style="FennexWildFire" />
+		<alternate category="Group01" style="Fennex_WildFire_H1" />
+		<alternate category="Group02" style="Fennex_WildFire_H1" />
+		<alternate category="Group03" style="Fennex_WildFire_H1" />
+		<alternate category="Group04" style="Fennex_WildFire_H1" />
+		<alternate category="Group05" style="Fennex_WildFire_H1" />
+		<noChoose>False</noChoose>
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+	<female>
+		<name>FennexParadigm</name>
+		<model>skinned\hair\Fennex_Ethereal</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>FennexRogue</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<alternate category="default" style="Fennex_Ethereal" />
+		<alternate category="Group01" style="Fennex_Ethereal_H1" />
+		<alternate category="Group02" style="Fennex_Ethereal_H1" />
+		<alternate category="Group03" style="Fennex_Ethereal_H1" />
+		<alternate category="Group04" style="Fennex_Ethereal_H1" />
+		<alternate category="Group05" style="Fennex_Ethereal_H1" />
+		<noChoose>False</noChoose>
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+	<female>
+		<name>FennexRogue</name>
+		<model>skinned\hair\Fennex_Rogue</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>FennexWildFire</trimChoices>
+		<trimChoices>FennexParadigm</trimChoices>
+		<trimChoices>FennexRogue</trimChoices>
+		<trimChoices>Riven</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>Rufflet</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<trimChoices>Mango_WildFire</trimChoices>
+		<alternate category="default" style="FennexRogue" />
+		<alternate category="Group01" style="FennexRogueH1" />
+		<alternate category="Group02" style="FennexRogueH1" />
+		<alternate category="Group03" style="FennexRogueH1" />
+		<alternate category="Group04" style="FennexRogueH1" />
+		<alternate category="Group05" style="FennexRogueH1" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+	<female><name>FennexRogueH1</name>
+		<model>skinned\hair\Fennex_Rogue_H1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+	<female><name>Fennex_WildFire_H1</name>
+		<model>skinned\hair\Fennex_WildFire_H1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+	<female><name>Fennex_Ethereal_H1</name>
+		<model>skinned\hair\Fennex_Ethereal_H1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+	<female><name>Fennex1</name>
+		<model>skinned\hair\Fennex1</model>
+		<texture>hairfoamsummer3</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+	<female><name>FennexSurvivorH1</name>
+		<model>skinned\hair\Fennex_Survivor_H1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+		
+	</female>
+
+
+	<female>
+	<name>Riven1</name>
+		<model>skinned\hair\Kate_Hair_Hat</model>
+		<texture>Hair_Blonde</texture>
+		<noChoose>true</noChoose>
+		
+	</female>
+
+
+	<female>
+	<name>Arkenaux1</name>
+		<model>skinned\hair\Arkenaux1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+		
+	</female>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--  Hairs Removed                                 -->
+	<!--  Kat, Electra, Starlet                         -->
+	<!--                                    			-->
+	<!--  Once Removed. They are Overriden.    			-->
+	<!--  & Will not return.                            -->
+	<!--  GP2 Overrides the Hair FBX.                   -->
+	<!--                                    			-->
+
+	<!--            Hat Swap Out Hairs~     			-->
+	<!--  A Lazy Solution to Burnout Avoidance          -->
+	<!--  but solves all hair getting hat compat.       -->
+	<!--                                    			-->
+	<!--          Group1                    			-->
+	<!--                                    			-->
+	<female><name>frontierGP1</name>
+		<model>skinned\hair\frontierGP1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<!--                                    			-->
+	<!--          Group2 Bandana etc        			-->
+	<!--                                    			-->
+	<female><name>frontierGP2</name>
+		<model>skinned\hair\frontierGP2</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>false</noChoose>
+	</female>
+	<!--                                    			-->
+	<!--                                    			-->
+	<!--                                    			-->
+	<!--                                    			-->
+	<!--                                    			-->
+	<!--                                    			-->
+
+	<!-- ~~~~~~~~~~~~~ Mae's Hairs ~~~~~~~~~~~~~~~~~~~~ -->
+	<female>
+        <name>F_princessPeach</name>
+		<model>Skinned\Hair\F_princessPeach</model>
+		<texture>princessPeach</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="F_princessPeach" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+
+	</female>
+		<female>
+		<name>Maemento</name>
+		<model>skinned\hair\Maemento</model>
+		<texture>Maemento</texture>
+		<noChoose>False</noChoose>
+		<trimChoices>Maemento</trimChoices>
+		<trimChoices>MaementoCombat</trimChoices>
+		<trimChoices>F_princessPeach</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Maemento" />
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+	<!-- ~~~~~~~~~~~~~~~ End Of Mae's Hairs Section ~~~ -->
+
+
+
+
+
+
+
+	<!-- ~~~~~~~~~~~~~ Ash's Other Hairs ~~~~~~~~~~~~~~~~~~~~ -->
+
+	
+	<female>
+		<name>UmbralPheonix</name>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<model>skinned\hair\UmbralPheonix</model>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Riven</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="UmbralPheonix" />
+		<alternate category="Group01" style="UmbralPheonix1" />
+		<alternate category="Group02" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female>
+		<name>Nexus</name>
+		<model>skinned\hair\Nexus</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Riven</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Nexus" />
+		<alternate category="Group01" style="Nexus1" />
+		<alternate category="Group02" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+	<!--   Electra Removed.                                 		-->
+	<!--   Kat Removed.                                 			-->
+
+	<female>
+        <name>Melody</name>
+		<model>Skinned\Hair\Melody</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Melody" />
+		<alternate category="Group01" style="Melody1" />
+		<alternate category="Group02" style="Melody1" />
+		<alternate category="Group04" style="frontierGP2" />
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+	<female>
+        <name>Scarlet</name>
+		<model>Skinned\Hair\Scarlet</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Scarlet" />
+		<alternate category="Group01" style="Scarlet1" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="Scarlet3" />
+		<alternate category="Group04" style="Scarlet4" />
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+	<female>
+        <name>Fawne</name>
+		<model>Skinned\Hair\Fawne</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Fawne" />
+		<alternate category="Group01" style="Fawne1" />
+		<alternate category="Group02" style="Fawne1" />
+		<alternate category="Group03" style="Fawne3" />
+		<alternate category="Group04" style="Fawne4" />
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+	<female>
+		<name>SeaBreeze</name>
+		<model>skinned\hair\SeaBreeze</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="SeaBreeze" />
+		<alternate category="Group01" style="SeaBreeze1" />
+		<alternate category="Group02" style="SeaBreeze1" />
+		<alternate category="Group04" style="SeaBreeze4" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+	<female><name>SeaBreeze1</name>
+		<model>skinned\hair\SeaBreeze1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+		
+	</female>
+
+
+
+
+
+
+	<female>
+		<name>Autumn</name>
+		<model>skinned\hair\Autumn</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Autumn" />
+		<alternate category="Group01" style="Autumn1" />
+		<alternate category="Group02" style="Autumn1" />
+		<alternate category="Group04" style="Autumn1" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+	<female><name>Autumn1</name>
+		<model>skinned\hair\Autumn1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+		
+	</female>
+
+
+
+	<female>
+		<name>Ark</name>
+		<model>skinned\hair\Ark</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>F_princessPeach</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<alternate category="default" style="Ark" />
+		<alternate category="Group01" style="frontierGP2" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="frontierGP2" />
+		<alternate category="Group04" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+	<female>
+		<name>Fate</name>
+		<model>skinned\hair\Fate</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>F_princessPeach</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<alternate category="default" style="Fate" />
+		<alternate category="Group01" style="Fate1" />
+		<alternate category="Group02" style="Fate1" />
+		<alternate category="Group04" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+	<female><name>Fate1</name>
+		<model>skinned\hair\Fate1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+
+
+
+
+	<female>
+		<name>Clara</name>
+		<model>skinned\hair\ProjectClara</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>EternalSlumber</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<alternate category="default" style="Clara" />
+		<alternate category="Group01" style="Clara1" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="frontierGP2" />
+		<alternate category="Group04" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+	<female><name>Clara1</name>
+		<model>skinned\hair\ProjectClara1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+
+
+	<female>
+		<name>Carter</name>
+		<model>skinned\hair\Carter</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<alternate category="default" style="Carter" />
+		<alternate category="Group01" style="frontierGP2" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="frontierGP2" />
+		<alternate category="Group04" style="frontierGP2" />
+		<alternate category="Group05" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+	<female>
+		<name>Kitara</name>
+		<model>skinned\hair\Kitara</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<alternate category="default" style="Kitara" />
+		<alternate category="Group01" style="frontierGP2" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="frontierGP2" />
+		<alternate category="Group04" style="frontierGP2" />
+		<alternate category="Group05" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+	<!--          V3                    			-->
+
+
+	<female>
+		<name>DateNight</name>
+		<model>skinned\Hair\DateNight</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="DateNight" />
+		<alternate category="Group01" style="frontierGP2" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="frontierGP2" />
+		<alternate category="Group04" style="frontierGP2" />
+		<alternate category="Group05" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+	<female>
+		<name>Carbonite</name>
+		<model>skinned\Hair\Carbonite</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Carbonite" />
+		<alternate category="Group01" style="frontierGP2" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="frontierGP2" />
+		<alternate category="Group04" style="frontierGP2" />
+		<alternate category="Group05" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+	<female>
+		<name>SecondDream</name>
+		<model>skinned\Hair\SecondDream</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="SecondDream" />
+		<alternate category="Group01" style="frontierGP2" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="frontierGP2" />
+		<alternate category="Group04" style="frontierGP2" />
+		<alternate category="Group05" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+
+	<female>
+		<name>Valiant</name>
+		<model>skinned\Hair\VALIANT_W</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Valiant"/>
+		<alternate category="Group01" style="frontierGP2" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="frontierGP2" />
+		<alternate category="Group04" style="frontierGP2" />
+		<alternate category="Group05" style="frontierGP2"/>
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+	<female>
+		<name>Illenium</name>
+		<model>skinned\Hair\ILLENIUM</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Illenium"/>
+		<alternate category="Group01" style="frontierGP2" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="frontierGP2" />
+		<alternate category="Group04" style="frontierGP2" />
+		<alternate category="Group05" style="frontierGP2"/>
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+
+	<female>
+		<name>Accursed</name>
+		<model>skinned\Hair\ACCURSED</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="ACCURSED" />
+		<alternate category="Group01" style="frontierGP2" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="frontierGP2" />
+		<alternate category="Group04" style="frontierGP2" />
+		<alternate category="Group05" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+
+
+
+
+	<female>
+		<name>Evergent</name>
+		<model>skinned\Hair\Evergent</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Evergent" />
+		<alternate category="Group01" style="Evergent1" />
+		<alternate category="Group02" style="Evergent1" />
+		<alternate category="Group03" style="frontierGP3" />
+		<alternate category="Group04" style="frontierGP3" />
+		<alternate category="Group05" style="frontierGP3" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+
+
+	<female>
+		<name>CountDown</name>
+		<model>skinned\Hair\CountDown</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="CountDown" />
+		<alternate category="Group01" style="CountDown1" />
+		<alternate category="Group02" style="frontierGP3" />
+		<alternate category="Group03" style="frontierGP3" />
+		<alternate category="Group04" style="frontierGP3" />
+		<alternate category="Group05" style="frontierGP3" />
+		<noChoose>False</noChoose>
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+	<female>
+		<name>Abbadon</name>
+		<model>skinned\Hair\Abbadon</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Abbadon" />
+		<alternate category="Group01" style="Abbadon1" />
+		<alternate category="Group02" style="frontierGP3" />
+		<alternate category="Group03" style="frontierGP3" />
+		<alternate category="Group04" style="frontierGP3" />
+		<alternate category="Group05" style="frontierGP3" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+	<female>
+		<name>Azazel</name>
+		<model>skinned\Hair\Azazel</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Azazel" />
+		<alternate category="Group01" style="Azazel" />
+		<alternate category="Group02" style="frontierGP3" />
+		<alternate category="Group03" style="frontierGP3" />
+		<alternate category="Group04" style="frontierGP3" />
+		<alternate category="Group05" style="frontierGP3" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+	<female>
+		<name>UnConstrained</name>
+		<model>skinned\Hair\UnConstrained</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="UnConstrained" />
+		<alternate category="Group01" style="UnConstrained" />
+		<alternate category="Group02" style="frontierGP3" />
+		<alternate category="Group03" style="frontierGP3" />
+		<alternate category="Group04" style="frontierGP3" />
+		<alternate category="Group05" style="frontierGP3" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+	<female>
+		<name>Rememberance</name>
+		<model>skinned\Hair\Rememberance</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Rememberance" />
+		<alternate category="Group01" style="frontierGP2" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="frontierGP2" />
+		<alternate category="Group04" style="frontierGP2" />
+		<alternate category="Group05" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+	<female>
+		<name>SummerTime</name>
+		<model>skinned\Hair\SummerTime</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="SummerTime" />
+		<alternate category="Group01" style="SummerTime" />
+		<alternate category="Group02" style="frontierGP3" />
+		<alternate category="Group03" style="frontierGP3" />
+		<alternate category="Group04" style="frontierGP3" />
+		<alternate category="Group05" style="frontierGP3" />
+		<noChoose>False</noChoose>
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+	<female>
+		<name>MangoReversed</name>
+		<model>skinned\Hair\MangoReversed</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="MangoReversed" />
+		<alternate category="Group01" style="MangoReversed" />
+		<alternate category="Group02" style="MangoReversed" />
+		<alternate category="Group03" style="MangoReversed" />
+		<alternate category="Group04" style="MangoReversed" />
+		<alternate category="Group05" style="MangoReversed" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+	<female>
+		<name>Naxium</name>
+		<model>skinned\Hair\Naxium</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Naxium" />
+		<alternate category="Group01" style="Naxium" />
+		<alternate category="Group02" style="frontierGP3" />
+		<alternate category="Group03" style="frontierGP3" />
+		<alternate category="Group04" style="frontierGP3" />
+		<alternate category="Group05" style="frontierGP3" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+	<female>
+		<name>Warranted</name>
+		<model>skinned\Hair\Warranted</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Warranted" />
+		<alternate category="Group01" style="WarrantedH1" />
+		<alternate category="Group02" style="WarrantedH1" />
+		<alternate category="Group03" style="WarrantedH1" />
+		<alternate category="Group04" style="WarrantedH1" />
+		<alternate category="Group05" style="WarrantedH1" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+	<female>
+		<name>Evelyn</name>
+		<model>skinned\Hair\Evelyn</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Evelyn" />
+		<alternate category="Group01" style="Evelyn" />
+		<alternate category="Group02" style="frontierGP3" />
+		<alternate category="Group03" style="frontierGP3" />
+		<alternate category="Group04" style="frontierGP3" />
+		<alternate category="Group05" style="frontierGP3" />
+		<noChoose>False</noChoose>
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+		<female>
+		<name>KeyToMyHeart</name>
+		<model>skinned\Hair\KeyToMyHeart</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="KeyToMyHeart" />
+		<alternate category="Group01" style="KeyToMyHeart" />
+		<alternate category="Group02" style="frontierGP3" />
+		<alternate category="Group03" style="frontierGP3" />
+		<alternate category="Group04" style="frontierGP3" />
+		<alternate category="Group05" style="frontierGP3" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+		<female>
+		<name>frontierGP2</name>
+		<model>skinned\Hair\frontierGP2</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="frontierGP2" />
+		<alternate category="Group01" style="frontierGP2" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="frontierGP2" />
+		<alternate category="Group04" style="frontierGP2" />
+		<alternate category="Group05" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+
+
+		<female>
+		<name>Cirrium</name>
+		<model>skinned\Hair\Cirrium</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Cirrium" />
+		<alternate category="Group01" style="Cirrium" />
+		<alternate category="Group02" style="frontierGP3" />
+		<alternate category="Group03" style="frontierGP3" />
+		<alternate category="Group04" style="frontierGP3" />
+		<alternate category="Group05" style="frontierGP3" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+		<female>
+		<name>Loyalty</name>
+		<model>skinned\Hair\Loyalty</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="Loyalty" />
+		<alternate category="Group01" style="frontierGP2" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="frontierGP2" />
+		<alternate category="Group04" style="frontierGP2" />
+		<alternate category="Group05" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+
+		<female>
+		<name>AfterDark</name>
+		<model>skinned\Hair\AfterDark</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="AfterDark" />
+		<alternate category="Group01" style="AfterDark" />
+		<alternate category="Group02" style="frontierGP2" />
+		<alternate category="Group03" style="frontierGP2" />
+		<alternate category="Group04" style="frontierGP2" />
+		<alternate category="Group05" style="frontierGP2" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<female>
+		<name>frontierGP3</name>
+		<model>skinned\Hair\frontierGP3</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="frontierGP3" />
+		<alternate category="Group01" style="frontierGP3G" />
+		<alternate category="Group02" style="frontierGP3G" />
+		<alternate category="Group03" style="frontierGP3G" />
+		<alternate category="Group04" style="frontierGP3G" />
+		<alternate category="Group05" style="frontierGP3G" />
+		<noChoose>False</noChoose>
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+	<female><name>frontierGP3G</name>
+		<model>skinned\hair\frontierGP3G</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+		
+	</female>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<female>
+		<name>SomberMoments</name>
+		<model>skinned\hair\SomberMoments</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="SomberMoments" />
+		<alternate category="Group01" style="SomberMoments" />
+		<alternate category="Group02" style="SomberMoments" />
+		<alternate category="Group03" style="SomberMoments" />
+		<alternate category="Group04" style="SomberMoments" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+
+
+
+	<female>
+		<name>AlteredReflections</name>
+		<model>skinned\hair\AlteredReflections</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>AlteredReflections</trimChoices>
+		<alternate category="default" style="AlteredReflections" />
+		<alternate category="Group01" style="AlteredReflections" />
+		<alternate category="Group02" style="AlteredReflections" />
+		<alternate category="Group03" style="AlteredReflections" />
+		<alternate category="Group04" style="AlteredReflections" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+
+
+	<female>
+		<name>Rufflet</name>
+		<model>skinned\hair\Rufflet</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>Rufflet</trimChoices>
+		<alternate category="default" style="Rufflet" />
+		<alternate category="Group01" style="Rufflet" />
+		<alternate category="Group02" style="Rufflet" />
+		<alternate category="Group03" style="Rufflet" />
+		<alternate category="Group04" style="Rufflet" />
+		<noChoose>False</noChoose>
+		<level>1</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+
+
+	<female>
+		<name>Avantime</name>
+		<model>skinned\hair\Avantime</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Vixen</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>SeaBreeze</trimChoices>
+		<trimChoices>Fennex</trimChoices>
+		<trimChoices>FennexSurvivor</trimChoices>
+		<trimChoices>Clara</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Autumn</trimChoices>
+		<trimChoices>Melody</trimChoices>
+		<trimChoices>Nexus</trimChoices>
+		<trimChoices>Fate</trimChoices>
+		<trimChoices>Mango</trimChoices>
+		<trimChoices>UmbralPheonix</trimChoices>
+		<trimChoices>Arkenaux</trimChoices>
+		<trimChoices>DateNight</trimChoices>
+		<trimChoices>Carbonite</trimChoices>
+		<trimChoices>SecondDream</trimChoices>
+		<trimChoices>Illenium</trimChoices>
+		<trimChoices>ACCURSED</trimChoices>
+		<trimChoices>ARTEMIA</trimChoices>
+		<trimChoices>Valiant</trimChoices>
+		<trimChoices>Evergent</trimChoices>
+		<trimChoices>CountDown</trimChoices>
+		<trimChoices>Abbadon</trimChoices>
+		<trimChoices>MangoReversed</trimChoices>
+		<trimChoices>Azazel</trimChoices>
+		<trimChoices>UnConstrained</trimChoices>
+		<trimChoices>Rememberance</trimChoices>
+		<trimChoices>SummerTime</trimChoices>
+		<trimChoices>Warranted</trimChoices>
+		<trimChoices>Naxium</trimChoices>
+		<trimChoices>Evelyn</trimChoices>
+		<trimChoices>KeyToMyHeart</trimChoices>
+		<trimChoices>frontierGP2</trimChoices>
+		<trimChoices>frontierGP3</trimChoices>
+		<trimChoices>Loyalty</trimChoices>
+		<trimChoices>SomberMoments</trimChoices>
+		<trimChoices>Rufflet</trimChoices>
+		<alternate category="default" style="Avantime" />
+		<alternate category="Group01" style="Avantime" />
+		<alternate category="Group02" style="Avantime" />
+		<alternate category="Group03" style="Avantime" />
+		<alternate category="Group04" style="Avantime" />
+		<noChoose>False</noChoose>
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--        Hat Swappin ~ Compatz       			-->
+
+
+
+
+
+
+	<female><name>WarrantedH1</name>
+		<model>skinned\hair\Warranted_H1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+		
+	</female>
+
+	<female><name>LINCLH1</name>
+		<model>skinned\hair\LINCL_H1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+		
+	</female>
+
+	<female><name>Parrallax2</name>
+		<model>skinned\hair\Parrallax2</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+		
+	</female>
+
+	<female><name>Evergent1</name>
+		<model>skinned\hair\Evergent1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+
+	<female><name>Abbadon1</name>
+		<model>skinned\hair\Abbadon1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+		
+	</female>
+
+
+	<female><name>CountDown1</name>
+		<model>skinned\hair\CountDown1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+		
+	</female>
+
+
+
+	<female><name>Fawne1</name>
+		<model>skinned\hair\Fawne1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+		
+	</female>
+
+	<female><name>UmbralPheonix1</name>
+		<model>skinned\hair\UmbralPheonix</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+		
+	</female>
+	
+	<female><name>Scarlet1</name>
+		<model>skinned\hair\Scarlet1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+		<female><name>Scarlet4</name>
+		<model>skinned\hair\Scarlet4</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+	<female><name>Melody1</name>
+		<model>skinned\hair\Melody1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+	<female><name>Melody4</name>
+		<model>skinned\hair\Melody4</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+		<female><name>Mango1</name>
+		<model>skinned\hair\Mango1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+	<female><name>Mango4</name>
+		<model>skinned\hair\Mango4</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+	<female><name>Kat1</name>
+		<model>skinned\hair\Kat1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+	<female><name>UmbralPheonix1</name>
+		<model>skinned\hair\UmbralPheonix1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+	<female><name>Nexus1</name>
+		<model>skinned\hair\Nexus1</model>
+		<texture>Loyalty_R4_RF_SILVERSUN_WS</texture>
+		<noChoose>true</noChoose>
+	</female>
+</hairStyles>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

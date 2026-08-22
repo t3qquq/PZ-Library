@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+	<m_FemaleOutfits>
+		<m_Name>FakeZ</m_Name>
+		<m_Guid>i8se4c0e-2259-4h41-be8d-bedjbadc9172</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!--  Hatslot -->
+			<probability>0.5</probability>
+			<itemGUID>744b297a-f568-4583-a23e-c45af4d735ea</itemGUID>
+		</m_items>
+		<m_items> <!--  Armor -->
+			<itemGUID>f552d5f7-7bb2-4a4c-8f25-d8808c6d0aef</itemGUID>
+		</m_items>
+		<m_items> <!--  Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+
+	
+</outfitManager>
