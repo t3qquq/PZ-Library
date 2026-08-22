@@ -1,0 +1,1305 @@
+module Base
+{
+	
+	/****************************** Spices Recipes (only Base works apparently) ******************************/	
+	/****************************** Bowls of Food ******************************/	
+
+	evolvedrecipe SapphCooking.BowlofFriedRice
+	{
+		BaseItem:SapphCooking.BowlofFriedRice,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofFriedRice,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BowlofOmurice
+	{
+		BaseItem:SapphCooking.BowlofOmurice,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofOmurice,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.ArborioRiceBowl
+	{
+		BaseItem:SapphCooking.ArborioRiceBowl,
+		MaxItems:4,
+		ResultItem:SapphCooking.ArborioRiceBowl,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BowlofRisotto
+	{
+		BaseItem:SapphCooking.BowlofRisotto,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofRisotto,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BrownRiceBowl
+	{
+		BaseItem:SapphCooking.BrownRiceBowl,
+		MaxItems:4,
+		ResultItem:SapphCooking.BrownRiceBowl,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BowlofRavioli
+	{
+		BaseItem:SapphCooking.BowlofRavioli,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofRavioli,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BowlofTortellini
+	{
+		BaseItem:SapphCooking.BowlofTortellini,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofTortellini,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BowlofBeefStew
+	{
+		BaseItem:SapphCooking.BowlofBeefStew,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofBeefStew,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+
+	evolvedrecipe SapphCooking.BowlofRefriedBeans
+	{
+		BaseItem:SapphCooking.BowlofRefriedBeans,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofRefriedBeans,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BowlofSpaguetti
+	{
+		BaseItem:SapphCooking.BowlofSpaguetti,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofSpaguetti,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BowlofSpaguettiandMeatballs
+	{
+		BaseItem:SapphCooking.BowlofSpaguettiandMeatballs,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofSpaguettiandMeatballs,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BowlofMashedPotatoes
+	{
+		BaseItem:SapphCooking.BowlofMashedPotatoes,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofMashedPotatoes,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+
+	evolvedrecipe SapphCooking.BowlofYakisoba
+	{
+		BaseItem:SapphCooking.BowlofYakisoba,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofYakisoba,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BowlofKungPaoChicken
+	{
+		BaseItem:SapphCooking.BowlofKungPaoChicken,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofKungPaoChicken,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BowlofShuiZhuYu
+	{
+		BaseItem:SapphCooking.BowlofShuiZhuYu,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofShuiZhuYu,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+
+
+	evolvedrecipe SapphCooking.BowlofJapaneseCurry
+	{
+		BaseItem:SapphCooking.BowlofJapaneseCurry,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofJapaneseCurry,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BowlofBorscht
+	{
+		BaseItem:SapphCooking.BowlofBorscht,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofBorscht,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BowlofMashedPotatoes_Meatballs
+	{
+		BaseItem:SapphCooking.BowlofMashedPotatoes_Meatballs,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofMashedPotatoes_Meatballs,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+
+	evolvedrecipe SapphCooking.BowlofRiceJapaneseCurry
+	{
+		BaseItem:SapphCooking.BowlofRiceJapaneseCurry,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofRiceJapaneseCurry,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+
+
+
+
+
+	evolvedrecipe SapphCooking.FryingPan_BaconandEggs
+	{
+		BaseItem:SapphCooking.FryingPan_BaconandEggs,
+		MaxItems:4,
+		ResultItem:SapphCooking.FryingPan_BaconandEggs,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.Plate_BaconandEggs
+	{
+		BaseItem:SapphCooking.Plate_BaconandEggs,
+		MaxItems:4,
+		ResultItem:SapphCooking.Plate_BaconandEggs,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.PlateBlue_BaconandEggs
+	{
+		BaseItem:SapphCooking.PlateBlue_BaconandEggs,
+		MaxItems:4,
+		ResultItem:SapphCooking.PlateBlue_BaconandEggs,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.PlateOrange_BaconandEggs
+	{
+		BaseItem:SapphCooking.PlateOrange_BaconandEggs,
+		MaxItems:4,
+		ResultItem:SapphCooking.PlateOrange_BaconandEggs,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.PlateFancy_BaconandEggs
+	{
+		BaseItem:SapphCooking.PlateFancy_BaconandEggs,
+		MaxItems:4,
+		ResultItem:SapphCooking.PlateFancy_BaconandEggs,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.RiceBeanBowl
+	{
+		BaseItem:SapphCooking.RiceBeanBowl,
+		MaxItems:4,
+		ResultItem:SapphCooking.RiceBeanBowl,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BowlofChickenStroganoff
+	{
+		BaseItem:SapphCooking.BowlofChickenStroganoff,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofChickenStroganoff,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.BowlofRiceChickenStroganoff
+	{
+		BaseItem:SapphCooking.BowlofRiceChickenStroganoff,
+		MaxItems:4,
+		ResultItem:SapphCooking.BowlofRiceChickenStroganoff,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.Plate_HuevosRancheros
+	{
+		BaseItem:SapphCooking.Plate_HuevosRancheros,
+		MaxItems:4,
+		ResultItem:SapphCooking.Plate_HuevosRancheros,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.PlateBlue_HuevosRancheros
+	{
+		BaseItem:SapphCooking.PlateBlue_HuevosRancheros,
+		MaxItems:4,
+		ResultItem:SapphCooking.PlateBlue_HuevosRancheros,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.PlateOrange_HuevosRancheros
+	{
+		BaseItem:SapphCooking.PlateOrange_HuevosRancheros,
+		MaxItems:4,
+		ResultItem:SapphCooking.PlateOrange_HuevosRancheros,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.PlateFancy_HuevosRancheros
+	{
+		BaseItem:SapphCooking.PlateFancy_HuevosRancheros,
+		MaxItems:4,
+		ResultItem:SapphCooking.PlateFancy_HuevosRancheros,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.PoutineBowl
+	{
+		BaseItem:SapphCooking.PoutineBowl,
+		MaxItems:4,
+		ResultItem:SapphCooking.PoutineBowl,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/****************************** MREs ******************************/	
+
+	evolvedrecipe SapphCooking.MRE_1
+	{
+		BaseItem:SapphCooking.MRE_BeefStew,
+		MaxItems:4,
+		ResultItem:SapphCooking.MRE_BeefStew,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+		AddIngredientIfCooked:true,
+	}
+	evolvedrecipe SapphCooking.MRE_2
+	{
+		BaseItem:SapphCooking.MRE_PorkwRice,
+		MaxItems:4,
+		ResultItem:SapphCooking.MRE_PorkwRice,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+		AddIngredientIfCooked:true,
+	}
+	evolvedrecipe SapphCooking.MRE_3
+	{
+		BaseItem:SapphCooking.MRE_Spaguetti,
+		MaxItems:4,
+		ResultItem:SapphCooking.MRE_Spaguetti,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+		AddIngredientIfCooked:true,
+	}
+	evolvedrecipe SapphCooking.MRE_4
+	{
+		BaseItem:SapphCooking.MRE_OmeletwHam,
+		MaxItems:4,
+		ResultItem:SapphCooking.MRE_OmeletwHam,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+		AddIngredientIfCooked:true,
+	}
+	evolvedrecipe SapphCooking.MRE_5
+	{
+		BaseItem:SapphCooking.MRE_SausageswGravy,
+		MaxItems:4,
+		ResultItem:SapphCooking.MRE_SausageswGravy,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+		AddIngredientIfCooked:true,
+	}
+	evolvedrecipe SapphCooking.MRE_6
+	{
+		BaseItem:SapphCooking.MRE_CheeseTortellini,
+		MaxItems:4,
+		ResultItem:SapphCooking.MRE_CheeseTortellini,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+		AddIngredientIfCooked:true,
+	}
+	evolvedrecipe SapphCooking.MRE_7
+	{
+		BaseItem:SapphCooking.MRE_MeatballsinSauce,
+		MaxItems:4,
+		ResultItem:SapphCooking.MRE_MeatballsinSauce,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+		AddIngredientIfCooked:true,
+	}
+	evolvedrecipe SapphCooking.MRE_8
+	{
+		BaseItem:SapphCooking.MRE_Lasagna,
+		MaxItems:4,
+		ResultItem:SapphCooking.MRE_Lasagna,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+		AddIngredientIfCooked:true,
+	}
+	evolvedrecipe SapphCooking.MRE_9
+	{
+		BaseItem:SapphCooking.MRE_ChiliwBeans,
+		MaxItems:4,
+		ResultItem:SapphCooking.MRE_ChiliwBeans,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+		AddIngredientIfCooked:true,
+	}
+	evolvedrecipe SapphCooking.MRE_10
+	{
+		BaseItem:SapphCooking.MRE_InBeefStrogonoff,
+		MaxItems:4,
+		ResultItem:SapphCooking.MRE_InBeefStrogonoff,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+		AddIngredientIfCooked:true,
+	}
+	evolvedrecipe SapphCooking.MRE_11
+	{
+		BaseItem:SapphCooking.MRE_InChickenStrogonoff,
+		MaxItems:4,
+		ResultItem:SapphCooking.MRE_InChickenStrogonoff,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+		AddIngredientIfCooked:true,
+	}
+
+	evolvedrecipe SapphCooking.MRE_12
+	{
+		BaseItem:SapphCooking.MRE_InRiceMincedMeat,
+		MaxItems:4,
+		ResultItem:SapphCooking.MRE_InRiceMincedMeat,
+		Name:Add Spices,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+		AddIngredientIfCooked:true,
+	}
+
+	evolvedrecipe SapphCooking.SkewersVegetable
+	{
+		BaseItem:WoodenSkewers,
+		MaxItems:5,
+		ResultItem:SapphCooking.WoodenSkewersVegetable,
+		Cookable:true,
+		Name:Make Skewer,
+		CanAddSpicesEmpty:false,
+	}
+	evolvedrecipe SapphCooking.SkewersMeat
+	{
+		BaseItem:WoodenSkewers,
+		MaxItems:5,
+		ResultItem:SapphCooking.WoodenSkewersMeat,
+		Cookable:true,
+		Name:Make Skewer,
+		CanAddSpicesEmpty:false,
+	}
+	evolvedrecipe SapphCooking.SkewersInsect
+	{
+		BaseItem:WoodenSkewers,
+		MaxItems:5,
+		ResultItem:SapphCooking.WoodenSkewersInsect,
+		Cookable:true,
+		Name:Make Skewer,
+		CanAddSpicesEmpty:false,
+	}
+	evolvedrecipe SapphCooking.ThermosBeverage
+	{
+		BaseItem:FullWaterThermos,
+		MaxItems:5,
+		ResultItem:SapphCooking.ThermosBeverage,
+		AddIngredientSound:AddItemInBeverage,
+		Name:Thermos,
+		CanAddSpicesEmpty:True,
+	}
+
+	evolvedrecipe SapphCooking.SapphCrackers
+	{
+		BaseItem:Crackers,
+		MaxItems:2,
+		ResultItem:SapphCooking.CrackersEvolved,
+		Name:Crackers,
+		CanAddSpicesEmpty:True,
+	}
+
+	evolvedrecipe SapphCooking.SapphCrackers2
+	{
+		BaseItem:GrahamCrackers,
+		MaxItems:2,
+		ResultItem:SapphCooking.GrahamCrackersEvolved,
+		Name:Graham Crackers,
+		CanAddSpicesEmpty:True,
+	}
+
+	/********New Evolved stuff, as of june 2023************************/
+	
+	evolvedrecipe SapphCooking.FriedRiceWok
+	{
+		BaseItem:WokPanwithFriedRice,
+		MaxItems:6,
+		Cookable:true,
+		ResultItem:SapphCooking.WokFriedRiceEvolved,
+		Name:Fried Rice,
+		CanAddSpicesEmpty:True,
+	}
+
+	evolvedrecipe SapphCooking.FryingPanwithFriedRice
+	{
+		BaseItem:FryingPanwithFriedRice,
+		MaxItems:6,
+		Cookable:true,
+		ResultItem:SapphCooking.FryingPanFriedRiceEvolved,
+		Name:Fried Rice,
+		CanAddSpicesEmpty:True,
+	}
+
+	evolvedrecipe SapphCooking.BakedPotatoEvolved
+	{
+		BaseItem:BakedPotato,
+		MaxItems:5,
+		Cookable:true,
+		ResultItem:SapphCooking.BakedPotato_Evolved,
+		Name:Baked Potato,
+		CanAddSpicesEmpty:True,
+	}
+
+	evolvedrecipe SapphCooking.LasagnaEvolved
+	{
+		BaseItem:RoastingpanwithUncookedLasagna,
+		MaxItems:5,
+		Cookable:true,
+		ResultItem:SapphCooking.RoastingpanwithLasagna,
+		Name:Lasagna,
+		CanAddSpicesEmpty:True,
+		AddIngredientIfCooked:false,
+	}
+	evolvedrecipe SapphCooking.RatatouilleEvolved
+	{
+		BaseItem:RoastingpanwithRatatouilleUn,
+		MaxItems:5,
+		Cookable:true,
+		ResultItem:SapphCooking.RoastingpanwithRatatouilleCooked,
+		Name:Ratatouille,
+		CanAddSpicesEmpty:True,
+	}
+	evolvedrecipe SapphCooking.YakisobaEvolved
+	{
+		BaseItem:WokPan_Yakisoba,
+		MaxItems:5,
+		Cookable:true,
+		ResultItem:SapphCooking.WokPan_YakisobaEvolved,
+		Name:Yakisoba,
+		CanAddSpicesEmpty:True,
+	}
+	evolvedrecipe SapphCooking.SushiEvolved
+	{
+		BaseItem:SushiRecipe,
+		MaxItems:5,
+		Cookable:true,
+		ResultItem:SapphCooking.SushiEvolved,
+		Name:Sushi,
+		CanAddSpicesEmpty:True,
+	}
+	evolvedrecipe SapphCooking.HotdogSandwich
+	{
+		BaseItem:HotdogBun,
+		MaxItems:4,
+		ResultItem:SapphCooking.HotdogSandwichEvolved,
+		Name:Sandwich,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:false,
+	}
+	evolvedrecipe SapphCooking.HotdogEvolved
+	{
+		BaseItem:HotdogCustom,
+		MaxItems:4,
+		ResultItem:SapphCooking.HotdogEvolved,
+		Name:Hotdog,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:false,
+	}
+	evolvedrecipe SapphCooking.StockEvolved
+	{
+		BaseItem:WaterPot,
+		MaxItems:5,
+		Cookable:true,
+		ResultItem:SapphCooking.PotofVegetableStock,
+		Name:Stock,
+		CanAddSpicesEmpty:false,
+		AddIngredientIfCooked:false,
+	}
+	evolvedrecipe SapphCooking.DumplingsEvolved
+	{
+		BaseItem:WontonWrappers,
+		MaxItems:5,
+		Cookable:true,
+		ResultItem:SapphCooking.DumplingsMeatUn,
+		Name:Dumpling,
+		CanAddSpicesEmpty:false,
+		AddIngredientIfCooked:false,
+	}
+	evolvedrecipe SapphCooking.CoffeeThermosEvolved
+	{
+		BaseItem:ThermosCoffee,
+		MaxItems:5,
+		ResultItem:SapphCooking.ThermosCoffeeEvolved,
+		Name:Coffee,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.SausageEvolved
+	{
+		BaseItem:SausageCasing,
+		MaxItems:5,
+		Cookable:true,
+		ResultItem:SapphCooking.SausageEvolved,
+		Name:Sausage,
+		CanAddSpicesEmpty:false,
+		AddIngredientIfCooked:false,
+	}
+	evolvedrecipe SapphCooking.ShavedIceEvolved
+	{
+		BaseItem:BowlShavedIce,
+		MaxItems:3,
+		ResultItem:SapphCooking.BowlShavedIceEvolved,
+		Name:Shaved Ice,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.CevicheEvolved
+	{
+		BaseItem:CevicheBowl,
+		MaxItems:3,
+		Cookable:true,
+		ResultItem:SapphCooking.CevicheBowlEvolved,
+		Name:Ceviche,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:false,
+	}
+	evolvedrecipe SapphCooking.PoutineEvolved
+	{
+		BaseItem:PoutineBowl,
+		MaxItems:4,
+		Cookable:true,
+		ResultItem:SapphCooking.PoutineBowlEvolved,
+		Name:Poutine,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:false,
+	}
+	evolvedrecipe SapphCooking.ArrozLecheEvolved
+	{
+		BaseItem:Saucepan_ArrozLecheUn,
+		MaxItems:4,
+		Cookable:true,
+		ResultItem:SapphCooking.Saucepan_ArrozLeche,
+		Name:Arroz con Leche,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:false,
+	}
+	evolvedrecipe SapphCooking.SpringrollEvolved
+	{
+		BaseItem:SpringrollWrapper,
+		MaxItems:3,
+		ResultItem:SapphCooking.SpringrollEvolved,
+		Name:Spring roll,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:false,
+	}
+	evolvedrecipe SapphCooking.InstantNoodles
+	{
+		BaseItem:Saucepan_InstantNoodles,
+		MaxItems:5,
+		Cookable:true,
+		ResultItem:SapphCooking.Saucepan_InstantNoodlesEvolved,
+		Name:Instant Noodles,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:false,
+	}
+
+	evolvedrecipe SapphCooking.SpaguettiEvolved
+	{
+		BaseItem:SaucepanwithUncookedSpaguetti,
+		MaxItems:5,
+		Cookable:true,
+		ResultItem:SapphCooking.SaucepanwithSpaguetti,
+		Name:Spaghetti,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:false,
+	}
+
+	evolvedrecipe SapphCooking.CocktailMix
+	{
+		BaseItem:CocktailMixerPrep,
+		MaxItems:5,
+		ResultItem:SapphCooking.CocktailMixerEvolved,
+		AddIngredientSound:AddItemInBeverage,
+		Name:Mix,
+		CanAddSpicesEmpty:false,
+		AddIngredientIfCooked:false,
+	}
+
+	evolvedrecipe SapphCooking.HR1
+	{
+		BaseItem:Plate_HuevosRancheros,
+		MaxItems:5,
+		ResultItem:SapphCooking.Plate_HuevosRancherosEvolved,
+		AddIngredientSound:AddItemInBeverage,
+		Name:Huevos Rancheros,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:true,
+	}
+	evolvedrecipe SapphCooking.HR2
+	{
+		BaseItem:PlateBlue_HuevosRancheros,
+		MaxItems:5,
+		ResultItem:SapphCooking.PlateBlue_HuevosRancherosEvolved,
+		AddIngredientSound:AddItemInBeverage,
+		Name:Huevos Rancheros,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:true,
+	}
+	evolvedrecipe SapphCooking.HR3
+	{
+		BaseItem:PlateOrange_HuevosRancheros,
+		MaxItems:5,
+		ResultItem:SapphCooking.PlateOrange_HuevosRancherosEvolved,
+		AddIngredientSound:AddItemInBeverage,
+		Name:Huevos Rancheros,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:true,
+	}
+	evolvedrecipe SapphCooking.HR4
+	{
+		BaseItem:PlateFancy_HuevosRancheros,
+		MaxItems:5,
+		ResultItem:SapphCooking.PlateFancy_HuevosRancherosEvolved,
+		AddIngredientSound:AddItemInBeverage,
+		Name:Huevos Rancheros,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:true,
+	}
+	evolvedrecipe SapphCooking.Mochi
+	{
+		BaseItem:MochiPrep,
+		MaxItems:5,
+		ResultItem:SapphCooking.Mochi,
+		AddIngredientSound:AddItemInBeverage,
+		Name:Mochi,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:false,
+	}
+
+	evolvedrecipe SapphCooking.BorschtEvolved
+	{
+		BaseItem:SaucepanwithBorschtPrep,
+		MaxItems:5,
+		ResultItem:SapphCooking.SaucepanwithBorscht,
+		Name:Borscht,
+		Cookable:true,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:false,
+	}
+
+	evolvedrecipe SapphCooking.BlenderShake
+	{
+		BaseItem:Blender,
+		MaxItems:5,
+		ResultItem:SapphCooking.Blender_Prep_Shake,
+		Name:Milkshake,
+		CanAddSpicesEmpty:false,
+		AddIngredientSound:AddItemInBeverage,
+	}
+
+	evolvedrecipe SapphCooking.BlenderSmoothie
+	{
+		BaseItem:Blender,
+		MaxItems:5,
+		ResultItem:SapphCooking.Blender_Prep_Smoothie,
+		Name:Smoothie,
+		CanAddSpicesEmpty:false,
+		AddIngredientSound:AddItemInBeverage,
+	}
+
+	evolvedrecipe SapphCooking.BlenderPuree
+	{
+		BaseItem:Blender,
+		MaxItems:5,
+		ResultItem:SapphCooking.Blender_Prep_Puree,
+		Name:Puree,
+		CanAddSpicesEmpty:false,
+		AddIngredientSound:AddItemInBeverage,
+	}
+	evolvedrecipe SapphCooking.BlenderJuice
+	{
+		BaseItem:Blender,
+		MaxItems:5,
+		ResultItem:SapphCooking.Blender_Prep_Juice,
+		Name:Juice,
+		CanAddSpicesEmpty:false,
+		AddIngredientSound:AddItemInBeverage,
+	}
+	evolvedrecipe SapphCooking.WokRoastVeg
+	{
+		BaseItem:WokPan,
+		MaxItems:6,
+		Cookable:true,
+		ResultItem:SapphCooking.WokPan_RoastVeg,
+		Name:Roast Vegetable,
+		CanAddSpicesEmpty:false,
+	}
+	evolvedrecipe SapphCooking.FrenchToastEvolved
+	{
+		BaseItem:FrenchToast_Prep,
+		MaxItems:6,
+		Cookable:true,
+		ResultItem:SapphCooking.FrenchToast_Evolved,
+		Name:French Toast,
+		CanAddSpicesEmpty:True,
+	}
+	evolvedrecipe SapphCooking.WokCacioePepe
+	{
+		BaseItem:WokPan_CacioPepePrep,
+		MaxItems:6,
+		Cookable:true,
+		ResultItem:SapphCooking.WokPan_CacioPepeEvolved,
+		Name:Cacio e Pepe,
+		CanAddSpicesEmpty:True,
+	}
+	evolvedrecipe SapphCooking.FlatbreadEvolved
+	{
+		BaseItem:Flatbread,
+		MaxItems:6,
+		Cookable:true,
+		ResultItem:SapphCooking.FlatbreadEvolved,
+		Name:Flatbread,
+		CanAddSpicesEmpty:True,
+	}
+	evolvedrecipe SapphCooking.CrepesEvolved
+	{
+		BaseItem:Crepe,
+		MaxItems:6,
+		ResultItem:SapphCooking.CrepeEvolved,
+		Name:Crepes,
+		CanAddSpicesEmpty:True,
+	}
+	evolvedrecipe SapphCooking.CocktailCupEvolved
+	{
+		BaseItem:CocktailGlass,
+		MaxItems:6,
+		ResultItem:SapphCooking.CocktailGlassEvolved,
+		Name:Pour Drink,
+		CanAddSpicesEmpty:false,
+	}
+	evolvedrecipe SapphCooking.LowballCupEvolved
+	{
+		BaseItem:LowballGlass,
+		MaxItems:6,
+		ResultItem:SapphCooking.LowBallEvolved,
+		Name:Pour Drink,
+		CanAddSpicesEmpty:false,
+	}
+	evolvedrecipe SapphCooking.BowlSorbet
+	{
+		BaseItem:Bowl_Sorbet,
+		MaxItems:5,
+		ResultItem:SapphCooking.Bowl_Sorbet,
+		Name:Sorbet,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.CornCob
+	{
+		BaseItem:Corn_Cob,
+		MaxItems:5,
+		ResultItem:SapphCooking.Corn_CobEvolved,
+		Name:Corn on the Cob,
+		CanAddSpicesEmpty:true,
+	}
+
+
+	evolvedrecipe SapphCooking.DoughnutsEvolved
+	{
+		BaseItem:DoughnutPlain,
+		MaxItems:5,
+		ResultItem:SapphCooking.SapphDoughnut_Evolved,
+		Name:Doughnut,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.DoughnutsChocolateEvolved
+	{
+		BaseItem:SapphDoughnutChocolate,
+		MaxItems:5,
+		ResultItem:SapphCooking.SapphDoughnutChocolate_Evolved,
+		Name:Chocolate Doughnut,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.EclairEvolved
+	{
+		BaseItem:Eclair,
+		MaxItems:5,
+		ResultItem:SapphCooking.Eclair_Evolved,
+		Name:Eclair,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.EclairChocolateEvolved
+	{
+		BaseItem:Eclair_Chocolate,
+		MaxItems:5,
+		ResultItem:SapphCooking.Eclair_Chocolate_Evolved,
+		Name:Chocolate Eclair,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.EclairWhiteChocolateEvolved
+	{
+		BaseItem:Eclair_WhiteChocolate,
+		MaxItems:5,
+		ResultItem:SapphCooking.Eclair_WhiteChocolate_Evolved,
+		Name:White Chocolate Eclair,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.BagelPlainEvolved
+	{
+		BaseItem:BagelPlain,
+		MaxItems:5,
+		ResultItem:SapphCooking.BagelCreamCheese,
+		Name:Bagel,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.HomemadeSauceEvolved
+	{
+		BaseItem:Bowl,
+		MaxItems:5,
+		ResultItem:SapphCooking.HomemadeSauce_Evolved,
+		Name:Sauce,
+		CanAddSpicesEmpty:false,
+	}
+
+	evolvedrecipe SapphCooking.ChurrosEvolved
+	{
+		BaseItem:ChurrosPlain,
+		MaxItems:3,
+		ResultItem:SapphCooking.ChurrosPlainEvolved,
+		Name:Churros,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.ChurrosChocolateEvolved
+	{
+		BaseItem:ChurrosChocolate,
+		MaxItems:3,
+		ResultItem:SapphCooking.ChurrosChocolateEvolved,
+		Name:Chocolate Churros,
+		CanAddSpicesEmpty:true,
+	}
+
+	evolvedrecipe SapphCooking.LettuceWrapEvolved
+	{
+		BaseItem:LettuceWrap,
+		MaxItems:3,
+		ResultItem:SapphCooking.LettuceWrap_Evolved,
+		Name:Lettuce Wrap,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.StuffedPepperEvolved
+	{
+		BaseItem:BellPepper,
+		MaxItems:4,
+		ResultItem:SapphCooking.Stuffed_BellPepper,
+		Cookable:true,
+		Name:Stuffed Pepper,
+		CanAddSpicesEmpty:false,
+	}
+
+	evolvedrecipe SapphCooking.Cake_Chocolate
+	{
+		BaseItem:CakePrep_Chocolate,
+		MaxItems:4,
+		ResultItem:SapphCooking.CakeRaw_Chocolate,
+		Cookable:true,
+		Name:Prepare Chocolate Cake,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.Cake_Carrot
+	{
+		BaseItem:CakePrep_Carrot,
+		MaxItems:4,
+		ResultItem:SapphCooking.CakeRaw_Carrot,
+		Cookable:true,
+		Name:Prepare Carrot Cake,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.Cake_BlackForest
+	{
+		BaseItem:CakePrep_BlackForestCake,
+		MaxItems:4,
+		ResultItem:SapphCooking.CakeRaw_BlackForestCake,
+		Cookable:true,
+		Name:Prepare Black Forest Cake,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.Cake_RedVelvet
+	{
+		BaseItem:CakePrep_RedVelvet,
+		MaxItems:4,
+		ResultItem:SapphCooking.CakeRaw_RedVelvet,
+		Cookable:true,
+		Name:Prepare Red Velvet Cake,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.Cake_Strawberry
+	{
+		BaseItem:CakePrep_StrawberryCake,
+		MaxItems:4,
+		ResultItem:SapphCooking.CakeRaw_Strawberry,
+		Cookable:true,
+		Name:Prepare Strawberry Cake,
+		CanAddSpicesEmpty:true,
+	}
+
+	evolvedrecipe SapphCooking.MacaronPink
+	{
+		BaseItem:Macaron_Cookies_Pink,
+		MaxItems:2,
+		ResultItem:SapphCooking.Macaron_Pink,
+		Name:Prepare Macaron,
+		CanAddSpicesEmpty:true,
+	}
+	evolvedrecipe SapphCooking.MacaronRed
+	{
+		BaseItem:Macaron_Cookies_Red,
+		MaxItems:2,
+		ResultItem:SapphCooking.Macaron_Red,
+		Name:Prepare Macaron,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.MacaronBlue
+	{
+		BaseItem:Macaron_Cookies_Blue,
+		MaxItems:2,
+		ResultItem:SapphCooking.Macaron_Blue,
+		Name:Prepare Macaron,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.MacaronGreen
+	{
+		BaseItem:Macaron_Cookies_Green,
+		MaxItems:2,
+		ResultItem:SapphCooking.Macaron_Green,
+		Name:Prepare Macaron,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.MacaronYellow
+	{
+		BaseItem:Macaron_Cookies_Yellow,
+		MaxItems:2,
+		ResultItem:SapphCooking.Macaron_Yellow,
+		Name:Prepare Macaron,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+	evolvedrecipe SapphCooking.MacaronPurple
+	{
+		BaseItem:Macaron_Cookies_Purple,
+		MaxItems:2,
+		ResultItem:SapphCooking.Macaron_Purple,
+		Name:Prepare Macaron,
+		CanAddSpicesEmpty:true,
+		IsHidden:true,
+	}
+
+
+	evolvedrecipe SapphCooking.FoccaciaPan
+	{
+		BaseItem:Roastingpan_FocacciaPrep,
+		MaxItems:5,
+		ResultItem:SapphCooking.Roastingpan_FocacciaPrep,
+		Cookable:true,
+		Name:Prepare Focaccia,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:false,
+	}
+	evolvedrecipe SapphCooking.FoccaciaSandwich
+	{
+		BaseItem:Focaccia_Piece,
+		MaxItems:5,
+		ResultItem:SapphCooking.Focaccia_Sandwich,
+		Name:Prepare Sandwich,
+		CanAddSpicesEmpty:true,
+		AddIngredientIfCooked:false,
+	}
+	evolvedrecipe SapphCooking.CoxinhaEvolved
+	{
+		BaseItem:CoxinhaPrep,
+		MaxItems:4,
+		ResultItem:SapphCooking.CoxinhaPrep,
+		Cookable:true,
+		Name:Prepare Coxinha,
+		CanAddSpicesEmpty:false,
+		AddIngredientIfCooked:false,
+	}
+
+	evolvedrecipe SapphCooking.PastelEvolved
+	{
+		BaseItem:PastelPrep,
+		MaxItems:4,
+		ResultItem:SapphCooking.PastelPrep,
+		Cookable:true,
+		Name:Prepare Pastel,
+		CanAddSpicesEmpty:false,
+		AddIngredientIfCooked:false,
+	}
+
+
+	evolvedrecipe SapphCooking.Stroganoff
+	{
+		BaseItem:SaucepanwithStroganoff,
+		MaxItems:4,
+		ResultItem:SapphCooking.SaucepanwithStroganoff,
+		Cookable:true,
+		Name:Prepare Stroganoff,
+		CanAddSpicesEmpty:false,
+		AddIngredientIfCooked:false,
+	}
+
+	evolvedrecipe SapphCooking.HotDrinkMetal
+	{
+		BaseItem:WaterMug_Metal,
+		MaxItems:3,
+		ResultItem:SapphCooking.HotDrink_Metal,
+		Cookable:true,
+		AddIngredientIfCooked:true,
+		AddIngredientSound:AddItemInBeverage,
+		Name:Prepare Beverage,
+		CanAddSpicesEmpty:true,
+	}
+
+	evolvedrecipe SapphCooking.SaucepanStewEvolved
+	{
+		BaseItem:WaterSaucepan,
+		MaxItems:5,
+		ResultItem:SapphCooking.SaucepanStew,
+		Cookable:true,
+		Name:Prepare Stew,
+	}
+
+	evolvedrecipe SapphCooking.FeijoadaEvolved
+	{
+		BaseItem:FeijoadaPrep,
+		MaxItems:6,
+		ResultItem:SapphCooking.FeijoadaPrep,
+		Cookable:true,
+		Name:Prepare Feijoada,
+	}
+
+	evolvedrecipe SapphCooking.CheeseSteakEvolved
+	{
+		BaseItem:Sandwich_CheesesteakPrep,
+		MaxItems:4,
+		ResultItem:SapphCooking.Sandwich_CheesesteakPrep,
+		Cookable:true,
+		Name:Prepare Cheesesteak,
+	}
+	
+	evolvedrecipe SapphCooking.RisottoEvolved
+	{
+		BaseItem:SaucepanwithRisotto,
+		MaxItems:5,
+		ResultItem:SapphCooking.SaucepanwithRisotto,
+		Cookable:true,
+		Name:Prepare Risotto,
+	}
+
+	evolvedrecipe SapphCooking.SaladTakeout
+	{
+		BaseItem:TakeoutBox,
+		MaxItems:6,
+		ResultItem:SapphCooking.Takeout_FruitSalad,
+		Name:Make Salad,
+	}
+
+	evolvedrecipe SapphCooking.FruitSaladTakeout
+	{
+		BaseItem:TakeoutBox,
+		MaxItems:6,
+		ResultItem:SapphCooking.Takeout_FruitSalad,
+		Name:Make Fruit Salad,
+	}
+
+	evolvedrecipe SapphCooking.SaladTray
+	{
+		BaseItem:MessTray,
+		MaxItems:6,
+		ResultItem:SapphCooking.Tray_FruitSalad,
+		Name:Make Salad,
+	}
+
+	evolvedrecipe SapphCooking.FruitSaladTray
+	{
+		BaseItem:MessTray,
+		MaxItems:6,
+		ResultItem:SapphCooking.Tray_FruitSalad,
+		Name:Make Fruit Salad,
+	}
+
+	evolvedrecipe SapphCooking.ABRicePan
+	{
+		BaseItem:WaterSaucepanArborioRice,
+		MaxItems:5,
+		ResultItem:SapphCooking.SaucepanwithArborioRice,
+		Cookable:true,
+		AddIngredientIfCooked:true,
+		Name:Prepare Rice,
+		CanAddSpicesEmpty:true,
+	}
+	
+	evolvedrecipe SapphCooking.BRicePan
+	{
+		BaseItem:WaterSaucepanBrownRice,
+		MaxItems:5,
+		ResultItem:SapphCooking.SaucepanwithBrownRice,
+		Cookable:true,
+		AddIngredientIfCooked:true,
+		Name:Prepare Rice,
+		CanAddSpicesEmpty:true,
+	}
+
+	evolvedrecipe SapphCooking.CalzoneEvolved
+	{
+		BaseItem:CalzoneRecipe,
+		MaxItems:7,
+		ResultItem:SapphCooking.CalzoneRecipe,
+		Cookable:true,
+		Name:Prepare Calzone,
+		CanAddSpicesEmpty:true,
+	}
+
+	evolvedrecipe SapphCooking.FunnelCakeEvolved
+	{
+		BaseItem:FunnelCake,
+		MaxItems:3,
+		ResultItem:SapphCooking.FunnelCake,
+		Name:Prepare Funnel Cake,
+		CanAddSpicesEmpty:true,
+	}
+
+	evolvedrecipe SapphCooking.Saucepan_MacandCheese
+	{
+		BaseItem:Saucepan_MacandCheese,
+		MaxItems:5,
+		ResultItem:SapphCooking.Saucepan_MacandCheese,
+		Cookable:true,
+		Name:Prepare Mac and Cheese,
+		CanAddSpicesEmpty:true,
+	}
+
+	evolvedrecipe SapphCooking.CrabRangoonEvolved
+	{
+		BaseItem:CrabRangoon,
+		MaxItems:3,
+		ResultItem:SapphCooking.CrabRangoon,
+		Cookable:true,
+		Name:Prepare Crab Rangoon,
+		CanAddSpicesEmpty:true,
+	}
+
+	evolvedrecipe SapphCooking.PierogiEvolved
+	{
+		BaseItem:WontonWrappers,
+		MaxItems:4,
+		ResultItem:SapphCooking.Pierogi,
+		Cookable:true,
+		Name:Prepare Pierogi,
+		CanAddSpicesEmpty:false,
+		AddIngredientIfCooked:false,
+	}
+
+	evolvedrecipe SapphCooking.PanPaellaEvolved
+	{
+		BaseItem:Saucepan_Paella,
+		MaxItems:5,
+		ResultItem:SapphCooking.Saucepan_Paella,
+		Cookable:true,
+		Name:Prepare Paella,
+		CanAddSpicesEmpty:true,
+	}
+	
+	
+
+	
+
+
+
+	
+	
+
+	
+}

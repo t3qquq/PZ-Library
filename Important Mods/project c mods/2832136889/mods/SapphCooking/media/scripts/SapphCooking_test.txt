@@ -1,0 +1,33 @@
+module SapphCooking
+{
+	imports
+	{
+		Base,
+	}
+
+	/**************sapph: hi, there`s not a lot to explain here, just a file to keep track and test new stuff *************************/
+	/****************************** that means, everything here is work in progress, and you can't craft them without a spawn menu. ******************************/	
+	
+	/** Testing a fix for NaN values.**/
+	item NaN_Pill
+	{
+		DisplayName = NaN Pill,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.01,
+		Icon = Vitamins,
+		HungerChange = -1,
+		Calories = 1,
+		Carbohydrates = 1,
+		Lipids = 1,
+		Proteins = 1,
+	}
+
+
+
+
+
+
+
+}
+

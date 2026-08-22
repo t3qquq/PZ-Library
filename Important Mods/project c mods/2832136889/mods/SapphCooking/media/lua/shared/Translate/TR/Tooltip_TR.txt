@@ -1,0 +1,33 @@
+Tooltip_TR = {
+--
+	Tooltip_OilPan 				= "Kullanýlabilir olmasý için ýsýya ihtiyaç duyar.",
+	Tooltip_WaterPan			= "Piþirilmesi gerekiyor.",
+	Tooltip_AsiaFoodMagazine = "Asya Bölgesi'nden yemek tariflerini öðretir.",
+	Tooltip_EuropeFoodMagazine = "Avrupa Bölgesi'nden yemek tariflerini öðretir.",
+	Tooltip_PastaDoughMagazine = "Makarna tariflerini öðretir.",
+	Tooltip_HotWater = "Talimatlarda, 'Sýcak Su ile kullanýn.' yazýyor.",
+	Tooltip_EmptyThermos = "Su, içecekler veya piþmiþ çorbalarý saklamak için kullanýlabilir.",
+	Tooltip_CookedBowls = "Piþirildikten sonra kaselere konulabilir.",
+	Tooltip_CookedSlices = "Piþirildikten sonra dilimlenebilir.",
+	Tooltip_CornPopcorn = "Patlamýþ Mýsýr haline getirilebilir.",
+	Tooltip_Stock = "Et suyu, çorba veya güveçlerde kullanýlabilir.",
+	Tooltip_IceCubes = "Su ile doldurulduðunda, enerjiye sahip bir buzdolabýnýn yanýnda Buz Küplerine dönüþtürülebilir.",
+	Tooltip_SausagesMagazine = "Kesim yapmayý ve Sosis yapmayý öðretir.",
+	
+	Tooltip_Fortune1 = "'Deneyim, hayatýn en iyi öðretmenidir.'",
+	Tooltip_Fortune2 = "'Bu günü son gününmüþ gibi yaþa.'",
+	Tooltip_Fortune3 = "'Hayatta piþmanlýk yoktur. Sadece dersler vardýr.'",
+	Tooltip_Fortune4 = "'Tekrar hayal kurmana izin ver.'",
+	Tooltip_Fortune5 = "'Yaralarýný bilgeliðe dönüþtür.'",
+	Tooltip_Fortune6 = "'Ne kadar yol kat ettiðine bir bak.'",
+	Tooltip_Fortune7 = "'Goblin Köpeðine dikkat et.'",
+	Tooltip_Fortune8 = "'Eðer kendin olamýyorsan, olmanýn ne anlamý var?'",
+	Tooltip_Fortune9 = "'Uçma cesaretin olmadýkça kanatlarýn ne iþe yarar.'",
+	Tooltip_Fortune10 = "'Azar azar, bir kiþi uzaklara gider.'",
+	
+	Tooltip_LunarNewYear = "Genellikle Ay Yeni Yýlý sýrasýnda yenir, eðer öyleyse, Mutlu Yýllar.",
+	
+	Tooltip_CheeseCurds = "Tencere, Peynir Kalýbý veya Kovada Parmesan Peynir Tekerleði olarak olgunlaþtýrýlabilir; veya Mozzarella Peyniri olarak süzülür.",
+	Tooltip_BlueCheese = "Tencere, Peynir Kalýbý veya Kovada Mavi Peynir olarak olgunlaþtýrýlabilir.",
+
+}
