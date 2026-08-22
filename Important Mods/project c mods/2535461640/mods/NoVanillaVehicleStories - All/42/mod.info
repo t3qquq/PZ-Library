@@ -1,0 +1,10 @@
+name=No Vanilla Vehicles - Stories (KI5+Filibuster)
+id=NoVanillaStoriesKI5+Filibuster
+description= Replaces vanilla vehicle stories with modded vehicles. (KI5, Filibuster, + Others)
+incompatible=\NoVanillaStoriesKI5
+poster=poster.png
+pzversion=42
+modversion=1.1
+versionMin=42.0.0
+requires=/
+

@@ -1,0 +1,5 @@
+name=No Vanilla Vehicles
+id=NoVanillaVehicles
+description= Removes vanilla vehicle spawns
+poster=poster.png
+

@@ -1,0 +1,12 @@
+local distributionTable = VehicleDistributions[1]
+
+distributionTable["93fordF150"] = distributionTable["PickUpTruck"]
+distributionTable["93fordF250"] = distributionTable["PickUpTruck"]
+distributionTable["93fordF350"] = distributionTable["PickUpTruck"]
+distributionTable["93fordF350dually"] = distributionTable["PickUpTruck"]
+distributionTable["93fordF350pd"] = distributionTable["PickUpTruck"]
+distributionTable["93fordF350so"] = distributionTable["PickUpTruck"]
+distributionTable["93fordF350fd"] = distributionTable["PickUpTruck"]
+distributionTable["93fordF350utility"] = distributionTable["PickUpVan"]
+distributionTable["93fordF350utilityDpw"] = distributionTable["PickUpTruck"]
+distributionTable["93fordF350utilityFd"] = distributionTable["PickUpTruckLightsFire"]

@@ -1,0 +1,6 @@
+name=No Vanilla Vehicles (No duplicate KI5 & Filibuster Vehicles)
+id=NoVanillaDuplicates
+description=  If you have a KI5 Vehicle mod activated that also has a filibuster model of the same/similar vehicle, the filibuster model will not spawn. Complete list (Jeep Cherokee, Jeep Wrangler, 85/92 Crown Victorias, Beetle, Blazer, Caprice, Chevy S10, Ford F350, F350 Ambulance, Transam, Volvo, Ford B700 Buses, Fire Truck, Econoline Van, M998, M35A2, M49A2 Tanker, Toyota Hilux )
+
+poster=poster.png
+
