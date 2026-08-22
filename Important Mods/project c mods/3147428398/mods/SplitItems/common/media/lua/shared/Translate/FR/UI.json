@@ -1,0 +1,19 @@
+{
+    "UI_SplitItems_Title": "Scinder: %1",
+    "UI_SplitItems_Split": "Scinder",
+    "UI_SplitItems_Cancel": "Annuler",
+    "UI_SplitItems_Text": "%2 / %3 (%4)",
+    "UI_SplitItems_entryText_Tooltip": "Appuyez sur \"Entree\" apres avoir renseigner un nombre.",
+    "UI_SplitItems_Select_Container": "Choisir le contenant de destination.",
+    "UI_options_SplitItems_Title": "Scinder la pile",
+    "UI_options_SplitItems_SortContainerByName": "Trier les contenants",
+    "UI_options_SplitItems_SortContainerByName_tooltip": "Definir le tri des contenants par ordre alphabetique.",
+    "UI_options_SplitItems_AutoSelectContainer": "Selection automatique",
+    "UI_options_SplitItems_AutoSelectContainer_tooltip": "La pile sera mise dans le contenant de destination externe actuellement ouvert. Sinon, elle ira sur le sol.",
+    "UI_options_SplitItems_MaxItemDecimalPlaces": "Maximum de decimale poids",
+    "UI_options_SplitItems_MaxItemDecimalPlaces_tooltip": "Definissez le nombre maximal de decimale pour le poids de la pile.",
+    "UI_options_SplitItems_IncludeWaringItemsInStack": "Inclure objets equipes",
+    "UI_options_SplitItems_IncludeWaringItemsInStack_tooltip": "Choisissez si vous souhaitez inclure les objets que vous portez dans la pile.",
+    "UI_options_SplitItems_ShortCut": "Raccourci glisser",
+    "UI_options_SplitItems_ShortCut_tooltip": "Activer le raccourci glisser/deposer"
+}

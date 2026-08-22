@@ -1,0 +1,19 @@
+UI_RU = {
+    UI_SplitItems_Title = "Разделить: %1",
+    UI_SplitItems_Split = "Разделить",
+    UI_SplitItems_Cancel = "Отмена",
+    UI_SplitItems_Text = "%2 / %3 (%4)",
+    UI_SplitItems_entryText_Tooltip = "Нажмите 'Enter' после ввода кол-ва предметов для разделения.",
+    UI_SplitItems_Select_Container = "Выберите контейнер для перемещения.",
+    UI_options_SplitItems_Title = "Разделение предметов",
+    UI_options_SplitItems_SortContainerByName = "Сортировать контейнеры по названию",
+    UI_options_SplitItems_SortContainerByName_tooltip = "Установите, сортировать ли контейнеры в алфавитном порядке.",
+    UI_options_SplitItems_AutoSelectContainer = "Автовыбор контейнера",
+    UI_options_SplitItems_AutoSelectContainer_tooltip = "При разделении предметов контейнер назначения автоматически устанавливается на текущий открытый внешний контейнер или на землю, если ни один не открыт.",
+    UI_options_SplitItems_MaxItemDecimalPlaces = "Макс. десятичных знаков для веса",
+    UI_options_SplitItems_MaxItemDecimalPlaces_tooltip = "Установите кол-во десятичных знаков для числа, представляющего вес предмета.",
+    UI_options_SplitItems_IncludeWaringItemsInStack = "Включать надетые предметы в стопку", # Примечание: Оригинал "Waring" скорее всего опечатка, должно быть "Wearing" (надётые).
+    UI_options_SplitItems_IncludeWaringItemsInStack_tooltip = "Установите, включать ли надетые предметы в стопку.",
+    UI_options_SplitItems_ShortCut = "Ярлык перетаскивания",
+    UI_options_SplitItems_ShortCut_tooltip = "Настроить ярлык перетаскивания.",
+}

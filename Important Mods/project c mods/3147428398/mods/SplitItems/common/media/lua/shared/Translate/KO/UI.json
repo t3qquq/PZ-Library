@@ -1,0 +1,19 @@
+{
+    "UI_SplitItems_Title": "%1 나누기",
+    "UI_SplitItems_Split": "나누기",
+    "UI_SplitItems_Cancel": "취소",
+    "UI_SplitItems_Text": "%2 / %3 (%4)",
+    "UI_SplitItems_entryText_Tooltip": "나눌 아이템의 개수를 입력한 후 'Enter' 키를 누르세요.",
+    "UI_SplitItems_Select_Container": "이동할 컨테이너를 선택하세요.",
+    "UI_options_SplitItems_Title": "아이템 분할",
+    "UI_options_SplitItems_SortContainerByName": "컨테이너를 이름순으로 정렬",
+    "UI_options_SplitItems_SortContainerByName_tooltip": "컨테이너를 이름순으로 정렬할지 설정합니다.",
+    "UI_options_SplitItems_AutoSelectContainer": "컨테이너 자동 선택",
+    "UI_options_SplitItems_AutoSelectContainer_tooltip": "아이템을 분할할 때, 이동할 컨테이너를 현재 열려 있는 외부 컨테이너로 자동 설정합니다. 단, 열려 있는 컨테이너가 없을 경우 바닥으로 설정합니다.",
+    "UI_options_SplitItems_MaxItemDecimalPlaces": "최대 아이템 소수점 자리수",
+    "UI_options_SplitItems_MaxItemDecimalPlaces_tooltip": "아이템 무게를 나타내는 숫자의 소수점 자리수를 설정합니다.",
+    "UI_options_SplitItems_IncludeWaringItemsInStack": "착용중인 아이템을 스택에 포함",
+    "UI_options_SplitItems_IncludeWaringItemsInStack_tooltip": "착용중인 아이템을 스택에 포함할지 설정합니다.",
+    "UI_options_SplitItems_ShortCut": "드래그 단축키",
+    "UI_options_SplitItems_ShortCut_tooltip": "드래그 단축키를 설정합니다."
+}
