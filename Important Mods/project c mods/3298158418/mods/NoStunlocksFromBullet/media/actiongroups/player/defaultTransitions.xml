@@ -1,0 +1,24 @@
+<transitions>
+    <transition>
+        <transitionTo>hitreaction</transitionTo>
+        <conditions>
+            <isTrue>hashitreaction</isTrue>
+            <isFalse>hitpvp</isFalse>
+        </conditions>
+    </transition>
+    <transition>
+        <transitionTo>falldown</transitionTo>
+        <conditions>
+            <isTrue>bDead</isTrue>
+            <isFalse>bOnFloor</isFalse>
+        </conditions>
+    </transition>
+    <transition>
+        <transitionTo>onground</transitionTo>
+        <conditions>
+            <isTrue>bDead</isTrue>
+            <isTrue>bOnFloor</isTrue>
+        </conditions>
+    </transition>
+
+</transitions>

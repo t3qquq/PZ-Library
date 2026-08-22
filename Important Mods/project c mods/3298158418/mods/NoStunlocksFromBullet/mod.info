@@ -1,0 +1,14 @@
+name=No Stunlock from Bullet
+id=NoStunlockFromBullet
+description=You no longer fall down or get stuck on the ground when shot by enemies. Players can shoot while being shot. So, PVP gunfighting is now become more dynamic.
+
+
+I have directly edited the animation triggers, so this should be compatible with most other NPC mods or multiplayer.
+
+However, I haven’t tested it in multiplayer myself, so I’m not entirely sure. I believe it should function without any issues, but please leave a comment if you’ve tried it in multiplayer and let me know how it goes.
+
+If you’re using alt+run, you may still experience stunlocks (shift+run is fine).
+I won’t be fixing this for now as it doesn’t bother me, and I also don’t know how to make it work.
+
+Workshop ID: 3298158418
+poster=poster.png
