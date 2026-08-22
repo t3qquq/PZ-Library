@@ -1,0 +1,3 @@
+Tooltip_EN = {
+	Tooltip_Cleaning		= "Used to clean Firearms to restore condition",
+}
