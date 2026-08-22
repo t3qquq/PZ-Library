@@ -1,0 +1,93 @@
+module Base
+{
+	
+		model HandHatchet
+	{
+		mesh = weapons/1handed/HandHatchet,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.12500,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+	}
+	
+		model CheapSurvivalKnife
+	{
+		mesh = weapons/1handed/CheapSurvivalKnife,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+		model SurvivalKnife
+	{
+		mesh = weapons/1handed/SurvivalKnife,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+		model RancherMachete
+	{
+		mesh = weapons/1handed/RancherMachete,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1500,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+		model KukriMachete
+	{
+		mesh = weapons/1handed/KukriMachete,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+		model SplittingAxe
+	{
+		mesh = weapons/1handed/SplittingAxe,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1500,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+		model SpearCheapSurvivalKnife
+	{
+		mesh = weapons/2handed/SpearCheapSurvivalKnife,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.2500,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+		model SpearKukriMachete
+	{
+		mesh = weapons/2handed/SpearKukriMachete,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.2500,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+		model SpearSurvivalKnife
+	{
+		mesh = weapons/2handed/SpearSurvivalKnife,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.2500,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}

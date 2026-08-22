@@ -1,0 +1,54 @@
+module BCGTools
+{
+    craftRecipe DuctTapeSpearBCG
+    {
+        time = 300,
+        Tags = InHandCraft;Survivalist,
+        category = Weaponry,
+        NeedToBeLearn = false,
+        timedAction = CraftKnifeSpear,
+        xpAward = Maintenance:5,
+        inputs
+        {
+            item 1 [BCGTools.SurvivalKnife;BCGTools.CheapSurvivalKnife;BCGTools.KukriMachete] mappers[BCGSpearMapper] flags[Prop1;IsHeadPart;InheritSharpness],
+            item 1 [Base.LongStick;Base.Sapling] flags[Prop2;InheritCondition],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 mapper:BCGSpearMapper,
+        }
+        itemMapper BCGSpearMapper
+        {
+            BCGTools.SpearSurvivalKnife = BCGTools.SurvivalKnife,
+            BCGTools.SpearCheapSurvivalKnife = BCGTools.CheapSurvivalKnife,
+            BCGTools.SpearKukriMachete = BCGTools.KukriMachete,
+            default = BCGTools.SpearSurvivalKnife,
+        }
+    }
+
+    craftRecipe ReclaimFromSpearBCG
+    {
+        time = 60,
+        Tags = InHandCraft;Survivalist,
+        category = Assembly,
+        timedAction = CraftKnifeSpear,
+        OnCreate = RecipeCodeOnCreate.dismantleSpear,
+        inputs
+        {
+            item 1 [BCGTools.SpearSurvivalKnife;BCGTools.SpearCheapSurvivalKnife;BCGTools.SpearKukriMachete] mappers[BCGWeaponType] flags[InheritHeadCondition;Prop2;InheritSharpness;AllowDestroyedItem],
+        }
+        outputs
+        {
+            item 1 mapper:BCGWeaponType,
+            item 1 Base.LongStick,
+        }
+        itemMapper BCGWeaponType
+        {
+            BCGTools.SurvivalKnife = BCGTools.SpearSurvivalKnife,
+            BCGTools.CheapSurvivalKnife = BCGTools.SpearCheapSurvivalKnife,
+            BCGTools.KukriMachete = BCGTools.SpearKukriMachete,
+            default = BCGTools.SurvivalKnife,
+        }
+    }
+}
