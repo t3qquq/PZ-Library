@@ -1,0 +1,84 @@
+{
+  "IGUI_WQS_MainLabel": "탈출",
+
+  "IGUI_WQS_GuiTitle": "탈출 트래커",
+  "IGUI_WQS_ReqExtraction": "탈출 요청",
+  "IGUI_WQS_CompleteExtraction": "탈출 완료",
+
+  "IGUI_WQS_CloseLabel": "닫기",
+
+  "IGUI_WQS_StatusExtraction1": "탈출 구역에 도달하지 못함.",
+  "IGUI_WQS_StatusExtraction2": "탈출 요청 가능!",
+  "IGUI_WQS_StatusExtraction3": "탈출 진행중.",
+  "IGUI_WQS_StatusExtraction4": "탈출 가능!",
+  "IGUI_WQS_StatusExtraction5": "탈출 가능, 탈출 위치로 이동!",
+  "IGUI_WQS_StatusExtraction6": "도착 예정",
+  "IGUI_WQS_StatusExtraction9": "탈출 완료!!",
+
+  "IGUI_WQS_ZlevelLabel": "고도",
+  "IGUI_WQS_HoursLeftLabel": "남은 시간",
+  "IGUI_WQS_DeadLineLabel": "제한 시간",
+  "IGUI_WQS_HoursLabel": "시간",
+  "IGUI_WQS_TooLateLabel": "너무 늦었어 친구, 너무...",
+  "IGUI_WQS_MissingExtractionItemTxt": "접선을 위해서는 인벤토리에 군용 무전기가 필요합니다.",
+  "IGUI_WQS_SignalNotActiveTxt": "무선 신호 활성화",
+  "IGUI_WQS_Distance": "거리",
+  "IGUI_WQS_ExtrMapLabel": "탈출 지도",
+  "IGUI_WQS_SignalStrenghtLabel": "신호 강도",
+
+  "IGUI_WQS_ManageAntenna": "안테나 관리",
+  "IGUI_WQS_AntennaRepeater": "신호증폭기",
+  "IGUI_WQS_Zone": "구역",
+  "IGUI_WQS_AntennaRepeaterMode": "신호증폭기 작동",
+  "IGUI_WQS_AntennaRepeaterActive": "안테나 신호증폭기 활성화됨",
+  "IGUI_WQS_AntennaDeactivateRepeaterMode": "해당 안테나의 신호증폭 모드 비활성화",
+  "IGUI_WQS_AntennaIsActiveInRepeaterMode": "이 안테나는 신호증폭기 모드로 활성화되어 무선 신호 강도가 증가했습니다. 신호가 충분히 강하다면 사령부와도 교신할 수 있습니다.",
+  "IGUI_WQS_AntennaActivateRepeaterMode": "해당 안테나의 신호증폭 모드 활성화",
+  "IGUI_WQS_AntennaIsNOTActiveInRepeaterMode": "이 안테나는 신호증폭기 모드가 해제되어 무선 신호 강도가 감소했습니다.",
+  "IGUI_WQS_HaveAllTargetAntennaRepeaterLocations": "모든 안테나 신호증폭기의 위치를 알고있음",
+  "IGUI_WQS_TargetAntennaRepeaterLocationAdded": "안테나 신호증폭기 위치를 맵에 표시",
+  "IGUI_WQS_AntennaRepeatersNeedMore": "무선 신호가 약합니다. 추가적인 신호증폭기 활성화가 필요합니다.",
+  "IGUI_WQS_AntennaRepeatersNeedMoreDet": "무선 신호가 약합니다. 발견된 신호증폭기 구역에서 새로운 신호증폭기를 활성화하여 신호의 강도를 높이십시오",
+
+  "IGUI_WQS_KnownRepeaterLocations": "신호증폭기 위치",
+  "IGUI_WQS_CanPlaceRepeater": "신호증폭기는 이곳에서 활성화 할 수 있습니다.",
+  "IGUI_WQS_CollectFragmentAdvice": "신호증폭기 위치가 표시된 지도 조각을 모아 활성화 해야하는 신호증폭기의 위치를 찾으십시오.",
+  "IGUI_WQS_RepeaterIsActive": "신호증폭기 활성화",
+
+  "IGUI_WQS_ContactHQ": "사령부와 접선",
+  "IGUI_WQS_HeadquarterMainLabel": "사령부",
+  "IGUI_WQS_AntennaMainLabel": "안테나",
+  "IGUI_WQS_AntennaReqNewExtractionPoint": "새로운 탈출 지점 요청",
+  "IGUI_WQS_AntennaTooCloseToExtrPointTxt": "안테나와 탈출 구역이 너무 가깝습니다.",
+  "IGUI_WQS_AntennaMustBeOutsideTxt": "안테나가 외부에 있어야 합니다.",
+  "IGUI_WQS_NeedAntennaToStartQuestTxt": "사령부와 연락하여 탈출을 요청하기 위해서는 안테나 근처에 있어야합니다.",
+  "IGUI_WQS_NeedContactHQToStartQuestTxt": "탈출을 요청하려면 사령부와 접촉하십시오.",
+  "IGUI_WQS_SetExtractionToBut": "탈출 요청 대상",
+  "IGUI_WQS_CurrentExtrZone": "현재 탈출 구역",
+  "IGUI_WQS_ReqNewExtractionPointDesc": "새로운 탈출 구역을 요청하십시오, 고정 위치를 요청하거나 사령부에서 무작위로 지정할 수 있습니다.",
+  "IGUI_WQS_ReqNewExtractionPointDone": "새로운 탈출 구역이 성공적으로 요청되었습니다.",
+  "IGUI_WQS_ExtractionMapCraftInfo": "이미 지도를 소유하고 있을 시 자동으로 갱신되며, 종이와 필기구를 이용하여 제작할 수도 있습니다.",
+
+  "IGUI_WQS_RandomOpt1": "모든 구역을 포함하여 임의로 선택",
+  "IGUI_WQS_RandomOpt2": "루이빌 내부 구역 중에서 임의로 선택",
+  "IGUI_WQS_RandomOpt3": "루이빌 제외한 외부 구역에서 무작위로 선택",
+
+  "IGUI_WQS_North": "북쪽",
+  "IGUI_WQS_Northwest": "북서쪽",
+  "IGUI_WQS_West": "서쪽",
+  "IGUI_WQS_Southwest": "남서쪽",
+  "IGUI_WQS_South": "남쪽",
+  "IGUI_WQS_Southeast": "남동쪽",
+  "IGUI_WQS_East": "동쪽",
+  "IGUI_WQS_Northeast": "북동쪽",
+
+  "IGUI_WQS_Heli0": "..헬리콥터 이륙, 목적지로 향하는 중..",
+  "IGUI_WQS_Heli1": "..기상악화, 헬리콥터 고도 하강 불가..",
+  "IGUI_WQS_Heli2": "..헬리콥터 접근 중..",
+
+  "IGUI_WQS_Out_Of_EZone": "탈출구역으로부터 너무 멀리 떨어져서 신호가 끊겼다",
+
+  "IGUI_WQS_StartModal": "<H1> 여정의 시작 <LINE> <TEXT> <IMAGECENTRE:media/ui/img/start.png> <LINE> <LINE>  <SIZE:large> 죽어가던 그 남자가 당신에게 남긴 마지막 선물... 당신은 손에 들린 그 지도를 바라보며 그려진 선을 따라 손가락을 움직입니다.  <LINE> 그 남자는 헬리콥터가 착륙할 예정인 탈출 구역에 대해 알려주며 죽어갔습니다. 하지만 헬리콥터 조종사와 연락하기 위해서는 군용 무전기가 필요했습니다. <LINE> 당신에게 지도를 건넨 남자가 무사히 탈출하는 모습을 볼 수 없다는 사실이 당신의 가슴을 아프게 하지만, 앞으로 다가올 위험한 여정을 생각하며 마음을 굳게 먹기로 합니다. <LINE> 당신은 지도를 접어 주머니에 구겨넣고 길을 떠날 준비를 시작합니다. <LINE> <LINE> ",
+
+  "IGUI_WQS_EndModal": "<H1> 에필로그...? <LINE> <TEXT> <IMAGECENTRE:media/ui/img/final.png> <LINE> <LINE>  <SIZE:large> 모든 희망이 사라졌다고 생각하기 시작했을때 쯤, 당신은 거리를 좁히며 당신의 머리위에서 맴돌며 거리를 좁혀오는 헬리콥터를 발견했습니다... 당신은 당신을 향해 다가오는 좀비들을 좌우로 피해가며 헬리콥터를 향해 곧장 온 힘을 다해 달립니다. <LINE> 가까이 갈수록 당신에게 미친듯이 손을 흔들며 서두르라고 재촉하는 헬리콥터 조종사의 모습이 선명해집니다. <LINE> 헬기가 공중으로 떠오름을 느낌과 동시에 당신은 뛰어올라 헬리콥터의 착륙 스키드를 붙잡고 몸을 끌어올립니다. <LINE> 폭풍우가 몰아치며 조종사가 헬리콥터를 안정시키기위해 안간힘을 쓰던 그 순간, 갑자기 큰 굉음이 울리며 헬리콥터가 통제불능 상태로 돌기 시작합니다. <LINE> <LINE> <CENTRE> 당신은 살아남을수 있을지 확신하지 못한 채, 충격에 대비합니다... <LINE> <CENTRE> <SIZE:large> <H1> ...이것이 당신의 마지막이 될까요? <LINE> <LINE> "
+}

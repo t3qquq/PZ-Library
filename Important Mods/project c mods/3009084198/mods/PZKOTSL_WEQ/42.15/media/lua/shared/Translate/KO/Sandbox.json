@@ -1,0 +1,51 @@
+{
+  "Sandbox_WQS": "Wolf's 탈출 퀘스트",
+
+  "Sandbox_WQS_DeadlineDays_txt": "제한 시간",
+  "Sandbox_WQS_DeadlineDays_txt_tooltip": "무선 신호 활성화 이후, 해당 날짜 안에 탈출 지점에 도달해야합니다. \n 제한시간을 비활성화하려면 0으로 설정.",
+
+  "Sandbox_WQS_ExtractionEventHoursDuration_txt": "탈출 이벤트 기간",
+  "Sandbox_WQS_ExtractionEventHoursDuration_txt_tooltip": "탈출 이벤트 기간은 시간 단위입니다. \n 권장 3~4시간",
+
+  "Sandbox_WQS_ExtractionEventDifficulty_txt": "탈출 이벤트 난이도 배수",
+  "Sandbox_WQS_ExtractionEventDifficulty_txt_tooltip": "탈출 이벤트의 전반적인 난이도를 결정합니다.",
+
+  "Sandbox_WQS_WaitForSignalDuration_txt": "무선 신호를 기다리는 일수",
+  "Sandbox_WQS_WaitForSignalDuration_txt_tooltip": "헬기를 호출하는 데 필요한 무선 신호가 활성화하려면 해당 일 수 이상 생존해있어야합니다.\n 0으로 설정시 옵션 비활성화되며 게임 시작부터 신호를 활성화할 수 있습니다",
+
+  "Sandbox_WQS_RepeatersModeHowMany_txt": "충분한 무선신호 강도를 받을수 있기 위한 중계기 수",
+  "Sandbox_WQS_RepeatersModeHowMany_txt_tooltip": "충분한 무선 신호 세기를 얻기 위해 맵 곳곳에 건설해야 하는 중계기 안테나의 수.\n 0으로 설정하면 옵션이 비활성화되며 처음부터 신호의 세기가 충분합니다.",
+
+  "Sandbox_WQS_ItemInZombieLootMultiplier_txt": "모드 아이템 드롭 확률 배수",
+  "Sandbox_WQS_ItemInZombieLootMultiplier_txt_tooltip": "좀비 시체의 전리품에서 모드 관련 아이템(무전기, 중계기 위치 지도 조각 등)을 발견할 확률 배수입니다.",
+
+  "Sandbox_WQS_StartWithExtractionItem_txt": "탈출에 필요한 아이템을 지닌 채 시작",
+  "Sandbox_WQS_StartWithExtractionItem_txt_tooltip": "파밍할 필요 없이, 탈출에 필요한 아이템을 지닌 채 시작하세요.",
+
+  "Sandbox_WQS_ConfinedMode_txt": "제한 모드",
+  "Sandbox_WQS_ConfinedMode_txt_tooltip": "선택하면 탈출 이벤트가 진행되는 동안 탈출 지점 근처에 있어야 합니다.",
+
+  "Sandbox_WQS_GameModeExtended_txt": "확장 퀘스트 모드",
+  "Sandbox_WQS_GameModeExtended_txt_tooltip": "선택하면 시작 시 퀘스트가 활성화되지 않으며 안테나를 건설한 후에만 시작할 수 있습니다.",
+
+  "Sandbox_WQS_ZoneMap_txt": "탈출 구역",
+  "Sandbox_WQS_ZoneMap_txt_tooltip": "탈출 지역 선택",
+
+  "Sandbox_WQS_ZoneMap_optlist_option1": "랜덤",
+  "Sandbox_WQS_ZoneMap_optlist_option2": "루이빌 다리 도로",
+  "Sandbox_WQS_ZoneMap_optlist_option3": "루이빌 오하이오몰",
+  "Sandbox_WQS_ZoneMap_optlist_option4": "루이빌 중앙 병원",
+  "Sandbox_WQS_ZoneMap_optlist_option5": "루이빌 Fossoil 공장",
+  "Sandbox_WQS_ZoneMap_optlist_option6": "루이빌 오리오 사무실",
+  "Sandbox_WQS_ZoneMap_optlist_option7": "멀드로 Mass-Genfac 창고",
+  "Sandbox_WQS_ZoneMap_optlist_option8": "멀드로 축구장",
+  "Sandbox_WQS_ZoneMap_optlist_option9": "마치리지 시네마",
+  "Sandbox_WQS_ZoneMap_optlist_option10": "로즈우드 교도소",
+  "Sandbox_WQS_ZoneMap_optlist_option11": "루이빌 Bruiser 야구배트 공장",
+
+  "Sandbox_WQS_ZoneMap_random_txt": "랜덤 탈출 지역 설정",
+  "Sandbox_WQS_ZoneMap_random_txt_tooltip": "임의 탈출 영역을 선택하면 임의 선택 목록에 포함할 영역을 선택할 수 있습니다. \n 고정 탈출 영역을 선택하면 이 매개변수는 무시됩니다.",
+  "Sandbox_WQS_ZoneMap_random_optlist_option1": "모든 지역을 포함한 무작위",
+  "Sandbox_WQS_ZoneMap_random_optlist_option2": "루이빌 지역만 랜덤",
+  "Sandbox_WQS_ZoneMap_random_optlist_option3": "루이빌 지역을 제외한 랜덤"
+}
