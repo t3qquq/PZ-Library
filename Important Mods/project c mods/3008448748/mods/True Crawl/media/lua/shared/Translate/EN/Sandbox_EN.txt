@@ -1,0 +1,25 @@
+Sandbox_EN = {
+	Sandbox_TrueCrawl = "True Crawl",
+
+
+	Sandbox_TrueCrawl_StealhModeEnable = "Stealth Mode",
+	Sandbox_TrueCrawl_StealhModeEnable_tooltip = "Toggles the Stealth Mode ON or OFF. If OFF, only the vanilla Sneaking system will be used. [Default is True].",
+	
+	Sandbox_TrueCrawl_StealhModeServer = "Enable Server Mode",
+	Sandbox_TrueCrawl_StealhModeServer_tooltip = "Use this option only if you're hosting an Local or Dedicated server. (To avoid issues). [Default is False]. ",
+	
+	Sandbox_TrueCrawl_ZombieRadius = "Zombie Radius",
+	Sandbox_TrueCrawl_ZombieRadius_tooltip = "This value controls the zombie sight radius when player is crawling. It goes from 1(Extremely Small) to 20(Extremely Far). Default is 5 (Medium Radius). My recommendation is to keep between 5 - 10 to have a more immersive gameplay.",
+
+	Sandbox_TrueCrawl_CrawlUnderVehiclesEnable = "Crawl Under Vehicles",
+	Sandbox_TrueCrawl_CrawlUnderVehiclesEnable_tooltip = "Toggles the ability to Crawl under Vehicles. (YOU MUST BE CRAWLING!) [Default is True, Default Key is X]. ",
+	
+	Sandbox_TrueCrawl_AimBonusEnable = "Enable Aim Bonus",
+	Sandbox_TrueCrawl_AimBonusEnable_tooltip = "Controls if the Aiming Bonus while prone is ON or OFF. [Default is True]",
+	
+	Sandbox_TrueCrawl_AimingHitChanceBonusWhileProne = "Prone Hit Chance Bonus",
+	Sandbox_TrueCrawl_AimingHitChanceBonusWhileProne_tooltip = "Sets the amount of Hit Chance you want to recieve when Aiming while Prone. [Default is 50]",
+	
+	Sandbox_TrueCrawl_AimingCritChanceBonusWhileProne = "Prone Crit Chance Bonus",
+	Sandbox_TrueCrawl_AimingCritChanceBonusWhileProne_tooltip = "Sets the amount of Critical Chance you want to recieve when Aiming while Prone. [Default is 50]",
+}

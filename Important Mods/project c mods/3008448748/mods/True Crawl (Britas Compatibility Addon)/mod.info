@@ -1,0 +1,5 @@
+name=True Crawl Britas [GunFighter] Addon
+id=TrueCrawlBritasAddon
+description=Compatibility Mod for Britas [GunFighter] Weapon Pack animations.
+poster=TrueCrawl.png
+require=Arsenal(26)GunFighter[MAIN MOD 2.0],TrueCrawl

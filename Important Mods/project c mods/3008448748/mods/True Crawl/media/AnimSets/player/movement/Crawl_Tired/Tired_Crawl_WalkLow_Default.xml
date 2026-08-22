@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Tired_Crawl_Walk_Default.xml">
+	<m_Name>Tired_Crawl_WalkLow_Default</m_Name>
+	<m_AnimName>Bob_Crawl</m_AnimName>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_SpeedScale>0.30</m_SpeedScale>
+	<m_BlendTime>0.70</m_BlendTime>
+	<m_Scalar>WalkInjury</m_Scalar>
+	<m_Scalar2>WalkSpeed</m_Scalar2>
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions>
+		<m_Name>sneaking</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>inTrees</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>false</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>isCrawling</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>isCrawlingTired</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>nearWallCrouching</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_2DBlends />
+	<m_2DBlends />
+	<m_2DBlends />
+	<m_2DBlends />
+	<m_2DBlends />
+	<m_2DBlends />
+	<m_2DBlendTri />
+	<m_2DBlendTri />
+	<m_2DBlendTri />
+	<m_2DBlendTri />
+	<m_Transitions />
+	<m_Transitions />
+	<m_Transitions />
+	<m_Transitions />
+	<m_Transitions />
+	<m_Transitions />
+	<m_Events />
+	<m_Events />
+	<m_Transitions>
+		<m_Target>defaultWalk</m_Target>
+		<m_AnimName>Bob_GetUp_Front</m_AnimName>
+		<m_blendInTime>0.6</m_blendInTime>
+		<m_blendOutTime>0.6</m_blendOutTime>
+		<m_speedScale>2.0</m_speedScale>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>Crawl_Climbwall_Start</m_Target>
+		<m_AnimName>Bob_GetUp_Front</m_AnimName>
+		<m_blendInTime>0.2</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<m_speedScale>1.5</m_speedScale>
+	</m_Transitions>
+</animNode>

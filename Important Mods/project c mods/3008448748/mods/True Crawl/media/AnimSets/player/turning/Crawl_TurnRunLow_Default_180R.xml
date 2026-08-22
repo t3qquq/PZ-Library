@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Crawl_TurnRunLow_Default_180.xml">
+	<m_Name>Crawl_TurnRunLow_Default_180R</m_Name>
+	<m_AnimName>invalidOnPurpose</m_AnimName>
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions>
+		<m_Name>twist</m_Name>
+		<m_Type>GTR</m_Type>
+		<m_FloatValue>0</m_FloatValue>
+	</m_Conditions>
+</animNode>

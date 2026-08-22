@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Bob_Crawl_RifleEmpty.xml">
+	<m_Name>Bob_Crawl_RifleEmptyBurst</m_Name>
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions>
+		<m_StringValue>Burst</m_StringValue>
+	</m_Conditions>
+	<m_Conditions />
+</animNode>

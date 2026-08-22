@@ -1,0 +1,44 @@
+VERSION = 1,
+
+
+option TrueCrawl.StealhModeEnable
+{
+	type = boolean, default = true,
+	page = TrueCrawl, translation = TrueCrawl_StealhModeEnable,
+}
+
+option TrueCrawl.StealhModeServer
+{
+	type = boolean, default = false,
+	page = TrueCrawl, translation = TrueCrawl_StealhModeServer,
+}
+
+option TrueCrawl.ZombieRadius
+{
+	type = integer, min = 1, max = 20, default = 5,
+	page = TrueCrawl, translation = TrueCrawl_ZombieRadius,
+}
+
+option TrueCrawl.CrawlUnderVehiclesEnable
+{
+	type = boolean, default = true,
+	page = TrueCrawl, translation = TrueCrawl_CrawlUnderVehiclesEnable,
+}
+
+option TrueCrawl.AimBonusEnable
+{
+	type = boolean, default = true,
+	page = TrueCrawl, translation = TrueCrawl_AimBonusEnable,
+}
+
+option TrueCrawl.AimingHitChanceBonusWhileProne
+{
+	type = integer, min = 0, max = 100, default = 50,
+	page = TrueCrawl, translation = TrueCrawl_AimingHitChanceBonusWhileProne,
+}
+
+option TrueCrawl.AimingCritChanceBonusWhileProne
+{
+	type = integer, min = 0, max = 100, default = 50,
+	page = TrueCrawl, translation = TrueCrawl_AimingCritChanceBonusWhileProne,
+}

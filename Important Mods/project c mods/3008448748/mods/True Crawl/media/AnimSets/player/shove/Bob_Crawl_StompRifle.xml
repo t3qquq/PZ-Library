@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Bob_Crawl_StompDefault.xml">
+	<m_Name>Bob_Crawl_StompRifle</m_Name>
+	<m_AnimName>Bob_Crawl_Can_Lunge</m_AnimName>
+	<m_SpeedScale>1.5</m_SpeedScale>
+	<m_Conditions />
+	<m_Conditions>
+		<m_Name>isCrawling</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>firearm</m_StringValue>
+	</m_Conditions>
+</animNode>

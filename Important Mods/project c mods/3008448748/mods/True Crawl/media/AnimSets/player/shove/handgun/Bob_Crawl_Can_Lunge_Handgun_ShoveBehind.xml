@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Bob_Crawl_Can_Lunge_Handgun_Default.xml">
+	<m_Name>Bob_Crawl_Can_Lunge_Handgun_ShoveBehind</m_Name>
+	<m_AnimName>Bob_Crawl_Can_Lunge</m_AnimName>
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions>
+		<m_Name>isCrawling</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>AttackFromBehind</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_Events>
+		<m_TimePc>0.2</m_TimePc>
+	</m_Events>
+</animNode>

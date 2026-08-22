@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?was Bob_AttackRifle?>
+<animNode x_extends="Bob_Crawl_RifleDefault.xml">
+	<m_Name>Bob_Crawl_RifleBurst</m_Name>
+	<m_AnimName>Bob_Crawl_RifleFire</m_AnimName>
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions>
+		<m_StringValue>Burst</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>isCrawling</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+</animNode>

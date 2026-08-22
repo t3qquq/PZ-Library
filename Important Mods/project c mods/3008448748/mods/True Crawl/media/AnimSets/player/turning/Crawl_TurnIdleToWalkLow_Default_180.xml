@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Crawl_TurnWalkLow_Default.xml">
+	<m_Name>Crawl_TurnIdleToWalkLow_Default_180</m_Name>
+	<m_Looped>false</m_Looped>
+	<m_BlendOutTime>0.10</m_BlendOutTime>
+</animNode>
