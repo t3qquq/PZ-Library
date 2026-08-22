@@ -1,0 +1,19 @@
+[ ALERT_CONFIG ]
+link1 = Chuck's Kofi = https://steamcommunity.com/linkfilter/?u=https://ko-fi.com/chuckleberryfinn,
+link3 = Workshop = https://steamcommunity.com/id/Chuckleberry_Finn/myworkshopfiles/?appid=108600,
+link4 = Github = https://steamcommunity.com/linkfilter/?u=https://github.com/Chuckleberry-Finn,
+[ ------ ]
+
+[ 1/27/26 ]
+- B42 Initial
+[ ------ ]
+
+[ 2/11/26 ]
+- Forgot to move the code into the actual folder that makes the code do stuff. Oops.
+[ ------ ]
+
+[ 2/15/26 ]
+- Added missing B42 folder (not sure how it got removed.)
+- Added icon for modlist.
+- Reminder: I removed the check on drivers, so you can sleep while driving.
+[ ------ ]
