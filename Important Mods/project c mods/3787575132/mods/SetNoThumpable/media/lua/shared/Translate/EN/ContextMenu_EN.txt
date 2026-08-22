@@ -1,0 +1,8 @@
+ContextMenu_EN = {
+	ContextMenu_DisableThumpable = "Disable Thumpable",
+	ContextMenu_EnableThumpable = "Enable Thumpable",
+	ContextMenu_BlockZombieEntry = "Block Zombie Entry",
+	ContextMenu_AllowZombieEntry = "Allow Zombie Entry",
+	ContextMenu_CannotConvertCurtains = "Cannot convert this door because it has curtains.",
+	ContextMenu_CannotConvertBarricade = "Cannot convert this door because it is barricaded.",
+}

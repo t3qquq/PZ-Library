@@ -1,0 +1,7 @@
+name=Project C More Trait Fix 41
+id=ProjectCMoreTraitFix41
+require=ToadTraits
+description=Restores More Traits runtime effects after a Build 41 multiplayer server reboot. Does not replace More Traits.
+pzversion=41.78.20
+versionMin=41.0
+authors=ProjectCMoreTraitFix41

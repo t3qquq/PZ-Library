@@ -1,0 +1,8 @@
+ContextMenu_KO = {
+	ContextMenu_DisableThumpable = "Thumpable 끄기",
+	ContextMenu_EnableThumpable = "Thumpable 켜기",
+	ContextMenu_BlockZombieEntry = "좀비 출입 차단",
+	ContextMenu_AllowZombieEntry = "좀비 출입 허용",
+	ContextMenu_CannotConvertCurtains = "커튼이 있어 이 문을 변환하지 않습니다.",
+	ContextMenu_CannotConvertBarricade = "바리케이드가 있어 이 문을 변환하지 않습니다.",
+}

@@ -1,0 +1,7 @@
+name=Set No Thumpable
+id=SetNoThumpable
+description=SP debug or MP admin/moderator menu. Disable door thump so zombies cannot bash. Optional zombie-only entry barrier; players and vehicles still pass.
+pzversion=41.78.20
+versionMin=41.0
+authors=SetNoThumpable
+url=
