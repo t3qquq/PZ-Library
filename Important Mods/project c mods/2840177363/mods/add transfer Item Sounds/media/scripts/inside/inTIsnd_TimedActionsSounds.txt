@@ -1,0 +1,558 @@
+module Base
+{
+	sound inTIsnd_ActionBandage	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Bandage_1.ogg,
+			volume = 0.40,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionBandage	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Bandage_2.ogg,
+			volume = 0.40,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionBandage	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Bandage_3.ogg,
+			volume = 0.40,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionBandage	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Bandage_4.ogg,
+			volume = 0.40,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionBandagePerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_BandagePerf.ogg,
+			volume = 0.3,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+	sound inTIsnd_ActionDisinfect	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Disinfect.ogg,
+			volume = 0.21,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionDisinfectPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_DisinfectPerf.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+	sound inTIsnd_ActionTakePill	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_TakePill_1.ogg,
+			volume = 0.75,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionTakePill	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_TakePill_2.ogg,
+			volume = 0.75,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionTakePill	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_TakePill_3.ogg,
+			volume = 0.75,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionTakePill	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_TakePill_4.ogg,
+			volume = 0.75,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionTakePillPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_TakePillPerf.ogg,
+			volume = 0.75,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+	sound inTIsnd_ActionCleanAshes	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_CleanAshes_1.ogg,
+			volume = 0.5,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionCleanAshes	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_CleanAshes_2.ogg,
+			volume = 0.5,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionCleanAshes	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_CleanAshes_3.ogg,
+			volume = 0.5,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionCleanAshes	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_CleanAshes_4.ogg,
+			volume = 0.5,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionCleanAshesPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_CleanAshesPerf_1.ogg,
+			volume = 0.5,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionCleanAshesPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_CleanAshesPerf_2.ogg,
+			volume = 0.5,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionCleanAshesPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_CleanAshesPerf_3.ogg,
+			volume = 0.5,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionCleanAshesPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_CleanAshesPerf_4.ogg,
+			volume = 0.5,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+	sound inTIsnd_ActionWaterTransfer	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_WaterTransfer.ogg,
+			volume = 0.5,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionWaterTransferPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_WaterTransferPerf.ogg,
+			volume = 0.5,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+	sound inTIsnd_ActionRepairClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RepairClothing_1.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRepairClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RepairClothing_2.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRepairClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RepairClothing_3.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRepairClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RepairClothing_4.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+
+
+
+	sound inTIsnd_ActionRemoveClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveClothing_1.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRemoveClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveClothing_2.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRemoveClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveClothing_3.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRemoveClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveClothing_4.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+
+
+	sound inTIsnd_ActionRepairClothingPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RepairClothingPerf_1.ogg,
+			volume = 0.3,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRepairClothingPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RepairClothingPerf_2.ogg,
+			volume = 0.3,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRepairClothingPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RepairClothingPerf_3.ogg,
+			volume = 0.3,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRepairClothingPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RepairClothingPerf_4.ogg,
+			volume = 0.3,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+	sound inTIsnd_ActionToStich	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_ToStich_1.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionToStich	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_ToStich_2.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionToStich	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_ToStich_3.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionToStich	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_ToStich_4.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+	sound inTIsnd_ActionRemoveBullet	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveBullet_1.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRemoveBullet	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveBullet_2.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRemoveBullet	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveBullet_3.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRemoveBullet	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveBullet_4.ogg,
+			volume = 1,
+			distanceMax = 15,
+		}
+	}
+
+	sound inTIsnd_ActionRemoveBulletPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveBulletPerf_1.ogg,
+			volume = 0.7,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRemoveBulletPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveBulletPerf_2.ogg,
+			volume = 0.7,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+	sound inTIsnd_ActionRemoveGlass	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveGlass_1.ogg,
+			volume = 0.7,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRemoveGlass	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveGlass_2.ogg,
+			volume = 0.7,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRemoveGlass	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveGlass_3.ogg,
+			volume = 0.7,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRemoveGlass	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveGlass_4.ogg,
+			volume = 0.7,
+			distanceMax = 15,
+		}
+	}
+
+	sound inTIsnd_ActionRemoveGlassPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveGlassPerf_1.ogg,
+			volume = 0.45,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_ActionRemoveGlassPerf	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_RemoveGlassPerf_2.ogg,
+			volume = 0.45,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+}

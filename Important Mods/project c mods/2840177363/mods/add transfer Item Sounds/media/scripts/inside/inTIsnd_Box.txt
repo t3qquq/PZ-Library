@@ -1,0 +1,153 @@
+module Base
+{
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_1.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_2.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_3.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_4.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_5.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_6.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_7.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_8.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_9.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_10.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_11.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_12.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_13.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_14.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_Box
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Box_15.ogg,
+			volume = 0.61,
+			distanceMax = 15,
+		}
+	}
+}

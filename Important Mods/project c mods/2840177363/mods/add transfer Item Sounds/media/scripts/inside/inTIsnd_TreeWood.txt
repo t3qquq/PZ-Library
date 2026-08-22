@@ -1,0 +1,84 @@
+module Base
+{	
+	
+	sound inTIsnd_TreeWood
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_TreeWood_1.ogg,
+			volume = 0.49,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_TreeWood
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_TreeWood_2.ogg,
+			volume = 0.49,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_TreeWood
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_TreeWood_3.ogg,
+			volume = 0.49,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_TreeWood
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_TreeWood_4.ogg,
+			volume = 0.49,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_TreeWood
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_TreeWood_5.ogg,
+			volume = 0.49,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_TreeWood
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_TreeWood_6.ogg,
+			volume = 0.49,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_TreeWood
+	
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_TreeWood_7.ogg,
+			volume = 0.49,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_TreeWood
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_TreeWood_8.ogg,
+			volume = 0.49,
+			distanceMax = 15,
+		}
+	}
+}

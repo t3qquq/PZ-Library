@@ -1,0 +1,3624 @@
+module Base
+{	
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_1.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_2.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_3.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_4.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_5.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_6.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_7.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_8.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_9.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_10.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_11.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_12.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_13.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_14.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_15.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_16.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_17.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemClothing	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_moveBis_18.ogg,
+			volume = 0.07,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	sound TIsnd_itemWeapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponBis_1.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+	sound TIsnd_itemWeapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponBis_2.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+	sound TIsnd_itemWeapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponBis_3.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+	sound TIsnd_itemWeapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponBis_4.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+	sound TIsnd_itemWeapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponBis_5.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+	sound TIsnd_itemWeapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponBis_6.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+	sound TIsnd_itemWeapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponBis_7.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+	sound TIsnd_itemWeapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponBis_8.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+	sound TIsnd_itemWeapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponBis_9.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+	sound TIsnd_itemWeapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponBis_10.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+	sound TIsnd_itemTaking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_1.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+
+	sound TIsnd_itemTaking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_2.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemTaking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_3.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemTaking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_7.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+
+	sound TIsnd_itemTaking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_9.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemTaking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_10.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemTaking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_11.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+	sound TIsnd_itemPetrolCan_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemPetrolCanBis_3.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemPetrolCan_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemPetrolCanBis_1.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	} 
+	sound TIsnd_itemPetrolCan_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemPetrolCanBis_2.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemPetrolCan_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemPetrolCanBis_4.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+	sound TIsnd_itemPetrolCan_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemPetrolCan_1.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemPetrolCan_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemPetrolCan_2.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemPetrolCan_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemPetrolCan_3.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemPetrolCan_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemPetrolCan_4.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+	sound TIsnd_itemMolotov_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemMolotovBis_1.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemMolotovBis_2.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemMolotovBis_3.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemMolotovBis_4.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemMolotovBis_5.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+	sound TIsnd_itemMolotov_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemMolotov_1.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_15.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_GlassBottle_5.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemMolotov_2.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_GlassBottle_3.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemMolotov_4.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_9.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_GlassBottle_1.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_GlassBottle_2.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemMolotov_5.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_GlassBottle_4.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	
+	sound TIsnd_itemMolotov_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_2.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMolotov_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemMolotov_3.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+	sound TIsnd_SmashedBottle_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_SmashedBottleBis_1.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_SmashedBottleBis_2.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_SmashedBottleBis_3.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_SmashedBottleBis_4.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_SmashedBottleBis_5.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+
+
+
+	sound TIsnd_SmashedBottle_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_SmashedBottle_1.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_15.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_SmashedBottle_2.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_GlassBottle_4.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_SmashedBottle_5.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_GlassBottle_1.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_9.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_GlassBottle_2.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_SmashedBottle_3.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_GlassBottle_3.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_2.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_GlassBottle_5.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SmashedBottle_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_SmashedBottle_4.ogg,
+			volume = 0.08,
+			distanceMax = 15,
+		}
+	}
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	sound TIsnd_itemGuitar_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemGuitarBis_1.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemGuitar_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemGuitarBis_2.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemGuitar_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemGuitarBis_3.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemGuitar_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemGuitarBis_4.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemGuitar_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemGuitarBis_5.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+
+
+    sound TIsnd_itemGuitar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Instrument_3.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemGuitar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemGuitar_5.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemGuitar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemGuitar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemGuitar_1.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemGuitar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemGuitar_4.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemGuitar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_4.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemGuitar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemGuitar_2.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemGuitar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_itemGuitar_3.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+	sound TIsnd_itemPan_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_CookingBis_1.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemPan_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_CookingBis_3.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemPan_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_CookingBis_5.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemPan_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_CookingBis_2.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	
+
+
+
+	sound TIsnd_itemPan_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Cooking_1.ogg,
+			volume = 0.17,
+			distanceMax = 15,
+		}
+	} 
+	sound TIsnd_itemPan_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Cooking_2.ogg,
+			volume = 0.17,
+			distanceMax = 15,
+		}
+	} 
+	sound TIsnd_itemPan_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Cooking_3.ogg,
+			volume = 0.17,
+			distanceMax = 15,
+		}
+	} 
+	sound TIsnd_itemPan_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Cooking_4.ogg,
+			volume = 0.17,
+			distanceMax = 15,
+		}
+	} 
+	sound TIsnd_itemPan_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Cooking_5.ogg,
+			volume = 0.17,
+			distanceMax = 15,
+		}
+	} 
+	sound TIsnd_itemPan_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_3.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	} 
+	sound TIsnd_itemPan_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	} 
+	sound TIsnd_itemPan_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_4.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	} 
+  
+
+
+
+
+
+
+
+
+
+        
+	sound TIsnd_itemKatana_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolBis_1.ogg,
+			volume = 0.15,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKatana_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_9.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKatana_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_2.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKatana_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_1.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+
+
+	         
+	sound TIsnd_itemKatana_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_9.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKatana_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKatana_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_3.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKatana_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_5.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKatana_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_1.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKatana_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_1.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKatana_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_2.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKatana_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_2.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKatana_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_3.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+
+	
+
+	sound TIsnd_itemWrench_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_3.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_6.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPartBis_3.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolMBis_5.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolMBis_3.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolMBis_2.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_3.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+
+
+              
+	sound TIsnd_itemWrench_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_5.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_4.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_3.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_VehicleMaintenance_3.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_4.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_3.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_1.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_9.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_3.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_4.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemWrench_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_2.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	
+
+           
+
+
+
+
+
+
+	sound TIsnd_itemMetalObj_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_3.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPartBis_1.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolMBis_5.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_14.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPartBis_2.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolMBis_4.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPartBis_3.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_7.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolMBis_2.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPartBis_7.ogg,
+			volume = 0.1,
+			distanceMax = 15,
+		}
+	}
+
+
+	 
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Furniture_2.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_VehicleMaintenance_9.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_VehicleMaintenance_8.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_4.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_10.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_VehicleMaintenance_3.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_3.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_2.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}  
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_9.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_VehicleMaintenance_1.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Furniture_5.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Furniture_15.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_3.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_2.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Furniture_16.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_4.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Furniture_14.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemMetalObj_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+	
+
+
+
+
+
+
+	sound TIsnd_itemKnife_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolBis_1.ogg,
+			volume = 0.15,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_5.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolMBis_2.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_3.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolMBis_3.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	
+
+
+
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_10.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_VehicleMaintenance_9.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_3.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_1.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_1.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_1.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_16.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_4.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_4.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_VehicleMaintenance_3.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_3.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_15.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_9.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_3.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_2.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_3.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_7.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemKnife_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_14.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+
+	                         
+
+
+
+
+
+
+
+
+        
+	
+	sound TIsnd_itemHandShovel_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_5.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolBis_2.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolBis_2.ogg,
+			volume = 0.15,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_17.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_8.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_17.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+
+
+             
+	sound TIsnd_itemHandShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_9.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_14.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_5.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_16.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_3.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_4.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_4.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_20.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHandShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_1.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+
+
+            
+	
+
+
+      
+
+
+
+
+       
+	sound TIsnd_itemBat_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_8.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBat_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_3.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBat_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_4.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBat_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_8.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBat_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_1.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBat_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_9.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBat_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_4.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+
+
+	        
+	sound TIsnd_itemBat_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_8.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBat_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_20.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBat_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_4.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBat_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_4.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBat_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_15.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBat_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_16.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBat_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+
+	
+
+
+
+
+
+
+
+           
+	
+	sound TIsnd_itemBar_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_10.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_6.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_9.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_2.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_2.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_5.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+
+
+                
+	sound TIsnd_itemBar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_10.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_2.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_20.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_6.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_2.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_6.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_5.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_3.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_3.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_15.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemBar_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_9.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+
+
+	
+
+
+
+
+
+
+
+   
+	
+	sound TIsnd_itemRake_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolBis_3.ogg,
+			volume = 0.15,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemRake_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_20.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemRake_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_16.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemRake_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_3.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+
+
+	            
+	sound TIsnd_itemRake_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_8.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemRake_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_19.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemRake_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_2.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemRake_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_3.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemRake_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_6.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemRake_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_16.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemRake_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemRake_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_4.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemRake_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_4.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemRake_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_20.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemRake_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_5.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+	
+	sound TIsnd_itemShovel_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolBis_3.ogg,
+			volume = 0.15,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolBis_2.ogg,
+			volume = 0.15,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_7.ogg,
+			volume = 0.15,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolBis_4.ogg,
+			volume = 0.15,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_5.ogg,
+			volume = 0.15,
+			distanceMax = 15,
+		}
+	}
+
+
+
+	sound TIsnd_itemShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_2.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_13.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_3.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_4.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_2.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_19.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_4.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_3.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_6.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_15.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_16.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemShovel_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_20.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+      
+	sound TIsnd_itemSledge_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_10.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSledge_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_6.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSledge_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_13.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSledge_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_12.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+
+
+
+         
+	sound TIsnd_itemSledge_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_10.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSledge_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_6.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSledge_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_15.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSledge_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_3.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSledge_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_20.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSledge_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSledge_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_7.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+
+	
+
+
+
+
+
+
+
+       
+
+	sound TIsnd_itemHammer_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_5.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolBis_4.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_15.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_3.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+
+
+
+	sound TIsnd_itemHammer_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_10.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_12.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_5.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_3.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_5.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_3.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_6.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponPart_9.ogg,
+			volume = 0.16,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_20.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_1.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_2.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_4.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemHammer_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+
+	
+              
+
+
+
+
+
+
+
+          
+	sound TIsnd_itemAxe_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_8.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemAxe_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_9.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemAxe_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_5.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemAxe_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_10.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	
+
+               
+
+	sound TIsnd_itemAxe_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_6.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemAxe_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_16.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemAxe_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_6.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemAxe_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_13.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemAxe_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemAxe_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_15.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemAxe_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemAxe_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_18.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemAxe_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_3.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemAxe_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_20.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+
+	
+
+
+
+
+
+
+
+   
+	sound TIsnd_itemSpear_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_5.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolBis_1.ogg,
+			volume = 0.15,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_16.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}  
+	sound TIsnd_itemSpear_down
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_TakingBis_20.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_up
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMeleeBis_9.ogg,
+			volume = 0.12,
+			distanceMax = 15,
+		}
+	}
+
+
+	 
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_9.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_14.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_5.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_3.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_3.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_2.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_15.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_3.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_1.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_16.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Tool_5.ogg,
+			volume = 0.18,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_8.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_6.ogg,
+			volume = 0.11,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_itemSpear_transf
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_WeaponMelee_8.ogg,
+			volume = 0.14,
+			distanceMax = 15,
+		}
+	}
+}                

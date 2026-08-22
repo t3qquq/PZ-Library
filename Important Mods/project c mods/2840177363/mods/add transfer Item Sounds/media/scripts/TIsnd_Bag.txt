@@ -1,0 +1,54 @@
+module Base
+{	
+	
+	sound TIsnd_Bag
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Bag_1.ogg,
+			volume = 0.13,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_Bag
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Bag_2.ogg,
+			volume = 0.13,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_Bag
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Bag_3.ogg,
+			volume = 0.13,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_Bag
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Bag_4.ogg,
+			volume = 0.13,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_Bag
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Bag_5.ogg,
+			volume = 0.13,
+			distanceMax = 15,
+		}
+	}
+}

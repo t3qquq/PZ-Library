@@ -1,0 +1,54 @@
+module Base
+{
+	sound inTIsnd_CookingM	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Cooking_1.ogg,
+			volume = 0.46,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_CookingM	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Cooking_2.ogg,
+			volume = 0.46,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_CookingM	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Cooking_3.ogg,
+			volume = 0.46,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_CookingM	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Cooking_4.ogg,
+			volume = 0.46,
+			distanceMax = 15,
+		}
+	}
+	sound inTIsnd_CookingM	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Cooking_5.ogg,
+			volume = 0.46,
+			distanceMax = 15,
+		}
+	}
+	
+}

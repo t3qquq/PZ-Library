@@ -1,0 +1,1069 @@
+module Base
+{	
+	sound TIsnd_Searchcabinet	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_cabinet_1.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_Searchcabinet	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_cabinet_2.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_Searchcabinet	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_cabinet_3.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_Searchcabinet	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_cabinet_4.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+
+	}
+
+
+
+
+
+
+
+		
+	sound TIsnd_SearchPlasticBag	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_PlasticBag_1.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchPlasticBag	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_PlasticBag_2.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchPlasticBag	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_PlasticBag_3.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchPlasticBag	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_PlasticBag_4.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+	sound TIsnd_SearchPaperBag	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_PaperBag_1.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchPaperBag	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_PaperBag_2.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchPaperBag	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_PaperBag_3.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchPaperBag	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_PaperBag_4.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+	sound TIsnd_SearchFridge	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Fridge_1.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchFridge	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Fridge_2.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchFridge	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Fridge_3.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchFridge	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Fridge_4.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+	sound TIsnd_SearchDesk	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Desk_1.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchDesk	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Desk_2.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchDesk	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Desk_3.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchDesk	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Desk_4.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+	sound TIsnd_SearchMicrowave	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Microwave_1.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchMicrowave	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Microwave_2.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchMicrowave	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Microwave_3.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchMicrowave	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Microwave_4.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+	sound TIsnd_SearchTruckBed	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_TruckBed_1.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchTruckBed	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_TruckBed_2.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchTruckBed	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_TruckBed_3.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchTruckBed	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_TruckBed_4.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+	sound TIsnd_SearchShelve	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Shelve_1.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchShelve	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Shelve_2.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchShelve	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Shelve_3.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchShelve	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Shelve_4.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+	sound TIsnd_SearchOverhead	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Overhead_1.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchOverhead	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Overhead_2.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchOverhead	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Overhead_3.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchOverhead	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Overhead_4.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+	sound TIsnd_SearchMedicine	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Medicine_1.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchMedicine	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Medicine_2.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchMedicine	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Medicine_3.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchMedicine	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Medicine_4.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+
+	sound TIsnd_SearchGloveBox	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_GloveBox_1.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchGloveBox	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_GloveBox_2.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchGloveBox	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_GloveBox_3.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchGloveBox	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_GloveBox_4.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+	sound TIsnd_SearchPost	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Post_1.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchPost	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Post_2.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchPost	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Post_3.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchPost	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Post_4.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+    sound TIsnd_SearchDeadBody	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_DeadBody_1.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchDeadBody	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_DeadBody_2.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchDeadBody	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_DeadBody_3.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchDeadBody	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_DeadBody_4.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+
+
+	sound TIsnd_SearchFloor	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Floor_1.ogg,
+			volume = 0.20,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchFloor	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Floor_2.ogg,
+			volume = 0.20,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchFloor	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Floor_3.ogg,
+			volume = 0.20,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchFloor	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Floor_4.ogg,
+			volume = 0.20,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchFloor	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Floor_5.ogg,
+			volume = 0.20,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchFloor	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Floor_6.ogg,
+			volume = 0.20,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchFloor	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Floor_7.ogg,
+			volume = 0.20,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchFloor	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Floor_8.ogg,
+			volume = 0.20,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+	sound TIsnd_SearchBagCloth	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_BagCloth_1.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchBagCloth	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_BagCloth_2.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchBagCloth	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_BagCloth_3.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchBagCloth	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_BagCloth_4.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+
+
+
+	sound TIsnd_SearchCounter	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Counter_1.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchCounter	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Counter_2.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchCounter	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Counter_3.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchCounter	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Counter_4.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+	sound TIsnd_SearchStove	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Stove_1.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchStove	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Stove_2.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchStove	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Stove_3.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchStove	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Stove_4.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+	sound TIsnd_SearchBinTrash	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_BinTrash_1.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchBinTrash	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_BinTrash_2.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchBinTrash	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_BinTrash_3.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchBinTrash	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_BinTrash_4.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+	sound TIsnd_SearchWardrobe	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Wardrobe_1.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchWardrobe	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Wardrobe_2.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchWardrobe	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Wardrobe_3.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchWardrobe	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Wardrobe_4.ogg,
+			volume = 0.25,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+	sound TIsnd_SearchCrate	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Crate_1.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchCrate	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Crate_2.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchCrate	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Crate_3.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchCrate	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Crate_4.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+
+	sound TIsnd_SearchLocker	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Locker_1.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchLocker	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Locker_2.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchLocker	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Locker_3.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchLocker	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Locker_4.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+
+
+
+
+
+	sound TIsnd_SearchTool	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Tool_1.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchTool	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Tool_2.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchTool	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Tool_3.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+	sound TIsnd_SearchTool	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inventoryTetris/TIsnd_Tool_4.ogg,
+			volume = 0.35,
+			distanceMax = 15,
+		}
+	}
+}
