@@ -1,0 +1,8 @@
+name=Forage Running [b41+b42]
+poster=poster.png
+id=forageRunning
+version=1.1
+description=A simple mod to remove the "isRunning" check from Search Mode's "checkShouldDisable" function-- allowing you to run while foraging while maintaining the vanilla debuff to search effectiveness.
+
+Search Mode can still be disabled manually, by sprinting, or from proximity to zeds.
+url=
