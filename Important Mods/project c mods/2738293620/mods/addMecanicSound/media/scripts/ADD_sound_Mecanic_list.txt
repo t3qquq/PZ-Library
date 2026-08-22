@@ -1,0 +1,647 @@
+module Base
+{
+sound StationFuelStop2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/StationFuelStop2.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound StationFuelDepart
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/StationFuelDepart.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound StationFuelStop
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/StationFuelStop.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound StationFuelUpdate
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/StationFuelUpdate.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound OpenWindowLoop
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindowLoop.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound OpenWindowPerf1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindowPerf1.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound OpenWindowPerf2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindowPerf2.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound detachTrailerTRUE
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/detachTrailerTRUE.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound detachTrailer
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/detachTrailer.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound attachTrailerTRUE
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/attachTrailerTRUE.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound attachTrailerStop
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/attachTrailerStop.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound attachTrailer
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/attachTrailer.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound HeaterVentilStop
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeaterVentilStop.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound HeaterVentil
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeaterVentil.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound HeaterOnOff1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeaterOnOff1.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound HeaterOnOff2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeaterOnOff2.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound HeaterOnOff3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeaterOnOff3.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound HeaterOnOff4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeaterOnOff4.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound buttonSwitch1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/buttonSwitch1.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound buttonSwitch2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/buttonSwitch2.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound buttonSwitch3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/buttonSwitch3.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound buttonSwitch4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/buttonSwitch4.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound HeatSelect1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeatSelect1.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound HeatSelect2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeatSelect2.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound HeatSelect3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeatSelect3.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound HeatSelect4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeatSelect4.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound LightButton1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightButton1.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound LightButton2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightButton2.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound LightButton3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightButton3.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound LightButton4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightButton4.ogg,
+			distanceMax = 25,
+		}
+	}  
+	sound OpenWindow5
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow5.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound OpenWindow6
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow6.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound OpenWindow7
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow7.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound OpenWindow8
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow8.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound OpenWindow1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow1.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound OpenWindow2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow2.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound OpenWindow3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow3.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound OpenWindow4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow4.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound SwitchSeat1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/SwitchSeat1.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound SwitchSeat2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/SwitchSeat2.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound SwitchSeat3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/SwitchSeat3.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound SwitchSeat4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/SwitchSeat4.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound LightSwitch1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightSwitch1.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound LightSwitch2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightSwitch2.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound LightSwitch3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightSwitch3.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound LightSwitch4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightSwitch4.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound JerrycanCap
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/JerrycanCap.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound uncap
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/uncap.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound dismentleObjet
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/dismentleObjet.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound DeflateTire1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/DeflateTire1.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound AirPump1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/AirPump1.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound JerryRefuel
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/JerryRefuel.ogg,
+			distanceMax = 25,
+		}
+	}	
+	
+
+
+
+	sound MecaSound_add1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_add1.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound MecaSound_add2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_add2.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound MecaSound_add3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_add3.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound MecaSound_add4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_add4.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound MecaSound_add5
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_add5.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound MecaSound_add6
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_add6.ogg,
+			distanceMax = 25,
+		}
+	}
+
+
+
+
+	sound MecaSound_rem1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_rem1.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound MecaSound_rem2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_rem2.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound MecaSound_rem3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_rem3.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound MecaSound_rem4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_rem4.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound MecaSound_rem5
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_rem5.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound MecaSound_rem6
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_rem6.ogg,
+			distanceMax = 25,
+		}
+	}
+
+
+
+	sound MecaSound_ok1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_ok1.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound MecaSound_ok2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_ok2.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound MecaSound_ok3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_ok3.ogg,
+			distanceMax = 25,
+		}
+	}
+
+
+
+	sound MecaSound_Stop1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_Stop1.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound MecaSound_Stop2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_Stop2.ogg,
+			distanceMax = 25,
+		}
+	}
+	sound MecaSound_Stop3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_Stop3.ogg,
+			distanceMax = 25,
+		}
+	}
+}

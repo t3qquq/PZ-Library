@@ -1,0 +1,8 @@
+Sandbox_FR = {
+
+    Sandbox_addMecanicSound = "Ajoute du temps d'action à la mécanique",
+
+      Sandbox_addMecanicSoundtimeMultiplier = "Multiplicateur du temps d'action",
+      Sandbox_addMecanicSoundtimeMultiplier_tooltip = "Ce chiffre correspond au mulitplicateur du temps d'action de la mécanique. Sachant que plus votre niveau en mécanique sera élevé, plus le temps d'action sera court. Donc vous effectuerez les actions plus rapidement. <br><br><br>Voici des exemples de temps d'action suivant la compétence en mécanique en rapport avec le réglage de ce chiffre<br><br>Compétence en mécanique de 0:<br>1  = 7 secondes d'action<br>10 = 25 secondes d'action<br>20 = 50 secondes d'action<br><br><br>Compétence en mécanique de 5:<br><br>1  = 4 secondes d'action<br>10 = 16 secondes d'action<br>20 = 32 secondes d'action<br><br><br>Compétence en mécanique de 10:<br><br>1  = 2 secondes d'action<br>10 = 7 secondes d'action<br>20 = 14 secondss d'action<br><br>Si vous souhaitez otenir le temps d'action vanilla, utilisez l'autre version de ce mod nommé: Lite, sur le workshop de steam.<br><br>",
+
+}
