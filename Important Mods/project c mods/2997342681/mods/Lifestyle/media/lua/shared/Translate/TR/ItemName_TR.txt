@@ -1,0 +1,19 @@
+ItemName_TR = {
+	
+	ItemName_Lifestyle.LS_Discoball = "Disko Topu",
+	ItemName_Lifestyle.Harmonica = "Mýzýka",
+	ItemName_Lifestyle.SheetMusicBook = "Müzik Defteri",
+	ItemName_Lifestyle.BucketBleachFull = "Su ve Çamaþýr Suyu Kovasý",
+
+	ItemName_Lifestyle.BookMusic1 = "Müzik Seri 1",
+	ItemName_Lifestyle.BookMusic2 = "Müzik Seri 2",
+	ItemName_Lifestyle.BookMusic3 = "Müzik Seri 3",
+	ItemName_Lifestyle.BookMusic4 = "Müzik Seri 4",
+	ItemName_Lifestyle.BookMusic5 = "Müzik Seri 5",
+	ItemName_Lifestyle.LSMagazineEdition1 = "HomeStyle: DISCO Özel Baský",
+	ItemName_Lifestyle.BookDancing1 = "Dans Seri 1",
+	ItemName_Lifestyle.BookDancing2 = "Dans Seri 2",
+	ItemName_Lifestyle.BookDancing3 = "Dans Seri 3",
+	ItemName_Lifestyle.BookDancing4 = "Dans Seri 4",
+	ItemName_Lifestyle.BookDancing5 = "Dans Seri 5",
+}

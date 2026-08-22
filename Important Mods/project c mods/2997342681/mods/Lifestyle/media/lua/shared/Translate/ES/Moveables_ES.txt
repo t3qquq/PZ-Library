@@ -1,0 +1,13 @@
+Moveables_ES = {
+  
+    Easel_Painting = "Caballete",
+    EaselCanvas_Painting = "Caballete con lienzo",
+    WP1_Painting = "Lago",
+    WP2_Painting = "Mapache Posando",
+    WP3_Painting = "Dunas Azules",
+    WP4_Painting = "Gato Durmiendo",
+    WP5_Painting = "Bigotes Vibrantes",
+    WP6_Painting = "Cosecha Dorada",
+
+}
+

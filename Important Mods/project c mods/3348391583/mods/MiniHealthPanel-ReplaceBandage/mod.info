@@ -1,0 +1,5 @@
+name=Mini Health Panel - Replace Bandage Patch
+id=MiniHealthPanelReplaceBandagePatch
+description=Adds the Replace Bandage context options to MiniHealthPanel
+poster=poster.png
+require=MiniHealthPanel,ReplaceBandage

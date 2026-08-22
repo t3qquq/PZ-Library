@@ -1,0 +1,18 @@
+Recipes_PTBR {
+
+	Recipe_Craft_Disco_Floor = "Criar Piso de Discoteca",
+    Recipe_Craft_Standing_Disco_Ball = "Criar Bola de Discoteca",
+
+	Recipe_Craft_Standing_Microphone = "Criar Microfone com Suporte",
+	Recipe_Create_Music_Sheet_Book = "Fazer um Caderno de Música",
+    Recipe_Assemble_DJ_Booth = "Montar Mesa de DJ",
+	
+	Recipe_Assemble_Sculpting_Station = "Montar Estação de Escultura",	
+	Recipe_Carve_Art_Paintbrush = "Esculpir Pincel de Artista",
+	Recipe_Carve_Art_Palette = "Esculpir Paleta de Arte",	
+	Recipe_Craft_Art_Easel = "Fazer Cavalete",
+	Recipe_Fill_Empty_Palette_with_Paint = "Encher Paleta Vazia com Tinta",
+
+	Recipe_Make_Bucket_of_Water_and_Bleach = "Misturar Água e Alvejante",
+
+}

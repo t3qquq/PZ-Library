@@ -1,0 +1,36 @@
+module Base {
+
+    sound replaceme_mymusic
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/replaceme_mymusic.ogg,
+		distanceMin = 10,
+		distanceMax = 100,
+		reverbFactor = 0.1,
+		volume = 1.0,
+		
+		}
+    }
+
+
+    sound secondreplaceme_mymusic
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/secondreplaceme_mymusic.ogg,
+		distanceMin = 10,
+		distanceMax = 100,
+		reverbFactor = 0.1,
+		volume = 1.0,
+		
+		}
+    }
+
+
+
+
+
+}

@@ -1,0 +1,10 @@
+Folder descriptions:
+
+
+1. Lua/client/TimesActions = This folder contains the code that will insert your music into the mod (.lua files can be opened with the free software Notepad++);
+
+2. scripts - This folder contains the code that will specify some definitions for your music (simple .txt that any notepad program can open - optional);
+2.a - NOTE: If you're not gonna use it then delete this folder!
+
+3. sound - This folder is used to store the music that you want to add (save in ogg format, audacity is free and easy to convert .wav and .mp3 into ogg).
+3.a - NOTE: Sound files must be either .wav or .ogg

@@ -1,0 +1,62 @@
+Moodles_PL = {
+
+	Moodles_MindfulState_L1 = "Skupienie",
+	Moodles_MindfulState_L1_desc = "Twój umys³ siê oczyszcza...",
+	Moodles_MindfulState_L2 = "Silne skupienie",
+	Moodles_MindfulState_L2_desc = "Porzuæ uczucia g³odu i bólu...",
+	Moodles_MindfulState_L3 = "Nirwana",
+	Moodles_MindfulState_L3_desc = "Osi¹gasz stan nirwany...",
+
+	Moodles_HomeSick_L1 = "Têskni za domem",
+	Moodles_HomeSick_L1_desc = "Brakuje Ci komfortu twojego domu.",
+	Moodles_HomeSick_L2 = "Bardzo têskni za domem",
+	Moodles_HomeSick_L2_desc = "Pragnie przebywaæ wewn¹trz.",
+	Moodles_HomeSick_L3 = "Powa¿na têsknota za domem",
+	Moodles_HomeSick_L3_desc = "Zdesperowany ¿eby gdzieœ odpocz¹æ.",
+	Moodles_HomeSick_L4 = "Niesamowicie stêskniony za domem",
+	Moodles_HomeSick_L4_desc = "Ka¿da przemijaj¹ca godzina to cierpienie.",
+
+	Moodles_AtHouse_L1 = "W domu najlepiej",
+	Moodles_AtHouse_L1_desc = "SpêdŸ trochê czasu w œrodku. ¯adnych udrêk.",
+
+	Moodles_MusicGood_L1 = "Fajna melodia",
+	Moodles_MusicGood_L1_desc = "Niedawno s³ucha³ fajnej muzyki.",
+	Moodles_MusicGood_L2 = "Œwietna muzyka",
+	Moodles_MusicGood_L2_desc = "Harmonijna melodia wype³nia Ciê szczêœciem.",
+	
+	Moodles_MusicBad_L1 = "Nijaka muzyka",
+	Moodles_MusicBad_L1_desc = "Po co w ogóle tego s³uchaæ?",
+	Moodles_MusicBad_L2 = "Nieznoœny ha³as",
+	Moodles_MusicBad_L2_desc = "AAahh!! Niech ktoœ to wy³¹czy!",
+
+	Moodles_PartyGood_L1 = "Spokojna impreza",
+	Moodles_PartyGood_L1_desc = "NieŸle, ale te¿ nie œwietnie. Gdyby tylko uda³o nam siê zebraæ wiêcej ludzi.",
+	Moodles_PartyGood_L2 = "Œwietna impreza",
+	Moodles_PartyGood_L2_desc = "Po prostu daj siê ponieœæ jakby nie by³o jutra!.",
+	Moodles_PartyGood_L3 = "Impreza stulecia",
+	Moodles_PartyGood_L3_desc = "Powinni o tym opowiadaæ!",
+	
+	Moodles_PartyBad_L1 = "Denerwuj¹ca impreza",
+	Moodles_PartyBad_L1_desc = "Przestañcie mnie denerwowaæ!.",
+	Moodles_PartyBad_L2 = "Bardzo denerwuj¹ca impreza",
+	Moodles_PartyBad_L2_desc = "Wysykie ryzyko stresu.",
+	Moodles_PartyBad_L3 = "Niesamowicie denerwuj¹ca impreza",
+	Moodles_PartyBad_L3_desc = "Zabawa na si³ê, bezsensowne pogaduszki, a ja tylko chce siê st¹d wydostaæ.",
+
+	Moodles_DJAudience_L1 = "Ma³a grupa",
+	Moodles_DJAudience_L1_desc = "Bajerancka impreza dla bajeranckiej widowni!",
+	Moodles_DJAudience_L2 = "Spora widownia",
+	Moodles_DJAudience_L2_desc = "Podkrêcamy g³oœnoœæ, widownia siê zwiêksza – czas na pokaz!",
+	Moodles_DJAudience_L3 = "T³um",
+	Moodles_DJAudience_L3_desc = "Czas zwiêkszyæ tempo dla takiej widowni!",
+	
+	Moodles_Embarrassed_L1 = "Odrobinê zawstydzony",
+	Moodles_Embarrassed_L1_desc = "Zawstydzi³eœ siê",
+	Moodles_Embarrassed_L2 = "Zawstydzony",
+	Moodles_Embarrassed_L2_desc = "Ryzyko stania siê smutnym",
+	Moodles_Embarrassed_L3 = "Bardzo zawstydzony",
+	Moodles_Embarrassed_L3_desc = "Du¿e ryzyko stania siê smutnym",
+	Moodles_Embarrassed_L4 = "Niesamowicie zawstydzony",
+	Moodles_Embarrassed_L4_desc = "Chcia³bym zapaœæ siê teraz pod ziemiê!",
+
+}

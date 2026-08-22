@@ -1,0 +1,165 @@
+UI_PL = {
+
+	UI_mainscreen_MusicUpdate = "Zainstalowano aktualizacjê Lifestyle Music",
+	UI_mainscreen_DiscoUpdate = "Zainstalowano aktualizacjê Lifestyle Disco",
+
+    UI_DJBooth_Scratch = "Zaskrzyp p³yt¹",
+	UI_DJBooth_Rewind = "Przewiñ",
+	UI_DJBooth_Woosh = "Woosh",
+	UI_DJBooth_Impact = "Impakt",
+	UI_DJBooth_Crowd = "T³um",
+	UI_DJBooth_War = "Wojna",
+	UI_DJBooth_Synth = "Syntezator",
+	UI_DJBooth_Airhorn = "Klakson powietrzny",
+	UI_DJBooth_Sirens = "Syreny",
+
+	UI_DJBooth_Volume = "Ustawienia g³oœnoœci",
+
+	UI_DJBooth_Need2 = "Umiejêtnoœæ Muzyki na poziomie 2 wymagana do u¿ycia",
+	UI_DJBooth_Need4 = "Umiejêtnoœæ Muzyki na poziomie 4 wymagana do u¿ycia",
+	UI_DJBooth_Need5 = "Umiejêtnoœæ Muzyki na poziomie 5 wymagana do u¿ycia",
+	UI_DJBooth_Need6 = "Umiejêtnoœæ Muzyki na poziomie 6 wymagana do u¿ycia",
+	UI_DJBooth_Need8 = "Umiejêtnoœæ Muzyki na poziomie 8 wymagana do u¿ycia",
+	
+	UI_DJBooth_LoopMode1 = "Pêtla 1",
+	UI_DJBooth_LoopMode2 = "Pêtla 2",
+	UI_DJBooth_LoopMode3 = "Pêtla 3",
+	UI_DJBooth_LoopMode4 = "Pêtla 4",
+	UI_DJBooth_LoopRecord = "Nagraj pêtlê",
+	UI_DJBooth_CustomLoop = "W³asna pêtla",
+	UI_DJBooth_StopLoop = "Zatrzymaj pêtlê",
+	UI_DJBooth_Loop1A = "Perkusja A",
+	UI_DJBooth_Loop1B = "Perkusja B",
+	UI_DJBooth_Loop1C = "Perkusja C",
+	UI_DJBooth_Loop2A = "Dreamscape A",
+	UI_DJBooth_Loop2B = "Dreamscape B",
+	UI_DJBooth_Loop2C = "Dreamscape C",
+	UI_DJBooth_Loop2D = "Dreamscape D",
+	UI_DJBooth_Loop3A = "Elektrobity A",
+	UI_DJBooth_Loop3B = "Elektrobity B",
+	UI_DJBooth_Loop3C = "Elektrobity C",
+	UI_DJBooth_Loop3D = "Elektrobity D",
+	UI_DJBooth_Loop4A = "Lofi A",
+	UI_DJBooth_Loop4B = "Lofi B",
+	UI_DJBooth_Loop4C = "Lofi C",
+	UI_DJBooth_Loop4D = "Lofi D",
+	UI_DJBooth_ElecKickdrum = "Elektryczny kickdrum",
+	UI_DJBooth_Kickdrum = "Kickdrum",
+	UI_DJBooth_SafariKick = "Safari Kick",
+	UI_DJBooth_ElecSnareDrum = "Elektryczny trzask",
+	UI_DJBooth_Snare = "Trzask",
+	UI_DJBooth_Snap = "Snap",
+	UI_DJBooth_Clap = "Klaœniêcie",
+	UI_DJBooth_OpenHat = "Open Hat",
+	
+	UI_DJBooth_Close = "Zamknij",
+
+    UI_trait_couchpotato = "Leniuch",
+    UI_trait_couchpotatodesc = "Leniuchy nie s¹ aktywnymi osobami i preferuj¹ relaks i przebywanie w wygodzie. Wymagaj¹ trochê zachêty do brania udzia³u w aktywnoœciach fizycznych.<br><br>Gry, s³uchanie radia i ogl¹danie TV zmniejszaj¹ znudzenie w wiêkszym stopniu oraz otrzymuj¹ wiêcej PD z kaset VHS i programów telewizyjnych. <br>Przebywanie w wygodzie zapewni silniejsze jednak szybciej przemijaj¹ce bonusy.<br>Mog¹ pozostaæ w domu zdecydowanie d³u¿ej zanim zaczn¹ siê nudziæ, jednak pozostawanie na zewn¹trz zbyt d³ugo ich stresuje.<br>Mêcz¹ siê szybciej, i zazwyczaj œpi¹ wiêcej ni¿ wiêkszoœæ ludzi. <br>Nie przepadaj¹ za wiêkszoœci¹ aktywnoœci fizycznych i szybko siê znudz¹ i stan¹ siê smutni je¿eli zostan¹ do nich zmuszeni.<br>Konfliktuje z niektórymi cechami fizycznymi a tak¿e z cech¹ "Zdyscyplinowany",
+
+    UI_trait_disciplined = "Zdyscyplinowany",
+    UI_trait_disciplineddesc = "Zdyscyplinowane jednostki s¹ staranne i skupione, a tak¿e ci¹gle d¹¿¹ do samodoskonalenia. Cechuj¹ siê siln¹ wol¹ i determinacj¹, co czyni ich silnymi w walce, i umo¿liwia im bezproblemowe pokonywanie wszystkich przeciwnoœci losu.<br><br>Czuj¹ siê najszczêœliwsi podczas medytacji i trenowania sztuk walki.<br>Nie przywi¹zuj¹ zbytniej wagi do komofrtów zapewnianych przez elektroniczne urz¹dzenia przez co otrzymuj¹ mniej PD podczas ogl¹dania kaset VHS i programów telewizyjnych. <br>Potrafi¹ radziæ sobie w trudnych warunkach lepiej ni¿ inni.<br>Konfliktuje z cechami Nie w formie, Zupe³nie bez formy, Oty³oœæ, Nadwaga i Leniuch.",
+
+	UI_trait_virtuoso = "Wirtuoz",
+    UI_trait_virtuosodesc = "Wirtuozi to muzycy z prawdziw¹ pasj¹, i naturalnym talentem do grania i tworzenia muzyki. Posiadaj¹ wrodzon¹ umiejêtnoœæ rozumienia rytmu i melodii, i z ³atwoœci¹ improwizuj¹ oraz przystosowuj¹ siê do ró¿nych stylów muzycznych. S¹ tak¿e bardzo charyzmatycznymi wykonawcami, i z ³atwoœci¹ ujmumj¹ widowniê swoj¹ muzyk¹ i wystêpami.<br><br>Ucz¹ siê muzyki szybciej ni¿ ktokolwiek inny, i czuj¹ siê najlepiej w trakcie gry na instrumencie.<br>Konfliktuje z Amuzja, S³aby s³uch i G³uchy.",
+
+	UI_trait_tonedeaf = "Amuzja",
+    UI_trait_tonedeafdesc = "Dotkniêci amuzj¹ to przeciwnoœæ Wirtuozów. Maj¹ trudnoœci z rozpoznawaniem nut i rytmów, i mog¹ mieæ problemy z odgrywaniem melodii. Doœæ oczywistym wiêc, ¿e nie jest to ich ulubiona aktywnoœæ.<br><br>Nie przepadaj¹ za graniem na instrumentach, i szybko stan¹ siê smutni je¿eli ktoœ ich do tego zmusi.<br>Maj¹ trudnoœci w nauce muzyki, i zdecydowanie czêœciej pope³niaj¹ b³êdy w trakcie grania.<br>Konfliktuje z Wirtuoz i G³uchy.",
+  
+  	UI_trait_partyanimal = "Imprezowicz",
+    UI_trait_partyanimaldesc = "Serce ka¿dej imprezy, zawsze gotowy do tañca. Hulaj dusza, piek³a nie ma.<br>Konfliktuje z Nudziarz i G³uchy.",
+   
+	UI_trait_killjoy = "Nudziarz",
+    UI_trait_killjoydesc = "Du¿e t³umy, g³oœna muzyka, i szalone imprezy to zdecydowanie nie twój gust.<br>Konfliktuje z Imprezowicz i G³uchy.",
+  
+	UI_trait_disco = "Lubi muzykê retro",
+    UI_trait_discodesc = "Ta osoba preferuje s³uchaæ muzyki Disco i staroci.",
+   
+	UI_trait_discono = "Nie lubi muzyki retro",
+    UI_trait_disconodesc = "Ta osoba wola³aby s³uchaæ dwunastogodzinnej debaty politycznej zamiast Disco.",
+
+	UI_trait_beach = "Lubi muzykê pla¿ow¹",
+    UI_trait_beachdesc = "Ta osoba ogl¹da³a zbyt du¿o S³onecznego Patrolu.",
+   
+	UI_trait_beachno = "Nie lubi muzyki pla¿owej",
+    UI_trait_beachnodesc = "Ta osoba nie lubi piasku. Jest szorstki i wszêdzie w³azi.",
+
+	UI_trait_country = "Lubi muzykê Country",
+    UI_trait_countrydesc = "Country roads, take me home, to the place I belong. West Virginia, mountain mama, To the place I belong. Take me home, country roads.",
+   
+	UI_trait_countryno = "Nie lubi muzyki Country",
+    UI_trait_countrynodesc = "Nie przepada za muzyk¹ Country.",
+
+	UI_trait_classical = "Lubi muzykê klasyczn¹",
+    UI_trait_classicaldesc = "Ta osoba preferuje muzykê klasyczn¹.",
+
+	UI_trait_classicalno = "Nie lubi muzyki klasycznej",
+    UI_trait_classicalnodesc = "Ta osoba wola³aby s³uchaæ czegokolwiek innego ni¿ muzyki klasycznej.",
+
+	UI_trait_holiday = "Lubi muzykê œwi¹teczn¹",
+    UI_trait_holidaydesc = "Ta osoba nie mo¿e doczekaæ siê œwi¹t.",
+   
+	UI_trait_holidayno = "Nie lubi muzyki œwi¹tecznej",
+    UI_trait_holidaynodesc = "Serio? Kto nie lubi œwi¹t?.",
+
+	UI_trait_jazz = "Lubi muzykê Jazzow¹",
+    UI_trait_jazzdesc = "Ta osoba preferuje Jazz.",
+   
+	UI_trait_jazzno = "Nie lubi muzyki Jazzowej",
+    UI_trait_jazznodesc = "Ta osoba wola³aby s³yszeæ cokolwiek innego ni¿ Jazz.",
+
+	UI_trait_metal = "Lubi muzykê metalow¹",
+    UI_trait_metaldesc = "Ta osoba lubi patrzeæ jak œwiat p³onie.",
+   
+	UI_trait_metalno = "Nie lubi muzyki metalowej",
+    UI_trait_metalnodesc = "Ta osoba nie przepada za muzyk¹ metalow¹.",
+
+	UI_trait_muzak = "Lubi muzykê Muzak",
+    UI_trait_muzakdesc = "Ta osoba preferujê muzykê z gatunku Muzak.",
+
+	UI_trait_muzakno = "Nie lubi muzyki Muzak",
+    UI_trait_muzaknodesc = "Ta osoba wola³aby s³yczeæ cokolwiek innego ni¿ muzykê Muzak.",
+
+	UI_trait_pop = "Lubi pop",
+    UI_trait_popdesc = "Ta osoba preferuje muzykê z gatunku pop.",
+   
+	UI_trait_popno = "Nie lubi muzyki pop",
+    UI_trait_popnodesc = "Ta osoba prawdopodobnie s³ucha utworów Ricka Astleya w wolnym czasie.",
+
+	UI_trait_rap = "Lubi muzykê rapow¹",
+    UI_trait_rapdesc = "Ta osoba lubi s³uchaæ rapu.",
+   
+	UI_trait_rapno = "Nie lubi muzyki rapowej",
+    UI_trait_rapnodesc = "Nie przepada za muzyk¹ rapow¹.",
+
+	UI_trait_rock = "Lubi muzykê rockow¹",
+    UI_trait_rockdesc = "Ta osoba lubi s³uchaæ muzyki rockowej.",
+   
+	UI_trait_rockno = "Nie lubi muzyki rockowej",
+    UI_trait_rocknodesc = "Ta osoba wola³aby s³uchaæ czegokolwiek innego ni¿ rocka.",
+
+	UI_trait_reggae = "Lubi muzykê reggae",
+    UI_trait_reggaedesc = "Ta osoba prawdopodobnie ma bardzo bliskie relacje ze swoimi kolegami.",
+   
+	UI_trait_reggaeno = "Nie lubi muzyki reggae",
+    UI_trait_reggaenodesc = "Nie przepada za s³uchaniem reggae.",
+
+	UI_trait_salsa = "Lubi muzykê Salsa",
+    UI_trait_salsadesc = "Ta osoba lubi s³uchaæ muzyki z gatunku Salsa .",
+
+	UI_trait_salsano = "Nie lubi s³uchaæ Salsy",
+    UI_trait_salsanodesc = "Ta osoba wola³aby s³uchaæ czegokolwiek innego ni¿ Salsy.",
+
+	UI_trait_world = "Lubi muzykê œwiatow¹",
+    UI_trait_worlddesc = "Ta osoba oczekuje ¿e w Japonii s¹ napisy.",
+   
+	UI_trait_worldno = "Nie lubi muzyki œwiatowej",
+    UI_trait_worldnodesc = "Ta osoba nie lubi s³uchaæ muzyki œwiatowej.",
+
+	UI_trait_rbsoul = "Lubi muzykê R&B ",
+    UI_trait_rbsouldesc = "Ta osoba najbardziej lubi s³uchaæ R&B.",
+
+	UI_trait_rbsoulno = "Nie lubi muzyki R&B",
+    UI_trait_rbsoulnodesc = "Ta osoba wola³aby pos³uchaæ czegokolwiek innego ni¿ R&B.",
+
+   }

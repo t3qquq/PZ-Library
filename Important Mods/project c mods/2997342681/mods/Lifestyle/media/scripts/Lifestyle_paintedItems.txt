@@ -1,0 +1,512 @@
+module Lifestyle
+{
+	imports
+	{
+		Base,
+	}
+
+	item WoodToyTank
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Tank,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyTank,
+		WorldStaticModel = Lifestyle.WoodToyTank,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyTankRed
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Tank,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyTankRed,
+		WorldStaticModel = Lifestyle.WoodToyTankRed,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyTankGreen
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Tank,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyTankGreen,
+		WorldStaticModel = Lifestyle.WoodToyTankGreen,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyTankBlue
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Tank,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyTankBlue,
+		WorldStaticModel = Lifestyle.WoodToyTankBlue,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyTankScrapA
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Tank,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyTankScrapA,
+		WorldStaticModel = Lifestyle.WoodToyTankScrapA,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyTankScrapB
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Tank,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyTankScrapB,
+		WorldStaticModel = Lifestyle.WoodToyTankScrapB,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyTankScrapC
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Tank,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyTankScrapC,
+		WorldStaticModel = Lifestyle.WoodToyTankScrapC,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyPlane
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Plane,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyPlane,
+		WorldStaticModel = Lifestyle.WoodToyPlane,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyPlaneRed
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Plane,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyPlaneRed,
+		WorldStaticModel = Lifestyle.WoodToyPlaneRed,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyPlaneGreen
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Plane,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyPlaneGreen,
+		WorldStaticModel = Lifestyle.WoodToyPlaneGreen,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyPlaneBlue
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Plane,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyPlaneBlue,
+		WorldStaticModel = Lifestyle.WoodToyPlaneBlue,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyPlaneScrapA
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Plane,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyPlaneScrapA,
+		WorldStaticModel = Lifestyle.WoodToyPlaneScrapA,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyPlaneScrapB
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Plane,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyPlaneScrapB,
+		WorldStaticModel = Lifestyle.WoodToyPlaneScrapB,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyPlaneScrapC
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Plane,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyPlaneScrapC,
+		WorldStaticModel = Lifestyle.WoodToyPlaneScrapC,
+		Tags = LSCanPaint,
+	}
+
+	item WoodenToyPlane
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Plane,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodenToyPlane,
+		WorldStaticModel = Lifestyle.WoodenToyPlane,
+		Tags = LSCanPaint,
+	}
+
+	item WoodenToyPlaneRed
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Plane,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodenToyPlaneRed,
+		WorldStaticModel = Lifestyle.WoodenToyPlaneRed,
+		Tags = LSCanPaint,
+	}
+
+	item WoodenToyPlaneBlue
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Plane,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodenToyPlaneBlue,
+		WorldStaticModel = Lifestyle.WoodenToyPlaneBlue,
+		Tags = LSCanPaint,
+	}
+
+	item WoodenToyPlaneGreen
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Plane,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodenToyPlaneGreen,
+		WorldStaticModel = Lifestyle.WoodenToyPlaneGreen,
+		Tags = LSCanPaint,
+	}
+
+	item WoodenToyPlaneScrapA
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Plane,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodenToyPlaneScrapA,
+		WorldStaticModel = Lifestyle.WoodenToyPlaneScrapA,
+		Tags = LSCanPaint,
+	}
+
+	item WoodenToyPlaneScrapB
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Plane,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodenToyPlaneScrapB,
+		WorldStaticModel = Lifestyle.WoodenToyPlaneScrapB,
+		Tags = LSCanPaint,
+	}
+
+	item WoodenToyPlaneScrapC
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Plane,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodenToyPlaneScrapC,
+		WorldStaticModel = Lifestyle.WoodenToyPlaneScrapC,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyTrain
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Train,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyTrain,
+		WorldStaticModel = Lifestyle.WoodToyTrain,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyTrainRed
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Train,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyTrainRed,
+		WorldStaticModel = Lifestyle.WoodToyTrainRed,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyTrainGreen
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Train,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyTrainGreen,
+		WorldStaticModel = Lifestyle.WoodToyTrainGreen,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyTrainBlue
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Train,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyTrainBlue,
+		WorldStaticModel = Lifestyle.WoodToyTrainBlue,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyTrainScrapA
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Train,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyTrainScrapA,
+		WorldStaticModel = Lifestyle.WoodToyTrainScrapA,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyTrainScrapB
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Train,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyTrainScrapB,
+		WorldStaticModel = Lifestyle.WoodToyTrainScrapB,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyTrainScrapC
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Train,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyTrainScrapC,
+		WorldStaticModel = Lifestyle.WoodToyTrainScrapC,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyCamper
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Camper,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyCamper,
+		WorldStaticModel = Lifestyle.WoodToyCamper,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyCamperRed
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Camper,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyCamperRed,
+		WorldStaticModel = Lifestyle.WoodToyCamperRed,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyCamperGreen
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Camper,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyCamperGreen,
+		WorldStaticModel = Lifestyle.WoodToyCamperGreen,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyCamperBlue
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Camper,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyCamperBlue,
+		WorldStaticModel = Lifestyle.WoodToyCamperBlue,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyCamperScrapA
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Camper,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyCamperScrapA,
+		WorldStaticModel = Lifestyle.WoodToyCamperScrapA,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyCamperScrapB
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Camper,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyCamperScrapB,
+		WorldStaticModel = Lifestyle.WoodToyCamperScrapB,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyCamperScrapC
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Camper,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyCamperScrapC,
+		WorldStaticModel = Lifestyle.WoodToyCamperScrapC,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyHelicopter
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Helicopter,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyHelicopter,
+		WorldStaticModel = Lifestyle.WoodToyHelicopter,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyHelicopterRed
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Helicopter,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyHelicopterRed,
+		WorldStaticModel = Lifestyle.WoodToyHelicopterRed,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyHelicopterGreen
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Helicopter,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyHelicopterGreen,
+		WorldStaticModel = Lifestyle.WoodToyHelicopterGreen,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyHelicopterBlue
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Helicopter,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyHelicopterBlue,
+		WorldStaticModel = Lifestyle.WoodToyHelicopterBlue,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyHelicopterScrapA
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Helicopter,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyHelicopterScrapA,
+		WorldStaticModel = Lifestyle.WoodToyHelicopterScrapA,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyHelicopterScrapB
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Helicopter,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyHelicopterScrapB,
+		WorldStaticModel = Lifestyle.WoodToyHelicopterScrapB,
+		Tags = LSCanPaint,
+	}
+
+	item WoodToyHelicopterScrapC
+	{
+		DisplayCategory =  Toy,
+		Weight =           0.1,
+		Type =             Normal,
+		DisplayName =      Toy Helicopter,
+		Icon =             ToyBear,
+		StaticModel =      Lifestyle.WoodToyHelicopterScrapC,
+		WorldStaticModel = Lifestyle.WoodToyHelicopterScrapC,
+		Tags = LSCanPaint,
+	}
+
+}

@@ -1,0 +1,174 @@
+----------------------------------------------------------------
+
+Singleplayer/Personal use?
+
+Follow step 1.
+
+Multiplayer/Creating an Addon?
+
+Follow steps 1 TO 3.
+
+-----------------------------------------------------------------
+
+
+
+------  1. Adding Your Music For Personal Use --------
+
+---1a. Setting things up:---
+
+- Extract the folder YourMusicLifestyleAddon to a secure Backup location of your preference (NOT IN THE MODS FOLDER),
+in Singleplayer this will serve as your backup in case the mod updates and your file is overwritten,
+for multiplayer you can move it to the workshop folder;
+
+- RENAME "YourMusic" to whatever you want, we will call this your playlist name, for multiplayer this is also your addon name; *MAKE A UNIQUE NAME, generic names may conflict with other addons
+
+- Open the media folder, you'll see 3 folders (lua, scripts and sound);
+
+- Go to lua/client/TimesActions and then RENAME "MyMusic" to your playlist name, remember that everything is case sensitive;
+
+- Go to media/scripts and RENAME "MyMusic" to your playlist name;
+
+- Go to media/sound and delete replaceme_mymusic.ogg
+
+---1b. Adding songs:---
+
+- Now you're ready to add your songs, they should be in OGG format (use a program like Audacity to convert your music to .ogg);
+
+- Place your songs in media/sound (the same folder where you deleted replaceme_mymusic), rename each to songname_yourplaylistname
+
+- That's it! Now let's tell the mod to read your songs;
+
+---1c. Inserting your songs into the mod:---
+
+- Go to lua/client/TimesActions and open the .lua file, by now it should be named AddMoreTracks_yourplaylistname.lua (LUA files can be opened with Notepad++);
+
+- With the file now open you'll see a set of instructions in green, follow the instructions and DO NOT ADD OR REMOVE ANYTHING UNLESS SPECIFICALLY TOLD TO;
+
+- After you're done your music is ready to be inserted into the mod, follow step d to set definitions to your songs (required if multiplayer) or go to e;
+
+---1d. Defining parameters to your songs (optional if singleplayer):---
+
+- This is important if you ever plan to move your song from singleplayer to multiplayer, otherwise ignore it and delete the scripts folder;
+
+- Go to media/scripts, open the .txt file which should be named yourplaylistname_sounds_item.txt
+
+- It should contain this structure (distancemax is player range NOT zombie detection range, do not lower it):
+
+
+module Base {
+
+    sound replaceme_mymusic
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/replaceme_mymusic.ogg,
+		distanceMin = 10,
+		distanceMax = 100,
+		reverbFactor = 0.1,
+		volume = 1.0,
+
+		}
+    }
+
+
+}
+
+- RENAME replaceme_mymusic with yoursongname_yourplaylistname
+
+- RENAME replaceme_mymusic.ogg with yoursongname_yourplaylistname.ogg
+
+- If you don't know what the values are then keep them as they are;
+
+- To add parameters for more songs copy everything STARTING from sound and ENDING at the second to last } and paste it one line above the last }
+
+- After adding a second song it should look like this:
+
+
+
+module Base {
+
+    sound replaceme_mymusic
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/replaceme_mymusic.ogg,
+		distanceMin = 10,
+		distanceMax = 100,
+		reverbFactor = 0.1,
+		volume = 1.0,
+		
+		}
+    }
+
+    sound secondsong_mymusic
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/secondsong_mymusic.ogg,
+		distanceMin = 10,
+		distanceMax = 100,
+		reverbFactor = 0.1,
+		volume = 1.0,
+		
+		}
+    }
+
+}
+
+
+---1e. Singleplayer Final Step:---
+
+- If it's just for Singleplayer then all you have to do now is save everything, copy the media folder and paste it in the Lifestyle mod folder:
+
+Steam\steamapps\workshop\content\108600\2934886355\mods\Lifestyle
+
+- You're all set! Your songs will appear in the context menu of whatever instrument you added songs to if your character has the required skill level;
+
+- Whenever you want to add more songs just repeat steps 1b. to 1e., remember to save your own media folder in another location too as a backup;
+
+- Alternatively you can continue the steps below which will allow you to create your own addon (and then you don't need to copy/paste everytime there's an update);
+
+- It's not required to publish for it to work, so you can keep it as your own personal addon if you prefer;
+
+
+
+------  2. Setting up the addon --------
+
+- Open mod.info with Notepad++ or another text editor, then:
+
+name = the name of your addon/mod;
+
+id = the id of your mod, this must be unique to your own addon;
+
+description = a brief description for your addon (this will show up in the in-game mods screen);
+
+poster = keep it as is;
+
+- You can change the poster image if you prefer, just replace the original in the same folder with your own (size must be 512x512 pixels);
+
+- IF YOU DON'T WANT TO PUBLISH IT:
+
+Copy YourMusicLifestyleAddon folder and paste to your \Users\YOURUSERNAME\Zomboid\mods located in your main drive
+
+Enter the game, enable your addon in the mods screen, you're done!
+
+------  3. Publishing the addon --------
+
+- Go to \Users\YOURUSERNAME\Zomboid\Workshop
+
+- Create a folder with the same name as the YourMusicLifestyleAddon folder
+
+- Extract the workshop.txt and preview.png from LifestyleMusicAddon to your newly created folder;
+
+- You can change the image if you prefer, just replace the original in the same folder with your own (size must be 256x256 pixels);
+
+- Still inside the new YourMusicLifestyleAddon folder, create a folder called Contents, then inside the folder Contents create a folder called mods
+
+- Copy your old YourMusicLifestyleAddon folder (which contains your songs) and paste it inside the newly created mods folder;
+
+- Make sure to delete the WHERE AM I - Instructions.txt, this READ ME file AND make sure that your files are correctly renamed;
+
+- Finally, enter the game, select workshop and follow the steps there to add your addon to the workshop!

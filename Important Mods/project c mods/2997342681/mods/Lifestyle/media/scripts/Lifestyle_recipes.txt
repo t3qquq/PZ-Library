@@ -1,0 +1,248 @@
+module Lifestyle
+{
+
+    imports
+        {
+             Base,
+        }
+
+	/* ---------------------------------- General -------------------------------- */
+
+    recipe Fill Empty Palette with Paint
+    {
+      destroy paintPaletteEmpty,
+      paintTubs=3,
+
+      Result:paintPalette,
+      Time:150.0,
+      Sound:MakePlaster,
+
+    }
+
+    recipe Make Bucket of Water and Bleach
+    {
+      destroy BucketEmpty/BucketWaterFull,
+      Water=4,
+      Bleach=1,
+
+      Result:BucketBleachFull,
+	  OnCreate:Recipe.OnCreate.MixWaterBleach,
+      Time:150.0,
+      Sound:MakePlaster,
+
+    }
+
+	/* -------------------------------- Carpentry -------------------------------- */
+
+    recipe Carve Art Paintbrush
+        {
+           WoodenStick,
+           Twine=2,
+		   Glue=2,
+           keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+		   
+           Result:Lifestyle.oldPaintBrush,
+		   NeedToBeLearn:true,
+		   SkillRequired:Woodwork=2,
+           Time:200.0,
+		   Category:Carpentry,
+		   OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+        }
+
+    recipe Carve Art Palette
+        {
+           Plank,
+           keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+		   
+           Result:Lifestyle.paintPaletteEmpty,
+		   NeedToBeLearn:true,
+		   SkillRequired:Woodwork=2,
+           Time:200.0,
+		   Category:Carpentry,
+		   OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+        }
+
+    recipe Create Broom
+        {
+           WoodenStick=2,
+           Twigs=10,
+           Woodglue=2,
+           Nails=5,
+	       keep [Recipe.GetItemTypes.Hammer],
+		   
+           Result:Broom,
+		   SkillRequired:Woodwork=2,
+           Time:150.0,
+		   Sound:Hammering,
+		   Category:Carpentry,
+        }
+
+    recipe Create Mop
+        {
+           RippedSheets=4,
+           Wire/Rope=1,
+           WoodenStick=1,
+		   
+           Result:Mop,
+		   SkillRequired:Woodwork=2,
+           Time:150.0,
+		   Sound:Hammering,
+		   Category:Carpentry,
+        }
+
+
+	/* -------------------------------- Literature -------------------------------- */
+
+    recipe Create Music Sheet Book
+        {
+           Notebook=1,
+           LeatherStrips=2,
+           Glue=1,
+           Thread=1,
+		   keep [Recipe.GetItemTypes.Scissors],
+		   
+           Result:Lifestyle.SheetMusicBook,
+		   SkillRequired:Music=2,
+           Time:200.0,
+        }
+
+	/* -------------------------------- Inventions -------------------------------- */
+
+
+
+	/* -------------------------------- Furniture -------------------------------- */
+
+	/* -------------------------------- Carpentry -------------------------------- */
+
+    recipe Craft Art Easel
+        {
+           Plank=6,
+           Woodglue=4,
+           Nails=30,
+	       keep [Recipe.GetItemTypes.Hammer],
+		   keep [Recipe.GetItemTypes.Saw],
+		   
+           Result:Lifestyle.Mov_ArtEasel,
+		   NeedToBeLearn:true,
+		   SkillRequired:Woodwork=4,
+           Time:300.0,
+		   OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+		   Sound:Hammering,
+		   Category:Carpentry,
+		   AnimNode:BuildLow,
+		   Prop1:Hammer,
+        }
+
+
+	/* -------------------------------- Electronics -------------------------------- */
+
+	recipe Assemble DJ Booth
+	{
+		ElectronicsScrap=40,
+		Aluminum=10,
+	    Plank=4,
+		Amplifier=4,
+		ElectricWire=6,
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:LS_DJBooth01,
+		NeedToBeLearn:true,
+		Time:200.0,
+		OnGiveXP:Recipe.LSXP.Electricity50,
+		Category:Electrical,
+		SkillRequired:Electricity=4,
+		Sound:Hammering,
+
+	}
+
+    recipe Craft Disco Floor
+    {
+		ElectronicsScrap=30,
+		Aluminum=5,
+		ElectricWire=2,
+        LightBulb=3,
+        LightBulbGreen=3,
+        LightBulbRed=3,
+		Mirror=2,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		   
+		Result:Lifestyle.Mov_DiscoFloor,
+		NeedToBeLearn:true,
+		SkillRequired:Electricity=3,
+		Time:240.0,
+		OnGiveXP:Recipe.LSXP.Electricity50,
+		Category:Electrical,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Sound:Dismantle,
+    }
+
+	recipe Craft Standing Disco Ball
+	{
+		ElectronicsScrap=20,
+		Aluminum=5,
+		ElectricWire=2,
+        LightBulb,
+        LightBulbGreen,
+        LightBulbRed,
+		Mirror,
+		keep [Recipe.GetItemTypes.Screwdriver],
+
+		Result:LS_Discoball,
+		OnCreate:Recipe.OnCreate.DiscoBall,
+		NeedToBeLearn:true,
+		Time:120.0,
+		OnGiveXP:Recipe.LSXP.Electricity50,
+		Category:Electrical,
+		SkillRequired:Electricity=3,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Sound:Dismantle,
+
+	}
+
+	recipe Craft Standing Microphone
+	{
+		ElectronicsScrap=25,
+		Aluminum=5,
+		Amplifier,
+		ElectricWire,
+		keep [Recipe.GetItemTypes.Screwdriver],
+
+		Result:Mov_Microphone,
+		NeedToBeLearn:true,
+		Time:120.0,
+		OnGiveXP:Recipe.LSXP.Electricity50,
+		Category:Electrical,
+		SkillRequired:Electricity=3,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Sound:Dismantle,
+
+	}
+
+	/* -------------------------------- Metalworking -------------------------------- */
+
+    recipe Assemble Sculpting Station
+        {
+           MetalPipe=6,
+           MetalBar=4,
+		   SheetMetal=3,
+		   SmallSheetMetal=3,
+           Screws=20,
+           BlowTorch=2,
+           keep [Recipe.GetItemTypes.WeldingMask],
+	       keep [Recipe.GetItemTypes.Hammer],
+		   
+           Result:Lifestyle.Mov_SculptingStation,
+		   NeedToBeLearn:true,
+		   SkillRequired:MetalWelding=4,
+           Time:400.0,
+		   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+		   Sound:BlowTorch,
+		   Category:Welding,
+		   AnimNode:BlowTorchMid,
+		   Prop1:BlowTorch,
+        }
+
+}

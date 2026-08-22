@@ -1,0 +1,37 @@
+IGUI_TR = {
+
+	IGUI_HaloNote_PlaylistGet = "Yeni oynatma listesi þununla içe aktarýldý: ",
+	IGUI_HaloNote_PlaylistGetEnd = " þarkýlar",
+	IGUI_HaloNote_CleaningNoPath = "Temizlemek istenilen noktaya ulaþýlamýyor.",
+
+	IGUI_ItemCat_Hygiene = "Hijyen",
+
+	IGUI_perks_Cleaning = "Temizlik",
+	IGUI_perks_Meditation = "Meditasyon",
+	IGUI_perks_Dancing = "Dans",
+	IGUI_perks_Music = "Müzik",
+	IGUI_perks_Lifestyle = "Lifestyle",
+
+	IGUI_HaloNote_XP = "XP",
+	IGUI_HaloNote_XPBonus = "XP+",
+	IGUI_HaloNote_Stress = "Stres",
+	IGUI_HaloNote_Embarrassed = "Utanmýþ",
+	IGUI_HaloNote_Boredom = "Sýkkýnlýk",
+	IGUI_HaloNote_Happyness = "Mutluluk",
+	IGUI_HaloNote_Unhappyness = "Mutsuzluk",
+	IGUI_HaloNote_Pain = "Acý",
+	IGUI_HaloNote_Pain_BadPosture = "Bozuk Duruþ Aðrýsý",
+	IGUI_HaloNote_Bladder = "Mesane",
+	IGUI_HaloNote_Hygiene = "Hijyen",
+	IGUI_HaloNote_MintFresh = "Ferah Nefes",
+	IGUI_HaloNote_LearnSong = "Yeni þarký öðrenildi",
+	IGUI_HaloNote_ReadSongPlusStart = " artý ",
+	IGUI_HaloNote_ReadSongPlusEnd = " daha fazla",
+	IGUI_HaloNote_WriteSongSuccess = "Deftere yeni giriþ eklendi",
+	IGUI_HaloNote_ChangeAPEnd = "görünüþ",
+	IGUI_HaloNote_Attractive = "Çekici",
+	IGUI_HaloNote_SmellGood = "Mutluluk Yayma",
+	IGUI_HaloNote_Nauseous = "Mide Bulandýrýcý",
+	IGUI_HaloNote_WellRested = "Ýyi Dinlenmiþ",
+
+}
