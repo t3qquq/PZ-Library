@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Holster\M_Holster_Defender_HipLeft</m_MaleModel>
+	<m_FemaleModel>Skinned\Holster\F_Holster_Defender_HipLeft</m_FemaleModel>
+	<m_GUID>c3d63623-77f0-45c6-97d9-d1e7371ee9b9</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Military\Holster\Military_Holster_Defender-Black</textureChoices><textureChoices>Clothes\Military\Holster\Military_Holster_Defender-BlackPlain</textureChoices>
+</clothingItem>

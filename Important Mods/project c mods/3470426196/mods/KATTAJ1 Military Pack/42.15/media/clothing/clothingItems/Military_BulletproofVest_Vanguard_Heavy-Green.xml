@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Armor\M_BulletproofVest_Vanguard_Heavy</m_MaleModel>
+	<m_FemaleModel>Skinned\Armor\F_BulletproofVest_Vanguard_Heavy</m_FemaleModel>
+	<m_GUID>1d1c6e62-599f-49d8-b152-058e8b9d1173</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Military\BulletproofVest\Military_BulletproofVest_Vanguard_Heavy-Green</textureChoices>
+	<textureChoices>Clothes\Military\BulletproofVest\Military_BulletproofVest_Vanguard_Heavy-GreenPlain</textureChoices>
+</clothingItem>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\BackPacks\BagLeg\BagLeg_Utility_Medium_ArmorLeft</m_MaleModel>
+	<m_FemaleModel>Skinned\BackPacks\BagLeg\BagLeg_Utility_Medium_ArmorLeft</m_FemaleModel>
+	<m_GUID>2b5b0ad8-01e3-49e3-98b8-880e10ae117f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<textureChoices>Clothes\Military\Bags\BagLeg\Military_BagLeg_Utility_Medium-Medic</textureChoices>
+</clothingItem>

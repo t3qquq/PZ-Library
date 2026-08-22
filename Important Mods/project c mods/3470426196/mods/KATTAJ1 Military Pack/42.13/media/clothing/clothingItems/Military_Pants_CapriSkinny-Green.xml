@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>28aa08df-030f-4846-96e2-f5eaa4744aad</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>Clothes\Military\Pants\Military_Pants_CapriSkinny-Green</m_BaseTextures>
+	<m_BaseTextures>Clothes\Military\Pants\Military_Pants_CapriSkinny-GreenPlain</m_BaseTextures>
+</clothingItem>

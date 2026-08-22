@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_Jacket_WinterHood_DOWN_Open</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_Jacket_WinterHood_DOWN_Open</m_FemaleModel>
+	<m_GUID>f8e54a8a-f9d1-4385-ad36-e2b717c5443d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>Clothes\Jacket\Masks</m_MasksFolder>
+	<textureChoices>Clothes\Military\Jacket\Military_Jacket_WinterHood-White</textureChoices><textureChoices>Clothes\Military\Jacket\Military_Jacket_WinterHood-WhitePlain</textureChoices>
+</clothingItem>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Armor\M_ArmsProtectionUpper_Vanguard_Heavy</m_MaleModel>
+	<m_FemaleModel>Skinned\Armor\F_ArmsProtectionUpper_Vanguard_Heavy</m_FemaleModel>
+	<m_GUID>68824733-2503-49ce-8749-3cf50f10232a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>Clothes\ArmsProtectionUpper\Masks</m_MasksFolder>
+	<textureChoices>Clothes\Military\ArmsProtectionUpper\Military_ArmsProtectionUpper_Vanguard_Heavy-Desert</textureChoices>
+	<textureChoices>Clothes\Military\ArmsProtectionUpper\Military_ArmsProtectionUpper_Vanguard_Heavy-DesertPlain</textureChoices>
+</clothingItem>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Static\Clothes\M_Glasses_ShatterShield</m_MaleModel>
+	<m_FemaleModel>Static\Clothes\F_Glasses_ShatterShield</m_FemaleModel>
+	<m_GUID>58282cce-a0d3-44b3-be26-f382e118d539</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_MasksFolder>Group05</m_MasksFolder>
+	<textureChoices>Clothes\Military\Glasses\Military_Glasses_ShatterShield-Black</textureChoices>
+	<textureChoices>Clothes\Military\Glasses\Military_Glasses_ShatterShield-Blue</textureChoices>
+	<textureChoices>Clothes\Military\Glasses\Military_Glasses_ShatterShield-Green</textureChoices>
+	<textureChoices>Clothes\Military\Glasses\Military_Glasses_ShatterShield-Red</textureChoices>
+	<textureChoices>Clothes\Military\Glasses\Military_Glasses_ShatterShield-Yellow</textureChoices>
+</clothingItem>

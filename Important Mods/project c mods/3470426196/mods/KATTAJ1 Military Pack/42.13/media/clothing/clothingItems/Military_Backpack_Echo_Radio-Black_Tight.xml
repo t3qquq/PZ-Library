@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\M_Backpack_Echo_Radio_Tight</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\F_Backpack_Echo_Radio_Tight</m_FemaleModel>
+	<m_GUID>357c3ae1-3ebb-4010-9197-a2c91103d88d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Military\Bags\Backpack\Military_Backpack_Echo_Radio-Black</textureChoices>
+	<textureChoices>Clothes\Military\Bags\Backpack\Military_Backpack_Echo_Radio-BlackPlain</textureChoices>
+</clothingItem>

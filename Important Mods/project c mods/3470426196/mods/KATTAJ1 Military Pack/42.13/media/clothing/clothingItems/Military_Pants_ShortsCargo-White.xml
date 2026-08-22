@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_Pants_ShortsCargo</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_Pants_ShortsCargo</m_FemaleModel>
+	<m_GUID>47c8e7b6-19ec-4536-8e01-7b6acfc0f54c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>2</m_Masks>
+	<textureChoices>Clothes\Military\Pants\Military_Pants_ShortsCargo-White</textureChoices>
+	<textureChoices>Clothes\Military\Pants\Military_Pants_ShortsCargo-WhitePlain</textureChoices>
+</clothingItem>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>38568591-2280-45ad-8e08-6adbe326c399</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>Clothes\Military\Pants\Military_Pants_KneeLengthShortsSkinny-Desert</m_BaseTextures>
+	<m_BaseTextures>Clothes\Military\Pants\Military_Pants_KneeLengthShortsSkinny-DesertPlain</m_BaseTextures>
+</clothingItem>

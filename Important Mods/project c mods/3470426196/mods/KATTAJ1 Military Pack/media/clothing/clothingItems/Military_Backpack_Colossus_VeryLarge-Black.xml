@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\M_Backpack_Colossus_VeryLarge</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\F_Backpack_Colossus_VeryLarge</m_FemaleModel>
+	<m_GUID>d913606e-dcc4-4012-be02-012a29610549</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Military\Bags\Backpack\Military_Backpack_Colossus_VeryLarge-Black</textureChoices>
+	<textureChoices>Clothes\Military\Bags\Backpack\Military_Backpack_Colossus_VeryLarge-BlackPlain</textureChoices>
+</clothingItem>

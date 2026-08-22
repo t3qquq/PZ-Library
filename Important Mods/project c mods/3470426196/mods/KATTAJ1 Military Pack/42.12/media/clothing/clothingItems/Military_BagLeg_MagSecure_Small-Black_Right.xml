@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\BackPacks\BagLeg\M_BagLeg_MagSecure_Small_Right</m_MaleModel>
+	<m_FemaleModel>Skinned\BackPacks\BagLeg\F_BagLeg_MagSecure_Small_Right</m_FemaleModel>
+	<m_GUID>fb8f3005-573b-46f5-8df0-0e3b97f90c5c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<textureChoices>Clothes\Military\Bags\BagLeg\Military_BagLeg_MagSecure_Small-Black</textureChoices><textureChoices>Clothes\Military\Bags\BagLeg\Military_BagLeg_MagSecure_Small-BlackPlain</textureChoices>
+</clothingItem>

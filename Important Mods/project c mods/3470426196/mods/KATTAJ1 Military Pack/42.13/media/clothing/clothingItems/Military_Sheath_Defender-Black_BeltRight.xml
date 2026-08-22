@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+ <m_MaleModel>skinned\sheath\Sheath_Defender_BeltRight</m_MaleModel>
+ <m_FemaleModel>skinned\sheath\Sheath_Defender_BeltRight</m_FemaleModel>
+ <m_GUID>316471cf-eddd-43c7-950c-85dde9fbfd99</m_GUID>
+ <m_Static>false</m_Static>
+ <m_AllowRandomHue>false</m_AllowRandomHue>
+ <m_AllowRandomTint>false</m_AllowRandomTint>
+ <m_AttachBone/>
+ <textureChoices>Clothes\Military\Sheath\Military_Sheath_Defender-Black</textureChoices><textureChoices>Clothes\Military\Sheath\Military_Sheath_Defender-BlackPlain</textureChoices>
+
+</clothingItem>

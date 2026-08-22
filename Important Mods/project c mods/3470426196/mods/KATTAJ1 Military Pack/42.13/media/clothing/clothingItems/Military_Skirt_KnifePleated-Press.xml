@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_Skirt_KnifePleated</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_Skirt_KnifePleated</m_FemaleModel>
+	<m_GUID>861a7058-4c19-4a61-9815-5fa8d8153f0f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>KATTAJ1</m_MasksFolder>
+	<textureChoices>Clothes\Military\Skirt\Military_Skirt_KnifePleated-Press</textureChoices>
+</clothingItem>

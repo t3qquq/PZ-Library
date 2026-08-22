@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_Mask_Balaclava3</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_Mask_Balaclava3</m_FemaleModel>
+	<m_GUID>44c5395b-dd89-4b49-9ea5-f8de508b7771</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>nohairnobeard</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes\Military\Mask\Military_Mask_Balaclava3-White</textureChoices>
+	<textureChoices>Clothes\Military\Mask\Military_Mask_Balaclava3-WhitePlain</textureChoices>
+</clothingItem>

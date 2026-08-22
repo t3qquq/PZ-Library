@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>4ed297a2-95e6-4383-a7e2-00a95797173a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>Clothes\Military\ThermalUnderwear\Military_ThermalUnderwear-White</m_BaseTextures>
+	<m_BaseTextures>Clothes\Military\ThermalUnderwear\Military_ThermalUnderwear-WhitePlain</m_BaseTextures>
+</clothingItem>

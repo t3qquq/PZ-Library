@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\BackPacks\BagBack\BagBack_StormPack_Large_LHand</m_MaleModel>
+	<m_FemaleModel>Skinned\BackPacks\BagBack\BagBack_StormPack_Large_LHand</m_FemaleModel>
+	<m_GUID>87a04ac3-5a7a-4bb6-9aba-1f93233a7cdb</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<textureChoices>Clothes\Military\Bags\BagBack\Military_BagBack_StormPack_Large-White</textureChoices>
+	<textureChoices>Clothes\Military\Bags\BagBack\Military_BagBack_StormPack_Large-WhitePlain</textureChoices>
+</clothingItem>

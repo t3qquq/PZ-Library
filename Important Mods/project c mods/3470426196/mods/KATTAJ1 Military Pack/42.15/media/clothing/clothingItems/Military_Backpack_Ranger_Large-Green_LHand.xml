@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\Backpack_Ranger_Large_LHand</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\Backpack_Ranger_Large_LHand</m_FemaleModel>
+	<m_GUID>d02cae32-9d70-4d1a-a8a2-a87392ebe2e8</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Military\Bags\Backpack\Military_Backpack_Ranger_Large-White</textureChoices>
+	<textureChoices>Clothes\Military\Bags\Backpack\Military_Backpack_Ranger_Large-WhitePlain</textureChoices>
+</clothingItem>

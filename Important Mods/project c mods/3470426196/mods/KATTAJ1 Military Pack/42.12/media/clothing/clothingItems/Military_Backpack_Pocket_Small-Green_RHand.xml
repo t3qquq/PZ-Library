@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\Backpack_Pocket_Small_RHand</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\Backpack_Pocket_Small_RHand</m_FemaleModel>
+	<m_GUID>122b7be0-de8a-4276-978f-d649e155c5ed</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Military\Bags\Backpack\Military_Backpack_Pocket_Small-Green</textureChoices>
+	<textureChoices>Clothes\Military\Bags\Backpack\Military_Backpack_Pocket_Small-GreenPlain</textureChoices>
+</clothingItem>

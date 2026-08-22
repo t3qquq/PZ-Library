@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_Shoes_TacticalBoots</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_Shoes_TacticalBoots</m_FemaleModel>
+	<m_GUID>9558a25a-1f11-4ac9-8cce-6c57cc0211bc</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Military\Shoes\Military_Shoes_TacticalBoots-Black</textureChoices>
+	<textureChoices>Clothes\Military\Shoes\Military_Shoes_TacticalBoots-BlackPlain</textureChoices>
+</clothingItem>	

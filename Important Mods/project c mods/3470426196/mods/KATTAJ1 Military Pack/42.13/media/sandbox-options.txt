@@ -1,0 +1,1012 @@
+ VERSION = 1,
+
+option KATTAJ1.Category1
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_Category1,
+    description = KATTAJ1_Category1,
+}
+
+
+
+
+option KATTAJ1.BlackGearedZombiesPatriotArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 1.0,
+	page = KATTAJ1, 
+	translation = KATTAJ1_BlackGearedZombiesPatriotArmy, 
+	description = KATTAJ1_BlackGearedZombiesPatriotArmy,
+}
+option KATTAJ1.BlackGearedZombiesDefenderArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.8,
+	page = KATTAJ1, 
+	translation = KATTAJ1_BlackGearedZombiesDefenderArmy, 
+	description = KATTAJ1_BlackGearedZombiesDefenderArmy,
+}
+option KATTAJ1.BlackGearedZombiesVanguardArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.4,
+	page = KATTAJ1, 
+	translation = KATTAJ1_BlackGearedZombiesVanguardArmy, 
+	description = KATTAJ1_BlackGearedZombiesVanguardArmy,
+}
+
+option KATTAJ1.EmptyLine11
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+
+option KATTAJ1.DesertGearedZombiesPatriotArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 2.0,
+	page = KATTAJ1, 
+	translation = KATTAJ1_DesertGearedZombiesPatriotArmy, 
+	description = KATTAJ1_DesertGearedZombiesPatriotArmy,
+}
+option KATTAJ1.DesertGearedZombiesDefenderArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 1.0,
+	page = KATTAJ1, 
+	translation = KATTAJ1_DesertGearedZombiesDefenderArmy, 
+	description = KATTAJ1_DesertGearedZombiesDefenderArmy,
+}
+option KATTAJ1.DesertGearedZombiesVanguardArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.5,
+	page = KATTAJ1, 
+	translation = KATTAJ1_DesertGearedZombiesVanguardArmy, 
+	description = KATTAJ1_DesertGearedZombiesVanguardArmy,
+}
+
+option KATTAJ1.EmptyLine12
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+
+option KATTAJ1.GreenGearedZombiesPatriotArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 4.0,
+	page = KATTAJ1, 
+	translation = KATTAJ1_GreenGearedZombiesPatriotArmy, 
+	description = KATTAJ1_GreenGearedZombiesPatriotArmy,
+}
+option KATTAJ1.GreenGearedZombiesDefenderArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 2.0,
+	page = KATTAJ1, 
+	translation = KATTAJ1_GreenGearedZombiesDefenderArmy, 
+	description = KATTAJ1_GreenGearedZombiesDefenderArmy,
+}
+option KATTAJ1.GreenGearedZombiesVanguardArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 1.0,
+	page = KATTAJ1, 
+	translation = KATTAJ1_GreenGearedZombiesVanguardArmy, 
+	description = KATTAJ1_GreenGearedZombiesVanguardArmy,
+}
+
+option KATTAJ1.EmptyLine13
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+
+option KATTAJ1.WhiteGearedZombiesPatriotArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 1.0,
+	page = KATTAJ1, 
+	translation = KATTAJ1_WhiteGearedZombiesPatriotArmy, 
+	description = KATTAJ1_WhiteGearedZombiesPatriotArmy,
+}
+option KATTAJ1.WhiteGearedZombiesDefenderArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.8,
+	page = KATTAJ1, 
+	translation = KATTAJ1_WhiteGearedZombiesDefenderArmy, 
+	description = KATTAJ1_WhiteGearedZombiesDefenderArmy,
+}
+option KATTAJ1.WhiteGearedZombiesVanguardArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.4,
+	page = KATTAJ1, 
+	translation = KATTAJ1_WhiteGearedZombiesVanguardArmy, 
+	description = KATTAJ1_WhiteGearedZombiesVanguardArmy,
+}
+
+
+
+
+
+
+
+
+option KATTAJ1.EmptyLine9
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+option KATTAJ1.Category9
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_Category9,
+    description = KATTAJ1_Category9,
+}
+
+
+
+
+
+
+
+
+option KATTAJ1.BlackGearedZombiesPatriotDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.08,
+	page = KATTAJ1, 
+	translation = KATTAJ1_BlackGearedZombiesPatriotDefault, 
+	description = KATTAJ1_BlackGearedZombiesPatriotDefault,
+}
+option KATTAJ1.BlackGearedZombiesDefenderDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.06,
+	page = KATTAJ1, 
+	translation = KATTAJ1_BlackGearedZombiesDefenderDefault, 
+	description = KATTAJ1_BlackGearedZombiesDefenderDefault,
+}
+option KATTAJ1.BlackGearedZombiesVanguardDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.04,
+	page = KATTAJ1, 
+	translation = KATTAJ1_BlackGearedZombiesVanguardDefault, 
+	description = KATTAJ1_BlackGearedZombiesVanguardDefault,
+}
+
+option KATTAJ1.EmptyLine14
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+
+option KATTAJ1.DesertGearedZombiesPatriotDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.2,
+	page = KATTAJ1, 
+	translation = KATTAJ1_DesertGearedZombiesPatriotDefault, 
+	description = KATTAJ1_DesertGearedZombiesPatriotDefault,
+}
+option KATTAJ1.DesertGearedZombiesDefenderDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.1,
+	page = KATTAJ1, 
+	translation = KATTAJ1_DesertGearedZombiesDefenderDefault, 
+	description = KATTAJ1_DesertGearedZombiesDefenderDefault,
+}
+option KATTAJ1.DesertGearedZombiesVanguardDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.05,
+	page = KATTAJ1, 
+	translation = KATTAJ1_DesertGearedZombiesVanguardDefault, 
+	description = KATTAJ1_DesertGearedZombiesVanguardDefault,
+}
+
+option KATTAJ1.EmptyLine15
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+
+option KATTAJ1.GreenGearedZombiesPatriotDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.1,
+	page = KATTAJ1, 
+	translation = KATTAJ1_GreenGearedZombiesPatriotDefault, 
+	description = KATTAJ1_GreenGearedZombiesPatriotDefault,
+}
+option KATTAJ1.GreenGearedZombiesDefenderDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.08,
+	page = KATTAJ1, 
+	translation = KATTAJ1_GreenGearedZombiesDefenderDefault, 
+	description = KATTAJ1_GreenGearedZombiesDefenderDefault,
+}
+option KATTAJ1.GreenGearedZombiesVanguardDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.06,
+	page = KATTAJ1, 
+	translation = KATTAJ1_GreenGearedZombiesVanguardDefault, 
+	description = KATTAJ1_GreenGearedZombiesVanguardDefault,
+}
+
+option KATTAJ1.EmptyLine16
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+
+option KATTAJ1.WhiteGearedZombiesPatriotDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.06,
+	page = KATTAJ1, 
+	translation = KATTAJ1_WhiteGearedZombiesPatriotDefault, 
+	description = KATTAJ1_WhiteGearedZombiesPatriotDefault,
+}
+option KATTAJ1.WhiteGearedZombiesDefenderDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.05,
+	page = KATTAJ1, 
+	translation = KATTAJ1_WhiteGearedZombiesDefenderDefault, 
+	description = KATTAJ1_WhiteGearedZombiesDefenderDefault,
+}
+option KATTAJ1.WhiteGearedZombiesVanguardDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.04,
+	page = KATTAJ1, 
+	translation = KATTAJ1_WhiteGearedZombiesVanguardDefault, 
+	description = KATTAJ1_WhiteGearedZombiesVanguardDefault,
+}
+
+
+
+
+
+
+
+
+option KATTAJ1.EmptyLine10
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+option KATTAJ1.Category10
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_Category10,
+    description = KATTAJ1_Category10,
+}
+
+
+
+
+
+
+
+
+option KATTAJ1.BlackGearedZombiesPatriotSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 3.0,
+	page = KATTAJ1, 
+	translation = KATTAJ1_BlackGearedZombiesPatriotSecretBase, 
+	description = KATTAJ1_BlackGearedZombiesPatriotSecretBase,
+}
+option KATTAJ1.BlackGearedZombiesDefenderSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 4.0,
+	page = KATTAJ1, 
+	translation = KATTAJ1_BlackGearedZombiesDefenderSecretBase, 
+	description = KATTAJ1_BlackGearedZombiesDefenderSecretBase,
+}
+option KATTAJ1.BlackGearedZombiesVanguardSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 2.0,
+	page = KATTAJ1, 
+	translation = KATTAJ1_BlackGearedZombiesVanguardSecretBase, 
+	description = KATTAJ1_BlackGearedZombiesVanguardSecretBase,
+}
+
+option KATTAJ1.EmptyLine17
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+
+option KATTAJ1.DesertGearedZombiesPatriotSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.2,
+	page = KATTAJ1, 
+	translation = KATTAJ1_DesertGearedZombiesPatriotSecretBase, 
+	description = KATTAJ1_DesertGearedZombiesPatriotSecretBase,
+}
+option KATTAJ1.DesertGearedZombiesDefenderSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.4,
+	page = KATTAJ1, 
+	translation = KATTAJ1_DesertGearedZombiesDefenderSecretBase, 
+	description = KATTAJ1_DesertGearedZombiesDefenderSecretBase,
+}
+option KATTAJ1.DesertGearedZombiesVanguardSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.6,
+	page = KATTAJ1, 
+	translation = KATTAJ1_DesertGearedZombiesVanguardSecretBase, 
+	description = KATTAJ1_DesertGearedZombiesVanguardSecretBase,
+}
+
+option KATTAJ1.EmptyLine18
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+
+option KATTAJ1.GreenGearedZombiesPatriotSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.6,
+	page = KATTAJ1, 
+	translation = KATTAJ1_GreenGearedZombiesPatriotSecretBase, 
+	description = KATTAJ1_GreenGearedZombiesPatriotSecretBase,
+}
+option KATTAJ1.GreenGearedZombiesDefenderSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.8,
+	page = KATTAJ1, 
+	translation = KATTAJ1_GreenGearedZombiesDefenderSecretBase, 
+	description = KATTAJ1_GreenGearedZombiesDefenderSecretBase,
+}
+option KATTAJ1.GreenGearedZombiesVanguardSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 1.0,
+	page = KATTAJ1, 
+	translation = KATTAJ1_GreenGearedZombiesVanguardSecretBase, 
+	description = KATTAJ1_GreenGearedZombiesVanguardSecretBase,
+}
+
+option KATTAJ1.EmptyLine19
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+
+option KATTAJ1.WhiteGearedZombiesPatriotSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.8,
+	page = KATTAJ1, 
+	translation = KATTAJ1_WhiteGearedZombiesPatriotSecretBase, 
+	description = KATTAJ1_WhiteGearedZombiesPatriotSecretBase,
+}
+option KATTAJ1.WhiteGearedZombiesDefenderSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 1.0,
+	page = KATTAJ1, 
+	translation = KATTAJ1_WhiteGearedZombiesDefenderSecretBase, 
+	description = KATTAJ1_WhiteGearedZombiesDefenderSecretBase,
+}
+option KATTAJ1.WhiteGearedZombiesVanguardSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 2.0,
+	page = KATTAJ1, 
+	translation = KATTAJ1_WhiteGearedZombiesVanguardSecretBase, 
+	description = KATTAJ1_WhiteGearedZombiesVanguardSecretBase,
+}
+
+
+
+
+
+option KATTAJ1.EmptyLine2
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+option KATTAJ1.Category2
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_Category2,
+    description = KATTAJ1_Category2,
+}
+
+
+
+
+option KATTAJ1.EnableBlackGearLoot
+{
+    type = boolean,
+    default = true,
+    page = KATTAJ1,
+    translation = KATTAJ1_EnableBlackGearLoot,
+    description = KATTAJ1_EnableBlackGearLoot,
+
+}
+option KATTAJ1.EnableDesertGearLoot
+{
+    type = boolean,
+    default = true,
+    page = KATTAJ1,
+    translation = KATTAJ1_EnableDesertGearLoot,
+    description = KATTAJ1_EnableDesertGearLoot,
+}
+option KATTAJ1.EnableGreenGearLoot
+{
+    type = boolean,
+    default = true,
+    page = KATTAJ1,
+    translation = KATTAJ1_EnableGreenGearLoot,
+    description = KATTAJ1_EnableGreenGearLoot,
+}
+option KATTAJ1.EnableWhiteGearLoot
+{
+    type = boolean,
+    default = true,
+    page = KATTAJ1,
+    translation = KATTAJ1_EnableWhiteGearLoot,
+    description = KATTAJ1_EnableWhiteGearLoot,
+}
+option KATTAJ1.EnablePressGearLoot
+{
+    type = boolean,
+    default = true,
+    page = KATTAJ1,
+    translation = KATTAJ1_EnablePressGearLoot,
+    description = KATTAJ1_EnablePressGearLoot,
+}
+
+
+
+
+option KATTAJ1.EmptyLine3
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+option KATTAJ1.Category3
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_Category3,
+    description = KATTAJ1_Category3,
+}
+
+
+
+
+option KATTAJ1.PatriotGear
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.03,
+	page = KATTAJ1, 
+	translation = KATTAJ1_PatriotGear, 
+	description = KATTAJ1_PatriotGear,
+}
+option KATTAJ1.DefenderGear
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.015,
+	page = KATTAJ1, 
+	translation = KATTAJ1_DefenderGear, 
+	description = KATTAJ1_DefenderGear,
+}
+option KATTAJ1.VanguardGear
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.005,
+	page = KATTAJ1, 
+	translation = KATTAJ1_VanguardGear, 
+	description = KATTAJ1_VanguardGear,
+}
+
+
+
+
+option KATTAJ1.EmptyLine4
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+option KATTAJ1.Category4
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_Category4,
+    description = KATTAJ1_Category4,
+}
+
+
+
+
+option KATTAJ1.PocketBackpack
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.05,
+	page = KATTAJ1, 
+	translation = KATTAJ1_PocketBackpack, 
+	description = KATTAJ1_PocketBackpack,
+}
+option KATTAJ1.StrategistBackpack
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.025,
+	page = KATTAJ1, 
+	translation = KATTAJ1_StrategistBackpack, 
+	description = KATTAJ1_StrategistBackpack,
+}
+option KATTAJ1.RangerBackpack
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.0125,
+	page = KATTAJ1, 
+	translation = KATTAJ1_RangerBackpack, 
+	description = KATTAJ1_RangerBackpack,
+}
+option KATTAJ1.ColossusBackpack
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.00025,
+	page = KATTAJ1, 
+	translation = KATTAJ1_ColossusBackpack, 
+	description = KATTAJ1_ColossusBackpack,
+}
+option KATTAJ1.EchoBackpack
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.0125,
+	page = KATTAJ1, 
+	translation = KATTAJ1_EchoBackpack, 
+	description = KATTAJ1_EchoBackpack,
+}
+
+
+
+
+option KATTAJ1.EmptyLine5
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+option KATTAJ1.Category5
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_Category5,
+    description = KATTAJ1_Category5,
+}
+
+
+
+
+option KATTAJ1.StormPackSmall
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.03,
+	page = KATTAJ1, 
+	translation = KATTAJ1_StormPackSmall, 
+	description = KATTAJ1_StormPackSmall,
+}
+option KATTAJ1.StormPackMedium
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.015,
+	page = KATTAJ1, 
+	translation = KATTAJ1_StormPackMedium, 
+	description = KATTAJ1_StormPackMedium,
+}
+option KATTAJ1.StormPackLarge
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.005,
+	page = KATTAJ1, 
+	translation = KATTAJ1_StormPackLarge, 
+	description = KATTAJ1_StormPackLarge,
+}
+
+
+
+
+option KATTAJ1.EmptyLine6
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+option KATTAJ1.Category6
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_Category6,
+    description = KATTAJ1_Category6,
+}
+
+
+
+
+option KATTAJ1.PouchesSmall
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.03,
+	page = KATTAJ1, 
+	translation = KATTAJ1_PouchesSmall, 
+	description = KATTAJ1_PouchesSmall,
+}
+option KATTAJ1.PouchesMedium
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.015,
+	page = KATTAJ1, 
+	translation = KATTAJ1_PouchesMedium, 
+	description = KATTAJ1_PouchesMedium,
+}
+option KATTAJ1.PouchesLarge
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.005,
+	page = KATTAJ1, 
+	translation = KATTAJ1_PouchesLarge, 
+	description = KATTAJ1_PouchesLarge,
+}
+
+
+
+
+option KATTAJ1.EmptyLine7
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+option KATTAJ1.Category7
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_Category7,
+    description = KATTAJ1_Category7,
+}
+
+
+
+
+option KATTAJ1.HipBagSmall
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.03,
+	page = KATTAJ1, 
+	translation = KATTAJ1_HipBagSmall, 
+	description = KATTAJ1_HipBagSmall,
+}
+option KATTAJ1.HipBagMedium
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.015,
+	page = KATTAJ1, 
+	translation = KATTAJ1_HipBagMedium, 
+	description = KATTAJ1_HipBagMedium,
+}
+
+
+
+
+option KATTAJ1.EmptyLine8
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_EmptyLine,
+    description = KATTAJ1_EmptyLine,
+}
+option KATTAJ1.Category8
+{
+    type = boolean,
+    default = false,
+    page = KATTAJ1,
+    translation = KATTAJ1_Category8,
+    description = KATTAJ1_Category8,
+}
+
+
+
+
+option KATTAJ1.HolsterSheath
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.04,
+	page = KATTAJ1, 
+	translation = KATTAJ1_HolsterSheath, 
+	description = KATTAJ1_HolsterSheath,
+}
+
+
+option KATTAJ1.HeadApparel
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.04,
+	page = KATTAJ1, 
+	translation = KATTAJ1_HeadApparel, 
+	description = KATTAJ1_HeadApparel,
+}
+
+option KATTAJ1.Balaclava
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.02,
+	page = KATTAJ1, 
+	translation = KATTAJ1_Balaclava, 
+	description = KATTAJ1_Balaclava,
+}
+
+option KATTAJ1.Jacket
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.04,
+	page = KATTAJ1, 
+	translation = KATTAJ1_Jacket, 
+	description = KATTAJ1_Jacket,
+}
+
+option KATTAJ1.Gloves
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.04,
+	page = KATTAJ1, 
+	translation = KATTAJ1_Gloves, 
+	description = KATTAJ1_Gloves,
+}
+
+option KATTAJ1.MilitaryTShirts
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.02,
+	page = KATTAJ1, 
+	translation = KATTAJ1_MilitaryTShirts, 
+	description = KATTAJ1_MilitaryTShirts,
+}
+
+option KATTAJ1.PantsShorts
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.02,
+	page = KATTAJ1, 
+	translation = KATTAJ1_PantsShorts, 
+	description = KATTAJ1_PantsShorts,
+}
+
+option KATTAJ1.BootsShoes
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.04,
+	page = KATTAJ1, 
+	translation = KATTAJ1_BootsShoes, 
+	description = KATTAJ1_BootsShoes,
+}
+
+option KATTAJ1.ThermalUnderwear
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.04,
+	page = KATTAJ1, 
+	translation = KATTAJ1_ThermalUnderwear, 
+	description = KATTAJ1_ThermalUnderwear,
+}
+
+option KATTAJ1.NonMilitary
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.01,
+	page = KATTAJ1, 
+	translation = KATTAJ1_NonMilitary, 
+	description = KATTAJ1_NonMilitary,
+}
+
+
+
+

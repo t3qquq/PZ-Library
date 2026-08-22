@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>6c1ca712-e320-4dfc-a8df-53a5c1d7b8ee</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>Clothes\Military\Shirt\Military_Shirt_ShortSleeveShirt-Desert</m_BaseTextures>
+	<m_BaseTextures>Clothes\Military\Shirt\Military_Shirt_ShortSleeveShirt-DesertPlain</m_BaseTextures>
+</clothingItem>

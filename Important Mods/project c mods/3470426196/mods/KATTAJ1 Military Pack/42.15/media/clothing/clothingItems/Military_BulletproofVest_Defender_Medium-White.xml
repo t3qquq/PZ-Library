@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Armor\M_BulletproofVest_Defender_Medium</m_MaleModel>
+	<m_FemaleModel>Skinned\Armor\F_BulletproofVest_Defender_Medium</m_FemaleModel>
+	<m_GUID>acbf5187-f429-4db5-a592-7336d5e10205</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Military\BulletproofVest\Military_BulletproofVest_Defender_Medium-White</textureChoices>
+	<textureChoices>Clothes\Military\BulletproofVest\Military_BulletproofVest_Defender_Medium-WhitePlain</textureChoices>
+</clothingItem>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_Pants_Classic</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_Pants_Classic</m_FemaleModel>
+	<m_GUID>e37b3bd7-fdcc-4200-a6fb-c437becaacde</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	<textureChoices>Clothes\Military\Pants\Military_Pants_Classic-Desert</textureChoices><textureChoices>Clothes\Military\Pants\Military_Pants_Classic-DesertPlain</textureChoices>
+</clothingItem>

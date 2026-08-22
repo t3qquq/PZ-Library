@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Armor\M_LegsProtectionUpper_Patriot_Light</m_MaleModel>
+	<m_FemaleModel>Skinned\Armor\F_LegsProtectionUpper_Patriot_Light</m_FemaleModel>
+	<m_GUID>1f79c982-e768-42c1-8721-fe6a7fade8cc</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>Clothes\LegsProtectionUpper\Masks</m_MasksFolder>
+	<textureChoices>Clothes\Military\LegsProtectionUpper\Military_LegsProtectionUpper_Patriot_Light-Green</textureChoices>
+	<textureChoices>Clothes\Military\LegsProtectionUpper\Military_LegsProtectionUpper_Patriot_Light-GreenPlain</textureChoices>
+</clothingItem>

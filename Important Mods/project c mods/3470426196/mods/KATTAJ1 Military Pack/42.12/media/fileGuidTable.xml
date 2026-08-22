@@ -1,0 +1,2710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+<!-- FullHelmet -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_FullHelmet_Vanguard-Black.xml</path>
+        <guid>22335805-813b-4ff2-98c5-100152c26367</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_FullHelmet_Vanguard-Desert.xml</path>
+        <guid>4df804f3-07d5-4537-b840-3bbef602ef0e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_FullHelmet_Vanguard-Green.xml</path>
+        <guid>ff4645f4-6b05-4afb-92b4-ad6e7e8b78b4</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_FullHelmet_Vanguard-White.xml</path>
+        <guid>dfe2040c-041a-4cb4-b796-0f0ef1439639</guid>
+    </files>
+
+
+
+
+
+<!-- Helmet -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Patriot-Black.xml</path>
+        <guid>27802364-a648-4d95-ae7b-bdbbb55cb240</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Patriot-Black_NoBelts.xml</path>
+        <guid>ad64a1b3-33e7-4cbb-8682-9ee17839dcff</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Patriot-Desert.xml</path>
+        <guid>9a206a6b-797d-4df8-9eca-8592568269b5</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Patriot-Desert_NoBelts.xml</path>
+        <guid>c3414985-08bf-4e76-95c1-99ce482b76b9</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Patriot-Green.xml</path>
+        <guid>4209bfe9-4faf-43bf-b7ea-847ac860ea25</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Patriot-Green_NoBelts.xml</path>
+        <guid>3b21376e-3fde-4fd8-a3ce-1e66e82325c4</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Patriot-White.xml</path>
+        <guid>877f3098-64ee-4b11-94a4-129eba249a1b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Patriot-White_NoBelts.xml</path>
+        <guid>39f065d6-9ea6-4289-bea2-4a2bb5155113</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Patriot-Press.xml</path>
+        <guid>ed641764-50f2-47bc-87e7-9b49d5e8a94e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Patriot-Press_NoBelts.xml</path>
+        <guid>2ffd2854-483c-4fe8-a340-4dd336f576bf</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Defender-Black.xml</path>
+        <guid>7346ecd3-9b67-4c66-a25e-109b387f4330</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Defender-Black_NoBelts.xml</path>
+        <guid>3beb2d92-3a6f-48fb-af24-e633a8c0a8cb</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Defender-Desert.xml</path>
+        <guid>6ae82122-00b8-436a-bac1-f5b22f2bc348</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Defender-Desert_NoBelts.xml</path>
+        <guid>2512d17d-68ac-4df7-a984-dd3fefcfe81d</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Defender-Green.xml</path>
+        <guid>94ecf83f-ab9a-4780-8b1d-123d1c3abd48</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Defender-Green_NoBelts.xml</path>
+        <guid>10cdca97-5820-4a20-90b9-fa99979efb5f</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Defender-White.xml</path>
+        <guid>49336bee-11d6-4fb1-bdeb-feb5c23568ed</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Helmet_Defender-White_NoBelts.xml</path>
+        <guid>2e97fab6-cd92-4d90-a397-ec29703a793d</guid>
+    </files>
+
+
+
+
+
+<!-- MaskHelmet -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_MaskHelmet_GasMask-M80.xml</path>
+        <guid>1d80d157-ebb3-4291-83f4-7f06aefcdebf</guid>
+    </files>
+
+
+
+
+
+<!-- MaskFull -->
+
+
+
+
+
+<!-- BulletproofVest -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BulletproofVest_Patriot_Light-Black.xml</path>
+        <guid>d23b6948-828a-40ca-978a-2ec682d41e56</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BulletproofVest_Patriot_Light-Desert.xml</path>
+        <guid>fc04cf4a-3b91-43f0-a882-e9fe7251c86b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BulletproofVest_Patriot_Light-Green.xml</path>
+        <guid>763f22e5-80fd-49c8-a81e-c022b3b1f085</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BulletproofVest_Patriot_Light-White.xml</path>
+        <guid>aa45d3d4-47cd-4d35-8fdb-1761a2538031</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BulletproofVest_Patriot_Light-Press.xml</path>
+        <guid>4f077e8c-001c-4b95-b0dc-d8c0205f18be</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BulletproofVest_Defender_Medium-Black.xml</path>
+        <guid>1d55b752-0ad6-47cc-8705-e795e2baa6f9</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BulletproofVest_Defender_Medium-Desert.xml</path>
+        <guid>41c9e1a1-0b84-403e-83d8-aa60bbc55268</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BulletproofVest_Defender_Medium-Green.xml</path>
+        <guid>4c4ac2e9-8ba7-41f9-aaf0-fcb8afc55898</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BulletproofVest_Defender_Medium-White.xml</path>
+        <guid>acbf5187-f429-4db5-a592-7336d5e10205</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BulletproofVest_Vanguard_Heavy-Black.xml</path>
+        <guid>17ffd3b1-6ff3-45b2-be55-1b3be08ac82d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BulletproofVest_Vanguard_Heavy-Desert.xml</path>
+        <guid>b0276921-fe26-4a22-9668-5d59a50d944b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BulletproofVest_Vanguard_Heavy-Green.xml</path>
+        <guid>1d1c6e62-599f-49d8-b152-058e8b9d1173</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BulletproofVest_Vanguard_Heavy-White.xml</path>
+        <guid>a1d9af4d-d73f-4830-bb72-7565e532aeaf</guid>
+    </files>
+
+
+
+
+
+<!-- ArmsProtectionUpper -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionUpper_Patriot_Light-Black.xml</path>
+        <guid>334a1d30-ac7a-43a7-97df-0b8000317667</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionUpper_Patriot_Light-Desert.xml</path>
+        <guid>c0b40b77-f6df-44e4-9444-c742a561cb34</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionUpper_Patriot_Light-Green.xml</path>
+        <guid>1b091398-5e9c-4e85-b748-a3dafe7e0485</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionUpper_Patriot_Light-White.xml</path>
+        <guid>71231f27-93a3-43d6-9808-46412f1b66ad</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionUpper_Defender_Medium-Black.xml</path>
+        <guid>ce49b7b4-0b76-4d0e-afc7-0d05763e6a33</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionUpper_Defender_Medium-Desert.xml</path>
+        <guid>58f01fa5-1188-434e-b241-862d543bebf2</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionUpper_Defender_Medium-Green.xml</path>
+        <guid>0957aa8c-15d9-4ad7-871b-12f3816a99c3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionUpper_Defender_Medium-White.xml</path>
+        <guid>109e7514-7d4d-43bb-8c1c-a6a1f756f660</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionUpper_Defender_Medium-Press.xml</path>
+        <guid>27b6209d-60e5-498f-b5ab-d4798ec850e8</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionUpper_Vanguard_Heavy-Black.xml</path>
+        <guid>9abd57cb-e914-4f10-b454-09d57de0fde6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionUpper_Vanguard_Heavy-Desert.xml</path>
+        <guid>68824733-2503-49ce-8749-3cf50f10232a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionUpper_Vanguard_Heavy-Green.xml</path>
+        <guid>02b3d204-79d3-4ecd-aee6-1ea7a0b8b946</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionUpper_Vanguard_Heavy-White.xml</path>
+        <guid>7fac4ddd-42c4-4f65-ad83-1593868d8717</guid>
+    </files>
+
+
+
+
+
+<!-- ArmsProtectionLower -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionLower_Patriot_Light-Black.xml</path>
+        <guid>9bd19cdf-1de2-4285-9f49-1970bcdfa64a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionLower_Patriot_Light-Desert.xml</path>
+        <guid>a09c7a2e-2b6e-4b56-90a4-69480b5d416a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionLower_Patriot_Light-Green.xml</path>
+        <guid>db9998c8-af8b-47fd-a032-e6dd7443fcb9</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionLower_Patriot_Light-White.xml</path>
+        <guid>10d0e992-a2c6-4546-b2c5-7ee5f7897f3a</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionLower_Defender_Medium-Black.xml</path>
+        <guid>1e701674-e12e-47fa-84f0-030a8132c822</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionLower_Defender_Medium-Desert.xml</path>
+        <guid>56d7c49b-8f54-49c5-bd62-3afb60052659</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionLower_Defender_Medium-Green.xml</path>
+        <guid>e4ed5bec-fbb1-4717-abb0-da56f09eb413</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionLower_Defender_Medium-White.xml</path>
+        <guid>ecffd10a-3e07-4928-801d-7b87574af98a</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionLower_Vanguard_Heavy-Black.xml</path>
+        <guid>b24ab240-d3c5-4470-8fe8-aed509559085</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionLower_Vanguard_Heavy-Desert.xml</path>
+        <guid>32aa4257-33e6-4332-9210-c8945ce812f3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionLower_Vanguard_Heavy-Green.xml</path>
+        <guid>a4bbeece-f1da-4d27-adef-5c23a79477a4</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ArmsProtectionLower_Vanguard_Heavy-White.xml</path>
+        <guid>89bc3f10-110e-493d-b66c-dc04300df9ad</guid>
+    </files>
+
+
+
+
+
+<!-- LegsProtectionUpper -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionUpper_Patriot_Light-Black.xml</path>
+        <guid>32daa213-c947-4594-8cb8-add8f34ee2d8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionUpper_Patriot_Light-Desert.xml</path>
+        <guid>cb954227-ae94-44d1-88ce-0dd5a29d5d08</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionUpper_Patriot_Light-Green.xml</path>
+        <guid>1f79c982-e768-42c1-8721-fe6a7fade8cc</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionUpper_Patriot_Light-White.xml</path>
+        <guid>2619a71a-8c7d-4901-83b1-a454fa68e445</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionUpper_Defender_Medium-Black.xml</path>
+        <guid>43fc864d-70f7-47e4-ad90-ee9ab81e8eb5</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionUpper_Defender_Medium-Desert.xml</path>
+        <guid>fe28ee5f-4c77-4bcd-b510-ae717cf0af1e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionUpper_Defender_Medium-Green.xml</path>
+        <guid>b1756c77-54bc-4606-8806-9705a6b17038</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionUpper_Defender_Medium-White.xml</path>
+        <guid>a99db0c8-69d3-46e4-aa98-5b0a65ba3ba4</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionUpper_Defender_Medium-Press.xml</path>
+        <guid>a89f1bbb-9c34-4084-9f4b-1c99c5736af5</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionUpper_Vanguard_Heavy-Black.xml</path>
+        <guid>2e5ba784-5b50-414c-ad2e-f8a933277f8e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionUpper_Vanguard_Heavy-Desert.xml</path>
+        <guid>4fe28436-3cfe-4835-90d9-9be015f8c7b6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionUpper_Vanguard_Heavy-Green.xml</path>
+        <guid>750d9106-b045-43cf-8c5c-bc08dd22ccab</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionUpper_Vanguard_Heavy-White.xml</path>
+        <guid>1515b6db-65cf-4445-8972-adb64e29e4d2</guid>
+    </files>
+
+
+
+
+
+<!-- LegsProtectionLower -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionLower_Patriot_Light-Black.xml</path>
+        <guid>8987d18e-1b41-4382-a162-e8be09751a43</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionLower_Patriot_Light-Desert.xml</path>
+        <guid>ddf116aa-554b-4ff3-ab1b-741cbf4e93f8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionLower_Patriot_Light-Green.xml</path>
+        <guid>7dbada12-9a3e-40ea-ad95-1c3dd2f17ba1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionLower_Patriot_Light-White.xml</path>
+        <guid>faa1c570-1c3b-4a73-aad9-f81a098ddf20</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionLower_Defender_Medium-Black.xml</path>
+        <guid>55d98b26-4fd1-4a04-8c13-44eb720c6d62</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionLower_Defender_Medium-Desert.xml</path>
+        <guid>4b9d76bd-6c6a-4350-bb3b-327cd515d5a9</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionLower_Defender_Medium-Green.xml</path>
+        <guid>410ccf5e-1c78-447f-8add-66515beaf78b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionLower_Defender_Medium-White.xml</path>
+        <guid>35ea38ee-089f-42a0-b27b-24c6b73fee55</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionLower_Vanguard_Heavy-Black.xml</path>
+        <guid>87659381-9759-4304-9bd2-377fefd926f5</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionLower_Vanguard_Heavy-Desert.xml</path>
+        <guid>ef06067f-6642-49e3-a106-ca30a42e51bb</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionLower_Vanguard_Heavy-Green.xml</path>
+        <guid>26383b78-d1ab-4c80-a8fa-2f89dbd809a4</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_LegsProtectionLower_Vanguard_Heavy-White.xml</path>
+        <guid>056a763d-4ea9-4680-8008-2c1d40b7328d</guid>
+    </files>
+
+
+
+
+
+<!-- Hat -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Hat_WarComms-Black.xml</path>
+        <guid>748c3362-c7b5-4e37-bbe1-998d9d6835d3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Hat_WarComms-Desert.xml</path>
+        <guid>ccc02303-1c51-4e3d-a014-830234e5e5a0</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Hat_WarComms-Green.xml</path>
+        <guid>cbcb0ea1-5701-4b51-a8e5-260888e2bd67</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Hat_WarComms-White.xml</path>
+        <guid>932f34f9-4f61-41ee-ba72-0cfa22243fe2</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Hat_Beret-Black.xml</path>
+        <guid>44c5395b-dd89-4b49-9ea5-f8de508b7771</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Hat_Beret-Desert.xml</path>
+        <guid>af3caf65-b19b-4d13-bf3f-b2a7ac302a29</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Hat_Beret-Green.xml</path>
+        <guid>f09520d6-ce99-4ba5-adcb-d3061a6f089b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Hat_Beret-White.xml</path>
+        <guid>93b255e8-aeb9-4d3c-8649-c27618568a77</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Hat_Beret-Red.xml</path>
+        <guid>7ad4db39-bb75-4802-9c55-94ef4cd8e7cc</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Hat_BaseballCapM-Black.xml</path>
+        <guid>593be08f-b4c0-4204-b935-66028d8f5e61</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Hat_BaseballCapM-Desert.xml</path>
+        <guid>20193671-2f07-4022-a0c4-d8735807f5ee</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Hat_BaseballCapM-Green.xml</path>
+        <guid>2d0a96f5-68d4-49a7-a1a2-a16761abba0a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Hat_BaseballCapM-White.xml</path>
+        <guid>fcb2b043-d899-4a68-bce5-5653d0fba4c2</guid>
+    </files>
+
+
+
+
+
+<!-- Mask -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_Balaclava1-Black.xml</path>
+        <guid>86cfdff7-31e4-47e8-9b5c-1c130b711ab1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_Balaclava1-Desert.xml</path>
+        <guid>05d83cff-cc37-464d-a53a-bdd88a643c36</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_Balaclava1-Green.xml</path>
+        <guid>ce66760e-0905-4de4-a31c-f46b8014da5e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_Balaclava1-White.xml</path>
+        <guid>ec91a62e-be6a-4e38-80f4-7426f61414d8</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_Balaclava2-Black.xml</path>
+        <guid>21d41d22-6e73-4f37-b33c-df5952d727e3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_Balaclava2-Desert.xml</path>
+        <guid>122034d7-fd56-4223-98aa-e2956bcf51dc</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_Balaclava2-Green.xml</path>
+        <guid>44bd6e08-baf6-4389-9a85-1251f59cc13a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_Balaclava2-White.xml</path>
+        <guid>1bbb3cbc-729a-4e0d-813d-01bce1565e66</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_Balaclava3-Black.xml</path>
+        <guid>767b3b9b-2dae-4aa7-b4fc-ce08107c6f43</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_Balaclava3-Desert.xml</path>
+        <guid>ea7cd08e-4fd4-46dd-9716-a900822f12c4</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_Balaclava3-Green.xml</path>
+        <guid>9f8696be-2bc7-4b10-a9af-35f52702b8cd</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_Balaclava3-White.xml</path>
+        <guid>4fb62882-c355-4ead-9e83-f94a08494744</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_BandanaMask-Black.xml</path>
+        <guid>e3e158f0-3ce4-4c00-bcb0-94e6c017a6c6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_BandanaMask-Desert.xml</path>
+        <guid>137bbd4e-ece9-443d-a717-79cd35de811e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_BandanaMask-Green.xml</path>
+        <guid>6f26ed1c-ebd4-4a05-b13e-3b2bff4f81ab</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Mask_BandanaMask-White.xml</path>
+        <guid>23d55dfa-dd02-4d23-8de8-912efea99975</guid>
+    </files>
+
+
+
+
+
+<!-- Glasses -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Glasses_ShatterShield.xml</path>
+        <guid>58282cce-a0d3-44b3-be26-f382e118d539</guid>
+    </files>
+
+
+
+
+
+<!-- Tshirt -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TankTop-Black.xml</path>
+        <guid>5bc3e5fc-2a67-4268-98c0-232d3c6c1ac6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TankTop-Desert.xml</path>
+        <guid>6430e762-6769-445f-8221-4922f7e2e86d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TankTop-Green.xml</path>
+        <guid>eccce1c4-aec1-4f40-985d-76a70a7fe682</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TankTop-White.xml</path>
+        <guid>cf589e92-d67f-4df8-aa3b-ef4a35b80b86</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TankTopShort-Black.xml</path>
+        <guid>e3a48c18-9ed3-43df-8cae-3770b561cb37</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TankTopShort-Desert.xml</path>
+        <guid>2fee8dab-d5a1-4e1e-94d4-692d65494e9c</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TankTopShort-Green.xml</path>
+        <guid>a4f64d87-310c-427f-8453-3b5bd34a3d0d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TankTopShort-White.xml</path>
+        <guid>e53a2101-d74a-4566-a60f-18b045b9d099</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TShirt-Black.xml</path>
+        <guid>75c87660-d3e7-4607-ac05-90e76e274494</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TShirt-Black_Man.xml</path>
+        <guid>8fde734a-889f-4ead-a194-40450902ef8c</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TShirt-Desert.xml</path>
+        <guid>87039dc6-1adb-4260-ace7-c81521e59109</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TShirt-Desert_Man.xml</path>
+        <guid>5725c823-c1a4-49df-acac-26544cd53063</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TShirt-Green.xml</path>
+        <guid>74a73169-a181-4790-95b9-5aaff695074b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TShirt-Green_Man.xml</path>
+        <guid>21032a54-3ed9-43c2-a616-fa864437c251</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TShirt-White.xml</path>
+        <guid>707a9b8f-1db9-48bf-aa0a-7b40ea0436a6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TShirt-White_Man.xml</path>
+        <guid>40cdceac-2b01-4093-9a62-65fff1484c2d</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TShirtShort-Black.xml</path>
+        <guid>955ca80a-cfe9-437e-baa6-21db64c271a8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TShirtShort-Desert.xml</path>
+        <guid>f1f871a8-4077-49df-93c5-db8cc3ba9cee</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TShirtShort-Green.xml</path>
+        <guid>77b21a6d-30f6-42e4-80fe-907efbfbf925</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_TShirtShort-White.xml</path>
+        <guid>0a749c80-19b7-4f80-ac85-6c961453ae24</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_LongSleeve-Black.xml</path>
+        <guid>2b47b501-5cc9-473f-9bc2-992685f1ea79</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_LongSleeve-Black_Man.xml</path>
+        <guid>7504f342-367a-47f5-b3cd-b14942879c3a</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_LongSleeve-Desert.xml</path>
+        <guid>46fff667-7460-4729-8970-b6e9eb38d6c5</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_LongSleeve-Desert_Man.xml</path>
+        <guid>a7e06676-0461-41aa-b968-5fa7824d64c9</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_LongSleeve-Green.xml</path>
+        <guid>2b32fdc5-d5cc-4aa8-9021-2b27cab8fc23</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_LongSleeve-Green_Man.xml</path>
+        <guid>ce75eb16-4d47-4e4b-98a7-7cb2d9771f2c</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_LongSleeve-White.xml</path>
+        <guid>ce5f9597-e145-4b27-bdff-31391aca23aa</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_LongSleeve-White_Man.xml</path>
+        <guid>ecfdf691-0412-439a-964d-92fa44aaad34</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_LongSleeveShort-Black.xml</path>
+        <guid>d6cbfe4f-bf89-40e0-b9ea-b1302107372f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_LongSleeveShort-Desert.xml</path>
+        <guid>05376576-a861-44be-8027-de65cab56560</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_LongSleeveShort-Green.xml</path>
+        <guid>2f1b090e-71b5-4eab-8e79-c329211f5351</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_LongSleeveShort-White.xml</path>
+        <guid>70aab953-3954-4e28-981e-e9582831ba76</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_Sleeveless-Black.xml</path>
+        <guid>2a5812da-ffc8-496d-b166-f3cff2e1d712</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_Sleeveless-Black_Man.xml</path>
+        <guid>2fba6e1a-cc28-4c8f-979d-5493c0dfca15</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_Sleeveless-Desert.xml</path>
+        <guid>2fb0d10f-0b2e-49a6-b6dc-747f5305d25e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_Sleeveless-Desert_Man.xml</path>
+        <guid>08d839dd-5eec-4ea0-879a-5c26cce137d7</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_Sleeveless-Green.xml</path>
+        <guid>53b5a377-6ff5-4aac-ac96-3bc206cf0895</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_Sleeveless-Green_Man.xml</path>
+        <guid>988b84a7-8a91-4d88-9fec-0e5df069e232</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_Sleeveless-White.xml</path>
+        <guid>e83aeb9f-8a55-47a0-8746-d558d0341a27</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_Sleeveless-White_Man.xml</path>
+        <guid>06148fe3-7098-44ee-a546-33668de5e08f</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_SleevelessShort-Black.xml</path>
+        <guid>bdc697f7-497b-499d-9d8e-c3406a4878e0</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_SleevelessShort-Desert.xml</path>
+        <guid>0661233b-d1f9-429a-8dc0-7a45c9326c6b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_SleevelessShort-Green.xml</path>
+        <guid>59362710-ffc7-4a5d-8ad0-5b30ae122280</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_SleevelessShort-White.xml</path>
+        <guid>d615128c-bbc0-4ddb-884c-6491a034aed6</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_OneShoulder-Black.xml</path>
+        <guid>09f836c2-5c90-4665-8daf-315849a88abe</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_OneShoulder-Black_Man.xml</path>
+        <guid>a45e8ee2-fb0f-464e-90e8-ed547c32b3b3</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_OneShoulder-Desert.xml</path>
+        <guid>099b60f8-d18e-44b4-ba86-266db078ee75</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_OneShoulder-Desert_Man.xml</path>
+        <guid>0f0b41a2-779a-449f-9579-11b52d6215e4</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_OneShoulder-Green.xml</path>
+        <guid>3c0027c0-43c6-4dd2-8845-a3794d7ead9f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_OneShoulder-Green_Man.xml</path>
+        <guid>e45dc617-893e-41d0-b980-bd9412af34a6</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_OneShoulder-White.xml</path>
+        <guid>580fc5f5-259f-4aa5-82f7-aa7c824068c2</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_OneShoulder-White_Man.xml</path>
+        <guid>196413c7-123e-4623-ab90-f8dde78a15fb</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_OneShoulderShort-Black.xml</path>
+        <guid>0d423f14-cdad-4e84-ac75-fe06440b603d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_OneShoulderShort-Desert.xml</path>
+        <guid>a6cf2b92-4c54-41ad-93ca-bc10f772249f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_OneShoulderShort-Green.xml</path>
+        <guid>9ce64255-30ac-437f-972b-0f92d5553881</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_OneShoulderShort-White.xml</path>
+        <guid>abd1f615-3919-4185-836e-925d9c8a0449</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_Neckholder-Black.xml</path>
+        <guid>d0c1a680-a7d3-48b6-9a63-bc7d5163a2d7</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_Neckholder-Desert.xml</path>
+        <guid>37887ff4-241b-4caa-8d55-92a1af5f5382</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_Neckholder-Green.xml</path>
+        <guid>0cb2a5dc-ba19-41c9-a438-142845534975</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_Neckholder-White.xml</path>
+        <guid>905428a2-886f-4242-962e-b1e573dfb9b0</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_NeckholderShort-Black.xml</path>
+        <guid>9c9c6a67-5ce6-471f-9344-0acd6565e02f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_NeckholderShort-Desert.xml</path>
+        <guid>d3cb757d-0ea0-4c6f-8d91-fc2fed12213f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_NeckholderShort-Green.xml</path>
+        <guid>3d17fcb7-5e09-442c-84ea-10ffef9b8881</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_TShirt_NeckholderShort-White.xml</path>
+        <guid>0fad7690-d9e4-459d-bd1f-a880640ad297</guid>
+    </files>
+
+
+
+
+
+<!-- Shirt -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Shirt_Classic-Black.xml</path>
+        <guid>70b08924-0415-4603-864d-ff61bfd1d384</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Shirt_Classic-Desert.xml</path>
+        <guid>6abd1f06-549c-4828-84f1-78cedff0a206</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Shirt_Classic-Green.xml</path>
+        <guid>7ca1328e-970a-4f54-880f-1bb94bc4fd4a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Shirt_Classic-White.xml</path>
+        <guid>c37a1650-6ec8-46ee-aca9-909cbdbc5a9e</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Shirt_ShortSleeveShirt-Black.xml</path>
+        <guid>145cfabd-becf-40fa-9e53-955d701f131f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Shirt_ShortSleeveShirt-Desert.xml</path>
+        <guid>6c1ca712-e320-4dfc-a8df-53a5c1d7b8ee</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Shirt_ShortSleeveShirt-Green.xml</path>
+        <guid>d188fb23-c38e-433a-a075-a62d57578c46</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Shirt_ShortSleeveShirt-White.xml</path>
+        <guid>455bbbd9-9549-498e-aa01-b2ec484ef95e</guid>
+    </files>
+
+
+
+
+
+<!-- Jacket -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-Black.xml</path>
+        <guid>320611f2-f365-4f64-9b57-343c71ac0cfc</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-Black_Open.xml</path>
+        <guid>4a3a524f-92e4-4fae-b67c-3d9e37e0803b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-Black_OpenRolledUpSleeves.xml</path>
+        <guid>a4566cda-1284-447a-a5c5-1d71a940e6cc</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-Black_RolledUpSleeves.xml</path>
+        <guid>ca93e443-f822-44ff-9c2f-400cacfb973d</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-Desert.xml</path>
+        <guid>fed789c1-acdf-451c-b254-dc1e557eaa45</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-Desert_Open.xml</path>
+        <guid>62f968c4-379b-4883-b51b-f3ed353abc05</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-Desert_OpenRolledUpSleeves.xml</path>
+        <guid>371e1dad-82bb-4312-af57-acdaf4a04ee0</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-Desert_RolledUpSleeves.xml</path>
+        <guid>b7c4168e-a771-44a6-9a35-8981de3a361d</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-Green.xml</path>
+        <guid>ef36fecc-3605-49b1-b234-1d415250b0ea</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-Green_Open.xml</path>
+        <guid>33eaf5e7-333b-4e4e-bdde-23cd2d086fbc</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-Green_OpenRolledUpSleeves.xml</path>
+        <guid>e04bd7c3-4126-411d-a03b-c4d7bf0c69b2</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-Green_RolledUpSleeves.xml</path>
+        <guid>841ca97d-ff1d-4b7c-8397-319a11680de1</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-White.xml</path>
+        <guid>a476e381-d383-4ef5-9707-92b7c0226c3e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-White_Open.xml</path>
+        <guid>0ccfb613-e990-40a1-b3dc-324997ce54d8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-White_OpenRolledUpSleeves.xml</path>
+        <guid>83b5b394-a2db-4206-80e4-7b2146445d08</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Classic-White_RolledUpSleeves.xml</path>
+        <guid>0ee24dc3-0a32-45e6-a2a6-2b38611936e9</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-Black.xml</path>
+        <guid>cb1e5c15-6ad7-4e2e-bffc-cd480fed874b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-Black_Open.xml</path>
+        <guid>2200d596-6048-4f5e-961d-690b3509e2b6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-Black_OpenRolledUpSleeves.xml</path>
+        <guid>90ba855d-3a87-494a-b29f-f553ca902d9a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-Black_RolledUpSleeves.xml</path>
+        <guid>03f300c4-03f4-4f67-bca2-16afec3a1b2b</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-Desert.xml</path>
+        <guid>61384739-f6c1-486f-97e5-1baa1022f491</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-Desert_Open.xml</path>
+        <guid>d26985e5-e777-451f-96ac-f8d625e56218</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-Desert_OpenRolledUpSleeves.xml</path>
+        <guid>cd4593b6-4542-4ec5-b7a7-1c65963135f2</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-Desert_RolledUpSleeves.xml</path>
+        <guid>2aabca3b-052f-4ed2-ae31-b92c84e01a66</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-Green.xml</path>
+        <guid>0f477765-c60b-4d06-b178-932a29967503</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-Green_Open.xml</path>
+        <guid>76819761-0bb9-4414-94e2-13ad2b09775b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-Green_OpenRolledUpSleeves.xml</path>
+        <guid>fc3b4f5b-74c2-4741-acd5-70333cdeacba</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-Green_RolledUpSleeves.xml</path>
+        <guid>6a76d221-4dab-4c48-a9b7-5592d249022e</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-White.xml</path>
+        <guid>eb938905-4fd1-437b-a5cd-b513b8977fe0</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-White_Open.xml</path>
+        <guid>de0f40ed-1797-4b74-aa79-a666c63d32d3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-White_OpenRolledUpSleeves.xml</path>
+        <guid>0d9d125d-2e01-4828-8db8-a9dcd3f3cbc5</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_Lightweight-White_RolledUpSleeves.xml</path>
+        <guid>4694c3f4-cacf-4eeb-bbe3-c03585be9dfa</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-Black_DOWN.xml</path>
+        <guid>80a5015c-c55a-4bdd-9237-a928988b29db</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-Black_DOWN_Open.xml</path>
+        <guid>55504e9d-5196-4036-9497-1d6a83739dd7</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-Black_UP.xml</path>
+        <guid>bd621e55-1f22-4f6a-bd51-159f1302b6e6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-Black_UP_Open.xml</path>
+        <guid>3be5de93-e90f-476f-a0d2-5d57b12f58e3</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-Desert_DOWN.xml</path>
+        <guid>16541413-b955-4381-9cbb-18ed52fe2f33</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-Desert_DOWN_Open.xml</path>
+        <guid>35a9fd0c-5e22-4b69-bab7-5a2a5dab47cb</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-Desert_UP.xml</path>
+        <guid>b93d9c66-d366-4baf-8c11-134a964a17e6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-Desert_UP_Open.xml</path>
+        <guid>66551729-91d6-41ae-960e-96cfec6ec1dd</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-Green_DOWN.xml</path>
+        <guid>587506af-d71b-4153-ae66-cbaf51b3269d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-Green_DOWN_Open.xml</path>
+        <guid>378936d8-5c39-4589-98db-4c8496f7ab44</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-Green_UP.xml</path>
+        <guid>d66d6e1a-526f-4328-acab-aefa67a6c40f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-Green_UP_Open.xml</path>
+        <guid>48f92ddf-12cd-42ba-8470-92e283611b5c</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-White_DOWN.xml</path>
+        <guid>c39d5f91-ebbd-4e25-86c6-650169c2045d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-White_DOWN_Open.xml</path>
+        <guid>f8e54a8a-f9d1-4385-ad36-e2b717c5443d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-White_UP.xml</path>
+        <guid>2e6043d4-5a38-49bd-a232-5cfb8ef112e1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Jacket_WinterHood-White_UP_Open.xml</path>
+        <guid>a16b550e-4d39-4490-ad7c-1a44badfba39</guid>
+    </files>
+
+
+
+
+
+<!-- Gloves -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Gloves_Grips-Black.xml</path>
+        <guid>6ddf7b69-cb8e-4453-b82e-926bd8f601e5</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Gloves_Grips-Desert.xml</path>
+        <guid>b1d6202b-fa78-4fa8-ba8c-9c11df296e02</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Gloves_Grips-Green.xml</path>
+        <guid>3e7a5dcb-ccc4-4e64-bc7e-1992367eaf5c</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Gloves_Grips-White.xml</path>
+        <guid>43fbce52-b49b-4349-b19b-0e8b8b28b1f9</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Gloves_GripFingerless-Black.xml</path>
+        <guid>64374cc2-177b-4ae3-ba07-487108da2d74</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Gloves_GripFingerless-Desert.xml</path>
+        <guid>d01e318a-9b98-4ec5-ab64-a93b3a71a3bf</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Gloves_GripFingerless-Green.xml</path>
+        <guid>ce3efb6f-1fc6-46b2-9243-925b714bc1f3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Gloves_GripFingerless-White.xml</path>
+        <guid>744f7f7b-6413-4024-89d8-c67c09c4ddcc</guid>
+    </files>
+
+
+
+
+
+<!-- Pants -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Classic-Black.xml</path>
+        <guid>5375b1e9-fff6-40f9-afa8-be17208edfcc</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Classic-Black_RollUp.xml</path>
+        <guid>f278333e-facc-486e-9771-2b18a2eb928f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Classic-Black_Tuck.xml</path>
+        <guid>bb9339a0-a071-4471-983b-f736d2d01bb9</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Classic-Desert.xml</path>
+        <guid>e37b3bd7-fdcc-4200-a6fb-c437becaacde</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Classic-Desert_RollUp.xml</path>
+        <guid>f56fa564-0bde-446b-96fa-134a0ed5ab90</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Classic-Desert_Tuck.xml</path>
+        <guid>4be85245-8cdc-465d-87e3-022e508a6835</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Classic-Green.xml</path>
+        <guid>c678429a-affa-49cb-be94-3c54d014c159</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Classic-Green_RollUp.xml</path>
+        <guid>3cc524bd-f1f1-4d06-bddc-e5b05baf5fd6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Classic-Green_Tuck.xml</path>
+        <guid>a0d484ab-a3b1-4356-a8d3-f8ec00644c80</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Classic-White.xml</path>
+        <guid>8b90e9b2-7b9f-431e-816a-c81432ca93f4</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Classic-White_RollUp.xml</path>
+        <guid>c306a12e-b17c-41d6-b741-1342bf3d703e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Classic-White_Tuck.xml</path>
+        <guid>86d6619a-b118-4925-a0b6-f780a16638a7</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Cargo-Black.xml</path>
+        <guid>1cb3a528-6637-43f9-ac94-742016498a89</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Cargo-Black_RollUp.xml</path>
+        <guid>57e19504-a196-4049-922b-5c476f8a626a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Cargo-Black_Tuck.xml</path>
+        <guid>3721e3c8-bb74-4f10-b712-f1b7ce66e300</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Cargo-Desert.xml</path>
+        <guid>4f0bcde3-d136-4217-bcfe-dd79bce0e09d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Cargo-Desert_RollUp.xml</path>
+        <guid>4c1d18c4-880c-44f5-92c2-15cc1aae2843</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Cargo-Desert_Tuck.xml</path>
+        <guid>5b264702-c529-4f24-bb64-4bfcf20a6361</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Cargo-Green.xml</path>
+        <guid>6b7fe176-fa8f-40ac-9187-c3da99aebad5</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Cargo-Green_RollUp.xml</path>
+        <guid>b8074117-f755-4d2f-8a0a-48ea18e831a5</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Cargo-Green_Tuck.xml</path>
+        <guid>6db5e710-1755-4df5-98f6-6a8801c88096</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Cargo-White.xml</path>
+        <guid>2f996c0b-5e5b-4c91-a623-6dd5629f7de0</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Cargo-White_RollUp.xml</path>
+        <guid>9e10e062-9386-4cf8-a25f-c66cbc0ee82d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Cargo-White_Tuck.xml</path>
+        <guid>b2f83791-e30f-4d1e-a0ea-53b962c5ad89</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Capri-Black.xml</path>
+        <guid>c29e485a-450f-4061-b865-8be51d96ea72</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Capri-Desert.xml</path>
+        <guid>0c9ae3d1-f4d0-4fa9-afc3-80dca05b356d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Capri-Green.xml</path>
+        <guid>19eae179-a77e-4d85-ad03-2c0ca21d7539</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Capri-White.xml</path>
+        <guid>fac97d5a-b659-4ecb-b003-4a40b1b33f14</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_CapriSkinny-Black.xml</path>
+        <guid>208d68b5-1e05-49fd-b8dc-444e3e40799d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_CapriSkinny-Desert.xml</path>
+        <guid>deacf4ec-ce7f-4c22-810e-96c557a5e256</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_CapriSkinny-Green.xml</path>
+        <guid>28aa08df-030f-4846-96e2-f5eaa4744aad</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_CapriSkinny-White.xml</path>
+        <guid>6ee3d43a-822b-4a4f-a76b-26dd82316cb6</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Skinny-Black.xml</path>
+        <guid>af3ef6ab-84fa-4d11-ba17-1e8853d4b60c</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Skinny-Desert.xml</path>
+        <guid>1f2e2839-3182-45d6-903d-e17d12e5170c</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Skinny-Green.xml</path>
+        <guid>aeef913f-0de1-4103-b653-7104770baeab</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Skinny-White.xml</path>
+        <guid>14ded476-f1b9-4d21-87ea-8a9e6ad62b04</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Shorts-Black.xml</path>
+        <guid>ae299b72-e80c-4539-875e-395ee6301386</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Shorts-Desert.xml</path>
+        <guid>ba2343bb-7ba7-47ac-88f9-95ee73ad0d0a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Shorts-Green.xml</path>
+        <guid>56aba195-5eaa-41eb-aa01-107abde56250</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_Shorts-White.xml</path>
+        <guid>5e21a600-6b66-401e-82a1-5082ce8f82e0</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_ShortsMini-Black.xml</path>
+        <guid>03223f73-0ab9-4bb7-b124-63eaa18ff2c0</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_ShortsMini-Desert.xml</path>
+        <guid>c13ac61a-c57d-4052-a36c-70fa19c82140</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_ShortsMini-Green.xml</path>
+        <guid>952ae176-1679-446c-9d26-477815563323</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_ShortsMini-White.xml</path>
+        <guid>5942eba3-f9e2-4176-93a0-33dc0744cd42</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_ShortsCargo-Black.xml</path>
+        <guid>849aa7bf-8bbb-4a4b-b165-ae384800db74</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_ShortsCargo-Desert.xml</path>
+        <guid>98f921fd-a3ca-4912-8e84-c8e0c1752bba</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_ShortsCargo-Green.xml</path>
+        <guid>1671ffb3-5d5e-4461-b179-ae5e6dfee288</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_ShortsCargo-White.xml</path>
+        <guid>47c8e7b6-19ec-4536-8e01-7b6acfc0f54c</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_KneeLengthShorts-Black.xml</path>
+        <guid>273ed446-90a1-4d04-8d06-175074403d48</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_KneeLengthShorts-Desert.xml</path>
+        <guid>7ee4d979-c15e-4d4c-9765-75d0e680b812</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_KneeLengthShorts-Green.xml</path>
+        <guid>c8233e17-df17-4855-89c9-d0d129e67589</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_KneeLengthShorts-White.xml</path>
+        <guid>d7b4ddef-0772-458a-95b9-6123cd68be1e</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_KneeLengthShortsSkinny-Black.xml</path>
+        <guid>e0170f9b-b970-42c3-81ac-79f94686f59f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_KneeLengthShortsSkinny-Desert.xml</path>
+        <guid>38568591-2280-45ad-8e08-6adbe326c399</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_KneeLengthShortsSkinny-Green.xml</path>
+        <guid>dfb42a40-deeb-45d2-988f-7f8680cdaad6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Pants_KneeLengthShortsSkinny-White.xml</path>
+        <guid>aae1db61-8d3c-48c5-a1c4-9b5634a3e431</guid>
+    </files>
+
+
+
+
+
+<!-- Skirt -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleated-Black.xml</path>
+        <guid>4cca9017-bf88-4c1e-999b-e368d4e17759</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleated-Desert.xml</path>
+        <guid>bf8a5aed-6167-4a80-96bf-5ed7bbdd0fb6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleated-Green.xml</path>
+        <guid>88d9af8f-f8ca-4d4a-abc3-91e2da584b5b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleated-White.xml</path>
+        <guid>322736ec-1d05-49c9-9e25-22b8ff7b73db</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleated-Press.xml</path>
+        <guid>861a7058-4c19-4a61-9815-5fa8d8153f0f</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleatedMini-Black.xml</path>
+        <guid>bfdeabde-6492-496c-af1c-1bb9fa947364</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleatedMini-Desert.xml</path>
+        <guid>1445f868-3473-4500-9637-ebbc205e6169</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleatedMini-Green.xml</path>
+        <guid>4202ea18-fb62-4366-a043-5e1269f40f72</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleatedMini-White.xml</path>
+        <guid>86543f4b-7401-4d59-89fe-d0d7136e571f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleatedMini-Press.xml</path>
+        <guid>a7024c75-0873-4913-9611-08cee4314f07</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleatedShort-Black.xml</path>
+        <guid>78a2b992-79fa-4c7a-a7e9-62333518ec4a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleatedShort-Desert.xml</path>
+        <guid>adf56c01-7685-4709-a843-8dcc2cdbea85</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleatedShort-Green.xml</path>
+        <guid>68f356d1-c3cc-4d7f-b537-f304980b6a86</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleatedShort-White.xml</path>
+        <guid>e1633b48-2a31-4fc0-b769-3e2a29576a92</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Skirt_KnifePleatedShort-Press.xml</path>
+        <guid>97077267-c3a4-4331-af7f-206d02ec58c0</guid>
+    </files>
+
+
+
+
+
+<!-- Shoes -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Shoes_Boots-Black.xml</path>
+        <guid>554d96e2-e576-438b-9d2e-edf089715005</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Shoes_Boots-Desert.xml</path>
+        <guid>dc0c1704-1ac8-494b-bcb6-6dbd53d892f9</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Shoes_Boots-Green.xml</path>
+        <guid>676e93a8-dcd0-4f25-bf89-13ff31496fce</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Shoes_Boots-White.xml</path>
+        <guid>b958d006-56fb-4aea-9975-61a229385cc8</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Shoes_TacticalBoots-Black.xml</path>
+        <guid>9558a25a-1f11-4ac9-8cce-6c57cc0211bc</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Shoes_TacticalBoots-Desert.xml</path>
+        <guid>0eb5493c-e911-46d1-92ab-52068608fae8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Shoes_TacticalBoots-Green.xml</path>
+        <guid>ce75af29-385e-49b0-af94-f57701d1ff91</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Shoes_TacticalBoots-White.xml</path>
+        <guid>43e2d727-5a65-4dd2-b89c-4639e9a0c036</guid>
+    </files>
+
+
+
+
+
+<!-- ThermalUnderwear -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_ThermalUnderwear-Black.xml</path>
+        <guid>d262aa24-5b52-4145-94c7-1be362ebeff2</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ThermalUnderwear-Desert.xml</path>
+        <guid>673343a2-ddbf-45cd-8714-dba075e66006</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ThermalUnderwear-Green.xml</path>
+        <guid>682cd676-0b34-48a0-8def-002e0abb46e0</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_ThermalUnderwear-White.xml</path>
+        <guid>4ed297a2-95e6-4383-a7e2-00a95797173a</guid>
+    </files>
+
+
+
+
+
+<!-- Stockings -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Stockings-Black.xml</path>
+        <guid>31d87ebe-f954-463f-8bc3-c69404c4aa72</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Stockings-Desert.xml</path>
+        <guid>634d2098-b98a-48d6-af86-71967adc392c</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Stockings-Green.xml</path>
+        <guid>f24d3e28-1359-4b61-952d-7c6bd197d4fc</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Stockings-White.xml</path>
+        <guid>09b591d7-45a2-42c7-80ad-0fed8de46f7c</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Stockings-Press.xml</path>
+        <guid>c8bbc7a9-c8ea-4e3d-8f7e-63a23cf05e31</guid>
+    </files>
+
+
+
+
+
+<!-- Backpack -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-Black.xml</path>
+        <guid>de20d42d-bba0-41e3-8dea-f31c6b4fb068</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-Black_Tight.xml</path>
+        <guid>6bd603ba-ba53-4f52-9444-c1bb4447dd43</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-Black_LHand.xml</path>
+        <guid>5e2aa15d-4f93-42fd-9f40-3ff015bf933d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-Black_RHand.xml</path>
+        <guid>966cb610-af45-4bb6-95e1-e5f954312dbc</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-Desert.xml</path>
+        <guid>d35b1295-2fed-48b0-a1d6-cecb94faec83</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-Desert_Tight.xml</path>
+        <guid>7da82e49-d036-418a-b9af-1a979adfe295</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-Desert_LHand.xml</path>
+        <guid>55972eb5-271d-446a-845d-b76ffbe4587d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-Desert_RHand.xml</path>
+        <guid>a7728876-bb8a-4951-90a8-f608cd3a6d30</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-Green.xml</path>
+        <guid>1ddf253d-fdd3-4dd6-8953-569e75d594b0</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-Green_Tight.xml</path>
+        <guid>ff5dfc5d-e6ee-457b-a4d3-64395bb17913</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-Green_LHand.xml</path>
+        <guid>2f882647-6862-474a-aadf-6837c3c0e5c8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-Green_RHand.xml</path>
+        <guid>122b7be0-de8a-4276-978f-d649e155c5ed</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-White.xml</path>
+        <guid>e563b12d-1822-4f70-b97f-5b1182b4f210</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-White_Tight.xml</path>
+        <guid>b440e6d7-b8bc-46f5-9616-68a08bdcec25</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-White_LHand.xml</path>
+        <guid>bad519d4-2920-4780-a51e-dbef03a72889</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Pocket_Small-White_RHand.xml</path>
+        <guid>9a93722a-79b8-4e87-bccd-da3c3fb17f4b</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-Black.xml</path>
+        <guid>926c4e4e-bd9b-4b01-b890-56ba2490d693</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-Black_Tight.xml</path>
+        <guid>4f481a6a-aea1-452e-88b2-e26e39ce2900</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-Black_LHand.xml</path>
+        <guid>c6c69864-5df3-41ac-b0af-31597c4e8201</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-Black_RHand.xml</path>
+        <guid>35d2bc78-798f-4c61-94f0-a039d12bf5ca</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-Desert.xml</path>
+        <guid>44ba4560-061a-4ca9-8aef-bfc8b7e85d9b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-Desert_Tight.xml</path>
+        <guid>43ad1754-e9b5-440c-a381-a648c2cbc7c8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-Desert_LHand.xml</path>
+        <guid>fa05fc25-5528-4714-b83a-cdebd5a55653</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-Desert_RHand.xml</path>
+        <guid>b20ef44a-7a11-4827-974e-d7a656205307</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-Green.xml</path>
+        <guid>4d6191cf-bfc5-419d-987a-614073b0b108</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-Green_Tight.xml</path>
+        <guid>44b1b2da-293c-4af7-9267-e7b6f741d8c0</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-Green_LHand.xml</path>
+        <guid>0b8227c7-3e6c-4a83-b525-54c81e4ddf9e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-Green_RHand.xml</path>
+        <guid>82e879cf-10ec-4fc5-9618-13fb17442e9d</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-White.xml</path>
+        <guid>3d5c2701-ce14-4273-8904-febc17924c53</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-White_Tight.xml</path>
+        <guid>60c4df4b-02da-4e11-a17b-a47a7f9333b1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-White_LHand.xml</path>
+        <guid>ba8bd0dd-301f-434f-9095-42d10ac354d1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Strategist_Medium-White_RHand.xml</path>
+        <guid>d1a9e5d3-93ef-4cdf-a0f3-f7a24fd6796a</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-Black.xml</path>
+        <guid>d679be56-02b6-499b-ba5e-4710c861602f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-Black_Tight.xml</path>
+        <guid>92803925-07a7-4f9d-adf1-db5b9a2e3a8b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-Black_LHand.xml</path>
+        <guid>86e85ffa-0f9e-4aa3-8ef4-0279f6d34d06</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-Black_RHand.xml</path>
+        <guid>fb4d42cc-d785-4d6b-b05d-56e79fa132e3</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-Desert.xml</path>
+        <guid>fe669617-f320-4bff-8fa5-57527400d2a6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-Desert_Tight.xml</path>
+        <guid>ae18da6e-dd99-4021-9e1c-36bcfa4e1ae9</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-Desert_LHand.xml</path>
+        <guid>a78e3f47-a6c8-4929-8757-d68ce1df921f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-Desert_RHand.xml</path>
+        <guid>059e78cc-a90e-46f4-b2d7-6fe655abbc3c</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-Green.xml</path>
+        <guid>4c546e35-b0ba-41b6-8b83-19c93221d723</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-Green_Tight.xml</path>
+        <guid>edbdbbb2-9567-48fc-b3dd-a290b6cdcc42</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-Green_LHand.xml</path>
+        <guid>d02cae32-9d70-4d1a-a8a2-a87392ebe2e8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-Green_RHand.xml</path>
+        <guid>8eaf010a-3adc-418f-b810-8011e370765d</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-White.xml</path>
+        <guid>8593e94e-f650-40cb-870e-79b746bf2911</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-White_Tight.xml</path>
+        <guid>fa9494e7-5b9f-4759-a2a8-bc5678020c6d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-White_LHand.xml</path>
+        <guid>c9e7fd42-e143-42cc-8f44-4d9eddb7df9f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Ranger_Large-White_RHand.xml</path>
+        <guid>07a85d0b-7987-49fb-9bbf-48740b262451</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-Black.xml</path>
+        <guid>d913606e-dcc4-4012-be02-012a29610549</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-Black_Tight.xml</path>
+        <guid>eda51a80-f247-4d85-aef8-fb4c65460a74</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-Black_LHand.xml</path>
+        <guid>b893f064-c25d-4715-be0b-d4d5b645c13d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-Black_RHand.xml</path>
+        <guid>90d905ef-3477-4b34-8d44-8658a4e287ed</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-Desert.xml</path>
+        <guid>d083f7bd-e6a5-4839-9092-9b0d16219d16</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-Desert_Tight.xml</path>
+        <guid>3b934fa8-52dc-47ca-b537-1d2fc506ec8a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-Desert_LHand.xml</path>
+        <guid>f4ed0506-d1f6-4955-a57c-7b9b37d6cce3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-Desert_RHand.xml</path>
+        <guid>51d396d0-2784-4526-af47-afb4aaff4a7f</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-Green.xml</path>
+        <guid>1352e085-ad65-4ec8-a9a1-a853775aefd3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-Green_Tight.xml</path>
+        <guid>2159c8e3-d02a-42fe-b061-2924420771b6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-Green_LHand.xml</path>
+        <guid>a2da0bfc-8996-403b-ae98-3556d4d0282d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-Green_RHand.xml</path>
+        <guid>18484723-a9e1-4825-baae-2e60ffc647c2</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-White.xml</path>
+        <guid>008cd690-9d45-4e69-8b94-42149f911c16</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-White_Tight.xml</path>
+        <guid>e3198ad0-7950-45ec-993e-b6d2807d0a3e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-White_LHand.xml</path>
+        <guid>b4a80bac-75da-4559-92be-eeedcbe11bea</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Colossus_VeryLarge-White_RHand.xml</path>
+        <guid>fa650708-38f6-4640-b76f-4c283065bc34</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-Black.xml</path>
+        <guid>f8825bc2-1161-464a-bea1-0dfdbc866180</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-Black_Tight.xml</path>
+        <guid>357c3ae1-3ebb-4010-9197-a2c91103d88d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-Black_LHand.xml</path>
+        <guid>c337c458-faca-4f72-aefc-8b8f46def40e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-Black_RHand.xml</path>
+        <guid>73b1b18f-dc43-4016-923a-ddccc045b38a</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-Desert.xml</path>
+        <guid>6f3943ad-2207-4c7b-bf5f-053f34abe490</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-Desert_Tight.xml</path>
+        <guid>7036762f-2539-4714-bdba-6a9313918a9f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-Desert_LHand.xml</path>
+        <guid>c55c53af-b8e7-4104-9bbe-68a7272b5968</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-Desert_RHand.xml</path>
+        <guid>aa43416a-37c3-4bbb-b1ba-5bb9b43e24f9</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-Green.xml</path>
+        <guid>59a10e7e-e3a6-4b13-a3ab-52d7cb9bc006</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-Green_Tight.xml</path>
+        <guid>3a8c89c3-ba39-403d-b836-423a07dc67b5</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-Green_LHand.xml</path>
+        <guid>8526714b-0963-4265-a639-d5d3dfceb9b1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-Green_RHand.xml</path>
+        <guid>0ec24d6b-af85-4ee5-a32f-31e4a2eda0b1</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-White.xml</path>
+        <guid>c2e3fe18-5cfb-4f2a-8a8b-0043b7b974f4</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-White_Tight.xml</path>
+        <guid>4cbcf293-4391-4ca6-91aa-b2e523636531</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-White_LHand.xml</path>
+        <guid>15c441d7-3224-4a34-9bec-afb2dca3aed6</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_Backpack_Echo_Radio-White_RHand.xml</path>
+        <guid>8a9ffd5c-1e7a-48a0-8f54-cc8a3b113893</guid>
+    </files>
+
+
+
+
+
+<!-- BagFront -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagFront_ChestPouches_Small-Black.xml</path>
+        <guid>1657b629-e653-459d-a3e3-9ba8b937aa9e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagFront_ChestPouches_Small-Desert.xml</path>
+        <guid>60357a33-ad3d-42ab-a3d8-0df04ad71073</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagFront_ChestPouches_Small-Green.xml</path>
+        <guid>80611918-71e2-4699-b909-1b1b72744436</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagFront_ChestPouches_Small-White.xml</path>
+        <guid>e39fd0af-332d-4509-a132-443bef5a0701</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagFront_ChestPouches_Medium-Black.xml</path>
+        <guid>350ad3db-9078-4e5f-a821-8858d2ddaf13</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagFront_ChestPouches_Medium-Desert.xml</path>
+        <guid>51070f7f-8c66-49b9-a351-b0b5c5434354</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagFront_ChestPouches_Medium-Green.xml</path>
+        <guid>d9fd4e65-c44d-465e-84c9-8ef8c1e7caef</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagFront_ChestPouches_Medium-White.xml</path>
+        <guid>e813af45-a339-475e-8767-d397a163718b</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagFront_ChestPouches_Large-Black.xml</path>
+        <guid>fc6efd64-68c9-4bc5-81a5-eb797a76022a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagFront_ChestPouches_Large-Desert.xml</path>
+        <guid>6c6d0cd8-f051-4852-97cb-436bebed67ce</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagFront_ChestPouches_Large-Green.xml</path>
+        <guid>49a0d53a-98b3-42f0-a3ea-2ec0be5d3c79</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagFront_ChestPouches_Large-White.xml</path>
+        <guid>5677c423-cf9a-4db0-8123-49824ec1322d</guid>
+    </files>
+
+
+
+
+
+<!-- BagBack -->
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-Black.xml</path>
+        <guid>950b8d11-4c84-4be3-bde4-43b77414294c</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-Black_LHand.xml</path>
+        <guid>ef79374c-c5a4-4262-9123-99b4710f7fa3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-Black_RHand.xml</path>
+        <guid>6f229da8-a0c5-476b-9ab0-d0f7ee858f15</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-Desert.xml</path>
+        <guid>cf2ae7c8-2b8d-47fb-b83a-8b2016678909</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-Desert_LHand.xml</path>
+        <guid>2018fe39-360f-4349-9dd7-82ca5d91bed5</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-Desert_RHand.xml</path>
+        <guid>5ab0f11c-e012-45a5-88e3-dbcdc7202327</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-Green.xml</path>
+        <guid>4f780898-6967-4fdf-892f-34c97406f100</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-Green_LHand.xml</path>
+        <guid>5cfcf33c-6920-4b43-9a82-2f05fbc2392b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-Green_RHand.xml</path>
+        <guid>9f2cde82-34f7-41fd-bf3e-a2e726f36eed</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-White.xml</path>
+        <guid>a59a6e1c-803e-46ef-b170-1c5eab32f985</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-White_LHand.xml</path>
+        <guid>54fc0fee-3982-44af-a63f-4c27cb157f48</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-White_RHand.xml</path>
+        <guid>1ce8b822-af38-444e-b407-ccfc98d629b0</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-Medic.xml</path>
+        <guid>f8792014-f9d5-404d-b183-e1bfa03a796d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-Medic_LHand.xml</path>
+        <guid>a9a76e32-4091-469a-ad59-3ca5a7d7e0d7</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Small-Medic_RHand.xml</path>
+        <guid>679c2ba2-7aa9-464e-9c7f-96c982cc6e77</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-Black.xml</path>
+        <guid>a911a6a3-ff18-4fdb-8852-61454f6a1b6e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-Black_LHand.xml</path>
+        <guid>890bc145-6bbe-4d23-bb4d-25325f33117d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-Black_RHand.xml</path>
+        <guid>644e13aa-b5c4-4eb0-86df-3a8c4f2fd29c</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-Desert.xml</path>
+        <guid>8c43f4fe-80a5-462f-982c-3fb3d08f3046</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-Desert_LHand.xml</path>
+        <guid>8cc58275-b78b-44a2-9902-30a1bac4151b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-Desert_RHand.xml</path>
+        <guid>1e2a212e-27bb-4762-956e-79af0f61663c</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-Green.xml</path>
+        <guid>03d33241-813c-41e1-9db7-a30088a7f9c1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-Green_LHand.xml</path>
+        <guid>057cc826-72ec-41d6-b5bf-8a2d83eef803</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-Green_RHand.xml</path>
+        <guid>b83c14d7-2264-4313-98c7-077b10e8cf98</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-White.xml</path>
+        <guid>c923e8c9-fef3-441a-9fc0-101ea2cec7a4</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-White_LHand.xml</path>
+        <guid>ba694f1f-3182-4673-9902-076721334fd2</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-White_RHand.xml</path>
+        <guid>21edf083-c528-4cd4-bb6a-b3794fc8ad61</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-Medic.xml</path>
+        <guid>03658236-307c-4efe-b88b-b01e0da8323d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-Medic_LHand.xml</path>
+        <guid>8b18ff98-b6fc-4823-a294-eadbfd77796b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Medium-Medic_RHand.xml</path>
+        <guid>6e38d557-f73c-4922-b4b7-75d1de78ce9a</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-Black.xml</path>
+        <guid>c7ca2798-34c3-461b-beb3-b2bed2d56d61</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-Black_LHand.xml</path>
+        <guid>37113081-caf9-482c-8335-9839338b0a0f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-Black_RHand.xml</path>
+        <guid>df3500ac-013e-4ba7-95ac-098e94991a91</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-Desert.xml</path>
+        <guid>6adcb32e-c363-4da3-adca-eaa3fed339a1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-Desert_LHand.xml</path>
+        <guid>130bf315-3920-40dd-95c3-1cad843c7c96</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-Desert_RHand.xml</path>
+        <guid>cd95d048-b51d-4263-9108-973551eacafd</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-Green.xml</path>
+        <guid>d8f810f8-5ea6-4a6d-bb85-5f479e1fdb3a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-Green_LHand.xml</path>
+        <guid>f5203e1d-14eb-44ff-82ce-24b3984e5fab</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-Green_RHand.xml</path>
+        <guid>a114281b-e139-4256-819a-3f7d1ad918f3</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-White.xml</path>
+        <guid>e5d7c779-b683-4184-a787-77be42141a36</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-White_LHand.xml</path>
+        <guid>87a04ac3-5a7a-4bb6-9aba-1f93233a7cdb</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-White_RHand.xml</path>
+        <guid>0b324d52-a697-4c88-872d-26092c85eed8</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-Medic.xml</path>
+        <guid>8317241c-17d7-4435-ab79-cdbb7afdee1e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-Medic_LHand.xml</path>
+        <guid>b08ec024-0916-4520-8ddc-0e6749689eca</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Military_BagBack_StormPack_Large-Medic_RHand.xml</path>
+        <guid>c0cce9af-7ee0-4f0d-b114-f71c51d4df1e</guid>
+    </files>
+
+
+
+
+
+<!-- BagLeg -->
+
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Black_LHand.xml</path>
+		<guid>49dd1ada-8c9a-4912-953f-670db7b0c2d3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Black_RHand.xml</path>
+		<guid>154fdbf7-c0b6-4a66-a05b-dfafee008cbb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Black_Left.xml</path>
+		<guid>d80d5998-efd9-4fa3-9d1b-f82f8bc49e1f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Black_Right.xml</path>
+		<guid>fb8f3005-573b-46f5-8df0-0e3b97f90c5c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Black_ArmorLeft.xml</path>
+		<guid>ea03a25b-27d0-4ed0-94c1-471e65f19215</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Black_ArmorRight.xml</path>
+		<guid>80095687-deac-438f-a737-5ce745654608</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Desert_LHand.xml</path>
+		<guid>c8c7d1ce-1753-4e53-a4ea-0170e1738c5d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Desert_RHand.xml</path>
+		<guid>9b8e98e0-b16d-499d-84e0-01de8e43af06</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Desert_Left.xml</path>
+		<guid>15cd41b7-0b8d-4e93-b5c5-d1ae0cd6fdc4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Desert_Right.xml</path>
+		<guid>22ce9c54-277c-45fa-a2b7-bf4f93108a01</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Desert_ArmorLeft.xml</path>
+		<guid>2d0cc728-2329-43cf-a494-adc136f0a902</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Desert_ArmorRight.xml</path>
+		<guid>b1703cdc-ce56-43d9-bbc6-1bb296868365</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Green_LHand.xml</path>
+		<guid>18e2f355-809f-4818-b5cb-e694649e2648</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Green_RHand.xml</path>
+		<guid>47eddfd9-25fe-461e-b2a9-7cc81822736e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Green_Left.xml</path>
+		<guid>6b9c6ac8-36cc-4288-8a56-5572e4b8cf3c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Green_Right.xml</path>
+		<guid>4456871c-2ef4-4ab3-b454-d062205f8b3c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Green_ArmorLeft.xml</path>
+		<guid>3c0c46b9-974c-4c1d-8938-6139f61c5d09</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-Green_ArmorRight.xml</path>
+		<guid>4d352e95-0589-4b44-bd9d-dc77a7d29b8a</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-White_LHand.xml</path>
+		<guid>888cabd7-5c6d-4d76-a052-4fab744cfd62</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-White_RHand.xml</path>
+		<guid>c65ac0d9-321b-476b-b360-19090501f7ec</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-White_Left.xml</path>
+		<guid>049fe7ff-c5c8-4c9f-9266-e1f2815169f9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-White_Right.xml</path>
+		<guid>9626776d-77b9-4e21-96c9-0d938e669696</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-White_ArmorLeft.xml</path>
+		<guid>4d9b91ef-d15a-4ad5-b1e6-a5f8e718ea65</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_MagSecure_Small-White_ArmorRight.xml</path>
+		<guid>e09c2e0b-389e-4c2d-bf40-4be469196bc7</guid>
+	</files>
+
+
+
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Black_LHand.xml</path>
+		<guid>b81d2266-3b1c-4e47-b581-ee514f5c6f0f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Black_RHand.xml</path>
+		<guid>a092dc3e-6497-4242-a47c-96d5073b9b06</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Black_Left.xml</path>
+		<guid>d87d78e0-77d3-4308-980a-a04ff1aacff4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Black_Right.xml</path>
+		<guid>4649b301-bad8-4824-9cda-d7c7547b0589</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Black_ArmorLeft.xml</path>
+		<guid>da2763c7-52d7-40ac-b775-7509ccdd3f1c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Black_ArmorRight.xml</path>
+		<guid>7b05a693-c6b4-4752-b2b8-62d4ba4da486</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Desert_LHand.xml</path>
+		<guid>deeae990-e2ca-494b-a418-ce3573aa8715</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Desert_RHand.xml</path>
+		<guid>3fd30647-36f0-44be-92c5-b002ac08e5d9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Desert_Left.xml</path>
+		<guid>f3b08443-b250-4ffb-8a00-3efaea9050c1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Desert_Right.xml</path>
+		<guid>ae3b5faf-55bc-4072-adb8-a6fff2e89529</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Desert_ArmorLeft.xml</path>
+		<guid>413a7703-fa3e-4d4c-8ea8-1d9c7de78dbc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Desert_ArmorRight.xml</path>
+		<guid>48aa6536-2d8e-4700-afde-dd06ab585719</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Green_LHand.xml</path>
+		<guid>8c40b9e2-b1cd-41a2-9cff-2c35af94dcc7</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Green_RHand.xml</path>
+		<guid>acddc070-ca5f-4b69-988c-8c86bc83771f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Green_Left.xml</path>
+		<guid>6172fc1a-fd7a-4fec-bc60-45c4e41f7e82</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Green_Right.xml</path>
+		<guid>19a2f8c0-23cb-473b-9f2e-212d4d586fb1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Green_ArmorLeft.xml</path>
+		<guid>a4f0d4e3-70cc-48a4-936d-edceab4c3594</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Green_ArmorRight.xml</path>
+		<guid>57082560-7464-4ddf-a5ce-6a621b1ef731</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-White_LHand.xml</path>
+		<guid>5753f6a2-17bb-41bd-aea1-356558d8cd25</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-White_RHand.xml</path>
+		<guid>352cb7dc-ce2e-4363-91f3-0464c845c36a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-White_Left.xml</path>
+		<guid>f71156ea-8566-4a99-b375-0f924e795215</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-White_Right.xml</path>
+		<guid>44df6fa8-b02c-4a39-8ab3-7eb27bc2ce9c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-White_ArmorLeft.xml</path>
+		<guid>f4d5c0e3-666f-449b-b99a-a905d9b6d256</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-White_ArmorRight.xml</path>
+		<guid>600b6f3b-fc3a-4457-9878-aa654b1203f2</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Medic_LHand.xml</path>
+		<guid>f2b4ab2d-8b18-4114-aa18-4ffef8cb7d90</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Medic_RHand.xml</path>
+		<guid>9ab8e41c-fd0f-4775-8fca-6c8c2aa92124</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Medic_Left.xml</path>
+		<guid>f4dfa5f1-42be-44c3-b8ad-aadd4046ed8c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Medic_Right.xml</path>
+		<guid>8c31bb4e-be7a-4bfc-abcf-2538a64cd88c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Medic_ArmorLeft.xml</path>
+		<guid>2b5b0ad8-01e3-49e3-98b8-880e10ae117f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_BagLeg_Utility_Medium-Medic_ArmorRight.xml</path>
+		<guid>dd591afe-3f11-42e6-92d1-963222d938a1</guid>
+	</files>
+
+
+
+
+
+<!-- Holster -->
+
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Black_BeltLeft.xml</path>
+		<guid>0fa8b939-747f-44b5-81e9-0d2997c50d08</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Black_BeltRight.xml</path>
+		<guid>17178bbc-de96-4540-8538-e375964a7107</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Black_HipLeft.xml</path>
+		<guid>c3d63623-77f0-45c6-97d9-d1e7371ee9b9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Black_HipRight.xml</path>
+		<guid>be009c99-f72e-4ec1-a377-e44466beace3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Black_HipArmorLeft.xml</path>
+		<guid>a5f360f5-2871-4a79-92d8-025f5c4f1c37</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Black_HipArmorRight.xml</path>
+		<guid>c63d40f9-fe10-4015-b752-0f78f30309c0</guid>
+	</files>
+
+
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Desert_BeltLeft.xml</path>
+		<guid>9995c659-e3cd-4799-88db-b2950e91e293</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Desert_BeltRight.xml</path>
+		<guid>3e1ab9d1-4219-4600-b179-9e2196241320</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Desert_HipLeft.xml</path>
+		<guid>22b5de76-76a3-46b2-9864-c0eb2a47725a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Desert_HipRight.xml</path>
+		<guid>a591dd02-4d1c-48a4-b650-91eec9f0083b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Desert_HipArmorLeft.xml</path>
+		<guid>c4a3f295-91d5-4341-bc1a-5d398ef0a3c4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Desert_HipArmorRight.xml</path>
+		<guid>f50c2998-4a5e-42f0-b447-31bbc84f8540</guid>
+	</files>
+
+
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Green_BeltLeft.xml</path>
+		<guid>778d4bc8-5ef6-47cc-8d60-84eb60aac4b0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Green_BeltRight.xml</path>
+		<guid>dec6c4d2-ac4b-4c90-9671-f3ef323fb5e1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Green_HipLeft.xml</path>
+		<guid>cf0f9d54-ade5-4371-bfac-cfb22e3d060a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Green_HipRight.xml</path>
+		<guid>ec46b72b-620a-497f-836b-468bd977b884</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Green_HipArmorLeft.xml</path>
+		<guid>6e134460-a213-453f-9f70-c86667bc793d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-Green_HipArmorRight.xml</path>
+		<guid>64f5f537-4aa2-43f8-961b-890dd5003f7d</guid>
+	</files>
+
+
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-White_BeltLeft.xml</path>
+		<guid>8d0f7f80-e122-4c60-80ae-372d4de64a15</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-White_BeltRight.xml</path>
+		<guid>56fee7a1-ef9d-43a5-b107-c00eb5f4528d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-White_HipLeft.xml</path>
+		<guid>a0e98a5c-3d45-48cb-920a-ac8f3f6bec35</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-White_HipRight.xml</path>
+		<guid>b6f0c60d-7c25-4fe2-8e6e-637ec7a96d02</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-White_HipArmorLeft.xml</path>
+		<guid>2a8ab2b2-7f5e-445d-bd01-538bacc33ecb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Holster_Defender-White_HipArmorRight.xml</path>
+		<guid>5e61db2b-8499-4010-a984-129efec857cb</guid>
+	</files>
+
+
+
+
+
+<!-- Sheath -->
+
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Black_HipLeft.xml</path>
+		<guid>1c748230-1676-4333-818f-add25dba817a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Black_HipRight.xml</path>
+		<guid>5dab827e-8dfc-42da-8819-c58326e567fc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Black_HipArmorLeft.xml</path>
+		<guid>ba059031-7091-4d5c-8de7-d6ec936bb9f6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Black_HipArmorRight.xml</path>
+		<guid>7a51fb6f-032f-4d5c-83fb-62c9284b9179</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Black_BeltLeft.xml</path>
+		<guid>0e32f9e9-0796-486d-8da9-dca47fae7f96</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Black_BeltRight.xml</path>
+		<guid>316471cf-eddd-43c7-950c-85dde9fbfd99</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Black_Back.xml</path>
+		<guid>6d3a507b-371b-4e7e-b916-418a9a9fde22</guid>
+	</files>
+
+
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Desert_HipLeft.xml</path>
+		<guid>f1e15d63-8176-46e6-8084-acecf3295874</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Desert_HipRight.xml</path>
+		<guid>242321ab-c4ac-4f18-bab1-ba80abcdef9c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Desert_HipArmorLeft.xml</path>
+		<guid>7b93782f-983b-45a9-9f93-4f3d08ce6722</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Desert_HipArmorRight.xml</path>
+		<guid>4c162591-6736-4486-9dca-0d8dd0759598</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Desert_BeltLeft.xml</path>
+		<guid>f6a4d79d-3de5-414a-935e-2231d428c4af</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Desert_BeltRight.xml</path>
+		<guid>d66e5277-a45d-4259-ab41-d22a1b8d0601</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Desert_Back.xml</path>
+		<guid>44b7cd95-c25c-4f89-998b-2630d9050802</guid>
+	</files>
+
+
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Green_HipLeft.xml</path>
+		<guid>e53953cd-7b8e-4c2b-bc2f-f9cfe87e659d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Green_HipRight.xml</path>
+		<guid>b29a1e4a-a690-4530-b6ed-afed4acb82c1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Green_HipArmorLeft.xml</path>
+		<guid>42708e6c-c316-413f-8fa0-8adeca6b8c39</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Green_HipArmorRight.xml</path>
+		<guid>670487ac-ba80-4760-9d50-df4c5f35b183</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Green_BeltLeft.xml</path>
+		<guid>75927f04-7752-4ad6-ba9b-d85a9430861f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Green_BeltRight.xml</path>
+		<guid>f433297a-fd57-4a7b-803b-0b889973b5f4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-Green_Back.xml</path>
+		<guid>a0f74175-10ef-4f07-9dbe-4401781edc10</guid>
+	</files>
+
+
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-White_HipLeft.xml</path>
+		<guid>35b19e96-a6f8-4a9d-b802-dc23af3f0451</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-White_HipRight.xml</path>
+		<guid>16aac393-5ad5-44a4-a74e-fe0bf9c4a0c0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-White_HipArmorLeft.xml</path>
+		<guid>2fdc803e-0dd9-4549-b208-57c74f175e03</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-White_HipArmorRight.xml</path>
+		<guid>b4649844-1780-40a4-afb3-c419f43b9616</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-White_BeltLeft.xml</path>
+		<guid>e89ea45f-47a5-4801-a25e-c547807ca6ef</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-White_BeltRight.xml</path>
+		<guid>2ae7d0ef-e251-44ce-9b4b-6ba945b6a566</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Military_Sheath_Defender-White_Back.xml</path>
+		<guid>b1715d5c-1e44-4276-b768-2301cc29b5a4</guid>
+	</files>
+
+
+
+
+
+</fileGuidTable>

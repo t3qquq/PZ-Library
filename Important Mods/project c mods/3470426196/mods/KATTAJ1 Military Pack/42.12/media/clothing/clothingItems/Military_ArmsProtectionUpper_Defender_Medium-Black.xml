@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Armor\M_ArmsProtectionUpper_Defender_Medium</m_MaleModel>
+	<m_FemaleModel>Skinned\Armor\F_ArmsProtectionUpper_Defender_Medium</m_FemaleModel>
+	<m_GUID>ce49b7b4-0b76-4d0e-afc7-0d05763e6a33</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>Clothes\ArmsProtectionUpper\Masks</m_MasksFolder>
+	<textureChoices>Clothes\Military\ArmsProtectionUpper\Military_ArmsProtectionUpper_Defender_Medium-Black</textureChoices>
+	<textureChoices>Clothes\Military\ArmsProtectionUpper\Military_ArmsProtectionUpper_Defender_Medium-BlackPlain</textureChoices>
+</clothingItem>

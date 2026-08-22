@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>455bbbd9-9549-498e-aa01-b2ec484ef95e</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>Clothes\Military\Shirt\Military_Shirt_ShortSleeveShirt-White</m_BaseTextures>
+	<m_BaseTextures>Clothes\Military\Shirt\Military_Shirt_ShortSleeveShirt-WhitePlain</m_BaseTextures>
+</clothingItem>

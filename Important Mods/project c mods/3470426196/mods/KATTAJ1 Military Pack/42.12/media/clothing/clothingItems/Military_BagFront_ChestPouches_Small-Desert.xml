@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\BackPacks\BagFront\M_BagFront_ChestPouches_Small</m_MaleModel>
+	<m_FemaleModel>Skinned\BackPacks\BagFront\F_BagFront_ChestPouches_Small</m_FemaleModel>
+	<m_GUID>60357a33-ad3d-42ab-a3d8-0df04ad71073</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<textureChoices>Clothes\Military\Bags\BagFront\Military_BagFront_ChestPouches_Small-Desert</textureChoices>
+	<textureChoices>Clothes\Military\Bags\BagFront\Military_BagFront_ChestPouches_Small-DesertPlain</textureChoices>
+</clothingItem>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Armor\M_BulletproofVest_Patriot_Light</m_MaleModel>
+	<m_FemaleModel>Skinned\Armor\F_BulletproofVest_Patriot_Light</m_FemaleModel>
+	<m_GUID>aa45d3d4-47cd-4d35-8fdb-1761a2538031</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Military\BulletproofVest\Military_BulletproofVest_Patriot_Light-White</textureChoices>
+	<textureChoices>Clothes\Military\BulletproofVest\Military_BulletproofVest_Patriot_Light-WhitePlain</textureChoices>
+</clothingItem>
