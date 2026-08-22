@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?was Bob_AttackRifle?>
+<animNode x_extends="SneakAssaultRifleDefault.xml">
+	<m_Name>SneakAssaultRifleBurst</m_Name>
+	<m_AnimName>Bob_SneakFireAimRifle</m_AnimName>
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions>
+		<m_StringValue>Burst</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>IsCrouchAim</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+</animNode>

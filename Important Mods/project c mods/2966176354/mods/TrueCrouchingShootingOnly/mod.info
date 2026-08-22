@@ -1,0 +1,4 @@
+name=True Crouching - Shooting Only
+id=TrueCrouchingSO
+description=Character model will crouch rather than stand while aiming and shooting a gun. <LINE> This only enables crouched shooting. <LINE><LINE><RGB:1,0.6,0.2> ENABLE ONLY ONE MOD. <RGB:0.3,1,0.6>
+poster=posterSO.png

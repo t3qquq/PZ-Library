@@ -1,0 +1,4 @@
+name=True Crouching
+id=TrueCrouching
+description=Character model will crouch rather than slouch while sneaking when idle. <LINE> This also includes crouched shooting. <LINE><LINE><RGB:1,0.6,0.2> ENABLE ONLY ONE MOD. <RGB:0.3,1,0.6>
+poster=poster.png

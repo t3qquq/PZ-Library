@@ -1,0 +1,17 @@
+These files are not changed but they were included in the mod to prevent errors and pretty much make it work.
+I compared files but there could be more like them.
+Or maybe these were also edited, I don't know anything anymore :)
+
+turn.xml
+turn_idle_sneak.xml
+turn_aim.xml
+turn_aim_90.xml
+turn_aim_180.xml
+
+05/08/2023
+Changed animation names in
+turn_aim_180L - original AnimName was Bob_IdleAim1Hand_Turn180L
+turn_aim_180R - original AnimName was Bob_IdleAim1Hand_Turn180R
+
+
+
