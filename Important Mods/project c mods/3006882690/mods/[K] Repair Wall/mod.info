@@ -1,0 +1,7 @@
+modversion=1.3.2
+authors=Kamer
+name=[K] Repair Wall
+id=KAMER_RepairWall
+description=Right click on object to repair it. Needed materials and tools will show on hover when object is damaged.
+poster=poster.png
+icon=logo_mini.png

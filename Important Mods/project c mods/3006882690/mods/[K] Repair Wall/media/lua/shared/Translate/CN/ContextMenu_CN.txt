@@ -1,0 +1,6 @@
+ContextMenu_CN = {	
+	ContextMenu_Kamer_RepairWall_Repair = "修理",
+	ContextMenu_Kamer_RepairWall_RepairOption = "修理 %1",
+
+	ContextMenu_Kamer_RepairWall_ToolTip1 = "%2预计修理: %1% <LINE> <LINE> <RGB:1,1,1>材料需求:",
+}

@@ -1,0 +1,6 @@
+ContextMenu_HU = {	
+	ContextMenu_Kamer_RepairWall_Repair = "Javítás",
+	ContextMenu_Kamer_RepairWall_RepairOption = "Javítás %1",
+
+	ContextMenu_Kamer_RepairWall_ToolTip1 = "%2Lehetséges javítások: %1% <LINE> <LINE> <RGB:1,1,1>Igények:",
+}

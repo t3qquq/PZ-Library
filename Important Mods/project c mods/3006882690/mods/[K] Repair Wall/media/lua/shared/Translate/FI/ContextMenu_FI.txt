@@ -1,0 +1,6 @@
+ContextMenu_FI = {	
+	ContextMenu_Kamer_RepairWall_Repair = "Korjaus",
+	ContextMenu_Kamer_RepairWall_RepairOption = "Korjaus %1",
+
+	ContextMenu_Kamer_RepairWall_ToolTip1 = "%2Mahdolliset korjaukset: %1% <LINE> <LINE> <RGB:1,1,1>Tarpeita:",
+}

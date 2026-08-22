@@ -1,0 +1,6 @@
+ContextMenu_CS = {	
+	ContextMenu_Kamer_RepairWall_Repair = "Opravit",
+	ContextMenu_Kamer_RepairWall_RepairOption = "Opravit %1",
+
+	ContextMenu_Kamer_RepairWall_ToolTip1 = "%2Pøípadnì opravy: %1% <LINE> <LINE> <RGB:1,1,1>Potøeby:",
+}

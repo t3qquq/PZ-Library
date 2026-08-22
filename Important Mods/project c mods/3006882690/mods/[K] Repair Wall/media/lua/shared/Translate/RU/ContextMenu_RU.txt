@@ -1,0 +1,6 @@
+ContextMenu_RU = {	
+	ContextMenu_Kamer_RepairWall_Repair = "Ремонт",
+	ContextMenu_Kamer_RepairWall_RepairOption = "Ремонт %1",
+
+	ContextMenu_Kamer_RepairWall_ToolTip1 = "%2Возможный ремонт: %1% <LINE> <LINE> <RGB:1,1,1>нужды:",
+}

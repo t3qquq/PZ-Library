@@ -1,0 +1,6 @@
+ContextMenu_TR = {	
+	ContextMenu_Kamer_RepairWall_Repair = "Tamirat",
+	ContextMenu_Kamer_RepairWall_RepairOption = "Tamirat %1",
+
+	ContextMenu_Kamer_RepairWall_ToolTip1 = "%2Potansiyel onarimlar: %1% <LINE> <LINE> <RGB:1,1,1>ihtiyaçlar:",
+}

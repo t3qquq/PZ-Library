@@ -1,0 +1,6 @@
+ContextMenu_PH = {	
+	ContextMenu_Kamer_RepairWall_Repair = "Pagkukumpuni",
+	ContextMenu_Kamer_RepairWall_RepairOption = "Pagkukumpuni %1",
+
+	ContextMenu_Kamer_RepairWall_ToolTip1 = "%2Potensyal na pag-aayos: %1% <LINE> <LINE> <RGB:1,1,1>Pangangailangan:",
+}

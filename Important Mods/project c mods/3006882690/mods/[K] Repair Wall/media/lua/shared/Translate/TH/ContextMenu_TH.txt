@@ -1,0 +1,6 @@
+ContextMenu_TH = {	
+	ContextMenu_Kamer_RepairWall_Repair = "ซ่อมแซม",
+	ContextMenu_Kamer_RepairWall_RepairOption = "ซ่อมแซม %1",
+
+	ContextMenu_Kamer_RepairWall_ToolTip1 = "%2การซ่อมแซมที่อาจเกิดขึ้น: %1% <LINE> <LINE> <RGB:1,1,1>ต้อง:",
+}
