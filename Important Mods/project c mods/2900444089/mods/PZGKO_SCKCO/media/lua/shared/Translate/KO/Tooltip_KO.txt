@@ -1,0 +1,8 @@
+Tooltip_KO = {
+
+    Tooltip_HMMWVSoftDoor = "M1025에 사용가능",
+    Tooltip_HMMWVHardDoor = "M1025에 사용가능",
+    Tooltip_M1008Tarp = "M1008 수송차량에 사용가능",
+    Tooltip_M1008TarpFrame = "M1008 수송차량에 사용가능",
+
+}

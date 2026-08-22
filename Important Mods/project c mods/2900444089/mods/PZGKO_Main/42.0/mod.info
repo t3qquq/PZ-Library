@@ -1,0 +1,12 @@
+name=프로젝트 좀보이드 갤러리 모드 번역 B42 [PZGKO_Main]
+poster=poster.png
+icon=lcon.png
+id=PZGKO_Main_B42
+versionMin=42.0.0
+authors=프로젝트 좀보이드 갤러리 일동
+description=<RGB:0.8,0.8,1>다양한 모드의 번역을 제공합니다. <LINE> <LINE>
+description=<RGB:0.8,0.8,1>번역: 프로젝트 좀보이드 갤러리 번역 지원 <LINE> <LINE>
+description=<RGB:1,1,0.3>번역된 모드 <LINE> <LINE>
+description=<RGB:0.8,0.8,1>창작마당 페이지를 참조 해주세요. <LINE> <LINE>
+description=허락 없이 수정하거나 다른 곳에 배포하지 마세요. <LINE> <LINE>
+description=42빌드용입니다. 41빌드 사용 중인데 이 문구가 보이신다면... <LINE> <LINE>

@@ -1,0 +1,56 @@
+module Base
+{
+ 
+    item Vest_BulletEMS
+    {
+        Type = Clothing,
+        DisplayName = EMS Bulletproof Vest,
+        ClothingItem = Vest_BulletEMS,
+        BodyLocation = TorsoExtra,
+        Icon = BulletVestEMS,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,
+        AttachmentsProvided = ChestRigRight,
+		Tooltip = Tooltip_Vest_BulletEMS,
+        WorldStaticModel = BulletVest_Ground,
+    }
+
+    item Vest_BulletFire
+    {
+        Type = Clothing,
+        DisplayName = Fire Dept. Bulletproof Vest,
+        ClothingItem = Vest_BulletFire,
+        BodyLocation = TorsoExtra,
+        Icon = BulletVestFire,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,
+        AttachmentsProvided = ChestRigRight,
+		Tooltip = Tooltip_Vest_BulletFire,
+        WorldStaticModel = BulletVest_Ground,
+    }  
+   
+    item Vest_BulletPress
+    {
+        Type = Clothing,
+        DisplayName = Press Bulletproof Vest,
+        ClothingItem = Vest_BulletPress,
+        BodyLocation = TorsoExtra,
+        Icon = BulletVestPress,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,
+		Tooltip =Tooltip_Vest_BulletEMS,
+        WorldStaticModel = BulletVest_Ground,
+    }
+}

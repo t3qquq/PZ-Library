@@ -1,0 +1,36 @@
+Print_Text_KO = {
+
+
+
+Print_Text_Fortune1_title = "행운의 메시지",
+Print_Text_Fortune1_info = "'경험은 인생의 최고의 선생님이다.'",
+
+Print_Text_Fortune2_title = "행운의 메시지",
+Print_Text_Fortune2_info = "'오늘 하루가 마지막인 것처럼 살아라.'",
+
+Print_Text_Fortune3_title = "행운의 메시지",
+Print_Text_Fortune3_info = "'삶에 후회란 없다.'",
+
+Print_Text_Fortune4_title = "행운의 메시지",
+Print_Text_Fortune4_info = "'다시 꿈을 꾸게 하소서.'",
+
+Print_Text_Fortune5_title = "행운의 메시지",
+Print_Text_Fortune5_info = "'상처를 지혜로 바꾸어 봐.'",
+
+Print_Text_Fortune6_title = "행운의 메시지",
+Print_Text_Fortune6_info = "'너가 얼마나 멀리 왔는지를 보라.'",
+
+Print_Text_Fortune7_title = "행운의 메시지",
+Print_Text_Fortune7_info = "'개고블린 조심해.'",
+
+Print_Text_Fortune8_title = "행운의 메시지",
+Print_Text_Fortune8_info = "'당신이 스스로의 모습이 아니라면 존재의 의미가 무엇입니까?'",
+
+Print_Text_Fortune9_title = "행운의 메시지",
+Print_Text_Fortune9_info = "'날 수 있는 용기가 없는 날개가 무슨 소용인가.'",
+
+Print_Text_Fortune10_title = "행운의 메시지",
+Print_Text_Fortune10_info = "'조금씩 멀리.'",
+
+
+}

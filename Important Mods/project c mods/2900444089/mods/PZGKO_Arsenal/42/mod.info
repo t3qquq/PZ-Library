@@ -1,0 +1,7 @@
+name=프로젝트 좀보이드 갤러리 모드 번역 B42 Arsenal[26] GunFighter & Brita's Weapon Pack [PZGKO_Arsenal]
+poster=poster.png
+icon=lcon.png
+id=PZGKO_Arsenal
+authors=프로젝트 좀보이드 갤러리 일동
+description=<RGB:0.8,0.8,1>41빌드 호환용 더미 데이터입니다. 해당 번역 지원 전까지 활성화 금지 <LINE> <LINE>
+require=NotForB42
