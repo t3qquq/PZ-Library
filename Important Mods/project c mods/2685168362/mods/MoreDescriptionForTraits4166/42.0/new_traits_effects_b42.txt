@@ -1,0 +1,517 @@
+SpeedDemon : 
+    The fast driver.<br>
+    
+    (+100% gear switching speed,<br>
+    +15% top speed for all vehicles,
+    <br>+200% engine loudness when reversing.)
+    +15% Corpse Grapple Effectiveness
+    Increased reversing speed.
+
+Sunday Driver :
+    (-40% acceleration, -30% reverse acceleration, max speed of 30 MPH,<br>No change to engine loudness.)
+
+Poor Passenger
+Gets motion sickness in a moving vehicle.
+(Increases faster the faster the vehicle goes, up to 30% sickness maximum)
+
+Handy:
++100 HP to all constructions except walls.<br>Increased building speed.<br>Slightly increased barricading speed.)",
+
+
+Cowardly :
+    -10% Corpse Grapple Effectiveness
+    "Especially prone to becoming panicked.<br>
+    (+100% panic, except for night terrors and phobias.)
+    +100% stress and unhappiness from stripping items from corpses
+
+Brave: 
+    Less prone to becoming panicked.
+
+    +10% Corpse Grapple Effectiveness
+    -50% stress and unhappiness from stripping items from corpses
+    (-70% panic, except for night terrors and phobias.)
+
+Clumsy:
+    "Makes more noise when moving.<br>
+    (+20% footstep radius sound,<br>
+    +10% chance to trip when run/sprint vaulting a low fence or getting attacked by lunging zombies.<br>
+    Increased chance of falling when bumping into a zombie or survivor.)",
+    Increased chance of injury when opening a can without can opener
+
+Graceful : Nothing changes
+
+Dextrous
+    Decreased chance of injury when opening a can without can opener
+
+Lucky 
+    Decreased chance of injury when opening a can without can opener
+
+Unlucky
+    Increased chance of injury when opening a can without can opener
+
+Short Sighted:
+    "Smaller view distance.<br>Slower visibility fade.<br>Weapon sights less effective",
+    (Also gives blurry vision)
+    (Weapon sights' bonus range are always at minimum value)
+    "The maluses can be canceled by wearing glasses"
+
+HardOfHearing
+    "Smaller perception radius and hearing range.<br>
+    (Some sound effects will be muffled.)",
+    Zombies approaching from behind will be visible later
+
+KeenHearing 
+    "Larger perception radius.<br>
+    (+150% perception radius.<br>Zombies approaching from behind will be visible much earlier.)",
+
+Deaf 
+    "Very small perception radius and hearing range.<br>
+    (Can't hear sound. Radio chatter doesn't appear.<br>Still able to watch TV due to closed captions.)"	,
+
+Eagle Eyed
+    Has a faster visibility fade and a higher visibility arc.
+    (Wider field of view.)
+    (+20% max range modifier on weapon sights)
+
+Hearty Appetite: 
+    Needs to eat more regularly.<br>(+50% hunger.)
+
+Light Eater:
+     Needs to eat less regularly.<br>(-25% hunger)
+
+Desensitized:
+    "Far less prone to panic",
+
+    -85% panic, except for night terrors and phobias
+    Doesn't panic from zombies reanimating
+    No stress or unhappiness from stripping items from corpses
+
+ThickSkinned: 
+    "Less chance of scratches or bites breaking the skin.<br>
+    
+    (+30% chance of not being injured by zombies.<br>-54% chance of getting scratched/cut by trees.)",
+
+Thinskinned
+    "Increased chance of scratches, lacerations, or bites breaking the skin.<br>
+    
+    (-23% chance of not being injured by zombies.<br>
+    +100% chance of getting scratched/cut by trees.)"	,
+
+Unfit:
+    "Very low endurance, very low endurance regeneration.<br>
+
+    (Can become Out of Shape by training Fitness to level 3.<br>
+    Gained if Fitness is below level 3.)"	,
+
+
+Out of shape:
+    "Low endurance, low endurance regeneration.<br>
+    (Can be lost by training Fitness to level 5.<br>
+    Trait becomes Unfit is Fitness goes below level 3.<br>
+    Gained if Fitness goes below level 5.)",
+    -1% speed ?
+
+Fit : 
+    "Fit.<br>
+    (Can be gained by training Fitness to level 6.<br>
+    Replaced by Athletic when reaching level 9 Fitness.<br>
+    Lost if Fitness is below level 6.)",
+
+
+Athletic:
+    "Faster running speed.<br>Can run for longer without tiring.<br>
+    Can be gained by training Fitness to level 9.<br> Lost if Fitness is below 9.",
+    +20% running/sprinting speed.
+    -20% running/sprinting endurance loss from the trait itself.
+    +25% Corpse Grapple Effectiveness
+
+Nutritionist:
+    "Can see the nutritional values of any food.
+    (Including non-packaged food and cooked food.)",
+
+
+Nutritionist2:
+    "Can see the nutritional values of any food.
+    (Including non-packaged food and cooked food.)",
+
+WeightGain:
+    Permanent tendency to gain weight. Starts with high weight trait.
+    (CURRENTLY BUGGED)
+    (Higher calory threshold to gain weight , if current weight < 90kg)
+    (1280 instead of 1000(for women) or 1100(for men))
+
+WeightLoss:
+    Permanent tendency to lose weight. Starts with High Weight trait.
+    (Higher calory threshold to gain weight , if current weight > 70kg)
+    (1920 instead of 1000(for women) or 1100(for men))
+
+Overweight
+    "Reduced running speed, very low endurance and prone to injury.<br>
+    +10% chance to trip while run/sprint vaulting a low fence.<br>
+    -5% chance to trip from getting attacked by lunging zombies.<br>
+    Slightly increased chance of falling when bumping into a zombie or survivor.<br>
+    Increased chance to fail a tall fence or wall climb.<br>
+    -30% endurance regeneration.<br>
+    Doubled endurance loss when walking with heavy weight or running, sprinting, dragging corpses
+    +20% fall damage. and slightly increased chance of fracture/deep wound from falling.)<br>
+    Slower rope climbing speed
+    -1% running/sprinting speed.
+    +10% Corpse Grapple Effectiveness
+    <br>Cannot gain Fitness XP towards level 10."	,
+    -----
+    Starting weight is 95.<br>
+    Replaced by Obese if weight goes above 100.<br>
+    Lost if weight goes below 85.<br>
+
+Underweight:
+    "Low strength, low endurance and prone to injury.<br>
+    -20% melee damage.<br>
+    +10% chance to trip while run/sprint vaulting a low fence or getting attacked by lunging zombies.<br>
+    Slightly increased chance of falling when bumping into a zombie or survivor.<br>
+    Increased chance to fail a tall fence climb.<br>
+    Cannot gain Fitness XP towards level 10.)",
+    -20% Corpse Grapple Effectiveness
+    ---------
+    Starting weight is 70.
+    Replaced by Very Underweight if weight goes below 65.
+    Lost if weight goes above 75.
+
+Emaciated:
+    "Low strength, low endurance and prone to injury.<br>
+    -60% melee damage.<br>
+    Greatly increased chance to fail a tall fence climb.<br>
+    -70% endurance regeneration.<br>
+    +40% fall damage, and increased chance of fracture/deep wound from falling.<br>
+    Cannot gain Fitness XP towards levels 7 and higher.)",
+    -60% Corpse Grapple Effectiveness
+    --
+    Replaced by 'Very Underweight' if weight goes above 50.<br>
+    Character will start losing life if weight is below 35.
+    --- no longer the case ?
+    +20% chance to trip while run/sprint vaulting a low fence.<br>
+    -10% chance to trip from getting attacked by lunging zombies.<br>
+    Increased chance of falling when bumping into a zombie or survivor.<br>
+
+
+Very Underweight:
+    "Very low strength, very low endurance and prone to injury.<br>
+    -40% melee damage.<br>
+    +20% chance to trip while run/sprint vaulting a low fence or getting attacked by lunging zombies.<br>
+    Increased chance of falling when bumping into a zombie or survivor.<br>
+    Greatly increased chance to fail a tall fence climb.<br>
+    -30% endurance regeneration.<br>
+    +20% fall damage and slightly increased chance of fracture/deep wound from falling.<br>
+    Cannot gain Fitness XP towards levels 7 and higher.)",
+    -40% Corpse Grapple Effectiveness
+    ----
+    (Starting weight is 60.<br>
+    Replaced by Emaciated if weight goes below 50.<br>
+    Replaced by Underweight if weight goes above 65.<br>
+
+Obese:
+    "Reduced running speed, very low endurance and prone to injury.<br>
+    (Starting weight is 105.<br>Replaced by Overweight if weight goes below 100.<br>
+    +20% chance to trip while run/sprint vaulting a low fence.<br>
+    -10% chance to trip from getting attacked by lunging zombies.<br>
+    Increased chance of falling when bumping into a zombie or survivor.<br>
+    Greatly increased chance to fail a tall fence climb.<br>
+    -60% endurance regeneration.<br>
+    +40% fall damage, and increased chance of fracture/deep wound from falling.
+    -15% running/sprinting speed 
+    Additionnal -3% running/sprinting speed if current weight > 120
+    <br>Cannot gain Fitness XP towards levels 7 and higher.)",
+    +5% Corpse Grapple Effectiveness
+
+Strong:
+    "Extra knockback from melee weapons and increased carry weight.<br>
+    +40% knockback power.<br> 
+    +25% Corpse Grapple Effectiveness
+    ----
+    Can be gained by training Strength to level 9.
+    Lost if Strength is below level 9.",
+
+Stout:
+    "Extra knockback from melee weapons and increased carry weight.<br>(Can be gained by training Strength to level 6.<br>
+    ---
+    Replaced by Strong when reaching level 9 Strength.
+    Lost if Strength is below 6.)",
+
+Weak:
+    "Less knockback from melee weapons. Decreased carrying weight.<br>
+    (-40% knockback power.)
+    ---
+    Can become Feeble by training Strength to level 2.
+    <br> Gained if Strength goes below level 2.)",
+
+Feeble:
+    "Less knockback from melee weapons. Decreased carrying weight.<br>
+    ---
+    (Can be lost by training Stength to level 5.<br>
+    Trait will be gained if Strength is below level 5.)"	,
+
+Resilient:
+    "Less prone to disease. Slower rate of zombification.<br>
+
+    -25% corpse sickness,
+    -55% chance of catching a cold,
+    -20% cold strength,
+    -50% cold progression speed.
+    -25% zombification speed, 
+
+ProneToIllness:
+    "More prone to disease. Faster rate of zombification.<br>
+
+    +25% corpse sickness
+    +70% chance of catching a cold
+    +20% cold strength
+    +50% cold progression speed,
+    +25% zombification speed,
+
+Agoraphobic:
+    "Gets panicked outdoors.",
+
+Claustrophobic:
+    "Gets panicked when indoors.<br>
+
+    (But not in rooms of 70+ tiles. The smaller the room, the faster the panic increase.)",
+
+Marksman:
+    -40% wind penalty when aiming with guns
+    +20% accuracy with guns
+    +10% crit chance with guns
+    better aiming delay
+
+NightOwl:
+    "Requires little sleep.<br>Stays extra alert when sleeping.<br>
+    
+    (+40% tiredness recovery rate when sleeping. BUT does not affect sleep time, so the character will stay asleep after reaching 0 tiredness.<br> 
+    Needs to set an alarm every night to take full advantage of the trait.)",
+
+Outdoorsman:
+    "Not affected by harsh weather conditions.<br>
+    
+    Greatly decreased chance of getting scratched/lacerated while walking or running through trees.<br>
+    -75% chance of catching a cold.<br>
+    -33% chance of breaking fire kindling.
+    Lights fires ~100% faster.<br>
+    "-33% gun aim weather penalty,
+
+Fast Healer
+    "Recovers faster from injury and illness.<br>
+
+    (-20% severity of vehicle injuries. 
+    -40% Fracture severity
+    All other wounds heal much faster,
+    No effect on exercise fatigue.,
+
+Slow Healer;
+    "Recovers slowly from injuries and illness.<br>
+
+    +20% severity of vehicle injuries,
+    +80% Fracture severity,
+    All other wounds heal much slower,
+    No effect on exercise fatigue.
+
+Fast Learner:
+    "Increases XP gains.
+    
+    (+30% xp for all skills, except Fitness and Strength)",
+
+Slow Learner:
+    "Decreased XP gains.
+
+    (-30% for all skills, except Fitness and Strength.)"	,
+
+FastReader:
+    "Takes less time to read books.
+
+    (+30% reading speed)",
+
+Slow Reader:
+    Takes longer to read books.
+
+    -30% reading speed.
+
+Illiterate:
+    Cannot read any books or in-world text.
+    (Including text on maps or calory values on packaged food)
+    (Cannot write)
+
+
+Adrenaline Junkie
+    "Moves faster when highly panicked.
+
+    (+0.2 or +0.25 base speed at Strong or Extreme Panic.)",
+    (Still can't go above the move speed cap)
+
+Inconspicuous
+    "Less likely to be spotted by zombies.<br>
+
+    If using the new stealth system : 
+    (-20% chance of being spotted by a zombie.)",
+
+    If using the old stealth system : 
+    -50% chance of being spotted by a zombie.",
+
+Conspicuous:
+    "More likely to be spotted by zombies.<br>
+
+    If using the new stealth system : 
+    (+20% chance of being spotted by a zombie.)",
+
+    If using the old stealth system : 
+    (+100% chance of getting spotted by a zombie.)",
+
+NeedsLessSleep:
+    "Needs less sleep.<br>
+
+    -30% tiredness rate
+    -25% sleep duration
+    +25% tiredness recovery rate when sleeping.
+
+NeedsMoreSleep 
+    Needs more sleep
+
+    +30% tiredness rate
+    +18% sleep duration
+    -18% tiredness recovery rate when sleeping.
+
+
+
+NightVision:
+    "Better vision at night. (+20%)
+    
+    (slightly increased minimum ambiant light, except in closed rooms)
+    (Reduced vision cone malus in the darkness)
+
+Organized (Packmule)
+    "Increased container inventory capacity.(+30%, including car seats)",
+
+Disorganized
+    "Decreased container inventory capacity. (-30%)"	,
+    (After crafting, doesn't return the items to their original container)
+
+Low Thirst : 
+    "Needs to drink water less regularly.<br>(-50% thirst)",
+
+High Thirst :
+    "Needs more water to survive.<br>(+100% thirst.)"	,
+
+
+
+Burglar:
+    Can hotwire vehicles. Less chance of breaking window locks
+    
+    (Slightly increased rope climbing speed)
+    (Decreased chance to fail climbing a tall fence or wall)
+
+Fishing
+
+    Free recipes :
+    Make Fishing Rod,
+    Fix Fishing Rod,
+    Make Chum
+
+gardener
+    Free recipes :
+    - Make flies cure from cigarettes or tobacco
+    - Make mildew cure
+    - Make aphids cure
+    - Make scarecrow
+    - All crops' & herbs' growing seasons
+    - Pickle all types of vegetables in jar
+
+Insomniac :
+    "Slow loss of tiredness while sleeping.
+    
+    Sleeps less hours, and 50% slower loss of tiredness when sleeping.",
+
+Pacifist:
+    "Less effective with weapons.
+
+    -25% XP for all weapon skills and Aiming skill.
+
+
+Smoker:
+    Unhappiness rises when tobacco is not smoked.
+    Stress and Unhappiness decrease after smoking tobacco
+
+Tailor:
+
+    Free recipes :
+    - Can knit balaclavas, beanies, doilies, legwarmers, scarves, socks, sweater vests, wooly hats
+
+Dextrous:
+    "Transfers inventory items quickly.
+    Faster rope climbing speed, and less chance of falling
+    Faster weapon shouldering time
+
+    (-50% inventory tranferring time.)",
+    (-20% aiming delay with guns),
+    (Decreased chance of jamming guns) 
+    (Decreased chance of wound when opening a can without a can opener)
+
+All Thumbs:
+    Transfers inventory items slowly.
+    Can't craft anything while walking.
+    Slower rope climbing speed, and higher chance of falling.
+    Slower weapon shouldering time.
+
+    (+100% inventory tranferring time.)",
+    (+20% aiming delay with guns),
+    (Increased chance of jamming guns) 
+    (Increased chance of wound when opening a can without a can opener)
+
+
+WeakStomach
+    "Higher chance to have food illness.
+
+    (+100% food illness chance)<br>
+    (Taited water is 50% more poisonous)
+    (Food illness lasts ~ 45% longer.)",
+
+IronGut
+    "Less chance to have food illness.<br>
+    
+    -50% food illness chance.
+    Food illness lasts ~ 55% shorter on average.
+    Taited water is 50% less poisonous
+    Raw eggs never cause food illness.",
+
+Hemophobic:
+    Panic when performing first aid on self.<br>Cannot perform first aid on others.<br>Gets stressed when bloody.",
+    (inventory transfer of bloody items is faster and causes stress)
+
+Asthmatic
+    "Faster endurance loss.<br>
+    
+    +42% endurance loss when running , sprinting , carrying heavy load, or dragging corpses.
+    +20% endurance loss when swinging.
+
+Blacksmith:
+    Free recipes:
+    Construct forges
+    Forge various items
+
+Gymnast:
+
+    Decreased chance of failing a tall fence / wall climb
+    Slightly increased roped climbing speed
+
+---- PROFESSIONS ----
+
+Park Ranger
+    +30% move speed in trees
+
+Lumberjack
+    +15% move speed in trees
+
+Fireoffice
+    Starts with 10 - 20 % regularity in all fitness & strength exercises
+
+Fitnessinstructor
+    Starts with 40 - 60 % regularity in all fitness & strength exercises
+
+Securityguard
+    Starts with 7 - 12 % regularity in all fitness & strength exercises
+
