@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+<!-- Helmet -->
+
+    <files>
+        <path>media/clothing/clothingItems/Helmet_Cerberus.xml</path>
+        <guid>1a910f0a-a1b5-49d5-b787-c4f6ca86d980</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Helmet_Cerberus_NoBelts.xml</path>
+        <guid>8b7cea36-f486-4c8b-a972-8f559c8e0f76</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Helmet_Mandible_Cerberus.xml</path>
+        <guid>8a711c94-179a-4fa5-9ac9-ceae16b00b08</guid>
+    </files>
+
+
+
+
+
+<!-- GasMask -->
+<!-- MaskFull -->
+
+    <files>
+        <path>media/clothing/clothingItems/MaskFull_BallisticMask_Cerberus.xml</path>
+        <guid>93813627-8af0-45f3-985c-812941b9007f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/MaskFull_BallisticMask_Cerberus_NoBelts.xml</path>
+        <guid>0e619007-4997-436c-8bd6-9fd7c7503894</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/MaskFull_BallisticMask_Cerberus-Blood.xml</path>
+        <guid>3693d4a3-45ea-42fe-b1ec-dfec79c8add1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/MaskFull_BallisticMask_Cerberus_NoBelts-Blood.xml</path>
+        <guid>efff4dcf-c101-41ea-8eb4-08f3af08fd4b</guid>
+    </files>
+
+
+
+
+
+<!-- BulletproofVest -->
+
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Cerberus.xml</path>
+        <guid>e907279c-53c9-4c5e-83ce-054e5f175af8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Cerberus_AssaultKit.xml</path>
+        <guid>1e3a5c53-c9d9-48ec-a5fd-9f4631c6da15</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Cerberus_AssaultLightKit.xml</path>
+        <guid>1061ce18-c42f-4c56-9291-d73c4d4140db</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Cerberus_FullProtectionKit.xml</path>
+        <guid>f91580bd-5d7a-45a1-8057-634074b75cec</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BulletproofVest_Cerberus_HighMobilityKit.xml</path>
+        <guid>37e011cb-a127-43df-a271-0b967d4a6718</guid>
+    </files>
+
+
+
+
+
+<!-- ElbowPads -->
+
+    <files>
+        <path>media/clothing/clothingItems/ElbowPads_Cerberus.xml</path>
+        <guid>ab1f1851-2725-4cde-9a8d-40c71e7352fb</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/ElbowPads_Cerberus_Tight.xml</path>
+        <guid>dd5eaa1e-0148-4efa-a008-3ca78f1b209d</guid>
+    </files>
+
+
+
+
+
+<!-- KneePads -->
+
+    <files>
+        <path>media/clothing/clothingItems/KneePads_Cerberus.xml</path>
+        <guid>e8bed5a2-352e-4900-b465-e298e82f0813</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/KneePads_Cerberus_Tight.xml</path>
+        <guid>8ec54fb9-7294-40f3-9c2b-1555ddcab18b</guid>
+    </files>
+
+
+
+
+
+<!-- Hat -->
+
+    <files>
+        <path>media/clothing/clothingItems/Hat_BaseballCap_Cerberus.xml</path>
+        <guid>3c4936c2-1f1e-476e-8e70-55bfbf07bacd</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Hat_BaseballCap_Cerberus_Reverse.xml</path>
+        <guid>30cd78af-4497-424e-949f-d83896685d8f</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Headsets_Cerberus.xml</path>
+        <guid>f403bc5b-ebd6-4970-80be-56c17a2be80d</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Headsets_Cerberus_Helmet.xml</path>
+        <guid>2cee377b-bae6-4b7e-b923-d9e5ff5ec0b4</guid>
+    </files>
+
+
+
+
+
+<!-- Glasses -->
+
+    <files>
+        <path>media/clothing/clothingItems/Glasses_Goggles_Cerberus.xml</path>
+        <guid>b3910194-f5ff-4b7e-a1a4-bfaa41c10015</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Glasses_Tactical_Cerberus.xml</path>
+        <guid>7e7ef681-e477-40e8-8190-25eb0ae31cd0</guid>
+    </files>
+
+
+
+
+
+<!-- Mask -->
+
+    <files>
+        <path>media/clothing/clothingItems/Mask_Balaclava_Cerberus.xml</path>
+        <guid>67c05d91-0fad-4195-9851-2ad1c4e1cfba</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Mask_BandanaMask_Cerberus.xml</path>
+        <guid>c4d80307-0215-4dbe-957e-cc988d1cfe6d</guid>
+    </files>
+
+
+
+
+
+<!-- Shirt -->
+
+    <files>
+        <path>media/clothing/clothingItems/Shirt_Cerberus.xml</path>
+        <guid>3a4edaeb-5c6f-4807-aa06-c792ed607f88</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_Cerberus_Open.xml</path>
+        <guid>a08f67f6-cdd6-46f9-b3d0-a41c852af06f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_Cerberus_OpenRolledUpSleeves.xml</path>
+        <guid>43e5c483-0f37-475e-80d1-04b1cbaa786d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_Cerberus_RolledUpSleeves.xml</path>
+        <guid>bdf14a20-7978-4abb-8d51-406b942fa149</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Shirt_ShortSleeve_Cerberus.xml</path>
+        <guid>336294e8-634a-43e2-825a-271d3ce468a8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_ShortSleeve_Cerberus_Open.xml</path>
+        <guid>d4cf47f3-172d-4acc-8742-9035db2b41da</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Shirt_Neckholder_Cerberus.xml</path>
+        <guid>221f828c-620f-49d8-a636-f23c19a09a93</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_NeckholderShort_Cerberus.xml</path>
+        <guid>778effb9-8b83-410f-b2e1-879a75a9816b</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Shirt_TankTop_Cerberus.xml</path>
+        <guid>f029a791-7eca-4296-84e7-ba8eff9f5465</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_TankTopShort_Cerberus.xml</path>
+        <guid>42defde4-fdbc-434e-9ced-59516bd99eb3</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Shirt_Tshirt_Cerberus.xml</path>
+        <guid>7f459c01-02f9-4a11-bd02-4f57a025e120</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Shirt_TshirtShort_Cerberus.xml</path>
+        <guid>7900a5f4-38cb-4516-891a-d0ab50c7119f</guid>
+    </files>
+
+
+
+
+
+<!-- Jacket -->
+
+    <files>
+        <path>media/clothing/clothingItems/Jacket_Lightweight_Cerberus.xml</path>
+        <guid>cf6bbe11-94aa-44ea-9a8a-1f3e32090994</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Jacket_Lightweight_Cerberus_RolledUpSleeves.xml</path>
+        <guid>357ab688-a158-49a1-bae1-54f558383c97</guid>
+    </files>
+
+
+
+
+
+<!-- Gloves -->
+
+    <files>
+        <path>media/clothing/clothingItems/Gloves_Cerberus.xml</path>
+        <guid>ddc12bbd-43c8-4f7e-87a1-3c2d25261aa4</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/GlovesFingerless_Cerberus.xml</path>
+        <guid>96326de2-9d49-4272-8660-d9fe754f6f37</guid>
+    </files>
+
+
+
+
+
+<!-- Pants -->
+
+    <files>
+        <path>media/clothing/clothingItems/Pants_Classic_Cerberus.xml</path>
+        <guid>de7e7dd5-6a8c-4255-946b-f6ba15714b99</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Pants_Classic_Cerberus_RollUp.xml</path>
+        <guid>68a58170-31f1-4da8-80b6-e3afe766dc47</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Pants_Classic_Cerberus_Tuck.xml</path>
+        <guid>c225fd26-07ac-4c06-9002-70689bcbfb13</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Pants_Shorts_Cerberus.xml</path>
+        <guid>c8a4ff46-ca1e-40c1-967f-d5dc281852a6</guid>
+    </files>
+
+
+
+    <files>
+        <path>media/clothing/clothingItems/Pants_Skinny_Cerberus.xml</path>
+        <guid>a31fcec0-b666-4672-aed6-df3e6cb60cab</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Pants_Skinny_Cerberus_RollUp.xml</path>
+        <guid>00965067-aa0b-4ec4-a249-87c91d036dd9</guid>
+    </files>
+
+
+
+
+
+<!-- Shoes -->
+
+    <files>
+        <path>media/clothing/clothingItems/Shoes_TacticalBoots_Cerberus.xml</path>
+        <guid>9bb861df-bb71-4abe-a0e4-d3eb662524f5</guid>
+    </files>
+
+
+
+
+
+<!-- Underwear -->
+
+    <files>
+        <path>media/clothing/clothingItems/Stockings_Cerberus.xml</path>
+        <guid>5e5d2c7f-e4c9-40f6-8de4-c4c56a1f9ef7</guid>
+    </files>
+
+
+    <files>
+        <path>media/clothing/clothingItems/Tights_Cerberus.xml</path>
+        <guid>c12cf2a9-6b39-4230-906f-696e97e88e24</guid>
+    </files>
+
+
+
+
+
+<!-- Backpack -->
+
+    <files>
+        <path>media/clothing/clothingItems/Backpack_Cerberus.xml</path>
+        <guid>005c9634-ff6f-48eb-a063-d2414610a5a3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Backpack_Cerberus_LHand.xml</path>
+        <guid>5ea40998-5bf6-4d3d-8b68-35959443b464</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Backpack_Cerberus_RHand.xml</path>
+        <guid>c6af0693-6919-4818-b08d-e7739aed41b9</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Backpack_Cerberus_Tight.xml</path>
+        <guid>128054d7-fad1-4429-be60-5312ac8a9604</guid>
+    </files>
+
+
+
+
+
+<!-- ChestRigs -->
+
+    <files>
+        <path>media/clothing/clothingItems/ChestRigs_Cerberus.xml</path>
+        <guid>bbc1d8e6-946e-4918-b5d0-f82fd8ca1bf4</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/ChestRigs_Cerberus_LHand.xml</path>
+        <guid>347abe34-148f-4b02-bae9-11a525f43e59</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/ChestRigs_Cerberus_NoBelts.xml</path>
+        <guid>bcefff19-4a1a-4aa3-a403-03c268daccc8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/ChestRigs_Cerberus_RHand.xml</path>
+        <guid>eeac0eaf-6e53-4c34-bf46-e6d43fc0a4e7</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/ChestRigs_Cerberus_Tight.xml</path>
+        <guid>c7694770-4688-485a-8cb5-52f472d0da71</guid>
+    </files>
+
+
+
+
+
+<!-- FannyPack -->
+
+    <files>
+        <path>media/clothing/clothingItems/FannyPack_Cerberus.xml</path>
+        <guid>d57a05f2-fb81-4b14-b209-6998e93383ee</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/FannyPack_Cerberus_Front.xml</path>
+        <guid>0dc53600-2f44-49dc-9ecc-d6fe5a6585b5</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/FannyPack_Cerberus_LHand.xml</path>
+        <guid>6939bdb2-6177-4a4d-83cb-b8de1728ea55</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/FannyPack_Cerberus_RHand.xml</path>
+        <guid>7671f0a5-ed3f-4dcd-bac4-7cbfff6d0f9a</guid>
+    </files>
+
+
+
+
+
+<!-- HipBag -->
+
+    <files>
+        <path>media/clothing/clothingItems/HipBag_Cerberus_ArmorLeft.xml</path>
+        <guid>941bc84d-000c-494a-a852-68d687f6eb9f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/HipBag_Cerberus_ArmorRight.xml</path>
+        <guid>0afd91ca-a8dc-4a92-8905-0978e74c1326</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/HipBag_Cerberus_Left.xml</path>
+        <guid>cceff918-472c-4bd5-bd92-4a49ebfbfa43</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/HipBag_Cerberus_LHand.xml</path>
+        <guid>7b5fa138-3900-4791-9136-2ad372391293</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/HipBag_Cerberus_RHand.xml</path>
+        <guid>4fe0e930-db26-4988-9b96-d9dcc7ca4c91</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/HipBag_Cerberus_Right.xml</path>
+        <guid>dc6758b9-d220-4017-87d6-2e617693f870</guid>
+    </files>
+
+
+
+
+
+</fileGuidTable>

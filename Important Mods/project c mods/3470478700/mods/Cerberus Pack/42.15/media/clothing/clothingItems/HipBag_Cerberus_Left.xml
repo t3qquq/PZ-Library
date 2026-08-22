@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Backpacks\HipBag\M_HipBag_Cerberus_Left</m_MaleModel>
+	<m_FemaleModel>Skinned\Backpacks\HipBag\F_HipBag_Cerberus_Left</m_FemaleModel>
+	<m_GUID>cceff918-472c-4bd5-bd92-4a49ebfbfa43</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_L_Thigh</m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<textureChoices>Clothes\Cerberus\Bags\HipBag\HipBag_Cerberus</textureChoices>
+</clothingItem>

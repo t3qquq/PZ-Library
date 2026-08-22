@@ -1,0 +1,534 @@
+ VERSION = 1,
+
+option Cerberus.Category1
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_Category1,
+    description = Cerberus_Category1,
+}
+option Cerberus.UnifrormZombiesDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.06,
+	page = Cerberus, 
+	translation = Cerberus_UnifrormZombiesDefault, 
+	description = Cerberus_UnifrormZombiesDefault,
+}
+option Cerberus.LightArmoredZombiesDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.04,
+	page = Cerberus, 
+	translation = Cerberus_LightArmoredZombiesDefault, 
+	description = Cerberus_LightArmoredZombiesDefault,
+}
+option Cerberus.MediumArmoredZombiesDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.02,
+	page = Cerberus, 
+	translation = Cerberus_MediumArmoredZombiesDefault, 
+	description = Cerberus_MediumArmoredZombiesDefault,
+}
+option Cerberus.HeavyArmoredZombiesDefault
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.01,
+	page = Cerberus, 
+	translation = Cerberus_HeavyArmoredZombiesDefault, 
+	description = Cerberus_HeavyArmoredZombiesDefault,
+}
+
+
+
+
+option Cerberus.EmptyLine2
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_EmptyLine,
+    description = Cerberus_EmptyLine,
+}
+option Cerberus.Category2
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_Category2,
+    description = Cerberus_Category2,
+}
+option Cerberus.UnifrormZombiesPolice
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.08,
+	page = Cerberus, 
+	translation = Cerberus_UnifrormZombiesPolice, 
+	description = Cerberus_UnifrormZombiesPolice,
+}
+option Cerberus.LightArmoredZombiesPolice
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.06,
+	page = Cerberus, 
+	translation = Cerberus_LightArmoredZombiesPolice, 
+	description = Cerberus_LightArmoredZombiesPolice,
+}
+option Cerberus.MediumArmoredZombiesPolice
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.04,
+	page = Cerberus, 
+	translation = Cerberus_MediumArmoredZombiesPolice, 
+	description = Cerberus_MediumArmoredZombiesPolice,
+}
+option Cerberus.HeavyArmoredZombiesPolice
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.02,
+	page = Cerberus, 
+	translation = Cerberus_HeavyArmoredZombiesPolice, 
+	description = Cerberus_HeavyArmoredZombiesPolice,
+}
+
+
+
+
+option Cerberus.EmptyLine3
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_EmptyLine,
+    description = Cerberus_EmptyLine,
+}
+option Cerberus.Category3
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_Category3,
+    description = Cerberus_Category3,
+}
+option Cerberus.UnifrormZombiesArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.1,
+	page = Cerberus, 
+	translation = Cerberus_UnifrormZombiesArmy, 
+	description = Cerberus_UnifrormZombiesArmy,
+}
+option Cerberus.LightArmoredZombiesArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.8,
+	page = Cerberus, 
+	translation = Cerberus_LightArmoredZombiesArmy, 
+	description = Cerberus_LightArmoredZombiesArmy,
+}
+option Cerberus.MediumArmoredZombiesArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.6,
+	page = Cerberus, 
+	translation = Cerberus_MediumArmoredZombiesArmy, 
+	description = Cerberus_MediumArmoredZombiesArmy,
+}
+option Cerberus.HeavyArmoredZombiesArmy
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.4,
+	page = Cerberus, 
+	translation = Cerberus_HeavyArmoredZombiesArmy, 
+	description = Cerberus_HeavyArmoredZombiesArmy,
+}
+
+
+option Cerberus.EmptyLine4
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_EmptyLine,
+    description = Cerberus_EmptyLine,
+}
+option Cerberus.Category4
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_Category4,
+    description = Cerberus_Category4,
+}
+
+
+
+
+option Cerberus.UnifrormZombiesSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 2.0,
+	page = Cerberus, 
+	translation = Cerberus_UnifrormZombiesSecretBase, 
+	description = Cerberus_UnifrormZombiesSecretBase,
+}
+option Cerberus.LightArmoredZombiesSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 1.2,
+	page = Cerberus, 
+	translation = Cerberus_LightArmoredZombiesSecretBase, 
+	description = Cerberus_LightArmoredZombiesSecretBase,
+}
+option Cerberus.MediumArmoredZombiesSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.8,
+	page = Cerberus, 
+	translation = Cerberus_MediumArmoredZombiesSecretBase, 
+	description = Cerberus_MediumArmoredZombiesSecretBase,
+}
+option Cerberus.HeavyArmoredZombiesSecretBase
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.6,
+	page = Cerberus, 
+	translation = Cerberus_HeavyArmoredZombiesSecretBase, 
+	description = Cerberus_HeavyArmoredZombiesSecretBase,
+}
+
+
+
+
+option Cerberus.EmptyLine5
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_EmptyLine,
+    description = Cerberus_EmptyLine,
+}
+option Cerberus.Category5
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_Category5,
+    description = Cerberus_Category5,
+}
+option Cerberus.BulletproofVest_Cerberus
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.05,
+	page = Cerberus, 
+	translation = Cerberus_BulletproofVest, 
+	description = Cerberus_BulletproofVest,
+}
+option Cerberus.BulletproofVest_Cerberus_HighMobilityKit
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.03,
+	page = Cerberus, 
+	translation = Cerberus_BulletproofVest_HighMobilityKit, 
+	description = Cerberus_BulletproofVest_HighMobilityKit,
+}
+option Cerberus.BulletproofVest_Cerberus_AssaultLightKit
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.03,
+	page = Cerberus, 
+	translation = Cerberus_BulletproofVest_AssaultLightKit, 
+	description = Cerberus_BulletproofVest_AssaultLightKit,
+}
+option Cerberus.BulletproofVest_Cerberus_AssaultKit
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.015,
+	page = Cerberus, 
+	translation = Cerberus_BulletproofVest_AssaultKit, 
+	description = Cerberus_BulletproofVest_AssaultKit,
+}
+option Cerberus.BulletproofVest_Cerberus_FullProtectionKit
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.005,
+	page = Cerberus, 
+	translation = Cerberus_BulletproofVest_FullProtectionKit, 
+	description = Cerberus_BulletproofVest_FullProtectionKit,
+}
+
+
+
+
+
+option Cerberus.EmptyLine6
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_EmptyLine,
+    description = Cerberus_EmptyLine,
+}
+option Cerberus.Category6
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_Category6,
+    description = Cerberus_Category6,
+}
+option Cerberus.Helmet
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.02,
+	page = Cerberus, 
+	translation = Cerberus_Helmet, 
+	description = Cerberus_Helmet,
+}
+option Cerberus.Helmet_Mandible
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.02,
+	page = Cerberus, 
+	translation = Cerberus_Helmet_Mandible, 
+	description = Cerberus_Helmet_Mandible,
+}
+option Cerberus.MaskFull_BallisticMask
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.15,
+	page = Cerberus, 
+	translation = Cerberus_MaskFull_BallisticMask, 
+	description = Cerberus_MaskFull_BallisticMask,
+}
+
+option Cerberus.ElbowPads
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.4,
+	page = Cerberus, 
+	translation = Cerberus_ElbowPads, 
+	description = Cerberus_ElbowPads,
+}
+option Cerberus.KneePads
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.4,
+	page = Cerberus, 
+	translation = Cerberus_KneePads, 
+	description = Cerberus_KneePads,
+}
+
+
+
+
+option Cerberus.EmptyLine7
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_EmptyLine,
+    description = Cerberus_EmptyLine,
+}
+option Cerberus.Category7
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_Category7,
+    description = Cerberus_Category7,
+}
+option Cerberus.HipBag
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.03,
+	page = Cerberus, 
+	translation = Cerberus_HipBag, 
+	description = Cerberus_HipBag,
+}
+option Cerberus.FannyPack
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.03,
+	page = Cerberus, 
+	translation = Cerberus_FannyPack, 
+	description = Cerberus_FannyPack,
+}
+option Cerberus.ChestRigs
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.03,
+	page = Cerberus, 
+	translation = Cerberus_ChestRigs, 
+	description = Cerberus_ChestRigs,
+}
+option Cerberus.Backpack
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.03,
+	page = Cerberus, 
+	translation = Cerberus_Backpack, 
+	description = Cerberus_Backpack,
+}
+
+
+
+
+
+
+option Cerberus.EmptyLine8
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_EmptyLine,
+    description = Cerberus_EmptyLine,
+}
+option Cerberus.Category8
+{
+    type = boolean,
+    default = false,
+    page = Cerberus,
+    translation = Cerberus_Category8,
+    description = Cerberus_Category8,
+}
+option Cerberus.HeadApparel
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.3,
+	page = Cerberus, 
+	translation = Cerberus_HeadApparel, 
+	description = Cerberus_HeadApparel,
+}
+
+option Cerberus.Jacket
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.03,
+	page = Cerberus, 
+	translation = Cerberus_Jacket, 
+	description = Cerberus_Jacket,
+}
+option Cerberus.Gloves
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.04,
+	page = Cerberus, 
+	translation = Cerberus_Gloves, 
+	description = Cerberus_Gloves,
+}
+option Cerberus.MilitaryTShirts
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.04,
+	page = Cerberus, 
+	translation = Cerberus_MilitaryTShirts, 
+	description = Cerberus_MilitaryTShirts,
+}
+
+option Cerberus.PantsShorts
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.04,
+	page = Cerberus, 
+	translation = Cerberus_PantsShorts, 
+	description = Cerberus_PantsShorts,
+}
+
+option Cerberus.BootsShoes
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.04,
+	page = Cerberus, 
+	translation = Cerberus_BootsShoes, 
+	description = Cerberus_BootsShoes,
+}
+
+option Cerberus.NonMilitary
+{
+	type = double, 
+	min = 0, 
+	max = 100, 
+	default = 0.3,
+	page = Cerberus, 
+	translation = Cerberus_NonMilitary, 
+	description = Cerberus_NonMilitary,
+}
+
+
+
+

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Armor\M_KneePads_Cerberus</m_MaleModel>
+	<m_FemaleModel>Skinned\Armor\F_KneePads_Cerberus</m_FemaleModel>
+	<m_GUID>e8bed5a2-352e-4900-b465-e298e82f0813</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<textureChoices>Clothes\Cerberus\KneePads\KneePads_Cerberus</textureChoices>
+</clothingItem>

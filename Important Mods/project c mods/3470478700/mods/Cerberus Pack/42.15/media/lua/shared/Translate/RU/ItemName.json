@@ -1,0 +1,80 @@
+{
+  "Base.Helmet_Cerberus": "Шлем Цербер",
+  "Base.Helmet_Cerberus_NoBelts": "Шлем Цербер",
+  "Base.Helmet_Mandible_Cerberus": "Мандибула Цербер",
+
+  "Base.MaskFull_BallisticMask_Cerberus": "Баллистическая маска Цербер",
+  "Base.MaskFull_BallisticMask_Cerberus_NoBelts": "Баллистическая маска Цербер",
+  "Base.MaskFull_BallisticMask_Cerberus-Blood": "Баллистическая маска Цербер",
+  "Base.MaskFull_BallisticMask_Cerberus_NoBelts-Blood": "Баллистическая маска Цербер",
+
+  "Base.BulletproofVest_Cerberus": "Бронежилет Цербер",
+  "Base.BulletproofVest_Cerberus_AssaultKit": "Бронежилет Цербер (штурмовой комплект)",
+  "Base.BulletproofVest_Cerberus_AssaultLightKit": "Бронежилет Цербер (лёгкий штурмовой комплект)",
+  "Base.BulletproofVest_Cerberus_FullProtectionKit": "Бронежилет Цербер (комплект полной защиты)",
+  "Base.BulletproofVest_Cerberus_HighMobilityKit": "Бронежилет Цербер (комплект повышенной мобильности)",
+
+  "Base.ElbowPads_Cerberus": "Налокотники Цербер",
+  "Base.ElbowPads_Cerberus_Tight": "Налокотники Цербер",
+
+  "Base.KneePads_Cerberus": "Наколенники Цербер",
+  "Base.KneePads_Cerberus_Tight": "Наколенники Цербер",
+
+  "Base.Hat_BaseballCap_Cerberus": "Кепка Цербер",
+  "Base.Hat_BaseballCap_Cerberus_Reverse": "Кепка Цербер",
+  "Base.Headsets_Cerberus": "Активные наушники Цербер",
+  "Base.Headsets_Cerberus_Helmet": "Активные наушники Цербер",
+
+  "Base.Glasses_Goggles_Cerberus": "Защитные очки Цербер",
+  "Base.Glasses_Tactical_Cerberus": "Тактические защитные очки Цербер",
+
+  "Base.Mask_Balaclava_Cerberus": "Балаклава Цербер",
+  "Base.Mask_BandanaMask_Cerberus": "Бандана Цербер",
+
+  "Base.Shirt_Cerberus": "Рубашка Цербер",
+  "Base.Shirt_Cerberus_Open": "Рубашка Цербер",
+  "Base.Shirt_Cerberus_OpenRolledUpSleeves": "Рубашка Цербер",
+  "Base.Shirt_Cerberus_RolledUpSleeves": "Рубашка Цербер",
+  "Base.Shirt_ShortSleeve_Cerberus": "Рубашка с коротким рукавом Цербер",
+  "Base.Shirt_ShortSleeve_Cerberus_Open": "Рубашка с коротким рукавом Цербер",
+  "Base.Shirt_Neckholder_Cerberus": "Майка Цербер",
+  "Base.Shirt_NeckholderShort_Cerberus": "Короткая майка Цербер",
+  "Base.Shirt_TankTop_Cerberus": "Майка Цербер",
+  "Base.Shirt_TankTopShort_Cerberus": "Короткая майка Цербер",
+  "Base.Shirt_Tshirt_Cerberus": "Футболка Цербер",
+  "Base.Shirt_TshirtShort_Cerberus": "Короткая футболка Цербер",
+
+  "Base.Jacket_Lightweight_Cerberus": "Куртка Цербер",
+  "Base.Jacket_Lightweight_Cerberus_RolledUpSleeves": "Куртка Цербер",
+
+  "Base.Gloves_Cerberus": "Перчатки Цербер",
+  "Base.GlovesFingerless_Cerberus": "Перчатки без пальцев Цербер",
+
+  "Base.Pants_Classic_Cerberus": "Штаны Цербер",
+  "Base.Pants_Classic_Cerberus_RollUp": "Штаны Цербер",
+  "Base.Pants_Classic_Cerberus_Tuck": "Штаны Цербер",
+  "Base.Pants_Shorts_Cerberus": "Шорты Цербер",
+  "Base.Pants_Skinny_Cerberus": "Штаны Цербер",
+  "Base.Pants_Skinny_Cerberus_RollUp": "Штаны Цербер",
+
+  "Base.Shoes_TacticalBoots_Cerberus": "Тактические ботинки Цербер",
+
+  "Base.Stockings_Cerberus": "Чулки Цербер",
+  "Base.Tights_Cerberus": "Колготки Цербер",
+
+  "Base.Backpack_Cerberus": "Рюкзак Цербер",
+  "Base.Backpack_Cerberus_Tight": "Рюкзак Цербер",
+
+  "Base.ChestRigs_Cerberus": "Разгрузочная нагрудная система Цербер",
+  "Base.ChestRigs_Cerberus_NoBelts": "Разгрузочная нагрудная система Цербер",
+  "Base.ChestRigs_Cerberus_Tight": "Разгрузочная нагрудная система Цербер",
+
+  "Base.FannyPack_Cerberus": "Тактическая поясная сумка Цербер (сзади)",
+  "Base.FannyPack_Cerberus_Front": "Тактическая поясная сумка Цербер (спереди)",
+
+  "Base.HipBag_Cerberus_ArmorLeft": "Набедренная сумка Цербер (левая)",
+  "Base.HipBag_Cerberus_ArmorRight": "Набедренная сумка Цербер (правая)",
+  "Base.HipBag_Cerberus_Left": "Набедренная сумка Цербер (левая)",
+  "Base.HipBag_Cerberus_Right": "Набедренная сумка Цербер (правая)"
+
+}

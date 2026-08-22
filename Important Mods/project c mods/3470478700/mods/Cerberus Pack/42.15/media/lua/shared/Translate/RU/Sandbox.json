@@ -1,0 +1,169 @@
+{
+"Sandbox_Cerberus": "Cerberus Pack",
+
+
+
+
+"Sandbox_Cerberus_UnifrormZombiesDefault": "Вероятность появления небронированных зомби в униформе «Цербер» — Стандартные зоны.",
+"Sandbox_Cerberus_UnifrormZombiesDefault_tooltip": "Задает вероятность встречи с зомби в форме «Цербер» в зонах по умолчанию. Этот параметр определяет, можно ли встретить зомби Цербера в городах, лесах или, по сути, в любом месте, где можно найти обычных зомби.",
+
+"Sandbox_Cerberus_LightArmoredZombiesDefault": "Вероятность появления легкобронированных зомби «Цербер» — Стандартные зоны.",
+"Sandbox_Cerberus_LightArmoredZombiesDefault_tooltip": "Задает вероятность встречи с зомби в легкой броне «Цербер» в зонах по умолчанию. Этот параметр определяет, можно ли встретить зомби «Цербер» в городах, лесах или, по сути, в любом месте, где можно найти обычных зомби.",
+
+"Sandbox_Cerberus_MediumArmoredZombiesDefault": "Вероятность появления среднебронированных зомби «Цербер» — Стандартные зоны.",
+"Sandbox_Cerberus_MediumArmoredZombiesDefault_tooltip": "Задает вероятность встречи с зомби в средней броне «Цербер» в зонах по умолчанию. Этот параметр определяет, можно ли встретить зомби «Цербер» в городах, лесах или, по сути, в любом месте, где можно найти обычных зомби.",
+
+"Sandbox_Cerberus_HeavyArmoredZombiesDefault": "Вероятность появления тяжелобронированных зомби «Цербер» — Стандартные зоны.",
+"Sandbox_Cerberus_HeavyArmoredZombiesDefault_tooltip": "Определяет вероятность встречи с зомби в тяжелой броне «Цербер» в зонах по умолчанию. Этот параметр определяет, можно ли встретить зомби «Цербер» в городах, лесах или, по сути, в любом месте, где можно найти обычных зомби.",
+
+
+
+
+"Sandbox_Cerberus_UnifrormZombiesPolice": "Вероятность появления небронированных зомби в униформе «Цербер» - Полицейские участки",
+"Sandbox_Cerberus_UnifrormZombiesPolice_tooltip": "Задает вероятность встречи с зомби в форме «Цербер» в полицейских участках.",
+
+"Sandbox_Cerberus_LightArmoredZombiesPolice": "Вероятность появления легкобронированных зомби «Цербер» - Полицейские участки",
+"Sandbox_Cerberus_LightArmoredZombiesSPolice_tooltip": "Задает вероятность встречи с зомби в легкой броне «Цербера» в полицейских участках.",
+
+"Sandbox_Cerberus_MediumArmoredZombiesPolice": "Вероятность появления среднебронированных зомби «Цербер» - Полицейские участки",
+"Sandbox_Cerberus_MediumArmoredZombiesPolice_tooltip": "Задает вероятность встречи с зомби в средней броне «Цербера» в полицейских участках.",
+
+"Sandbox_Cerberus_HeavyArmoredZombiesPolice": "Вероятность появления тяжелобронированных зомби «Цербер» - Полицейские участки",
+"Sandbox_Cerberus_HeavyArmoredZombiesPolice_tooltip": "Задает вероятность встречи с зомби в тяжелой броне «Цербера» в полицейских участках.",
+
+
+
+
+"Sandbox_Cerberus_UnifrormZombiesArmy": "Вероятность появления небронированных зомби в униформе «Цербер» - Военные зоны",
+"Sandbox_Cerberus_UnifrormZombiesArmy_tooltip": "Задает вероятность встречи с зомби в форме «Цербер» на военных базах.",
+
+"Sandbox_Cerberus_LightArmoredZombiesArmy": "Вероятность появления легкобронированных зомби «Цербер» - Военные зоны",
+"Sandbox_Cerberus_LightArmoredZombiesArmy_tooltip": "Задает вероятность встречи с зомби в легкой броне «Цербеа» на военных базах.",
+
+"Sandbox_Cerberus_MediumArmoredZombiesArmy": "Вероятность появления среднебронированных зомби «Цербер» - Военные зоны",
+"Sandbox_Cerberus_MediumArmoredZombiesArmy_tooltip": "Задает вероятность встречи с зомби в средней броне «Цербер» на военных базах.",
+
+"Sandbox_Cerberus_HeavyArmoredZombiesArmy": "Вероятность появления тяжелобронированных зомби «Цербер» - Военные зоны",
+"Sandbox_Cerberus_HeavyArmoredZombiesArmy_tooltip": "Задает вероятность встречи с зомби в тяжелой броне «Цербер» на военных базах.",
+
+
+
+
+"Sandbox_Cerberus_UnifrormZombiesSecretBase": "Вероятность появления небронированных зомби в униформе «Цербер» - Секретная база",
+"Sandbox_Cerberus_UnifrormZombiesSecretBase_tooltip": "Задает вероятность встречи с зомби в форме «Цербер» на секретной базе.",
+
+"Sandbox_Cerberus_LightArmoredZombiesSecretBase": "Вероятность появления легкобронированных зомби «Цербер» - Секретная база",
+"Sandbox_Cerberus_LightArmoredZombiesSecretBase_tooltip": "Задает вероятность встречи с зомби в легкой броне «Цербер» на секретной базе.",
+
+"Sandbox_Cerberus_MediumArmoredZombiesSecretBase": "Вероятность появления среднебронированных зомби «Цербер» - Секретная база",
+"Sandbox_Cerberus_MediumArmoredZombiesSecretBase_tooltip": "Задает вероятность встречи с зомби в средней броне «Цербер» на секретной базе.",
+
+"Sandbox_Cerberus_HeavyArmoredZombiesSecretBase": "Вероятность появления тяжелобронированных зомби «Цербер» - Секретная база",
+"Sandbox_Cerberus_HeavyArmoredZombiesSecretBase_tooltip": "Задает вероятность встречи с зомби в тяжелой броне «Цербер» на секретной базе.",
+
+
+
+
+"Sandbox_Cerberus_BulletproofVest": "Вероятность появления бронежилета «Цербер»",
+"Sandbox_Cerberus_BulletproofVest_tooltip": "<IMAGE:media/textures/Item_BulletproofVest_Cerberus.png> <LINE> Определяет вероятность появления бронежилета «Цербер» в контейнерах.",
+
+"Sandbox_Cerberus_BulletproofVest_HighMobilityKit": "Вероятность появления комплекта повышенной мобильности «Цербер»",
+"Sandbox_Cerberus_BulletproofVest_HighMobilityKit_tooltip": "<IMAGE:media/textures/Item_BulletproofVest_Cerberus_HighMobilityKit.png> <LINE> Определяет вероятность появления комплекта повышенной мобильности «Цербер» в контейнерах.",
+
+"Sandbox_Cerberus_BulletproofVest_AssaultLightKit": "Вероятность появления лёгкого штурмового комплекта «Цербер»",
+"Sandbox_Cerberus_BulletproofVest_AssaultLightKit_tooltip": "<IMAGE:media/textures/Item_BulletproofVest_Cerberus_AssaultLightKit.png> <LINE> Определяет вероятность появления лёгкого штурмового комплекта «Цербер» в контейнерах.",
+
+"Sandbox_Cerberus_BulletproofVest_AssaultKit": "Вероятность появления штурмового комплекта «Цербер»",
+"Sandbox_Cerberus_BulletproofVest_AssaultKit_tooltip": "<IMAGE:media/textures/Item_BulletproofVest_Cerberus_AssaultKit.png> <LINE> Определяет вероятность появления штурмового комплекта «Цербер» в контейнерах.",
+
+"Sandbox_Cerberus_BulletproofVest_FullProtectionKit": "Вероятность появления комплекта полной защиты «Цербер»",
+"Sandbox_Cerberus_BulletproofVest_FullProtectionKit_tooltip": "<IMAGE:media/textures/Item_BulletproofVest_Cerberus_FullProtectionKit.png> <LINE> Определяет вероятность появления комплекта полной защиты «Цербер» в контейнерах.",
+
+
+
+
+"Sandbox_Cerberus_Helmet": "Вероятность появления шлема «Цербер»",
+"Sandbox_Cerberus_Helmet_tooltip": "<IMAGE:media/textures/Item_Helmet_Cerberus.png> <LINE> Определяет вероятность появления шлема «Цербер» в контейнерах.",
+
+"Sandbox_Cerberus_Helmet_Mandible": "Вероятность появления защиты лица для шлема «Цербер»",
+"Sandbox_Cerberus_Helmet_Mandible_tooltip": "<IMAGE:media/textures/Item_Helmet_Mandible_Cerberus.png> <LINE> Определяет вероятность появления защиты лица для шлема «Цербер» в контейнерах.",
+
+"Sandbox_Cerberus_MaskFull_BallisticMask": "Вероятность появления баллистической маски «Цербер»",
+"Sandbox_Cerberus_MaskFull_BallisticMask_tooltip": "<IMAGE:media/textures/Item_MaskFull_BallisticMask_Cerberus.png><IMAGE:media/textures/Item_MaskFull_BallisticMask_Cerberus2.png><IMAGE:media/textures/Item_MaskFull_BallisticMask_Cerberus3.png> <LINE> Определяет вероятность появления баллистической маски «Цербер» в контейнерах.",
+
+"Sandbox_Cerberus_ElbowPads": "Вероятность появления налокотников «Цербер»",
+"Sandbox_Cerberus_ElbowPads_tooltip": "<IMAGE:media/textures/Item_ElbowPads_Cerberus.png> <LINE> Определяет вероятность появления комплекта налокотников «Цербер» в контейнерах.",
+
+"Sandbox_Cerberus_KneePads": "Вероятность появления наколенников «Цербер»",
+"Sandbox_Cerberus_KneePads_tooltip": "<IMAGE:media/textures/Item_KneePads_Cerberus.png> <LINE> Определяет вероятность появления комплекта наколенников «Цербер» в контейнерах.",
+
+
+
+
+"Sandbox_Cerberus_HipBag": "Вероятность появления набедреного подсумка «Цербер»",
+"Sandbox_Cerberus_HipBag_tooltip": "<IMAGE:media/textures/Item_HipBag_Cerberus.png> <LINE> Определяет вероятность появления набедреного подсумка «Цербер» в контейнерах.",
+
+"Sandbox_Cerberus_FannyPack": "Вероятность появления поясной сумки «Цербер»",
+"Sandbox_Cerberus_FannyPack_tooltip": "<IMAGE:media/textures/Item_FannyPack_Cerberus.png> <LINE> Определяет вероятность появления поясной сумки «Цербер» в контейнерах.",
+
+"Sandbox_Cerberus_ChestRigs": "Вероятность появления разгрузочного жилета «Цербер»",
+"Sandbox_Cerberus_ChestRigs_tooltip": "<IMAGE:media/textures/Item_ChestRigs_Cerberus.png> <LINE> Определяет вероятность появления разгрузочного жилета «Цербер» в контейнерах.",
+
+"Sandbox_Cerberus_Backpack": "Вероятность появления рюкзака «Цербер»",
+"Sandbox_Cerberus_Backpack_tooltip": "<IMAGE:media/textures/Item_Backpack_Cerberus.png> <LINE>  Определяет вероятность появления рюкзака «Цербер» в контейнерах.",
+
+
+
+
+"Sandbox_Cerberus_HeadApparel": "Вероятность появления головных уборов «Цербер»",
+"Sandbox_Cerberus_HeadApparel_tooltip": "<IMAGE:media/textures/Item_Headsets_Cerberus2.png><IMAGE:media/textures/Item_Headsets_Cerberus.png><IMAGE:media/textures/Item_Mask_Balaclava_Cerberus.png><IMAGE:media/textures/Item_Mask_Balaclava_Cerberus2.png><IMAGE:media/textures/Item_Mask_BandanaMask_Cerberus.png><IMAGE:media/textures/Item_Mask_BandanaMask_Cerberus2.png><IMAGE:media/textures/Item_Mask_BandanaMask_Cerberus3.png><IMAGE:media/textures/Item_Glasses_Goggles_Cerberus.png><IMAGE:media/textures/Item_Glasses_Tactical_Cerberus.png><IMAGE:media/textures/Item_Hat_BaseballCap_Cerberus.png><IMAGE:media/textures/Item_Hat_BaseballCap_Cerberus2.png> <LINE> Определяет вероятность появления гарнитур, балаклав, бандан, защитных очков и кепок в контейнерах.",
+
+"Sandbox_Cerberus_Jacket": "Вероятность появления куртки «Цербер»",
+"Sandbox_Cerberus_Jacket_tooltip": "<IMAGE:media/textures/Item_Jacket_Lightweight_Cerberus.png><IMAGE:media/textures/Item_Jacket_Lightweight_Cerberus2.png> <LINE> Определяет вероятность появления курток в контейнерах.",
+
+"Sandbox_Cerberus_Gloves": "Вероятность появления перчаток «Цербер»",
+"Sandbox_Cerberus_Gloves_tooltip": "<IMAGE:media/textures/Item_Gloves_Cerberus.png><IMAGE:media/textures/Item_GlovesFingerless_Cerberus.png> <LINE> Определяет вероятность появления перчаток в контейнерах.",
+
+"Sandbox_Cerberus_MilitaryTShirts": "Вероятность появления рубашек «Цербер»",
+"Sandbox_Cerberus_MilitaryTShirts_tooltip": "<IMAGE:media/textures/Item_Shirt_Cerberus.png><IMAGE:media/textures/Item_Shirt_Cerberus2.png><IMAGE:media/textures/Item_Shirt_ShortSleeve_Cerberus.png><IMAGE:media/textures/Item_Shirt_ShortSleeve_Cerberus2.png><IMAGE:media/textures/Item_Shirt_TankTop_Cerberus.png><IMAGE:media/textures/Item_Shirt_TankTop_Cerberus2.png><IMAGE:media/textures/Item_Shirt_TankTopShort_Cerberus.png><IMAGE:media/textures/Item_Shirt_TankTopShort_Cerberus2.png><IMAGE:media/textures/Item_Shirt_Tshirt_Cerberus.png><IMAGE:media/textures/Item_Shirt_Tshirt_Cerberus2.png><IMAGE:media/textures/Item_Shirt_TshirtShort_Cerberus.png><IMAGE:media/textures/Item_Shirt_TshirtShort_Cerberus2.png> <LINE> Определяет вероятность появления в контейнерах классических футболок, футболок с коротким рукавом, маек, коротких маек, футболок и коротких футболок.",
+
+"Sandbox_Cerberus_PantsShorts": "Вероятность появления штанов «Цербер»",
+"Sandbox_Cerberus_PantsShorts_tooltip": "<IMAGE:media/textures/Item_Pants_Classic_Cerberus.png><IMAGE:media/textures/Item_Pants_Skinny_Cerberus.png> <LINE> Определяет вероятность появления штанов в контейнерах.",
+
+"Sandbox_Cerberus_BootsShoes": "Вероятность появления тактических ботинок «Цербер»",
+"Sandbox_Cerberus_BootsShoes_tooltip": "<IMAGE:media/textures/Item_Shoes_TacticalBoots_Cerberus.png><IMAGE:media/textures/Item_Shoes_TacticalBoots_Cerberus2.png> <LINE>  Определяет вероятность появления тактических ботинок «Цербер» в контейнерах.",
+
+"Sandbox_Cerberus_NonMilitary": "Вероятность появления невоенной одежды «Цербер»",
+"Sandbox_Cerberus_NonMilitary_tooltip": "<IMAGE:media/textures/Item_Shirt_Neckholder_Cerberus.png><IMAGE:media/textures/Item_Shirt_Neckholder_Cerberus2.png><IMAGE:media/textures/Item_Shirt_NeckholderShort_Cerberus.png><IMAGE:media/textures/Item_Shirt_NeckholderShort_Cerberus2.png><IMAGE:media/textures/Item_Tights_Cerberus.png><IMAGE:media/textures/Item_Tights_Cerberus2.png><IMAGE:media/textures/Item_Stockings_Cerberus.png><IMAGE:media/textures/Item_Stockings_Cerberus2.png><IMAGE:media/textures/Item_Stockings_Cerberus3.png><IMAGE:media/textures/Item_Pants_Shorts_Cerberus.png><IMAGE:media/textures/Item_Pants_Shorts_Cerberus2.png><LINE> Определяет вероятность появления невоенной одежды в контейнерах магазинов. Включает невоенные майки и их укороченные варианты, колготки, чулки и узкие шорты. Не появляется на военных базах.",
+
+
+
+
+"Sandbox_Cerberus_Category1": "... Категория: Вероятность появления зомби — стандартные зоны ...",
+"Sandbox_Cerberus_Category1_tooltip": "Не делает ничего. Просто название категории, которая разделяет категории.",
+
+"Sandbox_Cerberus_Category2": "... Категория: Вероятность появления зомби — Полицейские зоны ...",
+"Sandbox_Cerberus_Category2_tooltip": "Не делает ничего. Просто название категории, которая разделяет категории.",
+
+"Sandbox_Cerberus_Category3": "... Категория: Вероятность появления зомби — Военные зоны ...",
+"Sandbox_Cerberus_Category3_tooltip": "Не делает ничего. Просто название категории, которая разделяет категории.",
+
+"Sandbox_Cerberus_Category4": "... Категория: Вероятность появления зомби - Секретная база ...",
+"Sandbox_Cerberus_Category4_tooltip": "Не делает ничего. Просто название категории, которая разделяет категории.",
+
+"Sandbox_Cerberus_Category5": "... Категория: Броня «Цербер». Вероятность появления предметов в контейнерах. ...",
+"Sandbox_Cerberus_Category5_tooltip": "Не делает ничего. Просто название категории, которая разделяет категории.",
+
+"Sandbox_Cerberus_Category6": "... Категория: Дополнительные элементы брони «Цербер». Вероятность появления предметов в контейнерах. ...",
+"Sandbox_Cerberus_Category6_tooltip": "Не делает ничего. Просто название категории, которая разделяет категории.",
+
+"Sandbox_Cerberus_Category7": "... Категория: Рюкзаки и сумки. Вероятность появления предметов в контейнерах. ...",
+"Sandbox_Cerberus_Category7_tooltip": "Не делает ничего. Просто название категории, которая разделяет категории.",
+
+"Sandbox_Cerberus_Category8": "... Категория: Прочие предметы и одежда. Вероятность появления предметов в контейнерах. ...",
+"Sandbox_Cerberus_Category8_tooltip": "Не делает ничего. Просто название категории, которая разделяет категории.",
+
+"Sandbox_Cerberus_EmptyLine": "",
+"Sandbox_Cerberus_EmptyLine_tooltip": "Не делает ничего. Просто разделяет категории."
+}
+ 

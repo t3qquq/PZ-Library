@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_Mask_BandanaMask</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_Mask_BandanaMask</m_FemaleModel>
+	<m_GUID>c4d80307-0215-4dbe-957e-cc988d1cfe6ds</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>nobeard</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes\Cerberus\Mask\Mask_BandanaMask_Cerberus</textureChoices>
+	<textureChoices>Clothes\Cerberus\Mask\Mask_BandanaMask_Cerberus2</textureChoices>
+	<textureChoices>Clothes\Cerberus\Mask\Mask_BandanaMask_Cerberus3</textureChoices>
+	<textureChoices>Clothes\Cerberus\Mask\Mask_BandanaMask_Cerberus4</textureChoices>
+</clothingItem>

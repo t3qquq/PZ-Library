@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\M_Backpack_Cerberus_Tight</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\F_Backpack_Cerberus_Tight</m_FemaleModel>
+	<m_GUID>128054d7-fad1-4429-be60-5312ac8a9604</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Cerberus\Bags\Backpack\Backpack_Cerberus</textureChoices>
+</clothingItem>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Backpacks\FannyPack\FannyPack_Cerberus_RHand</m_MaleModel>
+	<m_FemaleModel>Skinned\Backpacks\FannyPack\FannyPack_Cerberus_RHand</m_FemaleModel>
+	<m_GUID>7671f0a5-ed3f-4dcd-bac4-7cbfff6d0f9a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<textureChoices>Clothes\Cerberus\Bags\FannyPack\FannyPack_Cerberus</textureChoices>
+</clothingItem>

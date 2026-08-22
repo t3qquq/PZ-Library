@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Armor\M_ElbowPads_Cerberus_Tight</m_MaleModel>
+	<m_FemaleModel>Skinned\Armor\F_ElbowPads_Cerberus_Tight</m_FemaleModel>
+	<m_GUID>c05c44e6-b5e4-4c6e-852d-add96abb74ab</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<textureChoices>Clothes\Cerberus\ElbowPads\ElbowPads_Cerberus</textureChoices>
+</clothingItem>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>5e5d2c7f-e4c9-40f6-8de4-c4c56a1f9ef7</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>Clothes\Cerberus\Underwear\Stockings_Cerberus</m_BaseTextures>
+	<m_BaseTextures>Clothes\Cerberus\Underwear\Stockings_Cerberus2</m_BaseTextures>
+	<m_BaseTextures>Clothes\Cerberus\Underwear\Stockings_Cerberus3</m_BaseTextures>
+</clothingItem>

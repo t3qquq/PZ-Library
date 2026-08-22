@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>778effb9-8b83-410f-b2e1-879a75a9816b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>Clothes\Cerberus\Shirt\Shirt_NeckholderShort_Cerberus</m_BaseTextures>
+	<m_BaseTextures>Clothes\Cerberus\Shirt\Shirt_NeckholderShort_Cerberus2</m_BaseTextures>
+</clothingItem>

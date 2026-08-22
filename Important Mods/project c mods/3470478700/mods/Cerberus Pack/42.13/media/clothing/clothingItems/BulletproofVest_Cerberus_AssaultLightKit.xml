@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Armor\M_BulletproofVest_Cerberus_AssaultLightKit</m_MaleModel>
+	<m_FemaleModel>Skinned\Armor\F_BulletproofVest_Cerberus_AssaultLightKit</m_FemaleModel>
+	<m_GUID>1061ce18-c42f-4c56-9291-d73c4d4140db</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Cerberus\BulletproofVest\BulletproofVest_Cerberus</textureChoices>
+</clothingItem>

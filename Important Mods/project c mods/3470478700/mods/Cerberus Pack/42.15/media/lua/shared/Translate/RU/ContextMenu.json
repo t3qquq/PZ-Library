@@ -1,0 +1,29 @@
+{
+  "ContextMenu_PutOn": "Надеть",
+  "ContextMenu_Tight": "Туго",
+
+  "ContextMenu_JacketOpen": "Нараспашку",
+  "ContextMenu_JacketOpenRolledUpSleeves": "Нараспашку с закатанными рукавами",
+  "ContextMenu_JacketRolledUpSleeves": "Закатать рукава",
+  "ContextMenu_DownJacketOpen": "Без капюшона, нараспашку",
+  "ContextMenu_DownJacketOpenRolledUpSleeves": "Без капюшона, нараспашку с закатанными рукавами",
+  "ContextMenu_DownJacketRolledUpSleeves": "Без капюшона, закатать рукава",
+  "ContextMenu_UpJacketOpen": "С капюшоном, нараспашку",
+  "ContextMenu_UpJacketOpenRolledUpSleeves": "С капюшоном, нараспашку с закатанными рукавами",
+  "ContextMenu_UpJacketRolledUpSleeves": "С капюшоном, закатать рукава",
+
+  "ContextMenu_RollUpPants": "Подвернуть штаны",
+  "ContextMenu_TuckPants": "Заправить в обувь",
+
+  "ContextMenu_NoBelts": "Без ремней",
+  "ContextMenu_WithBelts": "С ремнями",
+  "ContextMenu_HeadsetsHelmet": "Надеть под шлем",
+
+  "ContextMenu_FaceShield_DOWN": "Опустить забрало",
+  "ContextMenu_FaceShield_UP": "Поднять забрало",
+
+  "ContextMenu_HipLeft": "Надеть на левую ногу",
+  "ContextMenu_HipLeftArmor": "Надеть на левую ногу (броня)",
+  "ContextMenu_HipRight": "Надеть на правую ногу",
+  "ContextMenu_HipRightArmor": "Надеть на правую ногу (броня)"
+}

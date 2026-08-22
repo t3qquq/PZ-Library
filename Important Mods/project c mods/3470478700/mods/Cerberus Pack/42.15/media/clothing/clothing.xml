@@ -1,0 +1,1070 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Cerberus /////////////////////////////////////////// -->
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_FemaleOutfits>
+		<m_Name>Cerberus_NonArmoredUniformed</m_Name>
+		<m_Guid>3eb0d819-d1a4-49c8-bc91-aaf1c9a3b259</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>3c4936c2-1f1e-476e-8e70-55bfbf07bacd</itemGUID> <!-- Hat_BaseballCap_Cerberus -->
+		</m_items>
+<!-- Mask -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>67c05d91-0fad-4195-9851-2ad1c4e1cfba</itemGUID> <!-- Mask_Balaclava_Cerberus -->
+			<subItems>
+				<itemGUID>c4d80307-0215-4dbe-957e-cc988d1cfe6d</itemGUID> <!-- Mask_BandanaMask_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Headsets -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>f403bc5b-ebd6-4970-80be-56c17a2be80d</itemGUID> <!-- Headsets_Cerberus -->
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>ab1f1851-2725-4cde-9a8d-40c71e7352fb</itemGUID> <!-- ElbowPads_Cerberus -->
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>e8bed5a2-352e-4900-b465-e298e82f0813</itemGUID> <!-- KneePads_Cerberus -->
+		</m_items>
+<!-- Glasses -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b3910194-f5ff-4b7e-a1a4-bfaa41c10015</itemGUID> <!-- Glasses_Goggles_Cerberus -->
+			<subItems>
+				<itemGUID>7e7ef681-e477-40e8-8190-25eb0ae31cd0</itemGUID> <!-- Glasses_Tactical_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cf6bbe11-94aa-44ea-9a8a-1f3e32090994</itemGUID> <!-- Jacket_Lightweight_Cerberus -->
+			<subItems>
+				<itemGUID>357ab688-a158-49a1-bae1-54f558383c97</itemGUID> <!-- Jacket_Lightweight_Cerberus_RolledUpSleeves -->
+			</subItems>
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>3a4edaeb-5c6f-4807-aa06-c792ed607f88</itemGUID> <!-- Shirt_Cerberus -->
+			<subItems>
+				<itemGUID>a08f67f6-cdd6-46f9-b3d0-a41c852af06f</itemGUID> <!-- Shirt_Cerberus_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>43e5c483-0f37-475e-80d1-04b1cbaa786d</itemGUID> <!-- Shirt_Cerberus_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>bdf14a20-7978-4abb-8d51-406b942fa149</itemGUID> <!-- Shirt_Cerberus_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>336294e8-634a-43e2-825a-271d3ce468a8</itemGUID> <!-- Shirt_ShortSleeve_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>d4cf47f3-172d-4acc-8742-9035db2b41da</itemGUID> <!-- Shirt_ShortSleeve_Cerberus_Open -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			<subItems>
+				<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>7900a5f4-38cb-4516-891a-d0ab50c7119f</itemGUID> <!-- Shirt_TshirtShort_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Tank Top -->
+		<m_items>
+			<itemGUID>f029a791-7eca-4296-84e7-ba8eff9f5465</itemGUID> <!-- Shirt_TankTop_Cerberus -->
+			<subItems>
+				<itemGUID>42defde4-fdbc-434e-9ced-59516bd99eb3</itemGUID> <!-- Shirt_TankTopShort_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ddc12bbd-43c8-4f7e-87a1-3c2d25261aa4</itemGUID> <!-- Gloves_Cerberus -->
+			<subItems>
+				<itemGUID>96326de2-9d49-4272-8660-d9fe754f6f37</itemGUID> <!-- GlovesFingerless_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>de7e7dd5-6a8c-4255-946b-f6ba15714b99</itemGUID> <!--  Pants_Classic_Cerberus -->
+			<subItems>
+				<itemGUID>68a58170-31f1-4da8-80b6-e3afe766dc47</itemGUID> <!-- Pants_Classic_Cerberus_RollUp -->
+			</subItems>
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>9bb861df-bb71-4abe-a0e4-d3eb662524f5</itemGUID> <!--  Shoes_TacticalBoots_Cerberus -->
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>005c9634-ff6f-48eb-a063-d2414610a5a3</itemGUID> <!-- Backpack_Cerberus -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>cceff918-472c-4bd5-bd92-4a49ebfbfa43</itemGUID> <!-- HipBag_Cerberus_Left -->
+		</m_items>
+	</m_FemaleOutfits>
+
+
+	<m_MaleOutfits>
+		<m_Name>Cerberus_NonArmoredUniformed</m_Name>
+		<m_Guid>f85b2d2d-202f-458a-a8a8-6191efa7cc94</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Hat -->
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>3c4936c2-1f1e-476e-8e70-55bfbf07bacd</itemGUID> <!-- Hat_BaseballCap_Cerberus -->
+		</m_items>
+<!-- Mask -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>67c05d91-0fad-4195-9851-2ad1c4e1cfba</itemGUID> <!-- Mask_Balaclava_Cerberus -->
+			<subItems>
+				<itemGUID>c4d80307-0215-4dbe-957e-cc988d1cfe6d</itemGUID> <!-- Mask_BandanaMask_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Headsets -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>f403bc5b-ebd6-4970-80be-56c17a2be80d</itemGUID> <!-- Headsets_Cerberus -->
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>ab1f1851-2725-4cde-9a8d-40c71e7352fb</itemGUID> <!-- ElbowPads_Cerberus -->
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>e8bed5a2-352e-4900-b465-e298e82f0813</itemGUID> <!-- KneePads_Cerberus -->
+		</m_items>
+<!-- Glasses -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b3910194-f5ff-4b7e-a1a4-bfaa41c10015</itemGUID> <!-- Glasses_Goggles_Cerberus -->
+			<subItems>
+				<itemGUID>7e7ef681-e477-40e8-8190-25eb0ae31cd0</itemGUID> <!-- Glasses_Tactical_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cf6bbe11-94aa-44ea-9a8a-1f3e32090994</itemGUID> <!-- Jacket_Lightweight_Cerberus -->
+			<subItems>
+				<itemGUID>357ab688-a158-49a1-bae1-54f558383c97</itemGUID> <!-- Jacket_Lightweight_Cerberus_RolledUpSleeves -->
+			</subItems>
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>3a4edaeb-5c6f-4807-aa06-c792ed607f88</itemGUID> <!-- Shirt_Cerberus -->
+			<subItems>
+				<itemGUID>a08f67f6-cdd6-46f9-b3d0-a41c852af06f</itemGUID> <!-- Shirt_Cerberus_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>43e5c483-0f37-475e-80d1-04b1cbaa786d</itemGUID> <!-- Shirt_Cerberus_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>bdf14a20-7978-4abb-8d51-406b942fa149</itemGUID> <!-- Shirt_Cerberus_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>336294e8-634a-43e2-825a-271d3ce468a8</itemGUID> <!-- Shirt_ShortSleeve_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>d4cf47f3-172d-4acc-8742-9035db2b41da</itemGUID> <!-- Shirt_ShortSleeve_Cerberus_Open -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			<subItems>
+				<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Tank Top -->
+		<m_items>
+			<itemGUID>f029a791-7eca-4296-84e7-ba8eff9f5465</itemGUID> <!-- Shirt_TankTop_Cerberus -->
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ddc12bbd-43c8-4f7e-87a1-3c2d25261aa4</itemGUID> <!-- Gloves_Cerberus -->
+			<subItems>
+				<itemGUID>96326de2-9d49-4272-8660-d9fe754f6f37</itemGUID> <!-- GlovesFingerless_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>de7e7dd5-6a8c-4255-946b-f6ba15714b99</itemGUID> <!--  Pants_Classic_Cerberus -->
+			<subItems>
+				<itemGUID>68a58170-31f1-4da8-80b6-e3afe766dc47</itemGUID> <!-- Pants_Classic_Cerberus_RollUp -->
+			</subItems>
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>9bb861df-bb71-4abe-a0e4-d3eb662524f5</itemGUID> <!--  Shoes_TacticalBoots_Cerberus -->
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>005c9634-ff6f-48eb-a063-d2414610a5a3</itemGUID> <!-- Backpack_Cerberus -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>cceff918-472c-4bd5-bd92-4a49ebfbfa43</itemGUID> <!-- HipBag_Cerberus_Left -->
+		</m_items>
+	</m_MaleOutfits>
+
+
+
+
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Cerberus_LightArmored /////////////////////////////////////// -->
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_FemaleOutfits>
+		<m_Name>Cerberus_LightArmored</m_Name>
+		<m_Guid>f8b8e59b-0d97-4572-a15e-7c18fee94211</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Helmet -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>1a910f0a-a1b5-49d5-b787-c4f6ca86d980</itemGUID> <!-- Helmet_Cerberus -->
+		</m_items>
+<!-- Mask -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>67c05d91-0fad-4195-9851-2ad1c4e1cfba</itemGUID> <!-- Mask_Balaclava_Cerberus -->
+			<subItems>
+				<itemGUID>c4d80307-0215-4dbe-957e-cc988d1cfe6d</itemGUID> <!-- Mask_BandanaMask_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Headsets -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>f403bc5b-ebd6-4970-80be-56c17a2be80d</itemGUID> <!-- Headsets_Cerberus -->
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>ab1f1851-2725-4cde-9a8d-40c71e7352fb</itemGUID> <!-- ElbowPads_Cerberus -->
+		</m_items>
+<!-- Glasses -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b3910194-f5ff-4b7e-a1a4-bfaa41c10015</itemGUID> <!-- Glasses_Goggles_Cerberus -->
+			<subItems>
+				<itemGUID>7e7ef681-e477-40e8-8190-25eb0ae31cd0</itemGUID> <!-- Glasses_Tactical_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>e8bed5a2-352e-4900-b465-e298e82f0813</itemGUID> <!-- KneePads_Cerberus -->
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>e907279c-53c9-4c5e-83ce-054e5f175af8</itemGUID> <!-- BulletproofVest_Cerberus -->
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cf6bbe11-94aa-44ea-9a8a-1f3e32090994</itemGUID> <!-- Jacket_Lightweight_Cerberus -->
+			<subItems>
+				<itemGUID>357ab688-a158-49a1-bae1-54f558383c97</itemGUID> <!-- Jacket_Lightweight_Cerberus_RolledUpSleeves -->
+			</subItems>
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>3a4edaeb-5c6f-4807-aa06-c792ed607f88</itemGUID> <!-- Shirt_Cerberus -->
+			<subItems>
+				<itemGUID>a08f67f6-cdd6-46f9-b3d0-a41c852af06f</itemGUID> <!-- Shirt_Cerberus_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>43e5c483-0f37-475e-80d1-04b1cbaa786d</itemGUID> <!-- Shirt_Cerberus_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>bdf14a20-7978-4abb-8d51-406b942fa149</itemGUID> <!-- Shirt_Cerberus_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>336294e8-634a-43e2-825a-271d3ce468a8</itemGUID> <!-- Shirt_ShortSleeve_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>d4cf47f3-172d-4acc-8742-9035db2b41da</itemGUID> <!-- Shirt_ShortSleeve_Cerberus_Open -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			<subItems>
+				<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>7900a5f4-38cb-4516-891a-d0ab50c7119f</itemGUID> <!-- Shirt_TshirtShort_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Tank Top -->
+		<m_items>
+			<itemGUID>f029a791-7eca-4296-84e7-ba8eff9f5465</itemGUID> <!-- Shirt_TankTop_Cerberus -->
+			<subItems>
+				<itemGUID>42defde4-fdbc-434e-9ced-59516bd99eb3</itemGUID> <!-- Shirt_TankTopShort_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ddc12bbd-43c8-4f7e-87a1-3c2d25261aa4</itemGUID> <!-- Gloves_Cerberus -->
+			<subItems>
+				<itemGUID>96326de2-9d49-4272-8660-d9fe754f6f37</itemGUID> <!-- GlovesFingerless_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>de7e7dd5-6a8c-4255-946b-f6ba15714b99</itemGUID> <!--  Pants_Classic_Cerberus -->
+			<subItems>
+				<itemGUID>68a58170-31f1-4da8-80b6-e3afe766dc47</itemGUID> <!-- Pants_Classic_Cerberus_RollUp -->
+			</subItems>
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>9bb861df-bb71-4abe-a0e4-d3eb662524f5</itemGUID> <!--  Shoes_TacticalBoots_Cerberus -->
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>005c9634-ff6f-48eb-a063-d2414610a5a3</itemGUID> <!-- Backpack_Cerberus -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>cceff918-472c-4bd5-bd92-4a49ebfbfa43</itemGUID> <!-- HipBag_Cerberus_Left -->
+		</m_items>
+	</m_FemaleOutfits>
+
+
+	<m_MaleOutfits>
+		<m_Name>Cerberus_LightArmored</m_Name>
+		<m_Guid>100a022a-04ce-4bd6-8d46-a0299dc348fb</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Helmet -->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>1a910f0a-a1b5-49d5-b787-c4f6ca86d980</itemGUID> <!-- Helmet_Cerberus -->
+		</m_items>
+<!-- Mask -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>67c05d91-0fad-4195-9851-2ad1c4e1cfba</itemGUID> <!-- Mask_Balaclava_Cerberus -->
+			<subItems>
+				<itemGUID>c4d80307-0215-4dbe-957e-cc988d1cfe6d</itemGUID> <!-- Mask_BandanaMask_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Headsets -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>f403bc5b-ebd6-4970-80be-56c17a2be80d</itemGUID> <!-- Headsets_Cerberus -->
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>ab1f1851-2725-4cde-9a8d-40c71e7352fb</itemGUID> <!-- ElbowPads_Cerberus -->
+		</m_items>
+<!-- Glasses -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b3910194-f5ff-4b7e-a1a4-bfaa41c10015</itemGUID> <!-- Glasses_Goggles_Cerberus -->
+			<subItems>
+				<itemGUID>7e7ef681-e477-40e8-8190-25eb0ae31cd0</itemGUID> <!-- Glasses_Tactical_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>e8bed5a2-352e-4900-b465-e298e82f0813</itemGUID> <!-- KneePads_Cerberus -->
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>e907279c-53c9-4c5e-83ce-054e5f175af8</itemGUID> <!-- BulletproofVest_Cerberus -->
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cf6bbe11-94aa-44ea-9a8a-1f3e32090994</itemGUID> <!-- Jacket_Lightweight_Cerberus -->
+			<subItems>
+				<itemGUID>357ab688-a158-49a1-bae1-54f558383c97</itemGUID> <!-- Jacket_Lightweight_Cerberus_RolledUpSleeves -->
+			</subItems>
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>3a4edaeb-5c6f-4807-aa06-c792ed607f88</itemGUID> <!-- Shirt_Cerberus -->
+			<subItems>
+				<itemGUID>a08f67f6-cdd6-46f9-b3d0-a41c852af06f</itemGUID> <!-- Shirt_Cerberus_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>43e5c483-0f37-475e-80d1-04b1cbaa786d</itemGUID> <!-- Shirt_Cerberus_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>bdf14a20-7978-4abb-8d51-406b942fa149</itemGUID> <!-- Shirt_Cerberus_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>336294e8-634a-43e2-825a-271d3ce468a8</itemGUID> <!-- Shirt_ShortSleeve_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>d4cf47f3-172d-4acc-8742-9035db2b41da</itemGUID> <!-- Shirt_ShortSleeve_Cerberus_Open -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			<subItems>
+				<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Tank Top -->
+		<m_items>
+			<itemGUID>f029a791-7eca-4296-84e7-ba8eff9f5465</itemGUID> <!-- Shirt_TankTop_Cerberus -->
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ddc12bbd-43c8-4f7e-87a1-3c2d25261aa4</itemGUID> <!-- Gloves_Cerberus -->
+			<subItems>
+				<itemGUID>96326de2-9d49-4272-8660-d9fe754f6f37</itemGUID> <!-- GlovesFingerless_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>de7e7dd5-6a8c-4255-946b-f6ba15714b99</itemGUID> <!--  Pants_Classic_Cerberus -->
+			<subItems>
+				<itemGUID>68a58170-31f1-4da8-80b6-e3afe766dc47</itemGUID> <!-- Pants_Classic_Cerberus_RollUp -->
+			</subItems>
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>9bb861df-bb71-4abe-a0e4-d3eb662524f5</itemGUID> <!--  Shoes_TacticalBoots_Cerberus -->
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>005c9634-ff6f-48eb-a063-d2414610a5a3</itemGUID> <!-- Backpack_Cerberus -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>cceff918-472c-4bd5-bd92-4a49ebfbfa43</itemGUID> <!-- HipBag_Cerberus_Left -->
+		</m_items>
+	</m_MaleOutfits>
+
+
+
+
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Cerberus_MediumArmored //////////////////////////////////// -->
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_FemaleOutfits>
+		<m_Name>Cerberus_MediumArmored</m_Name>
+		<m_Guid>d6cd99f7-c016-4bc0-85c3-e93a485bb5cb</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Helmet -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>1a910f0a-a1b5-49d5-b787-c4f6ca86d980</itemGUID> <!-- Helmet_Cerberus -->
+			<subItems>
+				<itemGUID>93813627-8af0-45f3-985c-812941b9007f</itemGUID> <!-- MaskFull_BallisticMask_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>3693d4a3-45ea-42fe-b1ec-dfec79c8add1</itemGUID> <!-- MaskFull_BallisticMask_Cerberus-Blood -->
+			</subItems>
+		</m_items>
+<!-- Mask -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>67c05d91-0fad-4195-9851-2ad1c4e1cfba</itemGUID> <!-- Mask_Balaclava_Cerberus -->
+			<subItems>
+				<itemGUID>c4d80307-0215-4dbe-957e-cc988d1cfe6d</itemGUID> <!-- Mask_BandanaMask_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Headsets -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>f403bc5b-ebd6-4970-80be-56c17a2be80d</itemGUID> <!-- Headsets_Cerberus -->
+		</m_items>
+<!-- Glasses -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b3910194-f5ff-4b7e-a1a4-bfaa41c10015</itemGUID> <!-- Glasses_Goggles_Cerberus -->
+			<subItems>
+				<itemGUID>7e7ef681-e477-40e8-8190-25eb0ae31cd0</itemGUID> <!-- Glasses_Tactical_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.6</probability>
+			<itemGUID>ab1f1851-2725-4cde-9a8d-40c71e7352fb</itemGUID> <!-- ElbowPads_Cerberus -->
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.6</probability>
+			<itemGUID>e8bed5a2-352e-4900-b465-e298e82f0813</itemGUID> <!-- KneePads_Cerberus -->
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.6</probability>
+			<itemGUID>e907279c-53c9-4c5e-83ce-054e5f175af8</itemGUID> <!-- BulletproofVest_Cerberus -->
+			<subItems>
+				<itemGUID>1061ce18-c42f-4c56-9291-d73c4d4140db</itemGUID> <!-- BulletproofVest_Cerberus_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>37e011cb-a127-43df-a271-0b967d4a6718</itemGUID> <!-- BulletproofVest_Cerberus_HighMobilityKit -->
+			</subItems>
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cf6bbe11-94aa-44ea-9a8a-1f3e32090994</itemGUID> <!-- Jacket_Lightweight_Cerberus -->
+			<subItems>
+				<itemGUID>357ab688-a158-49a1-bae1-54f558383c97</itemGUID> <!-- Jacket_Lightweight_Cerberus_RolledUpSleeves -->
+			</subItems>
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>3a4edaeb-5c6f-4807-aa06-c792ed607f88</itemGUID> <!-- Shirt_Cerberus -->
+			<subItems>
+				<itemGUID>a08f67f6-cdd6-46f9-b3d0-a41c852af06f</itemGUID> <!-- Shirt_Cerberus_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>43e5c483-0f37-475e-80d1-04b1cbaa786d</itemGUID> <!-- Shirt_Cerberus_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>bdf14a20-7978-4abb-8d51-406b942fa149</itemGUID> <!-- Shirt_Cerberus_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>336294e8-634a-43e2-825a-271d3ce468a8</itemGUID> <!-- Shirt_ShortSleeve_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>d4cf47f3-172d-4acc-8742-9035db2b41da</itemGUID> <!-- Shirt_ShortSleeve_Cerberus_Open -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			<subItems>
+				<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>7900a5f4-38cb-4516-891a-d0ab50c7119f</itemGUID> <!-- Shirt_TshirtShort_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Tank Top -->
+		<m_items>
+			<itemGUID>f029a791-7eca-4296-84e7-ba8eff9f5465</itemGUID> <!-- Shirt_TankTop_Cerberus -->
+			<subItems>
+				<itemGUID>42defde4-fdbc-434e-9ced-59516bd99eb3</itemGUID> <!-- Shirt_TankTopShort_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ddc12bbd-43c8-4f7e-87a1-3c2d25261aa4</itemGUID> <!-- Gloves_Cerberus -->
+			<subItems>
+				<itemGUID>96326de2-9d49-4272-8660-d9fe754f6f37</itemGUID> <!-- GlovesFingerless_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>de7e7dd5-6a8c-4255-946b-f6ba15714b99</itemGUID> <!--  Pants_Classic_Cerberus -->
+			<subItems>
+				<itemGUID>68a58170-31f1-4da8-80b6-e3afe766dc47</itemGUID> <!-- Pants_Classic_Cerberus_RollUp -->
+			</subItems>
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>9bb861df-bb71-4abe-a0e4-d3eb662524f5</itemGUID> <!--  Shoes_TacticalBoots_Cerberus -->
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>005c9634-ff6f-48eb-a063-d2414610a5a3</itemGUID> <!-- Backpack_Cerberus -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cceff918-472c-4bd5-bd92-4a49ebfbfa43</itemGUID> <!-- HipBag_Cerberus_Left -->
+		</m_items>
+	</m_FemaleOutfits>
+
+
+
+	<m_MaleOutfits>
+		<m_Name>Cerberus_MediumArmored</m_Name>
+		<m_Guid>d1a18df9-5002-4a94-a8d7-29554beebea2</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Helmet -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>1a910f0a-a1b5-49d5-b787-c4f6ca86d980</itemGUID> <!-- Helmet_Cerberus -->
+			<subItems>
+				<itemGUID>93813627-8af0-45f3-985c-812941b9007f</itemGUID> <!-- MaskFull_BallisticMask_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>3693d4a3-45ea-42fe-b1ec-dfec79c8add1</itemGUID> <!-- MaskFull_BallisticMask_Cerberus-Blood -->
+			</subItems>
+		</m_items>
+<!-- Mask -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>67c05d91-0fad-4195-9851-2ad1c4e1cfba</itemGUID> <!-- Mask_Balaclava_Cerberus -->
+			<subItems>
+				<itemGUID>c4d80307-0215-4dbe-957e-cc988d1cfe6d</itemGUID> <!-- Mask_BandanaMask_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Headsets -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>f403bc5b-ebd6-4970-80be-56c17a2be80d</itemGUID> <!-- Headsets_Cerberus -->
+		</m_items>
+<!-- Glasses -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b3910194-f5ff-4b7e-a1a4-bfaa41c10015</itemGUID> <!-- Glasses_Goggles_Cerberus -->
+			<subItems>
+				<itemGUID>7e7ef681-e477-40e8-8190-25eb0ae31cd0</itemGUID> <!-- Glasses_Tactical_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.6</probability>
+			<itemGUID>ab1f1851-2725-4cde-9a8d-40c71e7352fb</itemGUID> <!-- ElbowPads_Cerberus -->
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.6</probability>
+			<itemGUID>e8bed5a2-352e-4900-b465-e298e82f0813</itemGUID> <!-- KneePads_Cerberus -->
+		</m_items>
+<!-- BulletproofVest -->
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.6</probability>
+			<itemGUID>e907279c-53c9-4c5e-83ce-054e5f175af8</itemGUID> <!-- BulletproofVest_Cerberus -->
+			<subItems>
+				<itemGUID>1061ce18-c42f-4c56-9291-d73c4d4140db</itemGUID> <!-- BulletproofVest_Cerberus_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>37e011cb-a127-43df-a271-0b967d4a6718</itemGUID> <!-- BulletproofVest_Cerberus_HighMobilityKit -->
+			</subItems>
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cf6bbe11-94aa-44ea-9a8a-1f3e32090994</itemGUID> <!-- Jacket_Lightweight_Cerberus -->
+			<subItems>
+				<itemGUID>357ab688-a158-49a1-bae1-54f558383c97</itemGUID> <!-- Jacket_Lightweight_Cerberus_RolledUpSleeves -->
+			</subItems>
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>3a4edaeb-5c6f-4807-aa06-c792ed607f88</itemGUID> <!-- Shirt_Cerberus -->
+			<subItems>
+				<itemGUID>a08f67f6-cdd6-46f9-b3d0-a41c852af06f</itemGUID> <!-- Shirt_Cerberus_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>43e5c483-0f37-475e-80d1-04b1cbaa786d</itemGUID> <!-- Shirt_Cerberus_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>bdf14a20-7978-4abb-8d51-406b942fa149</itemGUID> <!-- Shirt_Cerberus_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>336294e8-634a-43e2-825a-271d3ce468a8</itemGUID> <!-- Shirt_ShortSleeve_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>d4cf47f3-172d-4acc-8742-9035db2b41da</itemGUID> <!-- Shirt_ShortSleeve_Cerberus_Open -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			<subItems>
+				<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Tank Top -->
+		<m_items>
+			<itemGUID>f029a791-7eca-4296-84e7-ba8eff9f5465</itemGUID> <!-- Shirt_TankTop_Cerberus -->
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ddc12bbd-43c8-4f7e-87a1-3c2d25261aa4</itemGUID> <!-- Gloves_Cerberus -->
+			<subItems>
+				<itemGUID>96326de2-9d49-4272-8660-d9fe754f6f37</itemGUID> <!-- GlovesFingerless_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>de7e7dd5-6a8c-4255-946b-f6ba15714b99</itemGUID> <!--  Pants_Classic_Cerberus -->
+			<subItems>
+				<itemGUID>68a58170-31f1-4da8-80b6-e3afe766dc47</itemGUID> <!-- Pants_Classic_Cerberus_RollUp -->
+			</subItems>
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>9bb861df-bb71-4abe-a0e4-d3eb662524f5</itemGUID> <!--  Shoes_TacticalBoots_Cerberus -->
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>005c9634-ff6f-48eb-a063-d2414610a5a3</itemGUID> <!-- Backpack_Cerberus -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cceff918-472c-4bd5-bd92-4a49ebfbfa43</itemGUID> <!-- HipBag_Cerberus_Left -->
+		</m_items>
+	</m_MaleOutfits>
+
+
+
+
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Cerberus_HeavyArmored /////////////////////////////////////// -->
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_FemaleOutfits>
+		<m_Name>Cerberus_HeavyArmored</m_Name>
+		<m_Guid>25e8e50b-374d-4cc6-9811-ca964ff20ebf</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Helmet -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>1a910f0a-a1b5-49d5-b787-c4f6ca86d980</itemGUID> <!-- Helmet_Cerberus -->
+			<subItems>
+				<itemGUID>93813627-8af0-45f3-985c-812941b9007f</itemGUID> <!-- MaskFull_BallisticMask_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>3693d4a3-45ea-42fe-b1ec-dfec79c8add1</itemGUID> <!-- MaskFull_BallisticMask_Cerberus-Blood -->
+			</subItems>
+		</m_items>
+<!-- Mask -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>67c05d91-0fad-4195-9851-2ad1c4e1cfba</itemGUID> <!-- Mask_Balaclava_Cerberus -->
+			<subItems>
+				<itemGUID>c4d80307-0215-4dbe-957e-cc988d1cfe6d</itemGUID> <!-- Mask_BandanaMask_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Headsets -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>f403bc5b-ebd6-4970-80be-56c17a2be80d</itemGUID> <!-- Headsets_Cerberus -->
+		</m_items>
+<!-- Glasses -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b3910194-f5ff-4b7e-a1a4-bfaa41c10015</itemGUID> <!-- Glasses_Goggles_Cerberus -->
+			<subItems>
+				<itemGUID>7e7ef681-e477-40e8-8190-25eb0ae31cd0</itemGUID> <!-- Glasses_Tactical_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>ab1f1851-2725-4cde-9a8d-40c71e7352fb</itemGUID> <!-- ElbowPads_Cerberus -->
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>e8bed5a2-352e-4900-b465-e298e82f0813</itemGUID> <!-- KneePads_Cerberus -->
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>e907279c-53c9-4c5e-83ce-054e5f175af8</itemGUID> <!-- BulletproofVest_Cerberus -->
+			<subItems>
+				<itemGUID>1061ce18-c42f-4c56-9291-d73c4d4140db</itemGUID> <!-- BulletproofVest_Cerberus_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>37e011cb-a127-43df-a271-0b967d4a6718</itemGUID> <!-- BulletproofVest_Cerberus_HighMobilityKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>1e3a5c53-c9d9-48ec-a5fd-9f4631c6da15</itemGUID> <!-- BulletproofVest_Cerberus_HighMobilityKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>f91580bd-5d7a-45a1-8057-634074b75cec</itemGUID> <!-- BulletproofVest_Cerberus_FullProtectionKit -->
+			</subItems>
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cf6bbe11-94aa-44ea-9a8a-1f3e32090994</itemGUID> <!-- Jacket_Lightweight_Cerberus -->
+			<subItems>
+				<itemGUID>357ab688-a158-49a1-bae1-54f558383c97</itemGUID> <!-- Jacket_Lightweight_Cerberus_RolledUpSleeves -->
+			</subItems>
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>3a4edaeb-5c6f-4807-aa06-c792ed607f88</itemGUID> <!-- Shirt_Cerberus -->
+			<subItems>
+				<itemGUID>a08f67f6-cdd6-46f9-b3d0-a41c852af06f</itemGUID> <!-- Shirt_Cerberus_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>43e5c483-0f37-475e-80d1-04b1cbaa786d</itemGUID> <!-- Shirt_Cerberus_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>bdf14a20-7978-4abb-8d51-406b942fa149</itemGUID> <!-- Shirt_Cerberus_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>336294e8-634a-43e2-825a-271d3ce468a8</itemGUID> <!-- Shirt_ShortSleeve_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>d4cf47f3-172d-4acc-8742-9035db2b41da</itemGUID> <!-- Shirt_ShortSleeve_Cerberus_Open -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			<subItems>
+				<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>7900a5f4-38cb-4516-891a-d0ab50c7119f</itemGUID> <!-- Shirt_TshirtShort_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Tank Top -->
+		<m_items>
+			<itemGUID>f029a791-7eca-4296-84e7-ba8eff9f5465</itemGUID> <!-- Shirt_TankTop_Cerberus -->
+			<subItems>
+				<itemGUID>42defde4-fdbc-434e-9ced-59516bd99eb3</itemGUID> <!-- Shirt_TankTopShort_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ddc12bbd-43c8-4f7e-87a1-3c2d25261aa4</itemGUID> <!-- Gloves_Cerberus -->
+			<subItems>
+				<itemGUID>96326de2-9d49-4272-8660-d9fe754f6f37</itemGUID> <!-- GlovesFingerless_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>de7e7dd5-6a8c-4255-946b-f6ba15714b99</itemGUID> <!--  Pants_Classic_Cerberus -->
+			<subItems>
+				<itemGUID>68a58170-31f1-4da8-80b6-e3afe766dc47</itemGUID> <!-- Pants_Classic_Cerberus_RollUp -->
+			</subItems>
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>9bb861df-bb71-4abe-a0e4-d3eb662524f5</itemGUID> <!--  Shoes_TacticalBoots_Cerberus -->
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>005c9634-ff6f-48eb-a063-d2414610a5a3</itemGUID> <!-- Backpack_Cerberus -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cceff918-472c-4bd5-bd92-4a49ebfbfa43</itemGUID> <!-- HipBag_Cerberus_Left -->
+		</m_items>
+	</m_FemaleOutfits>
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<m_MaleOutfits>
+		<m_Name>Cerberus_HeavyArmored</m_Name>
+		<m_Guid>3f343440-0564-461e-a9e1-ec2a8068d15c</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Helmet -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>1a910f0a-a1b5-49d5-b787-c4f6ca86d980</itemGUID> <!-- Helmet_Cerberus -->
+			<subItems>
+				<itemGUID>93813627-8af0-45f3-985c-812941b9007f</itemGUID> <!-- MaskFull_BallisticMask_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>3693d4a3-45ea-42fe-b1ec-dfec79c8add1</itemGUID> <!-- MaskFull_BallisticMask_Cerberus-Blood -->
+			</subItems>
+		</m_items>
+<!-- Mask -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>67c05d91-0fad-4195-9851-2ad1c4e1cfba</itemGUID> <!-- Mask_Balaclava_Cerberus -->
+			<subItems>
+				<itemGUID>c4d80307-0215-4dbe-957e-cc988d1cfe6d</itemGUID> <!-- Mask_BandanaMask_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Headsets -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>f403bc5b-ebd6-4970-80be-56c17a2be80d</itemGUID> <!-- Headsets_Cerberus -->
+		</m_items>
+<!-- Glasses -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b3910194-f5ff-4b7e-a1a4-bfaa41c10015</itemGUID> <!-- Glasses_Goggles_Cerberus -->
+			<subItems>
+				<itemGUID>7e7ef681-e477-40e8-8190-25eb0ae31cd0</itemGUID> <!-- Glasses_Tactical_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- ElbowPads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>ab1f1851-2725-4cde-9a8d-40c71e7352fb</itemGUID> <!-- ElbowPads_Cerberus -->
+		</m_items>
+<!-- KneePads -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>e8bed5a2-352e-4900-b465-e298e82f0813</itemGUID> <!-- KneePads_Cerberus -->
+		</m_items>
+<!-- BulletproofVest -->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>e907279c-53c9-4c5e-83ce-054e5f175af8</itemGUID> <!-- BulletproofVest_Cerberus -->
+			<subItems>
+				<itemGUID>1061ce18-c42f-4c56-9291-d73c4d4140db</itemGUID> <!-- BulletproofVest_Cerberus_AssaultLightKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>37e011cb-a127-43df-a271-0b967d4a6718</itemGUID> <!-- BulletproofVest_Cerberus_HighMobilityKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>1e3a5c53-c9d9-48ec-a5fd-9f4631c6da15</itemGUID> <!-- BulletproofVest_Cerberus_HighMobilityKit -->
+			</subItems>
+			<subItems>
+				<itemGUID>f91580bd-5d7a-45a1-8057-634074b75cec</itemGUID> <!-- BulletproofVest_Cerberus_FullProtectionKit -->
+			</subItems>
+		</m_items>
+<!-- Jacket -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cf6bbe11-94aa-44ea-9a8a-1f3e32090994</itemGUID> <!-- Jacket_Lightweight_Cerberus -->
+			<subItems>
+				<itemGUID>357ab688-a158-49a1-bae1-54f558383c97</itemGUID> <!-- Jacket_Lightweight_Cerberus_RolledUpSleeves -->
+			</subItems>
+		</m_items>
+<!-- Shirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>3a4edaeb-5c6f-4807-aa06-c792ed607f88</itemGUID> <!-- Shirt_Cerberus -->
+			<subItems>
+				<itemGUID>a08f67f6-cdd6-46f9-b3d0-a41c852af06f</itemGUID> <!-- Shirt_Cerberus_Open -->
+			</subItems>
+			<subItems>
+				<itemGUID>43e5c483-0f37-475e-80d1-04b1cbaa786d</itemGUID> <!-- Shirt_Cerberus_OpenRolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>bdf14a20-7978-4abb-8d51-406b942fa149</itemGUID> <!-- Shirt_Cerberus_RolledUpSleeves -->
+			</subItems>
+			<subItems>
+				<itemGUID>336294e8-634a-43e2-825a-271d3ce468a8</itemGUID> <!-- Shirt_ShortSleeve_Cerberus -->
+			</subItems>
+			<subItems>
+				<itemGUID>d4cf47f3-172d-4acc-8742-9035db2b41da</itemGUID> <!-- Shirt_ShortSleeve_Cerberus_Open -->
+			</subItems>
+		</m_items>
+<!-- TShirt -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			<subItems>
+				<itemGUID>7f459c01-02f9-4a11-bd02-4f57a025e120</itemGUID> <!-- Shirt_Tshirt_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Tank Top -->
+		<m_items>
+			<itemGUID>f029a791-7eca-4296-84e7-ba8eff9f5465</itemGUID> <!-- Shirt_TankTop_Cerberus -->
+		</m_items>
+<!-- Gloves -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ddc12bbd-43c8-4f7e-87a1-3c2d25261aa4</itemGUID> <!-- Gloves_Cerberus -->
+			<subItems>
+				<itemGUID>96326de2-9d49-4272-8660-d9fe754f6f37</itemGUID> <!-- GlovesFingerless_Cerberus -->
+			</subItems>
+		</m_items>
+<!-- Pants -->
+		<m_items>
+			<itemGUID>de7e7dd5-6a8c-4255-946b-f6ba15714b99</itemGUID> <!--  Pants_Classic_Cerberus -->
+			<subItems>
+				<itemGUID>68a58170-31f1-4da8-80b6-e3afe766dc47</itemGUID> <!-- Pants_Classic_Cerberus_RollUp -->
+			</subItems>
+		</m_items>
+<!-- Shoes -->
+		<m_items>
+			<itemGUID>9bb861df-bb71-4abe-a0e4-d3eb662524f5</itemGUID> <!--  Shoes_TacticalBoots_Cerberus -->
+		</m_items>
+<!-- Backpack -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>005c9634-ff6f-48eb-a063-d2414610a5a3</itemGUID> <!-- Backpack_Cerberus -->
+		</m_items>
+<!-- HipBag -->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cceff918-472c-4bd5-bd92-4a49ebfbfa43</itemGUID> <!-- HipBag_Cerberus_Left -->
+		</m_items>
+	</m_MaleOutfits>
+
+
+</outfitManager>
