@@ -1,0 +1,10 @@
+modversion=2.0
+versionMin=41.0.0
+versionMax=42.20.0
+dependencies=base
+author=Kamer
+name=[K] Show Wall Health
+id=KAMER_WallHealth
+description=Check Object Health by Right Clicking - Works for Doors/Windows/Your builds.
+poster=poster.png
+icon=logo_mini.png

@@ -1,0 +1,5 @@
+ContextMenu_UA = {	
+	ContextMenu_Kamer_ShowWallHealth_Check_Status = "Перевірити Cтан",
+	ContextMenu_Kamer_ShowWallHealth_Check = "Перевірити %1",
+	ContextMenu_Kamer_ShowWallHealth_Health = "Здоров'я %1/%2",
+}

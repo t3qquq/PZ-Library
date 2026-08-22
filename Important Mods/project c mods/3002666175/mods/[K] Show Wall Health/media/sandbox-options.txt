@@ -1,0 +1,31 @@
+VERSION = 1,
+
+option Kamer_ShowWallHealth.visibility
+{
+	type = enum,
+    numValues = 3,
+    default = 1,
+
+	page = Kamer_ShowWallHealth_Page,
+	translation = Kamer_ShowWallHealthSettings.visibility,
+}
+
+option Kamer_ShowWallHealth.position
+{
+	type = enum,
+	numValues = 3,
+    default = 3,
+
+	page = Kamer_ShowWallHealth_Page,
+	translation = Kamer_ShowWallHealthSettings.position,
+}
+
+option Kamer_ShowWallHealth.showIcons
+{
+	type = boolean,
+    default = true,
+
+	page = Kamer_ShowWallHealth_Page,
+	translation = Kamer_ShowWallHealthSettings.showIcons,
+}
+

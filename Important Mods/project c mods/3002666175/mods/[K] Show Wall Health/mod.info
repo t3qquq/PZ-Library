@@ -1,0 +1,7 @@
+modversion=1.5.6
+authors=Kamer
+name=[K] Show Wall Health
+id=KAMER_WallHealth
+description=Check Object Health by Right Clicking - Works for Doors/Windows/Your builds.
+poster=poster.png
+icon=logo_mini.png

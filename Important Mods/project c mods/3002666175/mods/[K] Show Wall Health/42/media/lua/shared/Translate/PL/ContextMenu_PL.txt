@@ -1,0 +1,5 @@
+ContextMenu_PL = {	
+	ContextMenu_Kamer_ShowWallHealth_Check_Status = "Sprawdź Status",
+	ContextMenu_Kamer_ShowWallHealth_Check = "Sprawdź %1",
+	ContextMenu_Kamer_ShowWallHealth_Health = "Życie %1/%2",
+}
