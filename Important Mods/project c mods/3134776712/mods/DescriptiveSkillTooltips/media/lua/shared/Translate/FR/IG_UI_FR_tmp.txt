@@ -1,0 +1,287 @@
+IGUI_FR = {
+    IGUI_skilltooltip_basecarrycapacity = "Capacité de charge de base",
+    IGUI_skilltooltip_blockchance = "chance de blocage",
+    IGUI_skilltooltip_meleedamage = "dégâts de mêlée",
+    IGUI_skilltooltip_pushknockdown = "pousser par terre",
+    IGUI_skilltooltip_chancetoclimbtallfences = "chance de grimper les hautes clôtures",
+
+    IGUI_skilltooltip_trait = "trait",
+
+    IGUI_skilltooltip_enduranceloss = "perte d'endurance",
+    IGUI_skilltooltip_endurancerecovery = "récupération d'endurance",
+    IGUI_skilltooltip_attackspeed = "vitesse d'attaque",
+    IGUI_skilltooltip_tripchance = "chance de trébucher",
+
+    IGUI_skilltooltip_runningspeed = "vitesse de course",
+    IGUI_skilltooltip_sprintingspeed = "vitesse de sprint",
+    IGUI_skilltooltip_footstepssoundradius = "rayon sonore des pas",
+    IGUI_skilltooltip_combatwalkspeed = "vitesse de marche en combat",
+    IGUI_skilltooltip_footstepssoundradiuswhilesneaking = "rayon sonore des pas en mode furtif",
+    IGUI_skilltooltip_detectionchance = "chance d'être détecté (à chaque instant)",
+
+    IGUI_skilltooltip_damage = "dégâts",
+    IGUI_skilltooltip_critchance = "chance de coup critique",
+    IGUI_skilltooltip_extradamage = "dégâts supplémentaires",
+    IGUI_skilltooltip_attackrange = "portée d'attaque",
+    IGUI_skilltooltip_endurancecost = "coût en endurance",
+    IGUI_skilltooltip_injurychance = "chance d'esquive",
+    IGUI_skilltooltip_chanceofjawstab = "chance de poignarder la mâchoire",
+    IGUI_skilltooltip_decreasedchanceofshortbladegettingstuckinazombie = "Diminution de la probabilité que les lames courtes restent coincées dans les zombies",
+
+    IGUI_skilltooltip_Slightincreasein = "Légère augmentation de",
+    IGUI_skilltooltip_durability = "durabilité",
+    IGUI_skilltooltip_Increaseddurabilityofallweapons = "Augmentation de la durabilité de toutes les armes, en particulier celles ayant une faible durabilité",
+    IGUI_skilltooltip_barricadingtimewood = "temps de barricadage (bois)",
+    IGUI_skilltooltip_healthforwoodenconstructions = "santé pour les constructions en bois",
+    IGUI_skilltooltip_craftedspeardurability = "durabilité des lances fabriquées",
+
+    IGUI_skilltooltip_ingredientsused = "ingrédients utilisés",
+    IGUI_skilltooltip_morecalories = "plus de calories, protéines, glucides et lipides dans les repas cuisinés",
+    IGUI_skilltooltip_cookingspeed = "vitesse de cuisine",
+    IGUI_skilltooltip_Canuserottenfood = "Peut utiliser %1% de nourriture pourrie comme ingrédient",
+    IGUI_skilltooltip_Cantellpoison = "Peut détecter si un repas cuisiné est empoisonné",
+
+    IGUI_skilltooltip_bandagelife= "durée de vie du bandage",
+    IGUI_skilltooltip_fracturehealingspeed = "vitesse de guérison des fractures",
+    IGUI_skilltooltip_movespeedwithafracture = "vitesse de déplacement avec une fracture",
+    IGUI_skilltooltip_fastermedicalactions = "rapidité des actions médicales",
+    IGUI_skilltooltip_fastermedicalchecks = "vérifications médicales plus rapides sur d'autres survivants",
+
+    IGUI_skilltooltip_barricadingtimemetal = "temps de barricadage (métal",
+    IGUI_skilltooltip_vehiclesalvagingtime = "temps de démolition automobile",
+    IGUI_skilltooltip_hoodopeningtime = "temps d'ouverture du capot et temps de maintenance automobile",
+    IGUI_skilltooltip_servicingtime = "temps de maintenance automobile",
+
+    IGUI_skilltooltip_Sheetpaddingsprovide = "Les rembourrages en tissu fournissent",
+    IGUI_skilltooltip_Denimpaddingsprovide = "Les rembourrages en jean fournissent",
+    IGUI_skilltooltip_Leatherpaddingsprovide = "Les rembourrages en cuir fournissent",
+    IGUI_skilltooltip_scratchdefense = "défense contre les égratignures",
+    IGUI_skilltooltip_bitedefense = "défense contre les morsures",
+    IGUI_skilltooltip_chancetogetthread = "chance d'obtenir du fil en déchirant des vêtements",
+    IGUI_skilltooltip_chanceofgettingpaddingback = "chance de récupérer le rembourrage en le retirant",
+    IGUI_skilltooltip_Rippingclothesyieldsmorefabric = "Déchirer des vêtements produit plus de matériaux",
+    
+    IGUI_skilltooltip_Canrepairclothes = "Peut réparer les vêtements avec le bon type de matériau",
+
+    IGUI_skilltooltip_increasegunstats = "Augmente la précision, la portée, l'angle de tir et le temps de visée en fonction de l'arme",
+
+    IGUI_skilltooltip_generatorconditionrepaired = "Condition de générateur réparé par pièce électronique",
+
+
+    IGUI_skilltooltip_experience = "expérience",
+    IGUI_skilltooltip_Insertsandremovesmagazinesfaster = "Insère et retire les chargeurs plus rapidement",
+    IGUI_skilltooltip_Loadsunloadsmagazinesfaster= "Charge et décharge les chargeurs plus rapidement",
+    IGUI_skilltooltip_Loadsweaponsfaster = "Charge les armes plus rapidement",
+
+    IGUI_skilltooltip_Increasedcatchchance = "Augmentation de la chance de capture",
+    IGUI_skilltooltip_SnareTraps(*) = "Peut construire des pièges à collet (*)",
+    IGUI_skilltooltip_requiresknowledge = "(* = nécessite des connaissances)",
+    IGUI_skilltooltip_with = "avec",
+    IGUI_skilltooltip_can = "Peut",
+    IGUI_skilltooltip_Buildsunlocked = "Constructions déverrouillées",
+    IGUI_skilltooltip_Canbuild = "Peut construire",
+    IGUI_skilltooltip_Canmake = "Peut fabriquer",
+    IGUI_skilltooltip_Canfind = "Peut trouver",
+    IGUI_skilltooltip_Canfindmore = "Peut trouver plus",
+    IGUI_skilltooltip_Canproperlyservice = "Peut entretenir correctement",
+    IGUI_skilltooltip_TrapBox = "Peut construire des boîtes piègées si la menuiserie est de niveau 1 (*)",
+    IGUI_skilltooltip_CageTraps= "Peut construire des cages piègées (*)",
+    IGUI_skilltooltip_roughwoodenfloor = "Peut construire un sol en bois de mauvaise qualité",
+    IGUI_skilltooltip_woodensign = "Peut construire un panneau en bois",
+    IGUI_skilltooltip_wallframes = "Peut construire des cadres de mur",
+    IGUI_skilltooltip_doorframes = "Peut construire des cadres de porte",
+    IGUI_skilltooltip_woodenwallslvl1 = "Peut construire des murs en bois de niveau 1",
+    IGUI_skilltooltip_woodenwindowslvl1 = "Peut construire des fenêtres en bois de niveau 1",
+    IGUI_skilltooltip_roughwoodenfences = "Peut construire des clôtures en bois de mauvaise qualité",
+    IGUI_skilltooltip_roughwoodenshelves = "Peut construire des étagères en bois de mauvaise qualité",
+    IGUI_skilltooltip_composter = "Peut construire des composteurs",
+    IGUI_skilltooltip_roughsmallbookcases = "Peut construire de petites bibliothèques en bois",
+    IGUI_skilltooltip_roughwoodencrates = "Peut construire des caisses en bois de mauvaise qualité",
+    IGUI_skilltooltip_roughwoodendoors = "Peut construire des portes en bois de mauvaise qualité",
+    IGUI_skilltooltip_properwoodenfloors = "Peut construire des sols en bois",
+    IGUI_skilltooltip_bettercounters = "Peut construire de meilleurs comptoirs",
+    IGUI_skilltooltip_bettertables = "Peut construire de meilleures tables",
+    IGUI_skilltooltip_betterwoodendoors = "Peut construire de meilleures portes en bois",
+    IGUI_skilltooltip_beds = "Peut construire des lits",
+    IGUI_skilltooltip_basicraincollectorbarrels = "Peut construire des barils collecteurs d'eau de base",
+    IGUI_skilltooltip_lamponpillar = "Peut construire des lampes accrochées à des piliers",
+    IGUI_skilltooltip_woodenwallslvl2 = "Peut construire des murs en bois de niveau 2",
+    IGUI_skilltooltip_woodenwindowslvl2 = "Peut construire des fenêtres en bois de niveau 2",
+    IGUI_skilltooltip_Canplasterwoodenwallslv3 = "Peut enduire de plâtre les murs en bois de niveau 3",
+    IGUI_skilltooltip_woodenstakesandbarbedfences = "Peut construire des pieux en bois et des clôtures barbelées",
+    IGUI_skilltooltip_roughbookcase = "Peut construire une bibliothèque en bois de mauvaise qualité",
+    IGUI_skilltooltip_stairs = "Peut construire des escaliers",
+    IGUI_skilltooltip_doublewoodendoors = "Peut construire des portes en bois doubles",
+    IGUI_skilltooltip_properwoodencrates = "Peut construire des caisses en bois de qualité",
+    IGUI_skilltooltip_propercounters = "Peut construire des comptoirs de qualité",
+    IGUI_skilltooltip_propertables = "Peut construire des tables de qualité",
+    IGUI_skilltooltip_properdoors = "Peut construire des portes de qualité",
+    IGUI_skilltooltip_properbookcases = "Peut construire des bibliothèques de qualité",
+    IGUI_skilltooltip_qualityraincollectorbarrels = "Peut construire des barils collecteurs d'eau de qualité",
+    IGUI_skilltooltip_woodenwallslvl3 = "Peut construire des murs en bois de niveau 3",
+    IGUI_skilltooltip_woodenwindowslvl3 = "Peut construire des fenêtres en bois de niveau 3",
+    
+    IGUI_skilltooltip_Cantellcurrentgrowthphase = "Peut déterminer la phase de croissance actuelle d'une culture",
+    IGUI_skilltooltip_Cantellhealthmoreeasily = "Peut déterminer plus facilement la santé d'une culture",
+    IGUI_skilltooltip_Cantellwaterlevelmoreeasily = "Peut déterminer plus facilement le niveau d'eau d'une culture",
+    IGUI_skilltooltip_Cantellgrowthlevelmoreeasily = "Peut déterminer plus facilement le niveau de croissance d'une culture",
+    IGUI_skilltooltip_Cantelldiseaselevel = "Peut déterminer le niveau de maladie d'une culture",
+    IGUI_skilltooltip_Cantellwhennextgrowthphasewilloccur = "Peut déterminer quand la prochaine phase de croissance d'une culture aura lieu",
+
+    IGUI_skilltooltip_Canhotwirevehicleswithmechanics = "Peut démarrer les véhicules avec les fils (avec un niveau de Mécanique de 2)",
+    IGUI_skilltooltip_Canhotwirevehicleswithelectrical = "Peut démarrer les véhicules avec les fils  (avec un niveau Electrique de 1)",
+    IGUI_skilltooltip_Canchangelightstobebatterypowered = "Peut convertir les lumières en fonctionnant à la batterie",
+
+    IGUI_skilltooltip_Increasedvehiclehoodefficiency = "Efficacité accrue de la réparation du capot et du coffre du véhicule",
+    IGUI_skilltooltip_Standardenginerepair = "Répare %1% d'un moteur Standard par pièce de moteur",
+    IGUI_skilltooltip_Heavydutydenginerepair = "Répare %1% d'un moteur Heavy-Duty par pièce de moteur",
+    IGUI_skilltooltip_Sportenginerepair = "Répare %1% d'un moteur Sport par pièce de moteur",
+
+
+    IGUI_skilltooltip_serviceseats = "Peut entretenir correctement les sièges",
+    IGUI_skilltooltip_servicetires = "Peut entretenir correctement les pneus",
+    IGUI_skilltooltip_servicewindows = "Peut entretenir correctement les vitres",
+    IGUI_skilltooltip_servicehood = "Peut entretenir correctement les capots",
+    IGUI_skilltooltip_servicetrunklids = "Peut entretenir correctement les capots de coffre",
+    IGUI_skilltooltip_servicebrakes = "Peut entretenir correctement les freins",
+    IGUI_skilltooltip_servicesuspensions = "Peut entretenir correctement les suspensions",
+    IGUI_skilltooltip_servicedoors = "Peut entretenir correctement les portes",
+    IGUI_skilltooltip_servicegastanks = "Peut entretenir correctement les réservoirs de carburant",
+    IGUI_skilltooltip_servicemufflers = "Peut entretenir correctement les pots d'échappements",
+    IGUI_skilltooltip_servicewindshields = "Peut entretenir correctement les pare-brises",
+    IGUI_skilltooltip_Canrepairvehiclehoodstrunks = "Peut réparer les capots et les coffres de véhicules",
+
+    IGUI_skilltooltip_CanextractenginepartsfromStandardengines = "Peut extraire des pièces de moteur des moteurs Standard",
+    IGUI_skilltooltip_CanextractenginepartsfromHeavyDutyengines = "Peut extraire des pièces de moteur des moteurs Heavy-Duty",
+    IGUI_skilltooltip_CanextractenginepartsfromSportengines = "Peut extraire des pièces de moteur des moteurs Sport",
+
+
+    IGUI_skilltooltip_metalwalllvl1 = "Peut construire des murs en métal de niveau 1 (*)",
+    IGUI_skilltooltip_metalwallframes = "Peut construire des cadres de mur en métal (*)",
+    IGUI_skilltooltip_metalfences = "Peut construire des clôtures en métal (*)",
+    IGUI_skilltooltip_polefences = "Peut construire des clôtures en barres de métal (*)",
+    IGUI_skilltooltip_metalshelves = "Peut construire des étagères en métal (*)",
+    IGUI_skilltooltip_wiredfences = "Peut construire des grillages (*)",
+    IGUI_skilltooltip_polefencegates = "Peut construire des portails en barres de métal (*)",
+    IGUI_skilltooltip_metalcrates = "Peut construire des caisses en métal (*)",
+    IGUI_skilltooltip_metalwindowslvl1 = "Peut construire des fenêtres en métal de niveau 1 (*)",
+    IGUI_skilltooltip_bigwiredfences = "Peut construire de grands grillages (*)",
+    IGUI_skilltooltip_bigmetalcounters = "Peut construire de grands comptoirs en métal (*)",
+    IGUI_skilltooltip_smalllocker = "Peut construire des petits casiers (*)",
+    IGUI_skilltooltip_bigpolefences = "Peut construire de grandes clôtures en barres de métal (*)",
+    IGUI_skilltooltip_bigpolefencegates = "Peut construire de grands portails en barres de métal (*)",
+    IGUI_skilltooltip_bigdoublewiredgates = "Peut construire de grands portails de grillage (*)",
+    IGUI_skilltooltip_metalwallslvl2  = "Peut construire des murs en métal de niveau 2 (*)",
+    IGUI_skilltooltip_metalwindowslvl2 = "Peut construire des fenêtres en métal de niveau 2(*)",
+    IGUI_skilltooltip_bigdoublepolegates = "Peut construire de grands portails de barres de métal (*)",
+    IGUI_skilltooltip_biglockers = "Peut construire des grands casiers (*)",
+    
+
+
+
+
+
+
+
+
+    IGUI_skilltooltip_Betteratsalvagingmetalfromvehicles = "Récupère plus de métal sur les véhicules",
+    IGUI_skilltooltip_Slightlybetteratsalvagingmetalfromvehicles = "Récupère un peu plus de métal sur les véhicules",
+    IGUI_skilltooltip_Increasedvehiclehoodandtrunkrepairefficiency = "Réparation plus efficace des capots et coffres des véhicules",
+    IGUI_skilltooltip_Increasedvehiclehoodrepairefficiency = "Réparation plus efficace des capots",
+    IGUI_skilltooltip_CanrepairvehicletrunkswithMechanics = "Peut réparer les coffres de véhicules (avec Mécanique niveau 2)",
+    IGUI_skilltooltip_Canrepairvehiclehoodsbetter = "Peut mieux réparer les capots de véhicules",
+    IGUI_skilltooltip_Andmore = "Et plus encore...",
+
+    IGUI_skilltooltip_morepreciseinformation = "Informations plus précises sur les zones de recherche",
+    IGUI_SearchMode_Categories_ForestRarities = "Raretés de la forêt",
+    IGUI_skilltooltip_Better = "Meilleur",
+
+
+    IGUI_skilltooltip_Enablesfocusing = "Permet de se concentrer sur la recherche de",
+    IGUI_skilltooltip_chancetobreakrod = "chance de casser les lignes de pêche",
+    IGUI_skilltooltip_Decreasedchanceofcatchingtrash = "Réduction de la chance d'attraper des déchets",
+
+
+    IGUI_skilltooltip_chanceofcatchingfishwithspears = "chance d'attraper des poissons avec des lances",
+    IGUI_skilltooltip_chanceofcatchingfishwithfishingrodsandbait = "chance d'attraper des poissons avec des cannes à pêche et de l'appât",
+    IGUI_skilltooltip_chanceofcatchingfishwithfishingrodsandlure = "chance d'attraper des poissons avec des cannes à pêche et un leurre",
+    IGUI_skilltooltip_Fasterfishing = "Pêche plus rapide",
+    IGUI_skilltooltip_doesntgetboredfromfishing = "Ne s'ennuie pas en pêchant",
+
+
+
+    IGUI_skilltooltip_bonusaxetreedamage = "Dégâts aux arbres avec une hache",
+    IGUI_skilltooltip_loweredchancetoloseaxecondition = "Chance réduite d'user une hache en coupant des arbres",
+    IGUI_skilltooltip_increasedchanceofmaterials = "Chance accrue que les arbres laissent tomber des matériaux",
+    IGUI_skilltooltip_caloriedused = "calories utilisées pour couper les arbres",
+    IGUI_skilltooltip_enduranceused = "endurance utilisée pour couper les arbres",
+    IGUI_skilltooltip_foodcondition = "Légère chance de trouver de la nourriture sur les arbres si la Recherche est de niveau %1",
+    IGUI_skilltooltip_foodcondition2 = "Légère chance de trouver de la nourriture dans les arbres abattus",
+    IGUI_skilltooltip_nolongergetsseverelyexhausted = "Ne se fatigue plus gravement en coupant des arbres ou en enlevant des buissons",
+    IGUI_skilltooltip_removingbushtime = "Temps requis pour enlever les buissons"
+
+    IGUI_skilltooltip_andmore = "Et plus encore...",
+
+    IGUI_skilltooltip_chancenottoconsumetinkeringitem = "Chance de ne pas consommer un objet de bricolage",
+
+    IGUI_skilltooltip_dynamictinkerercondition = "Si la Maintenance est de niveau %1 et que le joueur a bricolé 15 objets avec un modificateur rare ou meilleur, il obtient le trait Bricoleur"
+    IGUI_skilltooltip_dynamictinkerercondition2 = "Si le joueur a bricolé 15 objets avec un modificateur rare ou meilleur, il obtient le trait Bricoleur",
+    IGUI_skilltooltip_tinkeringtime = "Temps de bricolage",
+    IGUI_skilltooltip_canttinker = "Ne peut pas bricoler d'armes à moins d'avoir lu le magazine correspondant",
+
+    IGUI_skilltooltip_tinkeringraritytweaker = "Modificateur de rareté du bricolage"
+    IGUI_skilltooltip_rangedweapon = "Arme à distance"
+
+    IGUI_skilltooltip_tinkeringraritytweakerexplanation = "(Un modificateur de rareté plus bas augmente les chances d'obtenir de meilleurs modificateurs d'arme.)"
+
+    IGUI_skilltooltip_cantinkerweaponscondition = "Peut bricoler des armes si la Maintenance est de niveau 3 ou si le joueur a les connaissances nécessaires.",
+    IGUI_skilltooltip_cantinkerweaponscondition2 = "Peut bricoler des armes si le joueur a les connaissances nécessaires.",
+
+
+    IGUI_skilltooltip_scavengingbenefits = "%1% de chance de récupérer %2% de butin supplémentaire"
+
+
+    IGUI_skilltooltip_brakeForceMult = "+%1% de puissance de freinage",
+    IGUI_skilltooltip_engineQualityMult = "+%1% de qualité du moteur",
+    IGUI_skilltooltip_engineLoudnessMult = "%1% de bruit du moteur",
+    IGUI_skilltooltip_enginePowerMult = "+%1% de puissance du moteur",
+    IGUI_skilltooltip_maxSpeedMult = "+%1% de vitesse maximale du véhicule",
+    IGUI_skilltooltip_damageMitigate = "%1% de chance d'atténuer %2% des dégâts du véhicule",
+
+
+
+    IGUI_skilltooltip_weapondismantlingtime = "-%1% de temps de démontage des armes",
+    
+    IGUI_skilltooltip_fixM9pistol = "Peut utiliser des pièces de M9 pour réparer le pistolet M9 (avec Visée = 3)",
+    IGUI_skilltooltip_fixM1911pistol = "Peut utiliser des pièces de M1911 pour réparer le pistolet M1911 (avec Visée = 3)",
+    IGUI_skilltooltip_fixDEpistol = "Peut utiliser des pièces de DE  pour réparer le pistolet DE (avec Visée = 3)",
+    IGUI_skilltooltip_fixrevolver = "CPeut utiliser des pièces de revolver pour réparer le revolver (avec Visée = 3)",
+    IGUI_skilltooltip_fixlongrevolver = "Peut utiliser des pièces de long revolver pour réparer le long revolver (avec Visée = 3)",
+    IGUI_skilltooltip_fixshortrevolver = "Peut utiliser des pièces de court revolver pour réparer le court revolver (avec Visée = 3)",
+    IGUI_skilltooltip_fixshotgun = "Peut utiliser des pièces de fusil à pompe pour réparer le fusil à pompe (avec Visée = 3)",
+    IGUI_skilltooltip_fixdoublebarrelshotgun = "Peut utiliser des pièces de fusil à double canon pour réparer le fusil à double canon (avec Visée = 3)",
+    IGUI_skilltooltip_fixvarmintrifle = "Peut utiliser des pièces de carabine de petit calibre pour réparer la carabine de petit calibre (avec Visée = 4)",
+    IGUI_skilltooltip_fixhuntingrifle = "Peut utiliser des pièces de carabine de chasse pour réparer la carabine de chasse (avec Visée = 4)",
+    IGUI_skilltooltip_fixM16rifle = "Peut utiliser des pièces de fusil d'assaut M16 pour réparer le fusil d'assaut M16 (avec Visée = 5)",
+    IGUI_skilltooltip_fixM14rifle = "Peut utiliser des pièces de carabine M14 pour réparer la carabine M14 (avec Visée = 5)",
+    IGUI_skilltooltip_fixAK47 = "Peut utiliser des pièces de fusil AK47 pour réparer le fusil AK47 (avec Visée = 6)",
+
+    IGUI_skilltooltip_animaltrackingmaxchance = "+%1% de chance maximale de pistage des animaux",
+    IGUI_skilltooltip_successfulanimalcallchance = "+%1% de chance de réussir un appel aux animaux",
+    IGUI_skilltooltip_successfulcapturechance = "+%1% de chance de capture",
+    IGUI_skilltooltip_watchtreetime = "-%1% de temps d'observation des arbres",
+    IGUI_skilltooltip_huntinghitchance = "+%1% de chance de viser juste en chasse",
+
+
+    IGUI_skilltooltip_IncreasedEfficiencyOfCrowbarWhenPryingOpenDoors = "Efficacité accrue du pied-de-biche pour forcer les serrures avec un pied-de-biche",
+    IGUI_skilltooltip_increasedGreenYellowZoneWhenForcingALockWithACrowbar = "Zones vertes et jaunes plus grance lors du forçage d'une serrure avec un pied-de-biche",
+    IGUI_skilltooltip_wideranglebobbipin = "Les serrures ont un angle valide plus large",
+
+    IGUI_skilltooltip_reloadspeedwithbows = "+%1% de vitesse de mise encoche de flèche",
+    IGUI_skilltooltip_arrowdeviation = "%1% de déviation des flèches",
+
+    IGUI_skilltooltip_levelxreadingspeed = "Vitesse de lecture de base de niveau %1 : %2%",
+
+    IGUI_skilltooltip_gunrepairandscraptime = "-%1% de temps de réparation et de démontage d'armes",
+    IGUI_skilltooltip_gunrepairandscarp = "+%1% de chance de réparation et de démontage d'armes réussis",
+}

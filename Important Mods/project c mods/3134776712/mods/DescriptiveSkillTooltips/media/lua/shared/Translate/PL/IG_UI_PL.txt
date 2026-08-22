@@ -1,0 +1,276 @@
+IGUI_PL = {
+
+	IGUI_skilltooltip_basecarrycapacity = " podstawowej wartoœci udŸwigu",
+    IGUI_skilltooltip_blockchance = "szansy zablokowania",
+    IGUI_skilltooltip_meleedamage = "obra¿eñ wrêcz",
+    IGUI_skilltooltip_pushknockdown = "szansy na przewrócenie poprzez pchniêcie",
+    IGUI_skilltooltip_chancetoclimbtallfences = "szansy wspiêcia siê na wysokie ogrodzenie",
+
+    IGUI_skilltooltip_trait = "cechy",
+
+    IGUI_skilltooltip_enduranceloss = "utrata wytrzyma³oœci",
+    IGUI_skilltooltip_endurancerecovery = "odzyskiwanie wytrzyma³oœci",
+    IGUI_skilltooltip_attackspeed = "szybkoœæ ataku",
+    IGUI_skilltooltip_tripchance = "szansa potkniêcia siê",
+
+    IGUI_skilltooltip_runningspeed = "szybkoœæ biegu",
+    IGUI_skilltooltip_sprintingspeed = "szybkoœæ sprintu",
+    IGUI_skilltooltip_footstepssoundradius = "promieñ dŸwiêku kroków",
+    IGUI_skilltooltip_combatwalkspeed = "szybkoœæ ruchu w walce",
+    IGUI_skilltooltip_footstepssoundradiuswhilesneaking = "promieñ dŸwiêku kroków podczas skradania",
+    IGUI_skilltooltip_detectionchance = "szansa na wykrycie (co tick)",
+
+    IGUI_skilltooltip_damage = "obra¿eñ",
+    IGUI_skilltooltip_critchance = "szansy na trafienie krytyczne",
+    IGUI_skilltooltip_extradamage = "dodatkowych obra¿eñ",
+    IGUI_skilltooltip_attackrange = "zasiegu ataku",
+    IGUI_skilltooltip_extradamage = "dodatkowych obra¿eñ",
+    IGUI_skilltooltip_endurancecost = "kosztu wytrzyma³oœci",
+    IGUI_skilltooltip_injurychance = "szansy na unik",
+    IGUI_skilltooltip_chanceofjawstab = "szansy na dŸgniêcie w szczêkê",
+    IGUI_skilltooltip_decreasedchanceofshortbladegettingstuckinazombie = "zmniejszona szansa na utkniêcie krótkiego ostrza w zombie",
+
+    IGUI_skilltooltip_Slightincreasein = "Lekki wzrost",
+    IGUI_skilltooltip_durability = "trwa³oœæ",
+    IGUI_skilltooltip_Increaseddurabilityofallweapons = "Zwiêkszona trwa³oœæ wszystkich broni, zw³aszcza tych o niskiej trwa³oœci",
+    IGUI_skilltooltip_barricadingtimewood = "czas barykadowania (drewno)",
+    IGUI_skilltooltip_healthforwoodenconstructions = "zdrowie dla konstrukcji drewnianych",
+    IGUI_skilltooltip_craftedspeardurability = "trwa³oœæ stworzonej w³óczni",
+
+    IGUI_skilltooltip_ingredientsused = "zu¿ycia sk³adników",
+    IGUI_skilltooltip_morecalories = "wiêcej kalorii, bia³ka, wêglowodanów i t³uszczu w gotowanych posi³kach",
+    IGUI_skilltooltip_cookingspeed = "szybsze gotowanie",
+    IGUI_skilltooltip_Canuserottenfood = "Mo¿e u¿ywaæ %1% zgni³ego jedzenia jako sk³adnika",
+    IGUI_skilltooltip_Cantellpoison = "Mo¿e wykryæ czy w gotowanym posi³ku znajduje siê trucizna",
+
+    IGUI_skilltooltip_bandagelife= "trwa³oœæ banda¿a",
+    IGUI_skilltooltip_fracturehealingspeed = "szybkoœæ gojenia z³amañ",
+    IGUI_skilltooltip_movespeedwithafracture = "szybkoœæ poruszania siê z z³amaniem",
+    IGUI_skilltooltip_fastermedicalactions = "szybsze czynnoœci medyczne",
+    IGUI_skilltooltip_fastermedicalchecks = "szybsze sprawdzanie medyczne innych ocala³ych",
+
+    IGUI_skilltooltip_barricadingtimemetal = "czas barykadowania (metal)",
+    IGUI_skilltooltip_vehiclesalvagingtime = "czas demonta¿u pojazdu",
+    IGUI_skilltooltip_hoodopeningtime = "czas otwierania maski i czas obs³ugi",
+    IGUI_skilltooltip_servicingtime = "czas obs³ugi",
+
+	IGUI_skilltooltip_Sheetpaddingsprovide = "Materia³owe wype³nienie zapewnia",
+    IGUI_skilltooltip_Denimpaddingsprovide = "D¿insowe wype³nienie zapewnia",
+    IGUI_skilltooltip_Leatherpaddingsprovide = "Skórzane wype³nienie zapewnia",
+    IGUI_skilltooltip_scratchdefense = "Obrona przed zadrapaniami",
+    IGUI_skilltooltip_bitedefense = "Obrona przed ugryzieniami",
+    IGUI_skilltooltip_chancetogetthread = "Szansa na uzyskanie nici podczas rozdzierania ubrañ",
+    IGUI_skilltooltip_chanceofgettingpaddingback = "Szansa na odzyskanie wype³nienia po jego usuniêciu",
+    IGUI_skilltooltip_Rippingclothesyieldsmorefabric = "Rozdzieranie ubrañ daje wiêcej materia³u",
+
+    IGUI_skilltooltip_Canrepairclothes = "Mo¿e naprawiaæ ubrania przy u¿yciu odpowiedniego rodzaju materia³u",
+
+    IGUI_skilltooltip_increasegunstats = "Zwiêksza celnoœæ, precyzjê, zasiêg, k¹t strza³u i czas celowania w zale¿noœci od rodzaju broni",
+
+    IGUI_skilltooltip_generatorconditionrepaired = "Stanu kondycji generatora naprawionego za pomoc¹ elektronicznych czêœci",
+	
+	IGUI_skilltooltip_experience = "doœwiadczenia",
+	IGUI_skilltooltip_Insertsandremovesmagazinesfaster = "Szybsze wk³adanie i wyjmowanie magazynków.",
+	IGUI_skilltooltip_Loadsunloadsmagazinesfaster= "Szybsze ³adowanie i roz³adowywanie magazynków.",
+	IGUI_skilltooltip_Loadsweaponsfaster = "Szybsze ³adowanie broni.",
+	
+	IGUI_skilltooltip_Increasedcatchchance = "Zwiêkszona szansa z³apania",
+	IGUI_skilltooltip_SnareTraps(*) = "Mo¿e budowaæ Pu³apki na Zaj¹ce (*)",
+	IGUI_skilltooltip_requiresknowledge = "(* = wymaga wiedzy)",
+	IGUI_skilltooltip_with = "z",
+	IGUI_skilltooltip_can = "Mo¿e",
+	IGUI_skilltooltip_Buildsunlocked = "Odblokowane budowy",
+	IGUI_skilltooltip_Canbuild = "Mo¿e budowaæ",
+	IGUI_skilltooltip_Canmake = "Mo¿e tworzyæ",
+	IGUI_skilltooltip_Canfind = "Mo¿e znaleŸæ",
+	IGUI_skilltooltip_Canfindmore = "Mo¿e znaleŸæ wiêcej",
+	IGUI_skilltooltip_Canproperlyservice = "Mo¿e w³aœciwie serwisowaæ",
+	IGUI_skilltooltip_TrapBox = "Mo¿e budowaæ Skrzynie-Pu³apki, jeœli Ciesielstwo jest na poziomie 1 (*)",
+	IGUI_skilltooltip_CageTraps= "Mo¿e budowaæ Klatki-Pu³apki (*)",
+	IGUI_skilltooltip_roughwoodenfloor = "Mo¿e budowaæ niechlujne drewniane pod³ogi",
+	IGUI_skilltooltip_woodensign = "Mo¿e budowaæ drewniane znaki",
+	IGUI_skilltooltip_wallframes = "Mo¿e budowaæ ramy œcienne",
+	IGUI_skilltooltip_doorframes = "Mo¿e budowaæ ramy drzwiowe",
+	IGUI_skilltooltip_woodenwallslvl1 = "Mo¿e budowaæ drewniane œciany poziomu 1",
+	IGUI_skilltooltip_woodenwindowslvl1 = "Mo¿e budowaæ drewniane okna poziomu 1",
+	IGUI_skilltooltip_roughwoodenfences = "Mo¿e budowaæ niechlujne drewniane ogrodzenia",
+	IGUI_skilltooltip_roughwoodenshelves = "Mo¿e budowaæ niechlujne drewniane pó³ki",
+	IGUI_skilltooltip_composter = "Mo¿e budowaæ kompostownik",
+	IGUI_skilltooltip_roughsmallbookcases = "Mo¿e budowaæ niechlujne ma³e rega³y na ksi¹¿ki",
+	IGUI_skilltooltip_roughwoodencrates = "Mo¿e budowaæ niechlujne drewniane skrzynie",
+	IGUI_skilltooltip_roughwoodendoors = "Mo¿e budowaæ niechlujne drewniane drzwi",
+	IGUI_skilltooltip_properwoodenfloors = "Mo¿e budowaæ drewniane pod³ogi lepszej jakoœci",
+	IGUI_skilltooltip_bettercounters = "Mo¿e budowaæ lepsze sto³y kuchenne",
+	IGUI_skilltooltip_bettertables = "Mo¿e budowaæ lepsze sto³y",
+	IGUI_skilltooltip_betterwoodendoors = "Mo¿e budowaæ lepsze drewniane drzwi",
+	IGUI_skilltooltip_beds = "Mo¿e budowaæ ³ó¿ka",
+	IGUI_skilltooltip_basicraincollectorbarrels = "Mo¿e budowaæ podstawowe beczki na deszczówkê",
+	IGUI_skilltooltip_lamponpillar = "Mo¿e budowaæ lampy na filarze",
+	IGUI_skilltooltip_woodenwallslvl2 = "Mo¿e budowaæ drewniane œciany poziomu 2",
+	IGUI_skilltooltip_woodenwindowslvl2 = "Mo¿e budowaæ drewniane okna poziomu 2",
+	IGUI_skilltooltip_Canplasterwoodenwallslv3 = "Mo¿e tynkowaæ drewniane œciany poziomu 3",
+	IGUI_skilltooltip_woodenstakesandbarbedfences = "Mo¿e budowaæ drewniane paliki i ogrodzenia kolczaste",
+	IGUI_skilltooltip_roughbookcase = "Mo¿e budowaæ niechlujne rega³y na ksi¹¿ki",
+	IGUI_skilltooltip_stairs = "Mo¿e budowaæ schody",
+	IGUI_skilltooltip_doublewoodendoors = "Mo¿e budowaæ podwójne drewniane drzwi",
+	IGUI_skilltooltip_properwoodencrates = "Mo¿e budowaæ drewniane skrzynie dobrej jakoœci",
+	IGUI_skilltooltip_propertables = "Mo¿e budowaæ sto³y dobrej jakoœci",
+	IGUI_skilltooltip_properdoors = "Mo¿e budowaæ drzwi dobrej jakoœci",
+	IGUI_skilltooltip_properbookcases = "Mo¿e budowaæ w³aœciwe rega³y na ksi¹¿ki",
+	IGUI_skilltooltip_qualityraincollectorbarrels = "Mo¿e budowaæ beczki na deszczówkê dobrej jakoœci",
+	IGUI_skilltooltip_woodenwallslvl3 = "Mo¿e budowaæ drewniane œciany poziomu 3",
+	IGUI_skilltooltip_woodenwindowslvl3 = "Mo¿e budowaæ drewniane okna poziomu 3",
+	
+	IGUI_skilltooltip_Cantellcurrentgrowthphase = "Mo¿e okreœliæ obecny etap wzrostu uprawy",
+	IGUI_skilltooltip_Cantellhealthmoreeasily = "Mo¿e ³atwiej okreœliæ stan zdrowia uprawy",
+	IGUI_skilltooltip_Cantellwaterlevelmoreeasily = "Mo¿e ³atwiej okreœliæ poziom nawodnienia uprawy",
+	IGUI_skilltooltip_Cantellgrowthlevelmoreeasily = "Mo¿e ³atwiej okreœliæ poziom wzrostu uprawy",
+	IGUI_skilltooltip_Cantelldiseaselevel = "Mo¿e okreœliæ poziom choroby uprawy",
+	IGUI_skilltooltip_Cantellwhennextgrowthphasewilloccur = "Mo¿e okreœliæ kiedy nast¹pi kolejny etap wzrostu uprawy",
+
+	IGUI_skilltooltip_Canhotwirevehicleswithmechanics = "Potrafi uruchomiæ pojazd "na krótko" (z poziomem Mechaniki 2)",
+	IGUI_skilltooltip_Canhotwirevehicleswithelectrical = "Potrafi uruchomiæ pojazd "na krótko" (z poziomem Elektryki 1)",
+	IGUI_skilltooltip_Canchangelightstobebatterypowered = "Mo¿e zmieniaæ oœwietlenie na zasilane bateri¹",
+
+	IGUI_skilltooltip_Increasedvehiclehoodefficiency = "Zwiêkszona wydajnoœæ naprawy maski i baga¿nika pojazdu",
+	IGUI_skilltooltip_Standardenginerepair = "Naprawia %1% standardowego silnika na jedn¹ czêœæ silnika",
+	IGUI_skilltooltip_Heavydutydenginerepair = "Naprawia %1% ciê¿arowego silnika na jedn¹ czêœæ silnika",
+	IGUI_skilltooltip_Sportenginerepair = "Naprawia %1% sportowego silnika na jedn¹ czêœæ silnika",
+
+	
+	IGUI_skilltooltip_serviceseats = "Potrafi w pe³ni serwisowaæ siedzenia",
+	IGUI_skilltooltip_servicetires = "Potrafi w pe³ni serwisowaæ opony",
+	IGUI_skilltooltip_servicewindows = "Potrafi w pe³ni serwisowaæ szyby",
+	IGUI_skilltooltip_servicehood = "Potrafi w pe³ni serwisowaæ maskê",
+	IGUI_skilltooltip_servicetrunklids = "Potrafi w pe³ni serwisowaæ pokrywy baga¿nika",
+	IGUI_skilltooltip_servicebrakes = "Potrafi w pe³ni serwisowaæ hamulce",
+	IGUI_skilltooltip_servicesuspensions = "Potrafi w pe³ni serwisowaæ zawieszenie",
+	IGUI_skilltooltip_servicedoors = "Potrafi w pe³ni serwisowaæ drzwi",
+	IGUI_skilltooltip_servicegastanks = "Potrafi w pe³ni serwisowaæ zbiorniki paliwa",
+	IGUI_skilltooltip_servicemufflers = "Potrafi w pe³ni serwisowaæ t³umiki",
+	IGUI_skilltooltip_servicewindshields = "Potrafi w pe³ni serwisowaæ przednie szyby",
+	IGUI_skilltooltip_Canhotwirevehicleswithelectrical = "Potrafi uruchomiæ pojazdy "na krótko" (z poziomem Elektryki 1)",
+	IGUI_skilltooltip_Canrepairvehiclehoodstrunks = "Potrafi naprawiaæ maski i baga¿niki pojazdów",
+
+	
+	IGUI_skilltooltip_CanextractenginepartsfromStandardengines = "Potrafi wyjmowaæ czêœci silnika z silników standardowych",
+	IGUI_skilltooltip_CanextractenginepartsfromHeavyDutyengines = "Potrafi wyjmowaæ czêœci silnika z silników ciê¿arowych",
+	IGUI_skilltooltip_CanextractenginepartsfromSportengines = "Potrafi wyjmowaæ czêœci silnika z silników sportowych",
+
+
+	IGUI_skilltooltip_metalwalllvl1 = "Mo¿e budowaæ metalowe œciany poziomu 1 (*)",
+	IGUI_skilltooltip_metalwallframes = "Mo¿e budowaæ ramy metalowych œcian (*)",
+	IGUI_skilltooltip_metalfences = "Mo¿e budowaæ metalowe ogrodzenia (*)",
+	IGUI_skilltooltip_polefences = "Mo¿e budowaæ ogrodzenia s³upkowe (*)",
+	IGUI_skilltooltip_metalshelves = "Mo¿e budowaæ metalowe pó³ki (*)",
+	IGUI_skilltooltip_wiredfences = "Mo¿e budowaæ ogrodzenia z drutem (*)",
+	IGUI_skilltooltip_polefencegates = "Mo¿e budowaæ bramy do ogrodzeñ s³upkowych (*)",
+	IGUI_skilltooltip_metalcrates = "Mo¿e budowaæ metalowe skrzynie (*)",
+	IGUI_skilltooltip_metalwindowslvl1 = "Mo¿e budowaæ metalowe okna poziomu 1 (*)",
+	IGUI_skilltooltip_bigwiredfences = "Mo¿e budowaæ du¿e ogrodzenia z drutem (*)",
+	IGUI_skilltooltip_bigmetalcounters = "Mo¿e budowaæ du¿e metalowe lady (*)",
+	IGUI_skilltooltip_smalllocker = "Mo¿e budowaæ ma³e szafki (*)",
+	IGUI_skilltooltip_bigpolefences = "Mo¿e budowaæ du¿e ogrodzenia s³upkowe (*)",
+	IGUI_skilltooltip_bigpolefencegates = "Mo¿e budowaæ du¿e bramy do ogrodzeñ s³upkowych (*)",
+	IGUI_skilltooltip_bigdoublewiredgates = "Mo¿e budowaæ du¿e podwójne bramy z drutem (*)",
+	IGUI_skilltooltip_metalwallslvl2  = "Mo¿e budowaæ metalowe œciany poziomu 2 (*)",
+	IGUI_skilltooltip_metalwindowslvl2 = "Mo¿e budowaæ metalowe okna poziomu 2 (*)",
+	IGUI_skilltooltip_bigdoublepolegates = "Mo¿e budowaæ du¿e podwójne bramy s³upkowe (*)",
+	IGUI_skilltooltip_biglockers = "Mo¿e budowaæ du¿e szafki (*)",
+
+	IGUI_skilltooltip_Betteratsalvagingmetalfromvehicles = "Wiêcej pozyskanego metalu z pojazdów",
+	IGUI_skilltooltip_Slightlybetteratsalvagingmetalfromvehicles = "Nieco lepsze pozyskiwanie metalu z pojazdów",
+	IGUI_skilltooltip_Increasedvehiclehoodandtrunkrepairefficiency = "Zwiêkszona wydajnoœæ naprawy maski i baga¿nika pojazdu",
+	IGUI_skilltooltip_Increasedvehiclehoodrepairefficiency = "Zwiêkszona wydajnoœæ naprawy maski pojazdu",
+	IGUI_skilltooltip_CanrepairvehicletrunkswithMechanics = "Mo¿e naprawiaæ baga¿niki pojazdów (z poziomem Mechaniki 2)",
+	IGUI_skilltooltip_Canrepairvehiclehoodsbetter = "Mo¿e skuteczniej naprawiaæ maski pojazdów",
+	IGUI_skilltooltip_Andmore = "I wiele wiêcej...",
+	
+	IGUI_skilltooltip_morepreciseinformation = "Precyzyjniejsze informacje o strefach zbieractwa",
+	IGUI_SearchMode_Categories_ForestRarities = "Rzadkoœci Leœne",
+	IGUI_skilltooltip_Better = "Lepsze",
+
+
+	IGUI_skilltooltip_Enablesfocusing = "Pozwala skupiæ siê na poszukiwaniach",
+	IGUI_skilltooltip_chancetobreakrod = "Szansy na z³amanie wêdki",
+	IGUI_skilltooltip_Decreasedchanceofcatchingtrash = "Zmniejszona szansa z³apania œmieci",
+
+
+	IGUI_skilltooltip_chanceofcatchingfishwithspears = "Szansy z³apania ryb w³óczniami",
+	IGUI_skilltooltip_chanceofcatchingfishwithfishingrodsandbait = "Szansy z³apania ryb wêdk¹ z przynêt¹",
+	IGUI_skilltooltip_chanceofcatchingfishwithfishingrodsandlure = "Szansy z³apania ryb wêdk¹ z przynêt¹",
+	IGUI_skilltooltip_Fasterfishing = "Szybsze wêdkowanie",
+	IGUI_skilltooltip_doesntgetboredfromfishing = "Nie nudzi siê wêdkowaniem",
+
+	IGUI_skilltooltip_bonusaxetreedamage = "Dodatkowe obra¿enia siekier¹ scinaj¹c drzewa",
+	IGUI_skilltooltip_loweredchancetoloseaxecondition = "Zmniejszona szansa na utratê kondycji siekiery podczas œcinania drzew",
+	IGUI_skilltooltip_increasedchanceofmaterials = "Zwiêkszona szansa na pozyskanie materia³ów z drzew",
+	IGUI_skilltooltip_caloriedused = "Zu¿ytych kalorii podczas œcinania drzew",
+	IGUI_skilltooltip_enduranceused = "Zu¿ytej wytrzyma³oœci podczas œcinania drzew",
+	IGUI_skilltooltip_foodcondition = "Niewielka szansa na zdobycie jedzenia z drzew, jeœli Zbieractwo na poziomie %1",
+	IGUI_skilltooltip_foodcondition2 = "Niewielka szansa na zdobycie jedzenia z drzew",
+	IGUI_skilltooltip_nolongergetsseverelyexhausted = "Ju¿ nie ulega powa¿nemu wyczerpaniu podczas œcinania drzew lub usuwania krzewów",
+	IGUI_skilltooltip_removingbushtime = "Czasu potrzebnego do usuniêcia krzewów",
+
+	IGUI_skilltooltip_andmore = "I wiele wiêcej...",
+
+	IGUI_skilltooltip_chancenottoconsumetinkeringitem = "Szansy na nie zu¿ycie przedmiotu do majsterkowania",
+
+	IGUI_skilltooltip_dynamictinkerercondition = "Jeœli Konserwacja na poziomie %1 i gracz majstrowa³ przy 15 lub wiêcej przedmiotach, uzyskuje cechê Majsterkowicz"
+	IGUI_skilltooltip_dynamictinkerercondition2 = "Jeœli gracz majstrowa³ przy 15 lub wiêcej przedmiotach, uzyskuje cechê Majsterkowicz",
+	IGUI_skilltooltip_tinkeringtime = "Czasu majsterkowania",
+	IGUI_skilltooltip_canttinker = "Nie mo¿e majstrowaæ broni, chyba ¿e przeczytano magazyn z wiedz¹ majstrkowaniu",
+
+	IGUI_skilltooltip_tinkeringraritytweaker = "Modyfikacja rzadkoœci majsterkowania"
+	IGUI_skilltooltip_rangedweapon = "Broñ Palna"
+
+	IGUI_skilltooltip_tinkeringraritytweakerexplanation = "(Modyfikator rzadkoœci majsterkowania zmniejsza szanse na uzyskanie lepszych modyfikatorów broni.)"
+
+	IGUI_skilltooltip_cantinkerweaponscondition = "Mo¿e majstrowaæ broni¹, jeœli Konserwacja jest na poziomie 3 lub jeœli gracz posiada wiedzê.",
+	IGUI_skilltooltip_cantinkerweaponscondition2 = "Mo¿e majstrowaæ broni¹, jeœli gracz posiada wiedzê.",
+
+	IGUI_skilltooltip_scavengingbenefits = "%1% szansy na zdobycie %2% dodatkowego ³upu"
+
+	IGUI_skilltooltip_brakeForceMult = "+%1% y hamowania",
+	IGUI_skilltooltip_engineQualityMult = "+%1% jakoœci silnika",
+	IGUI_skilltooltip_engineLoudnessMult = "%1% g³oœnoœci silnika",
+	IGUI_skilltooltip_enginePowerMult = "+%1% mocy silnika",
+	IGUI_skilltooltip_maxSpeedMult = "+%1% maksymalna prêdkoœci pojazdu",
+	IGUI_skilltooltip_damageMitigate = "%1% szansy na z³agodzenie %2% obra¿eñ pojazdu",
+
+
+	IGUI_skilltooltip_weapondismantlingtime = "-%1% czas demonta¿u broni"
+
+	IGUI_skilltooltip_fixM9pistol = "Mo¿e u¿ywaæ czêœci M9 do naprawy pistoletu M9 (z Celnoœci¹ = 3)",
+	IGUI_skilltooltip_fixM1911pistol = "Mo¿e u¿ywaæ czêœci M1911 do naprawy pistoletu M1911 (z Celnoœci¹ = 3)",
+	IGUI_skilltooltip_fixDEpistol = "Mo¿e u¿ywaæ czêœci DE do naprawy pistoletu DE (z Celnoœci¹ = 3)",
+	IGUI_skilltooltip_fixrevolver = "Mo¿e u¿ywaæ czêœci rewolweru do naprawy rewolweru (z Celnoœci¹ = 3)",
+	IGUI_skilltooltip_fixlongrevolver = "Mo¿e u¿ywaæ czêœci d³ugiego rewolweru do naprawy d³ugiego rewolweru (z Celnoœci¹ = 3)",
+	IGUI_skilltooltip_fixshortrevolver = "Mo¿e u¿ywaæ czêœci krótkiego rewolweru do naprawy krótkiego rewolweru (z Celnoœci¹ = 3)",
+	IGUI_skilltooltip_fixshotgun = "Mo¿e u¿ywaæ czêœci strzelby do naprawy strzelby (z Celnoœci¹ = 3)",
+	IGUI_skilltooltip_fixdoublebarrelshotgun = "Mo¿e u¿ywaæ czêœci podwójnej strzelby do naprawy podwójnej strzelby (z Celnoœci¹ = 3)",
+	IGUI_skilltooltip_fixvarmintrifle = "Mo¿e u¿ywaæ czêœci karabinu varmint do naprawy karabinu varmint (z Celnoœci¹ = 4)",
+	IGUI_skilltooltip_fixhuntingrifle = "Mo¿e u¿ywaæ czêœci karabinu myœliwskiego do naprawy karabinu myœliwskiego (z Celnoœci¹ = 4)",
+	IGUI_skilltooltip_fixM16rifle = "Mo¿e u¿ywaæ czêœci karabinu M16 do naprawy karabinu M16 (z Celnoœci¹ = 5)",
+	IGUI_skilltooltip_fixM14rifle = "Mo¿e u¿ywaæ czêœci karabinu M14 do naprawy karabinu M14 (z Celnoœci¹ = 5)",
+	IGUI_skilltooltip_fixAK47 = "Mo¿e u¿ywaæ czêœci AK47 do naprawy AK47 (z Celnoœci¹ = 6)",
+
+	IGUI_skilltooltip_animaltrackingmaxchance = "+%1% maksymalnej szansy œledzenia zwierz¹t",
+	IGUI_skilltooltip_successfulanimalcallchance = "+%1% szansy na udane nawo³anie zwierz¹t",
+	IGUI_skilltooltip_successfulcapturechance = "+%1% szansy na udane schwycenie",
+	IGUI_skilltooltip_watchtreetime = "-%1% czasu obserwacji drzew",
+	IGUI_skilltooltip_huntinghitchance = "+%1% szansy trafienia podczas polowania",
+
+	IGUI_skilltooltip_IncreasedEfficiencyOfCrowbarWhenPryingOpenDoors = "Zwiêkszona efektywnoœæ si³y i wytrzyma³oœci podczas wywa¿ania zamków za pomoc¹ ³omu",
+	IGUI_skilltooltip_increasedGreenYellowZoneWhenForcingALockWithACrowbar = "Zwiêkszona liczba zielonych i ¿ó³tych stref podczas wywa¿ania zamka za pomoc¹ ³omu",
+	IGUI_skilltooltip_wideranglebobbipin = "Zwiêkszony k¹t akceptowalny dla zamków",
+
+	IGUI_skilltooltip_reloadspeedwithbows = "+%1% szybkoœci zak³adania strza³ do ³uku",
+	IGUI_skilltooltip_arrowdeviation = "%1% odchylenia strza³y",
+
+	IGUI_skilltooltip_levelxreadingspeed = "Poziom %1 podstawowej prêdkoœæ czytania: %2%",
+
+	IGUI_skilltooltip_gunrepairandscraptime = "-%1% czasu naprawy i rozbiórki broni",
+	IGUI_skilltooltip_gunrepairandscarp = "+%1% szansy na udan¹ naprawê i rozbiórkê broni",
+
+}
