@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>DoingSthWhileRunning_Eating</m_Name>
+	<m_AnimName>Bob_DoingSthWhileRunning_s</m_AnimName>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_SpeedScale>DoingSthWhileRunning_speed</m_SpeedScale>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_Looped>true</m_Looped>
+	<m_StopAnimOnExit>false</m_StopAnimOnExit>
+	<m_Scalar></m_Scalar>
+	<m_Scalar2></m_Scalar2>
+
+	<m_Conditions>
+		<m_Name>DoingSthWhileRunning_Eating_Enable</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+
+	<m_Conditions>
+		<m_Name>intrees</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>false</m_BoolValue>
+	</m_Conditions>
+	
+	<m_Conditions>
+		<m_Name>sneaking</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>false</m_BoolValue>
+	</m_Conditions>
+		
+	<m_Events>
+		<m_EventName>Footstep</m_EventName>
+		<m_TimePc>0.15</m_TimePc>
+		<m_ParameterValue>run</m_ParameterValue>
+	</m_Events>
+	
+	<m_Events>
+		<m_EventName>Footstep</m_EventName>
+		<m_TimePc>0.6</m_TimePc>
+		<m_ParameterValue>run</m_ParameterValue>
+	</m_Events>
+
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Spine1</boneName>
+		<weight>0</weight>
+		<includeDescendants>false</includeDescendants>
+	</m_SubStateBoneWeights>
+
+	<m_SubStateBoneWeights>
+		<boneName>Translation_Data</boneName>
+		<weight>0</weight>
+		<includeDescendants>false</includeDescendants>
+	</m_SubStateBoneWeights>	
+</animNode>
