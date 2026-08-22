@@ -1,0 +1,475 @@
+local rewardManager = {}
+
+local bandit     = require("features/hitman")
+-- exile / backroom 은 미사용 결정으로 비활성화. features/teleport.lua 와
+-- features/backroom.lua 는 파일 전체가 블록 주석 처리돼 있어 아무것도 반환하지
+-- 않으므로 require 도 함께 막는다. 재활성화 시 두 파일의 주석과 아래 두 줄,
+-- 그리고 해당 핸들러 fn 내부 주석을 같이 푼다.
+-- local teleport   = require("features/teleport")
+-- local backroom   = require("features/backroom")
+local bombard    = require("features/bombard")
+local eventUtils = require("utils/Event")
+local zone       = require("utils/zone")
+local zombie     = require("features/zombie")
+local riseup     = require("features/riseup")
+local mutantspawn = require("features/mutantspawn")
+local zombierain = require("features/zombierain")
+local randomteleport = require("features/randomteleport")
+local firesupport = require("features/firesupport")
+local serum      = require("features/skillpotion")
+local hordenight = require("features/hordenight")
+local medicalbox = require("features/medicalbox")
+local bloodmoon  = require("features/bloodmoon")
+local global     = require("global")
+
+-- Spawn zombies, queueing the request if the player is still in a safe zone.
+local function handleZombieSpawn(amount, sprint, sender)
+    global.b(" handleZombieSpawn FUNCTION START")
+    local data = { amount = amount, sprint = sprint, sender = sender or "" }
+    if zone.a(global.player) then
+        table.insert(global.zombieSpawnQueue, data)
+        print(string.format("Zombie added to queue: Amount=%d Sprint=%d", amount, sprint))
+    else
+        table.insert(global.zombieSpawnQueue, data)
+        zombie.a()
+    end
+    global.b(" handleZombieSpawn FUNCTION END")
+end
+
+-- giveSupply(itemId, sender, label) -> InventoryItem | nil
+-- 인벤토리에 아이템을 직접 꽂아주는 보급 계열 기능(백신/스킬혈청/무기상자/
+-- 차량키트/인벤세이브권)의 공통 처리. 지급 -> 후원자 각인 -> 보급음 순서다.
+--   * label 을 주면 표시명 대신 그 문자열을 쓴다(백신: 아이템명이 "Zomboxivir"라
+--     후원자 각인 시 "Vaccine"으로 바꿔 쓰던 기존 동작 유지).
+--   * pongdu_supply 는 getSoundManager():PlaySound() 로 재생하는 클라 로컬
+--     사운드다. 월드 사운드(addSound)가 아니므로 좀비 어그로가 붙지 않는다.
+--   * AddItem 이 nil 을 반환하는 경우(아이템 스크립트 오타/미등록 등)엔 사운드를
+--     재생하지 않는다 -- "소리는 났는데 아이템은 없다"가 제일 추적하기 어렵다.
+local function giveSupply(itemId, sender, label)
+    local player = global.player
+    if not player then
+        print("[PongDu] Supply aborted: player is nil (item=" .. tostring(itemId) .. ")")
+        return nil
+    end
+
+    local item = player:getInventory():AddItem("t3chzzkDonation." .. itemId)
+    if not item then
+        print("[PongDu] Supply FAILED: AddItem returned nil (item=" .. tostring(itemId)
+            .. ", sender=" .. tostring(sender) .. ")")
+        return nil
+    end
+
+    item:setName((sender or "") .. "'s " .. (label or item:getDisplayName()))
+    item:getModData().t3Donor = sender or ""
+    -- 주의: PlaySound(name, loop, maxGain)의 maxGain은 SoundManager.java 구현상
+    -- 완전히 무시된다(내부에서 baseSoundEmitter.playSound(name)만 호출하고 maxGain
+    -- 파라미터는 쓰지 않음). 볼륨을 실제로 적용하려면 반환된 Audio 핸들에
+    -- setVolume()을 직접 호출해야 한다.
+    local audio = getSoundManager():PlaySound("pongdu_supply", false, 1.0)
+    if audio then audio:setVolume(0.5) end
+
+    print("[PongDu] Supply delivered: item=" .. tostring(itemId)
+        .. ", sender=" .. tostring(sender))
+    return item
+end
+
+
+-- Donation featureId -> effect. 금액은 GUI(퍼펫 API)에서 유저가 임의로 재배정하고,
+-- rewards.txt에 featureId를 실어서 보낸다. 여기는 "이 featureId가 오면 이 효과"만 안다.
+-- immediate=true 인 기능은 안전지대 안에서도 즉시 발동. zombie_roulette / sprinter5 /
+-- mutant_spawn / rise_up_dead_man 은 안전지대 밖으로 나갈 때까지 대기(immediate=false).
+-- missile / zombie_rain 은 immediate 가 함수라서 각각 샌드박스 옵션
+-- (Bombard_SafeZoneBlock / Rain_SafeZoneBlock)에 따라 런타임에 결정된다.
+local rewardHandlers = {
+    ["debuff_roulette"] = {
+        immediate = true,
+        fn = function()
+            eventUtils.a(false)                           -- Debuff Roulette
+        end,
+    },
+    ["buff_roulette"] = {
+        immediate = true,
+        fn = function()
+            eventUtils.a(true)                            -- Buff Roulette
+        end,
+    },
+    ["zombie_roulette"] = {
+        immediate = false,
+        fn = function(sender)
+            global.currentSender = sender or ""
+            eventUtils.b(global.player)                   -- Zombie Roulette (random count)
+        end,
+    },
+    ["sprinter5"] = {
+        immediate = false,
+        fn = function(sender)
+            global.b(" sprinter5 FUNCTION START")
+            -- 마릿수: 샌드박스 Sprinter_Count 고정값.
+            -- 룰렛과 달리 랜덤 범위가 아니라 설정한 수만큼 정확히 소환.
+            handleZombieSpawn(SandboxVars.PongDu.Sprinter_Count, 1, sender)   -- Sprinter xN
+            global.processingEvent = false
+            global.b(" sprinter5 FUNCTION END")
+        end,
+    },
+    ["bandit_melee"] = {
+        immediate = true,
+        fn = function(sender)
+            bandit.a(11, sender)                          -- Bandit
+            global.processingEvent = false
+        end,
+    },
+    ["vaccine"] = {
+        immediate = true,
+        fn = function(sender)
+            giveSupply("Zomboxivir", sender, "Vaccine")    -- Vaccine
+            global.processingEvent = false
+        end,
+    },
+    ["bandit_ranged"] = {
+        immediate = true,
+        fn = function(sender)
+            bandit.a(15, sender)                          -- Bandit (ranged)
+            global.processingEvent = false
+        end,
+    },
+    -- ── 산타마을 유배 (exile): 더미 처리 ──────────────────────────────────────
+    -- 현재 실사용 안 함. 코드/샌드박스 옵션(Delay_exile)은 재활성화 대비 보존만
+    -- 하고, 실제 텔레포트는 발동하지 않는다. featureId 자체는 유효하게 남겨둬서
+    -- (rewardManager.isValid) 퐁듀 런처의 기존 amount->featureId 매핑이 깨지지
+    -- 않게 하고, 후원이 들어와도 조용히 소모만 한다.
+    -- 원본 로직(features/teleport.lua의 exile 텔레포트, 유배지 좌표 14298,786)은
+    -- 재활성화 시 아래 주석을 해제하면 그대로 복원된다.
+    ["exile"] = {
+        immediate = true,
+        fn = function()
+            -- global.b(" exile FUNCTION START")
+            -- getSoundManager():PlaySound("exile_enter", false, 1.0)
+            -- teleport.b(global.player)                     -- Exile Teleport
+            -- global.b(" exile FUNCTION END")
+            global.processingEvent = false
+        end,
+    },
+    ["random_teleport"] = {
+        immediate = true,
+        -- 안전지대와 무관한 기능 자체 락. 셋 중 하나라도 걸리면 큐박스 슬롯이
+        -- 자물쇠 상태로 대기하고, 조건이 풀리면 다음 유닛이 발동된다.
+        --   ① 랜텔 자체 진행 중 (착지 검증 / 생존 복귀 카운트다운)
+        --   ② 좀비 레인 지속시간 중
+        --      레인은 발동 시점 좌표로 낙하 컬럼을 전부 미리 뽑아두는데,
+        --      랜텔(기본 100~200타일)은 서버 셀 유지 반경(ReleventRange, 통상
+        --      ±70타일)을 넘어선다. 컬럼이 있던 셀이 언로드되면
+        --      ServerMap.getGridSquare 가 null 을 돌려주고 addZombiesInOutfit 이
+        --      빈 리스트를 반환해서, 남은 마리수가 로그도 없이 통째로 증발한다.
+        --   ③ 화력 지원 지속시간 중
+        --      헬기/드론은 서버 isOwnerTeleported(1틱 30타일 초과)가 job 을 즉시
+        --      종료시키므로 후원이 중간에 날아간다. 저격은 킬 자체는 이어지지만
+        --      저격수 원점이 발동 시점 고정이라 예광탄이 맵을 가로지른다.
+        -- 락 대상은 랜텔 슬롯 하나뿐이라 다른 기능은 그대로 발동되고, 레인/화력
+        -- 지원이 끝나면 쌓여 있던 랜텔이 순차로 소모된다.
+        blocked = function(player)
+            if randomteleport.isBusy(player) then return true end
+            if zombierain.c() then return true end
+            if firesupport.c() then return true end
+            return false
+        end,
+        fn = function()
+            global.b(" random_teleport FUNCTION START")
+            getSoundManager():PlaySound("anomaly", false, 1.0)
+            randomteleport.a(global.player)               -- Random Teleport (100~200 tiles)
+            global.processingEvent = false
+            global.b(" random_teleport FUNCTION END")
+        end,
+    },
+    -- ── 백룸 탈출 (backroom): 더미 처리 ────────────────────────────────────────
+    -- 현재 실사용 안 함. exile과 동일 정책 — 코드/샌드박스 옵션은 보존, 발동만
+    -- 비활성화. 원본 로직(features/backroom.lua)은 재활성화 시 주석 해제.
+    ["backroom"] = {
+        immediate = true,
+        fn = function()
+            -- global.b(" backroom FUNCTION START")
+            -- getSoundManager():PlaySound("glitch", false, 1.0)
+            -- backroom.a(global.player)                     -- Backroom
+            -- global.b(" backroom FUNCTION END")
+            global.processingEvent = false
+        end,
+    },
+    ["missile"] = {
+        -- 안전지대(세이프하우스 +10타일) 처리는 샌드박스 "세이프존 폭격 방지"
+        -- (Bombard_SafeZoneBlock) 옵션을 따른다. SandboxVars는 게임 로드 후에만
+        -- 존재하므로 반드시 발동 시점에 읽는다.
+        --   옵션 ON(기본)  -> immediate=false. 좀비룰렛/뛰좀과 동일하게 큐박스에서
+        --                     락이 걸리고, 안전지대를 벗어날 때까지 폭격이 미뤄진다.
+        --   옵션 OFF      -> immediate=true. 기존 동작대로 안전지대에서도 그냥 터진다.
+        immediate = function()
+            return not SandboxVars.PongDu.Bombard_SafeZoneBlock
+        end,
+        fn = function()
+            global.b(" DONATION EXPLOSION START")
+            getSoundManager():PlaySound("alert", false, 1.0)
+            sendClientCommand("PongDuDonation", "PlayAlert", {
+                ["x"] = global.player:getX(),
+                ["y"] = global.player:getY(),
+                ["r"] = 40,
+            })
+            bombard.b(global.player)                      -- Missile Strike
+            global.processingEvent = false
+            global.b(" DONATION EXPLOSION END")
+        end,
+    },
+    ["random_skill_potion"] = {
+        immediate = true,
+        fn = function(sender)
+            -- 스킬 균등 추첨 -> 등급 가중 추첨. 확률/제외 판정은 전부
+            -- features/skillpotion.lua 가 샌드박스 옵션을 보고 처리한다.
+            -- 표시명은 아이템의 ItemName_* 번역을 그대로 쓴다(label 생략).
+            local itemType = serum.roll()
+            if itemType then
+                giveSupply(itemType, sender)
+            end
+            global.processingEvent = false
+        end,
+    },
+    ["rise_up_dead_man"] = {
+        -- 좀비룰렛과 동일한 상시 안전지대 락. 강령술은 반경 내 시체를 전부
+        -- 좀비로 되살리는 스폰 계열이라, 안전지대 안에서 터지면 기지 내부에
+        -- 좀비 더미가 생긴다. 벗어날 때까지 큐박스 슬롯에서 대기시킨다.
+        immediate = false,
+        fn = function(sender)
+            riseup.a(global.player)
+            global.processingEvent = false
+        end,
+    },
+
+
+    -- ── 신규 기획 (스텁, 미구현) ──────────────────────────────────────────────
+    -- 각 fn은 필요한 로직으로 채우면 됨. processingEvent 해제 잊지 말 것.
+    ["random_weapon"] = {
+        immediate = true,
+        fn = function(sender)
+            -- 50/50: 근접무기상자 / 원거리무기상자. 상자를 열면 t3RandomWeapon 확률표로 무기 1개.
+            local boxId = (ZombRand(100) < 50) and "weapon_box_melee" or "weapon_box_ranged"
+            giveSupply(boxId, sender)
+            global.processingEvent = false
+        end,
+    },
+    ["vehicle_drop"] = {
+        immediate = true,
+        fn = function(sender)
+            -- 개봉하면 t3VehicleDrop.OpenKit이 실행되어 근처 실외에 차량을 소환한다.
+            giveSupply("vehicle_drop_kit", sender)
+            global.processingEvent = false
+        end,
+    },
+    ["revive_ticket"] = {
+        immediate = true,
+        fn = function(sender)
+            -- TODO: 기절 즉시부활 티켓
+            global.processingEvent = false
+        end,
+    },
+    ["inv_save_ticket"] = {
+        immediate = true,
+        fn = function(sender)
+            -- 인벤세이브권: 소지한 채 사망(좀비화 포함)하면 자동 발동/소모되어
+            -- 사망 시점 인벤토리 전체를 리스폰 후 돌려받는다 (features/invsave.lua).
+            giveSupply("inv_save_ticket", sender)
+            global.processingEvent = false
+        end,
+    },
+    ["mutant_spawn"] = {
+        immediate = false,
+        fn = function(sender)
+            mutantspawn.a(sender)            -- 스크리머/브루트/로치 중 1마리
+            global.processingEvent = false
+        end,
+    },
+    ["secret_passage_kit"] = {
+        immediate = true,
+        fn = function(sender)
+            -- TODO: 비밀통로 공사키트
+            global.processingEvent = false
+        end,
+    },
+    ["horde_night"] = {
+        immediate = true,
+        fn = function(sender)
+            -- TODO: 호드나이트
+            hordenight.a(sender)
+            global.processingEvent = false
+        end,
+    },
+    ["blood_moon"] = {
+        -- 서버 후원. 서버장 판정과 전원 적용은 서버가 처리한다
+        -- (features/bloodmoon.lua -> server/PongDuBloodMoonServer.lua).
+        -- 환경 조명 + 좀비 속도 변경이라 세이프하우스 안에서도 그대로 발동한다.
+        immediate = true,
+        fn = function(sender)
+            bloodmoon.a(sender)
+            global.processingEvent = false
+        end,
+    },
+    ["medical_box"] = {
+        -- 서버 후원. 서버장 판정과 전원 지급은 전부 서버가 처리한다
+        -- (features/medicalbox.lua -> server/PongDuMedBoxServer.lua).
+        -- 아이템 지급 계열이라 안전지대와 무관하게 즉시 발동한다.
+        immediate = true,
+        fn = function(sender)
+            medicalbox.a(sender)
+            global.processingEvent = false
+        end,
+    },
+    ["fire_support"] = {
+        -- 화력 지원(저격/드론/헬기/공수 룰렛). 환경 무피해 지원 계열이라
+        -- 세이프하우스 안에서도 그대로 발동한다(immediate=true).
+        immediate = true,
+        fn = function(sender)
+            -- TODO: 화력 지원 (features/firesupport.lua 구현 후 활성화)
+            firesupport.a(global.player, sender)
+            global.processingEvent = false
+        end,
+    },
+    ["zombie_rain"] = {
+        -- 안전지대 처리는 샌드박스 "세이프존 좀비 레인 방지"(Rain_SafeZoneBlock)를
+        -- 따른다. missile과 달리 기본값이 꺼짐이라, 옵션이 명시적으로 켜져 있을
+        -- 때만 대기(immediate=false)로 넘어간다.
+        --   옵션 OFF(기본) -> immediate=true. 안전지대에서도 그대로 발동.
+        --   옵션 ON        -> immediate=false. 벗어날 때까지 큐박스에서 락.
+        immediate = function()
+            return not SandboxVars.PongDu.Rain_SafeZoneBlock
+        end,
+        fn = function(sender)
+            global.b(" ZOMBIE RAIN START")
+            zombierain.b(global.player, sender)           -- Zombie Rain
+            global.processingEvent = false
+            global.b(" ZOMBIE RAIN END")
+        end,
+    },
+}
+
+-- isValid(featureId) -> true if this featureId maps to a real reward.
+function rewardManager.isValid(featureId)
+    return rewardHandlers[featureId] ~= nil
+end
+
+-- getFeatureIds() -> 등록된 featureId 전체를 알파벳순 배열로 반환.
+-- 어드민 테스트 메뉴(DonationTestMenu)가 항목을 동적으로 뽑는 데 쓴다.
+-- rewardHandlers에 기능을 추가/삭제하면 메뉴에도 자동 반영됨 (별도 관리 불필요).
+function rewardManager.getFeatureIds()
+    local ids = {}
+    for id, _ in pairs(rewardHandlers) do
+        table.insert(ids, id)
+    end
+    table.sort(ids)
+    return ids
+end
+
+-- entry.immediate 평가. 값이 함수면 런타임에 호출해서 판정한다.
+-- (샌드박스 옵션에 따라 안전지대 정책이 바뀌는 기능용 - 예: missile)
+local function isImmediate(entry)
+    if entry == nil then return false end
+    local im = entry.immediate
+    if type(im) == "function" then
+        local ok = im()
+        return ok == true
+    end
+    return im == true
+end
+
+-- isZoneBlocked(featureId) -> true면 안전지대 안에서는 발동 불가(immediate=false).
+-- 도네큐박스가 슬롯에 자물쇠(락) 표시를 할지 판단할 때 쓴다.
+function rewardManager.isZoneBlocked(featureId)
+    local entry = rewardHandlers[featureId]
+    if entry == nil then return false end
+    return not isImmediate(entry)
+end
+
+-- isFeatureBlocked(featureId, player) -> true면 안전지대 여부와 무관하게 지금은
+-- 발동 불가. 기능 자체의 진행 상태로 결정된다 (예: 랜덤텔포의 착지 검증 /
+-- 생존 복귀 카운트다운). 핸들러에 blocked 훅이 없는 기능은 항상 false.
+-- 안전지대 락(isZoneBlocked)과 달리 "쌓인 걸 한꺼번에 풀어주는" 성격이 아니라
+-- "순차로 하나씩" 이 목적이라, 락 해제 시 병렬 승격을 하지 않는다
+-- (DonationReceiver.onTick 참조).
+function rewardManager.isFeatureBlocked(featureId, player)
+    local entry = rewardHandlers[featureId]
+    if entry == nil or entry.blocked == nil then return false end
+    return entry.blocked(player) == true
+end
+
+-- applyReward(featureId, sender, callback)  [public name: .a]
+-- immediate 판정이 false인 기능은 플레이어가 안전지대를 벗어날 때까지 대기(5초마다 재확인).
+-- 상시 대기 대상: zombie_roulette / sprinter5 / mutant_spawn / rise_up_dead_man
+-- 조건부 대기 대상: missile (Bombard_SafeZoneBlock 켜짐, 기본 ON)
+--                   zombie_rain (Rain_SafeZoneBlock 켜짐, 기본 OFF)
+function rewardManager.a(featureId, sender, callback)
+    global.player = getPlayer()
+    if not global.player then return end
+    global.stats = global.player:getStats()
+    global.processingEvent = true
+
+    local entry = rewardHandlers[featureId]
+    local skipZoneWait = isImmediate(entry)
+
+    if not skipZoneWait and zone.a(global.player) then
+        print("[PongDu] Reward '" .. tostring(featureId) .. "' deferred: player is inside a safe zone.")
+        local elapsed = 0
+        local function waitAndApply()
+            elapsed = elapsed + getGameTime():getTimeDelta() * 1000
+            if elapsed >= 5000 then
+                elapsed = 0
+                global.player = getPlayer()
+                if not global.player then
+                    Events.OnTick.Remove(waitAndApply)
+                    global.processingEvent = false
+                    return
+                end
+                if not zone.a(global.player) then
+                    Events.OnTick.Remove(waitAndApply)
+                    if entry then
+                        entry.fn(sender or "")
+                    else
+                        global.processingEvent = false
+                    end
+                else
+                    if callback then callback() end
+                end
+            end
+        end
+        Events.OnTick.Add(waitAndApply)
+    else
+        if entry then
+            entry.fn(sender or "")
+        else
+            global.processingEvent = false
+        end
+    end
+end
+
+-- queueReward(reward)  [public name: .b]
+function rewardManager.b(reward)
+    table.insert(global.rewardQueue, reward)
+end
+
+-- processQueue()  [public name: .c]
+function rewardManager.c()
+    if #global.rewardQueue == 0 or global.processingEvent then return end
+    global.processingEvent = true
+
+    local raw = table.remove(global.rewardQueue, 1)
+    -- format: "username,amount,optionalmessage"
+    local username, amount, message = raw:match("([^,]+),([^,]+),?([^,]*)")
+
+    global.player = getPlayer()
+    if not global.player then global.processingEvent = false return end
+    global.stats = global.player:getStats()
+
+    if message and message ~= "" then
+        global.player:Say(message)
+    end
+
+    local entry = rewardHandlers[amount]
+    if entry then entry.fn() else global.processingEvent = false end
+end
+
+return rewardManager
+
+
