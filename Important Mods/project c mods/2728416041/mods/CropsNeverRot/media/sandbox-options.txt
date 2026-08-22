@@ -1,0 +1,12 @@
+VERSION = 1,
+
+option CropsNeverRot.DiseaseCheckTime
+{
+	type = double,
+	min = 6.0,
+	max = 999999.0,
+	default = 48.0,
+
+	page = NatureOptions,
+	translation = CropsNeverRot_DiseaseCheckTime,
+}

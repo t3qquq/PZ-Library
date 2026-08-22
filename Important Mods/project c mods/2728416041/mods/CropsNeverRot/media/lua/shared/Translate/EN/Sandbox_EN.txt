@@ -1,0 +1,4 @@
+Sandbox_EN = {
+	Sandbox_CropsNeverRot_DiseaseCheckTime = "Disease Check Time",
+	Sandbox_CropsNeverRot_DiseaseCheckTime_tooltip = "Instead of rotting, the game will check for diseases every X amount of hours"
+}
