@@ -1,0 +1,20 @@
+IGUI_EN = {
+
+    IGUI_Hair_F_Echidna = "Echidna",
+	IGUI_Hair_F_Echidna_HQ = "Echidna HD",
+	IGUI_Hair_F_Ibuki_HQ = "Ibuki HD",
+	IGUI_Hair_F_FIO_Hair = "Fio",
+	IGUI_Hair_F_Florence_HD = "Florence",
+	IGUI_Hair_F_Bambi = "Bambi",
+	IGUI_Hair_F_Rei_Miyamoto = "Rei Miyamoto",
+	
+	IGUI_Hair_GAIA = "Gaia",
+	IGUI_Hair_Ryoba = "Ryoba",
+	IGUI_Hair_Hanni = "Hanni",
+	IGUI_Hair_IBUKI2 = "IBUKI2",
+	IGUI_Hair_Helena = "Helena",
+	IGUI_Hair_Kitagawa = "Kitagawa",
+	IGUI_Hair_F_Texas_Hair = "Texas",
+
+	
+}

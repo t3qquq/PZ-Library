@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+	<female>
+                <name>F_Echidna</name>
+		<model>skinned\hair\F_Echidna</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Echidna" />
+		<alternate category="Group01" style="F_Echidna_G1" />
+		<alternate category="Group02" style="F_Echidna_G2" />
+		<alternate category="Group03" style="F-Echidna_G3" />
+		<alternate category="Group04" style="F_Echidna_G4" />
+		<alternate category="Group05" style="F_Echidna" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairBunNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_Ibuki_HQ</trimChoices>
+		<trimChoices>F_Echidna_HQ</trimChoices>
+		<trimChoices>F_Florence_HD</trimChoices>
+		<trimChoices>F_Rei_Miyamoto</trimChoices>
+		<trimChoices>F_Bambi</trimChoices>
+		<trimChoices>GAIA</trimChoices>
+		<trimChoices>Ryoba</trimChoices>
+		<trimChoices>Hanni</trimChoices>
+		<trimChoices>IBUKI2</trimChoices>
+		<trimChoices>Helena</trimChoices>
+		<trimChoices>Kitagawa</trimChoices>
+	</female>
+	<female><name>F_Echidna_G1</name>
+		<model>skinned\hair\F_Echidna_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Echidna_G2</name>
+		<model>skinned\hair\F_Echidna_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Echidna_G3</name>
+		<model>skinned\hair\F_Echidna_G3</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Echidna_G4</name>
+		<model>skinned\hair\F_Echidna_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+		</female>
+		
+		<female>
+                <name>F_Echidna_HQ</name>
+		<model>skinned\hair\F_Echidna_HQ</model>
+		<texture>Echidna_HQ</texture>
+		<alternate category="default" style="F_Echidna_HQ" />
+		<alternate category="Group01" style="F_Echidna_HQ_G1" />
+		<alternate category="Group02" style="F_Echidna_HQ_G2" />
+		<alternate category="Group03" style="F_Echidna_HQ_G3" />
+		<alternate category="Group04" style="F_Echidna_HQ_G4" />
+		<alternate category="Group05" style="F_Echidna_HQ" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairBunNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_Ibuki_HQ</trimChoices>
+		<trimChoices>F_Echidna</trimChoices>
+		<trimChoices>F_Florence_HD</trimChoices>
+		<trimChoices>F_Rei_Miyamoto</trimChoices>
+		<trimChoices>F_Bambi</trimChoices>
+		<trimChoices>GAIA</trimChoices>
+		<trimChoices>Ryoba</trimChoices>
+		<trimChoices>Hanni</trimChoices>
+		<trimChoices>IBUKI2</trimChoices>
+		<trimChoices>Helena</trimChoices>
+		<trimChoices>Kitagawa</trimChoices>
+	</female>
+	<female><name>F_Echidna_HQ_G1</name>
+		<model>skinned\hair\F_Echidna_HQ_G1</model>
+		<texture>Echidna_HQ</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Echidna_HQ_G2</name>
+		<model>skinned\hair\F_Echidna_HQ_G2</model>
+		<texture>Echidna_HQ</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Echidna_HQ_G3</name>
+		<model>skinned\hair\F_Echidna_HQ_G3</model>
+		<texture>Echidna_HQ</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Echidna_HQ_G4</name>
+		<model>skinned\hair\F_Echidna_HQ_G4</model>
+		<texture>Echidna_HQ</texture>
+		<noChoose>true</noChoose>
+		</female>
+		
+		
+		<female>
+                <name>F_Ibuki_HQ</name>
+		<model>skinned\hair\F_Ibuki_HQ</model>
+		<texture>Ibuki_HQ</texture>
+		<alternate category="default" style="F_Ibuki_HQ" />
+		<alternate category="Group01" style="F_Ibuki_HQ_G1" />
+		<alternate category="Group02" style="F_Ibuki_HQ_G2" />
+		<alternate category="Group03" style="F_Ibuki_HQ_G3" />
+		<alternate category="Group04" style="F_Ibuki_HQ_G4" />
+		<alternate category="Group05" style="F_Ibuki_HQ" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairBunNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_Echidna_HQ</trimChoices>
+		<trimChoices>F_Echidna</trimChoices>
+		<trimChoices>F_Florence_HD</trimChoices>
+		<trimChoices>F_Rei_Miyamoto</trimChoices>
+		<trimChoices>F_Bambi</trimChoices>
+		<trimChoices>F_Texas_Hair</trimChoices>
+		<trimChoices>GAIA</trimChoices>
+		<trimChoices>Ryoba</trimChoices>
+		<trimChoices>Hanni</trimChoices>
+		<trimChoices>IBUKI2</trimChoices>
+		<trimChoices>Helena</trimChoices>
+		<trimChoices>Kitagawa</trimChoices>
+	</female>
+	<female><name>F_Ibuki_HQ_G1</name>
+		<model>skinned\hair\F_Ibuki_HQ_G1</model>
+		<texture>Ibuki_HQ</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Ibuki_HQ_G2</name>
+		<model>skinned\hair\F_Ibuki_HQ_G2</model>
+		<texture>Ibuki_HQ</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Ibuki_HQ_G3</name>
+		<model>skinned\hair\F_Ibuki_HQ_G3</model>
+		<texture>Ibuki_HQ</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Ibuki_HQ_G4</name>
+		<model>skinned\hair\F_Ibuki_HQ_G4</model>
+		<texture>Ibuki_HQ</texture>
+		<noChoose>true</noChoose>
+		</female>
+		
+		
+		<female>
+                <name>F_FIO_Hair</name>
+		<model>skinned\hair\F_FIO_Hair</model>
+		<texture>Hat_HairEasy</texture>
+		<alternate category="default" style="F_FIO_Hair" />
+		<alternate category="Group01" style="F_FIO_Hair_G1" />
+		<alternate category="Group02" style="F_FIO_Hair_G2" />
+		<alternate category="Group03" style="F_FIO_Hair_G3" />
+		<alternate category="Group04" style="F_FIO_Hair_G4" />
+		<alternate category="Group05" style="F_FIO_Hair" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairBunNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_Echidna_HQ</trimChoices>
+		<trimChoices>F_Echidna</trimChoices>
+		<trimChoices>F_Florence_HD</trimChoices>
+		<trimChoices>F_Rei_Miyamoto</trimChoices>
+		<trimChoices>F_Bambi</trimChoices>
+		<trimChoices>F_Texas_Hair</trimChoices>
+		<trimChoices>GAIA</trimChoices>
+		<trimChoices>Ryoba</trimChoices>
+		<trimChoices>Hanni</trimChoices>
+		<trimChoices>IBUKI2</trimChoices>
+		<trimChoices>Helena</trimChoices>
+		<trimChoices>Kitagawa</trimChoices>
+	</female>
+	<female><name>F_FIO_Hair_G1</name>
+		<model>skinned\hair\F_FIO_Hair_G1</model>
+		<texture>Hat_HairEasy</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_FIO_Hair_G2</name>
+		<model>skinned\hair\F_FIO_Hair_G2</model>
+		<texture>Hat_HairEasy</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_FIO_Hair_G3</name>
+		<model>skinned\hair\F_FIO_Hair_G3</model>
+		<texture>Hat_HairEasy</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_FIO_Hair_G4</name>
+		<model>skinned\hair\F_FIO_Hair_G4</model>
+		<texture>Hat_HairEasy</texture>
+		<noChoose>true</noChoose>
+		</female>
+		
+		
+		<female>
+                <name>F_Florence_HD</name>
+		<model>skinned\hair\F_Florence_HD</model>
+		<texture>Florence_HD</texture>
+		<alternate category="default" style="F_Florence_HD" />
+		<alternate category="Group01" style="F_Florence_HD_G1" />
+		<alternate category="Group02" style="F_Florence_HD_G2" />
+		<alternate category="Group03" style="F_Florence_HD_G3" />
+		<alternate category="Group04" style="F_Florence_HD_G4" />
+		<alternate category="Group05" style="F_Florence_HD" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairBunNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBun</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_Echidna_HQ</trimChoices>
+		<trimChoices>F_Echidna</trimChoices>
+		<trimChoices>F_FIO_Hair</trimChoices>
+		<trimChoices>F_Rei_Miyamoto</trimChoices>
+		<trimChoices>F_Bambi</trimChoices>
+		<trimChoices>F_Texas_Hair</trimChoices>
+		<trimChoices>GAIA</trimChoices>
+		<trimChoices>Ryoba</trimChoices>
+		<trimChoices>Hanni</trimChoices>
+		<trimChoices>IBUKI2</trimChoices>
+		<trimChoices>Helena</trimChoices>
+		<trimChoices>Kitagawa</trimChoices>
+	</female>
+	<female><name>F_Florence_HD_G1</name>
+		<model>skinned\hair\F_Florence_HD_G1</model>
+		<texture>Florence_HD</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Florence_HD_G2</name>
+		<model>skinned\hair\F_Florence_HD_G2</model>
+		<texture>Florence_HD</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Florence_HD_G3</name>
+		<model>skinned\hair\F_Florence_HD_G3</model>
+		<texture>Florence_HD</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Florence_HD_G4</name>
+		<model>skinned\hair\F_Florence_HD_G4</model>
+		<texture>Florence_HD</texture>
+		<noChoose>true</noChoose>
+		</female>
+		
+		
+		<female>
+                <name>F_Bambi</name>
+		<model>skinned\hair\F_BAMBI</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_BAMBI" />
+		<alternate category="Group01" style="F_BAMBI_G1" />
+		<alternate category="Group02" style="F_BAMBI_G2" />
+		<alternate category="Group03" style="F_BAMBI_G3" />
+		<alternate category="Group04" style="F_BAMBI_G4" />
+		<alternate category="Group05" style="F_BAMBI" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairBunNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBun</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_Echidna_HQ</trimChoices>
+		<trimChoices>F_Echidna</trimChoices>
+		<trimChoices>F_FIO_Hair</trimChoices>
+		<trimChoices>F_Rei_Miyamoto</trimChoices>
+		<trimChoices>F_Texas_Hair</trimChoices>
+		<trimChoices>GAIA</trimChoices>
+		<trimChoices>Ryoba</trimChoices>
+		<trimChoices>Hanni</trimChoices>
+		<trimChoices>IBUKI2</trimChoices>
+		<trimChoices>Helena</trimChoices>
+		<trimChoices>Kitagawa</trimChoices>
+	</female>
+	<female><name>F_BAMBI_G1</name>
+		<model>skinned\hair\F_BAMBI_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_BAMBI_G2</name>
+		<model>skinned\hair\F_BAMBI_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_BAMBI_G3</name>
+		<model>skinned\hair\F_BAMBI_G3</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_BAMBI_G4</name>
+		<model>skinned\hair\F_BAMBI_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+		</female>
+		
+		
+		<female>
+                <name>F_Rei_Miyamoto</name>
+		<model>skinned\hair\F_Rei_Miyamoto</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Rei_Miyamoto" />
+		<alternate category="Group01" style="F_Rei_Miyamoto_G1" />
+		<alternate category="Group02" style="F_Rei_Miyamoto_G2" />
+		<alternate category="Group03" style="F_Rei_Miyamoto_G3" />
+		<alternate category="Group04" style="F_Rei_Miyamoto_G4" />
+		<alternate category="Group05" style="F_Rei_Miyamoto" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairBunNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBun</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_Echidna_HQ</trimChoices>
+		<trimChoices>F_Echidna</trimChoices>
+		<trimChoices>F_FIO_Hair</trimChoices>
+		<trimChoices>F_Bambi</trimChoices>
+		<trimChoices>F_Texas_Hair</trimChoices>
+		<trimChoices>GAIA</trimChoices>
+		<trimChoices>Ryoba</trimChoices>
+		<trimChoices>Hanni</trimChoices>
+		<trimChoices>IBUKI2</trimChoices>
+		<trimChoices>Helena</trimChoices>
+		<trimChoices>Kitagawa</trimChoices>
+	</female>
+	<female><name>F_Rei_Miyamoto_G1</name>
+		<model>skinned\hair\F_Rei_Miyamoto_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Rei_Miyamoto_G2</name>
+		<model>skinned\hair\F_Rei_Miyamoto_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Rei_Miyamoto_G3</name>
+		<model>skinned\hair\F_Rei_Miyamoto_G3</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Rei_Miyamoto_G4</name>
+		<model>skinned\hair\F_Rei_Miyamoto_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+		</female>
+		
+		
+		<female>
+                <name>F_Texas_Hair</name>
+		<model>skinned\hair\F_Texas_Hair</model>
+		<texture>Texas_Hair</texture>
+		<alternate category="default" style="F_Texas_Hair" />
+		<alternate category="Group01" style="F_Texas_Hair_G1" />
+		<alternate category="Group02" style="F_Texas_Hair_G2" />
+		<alternate category="Group03" style="F_Texas_Hair_G3" />
+		<alternate category="Group04" style="F_Texas_Hair_G4" />
+		<alternate category="Group05" style="F_Texas_Hair" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairBunNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBun</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_Echidna_HQ</trimChoices>
+		<trimChoices>F_Echidna</trimChoices>
+		<trimChoices>F_FIO_Hair</trimChoices>
+		<trimChoices>F_Bambi</trimChoices>
+		<trimChoices>GAIA</trimChoices>
+		<trimChoices>Ryoba</trimChoices>
+		<trimChoices>Hanni</trimChoices>
+		<trimChoices>IBUKI2</trimChoices>
+		<trimChoices>Helena</trimChoices>
+		<trimChoices>Kitagawa</trimChoices>
+	</female>
+	<female><name>F_Texas_Hair_G1</name>
+		<model>skinned\hair\F_Texas_Hair_G1</model>
+		<texture>Texas_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Texas_Hair_G2</name>
+		<model>skinned\hair\F_Texas_Hair_G2</model>
+		<texture>Texas_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Texas_Hair_G3</name>
+		<model>skinned\hair\F_Texas_Hair_G3</model>
+		<texture>Texas_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_Texas_Hair_G4</name>
+		<model>skinned\hair\F_Texas_Hair_G4</model>
+		<texture>Texas_Hair</texture>
+		<noChoose>true</noChoose>
+		</female>
+		
+		
+		
+		
+		
+		<female>
+                <name>GAIA</name>
+		<model>skinned\hair\GAIA</model>
+		<texture>Hair_Gaia</texture>
+		<alternate category="default" style="GAIA" />
+		<alternate category="Group01" style="GAIA_G1" />
+		<alternate category="Group02" style="GAIA_G2" />
+		<alternate category="Group03" style="GAIA_G3" />
+		<alternate category="Group04" style="GAIA_G4" />
+		<alternate category="Group05" style="GAIA" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairBunNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_Ibuki_HQ</trimChoices>
+		<trimChoices>F_Echidna_HQ</trimChoices>
+		<trimChoices>F_Florence_HD</trimChoices>
+		<trimChoices>F_Rei_Miyamoto</trimChoices>
+		<trimChoices>F_Bambi</trimChoices>
+		<trimChoices>Ryoba</trimChoices>
+		<trimChoices>Hanni</trimChoices>
+		<trimChoices>IBUKI2</trimChoices>
+		<trimChoices>Helena</trimChoices>
+		<trimChoices>Kitagawa</trimChoices>
+	</female>
+	<female><name>GAIA_G1</name>
+		<model>skinned\hair\GAIA_G1</model>
+		<texture>Hair_Gaia</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>GAIA_G2</name>
+		<model>skinned\hair\GAIA_G2</model>
+		<texture>Hair_Gaia</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>GAIA_G3</name>
+		<model>skinned\hair\GAIA_G3</model>
+		<texture>Hair_Gaia</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>GAIA_G4</name>
+		<model>skinned\hair\GAIA_G4</model>
+		<texture>Hair_Gaia</texture>
+		<noChoose>true</noChoose>
+		</female>
+		
+		
+			<female>
+                <name>Ryoba</name>
+		<model>skinned\hair\Ryoba</model>
+		<texture>Ryoba_Hair</texture>
+		<alternate category="default" style="Ryoba" />
+		<alternate category="Group01" style="Ryoba_G124" />
+		<alternate category="Group02" style="Ryoba_G124" />
+		<alternate category="Group03" style="Ryoba_G3" />
+		<alternate category="Group04" style="Ryoba_G124" />
+		<alternate category="Group05" style="Ryoba" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairBunNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_Ibuki_HQ</trimChoices>
+		<trimChoices>F_Echidna_HQ</trimChoices>
+		<trimChoices>F_Florence_HD</trimChoices>
+		<trimChoices>F_Rei_Miyamoto</trimChoices>
+		<trimChoices>F_Bambi</trimChoices>
+		<trimChoices>GAIA</trimChoices>
+		<trimChoices>Hanni</trimChoices>
+		<trimChoices>IBUKI2</trimChoices>
+		<trimChoices>Helena</trimChoices>
+		<trimChoices>Kitagawa</trimChoices>
+	</female>
+	<female><name>Ryoba_G124</name>
+		<model>skinned\hair\Ryoba_G124</model>
+		<texture>Ryoba_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>Ryoba_G124</name>
+		<model>skinned\hair\Ryoba_G124</model>
+		<texture>Ryoba_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>Ryoba_G3</name>
+		<model>skinned\hair\Ryoba_G3</model>
+		<texture>Ryoba_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>Ryoba_G124</name>
+		<model>skinned\hair\Ryoba_G124</model>
+		<texture>Ryoba_Hair</texture>
+		<noChoose>true</noChoose>
+		</female>
+		
+		
+		<female>
+                <name>Hanni</name>
+		<model>skinned\hair\Hanni</model>
+		<texture>Hanni_Hair</texture>
+		<alternate category="default" style="Hanni" />
+		<alternate category="Group01" style="Hanni_G124" />
+		<alternate category="Group02" style="Hanni_G124" />
+		<alternate category="Group03" style="Hanni_G3" />
+		<alternate category="Group04" style="Hanni_G124" />
+		<alternate category="Group05" style="Hanni" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairBunNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_Ibuki_HQ</trimChoices>
+		<trimChoices>F_Echidna_HQ</trimChoices>
+		<trimChoices>F_Florence_HD</trimChoices>
+		<trimChoices>F_Rei_Miyamoto</trimChoices>
+		<trimChoices>F_Bambi</trimChoices>
+		<trimChoices>GAIA</trimChoices>
+		<trimChoices>Ryoba</trimChoices>
+		<trimChoices>IBUKI2</trimChoices>
+		<trimChoices>Helena</trimChoices>
+		<trimChoices>Kitagawa</trimChoices>
+	</female>
+	<female><name>Hanni_G124</name>
+		<model>skinned\hair\Hanni_G124</model>
+		<texture>Hanni_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>Hanni_G124</name>
+		<model>skinned\hair\Hanni_G124</model>
+		<texture>Hanni_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>Hanni_G3</name>
+		<model>skinned\hair\Hanni_G3</model>
+		<texture>Hanni_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>Hanni_G124</name>
+		<model>skinned\hair\Hanni_G124</model>
+		<texture>Hanni_Hair</texture>
+		<noChoose>true</noChoose>
+		</female>
+		
+
+		<female>
+                <name>IBUKI2</name>
+		<model>skinned\hair\IBUKI2</model>
+		<texture>IBUKI2_Hair</texture>
+		<alternate category="default" style="IBUKI2" />
+		<alternate category="Group01" style="IBUKI2_G1" />
+		<alternate category="Group02" style="IBUKI2_G2" />
+		<alternate category="Group03" style="IBUKI2_G3" />
+		<alternate category="Group04" style="IBUKI2_G4" />
+		<alternate category="Group05" style="IBUKI2" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairBunNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_Ibuki_HQ</trimChoices>
+		<trimChoices>F_Echidna_HQ</trimChoices>
+		<trimChoices>F_Florence_HD</trimChoices>
+		<trimChoices>F_Rei_Miyamoto</trimChoices>
+		<trimChoices>F_Bambi</trimChoices>
+		<trimChoices>GAIA</trimChoices>
+		<trimChoices>Ryoba</trimChoices>
+		<trimChoices>Hanni</trimChoices>
+		<trimChoices>Helena</trimChoices>
+		<trimChoices>Kitagawa</trimChoices>
+	</female>
+	<female><name>IBUKI2_G1</name>
+		<model>skinned\hair\IBUKI2_G1</model>
+		<texture>IBUKI2_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>IBUKI2_G2</name>
+		<model>skinned\hair\IBUKI2</model>
+		<texture>IBUKI2_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>IBUKI2_G3</name>
+		<model>skinned\hair\IBUKI2_G3</model>
+		<texture>IBUKI2_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>IBUKI2_G4</name>
+		<model>skinned\hair\IBUKI2_G4</model>
+		<texture>IBUKI2_Hair</texture>
+		<noChoose>true</noChoose>
+		</female>
+		
+		
+		<female>
+                <name>Helena</name>
+		<model>skinned\hair\Helena</model>
+		<texture>Helena_Hair</texture>
+		<alternate category="default" style="Helena" />
+		<alternate category="Group01" style="Helena_G1" />
+		<alternate category="Group02" style="Helena_G2" />
+		<alternate category="Group03" style="Helena_G3" />
+		<alternate category="Group04" style="Helena_G4" />
+		<alternate category="Group05" style="Helena" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairBunNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_Ibuki_HQ</trimChoices>
+		<trimChoices>F_Echidna_HQ</trimChoices>
+		<trimChoices>F_Florence_HD</trimChoices>
+		<trimChoices>F_Rei_Miyamoto</trimChoices>
+		<trimChoices>F_Bambi</trimChoices>
+		<trimChoices>GAIA</trimChoices>
+		<trimChoices>Ryoba</trimChoices>
+		<trimChoices>Hanni</trimChoices>
+		<trimChoices>IBUKI2</trimChoices>
+		<trimChoices>Kitagawa</trimChoices>
+	</female>
+	<female><name>Helena_G1</name>
+		<model>skinned\hair\Helena_G1</model>
+		<texture>Helena_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>Helena_G2</name>
+		<model>skinned\hair\Helena</model>
+		<texture>Helena_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>Helena_G3</name>
+		<model>skinned\hair\Helena_G3</model>
+		<texture>Helena_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>Helena_G4</name>
+		<model>skinned\hair\Helena_G4</model>
+		<texture>Helena_Hair</texture>
+		<noChoose>true</noChoose>
+		</female>
+		
+		
+		<female>
+                <name>Kitagawa</name>
+		<model>skinned\hair\Kitagawa</model>
+		<texture>Kitagawa_Hair</texture>
+		<alternate category="default" style="Kitagawa" />
+		<alternate category="Group01" style="Kitagawa_G1" />
+		<alternate category="Group02" style="Kitagawa_G2" />
+		<alternate category="Group03" style="Kitagawa_G3" />
+		<alternate category="Group04" style="Kitagawa_G4" />
+		<alternate category="Group05" style="Kitagawa" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairBunNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_Ibuki_HQ</trimChoices>
+		<trimChoices>F_Echidna_HQ</trimChoices>
+		<trimChoices>F_Florence_HD</trimChoices>
+		<trimChoices>F_Rei_Miyamoto</trimChoices>
+		<trimChoices>F_Bambi</trimChoices>
+		<trimChoices>GAIA</trimChoices>
+		<trimChoices>Ryoba</trimChoices>
+		<trimChoices>Hanni</trimChoices>
+		<trimChoices>IBUKI2</trimChoices>
+		<trimChoices>Helena</trimChoices>
+	</female>
+	<female><name>Kitagawa_G1</name>
+		<model>skinned\hair\Kitagawa_G14</model>
+		<texture>Kitagawa_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>Kitagawa_G2</name>
+		<model>skinned\hair\Kitagawa</model>
+		<texture>Kitagawa_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>Kitagawa_G3</name>
+		<model>skinned\hair\Kitagawa_G3</model>
+		<texture>Kitagawa_Hair</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>Kitagawa_G4</name>
+		<model>skinned\hair\Kitagawa_G14</model>
+		<texture>Kitagawa_Hair</texture>
+		<noChoose>true</noChoose>
+		</female>
+</hairStyles>
