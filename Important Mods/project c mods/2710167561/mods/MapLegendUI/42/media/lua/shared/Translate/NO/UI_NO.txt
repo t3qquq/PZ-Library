@@ -1,0 +1,10 @@
+UI_NO = {
+    UI_legendCommunity = "Samfunnstjenester",
+    UI_legendHospitality = "Gjestfrihet",
+    UI_legendIndustrial = "Industri",
+    UI_legendMedical = "Medisinsk",
+    UI_legendParks = "Parker",
+    UI_legendResidential = "Boliger",
+    UI_legendRestaurants = "Restauranter og underholdning",
+    UI_legendRetail = "Detaljhandel og kommersiell",
+}
