@@ -1,0 +1,44 @@
+Sandbox_JP = {
+    Sandbox_OffroadGoBrrr = "Offroad Go Brrr",
+
+    Sandbox_OffroadGoBrrr_Toggle = "Offroad Go Brrr",
+    Sandbox_OffroadGoBrrr_Toggle_tooltip = "オフロードの挙動変更を有効にする",
+
+    Sandbox_OffroadGoBrrr_HeavyThreshold = "重量車両のしきい値",
+    Sandbox_OffroadGoBrrr_HeavyThreshold_tooltip = "指定された馬力未満の重量車両は重量車両の質量乗数を使用し、それ以上の車両やバンは標準質量乗数を使用します。無効にするには0を設定します",
+
+    Sandbox_OffroadGoBrrr_HeavyMultiplier = "重量車両の質量乗数",
+    Sandbox_OffroadGoBrrr_HeavyMultiplier_tooltip = "値が低いほどオフロード性能が向上します",
+
+
+    Sandbox_OffroadGoBrrr_StandardThreshold = "標準車両のしきい値",
+    Sandbox_OffroadGoBrrr_StandardThreshold_tooltip = "指定された馬力未満の標準車両は標準質量乗数を使用し、それ以上はスポーツ質量乗数を使用します。無効にするには0を設定します",
+
+    Sandbox_OffroadGoBrrr_StandardMultiplier = "標準質量乗数",
+    Sandbox_OffroadGoBrrr_StandardMultiplier_tooltip = "値が低いほどオフロード性能が向上します",
+
+
+    Sandbox_OffroadGoBrrr_SportThreshold = "スポーツ車両のしきい値",
+    Sandbox_OffroadGoBrrr_SportThreshold_tooltip = "指定された馬力未満のスポーツ車両はどの乗数の影響も受けません。無効にするには0を設定します",
+
+    Sandbox_OffroadGoBrrr_SportMultiplier = "スポーツ質量乗数",
+    Sandbox_OffroadGoBrrr_SportMultiplier_tooltip = "値が低いほどオフロード性能が向上します。他の乗数とは異なり、この乗数は車両の馬力に応じて調整され、影響を受けるすべてのスポーツ車両がオフロードで等しく悪い性能を発揮するようにします",
+
+
+    Sandbox_OffroadGoBrrr_TowingToggle = "牽引",
+    Sandbox_OffroadGoBrrr_TowingToggle_tooltip = "牽引に影響を与える",
+
+
+    Sandbox_OffroadGoBrrr_Offroad = "オフロードとして含める",
+    Sandbox_OffroadGoBrrr_Offroad_tooltip = "重量車両ではないがオフロードで優れた性能を発揮すべき車両を指定します。区切り文字としてスペースを使用します、デフォルト: Base.63beetleBuggy Base.63Type2VanApocalypse Base.OffRoad",
+
+    Sandbox_OffroadGoBrrr_None = "名前で除外",
+    Sandbox_OffroadGoBrrr_None_tooltip = "MOD の影響を受けない車両を指定します。区切り文字としてスペースを使用します",
+
+    Sandbox_OffroadGoBrrr_ExcludeByWeight = "重量で除外",
+    Sandbox_OffroadGoBrrr_ExcludeByWeight_tooltip = "指定された値よりもスクリプト質量が少ない車両は全く影響を受けません。例: オートバイを除外するには、これを350に設定します",
+
+
+    Sandbox_OffroadGoBrrr_Debug = "デバッグ",
+    Sandbox_OffroadGoBrrr_Debug_tooltip = "コンソールにデバッグ情報を表示する",
+}

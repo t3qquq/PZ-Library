@@ -1,0 +1,44 @@
+Sandbox_EN = {
+    Sandbox_OffroadGoBrrr = "Offroad Go Brrr",
+
+    Sandbox_OffroadGoBrrr_Toggle = "Offroad Go Brrr",
+    Sandbox_OffroadGoBrrr_Toggle_tooltip = "Enable changes to offroad behavior",
+
+    Sandbox_OffroadGoBrrr_HeavyThreshold = "Heavy-Duty Vehicles Threshold",
+    Sandbox_OffroadGoBrrr_HeavyThreshold_tooltip = "Heavy-Duty vehicles with less than specified HP will use Heavy-Duty Mass Multiplier, higher or Vans will use Standard Mass Multiplier. Set to 0 to disable",
+
+    Sandbox_OffroadGoBrrr_HeavyMultiplier = "Heavy-Duty Mass Multiplier",
+    Sandbox_OffroadGoBrrr_HeavyMultiplier_tooltip = "Lower value = better offroad performance",
+
+
+    Sandbox_OffroadGoBrrr_StandardThreshold = "Standard Vehicles Threshold",
+    Sandbox_OffroadGoBrrr_StandardThreshold_tooltip = "Standard vehicles with less than specified HP will use Standard Mas Multiplier, higher will use Sport Mass multiplier. Set to 0 to disable",
+
+    Sandbox_OffroadGoBrrr_StandardMultiplier = "Standard Mass Multiplier",
+    Sandbox_OffroadGoBrrr_StandardMultiplier_tooltip = "Lower value = better offroad performance",
+
+
+    Sandbox_OffroadGoBrrr_SportThreshold = "Sport Vehicles Threshold",
+    Sandbox_OffroadGoBrrr_SportThreshold_tooltip = "Sport vehicles with less than specified HP will not be affected by any multiplier. Set to 0 to disable",
+
+    Sandbox_OffroadGoBrrr_SportMultiplier = "Sport Mass Multiplier",
+    Sandbox_OffroadGoBrrr_SportMultiplier_tooltip = "Lower value = better offroad performance. Unlike other multipliers it also scales with vehicle Horse Power to make sure all affected Sport vehicles are equally bad offroad",
+
+
+    Sandbox_OffroadGoBrrr_TowingToggle = "Towing",
+    Sandbox_OffroadGoBrrr_TowingToggle_tooltip = "Affect towing",
+
+
+    Sandbox_OffroadGoBrrr_Offroad = "Include As Offroad",
+    Sandbox_OffroadGoBrrr_Offroad_tooltip = "Specify vehicles which aren't Heavy-Duty but should be great offroad. Use space as the delimiter, default: Base.63beetleBuggy Base.63Type2VanApocalypse Base.OffRoad",
+
+    Sandbox_OffroadGoBrrr_None = "Exclude By Name",
+    Sandbox_OffroadGoBrrr_None_tooltip = "Specify vehicles which shouldn't be affected by the mod. Use space as the delimiter",
+
+    Sandbox_OffroadGoBrrr_ExcludeByWeight = "Exclude By Weight",
+    Sandbox_OffroadGoBrrr_ExcludeByWeight_tooltip = "Vehicles with script mass less than specified value will not be affected at all. Example: to exclude motorcycles set this to 350",
+
+
+    Sandbox_OffroadGoBrrr_Debug = "Debug",
+    Sandbox_OffroadGoBrrr_Debug_tooltip = "Print debug info in console",
+}

@@ -1,0 +1,44 @@
+Sandbox_TH = {
+    Sandbox_OffroadGoBrrr = "Offroad Go Brrr",
+
+    Sandbox_OffroadGoBrrr_Toggle = "Offroad Go Brrr",
+    Sandbox_OffroadGoBrrr_Toggle_tooltip = "เปิดใช้งานการเปลี่ยนแปลงพฤติกรรมออฟโรด",
+
+    Sandbox_OffroadGoBrrr_HeavyThreshold = "เกณฑ์รถหนัก",
+    Sandbox_OffroadGoBrrr_HeavyThreshold_tooltip = "รถหนักที่มีแรงม้าน้อยกว่าที่กำหนดจะใช้ตัวคูณมวลของรถหนัก รถที่มีแรงม้ามากกว่าหรือเป็นรถตู้จะใช้ตัวคูณมวลมาตรฐาน กำหนดเป็น 0 เพื่อปิดใช้งาน",
+
+    Sandbox_OffroadGoBrrr_HeavyMultiplier = "ตัวคูณมวลรถหนัก",
+    Sandbox_OffroadGoBrrr_HeavyMultiplier_tooltip = "ค่าที่ต่ำกว่าหมายถึงประสิทธิภาพออฟโรดที่ดีกว่า",
+
+
+    Sandbox_OffroadGoBrrr_StandardThreshold = "เกณฑ์รถมาตรฐาน",
+    Sandbox_OffroadGoBrrr_StandardThreshold_tooltip = "รถมาตรฐานที่มีแรงม้าน้อยกว่าที่กำหนดจะใช้ตัวคูณมวลมาตรฐาน รถที่มีแรงม้ามากกว่าจะใช้ตัวคูณมวลของรถสปอร์ต กำหนดเป็น 0 เพื่อปิดใช้งาน",
+
+    Sandbox_OffroadGoBrrr_StandardMultiplier = "ตัวคูณมวลมาตรฐาน",
+    Sandbox_OffroadGoBrrr_StandardMultiplier_tooltip = "ค่าที่ต่ำกว่าหมายถึงประสิทธิภาพออฟโรดที่ดีกว่า",
+
+
+    Sandbox_OffroadGoBrrr_SportThreshold = "เกณฑ์รถสปอร์ต",
+    Sandbox_OffroadGoBrrr_SportThreshold_tooltip = "รถสปอร์ตที่มีแรงม้าน้อยกว่าที่กำหนดจะไม่ได้รับผลกระทบจากตัวคูณใด ๆ กำหนดเป็น 0 เพื่อปิดใช้งาน",
+
+    Sandbox_OffroadGoBrrr_SportMultiplier = "ตัวคูณมวลรถสปอร์ต",
+    Sandbox_OffroadGoBrrr_SportMultiplier_tooltip = "ค่าที่ต่ำกว่าหมายถึงประสิทธิภาพออฟโรดที่ดีกว่า ต่างจากตัวคูณอื่น ๆ ที่จะปรับตามแรงม้าของรถเพื่อให้แน่ใจว่ารถสปอร์ตทุกคันที่ได้รับผลกระทบมีประสิทธิภาพออฟโรดที่แย่เท่า ๆ กัน",
+
+
+    Sandbox_OffroadGoBrrr_TowingToggle = "การลากจูง",
+    Sandbox_OffroadGoBrrr_TowingToggle_tooltip = "ส่งผลต่อการลากจูง",
+
+
+    Sandbox_OffroadGoBrrr_Offroad = "รวมเป็นออฟโรด",
+    Sandbox_OffroadGoBrrr_Offroad_tooltip = "ระบุยานพาหนะที่ไม่ใช่รถใช้งานหนักแต่ควรเป็นรถออฟโรดที่ยอดเยี่ยม ใช้พื้นที่เป็นตัวกำหนดค่าเริ่มต้น: Base.63beetleBuggy Base.63Type2VanApocalypse Base.OffRoad",
+
+    Sandbox_OffroadGoBrrr_None = "ไม่รวมตามชื่อ",
+    Sandbox_OffroadGoBrrr_None_tooltip = "ระบุยานพาหนะที่ไม่ควรได้รับผลกระทบจากการดัดแปลง ใช้ช่องว่างเป็นตัวกำหนดขอบเขต",
+
+    Sandbox_OffroadGoBrrr_ExcludeByWeight = "ยกเว้นตามน้ำหนัก",
+    Sandbox_OffroadGoBrrr_ExcludeByWeight_tooltip = "รถที่มีมวลตามสคริปต์น้อยกว่าค่าที่กำหนดจะไม่ได้รับผลกระทบใด ๆ เลย ตัวอย่าง: หากต้องการยกเว้นรถจักรยานยนต์ ให้ตั้งค่านี้เป็น 350",
+
+
+    Sandbox_OffroadGoBrrr_Debug = "ดีบัก",
+    Sandbox_OffroadGoBrrr_Debug_tooltip = "พิมพ์ข้อมูลดีบักในคอนโซล",
+}

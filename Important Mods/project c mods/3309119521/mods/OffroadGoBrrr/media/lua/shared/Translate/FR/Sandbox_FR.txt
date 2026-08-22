@@ -1,0 +1,44 @@
+Sandbox_FR = {
+    Sandbox_OffroadGoBrrr = "Offroad Go Brrr",
+
+    Sandbox_OffroadGoBrrr_Toggle = "Offroad Go Brrr",
+    Sandbox_OffroadGoBrrr_Toggle_tooltip = "Activer les modifications du comportement offroad",
+
+    Sandbox_OffroadGoBrrr_HeavyThreshold = "Seuil pour les Véhicules Lourds",
+    Sandbox_OffroadGoBrrr_HeavyThreshold_tooltip = "Les véhicules lourds avec moins de HP spécifiés utiliseront le Multiplicateur de Masse Lourde, les valeurs plus élevées ou les Vans utiliseront le Multiplicateur de Masse Standard. Définir à 0 pour désactiver",
+
+    Sandbox_OffroadGoBrrr_HeavyMultiplier = "Multiplicateur de Masse Lourde",
+    Sandbox_OffroadGoBrrr_HeavyMultiplier_tooltip = "Valeur plus basse = meilleure performance offroad",
+
+
+    Sandbox_OffroadGoBrrr_StandardThreshold = "Seuil pour les Véhicules Standard",
+    Sandbox_OffroadGoBrrr_StandardThreshold_tooltip = "Les véhicules standard avec moins de HP spécifiés utiliseront le Multiplicateur de Masse Standard, les valeurs plus élevées utiliseront le Multiplicateur de Masse Sportive. Définir à 0 pour désactiver",
+
+    Sandbox_OffroadGoBrrr_StandardMultiplier = "Multiplicateur de Masse Standard",
+    Sandbox_OffroadGoBrrr_StandardMultiplier_tooltip = "Valeur plus basse = meilleure performance offroad",
+
+
+    Sandbox_OffroadGoBrrr_SportThreshold = "Seuil pour les Véhicules Sportifs",
+    Sandbox_OffroadGoBrrr_SportThreshold_tooltip = "Les véhicules sportifs avec moins de HP spécifiés ne seront pas affectés par un multiplicateur. Définir à 0 pour désactiver",
+
+    Sandbox_OffroadGoBrrr_SportMultiplier = "Multiplicateur de Masse Sportive",
+    Sandbox_OffroadGoBrrr_SportMultiplier_tooltip = "Valeur plus basse = meilleure performance offroad. Contrairement aux autres multiplicateurs, celui-ci évolue également en fonction de la Puissance du Moteur pour s'assurer que tous les véhicules sportifs concernés sont également mauvais en offroad",
+
+
+    Sandbox_OffroadGoBrrr_TowingToggle = "Remorquage",
+    Sandbox_OffroadGoBrrr_TowingToggle_tooltip = "Affecter le remorquage",
+
+
+    Sandbox_OffroadGoBrrr_Offroad = "Inclure comme tout-terrain",
+    Sandbox_OffroadGoBrrr_Offroad_tooltip = "Spécifiez les véhicules qui ne sont pas Lourds mais qui devraient être excellents en offroad. Utilisez l'espace comme délimiteur, par défaut: Base.63beetleBuggy Base.63Type2VanApocalypse Base.OffRoad",
+
+    Sandbox_OffroadGoBrrr_None = "Exclure par nom",
+    Sandbox_OffroadGoBrrr_None_tooltip = "Spécifiez les véhicules qui ne devraient pas être affectés par le mod. Utilisez l'espace comme délimiteur",
+
+    Sandbox_OffroadGoBrrr_ExcludeByWeight = "Exclure par Poids",
+    Sandbox_OffroadGoBrrr_ExcludeByWeight_tooltip = "Les véhicules avec une masse de script inférieure à la valeur spécifiée ne seront pas affectés. Exemple : pour exclure les motos, définissez ceci à 350",
+
+
+    Sandbox_OffroadGoBrrr_Debug = "Débogage",
+    Sandbox_OffroadGoBrrr_Debug_tooltip = "Afficher les informations de débogage dans la console",
+}

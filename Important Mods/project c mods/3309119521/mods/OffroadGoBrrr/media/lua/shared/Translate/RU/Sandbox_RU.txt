@@ -1,0 +1,44 @@
+Sandbox_RU = {
+    Sandbox_OffroadGoBrrr = "Offroad Go Brrr",
+
+    Sandbox_OffroadGoBrrr_Toggle = "Offroad Go Brrr",
+    Sandbox_OffroadGoBrrr_Toggle_tooltip = "Включить изменения в поведении на бездорожье",
+
+    Sandbox_OffroadGoBrrr_HeavyThreshold = "Порог для тяжелых транспортных средств",
+    Sandbox_OffroadGoBrrr_HeavyThreshold_tooltip = "Тяжелые транспортные средства с мощностью ниже указанного значения будут использовать множитель массы для тяжелых машин, выше или фургоны будут использовать стандартный множитель массы. Установите 0, чтобы отключить",
+
+    Sandbox_OffroadGoBrrr_HeavyMultiplier = "Множитель массы для тяжелых машин",
+    Sandbox_OffroadGoBrrr_HeavyMultiplier_tooltip = "Меньшее значение = лучшая проходимость на бездорожье",
+
+
+    Sandbox_OffroadGoBrrr_StandardThreshold = "Порог для стандартных транспортных средств",
+    Sandbox_OffroadGoBrrr_StandardThreshold_tooltip = "Стандартные транспортные средства с мощностью ниже указанного значения будут использовать стандартный множитель массы, выше будет использоваться множитель массы для спортивных машин. Установите 0, чтобы отключить",
+
+    Sandbox_OffroadGoBrrr_StandardMultiplier = "Стандартный множитель массы",
+    Sandbox_OffroadGoBrrr_StandardMultiplier_tooltip = "Меньшее значение = лучшая проходимость на бездорожье",
+
+
+    Sandbox_OffroadGoBrrr_SportThreshold = "Порог для спортивных транспортных средств",
+    Sandbox_OffroadGoBrrr_SportThreshold_tooltip = "Спортивные транспортные средства с мощностью ниже указанного значения не будут затронуты никаким множителем. Установите 0, чтобы отключить",
+
+    Sandbox_OffroadGoBrrr_SportMultiplier = "Множитель массы для спортивных машин",
+    Sandbox_OffroadGoBrrr_SportMultiplier_tooltip = "Меньшее значение = лучшая проходимость на бездорожье. В отличие от других множителей, также учитывается мощность двигателя, чтобы все спортивные автомобили были одинаково плохи на бездорожье",
+
+
+    Sandbox_OffroadGoBrrr_TowingToggle = "Буксировка",
+    Sandbox_OffroadGoBrrr_TowingToggle_tooltip = "Влияет на буксировку",
+
+
+    Sandbox_OffroadGoBrrr_Offroad = "Включить как внедорожный",
+    Sandbox_OffroadGoBrrr_Offroad_tooltip = "Укажите транспортные средства, которые не являются тяжелыми, но должны быть отличными на бездорожье. Использовать пробел в качестве разделителя, по умолчанию: Base.63beetleBuggy Base.63Type2VanApocalypse Base.OffRoad",
+
+    Sandbox_OffroadGoBrrr_None = "Исключить по имени",
+    Sandbox_OffroadGoBrrr_None_tooltip = "Укажите транспортные средства, на которые не должен влиять мод. Использовать пробел в качестве разделителя",
+
+    Sandbox_OffroadGoBrrr_ExcludeByWeight = "Исключить по весу",
+    Sandbox_OffroadGoBrrr_ExcludeByWeight_tooltip = "Транспортные средства с массой скрипта ниже указанного значения не будут затронуты. Пример: чтобы исключить мотоциклы, установите значение 350",
+
+
+    Sandbox_OffroadGoBrrr_Debug = "Отладка",
+    Sandbox_OffroadGoBrrr_Debug_tooltip = "Выводить отладочную информацию в консоль",
+} 

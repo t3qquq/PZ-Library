@@ -1,0 +1,117 @@
+VERSION = 1,
+
+option OffroadGoBrrr.Toggle
+{
+	type = boolean,
+	default = true,
+	page = OffroadGoBrrr,
+	translation = OffroadGoBrrr_Toggle,
+}
+
+
+option OffroadGoBrrr.HeavyMultiplier
+{
+	type = double,
+	min = 0.50,
+	max = 3.00,
+	default = 0.50,
+	page = OffroadGoBrrr,
+	translation = OffroadGoBrrr_HeavyMultiplier,
+}
+
+option OffroadGoBrrr.StandardMultiplier
+{
+	type = double,
+	min = 0.75,
+	max = 3.00,
+	default = 0.75,
+	page = OffroadGoBrrr,
+	translation = OffroadGoBrrr_StandardMultiplier,
+}
+
+option OffroadGoBrrr.SportMultiplier
+{
+	type = double,
+	min = 1.25,
+	max = 3.00,
+	default = 1.25,
+	page = OffroadGoBrrr,
+	translation = OffroadGoBrrr_SportMultiplier,
+}
+
+option OffroadGoBrrr.TowingToggle
+{
+	type = boolean,
+	default = true,
+	page = OffroadGoBrrr,
+	translation = OffroadGoBrrr_TowingToggle,
+}
+
+
+option OffroadGoBrrr.Offroad
+{
+	type = string,
+	default = ,
+	page = OffroadGoBrrr,
+	translation = OffroadGoBrrr_Offroad,
+}
+
+option OffroadGoBrrr.None
+{
+	type = string,
+	default = ,
+	page = OffroadGoBrrr,
+	translation = OffroadGoBrrr_None,
+}
+
+
+option OffroadGoBrrr.HeavyThreshold
+{
+	type = integer,
+	min = 0,
+	max = 1000,
+	default = 600,
+	page = OffroadGoBrrr,
+	translation = OffroadGoBrrr_HeavyThreshold,
+}
+
+option OffroadGoBrrr.StandardThreshold
+{
+	type = integer,
+	min = 0,
+	max = 1000,
+	default = 500,
+	page = OffroadGoBrrr,
+	translation = OffroadGoBrrr_StandardThreshold,
+}
+
+option OffroadGoBrrr.SportThreshold
+{
+	type = integer,
+	min = 0,
+	max = 1000,
+	default = 500,
+	page = OffroadGoBrrr,
+	translation = OffroadGoBrrr_SportThreshold,
+}
+
+
+/**
+option OffroadGoBrrr.ExcludeByWeight
+{
+	type = integer,
+	min = 0,
+	max = 1000,
+	default = 0,
+	page = OffroadGoBrrr,
+	translation = OffroadGoBrrr_ExcludeByWeight,
+}
+**/
+
+option OffroadGoBrrr.Debug
+{
+	type = boolean,
+	default = false,
+	page = OffroadGoBrrr,
+	translation = OffroadGoBrrr_Debug,
+}

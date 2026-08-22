@@ -1,0 +1,44 @@
+Sandbox_CN = {
+    Sandbox_OffroadGoBrrr = "Offroad Go Brrr",
+
+    Sandbox_OffroadGoBrrr_Toggle = "Offroad Go Brrr",
+    Sandbox_OffroadGoBrrr_Toggle_tooltip = "启用越野行为的改变",
+
+    Sandbox_OffroadGoBrrr_HeavyThreshold = "重型车辆阈值",
+    Sandbox_OffroadGoBrrr_HeavyThreshold_tooltip = "低于指定马力的重型车辆将使用重型质量倍增器，更高马力或厢式车将使用标准质量倍增器。设置为0以禁用",
+
+    Sandbox_OffroadGoBrrr_HeavyMultiplier = "重型质量倍增器",
+    Sandbox_OffroadGoBrrr_HeavyMultiplier_tooltip = "值越低，越野性能越好",
+
+
+    Sandbox_OffroadGoBrrr_StandardThreshold = "标准车辆阈值",
+    Sandbox_OffroadGoBrrr_StandardThreshold_tooltip = "低于指定马力的标准车辆将使用标准质量倍增器，更高马力的车辆将使用运动质量倍增器。设置为0以禁用",
+
+    Sandbox_OffroadGoBrrr_StandardMultiplier = "标准质量倍增器",
+    Sandbox_OffroadGoBrrr_StandardMultiplier_tooltip = "值越低，越野性能越好",
+
+
+    Sandbox_OffroadGoBrrr_SportThreshold = "运动型车辆阈值",
+    Sandbox_OffroadGoBrrr_SportThreshold_tooltip = "低于指定马力的运动型车辆将不受任何倍增器影响。设置为0以禁用",
+
+    Sandbox_OffroadGoBrrr_SportMultiplier = "运动型质量倍增器",
+    Sandbox_OffroadGoBrrr_SportMultiplier_tooltip = "值越低，越野性能越好。与其他倍增器不同，它还会根据车辆马力进行调整，以确保所有受影响的运动型车辆在越野时表现同样差",
+
+
+    Sandbox_OffroadGoBrrr_TowingToggle = "牵引",
+    Sandbox_OffroadGoBrrr_TowingToggle_tooltip = "影响牵引",
+
+
+    Sandbox_OffroadGoBrrr_Offroad = "包括越野",
+    Sandbox_OffroadGoBrrr_Offroad_tooltip = "指定那些不是重型但应在越野中表现出色的车辆。使用空格作为分隔符，默认：Base.63beetleBuggy Base.63Type2VanApocalypse Base.OffRoad",
+
+    Sandbox_OffroadGoBrrr_None = "按名称排除",
+    Sandbox_OffroadGoBrrr_None_tooltip = "指定不应受该模组影响的车辆。使用空格作为分隔符",
+
+    Sandbox_OffroadGoBrrr_ExcludeByWeight = "按重量排除",
+    Sandbox_OffroadGoBrrr_ExcludeByWeight_tooltip = "脚本质量低于指定值的车辆将完全不受影响。例如：要排除摩托车，请将其设置为350",
+
+
+    Sandbox_OffroadGoBrrr_Debug = "调试",
+    Sandbox_OffroadGoBrrr_Debug_tooltip = "在控制台中打印调试信息",
+}
