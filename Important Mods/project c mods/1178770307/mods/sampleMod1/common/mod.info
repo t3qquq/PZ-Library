@@ -1,0 +1,8 @@
+name=Examine Panel - Sample Mod
+id=ssr-example1
+description=This is an example mod containing two examinable items.
+poster=poster.png
+author=Oneline
+pzversion=42
+modversion=2025_01_08
+versionMin=41.78

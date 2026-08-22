@@ -1,0 +1,6 @@
+UI_EN = {
+	UI_Text_SuspiciousMagazine_01 = "<CENTRE> Oh, boy! What have we here... "
+	UI_Text_SuspiciousMagazine_08 = "<CENTRE> Damn! She's so hot! <LINE> I hope, she survived the apocalypse "
+	UI_Image_Poster = "<IMAGECENTRE:media/ui/Poster.png> "
+	UI_Text_Poster = "A few years ago I could take it as a joke, but now... *Sighs* "
+}

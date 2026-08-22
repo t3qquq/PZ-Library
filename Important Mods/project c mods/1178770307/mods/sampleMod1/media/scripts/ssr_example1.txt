@@ -1,0 +1,31 @@
+module ssr
+{
+	imports
+	{
+		Base
+	}
+	
+		item Poster
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Poster,
+		Icon	=	Poster,
+	}
+	
+	/********************Secrets**********************/
+	
+		item SuspiciousMagazine
+	{
+		Weight	=	0.05,
+		Type	=	Literature,
+		DisplayName	=	Suspicious Magazine,
+		Icon	=	MA080613,
+		BoredomChange	=	-10,
+		UnhappyChange	=	-15,
+		StressChange	=	5,
+		ReplaceOnUse    =   SuspiciousMagazine,
+		CustomContextMenu = FlipThrough,
+	}
+	
+}

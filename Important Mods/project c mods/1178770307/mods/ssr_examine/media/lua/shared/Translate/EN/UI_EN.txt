@@ -1,0 +1,5 @@
+UI_EN = {
+	UI_Text_isAdult     = " <H1> <SIZE:large> Are you 18? <LINE> <CENTRE> <SIZE:small> By choosing 'Yes' you confirm that you're of legal age of 18 or older in order to view the NSFW content. <LINE> If you haven't reached the age of 18 or older, we sincerely ask you to choose "No" instead. <LINE> We do not hold any responsibility for unsanctioned viewership of hidden material by people below the minimum legal age. <LINE> <IMAGECENTRE:media/ui/SpiffoWarning.png>"
+	UI_Text_Disclaimer  = "All images are on the remain copyright of their respective owners."
+	UI_Text_ExamineTooltip = "Close (esc)"
+}
