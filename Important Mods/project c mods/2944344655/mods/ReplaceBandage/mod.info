@@ -1,0 +1,15 @@
+name=Replace Bandage
+id=ReplaceBandage
+poster=poster.png
+icon=poster.png
+authors=Sioyth
+description=Are you tired of the tedious process of removing old dirty bandages and then applying new ones in Project Zomboid? Do you wish there was an easier way to manage your injuries and stay healthy in the game? Look no further than the "Replace Bandage" mod!
+
+If you are using MiniHealthPanel, make sure ReplaceBandage comes after it.
+
+Help a broke student! [url]https://ko-fi.com/sioyth[/url]
+
+[url=https://ko-fi.com/sioyth][img]https://storage.ko-fi.com/cdn/brandasset/kofi_bg_tag_dark.png[/img][/url]
+
+versionMin=41.0
+tags=Build 41;Build 42;Multiplayer;QoL

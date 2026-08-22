@@ -1,0 +1,8 @@
+IGUI_EN = { 
+	IGUI_Replace_Bandage = "Zmień Bandaż"
+	IGUI_Replace_&_Disinfect = "Zmień i Zdezynfekuj"
+}
+
+ContextMenu_EN = {
+    ContextMenu_Replace_Bandage = "Zmień Bandaż"
+}
