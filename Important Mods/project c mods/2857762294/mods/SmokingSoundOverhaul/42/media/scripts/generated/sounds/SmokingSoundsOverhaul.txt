@@ -1,0 +1,715 @@
+module Base 
+{    
+	sound Smoking_puff1m
+    {
+        category = Item,
+		clip
+		{
+			file = media/sound/smoking_puff1.ogg,
+			distanceMax = 20
+		}
+    }
+	sound Smoking_puff1f
+    {
+        category = Item,
+		clip
+		{
+			file = media/sound/smoking_puff1f.ogg,
+			distanceMax = 20
+		}
+    }
+	sound Smoking_matches1m
+    {
+        category = Item,
+		clip
+		{
+			file = media/sound/smoking_matches1.ogg,
+			distanceMax = 20
+		}
+    }
+	
+	sound Smoking_matches2m
+    {
+        category = Item,
+		clip
+		{
+			file = media/sound/smoking_matches2.ogg,
+			distanceMax = 20
+		}
+    }	
+	
+	sound Smoking_matches3m
+    {
+        category = Item,
+		clip
+		{
+			file = media/sound/smoking_matches3.ogg,
+			distanceMax = 20
+		}
+    }	
+	
+	sound Smoking_lighter1m
+    {
+        category = Item,
+		clip
+		{
+			file = media/sound/smoking_lighter1.ogg,
+			distanceMax = 20
+		}
+    }
+	
+	sound Smoking_lighter2m
+    {
+        category = Item,
+		clip
+		{
+			file = media/sound/smoking_lighter2.ogg,
+			distanceMax = 20
+		}
+    }	
+	
+	sound Smoking_lighter3m
+    {
+        category = Item,
+		clip
+		{
+			file = media/sound/smoking_lighter3.ogg,
+			distanceMax = 20
+		}
+    }	
+	
+	sound Smoking_matches1f
+    {
+        category = Item,
+		clip
+		{
+			file = media/sound/smoking_matches1f.ogg,
+			distanceMax = 20
+		}
+    }	
+	
+	sound Smoking_matches2f
+    {
+        category = Item,
+		clip
+		{
+			file = media/sound/smoking_matches2f.ogg,
+			distanceMax = 20
+		}
+    }	
+	
+	sound Smoking_matches3f
+    {
+        category = Item,
+		clip
+		{
+			file = media/sound/smoking_matches3f.ogg,
+			distanceMax = 20
+		}
+    }	
+	
+	sound Smoking_lighter1f
+    {
+        category = Item,
+		clip
+		{
+			file = media/sound/smoking_lighter1f.ogg,
+			distanceMax = 20
+		}
+    }	
+	
+	sound Smoking_lighter2f
+    {
+        category = Item,
+		clip
+		{
+			file = media/sound/smoking_lighter2f.ogg,
+			distanceMax = 20
+		}
+    }	
+	
+	sound Smoking_lighter3f
+    {
+        category = Item,
+		clip
+		{
+			file = media/sound/smoking_lighter3f.ogg,
+			distanceMax = 20
+		}
+    }
+	
+
+	
+
+	
+
+	sound Smoking_open_lighter1
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_open_lighter1.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_open_lighter2
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_open_lighter2.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_open_lighter3
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_open_lighter3.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_open_matches1
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_open_matches1.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_open_matches2
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_open_matches2.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_open_matches3
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_open_matches3.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_close_lighter1
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_close_lighter1.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_close_lighter2
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_close_lighter2.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_close_lighter3
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_close_lighter3.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_lighter1_1
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_lighter1_1.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_lighter1_2
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_lighter1_2.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_lighter2_1
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_lighter2_1.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_lighter2_2
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_lighter2_2.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_lighter3_1
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_lighter3_1.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_lighter3_2
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_lighter3_2.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_lighter3_3
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_lighter3_3.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_matches1_1
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_matches1_1.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_matches2m_1
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_matches2m_1.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_matches2f_1
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_matches2f_1.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_matches3m_1
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_matches3m_1.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_matches3m_2
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_matches3m_2.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_matches3m_3
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_matches3m_3.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_matches3f_1
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_matches3f_1.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_matches3f_2
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_matches3f_2.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_strike_matches3f_3
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_strike_matches3f_3.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw1m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw1m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw2m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw2m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_exh1m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_exh1m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw1f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw1f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw2f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw2f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_exh1f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_exh1f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw3m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw3m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw4m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw4m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_exh2m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_exh2m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw3f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw3f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_exh2f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_exh2f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw5m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw5m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw6m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw6m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_exh3m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_exh3m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw4f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw4f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw5f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw5f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_exh3f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_exh3f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw7m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw7m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw8m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw8m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_exh4m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_exh4m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw6f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw6f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw7f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw7f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_exh4f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_exh4f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw9m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw9m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_exh5m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_exh5m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw8f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw8f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_exh5f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_exh5f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw10m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw10m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_exh6m
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_exh6m.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_draw9f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_draw9f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	sound Smoking_exh6f
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/sso_exh6f.ogg,
+			distanceMax = 20
+		}
+	}
+
+	/* Component sounds: ignition parts, draws and exhales. */
+
+	/* Component sounds: ignition parts, draws and exhales. Generated. */
+
+	/* Component sounds: ignition parts, draws and exhales. Generated. */
+
+	/* Component sounds: ignition parts, draws and exhales. Generated. */
+
+	/* Component sounds: ignition parts, draws and exhales. Generated. */
+}
