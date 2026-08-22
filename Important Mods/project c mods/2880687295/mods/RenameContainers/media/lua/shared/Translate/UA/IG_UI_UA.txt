@@ -1,0 +1,4 @@
+IGUI_UA = {
+    IGUI_RenameContainers_RenameTooltip = "Натисніть, щоб перейменувати цей контейнер",
+    IGUI_RenameContainers_RenameModal = "Перейменуйте цей контейнер",
+}

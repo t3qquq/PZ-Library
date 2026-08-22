@@ -1,0 +1,4 @@
+IGUI_CS = {
+    IGUI_RenameContainers_RenameTooltip = "Kliknutím pøejmenujete tento kontejner",
+    IGUI_RenameContainers_RenameModal = "Pøejmenovat tento kontejner",
+}

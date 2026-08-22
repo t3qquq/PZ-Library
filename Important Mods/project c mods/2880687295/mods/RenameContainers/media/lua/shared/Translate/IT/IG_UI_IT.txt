@@ -1,0 +1,4 @@
+IGUI_IT = {
+    IGUI_RenameContainers_RenameTooltip = "Clicca per rinominare il contenitore",
+    IGUI_RenameContainers_RenameModal = "Rinomina questo contenitore",
+}
