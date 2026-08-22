@@ -1,0 +1,69 @@
+module Vitamin
+{
+	imports
+	{
+		Base,
+	}
+	
+	item VitaminStack
+	{
+		Weight				= 0.2,
+		FatigueChange		= -20,
+		DisplayName			= Stack of Vitamin Pills,
+		Icon				= Vitaminpills,
+		Type				= Food,
+		CustomContextMenu	= Take,
+		CantBeFrozen		= TRUE,
+		Tooltip				= Tooltip_Vitamins,
+		Medical = TRUE,
+	}
+	
+	item SVitaminStack
+	{
+		Weight				= 0.1,
+		FatigueChange		= -10,
+		DisplayName			= Half of Vitamin Pills,
+		Icon				= SVitaminpills,
+		Type				= Food,
+		CustomContextMenu	= Take,
+		CantBeFrozen		= TRUE,
+		Tooltip				= Tooltip_Vitamins,
+		Medical = TRUE,
+	}
+	
+	recipe Pour All Out
+	{
+		PillsVitamins=10,
+		
+		Result:VitaminStack=1,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Time:70.0,
+		Sound:PutItemInBag,
+	}
+	
+	recipe Pour Half Out
+	{
+		PillsVitamins=5,
+		
+		Result:SVitaminStack=1,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Time:40.0,
+		Sound:PutItemInBag,
+	}
+	
+	recipe Put Together
+	{
+		SVitaminStack=2,
+		
+		Result:VitaminStack=1,
+		Time:30.0,
+	}
+	
+	recipe Split in Half
+	{
+		VitaminStack=1,
+		
+		Result:SVitaminStack=2,
+		Time:30.0,
+	}
+}
