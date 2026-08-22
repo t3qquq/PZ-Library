@@ -1,0 +1,4 @@
+name=Toggle Microphone
+poster=microphone_logo_512x512.png
+id=ToggleMic
+description=Allows to toggle microphone.
