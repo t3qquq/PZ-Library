@@ -1,0 +1,19 @@
+Tooltip_RU = {
+
+	Tooltip_BookTitle_Fitness = "Фитнес"
+	Tooltip_BookTitle_Strength = "Сила"
+	Tooltip_BookTitle_Sprinting = "Бег"
+	Tooltip_BookTitle_Lightfooted = "Легкий шаг"
+	Tooltip_BookTitle_Nimble = "Проворность"
+	Tooltip_BookTitle_Sneaking = "Скрытность"
+	Tooltip_BookTitle_Axe = "Топоры"
+	Tooltip_BookTitle_LongBlunt = "Длин. дробящее"
+	Tooltip_BookTitle_SmallBlunt = "Коротк. дробящее"
+	Tooltip_BookTitle_LongBlade = "Длин. режущее"
+	Tooltip_BookTitle_SmallBlade = "Коротк. режущее"
+	Tooltip_BookTitle_Spear = "Копья"
+	Tooltip_BookTitle_Maintenance = "Прочность"
+	Tooltip_BookTitle_Aiming = "Точность"
+	Tooltip_BookTitle_Reloading = "Перезарядка"
+	
+}

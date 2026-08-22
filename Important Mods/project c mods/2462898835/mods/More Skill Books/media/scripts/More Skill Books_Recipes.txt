@@ -1,0 +1,591 @@
+module MoreSkillBooks
+{
+
+imports
+    {
+        Base
+    }
+
+/************************ITMES************************/
+recipe Box up Trapping Books
+	{
+	BookTrapping1,
+	BookTrapping2,
+	BookTrapping3,
+	BookTrapping4,
+	BookTrapping5,
+
+		Result:BookBoxTrapping,
+		Time:20,
+	
+	}
+	
+recipe Open Box of Trapping Books
+	{
+		BookBoxTrapping,
+
+		Result:BookTrapping1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenTrapping,
+	}
+recipe Box up Fishing Books
+	{
+	BookFishing1,
+	BookFishing2,
+	BookFishing3,
+	BookFishing4,
+	BookFishing5,
+
+		Result:BookBoxFishing,
+		Time:20,
+	
+	}
+	
+recipe Open Box of Fishing Books
+	{
+		BookBoxFishing,
+
+		Result:BookFishing1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenFishing,
+	}
+recipe Box up Carpentry Books
+	{
+	BookCarpentry1,
+	BookCarpentry2,
+	BookCarpentry3,
+	BookCarpentry4,
+	BookCarpentry5,
+
+		Result:BookBoxCarpentry,
+		Time:20,
+	
+	}
+	
+recipe Open Box of Carpentry Books
+	{
+		BookBoxCarpentry,
+
+		Result:BookCarpentry1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenCarpentry,
+	}
+recipe Box up Mechanic Books
+	{
+	BookMechanic1,
+	BookMechanic2,
+	BookMechanic3,
+	BookMechanic4,
+	BookMechanic5,
+
+		Result:BookBoxMechanic,
+		Time:20,
+	
+	}
+	
+recipe Open Box of Mechanic Books
+	{
+		BookBoxMechanic,
+
+		Result:BookMechanic1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenMechanic,
+	}
+recipe Box up FirstAid Books
+	{
+	BookFirstAid1,
+	BookFirstAid2,
+	BookFirstAid3,
+	BookFirstAid4,
+	BookFirstAid5,
+
+		Result:BookBoxFirstAid,
+		Time:20,
+	
+	}
+	
+recipe Open Box of FirstAid Books
+	{
+		BookBoxFirstAid,
+
+		Result:BookFirstAid1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenFirstAid,
+	}
+recipe Box up Blacksmith Books
+	{
+	BookBlacksmith1,
+	BookBlacksmith2,
+	BookBlacksmith3,
+	BookBlacksmith4,
+	BookBlacksmith5,
+
+		Result:BookBoxBlacksmith,
+		Time:20,
+	
+	}
+	
+recipe Open Box of Blacksmith Books
+	{
+		BookBoxBlacksmith,
+
+		Result:BookBlacksmith1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenBlacksmith,
+	}
+recipe Box up MetalWelding Books
+	{
+	BookMetalWelding1,
+	BookMetalWelding2,
+	BookMetalWelding3,
+	BookMetalWelding4,
+	BookMetalWelding5,
+
+		Result:BookBoxMetalWelding,
+		Time:20,
+	
+	}
+	
+recipe Open Box of MetalWelding Books
+	{
+		BookBoxMetalWelding,
+
+		Result:BookMetalWelding1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenMetalWelding,
+	}
+recipe Box up Electrician Books
+	{
+	BookElectrician1,
+	BookElectrician2,
+	BookElectrician3,
+	BookElectrician4,
+	BookElectrician5,
+
+		Result:BookBoxElectrician,
+		Time:20,
+	
+	}
+	
+recipe Open Box of Electrician Books
+	{
+		BookBoxElectrician,
+
+		Result:BookElectrician1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenElectrician,
+	}
+recipe Box up Cooking Books
+	{
+	BookCooking1,
+	BookCooking2,
+	BookCooking3,
+	BookCooking4,
+	BookCooking5,
+
+		Result:BookBoxCooking,
+		Time:20,
+	
+	}
+	
+recipe Open Box of Cooking Books
+	{
+		BookBoxCooking,
+
+		Result:BookCooking1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenCooking,
+	}
+recipe Box up Farming Books
+	{
+	BookFarming1,
+	BookFarming2,
+	BookFarming3,
+	BookFarming4,
+	BookFarming5,
+
+		Result:BookBoxFarming,
+		Time:20,
+	
+	}
+	
+recipe Open Box of Farming Books
+	{
+		BookBoxFarming,
+
+		Result:BookFarming1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenFarming,
+	}
+recipe Box up Foraging Books
+	{
+	BookForaging1,
+	BookForaging2,
+	BookForaging3,
+	BookForaging4,
+	BookForaging5,
+
+		Result:BookBoxForaging,
+		Time:20,
+	
+	}
+	
+recipe Open Box of Foraging Books
+	{
+		BookBoxForaging,
+
+		Result:BookForaging1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenForaging,
+	}
+recipe Box up Tailoring Books
+	{
+	BookTailoring1,
+	BookTailoring2,
+	BookTailoring3,
+	BookTailoring4,
+	BookTailoring5,
+
+		Result:BookBoxTailoring,
+		Time:20,
+	
+	}
+	
+recipe Open Box of Tailoring Books
+	{
+		BookBoxTailoring,
+
+		Result:BookTailoring1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenTailoring,
+	}
+recipe Box up Fitness Books
+	{
+	BookFitness1,
+	BookFitness2,
+	BookFitness3,
+	BookFitness4,
+	BookFitness5,
+
+		Result:BookBoxFitness,
+		Time:20,
+	
+	}
+	
+recipe Open Box of Fitness Books
+	{
+		BookBoxFitness,
+
+		Result:BookFitness1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenFitness,
+	}
+recipe Box up Strength Books
+	{
+	BookStrength1,
+	BookStrength2,
+	BookStrength3,
+	BookStrength4,
+	BookStrength5,
+
+		Result:BookBoxStrength,
+		Time:20,
+	
+	}
+	
+recipe Open Box of Strength Books
+	{
+		BookBoxStrength,
+
+		Result:BookStrength1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenStrength,
+	}
+recipe Box up Axe Books
+	{
+	BookAxe1,
+	BookAxe2,
+	BookAxe3,
+	BookAxe4,
+	BookAxe5,
+
+		Result:BookBoxAxe,
+		Time:20,
+	
+	}
+recipe Open Box of Axe Books
+	{
+		BookBoxAxe,
+
+		Result:BookAxe1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenAxe,
+	}
+recipe Box up LongBlunt Books
+	{
+	BookLongBlunt1,
+	BookLongBlunt2,
+	BookLongBlunt3,
+	BookLongBlunt4,
+	BookLongBlunt5,
+
+		Result:BookBoxLongBlunt,
+		Time:20,
+	
+	}	
+recipe Open Box of LongBlunt Books
+	{
+		BookBoxLongBlunt,
+
+		Result:BookLongBlunt1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenLongBlunt,
+	}
+recipe Box up ShorBlunt Books
+	{
+	BookShortBlunt1,
+	BookShortBlunt2,
+	BookShortBlunt3,
+	BookShortBlunt4,
+	BookShortBlunt5,
+
+		Result:BookBoxShortBlunt,
+		Time:20,
+	
+	}
+recipe Open Box of ShortBlunt Books
+	{
+		BookBoxShortBlunt,
+
+		Result:BookShortBlunt1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenShortBlunt,
+	}
+recipe Box up LongBlade Books
+	{
+	BookLongBlade1,
+	BookLongBlade2,
+	BookLongBlade3,
+	BookLongBlade4,
+	BookLongBlade5,
+
+		Result:BookBoxLongBlade,
+		Time:20,
+	
+	}
+recipe Open Box of LongBlade Books
+	{
+		BookBoxLongBlade,
+
+		Result:BookLongBlade1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenLongBlade,
+	}
+recipe Box up ShortBlade Books
+	{
+	BookShortBlade1,
+	BookShortBlade2,
+	BookShortBlade3,
+	BookShortBlade4,
+	BookShortBlade5,
+
+		Result:BookBoxShortBlade,
+		Time:20,
+	
+	}
+recipe Open Box of ShortBlade Books
+	{
+		BookBoxShortBlade,
+
+		Result:BookShortBlade1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenShortBlade,
+	}
+recipe Box up Spear Books
+	{
+	BookSpear1,
+	BookSpear2,
+	BookSpear3,
+	BookSpear4,
+	BookSpear5,
+
+		Result:BookBoxSpear,
+		Time:20,
+	
+	}	
+recipe Open Box of Spear Books
+	{
+		BookBoxSpear,
+
+		Result:BookSpear1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenSpear,
+	}
+recipe Box up Maintenance Books
+	{
+	BookMaintenance1,
+	BookMaintenance2,
+	BookMaintenance3,
+	BookMaintenance4,
+	BookMaintenance5,
+
+		Result:BookBoxMaintenance,
+		Time:20,
+	
+	}
+recipe Open Box of Maintenance Books
+	{
+		BookBoxMaintenance,
+
+		Result:BookMaintenance1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenMaintenance,
+	}
+recipe Box up Sprinting Books
+	{
+	BookSprinting1,
+	BookSprinting2,
+	BookSprinting3,
+	BookSprinting4,
+	BookSprinting5,
+
+		Result:BookBoxSprinting,
+		Time:20,
+	
+	}
+recipe Open Box of Sprinting Books
+	{
+		BookBoxSprinting,
+
+		Result:BookSprinting1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenSprinting,
+	}
+recipe Box up Lightfoot Books
+	{
+	BookLightfooted1,
+	BookLightfooted2,
+	BookLightfooted3,
+	BookLightfooted4,
+	BookLightfooted5,
+
+		Result:BookBoxLightfooted,
+		Time:20,
+	
+	}
+recipe Open Box of Lightfoot Books
+	{
+		BookBoxLightfooted,
+
+		Result:BookLightfooted1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenLightfooted,
+	}
+recipe Box up Nimble Books
+	{
+	BookNimble1,
+	BookNimble2,
+	BookNimble3,
+	BookNimble4,
+	BookNimble5,
+
+		Result:BookBoxNimble,
+		Time:20,
+	
+	}
+recipe Open Box of Nimble Books
+	{
+		BookBoxNimble,
+
+		Result:BookNimble1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenNimble,
+	}
+recipe Box up Sneaking Books
+	{
+	BookSneaking1,
+	BookSneaking2,
+	BookSneaking3,
+	BookSneaking4,
+	BookSneaking5,
+
+		Result:BookBoxSneaking,
+		Time:20,
+	
+	}
+recipe Open Box of Sneaking Books
+	{
+		BookBoxSneaking,
+
+		Result:BookSneaking1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenSneaking,
+	}
+recipe Box up Aiming Books
+	{
+	BookAiming1,
+	BookAiming2,
+	BookAiming3,
+	BookAiming4,
+	BookAiming5,
+
+		Result:BookBoxAiming,
+		Time:20,
+	
+	}
+recipe Open Box of Aiming Books
+	{
+		BookBoxAiming,
+
+		Result:BookAiming1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenAiming,
+	}
+recipe Box up Reloading Books
+	{
+	BookReloading1,
+	BookReloading2,
+	BookReloading3,
+	BookReloading4,
+	BookReloading5,
+
+		Result:BookBoxReloading,
+		Time:20,
+	
+	}
+recipe Open Box of Reloading Books
+	{
+		BookBoxReloading,
+
+		Result:BookReloading1,
+		Sound:PutItemInBag,
+		Time:5.0,
+	OnCreate 		: Box_OpenReloading,
+	}
+}

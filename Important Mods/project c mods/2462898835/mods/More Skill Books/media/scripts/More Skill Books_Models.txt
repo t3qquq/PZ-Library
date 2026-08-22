@@ -1,0 +1,166 @@
+module Base
+{
+
+model Book_Box_Trapping
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Trapping,
+	scale     = 0.1,
+		} 
+model Book_Box_Fishing
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Fishing,
+	scale     = 0.1,
+		} 
+model Book_Box_Carpentry
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Carpentry,
+	scale     = 0.1,
+		} 
+model Book_Box_Mechanic
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Mechanic,
+	scale     = 0.1,
+		} 
+model Book_Box_FirstAid
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_FirstAid,
+	scale     = 0.1,
+		} 
+model Book_Box_Blacksmith
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Blacksmith,
+	scale     = 0.1,
+		} 
+model Book_Box_MetalWelding
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_MetalWelding,
+	scale     = 0.1,
+		} 
+model Book_Box_Electrician
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Electrician,
+	scale     = 0.1,
+		} 
+model Book_Box_Cooking
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Cooking,
+	scale     = 0.1,
+		} 
+model Book_Box_Farming
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Farming,
+	scale     = 0.1,
+		} 
+model Book_Box_Foraging
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Foraging,
+	scale     = 0.1,
+		} 
+model Book_Box_Tailoring
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Tailoring,
+	scale     = 0.1,
+		} 
+model Book_Box_Fitness
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Fitness,
+	scale     = 0.1,
+		} 
+model Book_Box_Strength
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Strength,
+	scale     = 0.1,
+		} 
+model Book_Box_Axe
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Axe,
+	scale     = 0.1,
+		} 	
+model Book_Box_LongBlunt
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_LongBlunt,
+	scale     = 0.1,
+		} 
+model Book_Box_ShortBlunt
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_ShortBlunt,
+	scale     = 0.1,
+		} 
+model Book_Box_LongBlade
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_LongBlade,
+	scale     = 0.1,
+		} 
+model Book_Box_ShortBlade
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_ShortBlade,
+	scale     = 0.1,
+		} 
+model Book_Box_Spear
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Spear,
+	scale     = 0.1,
+		} 
+model Book_Box_Maintenance
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Maintenance,
+	scale     = 0.1,
+		} 
+model Book_Box_Sprinting
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Sprinting,
+	scale     = 0.1,
+		} 
+model Book_Box_Lightfooted
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Lightfooted,
+	scale     = 0.1,
+		} 
+model Book_Box_Nimble
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Nimble,
+	scale     = 0.1,
+		} 
+model Book_Box_Sneaking
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Sneaking,
+	scale     = 0.1,
+		} 	
+model Book_Box_Aiming
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Aiming,
+	scale     = 0.1,
+		} 
+model Book_Box_Reloading
+		{
+	mesh      = WorldItems/Book_Box,
+	texture   = WorldItems/Book_Box_Reloading,
+	scale     = 0.1,
+		} 			
+}
