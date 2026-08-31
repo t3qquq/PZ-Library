@@ -1,0 +1,7 @@
+name=Wolf Extraction Quest Sub Mod For ZG
+id=WolfExtractionQuestSubForZG
+description=In the ZG collection, which includes various mod maps, the Wolf Extraction Quest is now available. New repeater positions and extraction zones have been added. More challenging and exciting locations have been added, so explore the world while setting up repeaters. The number of zombies spawning during the extraction quest has been adjusted to increase exponentially based on the difficulty level.
+description= <LINE> <LINE> 
+description=다양한 모드맵이 포함된 ZG 모음집에서 Wolf Extraction Quest를 사용할 수 있도록 합니다. 다양한 중계기 위치와 탈출 위치가 새로 추가됐습니다. 더욱 어렵고 흥미진진한 장소들로 추가됐으니, 중계기를 설치하면서 세계를 탐험하세요. 탈출 미션 중에 스폰되는 좀비 수가 난이도에 따라 기하급수로 늘도록 변경됐습니다.
+poster=poster.png
+require=WolfExtractionQuest,RavenCreek,Otr,SZ_EVAC_Louisville,SZ_EVAC_Muldraugh,SZ_Battlefield_Louisville_Stadium,SZ_Battlefield_Louisville_Hospital,LCv2,Xonics Mega Mall,rbr,rbrA2,SimonMDLVInternationalAirport,SimonMDLVHarbor,SimonMDValuTechAmusementPark,WestPointExpansion,Elysium_Island,MonmouthCounty_new,NewTersh,BedfordFalls,RfMCtBF_addon,TheMallSouthMuldraughFIX,Petroville,Tandil,Pitstop,muldraughmilitarybase,TWDprison,Chinatown,Chinatown expansion,TheMuseumID,Militaryairport,Trelai_4x4_Steam,Fort Rock Ridge,CedarHill,Southwood2.0,OverlookHotel,Grapeseed,Greenleaf,SPH,CorOTRroad,Dirkerdam,DeltaCreekMunitions,Utopia
