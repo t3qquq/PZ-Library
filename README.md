@@ -8,7 +8,7 @@ Build 41과 Build 42를 각각 통째로 보관한다.
 | 빌드 | 디렉토리 | 버전 |
 |---|---|---|
 | B41 | `Vanilla/b41.78.20/` | 41.78.20 |
-| B42 | `Vanilla/b42.20.2/` | 42.20.2 |
+| B42 | `Vanilla/b42.21/` | 42.21 |
 
 ---
 
@@ -18,7 +18,7 @@ PZ 모딩에는 공식 API 레퍼런스가 없다. 위키는 낡았고, LLM이 �
 **다른 빌드의 API, 다른 모드의 헬퍼 함수, 아예 존재하지 않는 그럴듯한 메서드**가 섞여 있다.
 그럴듯한 이름을 지어내면 `attempt to call nil` 또는 조용한 오동작으로 끝난다.
 
-이 레포는 41.78.20 / 42.20.2 **실제 게임 파일에서 추출한 것**이므로 유일한 근거다.
+이 레포는 41.78.20 / 42.21 **실제 게임 파일에서 추출한 것**이므로 유일한 근거다.
 여기 없으면 없는 것이고, 여기 있는 대로만 동작한다.
 
 > **원칙: 대상 빌드의 바닐라에 없는 API는 쓰지 않는다.
@@ -65,7 +65,7 @@ PZ-Library/
 │   │       ├── clothing/                   # 의복 정의
 │   │       ├── luaexamples/, shaders/
 │   │       └── fileGuidTable.xml
-│   └── b42.20.2/
+│   └── b42.21/
 │       ├── engine/source/zombie/...
 │       └── media/
 │           ├── lua/{client,server,shared}/
@@ -79,17 +79,17 @@ PZ-Library/
 
 ### 규모 비교
 
-| | B41 (41.78.20) | B42 (42.20.2) |
+| | B41 (41.78.20) | B42 (42.21) |
 |---|---:|---:|
-| `engine/source` `.java` | 1,597 | 3,076 |
+| `engine/source/zombie` `.java` | 1,597 | 3,093 |
 | `media/lua` `.lua` | 888 | 1,395 |
-| └ client / server / shared | 692 / 130 / 66 | 728 / 294 / 373 |
+| └ client / server / shared | 692 / 130 / 66 | 727 / 294 / 374 |
 | `media/AnimSets` `.xml` | 1,652 | 2,949 |
-| `media/actiongroups` `.xml` | 177 | 3,203 |
+| `media/actiongroups` `.xml` | 177 | 3,202 |
 | `media/scripts` 파일 | 153 | 1,004 |
-| Lua 노출 클래스 (`setExposed`) | 562 | 1,001 |
-| Lua 전역 함수 (`@LuaMethod global`) | 537 | 753 |
-| 이벤트 선언 (`AddEvent`) | 224 | 262 |
+| Lua 노출 클래스 (`setExposed`) | 562 | 1,005 |
+| Lua 전역 함수 (`@LuaMethod global`) | 537 | 759 |
+| 이벤트 선언 (`AddEvent`) | 224 | 264 |
 
 B42의 `server/`, `shared/` Lua가 크게 늘어난 점에 주목할 것 —
 서버 권위 로직이 B41보다 훨씬 많이 Lua로 내려와 있다.
@@ -98,20 +98,20 @@ B42의 `server/`, `shared/` Lua가 크게 늘어난 점에 주목할 것 —
 
 ## 받는 법
 
-전체 클론은 **약 390MB**다(`Important Mods` 169MB, 바닐라 `Translate` 131MB 포함).
+전체 클론은 **약 390MB**다(`Important Mods` 169MB, 바닐라 `Translate` 132MB 포함).
 대부분의 작업에는 필요 없으므로 **sparse checkout으로 필요한 것만 받는 것을 권장**한다.
 
 ### 용량 (디렉토리별)
 
 | 디렉토리 | B41 | B42 |
 |---|---:|---:|
-| `engine/` | 16.6 MB | 28.1 MB |
-| `media/lua/` (Translate 포함) | 36.6 MB | 120.9 MB |
-| └ 그중 `shared/Translate/` | 25.6 MB | 105.2 MB |
+| `engine/` | 16.6 MB | 28.6 MB |
+| `media/lua/` (Translate 포함) | 36.6 MB | 122.9 MB |
+| └ 그중 `shared/Translate/` | 25.6 MB | 106.8 MB |
 | `media/AnimSets/` | 1.1 MB | 2.2 MB |
 | `media/actiongroups/` | 0.1 MB | 0.6 MB |
 | `media/scripts/` | 1.7 MB | 6.7 MB |
-| **API 검증용 합계** (Translate 제외) | **약 31 MB** | **약 53 MB** |
+| **API 검증용 합계** (Translate 제외) | **약 31 MB** | **약 54 MB** |
 
 바닐라 `Translate/`는 한글화 대조가 필요할 때 말고는 쓸 일이 없는데 용량의 대부분을 차지한다.
 기본적으로 제외할 것.
@@ -136,12 +136,12 @@ git sparse-checkout set --no-cone \
 
 ```bash
 git sparse-checkout set --no-cone \
-  "/Vanilla/b42.20.2/engine/" \
-  "/Vanilla/b42.20.2/media/lua/" \
-  "/Vanilla/b42.20.2/media/AnimSets/" \
-  "/Vanilla/b42.20.2/media/actiongroups/" \
-  "/Vanilla/b42.20.2/media/scripts/" \
-  "!/Vanilla/b42.20.2/media/lua/shared/Translate/"
+  "/Vanilla/b42.21/engine/" \
+  "/Vanilla/b42.21/media/lua/" \
+  "/Vanilla/b42.21/media/AnimSets/" \
+  "/Vanilla/b42.21/media/actiongroups/" \
+  "/Vanilla/b42.21/media/scripts/" \
+  "!/Vanilla/b42.21/media/lua/shared/Translate/"
 ```
 
 `--no-cone`을 쓰는 이유는 `!` 부정 패턴(Translate 제외)이 cone 모드에서 동작하지 않기 때문이다.
@@ -173,8 +173,8 @@ grep -n 'name = "getSpecificPlayer"' \
 
 # B42
 grep -n 'name = "getSpecificPlayer"' \
-  Vanilla/b42.20.2/engine/source/zombie/Lua/LuaManager.java
-# -> 3788:        @LuaMethod(name = "getSpecificPlayer", global = true)
+  Vanilla/b42.21/engine/source/zombie/Lua/LuaManager.java
+# -> 3795:        @LuaMethod(name = "getSpecificPlayer", global = true)
 ```
 
 > **주의 — 어노테이션 표기가 빌드마다 다르다.**
@@ -192,10 +192,10 @@ Lua에서 그 객체의 메서드를 호출할 수 없다.
 grep -n "setExposed(IsoZombie.class)" \
   Vanilla/b41.78.20/engine/source/zombie/Lua/LuaManager.java   # -> 1236
 grep -n "setExposed(IsoZombie.class)" \
-  Vanilla/b42.20.2/engine/source/zombie/Lua/LuaManager.java    # -> 1830
+  Vanilla/b42.21/engine/source/zombie/Lua/LuaManager.java      # -> 1833
 ```
 
-**B41 562개 → B42 1001개.** B41에서 "미등록"이던 클래스가 B42에서는 노출돼 있을 수 있고,
+**B41 562개 → B42 1005개.** B41에서 "미등록"이던 클래스가 B42에서는 노출돼 있을 수 있고,
 그 반대도 가능하다. 빌드를 바꾸면 반드시 재확인한다.
 
 ### 가장 강한 증거는 바닐라 실사용 빈도
@@ -228,7 +228,7 @@ Lua에서 호출하면 변환에 실패한다.** (`KahluaConverterManager`가 `s
 > **2026-08 업데이트: 이제 재검증됐다.** `se/krka/kahlua/`(양쪽 빌드)와 `stdlib.lua`/`stdlib.lbc`가
 > 레포에 있다 — 정확한 경로와 줄 번호는 뒤쪽 "Kahlua 소스" 섹션 참고. 이 항목은 과거 추정이 아니라
 > `Vanilla/b41.78.20/engine/source/se/krka/kahlua/converter/KahluaConverterManager.java:178`,
-> `Vanilla/b42.20.2/.../KahluaConverterManager.java:180`에서 직접 확인한 것이다(코드 동일).
+> `Vanilla/b42.21/.../KahluaConverterManager.java:180`에서 직접 확인한 것이다(코드 동일).
 
 **교훈: 시그니처만 보지 말고 파라미터 타입도 볼 것.** `short`가 보이면 대안을 찾는다.
 
@@ -248,7 +248,7 @@ B41에서 `OnZombieDead`는 `IsoGameCharacter.java:5226`, `:5743`, `IsoZombie.ja
 발화한다. **`IsoZombie`는 클라이언트 권위 객체이므로, 멀티플레이 서버에서는 이 이벤트가 오지 않는다.**
 서버 로직을 이 이벤트에 걸면 조용히 죽는다.
 
-이벤트 목록 자체가 빌드마다 다르다(B41 224건 → B42 262건). 새 이벤트가 생겼을 수도,
+이벤트 목록 자체가 빌드마다 다르다(B41 224건 → B42 264건). 새 이벤트가 생겼을 수도,
 발화 지점이 옮겨졌을 수도 있으므로 빌드별로 각각 확인한다.
 
 ### 네트워크 동기화 확인 (멀티플레이)
@@ -339,9 +339,11 @@ sounds_*.txt, clothing/, vehicles/, weapons/
 | `evolvedrecipe` | 38 |
 | `multistagebuild` | 20 |
 
-### B42 (`Vanilla/b42.20.2/media/scripts/`)
+### B42 (`Vanilla/b42.21/media/scripts/`)
 
 카테고리별로 재편됐다. 1,004개 파일.
+
+> 아래 블록 키워드 빈도는 42.20.2에서 측정한 값이다. 42.21에서는 다시 세지 않았다(파일 수는 1,004개로 동일).
 
 ```
 generated/     items/, weapons/, vehicles/, recipes/, sounds/, characters/,
@@ -388,7 +390,7 @@ xui/
 | | B41 | B42 |
 |---|---|---|
 | 애니메이션 클립 | `media/AnimSets/` (1,652 XML) | `media/AnimSets/` (2,949 XML) |
-| 상태 전이 | `media/actiongroups/` (177 XML) | `media/actiongroups/` (3,203 XML) |
+| 상태 전이 | `media/actiongroups/` (177 XML) | `media/actiongroups/` (3,202 XML) |
 | 전이 파일 구성 | `transitions.xml` **한 파일에 여러 전이**<br>(+ `movementTransitions.xml`, `otherTransitions.xml`, `timedActionsTransitions.xml`, `childTags.xml`, `tags.xml`) | `to_<대상상태>.xml` **전이 하나당 파일 하나** |
 | 캐릭터 타입 | 6종<br>`player`, `player-avatar`, `player-editor`, `player-vehicle`, `zombie`, `zombie-crawler` | 28종<br>위 + `animal-editor` + 동물 21종 (`cow`, `pig`, `rabbit`, `raccoon`, `rat`, `turkey`, `ewe`, `ram`, `doe`, `buck`, `hen` 등) |
 | `player` 상태 수 | 41 | 92 |
@@ -466,23 +468,23 @@ Kahlua 소스는 이미 레포에 추가돼 있다(아래 "Kahlua 소스" 섹션
 | Java 코드 형태 | **jar로 묶여 있지 않다.** 설치 루트에 `zombie/`, `se/`, `com/`, `de/`, `org/`, `javax/`, `fmod/`, `astar/`, `N3D/`가 압축 안 풀린 `.class` 파일로 그대로 나열돼 있다 | `projectzomboid.jar` 하나(약 64MB)에 전부 묶여 있다. 설치 루트엔 `jre64/`, `launcher/`, `license/`, `media/`, `mods/`, `Workshop/`만 있다 |
 | `se/krka/kahlua/` 얻는 법 | 설치 루트에서 바로 디컴파일. **압축 해제 단계 자체가 없다** | jar를 압축 해제한 뒤 그 안에서 디컴파일 |
 | `zombie/` 패키지 | 마찬가지로 설치 루트에 압축 안 풀린 채로 있다 (현재 레포의 B41 덤프가 여기서 나온 것으로 보임 — `se/`, `com/` 등 바로 옆에 있는 패키지는 그냥 안 가져간 것) | jar 안에 있다 |
-| `ZombieBuddy.jar` | 없음 | 설치 루트에 있음 — 바닐라 아닌 서드파티 도구로 보임, 무관 |
+| `ZombieBuddy.jar` | 없음 | 서드파티 도구를 깔았을 때만 설치 루트에 생긴다 — 바닐라 아님, 무관 |
 
 즉 **B41은 Kahlua 소스를 얻는 데 추가 작업이 거의 없다.** `zombie/`를 디컴파일할 때 쓴 것과 같은 도구로 `se/krka/kahlua/`를 대상만 바꿔서 돌리면 끝이다. B42는 jar 압축 해제가 한 단계 더 필요하다.
 
-두 빌드 모두 설치 루트(버전 폴더 구분 없이 같은 파일명)에 `stdlib.lua`, `stdlib.lbc`, `serialize.lua`가 있다. `stdlib.lua`는 컴파일이나 디컴파일 없이 바로 텍스트로 열리므로, 표준 Lua 함수 구현 여부만 급히 확인할 땐 이쪽이 제일 빠르다.
+두 빌드 모두 설치 루트(버전 폴더 구분 없이 같은 파일명)에 `stdlib.lua`, `stdlib.lbc`가 있다. `serialize.lua`는 B41과 42.20.2 설치 루트에는 있었지만 **42.21 설치 루트에는 없다.** `stdlib.lua`는 컴파일이나 디컴파일 없이 바로 텍스트로 열리므로, 표준 Lua 함수 구현 여부만 급히 확인할 땐 이쪽이 제일 빠르다.
 
 ---
 
 ## Kahlua 소스 (2026-08 추가)
 
-위 내용을 실제로 실행해서 `engine/source/se/krka/kahlua/`(양쪽 빌드)와 `stdlib.lua`/`stdlib.lbc`/`serialize.lua`(양쪽 빌드)를 레포에 추가했다. CFR 0.152로 디컴파일.
+위 내용을 실제로 실행해서 `engine/source/se/krka/kahlua/`(양쪽 빌드)와 `stdlib.lua`/`stdlib.lbc`(양쪽 빌드), `serialize.lua`(B41만)를 레포에 추가했다. CFR 0.152로 디컴파일. B42 쪽은 2026-10에 42.21 jar에서 같은 방법으로 다시 뽑았다.
 
 ```
 Vanilla/b41.78.20/engine/source/se/krka/kahlua/...   (.java 79개)
-Vanilla/b42.20.2/engine/source/se/krka/kahlua/...    (.java 70개)
+Vanilla/b42.21/engine/source/se/krka/kahlua/...    (.java 70개)
 Vanilla/b41.78.20/stdlib.lua, stdlib.lbc, serialize.lua
-Vanilla/b42.20.2/stdlib.lua, stdlib.lbc, serialize.lua
+Vanilla/b42.21/stdlib.lua, stdlib.lbc                (serialize.lua는 42.21 설치본에 없음)
 ```
 
 > **참고**: B41 `se/krka/kahlua/`엔 `.java`뿐 아니라 원본 `.class`도 같이 커밋돼 있다(B42나 기존 `zombie/` 폴더는 `.java`만). 의도적으로 남긴 게 아니라면 정리 대상.
@@ -501,7 +503,7 @@ Vanilla/b42.20.2/stdlib.lua, stdlib.lbc, serialize.lua
 
 ```java
 // Vanilla/b41.78.20/engine/source/se/krka/kahlua/converter/KahluaConverterManager.java:178
-// Vanilla/b42.20.2/engine/source/se/krka/kahlua/converter/KahluaConverterManager.java:180
+// Vanilla/b42.21/engine/source/se/krka/kahlua/converter/KahluaConverterManager.java:180
 PRIMITIVE_CLASS.put(Boolean.TYPE, Boolean.class);
 PRIMITIVE_CLASS.put(Byte.TYPE, Byte.class);
 PRIMITIVE_CLASS.put(Character.TYPE, Character.class);
@@ -547,13 +549,41 @@ coroutine.wrap
 빌드를 옮겨 붙일 때 실제로 물리는 것들:
 
 1. **클래스 패키지 이동** — `ZombiePacket`, `DeadZombiePacket` 등이 B42에서 `packets/character/`로 내려갔다. 경로 하드코딩 금지, 항상 `find`로 찾을 것
-2. **노출/전역 등록 목록 변경** — 노출 562→1001, 전역 537→753. "B41에서 안 되던 것"이 B42에서 될 수 있다
+2. **노출/전역 등록 목록 변경** — 노출 562→1005, 전역 537→759. "B41에서 안 되던 것"이 B42에서 될 수 있다
 3. **스크립트 포맷 전면 개편** — `recipe` → `craftRecipe`, `entity`/`component`/`attachment` 시스템 신설, 아이템 타입 체계 변경
 4. **애니메이션 전이 파일 구조 변경** — B41은 `transitions.xml` 한 파일에 여러 전이, B42는 `to_<상태>.xml` 전이당 한 파일. 동물 21종 추가로 상태 수도 2~4배(`player` 41→92, `zombie` 30→125)
-5. **Lua 코드 무게중심 이동** — B42는 `server/`(130→294), `shared/`(66→373)가 대폭 증가
+5. **Lua 코드 무게중심 이동** — B42는 `server/`(130→294), `shared/`(66→374)가 대폭 증가
 6. **디컴파일러 출력 포맷 차이** — 어노테이션 줄바꿈이 다르므로 검색 정규식을 그대로 재사용하면 안 된다
 7. **Kahlua 컨버터 정리** — B41의 `se.krka.kahlua.converter.KahluaEnumConverter`/`KahluaNumberConverter`/`KahluaTableConverter`가 B42엔 없다(PZ 자체 구현으로 대체 추정). B42가 `table.ipairs`(TableLib)를 새로 등록하면서 `stdlib.lua`의 전역 `ipairs` 구현도 그걸 위임하는 방식으로 바뀌었다
 8. **미검증** — B41의 좀비 클라이언트 권위 모델이 B42에서도 그대로인지는 확인하지 않았다. B42 MP 로직을 짤 거면 `IsoZombie` / `NetworkZombieAI`를 직접 읽고 판단할 것
+
+---
+
+## B42 버전 갱신 기록
+
+### 42.20.2 → 42.21 (2026-10)
+
+`GitVersion.REVISION` `ffe7a8a4b1` → `4a0e9546ec`. 두 버전의 `LuaManager.java` / `LuaEventManager.java`를 직접 diff한 결과다.
+
+| 구분 | 추가된 것 | 삭제 |
+|---|---|---|
+| Lua 노출 클래스 (1,001 → 1,005) | `GridSquareEdge`, `GridSquareEdgeFacingDirection`, `KeybindId`, `TradingState` | 없음 |
+| Lua 전역 함수 (753 → 759) | `getMaxUsernameLength`, `getMinUsernameLength`, `isKeyDown`, `isKeyPressed`, `wasKeyDown`, `sendAddObjectToMap` | 없음 |
+| 이벤트 선언 (262 → 264) | `LogLevelPerk`, `OnTileObjectAdded` | 없음 |
+
+- `zombie/` `.java` 3,076 → 3,093, `media/lua` `.lua`는 1,395개로 동일(client 728→727, shared 373→374)
+- Kahlua는 파일 70개 구성이 그대로다. `stdlib/StringLib.java`와 `j2se/J2SEPlatform.java` 두 개만 파일 크기가 달라졌다(내용 diff는 하지 않음). `stdlib.lua`는 바이트 단위로 동일
+- `serialize.lua`가 설치 루트에서 사라졌다
+
+### 갱신 절차
+
+디컴파일러(Zomboid Decompiler)는 `zombie/`만 뽑는다. **`se/krka/kahlua/`는 따로 뽑아야 하고, `engine/source/`를 통째로 덮어쓰면 같이 지워진다.**
+
+1. 디컴파일러 출력의 `zombie/` → `engine/source/zombie/`
+2. `projectzomboid.jar`에서 `se/`만 꺼내 CFR 0.152로 디컴파일 → `engine/source/se/`
+3. 설치본 `media/`에서 `actiongroups`, `animscript`, `AnimSets`, `animstates`, `clothing`, `lua`, `luaexamples`, `scripts`, `shaders`, `fileGuidTable.xml`
+4. 설치 루트의 `stdlib.lua`, `stdlib.lbc`
+5. 이 README의 규모·용량 표, 줄 번호 예시(`getSpecificPlayer`, `setExposed(IsoZombie.class)`)를 다시 잰다
 
 ---
 
