@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>climbLadderStartBottom</m_Name>
+	<m_AnimName>Bob_Ladder_GetOnBottom</m_AnimName>
+	<m_DeferredBoneName></m_DeferredBoneName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_Conditions x_name="0c4dd4c5-714c-445c-98e5-bd8441150db7">
+		<m_Name>climbLadderLoop</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Events x_name="31578608-9f07-4eaa-9dd0-4db40a81ca4f">
+		<m_EventName>SetVariable</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>climbLadderLoop=true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="0057f4f1-ce58-40c8-bfe7-45783cb1596d">
+		<m_EventName>PlayLadderFootstep</m_EventName>
+		<m_TimePc>0.33</m_TimePc>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="f80053f9-a6ca-4e7d-bed1-0cf61b39615c">
+		<m_EventName>PlayLadderFootstep</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+</animNode>

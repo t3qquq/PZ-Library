@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>start</m_Name>
+	<m_AnimName>Bob_Crowbar_Window_In</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Events x_name="2f7b821f-c4b7-45b2-a6c8-4d544cd91308">
+		<m_EventName>ForceOpenWindowAnimLooped</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>start</m_ParameterValue>
+	</m_Events>
+</animNode>

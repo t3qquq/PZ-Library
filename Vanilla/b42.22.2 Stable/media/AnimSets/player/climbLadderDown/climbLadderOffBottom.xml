@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>climbLadderOffBottom</m_Name>
+	<m_AnimName>Bob_Ladder_GetOffBottom</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_Conditions x_name="48bbd29b-d2a5-4cd8-82e9-27a864d94b87">
+		<m_Name>climbLadderLoop</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="3c3457ea-3e9c-4b63-abad-67865da59b6d">
+		<m_Name>climbLadderEnd</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="ba825d05-5ef6-4b14-83e5-2c0359a4e3ea">
+		<m_EventName>EventClimbLadderStop</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="bf1cfd7a-b059-41c7-8195-d419846c08b0">
+		<m_EventName>Footstep</m_EventName>
+		<m_TimePc>0.33</m_TimePc>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="0d326228-c10d-4123-961c-db12142647f9">
+		<m_EventName>Footstep</m_EventName>
+		<m_TimePc>0.93</m_TimePc>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+</animNode>

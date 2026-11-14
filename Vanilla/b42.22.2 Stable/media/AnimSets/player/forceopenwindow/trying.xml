@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>trying</m_Name>
+	<m_AnimName>Bob_Crowbar_Window_Loop</m_AnimName>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_StopAnimOnExit>true</m_StopAnimOnExit>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="402bb7ef-d5d4-4655-87c9-9fe5e492bccc">
+		<m_Name>ForceOpenWindowOutcome</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>struggle</m_Value>
+	</m_Conditions>
+	<m_Events x_name="58f5704e-82a9-4ae1-8275-0f3e49f8d8d3">
+		<m_EventName>ForceOpenAttempt</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="b34d660b-c4a9-4fad-8b8f-2cf090b63610">
+		<m_EventName>ForceOpenWindowAnimLooped</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>struggle</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="d79db4a8-4034-4abb-b9a3-925c3719739e">
+		<m_EventName>ForceOpenWindowStruggleSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+</animNode>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>climbLadderIdle</m_Name>
+	<m_AnimName>Bob_Ladder_Idle</m_AnimName>
+	<m_DeferredBoneName></m_DeferredBoneName>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_Conditions x_name="18829efd-5f0f-4075-9bf3-cc9c98f00b6d">
+		<m_Name>climbLadderLoop</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="7c8b7dbc-cbaf-4f66-ba65-c1f010224676">
+		<m_Name>ladderDirection</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Idle</m_Value>
+	</m_Conditions>
+</animNode>

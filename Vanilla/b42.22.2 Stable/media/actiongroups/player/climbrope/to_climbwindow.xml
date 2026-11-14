@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition>
+	<transitionTo>climbwindow</transitionTo>
+	<conditions>
+		<isFalse>bDead</isFalse>
+		<eventOccurred>EventClimbWindow</eventOccurred>
+	</conditions>
+</transition>

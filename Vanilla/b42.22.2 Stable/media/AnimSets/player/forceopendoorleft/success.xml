@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>success</m_Name>
+	<m_AnimName>Bob_Crowbar_DoorLeft_Success</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="39374675-d65b-49f6-b35f-1bcccc5349bd">
+		<m_Name>ForceOpenDoorLeftOutcome</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>success</m_Value>
+	</m_Conditions>
+	<m_Events x_name="cec0f4af-faa9-4c62-85cf-3d681c4ae2e5">
+		<m_EventName>ForceOpenDoorLeftSuccess</m_EventName>
+		<m_TimePc>0.45</m_TimePc>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="1f6a0ca9-08fc-41ab-a026-3e9e406f0bd9">
+		<m_EventName>ForceOpenDoorLeftAnimLooped</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>success</m_ParameterValue>
+	</m_Events>
+</animNode>

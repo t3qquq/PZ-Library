@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>success</m_Name>
+	<m_AnimName>Bob_Crowbar_Garage_Success</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="62a7a03f-9530-4418-8fc6-ff9e134d48bf">
+		<m_Name>ForceOpenGarageDoorOutcome</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>success</m_Value>
+	</m_Conditions>
+	<m_Events x_name="8cf6bf18-61b4-45ff-a99d-43cc3a374e6c">
+		<m_EventName>ForceOpenGarageDoorSuccess</m_EventName>
+		<m_TimePc>0.45</m_TimePc>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="99212db5-8acb-4ff3-ab04-13d951176b9b">
+		<m_EventName>ForceOpenGarageDoorAnimLooped</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>success</m_ParameterValue>
+	</m_Events>
+</animNode>

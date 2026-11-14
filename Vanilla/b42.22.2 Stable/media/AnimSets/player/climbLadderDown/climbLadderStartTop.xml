@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>climbLadderStartTop</m_Name>
+	<m_AnimName>Bob_Ladder_GetOnTop</m_AnimName>
+	<m_DeferredBoneName>Bip01</m_DeferredBoneName>
+	<m_deferredBoneAxis>Z</m_deferredBoneAxis>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_Conditions x_name="3a0b5d1e-fcca-41da-b555-c2591b7dd7c4">
+		<m_Name>climbLadderLoop</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Events x_name="c7ac6873-5b19-4241-b717-38e9f1ed26d6">
+		<m_EventName>SetVariable</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>climbLadderLoop=true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="ed1cddd2-8a14-4525-bdd7-88a24368fd37">
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.15</m_TimePc>
+		<m_ParameterValue>ladderMoveDown=true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="efb31c55-144b-458b-bcca-1d525b094780">
+		<m_EventName>PlayLadderFootstep</m_EventName>
+		<m_TimePc>0.54</m_TimePc>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="1644a8ee-b4ce-445e-9823-0426d8396e8a">
+		<m_EventName>PlayLadderFootstep</m_EventName>
+		<m_TimePc>0.71</m_TimePc>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="6154d285-c9fc-4586-80a9-2d5fee09c0c0">
+		<m_EventName>PlayLadderFootstep</m_EventName>
+		<m_TimePc>0.85</m_TimePc>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="be4869c1-02d2-49c1-9480-d1a0537602c1">
+		<m_EventName>PlayLadderFootstep</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+</animNode>

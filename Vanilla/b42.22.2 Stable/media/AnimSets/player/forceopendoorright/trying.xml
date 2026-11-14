@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>trying</m_Name>
+	<m_AnimName>Bob_Crowbar_DoorRight_Loop</m_AnimName>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_StopAnimOnExit>true</m_StopAnimOnExit>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="330487f2-a016-4de0-b009-85f49660f6be">
+		<m_Name>ForceOpenDoorRightOutcome</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>struggle</m_Value>
+	</m_Conditions>
+	<m_Events x_name="d902cc75-3961-4d2c-a9d9-36e551d6cdd9">
+		<m_EventName>ForceOpenAttempt</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="f8b25081-f7a3-49f5-b1d7-d22e7e1ce905">
+		<m_EventName>ForceOpenDoorRightAnimLooped</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>struggle</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="cae6ef58-2d12-4967-b165-0b8b2aa3b60d">
+		<m_EventName>ForceOpenDoorRightStruggleSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+</animNode>

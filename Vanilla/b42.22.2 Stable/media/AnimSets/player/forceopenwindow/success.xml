@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>success</m_Name>
+	<m_AnimName>Bob_Crowbar_Window_Success</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="46a8ed41-46e2-4d0e-a329-0aac913d8974">
+		<m_Name>ForceOpenWindowOutcome</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>success</m_Value>
+	</m_Conditions>
+	<m_Events x_name="aed15524-223e-42f4-98e0-5bdab5c48c4a">
+		<m_EventName>ForceOpenWindowSuccess</m_EventName>
+		<m_TimePc>0.45</m_TimePc>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="c12038d8-a20a-4ea9-8b4d-2c0170010e63">
+		<m_EventName>ForceOpenWindowAnimLooped</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>success</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="4ab77d26-e1a6-4c91-90ef-021cd7cfb4ed">
+		<m_EventName>PlaySound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>OpenWindow</m_ParameterValue>
+	</m_Events>
+</animNode>
